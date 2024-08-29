@@ -7,10 +7,7 @@ order: 4
 # Hoonchan Yoon
 Developer, Dentist
 
-<div id="webaddress">
-<a href="mailto:hoonchany99@gmail.com">hoonchany99@gmail.com</a>
-| <a href="http://hoonchany99.github.io">My Website</a>
-</div>
+
 
 
 ## Currently

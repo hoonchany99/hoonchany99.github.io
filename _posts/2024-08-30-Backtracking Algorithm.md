@@ -7,7 +7,7 @@ categories: [Algorithm]
 tags: [Algorithm,Backtracking]
 ---
 
-# Backtracking Algorithm
+# 백트래킹 알고리즘이란 도대체 뭘까?
 
 백트래킹 알고리즘은 간단히 설명하자면 모든 경우의 수를 다 대입해보는 알고리즘입니다. 특히 트리 형식으로 대입해볼때 사용됩니다. 브루트포스 알고리즘(Brute-Force)과도 관련이 있죠. 특히 DFS나 BFS와 밀접한 관련이 있습니다. 백트래킹 알고리즘이 사용되는 대표적인 예시는 **스도쿠(SUDOKU)**문제입니다. 
 

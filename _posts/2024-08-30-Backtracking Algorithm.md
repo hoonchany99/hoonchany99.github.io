@@ -2,12 +2,8 @@
 title: Backtracking Algorithm
 description: Examples of Backtracking Algorithm and its explanation
 author: Hoonchan Yoon
-categories: [Blogging, Demo]
+categories: [Algorithm]
 tags: [Algorithm,Backtracking]
-image:
-  path: 
-  lqip: 
-  alt: 
 ---
 
 # Backtracking Algorithm

@@ -4,6 +4,9 @@ description: Examples of Backtracking Algorithm and its explanation
 date: 2024-08-30 00:31:00 +0900
 categories: [Algorithm]
 tags: [Algorithm,Backtracking]
+image:
+  path: /assets/img/sudoku.png
+  alt: Algorithm to solve SUDOKU problem
 ---
 
 ## 백트래킹 알고리즘이란 도대체 뭘까?

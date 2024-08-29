@@ -7,10 +7,7 @@ order: 4
 # Hoonchan Yoon
 Developer, Dentist
 
-
-|
 [My Website](http://hoonchany99.github.io)
-
 
 ## Currently
 

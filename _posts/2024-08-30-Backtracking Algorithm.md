@@ -1,7 +1,6 @@
 ---
 title: Backtracking Algorithm
 description: Examples of Backtracking Algorithm and its explanation
-author: Hoonchan Yoon
 date: 2024-08-30 00:31:00 +0900
 categories: [Algorithm]
 tags: [Algorithm,Backtracking]

@@ -61,6 +61,10 @@ Nasakanasaka Writing Contest, KAIST
 [Samsung Computer Programming Contest(SCPC)](https://research.samsung.com/scpc)
 - **Finalist**
 
+`2017`
+[Samsung Computer Programming Contest(SCPC)](https://research.samsung.com/scpc)
+- **Finalist**
+
 ### Certificates
 
 `2024`

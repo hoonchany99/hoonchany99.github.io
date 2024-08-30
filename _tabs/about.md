@@ -34,9 +34,9 @@ Generative AI, Computer Vision, [Flutter](https://flutter.dev) development, Comp
 
 ## Education
 
-`2015-2017`
-[**Sejong Science High School, Seoul**](https://sjsh.sen.hs.kr)
-- **Early Graduation**(4 semesters)
+`2020-2024`
+[**Seoul National University, Seoul**](https://dentistry.snu.ac.kr)
+- **D.D.S.**(Doctor of Dental Surgery)
 
 `2017-2020`
 [**Korea Advanced Institute of Technology(KAIST), Daejeon**](https://ee.kaist.ac.kr)
@@ -44,9 +44,11 @@ Generative AI, Computer Vision, [Flutter](https://flutter.dev) development, Comp
 - **Cum Laude**
 - **Early Graduation**(6 Semesters)
 
-`2020-2024`
-[**Seoul National University, Seoul**](https://dentistry.snu.ac.kr)
-- **D.D.S.**(Doctor of Dental Surgery)
+`2015-2017`
+[**Sejong Science High School, Seoul**](https://sjsh.sen.hs.kr)
+- **Early Graduation**(4 semesters)
+
+
 
 
 

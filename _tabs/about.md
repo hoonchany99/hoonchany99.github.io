@@ -39,7 +39,7 @@ Generative AI, Computer Vision, [Flutter](https://flutter.dev) development, Comp
 - **D.D.S.**(Doctor of Dental Surgery)
 
 `2017-2020`
-[**Korea Advanced Institute of Technology(KAIST), Daejeon**](https://ee.kaist.ac.kr)
+[**Korea Advanced Institute of Science and Technology(KAIST), Daejeon**](https://ee.kaist.ac.kr)
 - **B.S.** in **Electrical Engineering**
 - **Cum Laude**
 - **Early Graduation**(6 Semesters)

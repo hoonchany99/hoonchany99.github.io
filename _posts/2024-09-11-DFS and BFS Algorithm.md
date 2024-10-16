@@ -1,12 +1,12 @@
 ---
-title: Binary Search Algorithm
-description: Examples of Binary Search Algorithm and its explanation
+title: DFS and BFS Algorithm
+description: Examples of DFS and BFS Algorithm and its explanation
 date: 2024-09-05 00:31:00 +0900
 categories: [Algorithm]
-tags: [Algorithm,Binary Search,Parametric Search]
+tags: [Algorithm,BFS,DFS,Stack,Queue]
 image:
-  path: /assets/img/binarysearch.jpg
-  alt: Binary Search Algorithm
+  path: /assets/img/bfs-vs-dfs.png
+  alt: DFS and BFS Algorithm
 ---
 
 ## What makes Binary Search?

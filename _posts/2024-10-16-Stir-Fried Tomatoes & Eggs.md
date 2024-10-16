@@ -9,36 +9,36 @@ image:
   alt: Fried Tomatoes & Eggs
 ---
 
-## 재료
+## Ingredients
 
-### 주재료
-- 4~5 토마토
-- 4~5 달걀(토마토와 달걀의 비율은 1:1)
-- 대파
+### Main Ingredients
+- 4-5 tomatoes
+- 4-5 eggs (the ratio of tomatoes to eggs is 1:1)
+- Green onion
 
-### 양념
-- 굴소스
-- 간장
-- 소금(맛소금)
+### Seasoning
+- Oyster sauce
+- Soy sauce
+- Salt (or Flavored Salt)
 
-## 과정
+## Instructions
 
-### 재료 손질
+### Prepare the Ingredients
 
-1. 토마토 - 먹기 좋은 크기로 잘라준다.
-2. 달걀 - Bowl에 달걀을 깐 후 풀어주고, 소금을 1t 넣는다. 
-3. 대파 - 파기름을 낼 수 있도록 잘게 잘라준다. 
+1. Tomatoes - Cut into bite-sized pieces.
+2. Eggs - Crack the eggs into a bowl, beat them, and add 1 teaspoon of salt.
+3. Green onion - Chop finely to release its oil.
 
-### 요리
+### Cooking
 
-1. 식용유를 넣고 팬을 충분히 달군 후 달걀을 넣는다. 
-2. 스크램블을 만들고 접시에 담아준다. 
-3. 팬을 불에서 떨어뜨린 상태에서 식용유를 넣고 대파를 넣는다. 
-4. 대파로 파기름을 낸 후 토마토를 넣는다. 
-5. 볶다가 굴소스 1T, 간장 1T를 넣는다.
-6. 간을 본다. 싱거우면 소금을 조금 더 넣는다. 
-7. 같이 볶다가 토마토에서 물이 나오고 물러지면 스크램블을 넣고 같이 볶는다. 
-8. 참기름 조금 넣으면 완성!
+1. Heat oil in a pan, then add the beaten eggs.
+2. Scramble the eggs and transfer them to a plate.
+3. With the pan off the heat, add more oil and the chopped green onion.
+4. Sauté the green onion to release its flavor, then add the tomatoes.
+5. Stir-fry and add 1 tablespoon of oyster sauce and 1 tablespoon of soy sauce.
+6. Taste and add more salt if needed.
+7. Continue to stir-fry until the tomatoes release their juice and soften, then add the scrambled eggs and mix well.
+8. Add a little sesame oil for finishing touches!
 
 ### Reference
 - https://www.youtube.com/watch?v=pTvMsM2v1tg

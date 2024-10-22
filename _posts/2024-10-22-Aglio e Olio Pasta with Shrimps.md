@@ -1,7 +1,7 @@
 ---
 title: Aglio e Olio Pasta with Shrimps
 description: Recipe for Aglio e Olio Pasta with Shrimps
-date: 2024-10-22 00:00:00 +0900
+date: 2024-10-23 00:00:00 +0900
 categories: [Recipes]
 tags: [Recipes,Shrimp,Pasta,Aglio e Olio]
 image:

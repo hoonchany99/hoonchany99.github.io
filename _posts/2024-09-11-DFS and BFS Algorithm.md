@@ -5,7 +5,7 @@ date: 2024-09-05 00:31:00 +0900
 categories: [Algorithm]
 tags: [Algorithm,BFS,DFS,Stack,Queue]
 image:
-  path: /assets/img/bfs-vs-dfs.png
+  path: /assets/img/bfs-vs-dfs.jpg
   alt: DFS and BFS Algorithm
 ---
 

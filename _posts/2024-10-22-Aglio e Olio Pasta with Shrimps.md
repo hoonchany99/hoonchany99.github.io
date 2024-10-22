@@ -33,10 +33,10 @@ image:
 
 ### Cooking
 
-1. Heat Extra Virgin Olive Oil in a pan, then add the garlic pieces and peperoncinos.
+1. Heat Extra Virgin Olive Oil in a pan, then add the garlic pieces and peperoncinos. **(Remember! Low Heat)**
 2. When the garlic turns to brown, add the shrimps.
 3. Cook the shrimps for a while.
-4. Add the Stock in the pan, and heat. 
+4. Add the Stock in the pan, and heat. **(High Heat)**
 5. When the stock become blurry, then add the pasta.
 6. Mix the sauce and the pasta. 
 

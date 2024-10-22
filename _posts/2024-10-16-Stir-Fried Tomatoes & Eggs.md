@@ -6,7 +6,7 @@ categories: [Recipes]
 tags: [Recipes,Tomato,Egg]
 image:
   path: /assets/img/Tomato-Egg.png
-  alt: Fried Tomatoes & Eggs
+  alt: Stir-Fried Tomatoes & Eggs
 ---
 
 ## Ingredients

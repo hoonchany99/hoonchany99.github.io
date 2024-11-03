@@ -37,7 +37,7 @@ image:
 
 ### Cooking
 
-![Desktop View](/assets/img/TomatoRisotto2.jpeg){: width="972" height="589" border-radius="10" .w-50 .shadow .rounded-10 .right}
+![Desktop View](/assets/img/TomatoRisotto2.jpeg){: width="972" height="589" border-radius="10%" .w-50 .shadow .rounded .right}
 
 1. Heat Extra Virgin Olive Oil in a pan, then add the onion pieces and 1t of minced garlic.
 2. When the onion turns transparent, add the rice.

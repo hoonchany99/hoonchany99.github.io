@@ -38,7 +38,6 @@ image:
 5. Stir-fry and add 1 tablespoon of oyster sauce and 1 tablespoon of soy sauce.
 6. Taste and add more salt if needed.
 7. Continue to stir-fry until the tomatoes release their juice and soften, then add the scrambled eggs and mix well.
-8. Add a little sesame oil for finishing touches!
 
 ### Reference
 - https://www.youtube.com/watch?v=pTvMsM2v1tg

@@ -37,7 +37,7 @@ image:
 
 ### Cooking
 
-![Desktop View](/assets/img/TomatoRisotto2.jpeg){: width="972" height="589" .w-50 .right}
+![Desktop View](/assets/img/TomatoRisotto2.jpeg){: width="972" height="589" .w-50 .right .shadow .rounded-10}
 1. Heat Extra Virgin Olive Oil in a pan, then add the onion pieces and 1t of minced garlic.
 2. When the onion turns transparent, add the rice.
 3. Stir-Fry the rice for a while. 
@@ -50,9 +50,6 @@ image:
 10. Transfer proper amount of risotto to a plate.
 11. Simply add some parmesan cheese and dried parsley flakes.
 12. Enjoy!
-
-![Desktop View](/assets/img/TomatoRisotto2.jpeg){: width="972" height="589" }
-_Look at this appetizing dish!_
 
 ### Reference
 - https://www.youtube.com/watch?v=yQVcSuLRDNc

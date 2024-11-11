@@ -12,7 +12,7 @@ image:
 ## Ingredients
 
 ### Main Ingredients
-- 1/2 Tomato
+- 1 Tomato
 - 1/2 Onion
 - 1 Lump of Chicken Breast
 - 2 Scoops of Rice(140ml); this is for 1~2 people

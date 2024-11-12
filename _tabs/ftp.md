@@ -6,4 +6,6 @@ order: 4
 
 # Welcome to my FTP Service!
 
--[**/ftp/test.pdf**](/ftp/test.pdf)
+[comment]: <> (-[**file name**](/ftp/file name))
+
+-[**test.pdf**](/ftp/test.pdf)

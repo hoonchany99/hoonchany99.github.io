@@ -54,6 +54,3 @@ image:
 
 ### Reference
 - https://www.youtube.com/watch?v=yQVcSuLRDNc
-
-
-[<a href="/ftp/test.pdf">Download File</a>]: <>

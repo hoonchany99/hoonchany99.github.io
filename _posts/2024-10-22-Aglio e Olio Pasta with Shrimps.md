@@ -28,7 +28,7 @@ image:
 
 1. Shrimps - Thaw them.
 2. Garlic - Cut into pieces.
-3. Pasta - Boil for 9 min. (500mL water / 6g of Flavored Salt)
+3. Pasta - Boil for 9 min. (750mL water / 9g of Flavored Salt)
 4. Stock - 6T of water / 1t of Oyster Sauce
 
 ### Cooking

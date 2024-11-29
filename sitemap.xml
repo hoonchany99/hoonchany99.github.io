@@ -9,177 +9,217 @@
 
 <url>
   <loc>https://hoonchany99.github.io/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/categories/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/archives/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/ftp/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/about/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/posts/Tomato-Rissoto-with-Chicken-Breast/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/posts/Aglio-e-Olio-Pasta-with-Shrimps/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/posts/The-Reason-of-a-Journey/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/posts/Stir-Fried-Tomatoes-&amp;-Eggs/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/posts/DFS-and-BFS-Algorithm/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/posts/Binary-Search-Algorithm/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/posts/A-Start-of-a-Start-Up/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/posts/Backtracking-Algorithm/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/posts/Welcome/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/algorithm/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hoonchany99.github.io/tags/books/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/recipes/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/tags/books/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/tags/tomato/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/aglio-e-olio/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/backtracking/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/bfs/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/binary-search/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hoonchany99.github.io/tags/dfs/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <loc>https://hoonchany99.github.io/tags/chicken-breast/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hoonchany99.github.io/tags/egg/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hoonchany99.github.io/tags/parametric-search/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <loc>https://hoonchany99.github.io/tags/chicken/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/categories/algorithm/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/categories/books/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/categories/recipes/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/categories/startup/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/tags/dfs/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/tags/egg/</loc>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/tags/parametric-search/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/pasta/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/queue/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/tags/risotto/</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/shrimp/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/stack/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/startup/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hoonchany99.github.io/tags/tomato/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <loc>https://hoonchany99.github.io/tags/tomato-risotto/</loc>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/%EA%B9%80%EC%98%81%ED%95%98/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hoonchany99.github.io/tags/%EC%97%AC%ED%96%89%EC%9D%98%EC%9D%B4%EC%9C%A0/</loc>
-  <lastmod>2024-10-23T03:47:25+00:00</lastmod>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/ftp/test.pdf</loc>
+  <lastmod>2024-11-22T07:18:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hoonchany99.github.io/ftp/%EA%B8%B4%EA%B8%89%EB%B3%B5%EC%A7%80%EC%A7%80%EC%9B%90-%EC%88%98%EB%A3%8C%EC%A6%9D.pdf</loc>
+  <lastmod>2024-11-22T07:18:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

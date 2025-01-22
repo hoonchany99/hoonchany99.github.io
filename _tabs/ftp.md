@@ -12,3 +12,4 @@ order: 4
 - [**긴급복지지원-수료증.pdf**](/ftp/긴급복지지원-수료증.pdf)
 - [**보수교육이수1.jpg**](/ftp/보수교육이수1.jpg)
 - [**보수교육이수2.jpg**](/ftp/보수교육이수2.jpg)
+- [**minions.jpg**](/ftp/minions.jpg)

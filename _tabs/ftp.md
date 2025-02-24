@@ -13,3 +13,5 @@ order: 4
 - [**보수교육이수1.jpg**](/ftp/보수교육이수1.jpg)
 - [**보수교육이수2.jpg**](/ftp/보수교육이수2.jpg)
 - [**minions.jpg**](/ftp/minions.jpg)
+- [**보수교육이수증.jpg**](/ftp/보수교육이수증.jpg)
+- [**보수교육이수증2.jpg**](/ftp/보수교육이수증2.jpg)

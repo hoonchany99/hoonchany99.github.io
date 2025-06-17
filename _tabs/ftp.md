@@ -15,3 +15,4 @@ order: 4
 - [**minions.jpg**](/ftp/minions.jpg)
 - [**보수교육이수증.jpg**](/ftp/보수교육이수증.jpg)
 - [**보수교육이수증2.jpg**](/ftp/보수교육이수증2.jpg)
+- [**국외여행허가서.pdf**](/ftp/국외여행허가서.pdf)

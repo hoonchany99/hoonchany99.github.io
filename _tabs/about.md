@@ -107,7 +107,7 @@ A Safety Stapler using instant adhesive property, [KIPRIS](https://doi.org/10.80
 - [Sejong City Health Center](https://www.sejong.go.kr/health.do)
 
 `2026-`
-**Software Engineer**, SF
+**Software Engineer**, San Francisco, CA
 - [Aristo Technologies, Inc.](https://aristo.so)
 
 

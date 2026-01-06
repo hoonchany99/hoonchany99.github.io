@@ -108,7 +108,7 @@ A Safety Stapler using instant adhesive property, [KIPRIS](https://doi.org/10.80
 
 `2026-`
 **Software Engineer**, SF
-- [Aristo](https://aristo.so)
+- [Aristo Technologies, Inc.](https://aristo.so)
 
 
 

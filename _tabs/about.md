@@ -98,14 +98,23 @@ A Safety Stapler using instant adhesive property, [KIPRIS](https://doi.org/10.80
 
 ## Occupation
 
-`2024-`
+`2024-2025`
 **Public Healthcare Doctor**, Jeollanam-do
 - [Shinan County Health Center](https://www.shinan.go.kr/home/www/dept_info/health/)
+
+`2025-`
+**Public Healthcare Doctor**, Sejong City
+- [Sejong City Health Center](https://www.sejong.go.kr/health.do)
+
+`2026-`
+**Software Engineer**, SF
+- [Aristo](https://aristo.so)
+
 
 
 ### Last Update
 
-> Last Updated on **August 2024**
+> Last Updated on **January 2026**
 {: .prompt-info }
 
 

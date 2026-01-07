@@ -118,44 +118,6 @@ order: 4
     display: none;
   }
   
-  .ftp-hint-toggle {
-    font-size: 0.8125rem;
-    color: var(--text-muted-color, #6b7280);
-    cursor: pointer;
-    user-select: none;
-    margin-top: 0.5rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.25rem;
-    transition: color 0.2s;
-  }
-  
-  .ftp-hint-toggle:hover {
-    color: var(--link-color, #2563eb);
-  }
-  
-  .ftp-hint-content {
-    font-size: 0.8125rem;
-    color: var(--text-muted-color, #6b7280);
-    margin-top: 0.75rem;
-    padding: 0.75rem;
-    background-color: var(--sidebar-bg, #f9fafb);
-    border-radius: 6px;
-    border: 1px solid var(--main-border-color, #e5e7eb);
-    display: none;
-  }
-  
-  .ftp-hint-content.show {
-    display: block;
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    .ftp-hint-content {
-      background-color: var(--sidebar-bg, #374151);
-      border-color: var(--main-border-color, #4b5563);
-    }
-  }
-  
   @media (prefers-color-scheme: dark) {
     .ftp-auth-card {
       background: var(--main-bg, #1f2937);
@@ -192,13 +154,6 @@ order: 4
         required
         autocomplete="current-password"
       />
-      <div class="ftp-hint-toggle" onclick="toggleHint()">
-        <span>💡</span>
-        <span id="hint-toggle-text">Show hint</span>
-      </div>
-      <div id="ftp-hint-content" class="ftp-hint-content">
-        <strong>Hint:</strong> Administrative capital + 123!
-      </div>
       <button 
         type="submit"
         class="ftp-button ftp-button-primary"
@@ -333,20 +288,6 @@ order: 4
       }
     }
   }
-  
-  // 힌트 토글 함수
-  window.toggleHint = function() {
-    const hintContent = document.getElementById('ftp-hint-content');
-    const toggleText = document.getElementById('hint-toggle-text');
-    
-    if (hintContent.classList.contains('show')) {
-      hintContent.classList.remove('show');
-      toggleText.textContent = 'Show hint';
-    } else {
-      hintContent.classList.add('show');
-      toggleText.textContent = 'Hide hint';
-    }
-  };
   
   // 페이지 로드 시 실행
   if (document.readyState === 'loading') {

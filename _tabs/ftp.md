@@ -186,6 +186,7 @@ order: 4
 - [**국외여행허가서.hwp**](/ftp/국외여행허가서 양식.hwp)
 - [**공중보건의사 국외여행 승인신청서-중국**](/ftp/공중보건의사 국외여행 승인신청서-중국.pdf)
 
+{% raw %}
 <script>
 (function() {
   // 기본 비밀번호 해시 (SHA-256)
@@ -272,17 +273,35 @@ order: 4
   function setupPasswordForm() {
     const form = document.getElementById('ftp-password-form');
     const submitButton = document.getElementById('ftp-submit-button');
+    const input = document.getElementById('ftp-password-input');
     
-    if (form) {
-      form.addEventListener('submit', checkFtpPassword);
+    if (!form || !submitButton || !input) {
+      console.error('Form elements not found, retrying...');
+      setTimeout(setupPasswordForm, 100);
+      return;
     }
     
-    if (submitButton) {
-      submitButton.addEventListener('click', function(event) {
+    // 폼 제출 이벤트
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      checkFtpPassword(event);
+    });
+    
+    // 버튼 클릭 이벤트
+    submitButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      checkFtpPassword(event);
+    });
+    
+    // Enter 키 이벤트
+    input.addEventListener('keypress', function(event) {
+      if (event.key === 'Enter') {
         event.preventDefault();
         checkFtpPassword(event);
-      });
-    }
+      }
+    });
+    
+    console.log('Password form event listeners registered');
   }
   
   // 인증 상태 확인 및 처리
@@ -328,8 +347,10 @@ order: 4
   
   // 페이지 로드 시 실행
   function init() {
-    checkAuthStatus();
-    setupPasswordForm();
+    console.log('Initializing FTP password protection...');
+    checkAuthStatus().then(() => {
+      setupPasswordForm();
+    });
   }
   
   if (document.readyState === 'loading') {
@@ -339,3 +360,4 @@ order: 4
   }
 })();
 </script>
+{% endraw %}

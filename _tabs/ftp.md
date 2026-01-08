@@ -145,7 +145,7 @@ order: 4
   <div class="ftp-auth-card">
     <h2 class="ftp-auth-title">Password Required</h2>
     <p class="ftp-auth-description">Please enter the password to access this page.</p>
-    <form id="ftp-password-form" onsubmit="checkFtpPassword(event)">
+    <form id="ftp-password-form">
       <input 
         type="password" 
         id="ftp-password-input" 
@@ -156,6 +156,7 @@ order: 4
       />
       <button 
         type="submit"
+        id="ftp-submit-button"
         class="ftp-button ftp-button-primary"
       >
         Continue
@@ -192,7 +193,7 @@ order: 4
   // 1. 원하는 비밀번호를 정하세요
   // 2. https://emn178.github.io/online-tools/sha256.html 에서 해시 생성
   // 3. 아래 DEFAULT_PASSWORD_HASH 값을 변경하세요
-  const DEFAULT_PASSWORD_HASH = 'ad27160791ed40b458a1352c599b937b90cee3032c7c5a31b81f28ac00baf0eb'; // 기본 비밀번호: "password"
+  const DEFAULT_PASSWORD_HASH = '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8'; // 기본 비밀번호: "password"
   
   const SESSION_KEY = 'ftp_authenticated';
   
@@ -229,24 +230,60 @@ order: 4
   }
   
   // 비밀번호 확인 함수
-  window.checkFtpPassword = async function(event) {
-    event.preventDefault();
+  async function checkFtpPassword(event) {
+    if (event) {
+      event.preventDefault();
+    }
     const input = document.getElementById('ftp-password-input');
     const errorMsg = document.getElementById('ftp-password-error');
+    if (!input || !errorMsg) {
+      console.error('Password input or error message element not found');
+      return;
+    }
     const password = input.value;
     
-    const isValid = await verifyPassword(password);
-    if (isValid) {
-      sessionStorage.setItem(SESSION_KEY, 'true');
-      document.body.classList.add('ftp-authenticated');
-      errorMsg.style.display = 'none';
-      input.value = '';
-    } else {
+    if (!password) {
       errorMsg.style.display = 'block';
-      input.value = '';
-      input.focus();
+      errorMsg.textContent = 'Please enter a password.';
+      return;
     }
-  };
+    
+    try {
+      const isValid = await verifyPassword(password);
+      if (isValid) {
+        sessionStorage.setItem(SESSION_KEY, 'true');
+        document.body.classList.add('ftp-authenticated');
+        errorMsg.style.display = 'none';
+        input.value = '';
+      } else {
+        errorMsg.style.display = 'block';
+        errorMsg.textContent = 'Invalid password. Please try again.';
+        input.value = '';
+        input.focus();
+      }
+    } catch (error) {
+      console.error('Password verification error:', error);
+      errorMsg.style.display = 'block';
+      errorMsg.textContent = 'An error occurred. Please try again.';
+    }
+  }
+  
+  // 폼 제출 이벤트 리스너 등록
+  function setupPasswordForm() {
+    const form = document.getElementById('ftp-password-form');
+    const submitButton = document.getElementById('ftp-submit-button');
+    
+    if (form) {
+      form.addEventListener('submit', checkFtpPassword);
+    }
+    
+    if (submitButton) {
+      submitButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        checkFtpPassword(event);
+      });
+    }
+  }
   
   // 인증 상태 확인 및 처리
   async function checkAuthStatus() {
@@ -290,10 +327,15 @@ order: 4
   }
   
   // 페이지 로드 시 실행
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', checkAuthStatus);
-  } else {
+  function init() {
     checkAuthStatus();
+    setupPasswordForm();
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
 })();
 </script>

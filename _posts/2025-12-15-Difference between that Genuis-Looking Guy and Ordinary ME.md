@@ -1,6 +1,6 @@
 ---
-title: 저 천재와 나의 차이는 무엇일까
-description: 부러운 천재와 한심한 나의 차이에 대한 고찰
+title: What is the difference between that genius and me?
+description: Reflections on the Difference Between the Envious Genius and the Pathetic Me
 date: 2025-12-15 00:00:00 +0900
 categories: [나의 생각]
 tags: [천재, 실행력, 꾸준함]

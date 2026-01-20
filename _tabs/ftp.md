@@ -185,5 +185,6 @@ order: 4
 - [**보수교육이수증2.jpg**](/ftp/보수교육이수증2.jpg)
 - [**국외여행허가서.hwp**](/ftp/국외여행허가서 양식.hwp)
 - [**공중보건의사 국외여행 승인신청서-중국**](/ftp/공중보건의사 국외여행 승인신청서-중국.pdf)
+- [**국외여행허가추천서**](/ftp/국외여행 허가 추천서(윤_찬).pdf)
 
 <script src="{{ '/assets/js/ftp-password.js' | relative_url }}"></script>

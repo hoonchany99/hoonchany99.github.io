@@ -2,7 +2,7 @@
 title: What is the difference between that genius and me?
 description: Reflections on the Difference Between the Envious Genius and the Pathetic Me
 date: 2025-12-15 00:00:00 +0900
-categories: [나의 생각]
+categories: [My thoughts]
 tags: [천재, 실행력, 꾸준함]
 image:
   path: /assets/img/genius.jpg

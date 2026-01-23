@@ -4,7 +4,7 @@
   // 1. 원하는 비밀번호를 정하세요
   // 2. https://emn178.github.io/online-tools/sha256.html 에서 해시 생성
   // 3. 아래 DEFAULT_PASSWORD_HASH 값을 변경하세요
-  const DEFAULT_PASSWORD_HASH = '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8'; // 기본 비밀번호: "password"
+  const DEFAULT_PASSWORD_HASH = '3176108b5bdaebfe357e565413aae5b9866719e71fe093c7b7073bee070d04ff'; // 기본 비밀번호: "세종1234!"
   
   const SESSION_KEY = 'ftp_authenticated';
   

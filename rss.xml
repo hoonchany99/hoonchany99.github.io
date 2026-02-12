@@ -11,10 +11,10 @@ permalink: /rss.xml
 {% for post in site.posts limit: 20 %}
     <item>
       <title>{{ post.title | xml_escape }}</title>
-      <link>{{ post.url | absolute_url }}</link>
+      <link>{{ post.url | absolute_url | xml_escape }}</link>
       <description>{{ post.content | xml_escape }}</description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <guid>{{ post.url | absolute_url }}</guid>
+      <guid>{{ post.url | absolute_url | xml_escape }}</guid>
     </item>
 {% endfor %}
   </channel>

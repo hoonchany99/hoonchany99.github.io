@@ -19,8 +19,7 @@ title: Hoonchan Yoon # the main title
 tagline: Developer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  윤훈찬(Hoonchan Yoon)의 개인 블로그. 소프트웨어 엔지니어이자 치과의사로서의 경험,
-  개발, 스타트업, 알고리즘, 레시피 등 다양한 주제를 다룹니다.
+  소프트웨어 엔지니어이자 치과의사 윤훈찬의 블로그. 개발, 스타트업, 알고리즘, 레시피를 다룹니다.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

@@ -1,14 +1,11 @@
 ---
-layout: compress
 permalink: /rss.xml
 ---
-
-{% capture source %}
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title }}</title>
-    <description>{{ site.description }}</description>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
     <link>{{ "/" | absolute_url }}</link>
     <atom:link href="{{ "/rss.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
     <language>{{ site.lang | default: "en" }}</language>
@@ -19,7 +16,7 @@ permalink: /rss.xml
       <link>{{ post.url | absolute_url }}</link>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
-      <description>{% include post-description.html max_length=400 %}</description>
+      <description>{{ post.excerpt | strip_html | xml_escape | truncate: 400 }}</description>
 {% for category in post.categories %}
       <category>{{ category | xml_escape }}</category>
 {% endfor %}
@@ -27,5 +24,3 @@ permalink: /rss.xml
 {% endfor %}
   </channel>
 </rss>
-{% endcapture %}
-{{ source | replace: '&', '&amp;' }}

@@ -8,3 +8,60 @@
 ';
 
 /* append your custom style below */
+
+/* 윤원장의 치과사전 - 로고 색상 기반 커스텀 테마 */
+:root {
+  /* Sidebar - 로고 하늘색 계열 */
+  --sidebar-bg: #4BC8D4;
+  --sidebar-border-color: #3fb8c4;
+  --site-title-color: #ffffff;
+  --site-subtitle-color: rgba(255, 255, 255, 0.85);
+  --sidebar-muted-color: rgba(255, 255, 255, 0.7);
+  --sidebar-active-color: #ffffff;
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.2);
+  --sidebar-btn-bg: rgba(255, 255, 255, 0.15);
+  --sidebar-btn-color: rgba(255, 255, 255, 0.8);
+  --avatar-border-color: #ffffff;
+
+  /* 링크/액센트 색상 */
+  --link-color: #1a9faa;
+  --toc-highlight: #1a9faa;
+  --checkbox-checked-color: #4BC8D4;
+  --btn-share-hover-color: #4BC8D4;
+}
+
+/* 사이드바 텍스트/아이콘을 흰색 계열로 */
+#sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+#sidebar .nav-link:hover {
+  color: #ffffff;
+}
+
+#sidebar .nav-item.active .nav-link {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#sidebar .sidebar-bottom a,
+#sidebar .sidebar-bottom button {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#sidebar .sidebar-bottom a:hover,
+#sidebar .sidebar-bottom button:hover {
+  color: #ffffff;
+}
+
+#sidebar .icon-border {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#sidebar .site-title a {
+  color: #ffffff !important;
+}
+
+#sidebar .site-subtitle {
+  color: rgba(255, 255, 255, 0.85) !important;
+}

@@ -15,6 +15,23 @@
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </h1>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+
+    {% assign sidebar_logo = site.brand_logo | default: site.social_preview_image %}
+    {% if sidebar_logo %}
+      {%- capture sidebar_logo_url -%}
+        {% include media-url.html src=sidebar_logo %}
+      {%- endcapture -%}
+      <section class="sidebar-brand" aria-label="Brand">
+        <img src="{{- sidebar_logo_url -}}" alt="{{ site.title }} logo" loading="lazy">
+        <p class="brand-note mb-0">치과의사 윤훈찬이 전하는 환자 중심 치아 건강 가이드</p>
+      </section>
+    {% endif %}
+
+    <ul class="sidebar-credentials list-unstyled mb-0" aria-label="Dental Blog Credentials">
+      <li><i class="fas fa-tooth"></i><span>임플란트 · 교정 · 충치 치료 콘텐츠</span></li>
+      <li><i class="fas fa-notes-medical"></i><span>실제 진료 경험 기반 설명</span></li>
+      <li><i class="fas fa-user-md"></i><span>환자 눈높이 중심의 쉬운 정보</span></li>
+    </ul>
   </header>
   <!-- .profile-wrapper -->
 

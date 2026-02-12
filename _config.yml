@@ -97,9 +97,12 @@ cdn:
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/avatar.png
 
+# Dedicated wide logo shown in the sidebar brand card
+brand_logo: /assets/img/dental-dictionary-logo.png
+
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: /assets/img/윤원장의치과사전.png
+social_preview_image: /assets/img/dental-dictionary-logo.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true

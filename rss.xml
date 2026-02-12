@@ -2,24 +2,19 @@
 permalink: /rss.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
     <link>{{ "/" | absolute_url }}</link>
-    <atom:link href="{{ "/rss.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
-    <language>{{ site.lang | default: "en" }}</language>
+    <description>{{ site.description | xml_escape }}</description>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 {% for post in site.posts limit: 20 %}
     <item>
       <title>{{ post.title | xml_escape }}</title>
       <link>{{ post.url | absolute_url }}</link>
+      <description>{{ post.content | xml_escape }}</description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
-      <description>{{ post.excerpt | strip_html | xml_escape | truncate: 400 }}</description>
-{% for category in post.categories %}
-      <category>{{ category | xml_escape }}</category>
-{% endfor %}
+      <guid>{{ post.url | absolute_url }}</guid>
     </item>
 {% endfor %}
   </channel>

@@ -97,12 +97,6 @@
     <link rel="stylesheet" href="{{ site.data.origin[type].glightbox.css | relative_url }}">
   {% endif %}
 
-  {% if page.custom_css %}
-    {% for css in page.custom_css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
-  {% endif %}
-
   <!-- JavaScript -->
 
   {% unless site.theme_mode %}

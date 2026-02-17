@@ -124,6 +124,21 @@
   word-break: keep-all;
 }
 
+.naver-post .se-fs-fs16 {
+  font-size: 1.08rem;
+}
+
+.naver-post .se-fs-fs19 {
+  display: inline-block;
+  font-size: 1.85rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.naver-post .se-text-paragraph-align-center .se-fs-fs19 {
+  width: 100%;
+}
+
 .naver-post .se-module-horizontalLine hr {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.08);

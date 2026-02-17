@@ -166,6 +166,13 @@
   color: inherit;
 }
 
+.naver-post .se-module-oglink,
+.naver-post .se-module-oglink * {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}
+
 .naver-post .se-text-paragraph span[style*="background-color:#ffef34"],
 .naver-post .se-text-paragraph .hl-yellow {
   background: linear-gradient(transparent 40%, #ffef34 40%);

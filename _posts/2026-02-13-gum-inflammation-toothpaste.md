@@ -16,8 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-7af7ea62-2efd-4a05-bba9-7f9f699993fb", "src" : "https://mblogthumb-phinf.pstatic.net/MjAyNjAyMTNfOTQg/MDAxNzcwOTEyOTQ5NjU5.tQJwfXUpK1xWigoA7U3OsyT4E_67w8s-IVr_c3GAFxwg._YNdFfg_GP5dDWsN4UpMUxlkeCkfruTCFwLmVLlk3jcg.PNG/Thumbnail_forpatients_long_%EB%B3%B5%EC%82%AC.png", "originalWidth" : "1080", "originalHeight" : "1350", "linkUse" : "false", "link" : "", "fileSize": "66825" }' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" loading="lazy" src="/assets/img/posts/gum-inflammation-toothpaste/main.png">
-</img></a>
+<img alt="" class="se-image-resource" loading="lazy" src="/assets/img/posts/gum-inflammation-toothpaste/main.png" /></a>
 </div>
 </div>
 </div>

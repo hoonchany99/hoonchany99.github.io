@@ -69,19 +69,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Spoqa+Han+Sans+Neo:wght@400;500;700&display=swap');
 
 .naver-post {
-  font-family: 'Nanum Myeongjo', 'NanumSquare', 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+  font-family: 'Nanum Myeongjo', 'Spoqa Han Sans Neo', 'Noto Sans KR', 'Apple SD Gothic Neo', serif;
   font-size: 1.05rem;
-  line-height: 1.85;
+  line-height: 1.9;
   color: #1a1a1a;
   letter-spacing: -0.02em;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 0.6rem;
 }
 
 .naver-post * {
   box-sizing: border-box;
 }
 
+.naver-post section,
+.naver-post .se-component {
+  margin-bottom: 1.8rem;
+}
+
 .naver-post p {
-  margin-bottom: 1rem;
+  margin: 1.1rem 0;
+  line-height: 1.9;
+  word-break: keep-all;
+}
+
+.naver-post ul,
+.naver-post ol {
+  margin: 1rem 0 1.1rem 1.4rem;
+  padding: 0;
+  line-height: 1.9;
+}
+
+.naver-post ul li,
+.naver-post ol li {
+  margin-bottom: 0.4rem;
 }
 
 .naver-post strong {
@@ -122,6 +144,17 @@
 
 .naver-post .se-text-paragraph {
   word-break: keep-all;
+}
+
+.naver-post a {
+  color: #166f9b;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.naver-post a:hover {
+  color: #124e6c;
 }
 
 .naver-post .se-fs-fs16 {

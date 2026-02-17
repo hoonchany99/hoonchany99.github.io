@@ -114,7 +114,7 @@
 }
 
 .naver-post .se-module-text.se-caption {
-  text-align: center;
+  text-align: justify;
   font-size: 0.92rem;
   color: rgba(0, 0, 0, 0.6);
   margin-top: 0.5rem;
@@ -130,8 +130,8 @@
 
 .naver-post .se-fs-fs19 {
   display: inline-block;
-  font-size: 1.85rem;
-  line-height: 1.6;
+  font-size: 1.65rem;
+  line-height: 1.55;
   font-weight: 700;
 }
 
@@ -147,13 +147,39 @@
 }
 
 .naver-post .se-module-oglink {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-  padding: 1rem;
+  border: 1px solid rgba(26, 159, 170, 0.25);
+  border-radius: 1.1rem;
+  padding: 1.15rem 1.3rem;
+  background: linear-gradient(135deg, rgba(75, 200, 212, 0.06), rgba(255, 255, 255, 0.9));
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.naver-post .se-module-oglink:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.08);
 }
 
 .naver-post .se-oglink-info-container {
   text-align: left;
+  display: grid;
+  row-gap: 0.3rem;
+}
+
+.naver-post .se-oglink-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.naver-post .se-oglink-summary {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.naver-post .se-oglink-url {
+  color: #1a9faa;
+  font-size: 0.9rem;
 }
 
 .naver-post .se-text-paragraph span[style*="background-color:#ffef34"],

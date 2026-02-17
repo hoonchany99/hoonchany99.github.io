@@ -5,7 +5,7 @@ categories: [치과사전, 일상편]
 tags: [잇몸치약, 잇몸질환, 치약추천, 치과관리]
 description: "잇몸이 자주 붓고 피가 난다면 치약을 어떻게 골라야 하고, 어떤 관리가 우선인지 정리했습니다."
 image:
-  path: https://blogthumb.pstatic.net/MjAyNjAyMTNfOTQg/MDAxNzcwOTEyOTQ5NjU5.tQJwfXUpK1xWigoA7U3OsyT4E_67w8s-IVr_c3GAFxwg._YNdFfg_GP5dDWsN4UpMUxlkeCkfruTCFwLmVLlk3jcg.PNG/Thumbnail_forpatients_long_%25BA%25B9%25BB%25E7.png?type=s3
+  path: /assets/img/posts/gum-inflammation-toothpaste/main.png
   alt: "칫솔 각도와 잇몸 관리 그림"
 ---
 
@@ -44,7 +44,7 @@ image:
 
 ## 🦷 치약보다 더 중요한 것
 
-![칫솔질 각도 안내](https://blogthumb.pstatic.net/MjAyNjAyMTNfOTQg/MDAxNzcwOTEyOTQ5NjU5.tQJwfXUpK1xWigoA7U3OsyT4E_67w8s-IVr_c3GAFxwg._YNdFfg_GP5dDWsN4UpMUxlkeCkfruTCFwLmVLlk3jcg.PNG/Thumbnail_forpatients_long_%25BA%25B9%25BB%25E7.png?type=s3)
+![칫솔질 각도 안내](/assets/img/posts/gum-inflammation-toothpaste/main.png)
 
 > **칫솔은 잇몸 쪽으로 45° 기울인 뒤 가볍게 좌우로 진동 → 바깥으로 쓸어내기.**  
 > 안쪽도 같은 방법, 씹는 면은 앞뒤로 닦기.  

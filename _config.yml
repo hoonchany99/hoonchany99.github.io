@@ -47,8 +47,6 @@ plugins:
 
 markdown: kramdown
 permalink: /:categories/:title/
-paginate: 6
-paginate_path: /page:num/
 
 include:
   - _pages

@@ -1,0 +1,11 @@
+main:
+  - title: 홈
+    url: /
+  - title: 최신 글
+    url: /posts/
+  - title: 잇몸 관리
+    url: /categories/%EC%B9%98%EA%B3%BC%EC%82%AC%EC%A0%84/
+  - title: 윤원장 소개
+    url: /about/
+  - title: 상담 / 예약
+    url: /contact/

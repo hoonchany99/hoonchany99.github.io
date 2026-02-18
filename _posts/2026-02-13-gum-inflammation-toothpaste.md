@@ -3,6 +3,7 @@ title: "잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까?"
 date: 2026-02-13 01:16:46 +0900
 categories: [치과사전, 일상편]
 tags: [잇몸치약, 잇몸질환, 치약추천, 치과관리]
+permalink: /posts/gum-inflammation-toothpaste/
 description: "잇몸이 자주 붓고 피가 난다면 치약을 어떻게 골라야 하고, 어떤 관리가 우선인지 정리했습니다."
 image:
   path: /assets/img/posts/gum-inflammation-toothpaste/main.png

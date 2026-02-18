@@ -1,17 +1,16 @@
-## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
-# -------------------------------------
-# {author_id}:
-#   name: {full name}
-#   twitter: {twitter_of_author}
-#   url: {homepage_of_author}
-# -------------------------------------
-
-cotes:
-  name: Cotes Chung
-  twitter: cotes2020
-  url: https://github.com/cotes2020/
-
-sille_bille:
-  name: Dinesh Prasanth Moluguwan Krishnamoorthy
-  twitter: dinesh_MKD
-  url: https://github.com/SilleBille/
+hoonchan:
+  name: "윤훈찬"
+  bio: "치과의사가 직접 쓰는 치아 건강 가이드"
+  avatar: "/assets/img/avatar.jpg"
+  location: "Seoul, South Korea"
+  email: "hoonchany99@gmail.com"
+  links:
+    - label: "네이버 블로그"
+      icon: "fas fa-book"
+      url: "https://blog.naver.com/studytosurvive"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/hoonchany99"
+    - label: "X (Twitter)"
+      icon: "fab fa-x-twitter"
+      url: "https://x.com/hoonchan_yoon"

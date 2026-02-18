@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter so Jekyll can process it.
+---
+
+@import "minimal-mistakes/skins/mint";
+@import "minimal-mistakes";
+
+:root {
+  --brand-primary: #0f766e;
+  --brand-secondary: #0ea5e9;
+}
+
+.page__hero--overlay .btn,
+.btn--primary {
+  background-color: var(--brand-primary);
+  border-color: var(--brand-primary);
+}
+
+.btn--inverse {
+  color: var(--brand-primary);
+}

@@ -14,7 +14,7 @@ export function Hero() {
           <span className="text-brand">치아 이야기</span>
         </h1>
         <p className="hero-anim-3 text-lg md:text-xl text-gray-500 mb-10 leading-relaxed max-w-xl mx-auto">
-          치과의사 윤훈찬이 진료실에서 매일 듣는 질문들을<br className="hidden sm:block" />
+          서울대 윤원장이 진료실에서 매일 듣는 질문들을<br className="hidden sm:block" />
           알기 쉬운 언어로 정리합니다.
         </p>
         <div className="hero-anim-4 flex flex-col sm:flex-row gap-4 justify-center">

@@ -14,7 +14,7 @@ interface Props {
 
 const {
   title,
-  description = '임상 치과의사 윤훈찬이 직접 정리하는 치아 건강 노트. 임플란트부터 잇몸 관리, 생활 습관까지 환자들이 묻는 질문을 알기 쉽게 풀어드립니다.',
+  description = '서울대 윤원장이 직접 정리하는 치아 건강 노트. 임플란트부터 잇몸 관리, 생활 습관까지 환자들이 묻는 질문을 알기 쉽게 풀어드립니다.',
   image = '/img/윤원장의치과사전.png',
   type = 'website',
   publishedDate,
@@ -24,7 +24,7 @@ const {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site).href;
 const siteName = '윤원장의 치과사전';
-const authorName = '윤훈찬';
+const authorName = '서울대 윤원장';
 
 const jsonLd = type === 'article' ? JSON.stringify({
   '@context': 'https://schema.org',

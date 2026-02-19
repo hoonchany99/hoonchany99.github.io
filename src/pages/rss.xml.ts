@@ -9,7 +9,7 @@ export async function GET(context: APIContext) {
 
   return rss({
     title: '윤원장의 치과사전',
-    description: '임상 치과의사 윤훈찬이 직접 정리하는 치아 건강 노트',
+    description: '서울대 윤원장이 직접 정리하는 치아 건강 노트',
     site: context.site!,
     items: posts.map((post) => ({
       title: post.data.title,

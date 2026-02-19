@@ -12,8 +12,8 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <div className="relative z-10">
-              <div className="w-full aspect-square max-w-sm mx-auto bg-gradient-to-br from-brand-100 to-sky-100 rounded-2xl shadow-2xl flex items-center justify-center">
-                <div className="text-9xl">👨‍⚕️</div>
+              <div className="w-full aspect-square max-w-sm mx-auto rounded-2xl shadow-2xl overflow-hidden">
+                <img src="/img/avatar.png" alt="서울대 윤원장" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-brand-50 rounded-2xl -z-0 hidden md:block" />
@@ -22,7 +22,7 @@ export function About() {
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
               안녕하세요,<br />
-              <span className="text-brand">치과의사 윤훈찬</span>입니다
+              <span className="text-brand">서울대 윤원장</span>입니다
             </h2>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
               올바른 치과 정보를 쉽고 정확하게 전달하여 많은 분들의 구강 건강에 도움을 드리고자 이 블로그를 시작했습니다.

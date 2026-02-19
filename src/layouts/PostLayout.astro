@@ -25,14 +25,19 @@ const { title, description, date, image, tags = [] } = Astro.props;
           </div>
         )}
         <h1 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4 leading-tight">{title}</h1>
-        <div class="flex items-center gap-4">
-          {date && (
-            <time class="text-gray-400 text-sm" datetime={date.toISOString()}>
-              {date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}
-            </time>
-          )}
-          <span class="text-gray-300">·</span>
-          <span class="text-gray-400 text-sm">윤훈찬</span>
+        <div class="flex items-center gap-3">
+          <img src="/img/avatar.png" alt="서울대 윤원장" class="w-7 h-7 rounded-full object-cover ring-2 ring-brand-bg" />
+          <div class="flex items-center gap-3 text-sm text-gray-400">
+            <span class="font-medium text-gray-600">서울대 윤원장</span>
+            {date && (
+              <>
+                <span class="text-gray-300">·</span>
+                <time datetime={date.toISOString()}>
+                  {date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}
+                </time>
+              </>
+            )}
+          </div>
         </div>
       </header>
 
@@ -287,7 +292,7 @@ const { title, description, date, image, tags = [] } = Astro.props;
     }
 
     .post-content .se-oglink-info:hover {
-      border-color: #4CBDC4;
+      border-color: #3FB8D3;
       box-shadow: 0 2px 12px rgba(76,189,196,0.1);
     }
 
@@ -325,7 +330,7 @@ const { title, description, date, image, tags = [] } = Astro.props;
     .post-content u b,
     .post-content b u {
       text-decoration: none;
-      background: linear-gradient(transparent 85%, #4CBDC4 85%);
+      background: linear-gradient(transparent 85%, #3FB8D3 85%);
       padding-bottom: 2px;
     }
 
@@ -363,19 +368,19 @@ const { title, description, date, image, tags = [] } = Astro.props;
     }
 
     .post-content a {
-      color: #4CBDC4;
+      color: #3FB8D3;
       text-decoration: underline;
       text-underline-offset: 3px;
       text-decoration-color: rgba(76,189,196,0.3);
     }
 
     .post-content a:hover {
-      color: #3aa8af;
-      text-decoration-color: #3aa8af;
+      color: #2DA3BD;
+      text-decoration-color: #2DA3BD;
     }
 
     .post-content blockquote {
-      border-left: 3px solid #4CBDC4;
+      border-left: 3px solid #3FB8D3;
       padding-left: 1rem;
       color: #64748b;
       font-style: italic;

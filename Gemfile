@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap", "~> 1.4"
   gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-include-cache"
+  gem "jekyll-archives", "~> 2.0"
 end
 
 group :development do

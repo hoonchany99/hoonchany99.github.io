@@ -44,6 +44,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-include-cache
+  - jekyll-archives
 
 markdown: kramdown
 permalink: /:categories/:title/
@@ -90,6 +91,17 @@ tag_archive:
   path: /tags/
 
 search: true
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # Analytics / services -------------------------------------------------------
 comments:

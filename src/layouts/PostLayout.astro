@@ -12,11 +12,11 @@ interface Props {
 const { title, description, date, image, tags = [] } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} image={image}>
+<BaseLayout title={title} description={description} image={image} type="article" publishedDate={date} tags={tags}>
   <article class="py-12 md:py-20">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <!-- 헤더 -->
-      <header class="mb-10 pb-8 border-b border-gray-200">
+      <header class="mb-10 pb-8 border-b border-gray-200 max-w-3xl">
         {tags.length > 0 && (
           <div class="flex flex-wrap gap-2 mb-4">
             {tags.map((tag) => (
@@ -36,23 +36,104 @@ const { title, description, date, image, tags = [] } = Astro.props;
         </div>
       </header>
 
-      <!-- 본문 -->
-      <div class="post-content">
-        <slot />
-      </div>
+      <div class="lg:grid lg:grid-cols-[minmax(0,3fr)_220px] lg:gap-12">
+        <!-- 본문 -->
+        <div>
+          <div class="post-content">
+            <slot />
+          </div>
 
-      <!-- 하단 -->
-      <footer class="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-        <a href="/posts/" class="inline-flex items-center gap-2 text-brand font-semibold hover:gap-3 transition-all">
-          ← 모든 글 보기
-        </a>
-        <a href="https://blog.naver.com/studytosurvive" target="_blank" rel="noopener noreferrer"
-          class="text-sm text-gray-400 hover:text-brand transition-colors">
-          📘 네이버 블로그에서도 읽기
-        </a>
-      </footer>
+          <!-- 하단 -->
+          <footer class="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <a href="/posts/" class="inline-flex items-center gap-2 text-brand font-semibold hover:gap-3 transition-all">
+              ← 모든 글 보기
+            </a>
+            <a href="https://blog.naver.com/studytosurvive" target="_blank" rel="noopener noreferrer"
+              class="text-sm text-gray-400 hover:text-brand transition-colors">
+              📘 네이버 블로그에서도 읽기
+            </a>
+          </footer>
+        </div>
+
+        <!-- 목차 (데스크톱) -->
+        <aside class="hidden lg:block">
+          <nav id="toc" class="sticky top-24">
+            <p class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">목차</p>
+            <ul id="toc-list" class="space-y-1.5 text-[0.8rem] leading-snug border-l-2 border-gray-100 pl-3">
+            </ul>
+          </nav>
+        </aside>
+      </div>
     </div>
   </article>
+
+  <script>
+    function buildTOC() {
+      const content = document.querySelector('.post-content');
+      const tocList = document.getElementById('toc-list');
+      if (!content || !tocList) return;
+
+      const headings: { el: Element; text: string; level: number }[] = [];
+
+      content.querySelectorAll('h2, h3').forEach((el) => {
+        const text = el.textContent?.trim();
+        if (!text) return;
+        if (!el.id) el.id = text.replace(/\s+/g, '-').replace(/[^\w가-힣-]/g, '').toLowerCase() || `heading-${headings.length}`;
+        headings.push({ el, text, level: el.tagName === 'H2' ? 2 : 3 });
+      });
+
+      content.querySelectorAll('.se-fs-fs19').forEach((el) => {
+        const text = el.textContent?.trim();
+        if (!text || text === '\u200B') return;
+        const parent = el.closest('.se-text-paragraph') || el.parentElement;
+        if (!parent) return;
+        if (!parent.id) parent.id = text.replace(/\s+/g, '-').replace(/[^\w가-힣-]/g, '').toLowerCase() || `heading-${headings.length}`;
+        headings.push({ el: parent, text, level: 2 });
+      });
+
+      if (headings.length === 0) {
+        const toc = document.getElementById('toc');
+        if (toc) toc.style.display = 'none';
+        return;
+      }
+
+      headings.forEach(({ el, text, level }) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        const targetId = (el.closest('.se-text-paragraph') || el).id || el.id;
+        a.href = `#${targetId}`;
+        a.textContent = text.replace(/^[^\w가-힣]+/, '').substring(0, 30);
+        a.className = `block py-1 text-gray-400 hover:text-brand transition-colors truncate ${level === 3 ? 'pl-3' : ''}`;
+        a.dataset.tocTarget = targetId;
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+
+      const tocLinks = tocList.querySelectorAll('a[data-toc-target]');
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              tocLinks.forEach((l) => l.classList.remove('text-brand', 'font-semibold'));
+              const active = tocList.querySelector(`a[data-toc-target="${entry.target.id}"]`);
+              if (active) {
+                active.classList.remove('text-gray-400');
+                active.classList.add('text-brand', 'font-semibold');
+              }
+            }
+          });
+        },
+        { rootMargin: '-80px 0px -60% 0px', threshold: 0 }
+      );
+
+      headings.forEach(({ el }) => {
+        const target = el.closest('.se-text-paragraph') || el;
+        if (target.id) observer.observe(target);
+      });
+    }
+
+    buildTOC();
+  </script>
 
   <style is:global>
     .post-content {
@@ -167,19 +248,17 @@ const { title, description, date, image, tags = [] } = Astro.props;
 
     /* 캡션 */
     .post-content .se-caption {
-      text-align: center;
+      text-align: left;
       margin-top: 0.75rem;
       margin-bottom: 0;
-      max-width: 90%;
-      margin-left: auto;
-      margin-right: auto;
+      width: 100%;
     }
 
     .post-content .se-caption p {
       font-size: 0.8rem !important;
       color: #94a3b8 !important;
       line-height: 1.55 !important;
-      text-align: center !important;
+      text-align: left !important;
     }
 
     .post-content .se-caption a {

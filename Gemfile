@@ -12,3 +12,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-include-cache"
 end
+
+group :development do
+  gem "html-proofer", "~> 4.4"
+end

@@ -8,8 +8,8 @@ export async function GET(context: APIContext) {
   );
 
   return rss({
-    title: '윤원장의 치과사전',
-    description: '서울대 윤원장이 직접 정리하는 치아 건강 노트',
+    title: '서울대 윤원장의 치과사전',
+    description: '서울대 윤원장이 직접 정리하는 치아 건강 노트. 임플란트부터 잇몸 관리, 생활 습관까지 환자들이 묻는 질문을 알기 쉽게 풀어드립니다.',
     site: context.site!,
     items: posts.map((post) => ({
       title: post.data.title,

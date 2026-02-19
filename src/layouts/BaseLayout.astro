@@ -23,7 +23,7 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site).href;
-const siteName = '윤원장의 치과사전';
+const siteName = '서울대 윤원장의 치과사전';
 const authorName = '서울대 윤원장';
 
 const jsonLd = type === 'article' ? JSON.stringify({
@@ -83,7 +83,6 @@ const jsonLd = type === 'article' ? JSON.stringify({
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@hoonchan_yoon" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={ogImage} />

@@ -25,14 +25,6 @@ export function Header() {
                 </a>
               ))}
             </nav>
-            <a
-              href="https://blog.naver.com/studytosurvive"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-brand text-white px-5 py-2 rounded-lg text-sm font-bold hover:bg-brand-dark transition-colors shadow-sm shadow-brand/20"
-            >
-              네이버 블로그
-            </a>
           </div>
 
           <button
@@ -56,15 +48,6 @@ export function Header() {
                   {l.label}
                 </a>
               ))}
-              <a
-                href="https://blog.naver.com/studytosurvive"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-brand text-white px-5 py-2.5 rounded-lg text-sm font-bold text-center hover:bg-brand-dark transition-colors"
-                onClick={() => setOpen(false)}
-              >
-                네이버 블로그
-              </a>
             </div>
           </nav>
         )}

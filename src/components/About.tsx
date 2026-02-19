@@ -1,10 +1,3 @@
-const stats = [
-  { icon: '🎓', title: '전문 교육', desc: '서울대 치의학대학원 출신' },
-  { icon: '🏆', title: '임상 경험', desc: '다양한 진료 분야 임상' },
-  { icon: '📖', title: '지속 학습', desc: '최신 치의학 트렌드 연구' },
-  { icon: '❤️', title: '환자 중심', desc: '신뢰와 소통 우선' },
-];
-
 export function About() {
   return (
     <section className="py-20 bg-white">
@@ -13,7 +6,11 @@ export function About() {
           <div className="relative">
             <div className="relative z-10">
               <div className="w-full aspect-square max-w-sm mx-auto rounded-2xl shadow-2xl overflow-hidden">
-                <img src="/img/avatar.png" alt="서울대 윤원장" className="w-full h-full object-cover" />
+                <img
+                  src="/img/avatar.png"
+                  alt="서울대 윤원장"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-brand-50 rounded-2xl -z-0 hidden md:block" />
@@ -21,30 +18,36 @@ export function About() {
 
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-              안녕하세요,<br />
-              <span className="text-brand">서울대 윤원장</span>입니다
+              안녕하세요,
+              <br />
+              <span className="text-brand">서울대학교 치의학대학원</span> 출신
+              <br />
+              치과의사 윤원장입니다
             </h2>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              올바른 치과 정보를 쉽고 정확하게 전달하여 많은 분들의 구강 건강에 도움을 드리고자 이 블로그를 시작했습니다.
+              사실 저는 제 이야기를 길게 꺼내는 사람이 아닙니다. 환자분 이야기를
+              듣는 게 더 편하고, 진료실에서도 먼저 묻습니다.
+            </p>
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+              이 블로그는 진료실에서 미처 다 하지 못한 이야기들을 차분히
+              정리하고 기록하기 위해 만들었습니다.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              복잡하고 어려운 치과 용어와 치료 과정을 누구나 이해하기 쉽게 설명하고,
-              최신 치과 의학 정보를 빠르게 공유하여 건강한 미소를 지킬 수 있도록 돕겠습니다.
+              <span className="font-semibold text-gray-800">
+                "정확하고, 쉽게 이해되고, 믿을 수 있는 치과 정보"
+              </span>
+              만 담겠습니다.
+              <br />
+              초등학생도 이해할 수 있을 만큼 쉽게, 의사가 책임질 수 있을 만큼
+              정확하게요.
             </p>
 
-            <div className="grid grid-cols-2 gap-5">
-              {stats.map((s) => (
-                <div key={s.title} className="flex items-start gap-3">
-                  <div className="w-12 h-12 rounded-lg bg-brand-bg flex items-center justify-center flex-shrink-0 text-xl">
-                    {s.icon}
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-gray-900 mb-0.5 text-sm">{s.title}</h4>
-                    <p className="text-xs text-gray-500">{s.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <a
+              href="/about"
+              className="inline-block bg-brand text-white px-8 py-3.5 rounded-xl hover:bg-brand-dark transition-all font-bold shadow-lg shadow-brand/20 hover:-translate-y-0.5"
+            >
+              윤원장에 대해 더 알아보기
+            </a>
           </div>
         </div>
       </div>

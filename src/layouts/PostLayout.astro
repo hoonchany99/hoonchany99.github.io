@@ -107,7 +107,7 @@ const { title, description, date, image, tags = [] } = Astro.props;
         const a = document.createElement('a');
         const targetId = (el.closest('.se-text-paragraph') || el).id || el.id;
         a.href = `#${targetId}`;
-        a.textContent = text.replace(/^[^\w가-힣]+/, '').substring(0, 30);
+        a.textContent = text.replace(/^[\s\u200B]*[^\w가-힣\s]*\s*/, '').substring(0, 30) || text.substring(0, 30);
         a.className = `block py-1 text-gray-400 hover:text-brand transition-colors truncate ${level === 3 ? 'pl-3' : ''}`;
         a.dataset.tocTarget = targetId;
         li.appendChild(a);
@@ -157,7 +157,7 @@ const { title, description, date, image, tags = [] } = Astro.props;
     }
 
     .post-content .se-component {
-      margin-bottom: 0.15rem;
+      margin-bottom: 0;
     }
 
     .post-content .se-text-paragraph {
@@ -222,12 +222,8 @@ const { title, description, date, image, tags = [] } = Astro.props;
       display: flex;
       flex-direction: column;
       align-items: center;
+      max-width: 480px !important;
       margin: 2rem auto !important;
-    }
-
-    .post-content .se-section-image[style*="max-width"] {
-      margin-left: auto !important;
-      margin-right: auto !important;
     }
 
     .post-content .se-module-image {
@@ -262,7 +258,7 @@ const { title, description, date, image, tags = [] } = Astro.props;
     .post-content .se-caption p {
       font-size: 0.8rem !important;
       color: #94a3b8 !important;
-      line-height: 1.55 !important;
+      line-height: 1.8 !important;
       text-align: left !important;
     }
 
@@ -334,37 +330,43 @@ const { title, description, date, image, tags = [] } = Astro.props;
       padding-bottom: 2px;
     }
 
-    /* ===== 일반 마크다운 콘텐츠 (미래 글용) ===== */
+    /* ===== 일반 마크다운 콘텐츠 ===== */
+
+    .post-content p {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
     .post-content h2 {
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: #0f172a;
-      margin-top: 3rem;
-      margin-bottom: 0.75rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 2px solid #f1f5f9;
+      font-size: 1.4rem !important;
+      font-weight: 800 !important;
+      color: #0f172a !important;
+      margin-top: 1rem !important;
+      margin-bottom: 0.25rem !important;
+      padding: 0.6rem 0;
+      text-align: center;
+      letter-spacing: -0.02em;
+      border-bottom: none;
     }
 
     .post-content h3 {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       font-weight: 700;
       color: #0f172a;
-      margin-top: 2rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .post-content p {
-      margin-bottom: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 0.25rem;
+      text-align: center;
     }
 
     .post-content ul, .post-content ol {
       padding-left: 1.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.15rem;
+      text-align: left;
     }
 
     .post-content li {
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.15rem;
     }
 
     .post-content a {
@@ -379,22 +381,111 @@ const { title, description, date, image, tags = [] } = Astro.props;
       text-decoration-color: #2DA3BD;
     }
 
+    /* bold 색상: 네이버 HTML과 동일 (#334155) */
+    .post-content strong {
+      color: #334155;
+    }
+
     .post-content blockquote {
       border-left: 3px solid #3FB8D3;
-      padding-left: 1rem;
       color: #64748b;
       font-style: italic;
-      margin: 1.5rem 0;
+      margin: 0.75rem auto;
+      max-width: 480px;
+      background: #f8fafc;
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      text-align: center;
     }
 
+    .post-content blockquote p {
+      margin: 0;
+    }
+
+    /* 이미지: 크기 제한 + 가운데 정렬 (기존 네이버 글과 동일 480px) */
     .post-content img {
-      max-width: 100%;
+      max-width: 480px;
+      width: 100%;
       height: auto;
       border-radius: 12px;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
     }
 
-    .post-content strong {
-      color: #0f172a;
+    .post-content p:has(> img:only-child) {
+      text-align: center;
+      margin: 2rem 0 0;
+      padding: 0;
+    }
+
+    /* 이미지 바로 아래 캡션 텍스트: 네이버 .se-caption과 동일 */
+    .post-content p:has(> img) + p:not(:has(img)) {
+      font-size: 0.8rem !important;
+      color: #94a3b8 !important;
+      text-align: left !important;
+      line-height: 1.8 !important;
+      margin-top: 0.75rem !important;
+      margin-bottom: 0 !important;
+      max-width: 480px;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    /* 캡션 안의 링크도 회색으로: 네이버 .se-caption a와 동일 */
+    .post-content p:has(> img) + p a {
+      color: #94a3b8 !important;
+      font-size: 0.75rem;
+    }
+
+    .post-content hr {
+      border: none;
+      border-top: 1px solid #e2e8f0;
+      margin: 2.5rem 0;
+    }
+
+    /* 네이버 블로그 링크 카드 (기존 se-oglink-info와 동일) */
+    .post-content .naver-link-card {
+      display: block;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin: 0.75rem auto;
+      max-width: 480px;
+      text-decoration: none !important;
+      transition: all 0.2s;
+      background: #f8fafc;
+      text-align: left;
+    }
+
+    .post-content .naver-link-card:hover {
+      border-color: #3FB8D3;
+      box-shadow: 0 2px 12px rgba(63,184,211,0.1);
+    }
+
+    .post-content .naver-link-card strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 0.25rem;
+    }
+
+    .post-content .naver-link-summary {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-size: 0.82rem;
+      color: #64748b;
+      margin: 0;
+    }
+
+    .post-content .naver-link-url {
+      display: block;
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-top: 0.3rem;
     }
   </style>
 </BaseLayout>

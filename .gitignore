@@ -1,25 +1,27 @@
-# Bundler cache
-.bundle
-vendor
-Gemfile.lock
+# Astro
+dist/
+.astro/
 
-# Jekyll cache
-.jekyll-cache
-.jekyll-metadata
-_site
-
-# RubyGems
-*.gem
-
-# NPM dependencies
-node_modules
+# Node
+node_modules/
 package-lock.json
 
-# IDE configurations
-.idea
-.vscode
-!.vscode/settings.json
-!.vscode/extensions.json
-.cursor
+# IDE
+.idea/
+.vscode/
+.cursor/
 
-# Misc
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup (migration temp files)
+_backup/
+
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Reference design (not needed for production)
+Professional Dental Information Site/

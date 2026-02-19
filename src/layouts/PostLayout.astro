@@ -1,0 +1,316 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  date?: Date;
+  image?: string;
+  tags?: string[];
+}
+
+const { title, description, date, image, tags = [] } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} image={image}>
+  <article class="py-12 md:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <!-- 헤더 -->
+      <header class="mb-10 pb-8 border-b border-gray-200">
+        {tags.length > 0 && (
+          <div class="flex flex-wrap gap-2 mb-4">
+            {tags.map((tag) => (
+              <span class="bg-brand-bg text-brand text-xs font-semibold px-3 py-1 rounded-full">{tag}</span>
+            ))}
+          </div>
+        )}
+        <h1 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4 leading-tight">{title}</h1>
+        <div class="flex items-center gap-4">
+          {date && (
+            <time class="text-gray-400 text-sm" datetime={date.toISOString()}>
+              {date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
+          )}
+          <span class="text-gray-300">·</span>
+          <span class="text-gray-400 text-sm">윤훈찬</span>
+        </div>
+      </header>
+
+      <!-- 본문 -->
+      <div class="post-content">
+        <slot />
+      </div>
+
+      <!-- 하단 -->
+      <footer class="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <a href="/posts/" class="inline-flex items-center gap-2 text-brand font-semibold hover:gap-3 transition-all">
+          ← 모든 글 보기
+        </a>
+        <a href="https://blog.naver.com/studytosurvive" target="_blank" rel="noopener noreferrer"
+          class="text-sm text-gray-400 hover:text-brand transition-colors">
+          📘 네이버 블로그에서도 읽기
+        </a>
+      </footer>
+    </div>
+  </article>
+
+  <style is:global>
+    .post-content {
+      font-size: 1.05rem;
+      line-height: 1.9;
+      color: #334155;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+
+    /* ===== 네이버 블로그 HTML 오버라이드 ===== */
+
+    .post-content .naver-post,
+    .post-content .se-main-container {
+      max-width: 100%;
+    }
+
+    .post-content .se-component {
+      margin-bottom: 0.15rem;
+    }
+
+    .post-content .se-text-paragraph {
+      margin: 0;
+      padding: 0;
+      font-family: inherit !important;
+      font-size: 1.05rem !important;
+      line-height: 1.9 !important;
+      color: #334155 !important;
+    }
+
+    .post-content .se-text-paragraph-align-center {
+      text-align: center;
+    }
+
+    .post-content .se-fs-fs16 {
+      font-size: 1.05rem !important;
+    }
+
+    /* 빈 줄 (​ zero-width space) 높이 축소 */
+    .post-content .se-text-paragraph:only-child span:only-child:empty,
+    .post-content .se-text-paragraph span[style=""]:only-child {
+      display: block;
+      line-height: 0.8;
+    }
+
+    /* 소제목 (네이버 fs19) */
+    .post-content .se-fs-fs19 {
+      font-size: 1.4rem !important;
+      font-weight: 800 !important;
+      color: #0f172a !important;
+      letter-spacing: -0.02em;
+    }
+
+    .post-content .se-text-paragraph:has(.se-fs-fs19) {
+      margin-top: 1rem !important;
+      margin-bottom: 0.25rem !important;
+      padding: 0.6rem 0;
+    }
+
+    .post-content .se-ff-nanummyeongjo {
+      font-family: inherit !important;
+    }
+
+    /* 인라인 color 오버라이드 */
+    .post-content .se-text-paragraph span[style*="color:#000000"] {
+      color: #334155 !important;
+    }
+
+    /* ===== 이미지 - 확실한 가운데 정렬 ===== */
+
+    .post-content .se-component.se-image {
+      display: flex;
+      justify-content: center;
+    }
+
+    .post-content .se-component-content {
+      width: 100%;
+    }
+
+    .post-content .se-section-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem auto !important;
+    }
+
+    .post-content .se-section-image[style*="max-width"] {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .post-content .se-module-image {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .post-content .se-image-resource {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+      display: block;
+      margin: 0 auto;
+    }
+
+    .post-content .se-module-image-link {
+      display: block;
+      cursor: default;
+      text-align: center;
+    }
+
+    /* 캡션 */
+    .post-content .se-caption {
+      text-align: center;
+      margin-top: 0.75rem;
+      margin-bottom: 0;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .post-content .se-caption p {
+      font-size: 0.8rem !important;
+      color: #94a3b8 !important;
+      line-height: 1.55 !important;
+      text-align: center !important;
+    }
+
+    .post-content .se-caption a {
+      color: #94a3b8 !important;
+      font-size: 0.75rem;
+    }
+
+    /* 구분선 */
+    .post-content .se-hr {
+      border: none;
+      border-top: 1px solid #e2e8f0;
+      margin: 2.5rem 0;
+    }
+
+    /* OG 링크 카드 */
+    .post-content .se-oglink-info {
+      display: block;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin: 0.75rem auto;
+      max-width: 480px;
+      text-decoration: none;
+      transition: all 0.2s;
+      background: #f8fafc;
+    }
+
+    .post-content .se-oglink-info:hover {
+      border-color: #4CBDC4;
+      box-shadow: 0 2px 12px rgba(76,189,196,0.1);
+    }
+
+    .post-content .se-oglink-title {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 0.25rem;
+    }
+
+    .post-content .se-oglink-summary {
+      font-size: 0.82rem;
+      color: #64748b;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .post-content .se-oglink-url {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin: 0.3rem 0 0;
+    }
+
+    /* 하이라이트 텍스트 */
+    .post-content [style*="background-color:#ffef34"] {
+      background: linear-gradient(transparent 55%, #fef08a 55%) !important;
+      padding: 0 3px;
+    }
+
+    /* 밑줄 + 굵은 강조 */
+    .post-content u b,
+    .post-content b u {
+      text-decoration: none;
+      background: linear-gradient(transparent 85%, #4CBDC4 85%);
+      padding-bottom: 2px;
+    }
+
+    /* ===== 일반 마크다운 콘텐츠 (미래 글용) ===== */
+
+    .post-content h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin-top: 3rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #f1f5f9;
+    }
+
+    .post-content h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .post-content p {
+      margin-bottom: 1rem;
+    }
+
+    .post-content ul, .post-content ol {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .post-content li {
+      margin-bottom: 0.4rem;
+    }
+
+    .post-content a {
+      color: #4CBDC4;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: rgba(76,189,196,0.3);
+    }
+
+    .post-content a:hover {
+      color: #3aa8af;
+      text-decoration-color: #3aa8af;
+    }
+
+    .post-content blockquote {
+      border-left: 3px solid #4CBDC4;
+      padding-left: 1rem;
+      color: #64748b;
+      font-style: italic;
+      margin: 1.5rem 0;
+    }
+
+    .post-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .post-content strong {
+      color: #0f172a;
+    }
+  </style>
+</BaseLayout>

@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { Hero } from '../components/Hero';
+import { About } from '../components/About';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0)
+);
+const latestPosts = posts.slice(0, 6);
+---
+
+<BaseLayout title="홈">
+  <Hero />
+
+  <!-- 최신 블로그 포스트 -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 anim-fade-up">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">최신 블로그 포스트</h2>
+        <p class="text-lg text-gray-600">치과 건강에 대한 유용한 정보를 확인하세요</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {latestPosts.map((post, i) => (
+          <a href={`/posts/${post.slug}/`} class={`anim-fade-up anim-delay-${i + 1} bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer group border border-gray-100 block`}>
+            <div class="relative h-48 overflow-hidden">
+              <div class="w-full h-full bg-gradient-to-br from-teal-50 to-cyan-50 flex items-center justify-center">
+                <div class="text-5xl">📝</div>
+              </div>
+              {post.data.categories?.[0] && (
+                <div class="absolute top-4 left-4">
+                  <span class="bg-brand text-white px-3 py-1 rounded-full text-xs font-semibold">{post.data.categories[0]}</span>
+                </div>
+              )}
+            </div>
+            <div class="p-6">
+              {post.data.date && (
+                <div class="flex items-center gap-4 text-xs text-gray-500 mb-3">
+                  <span>📅 {post.data.date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                </div>
+              )}
+              <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-brand transition-colors leading-snug">{post.data.title}</h3>
+              {post.data.description && (
+                <p class="text-gray-600 text-sm leading-relaxed line-clamp-2">{post.data.description}</p>
+              )}
+              <div class="flex items-center text-brand font-semibold mt-4 text-sm group-hover:gap-2 transition-all">
+                <span>더 읽기 →</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      {posts.length > 6 && (
+        <div class="text-center mt-12 anim-fade-up">
+          <a href="/posts/" class="bg-brand text-white px-8 py-3 rounded-lg hover:bg-brand-dark transition-colors font-bold inline-block">
+            더 많은 글 보기
+          </a>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <div class="anim-fade-up">
+    <About />
+  </div>
+
+  <!-- CTA 배너 -->
+  <section class="py-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 anim-scale-in">
+      <div class="bg-gradient-to-r from-brand to-brand-dark rounded-2xl p-8 md:p-12 text-center text-white">
+        <h3 class="text-2xl font-bold mb-3">궁금한 점이 있으시다면 언제든지 연락주세요</h3>
+        <p class="text-white/80 mb-6">더 자세한 치과 정보는 네이버 블로그에서도 확인하실 수 있습니다</p>
+        <a href="https://blog.naver.com/studytosurvive" target="_blank" rel="noopener noreferrer"
+          class="inline-block bg-white text-brand-dark px-8 py-3 rounded-lg font-bold hover:-translate-y-0.5 hover:shadow-lg transition-all">
+          네이버 블로그 바로가기
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
 
 html {
   scroll-behavior: smooth;
@@ -27,8 +27,12 @@ body {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes scaleIn {
@@ -62,11 +66,21 @@ body {
 }
 
 /* stagger 딜레이 */
-.anim-delay-1 { animation-delay: 100ms !important; }
-.anim-delay-2 { animation-delay: 200ms !important; }
-.anim-delay-3 { animation-delay: 300ms !important; }
-.anim-delay-4 { animation-delay: 400ms !important; }
-.anim-delay-5 { animation-delay: 500ms !important; }
+.anim-delay-1 {
+  animation-delay: 100ms !important;
+}
+.anim-delay-2 {
+  animation-delay: 200ms !important;
+}
+.anim-delay-3 {
+  animation-delay: 300ms !important;
+}
+.anim-delay-4 {
+  animation-delay: 400ms !important;
+}
+.anim-delay-5 {
+  animation-delay: 500ms !important;
+}
 
 /* 히어로 전용 - 페이지 로드 시 즉시 재생 */
 .hero-anim-1 {

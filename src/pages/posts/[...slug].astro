@@ -6,12 +6,58 @@ export async function getStaticPaths() {
   const posts = await getCollection('posts');
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: post,
+    props: { post, allPosts: posts },
   }));
 }
 
-const post = Astro.props;
+const { post, allPosts } = Astro.props;
 const { Content } = await post.render();
+
+const bodyText = post.body.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+const readingTime = Math.max(1, Math.round(bodyText.length / 500));
+
+const myTags = post.data.tags ?? [];
+
+function getKeywords(tags: string[]): string[] {
+  const roots = new Set<string>();
+  const keywords = [
+    '사랑니','임플란트','크라운','인레이','스케일링','신경치료','충치',
+    '미백','라미네이트','잇몸','발치','치주염','치은염','보철','교정',
+    '시림','입냄새','구취','유치','불소','마취','양치','레진','온레이',
+    '뼈이식','앞니','어금니','턱관절','양악','세렉','치아변색','구강',
+    '치수염','파절','깨짐','통증','출혈','붓기','염증','수면',
+  ];
+  for (const tag of tags) {
+    for (const kw of keywords) {
+      if (tag.includes(kw)) roots.add(kw);
+    }
+    roots.add(tag);
+  }
+  return [...roots];
+}
+
+const myKeywords = new Set(getKeywords(myTags));
+
+const scored = allPosts
+  .filter((p: any) => p.slug !== post.slug)
+  .map((p: any) => {
+    const otherKeywords = getKeywords(p.data.tags ?? []);
+    let score = 0;
+    for (const kw of otherKeywords) {
+      if (myKeywords.has(kw)) score += 1;
+    }
+    return { ...p, score };
+  })
+  .filter((p: any) => p.score > 0)
+  .sort((a: any, b: any) => b.score - a.score || (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0))
+  .slice(0, 3);
+
+const relatedPosts = scored.map((p: any) => ({
+  slug: p.slug,
+  title: p.data.title,
+  image: p.data.image?.path ?? null,
+  date: p.data.date,
+}));
 ---
 
 <PostLayout
@@ -20,6 +66,8 @@ const { Content } = await post.render();
   date={post.data.date}
   image={post.data.image?.path}
   tags={post.data.tags}
+  relatedPosts={relatedPosts}
+  readingTime={readingTime}
 >
   <Content />
 </PostLayout>

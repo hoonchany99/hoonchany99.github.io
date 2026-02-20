@@ -8,6 +8,17 @@ const posts = (await getCollection('posts')).sort(
   (a, b) => (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0)
 );
 const latestPosts = posts.slice(0, 6);
+
+function getExcerpt(body: string, maxLen = 100): string {
+  const text = body.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+  if (text.length <= maxLen) return text;
+  return text.slice(0, maxLen).replace(/\s\S*$/, '') + '…';
+}
+
+function getReadingTime(body: string): number {
+  const text = body.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+  return Math.max(1, Math.round(text.length / 500));
+}
 ---
 
 <BaseLayout title="홈" description="진료실에서 미처 다 하지 못한 치아 이야기. 정확한 정보만, 치과의사가 직접 전합니다.">
@@ -39,18 +50,17 @@ const latestPosts = posts.slice(0, 6);
               )}
             </div>
             <div class="p-5 sm:p-6 flex flex-col justify-center flex-1 min-w-0">
-              <div class="flex items-center gap-3 mb-3">
+              <div class="flex items-center gap-3 mb-3 flex-wrap">
                 {post.data.categories?.[0] && (
                   <span class="bg-brand/10 text-brand px-3 py-0.5 rounded-full text-xs font-semibold">{post.data.categories[0]}</span>
                 )}
                 {post.data.date && (
                   <span class="text-xs text-gray-400">{post.data.date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
                 )}
+                <span class="text-xs text-gray-400">{getReadingTime(post.body)}분 읽기</span>
               </div>
               <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-brand transition-colors leading-snug">{post.data.title}</h3>
-              {post.data.description && (
-                <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">{post.data.description}</p>
-              )}
+              <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">{getExcerpt(post.body)}</p>
               <div class="flex items-center text-brand font-semibold mt-3 text-sm group-hover:gap-2 transition-all">
                 <span>더 읽기 →</span>
               </div>

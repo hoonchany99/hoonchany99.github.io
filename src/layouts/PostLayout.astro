@@ -1,15 +1,24 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 
+interface RelatedPost {
+  slug: string;
+  title: string;
+  image: string | null;
+  date?: Date;
+}
+
 interface Props {
   title: string;
   description?: string;
   date?: Date;
   image?: string;
   tags?: string[];
+  relatedPosts?: RelatedPost[];
+  readingTime?: number;
 }
 
-const { title, description, date, image, tags = [] } = Astro.props;
+const { title, description, date, image, tags = [], relatedPosts = [], readingTime } = Astro.props;
 ---
 
 <BaseLayout title={title} description={description} image={image} type="article" publishedDate={date} tags={tags}>
@@ -19,7 +28,7 @@ const { title, description, date, image, tags = [] } = Astro.props;
       <header class="mb-10 pb-8 border-b border-gray-200 max-w-3xl">
         {tags.length > 0 && (
           <div class="flex flex-wrap gap-2 mb-4">
-            {tags.map((tag) => (
+            {tags.slice(0, 4).map((tag) => (
               <span class="bg-brand-bg text-brand text-xs font-semibold px-3 py-1 rounded-full">{tag}</span>
             ))}
           </div>
@@ -37,6 +46,12 @@ const { title, description, date, image, tags = [] } = Astro.props;
                 </time>
               </>
             )}
+            {readingTime && (
+              <>
+                <span class="text-gray-300">·</span>
+                <span>{readingTime}분 읽기</span>
+              </>
+            )}
           </div>
         </div>
       </header>
@@ -48,14 +63,57 @@ const { title, description, date, image, tags = [] } = Astro.props;
             <slot />
           </div>
 
+          <!-- 공유 -->
+          <div class="mt-12 pt-8 border-t border-gray-200">
+            <p class="text-sm font-semibold text-gray-500 mb-3">공유하기</p>
+            <div class="flex items-center gap-3">
+              <button
+                id="share-native"
+                class="hidden items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-brand text-white hover:brightness-95 transition-all"
+              >
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
+                공유하기
+              </button>
+              <button
+                id="share-copy"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-all"
+              >
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                <span id="copy-label">링크 복사</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 관련 글 추천 -->
+          {relatedPosts.length > 0 && (
+            <div class="mt-12 pt-8 border-t border-gray-200">
+              <h2 class="text-lg font-bold text-gray-900 mb-6">함께 읽으면 좋은 글</h2>
+              <div class="grid sm:grid-cols-3 gap-4">
+                {relatedPosts.map((rp) => (
+                  <a href={`/posts/${rp.slug}/`} class="group block bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+                    <div class="aspect-[16/10] bg-gradient-to-br from-teal-50 to-cyan-50 overflow-hidden">
+                      {rp.image ? (
+                        <img src={rp.image} alt={rp.title} loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                      ) : (
+                        <div class="w-full h-full flex items-center justify-center text-4xl">📝</div>
+                      )}
+                    </div>
+                    <div class="p-4">
+                      <h3 class="text-sm font-bold text-gray-900 group-hover:text-brand transition-colors leading-snug line-clamp-2">{rp.title}</h3>
+                      {rp.date && (
+                        <p class="text-xs text-gray-400 mt-1">{rp.date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                      )}
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
           <!-- 하단 -->
-          <footer class="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+          <footer class="mt-12 pt-8 border-t border-gray-200">
             <a href="/posts/" class="inline-flex items-center gap-2 text-brand font-semibold hover:gap-3 transition-all">
               ← 모든 글 보기
-            </a>
-            <a href="https://blog.naver.com/studytosurvive" target="_blank" rel="noopener noreferrer"
-              class="text-sm text-gray-400 hover:text-brand transition-colors">
-              📘 네이버 블로그에서도 읽기
             </a>
           </footer>
         </div>
@@ -71,6 +129,34 @@ const { title, description, date, image, tags = [] } = Astro.props;
       </div>
     </div>
   </article>
+
+  <script>
+    (function initShare() {
+      const copyBtn = document.getElementById('share-copy');
+      const copyLabel = document.getElementById('copy-label');
+      if (copyBtn) {
+        copyBtn.addEventListener('click', async () => {
+          try {
+            await navigator.clipboard.writeText(window.location.href);
+            if (copyLabel) { copyLabel.textContent = '복사 완료!'; setTimeout(() => { copyLabel.textContent = '링크 복사'; }, 2000); }
+          } catch { /* fallback */ }
+        });
+      }
+
+      const nativeBtn = document.getElementById('share-native');
+      if (navigator.share && nativeBtn) {
+        nativeBtn.classList.remove('hidden');
+        nativeBtn.classList.add('inline-flex');
+        nativeBtn.addEventListener('click', () => {
+          navigator.share({
+            title: document.title,
+            text: document.querySelector('meta[name="description"]')?.getAttribute('content') || '',
+            url: window.location.href,
+          }).catch(() => {});
+        });
+      }
+    })();
+  </script>
 
   <script>
     function buildTOC() {
@@ -274,46 +360,59 @@ const { title, description, date, image, tags = [] } = Astro.props;
       margin: 2.5rem 0;
     }
 
-    /* OG 링크 카드 */
+    /* OG 링크 카드 — 미니멀 */
+    .post-content .se-oglink-thumbnail {
+      display: none;
+    }
+
     .post-content .se-oglink-info {
-      display: block;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
       border: 1px solid #e2e8f0;
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
-      margin: 0.75rem auto;
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
+      margin: 0.5rem auto;
       max-width: 480px;
       text-decoration: none;
       transition: all 0.2s;
       background: #f8fafc;
     }
 
+    .post-content .se-oglink-info::before {
+      content: '🔗';
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+
     .post-content .se-oglink-info:hover {
       border-color: #3FB8D3;
-      box-shadow: 0 2px 12px rgba(76,189,196,0.1);
+      background: #f0fdfa;
+    }
+
+    .post-content .se-oglink-info-container {
+      display: flex;
+      align-items: center;
     }
 
     .post-content .se-oglink-title {
-      display: block;
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: #1e293b;
-      margin-bottom: 0.25rem;
-    }
-
-    .post-content .se-oglink-summary {
-      font-size: 0.82rem;
-      color: #64748b;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: #334155;
       margin: 0;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
+      white-space: nowrap;
       overflow: hidden;
+      text-overflow: ellipsis;
     }
 
+    .post-content .se-oglink-summary,
     .post-content .se-oglink-url {
-      font-size: 0.75rem;
-      color: #94a3b8;
-      margin: 0.3rem 0 0;
+      display: none;
+    }
+
+    .post-content .se-section-oglink {
+      display: flex;
+      justify-content: center;
     }
 
     /* 하이라이트 텍스트 */

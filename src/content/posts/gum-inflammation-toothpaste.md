@@ -2,7 +2,7 @@
 title: "잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까?"
 date: 2026-02-13
 categories: [치과사전, 일상편]
-tags: [잇몸치약, 잇몸질환, 치약추천, 치과관리]
+tags: ["잇몸치약", "잇몸질환치약", "잇몸질환약", "치약추천", "잇몸염증치약"]
 description: "잇몸이 자주 붓고 피가 난다면 치약을 어떻게 골라야 하고, 어떤 관리가 우선인지 정리했습니다."
 image:
   path: /img/posts/gum-inflammation-toothpaste/main.png
@@ -126,7 +126,7 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a class="se-oglink-info __se_link" data-linkdata='{"id": "SE-716d8bd1-7592-4378-a26e-499f5b4e536d", "link": "https://blog.naver.com/studytosurvive?Redirect=Log&amp;#38;logNo=222876694919&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist"}' data-linktype="oglink" href="https://blog.naver.com/studytosurvive?Redirect=Log&amp;logNo=222876694919&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" target="_blank">
+<a class="se-oglink-info __se_link" data-linkdata='{"id": "SE-716d8bd1-7592-4378-a26e-499f5b4e536d", "link": "/posts/brushing-cavity/"}' data-linktype="oglink" href="/posts/brushing-cavity/" >
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">올바른 양치법, 이것만 알아도 충치안생깁니다</strong>
 <p class="se-oglink-summary">안녕하세요. 서울대학교 치의학대학원 출신 윤원장입니다. 사실 저는 양치질을 대충합니다. 그럼에도 치아...</p>
@@ -207,7 +207,7 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a class="se-oglink-info __se_link" data-linkdata='{"id": "SE-cebb2cd8-7e74-4d99-a26d-a6bdd4d1edc5", "link": "https://blog.naver.com/studytosurvive?Redirect=Log&amp;#38;logNo=222876694919&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist"}' data-linktype="oglink" href="https://blog.naver.com/studytosurvive?Redirect=Log&amp;logNo=222876694919&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" target="_blank">
+<a class="se-oglink-info __se_link" data-linkdata='{"id": "SE-cebb2cd8-7e74-4d99-a26d-a6bdd4d1edc5", "link": "/posts/brushing-cavity/"}' data-linktype="oglink" href="/posts/brushing-cavity/" >
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">올바른 양치법, 이것만 알아도 충치안생깁니다</strong>
 <p class="se-oglink-summary">안녕하세요. 서울대학교 치의학대학원 출신 윤원장입니다. 사실 저는 양치질을 대충합니다. 그럼에도 치아...</p>
@@ -223,7 +223,7 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a class="se-oglink-info __se_link" data-linkdata='{"id": "SE-f58ef50e-aea4-4304-9c25-86ffafdff72a", "link": "https://blog.naver.com/studytosurvive?Redirect=Log&amp;#38;logNo=223116990641&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist"}' data-linktype="oglink" href="https://blog.naver.com/studytosurvive?Redirect=Log&amp;logNo=223116990641&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" target="_blank">
+<a class="se-oglink-info __se_link" data-linkdata='{"id": "SE-f58ef50e-aea4-4304-9c25-86ffafdff72a", "link": "/posts/gum-throbbing/"}' data-linktype="oglink" href="/posts/gum-throbbing/" >
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">잇몸욱신, 그냥 두면 안됩니다.</strong>
 <p class="se-oglink-summary">안녕하세요, 서울대학교 치의학대학원 출신 윤원장입니다. "잠을 못잤더니 갑자기 잇몸이 욱신거리네....</p>

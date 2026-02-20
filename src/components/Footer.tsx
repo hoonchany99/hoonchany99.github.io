@@ -17,6 +17,8 @@ export function Footer() {
           <span className="text-gray-700">·</span>
           <a href="/posts/" className="text-sm text-gray-400 hover:text-white transition-colors">블로그</a>
           <span className="text-gray-700">·</span>
+          <a href="/qna/" className="text-sm text-gray-400 hover:text-white transition-colors">Q&A</a>
+          <span className="text-gray-700">·</span>
           <a href="/about/" className="text-sm text-gray-400 hover:text-white transition-colors">소개</a>
           <span className="text-gray-700">·</span>
           <a

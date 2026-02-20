@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const faqs = [
+  {
+    question: '충치가 있는데 안 아프면 치료 안 해도 되나요?',
+    answer: '충치는 초기에는 통증이 없는 경우가 대부분입니다. 통증이 느껴질 때는 이미 신경 근처까지 진행된 경우가 많아, 간단한 레진 치료로 끝날 수 있었던 것이 신경치료나 크라운까지 필요해질 수 있습니다. 증상이 없더라도 정기 검진을 통해 조기에 발견하는 것이 치료 범위와 비용 모두를 줄이는 가장 좋은 방법입니다.',
+  },
+  {
+    question: '스케일링을 하면 치아 사이가 벌어지나요?',
+    answer: '스케일링 후 이가 벌어진 느낌이 드는 것은 치석이 제거되면서 원래 있던 공간이 드러나기 때문입니다. 치석은 세균 덩어리이기 때문에 그대로 두면 잇몸뼈가 녹아 치아가 흔들리게 됩니다. 오히려 스케일링을 꾸준히 받는 것이 잇몸 건강을 지키는 핵심이며, 건강보험 적용으로 1년에 1회 부담 없이 받으실 수 있습니다.',
+  },
+  {
+    question: '임플란트는 한 번 하면 평생 쓸 수 있나요?',
+    answer: '임플란트 자체(티타늄 나사)는 반영구적이지만, 위에 씌우는 보철물과 주변 잇몸은 관리가 필요합니다. 임플란트 주위염이 생기면 뼈가 녹아 임플란트가 흔들릴 수 있기 때문에, 자연 치아와 마찬가지로 올바른 칫솔질과 6개월~1년 주기의 정기 검진이 수명을 결정합니다. 잘 관리하시면 20년 이상 사용하시는 분들도 많습니다.',
+  },
+  {
+    question: '아이 유치는 어차피 빠지는데 치료해야 하나요?',
+    answer: '유치는 단순히 빠지는 치아가 아니라 영구치가 나올 자리를 잡아주는 역할을 합니다. 유치가 충치로 일찍 빠지면 옆 치아가 쓰러져 영구치가 나올 공간이 부족해지고, 이후 교정이 필요해질 수 있습니다. 또한 유치의 심한 감염은 아래에서 자라고 있는 영구치에도 영향을 줄 수 있어, 적절한 시기에 치료하는 것이 중요합니다.',
+  },
+  {
+    question: '치과가 무서워서 못 가겠어요. 방법이 있을까요?',
+    answer: '치과 공포는 매우 흔하고 자연스러운 감정입니다. 요즘은 통증을 최소화하는 다양한 방법이 있습니다. 표면 마취 후 주사를 놓아 주사 통증 자체를 줄이고, 필요한 경우 웃음가스(N₂O)를 통해 긴장을 완화할 수도 있습니다. 무엇보다 치료 전 충분한 설명을 듣는 것만으로도 두려움이 크게 줄어듭니다. 무서우시면 그 마음을 먼저 말씀해 주세요.',
+  },
+];
+
+const faqSchema = faqs.map((f) => ({ question: f.question, answer: f.answer }));
+
+const TALLY_FORM_ID = '7RW1xZ';
+---
+
+<BaseLayout
+  title="Q&A"
+  description="치과 관련 궁금한 점을 편하게 남겨주세요. 서울대 윤원장이 직접 선별하여 답변해 드립니다."
+  faqSchema={faqSchema}
+>
+
+  <section class="py-16 md:py-24 bg-white">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6">
+
+      <div class="text-center mb-16 anim-fade-up">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+          궁금한 점, <span class="text-brand">편하게</span> 물어보세요
+        </h1>
+        <p class="text-lg text-gray-500 leading-relaxed max-w-md mx-auto">
+          치과 관련 궁금한 점을 편하게 남겨주세요.<br />
+          비공개로 전달되며, 선별하여 블로그 글이나 FAQ로 답변해 드립니다.
+        </p>
+      </div>
+
+      <div class="mb-20 anim-fade-up">
+        <h2 class="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+          <span class="w-1 h-6 bg-brand rounded-full inline-block"></span>
+          자주 묻는 질문
+        </h2>
+
+        <div class="space-y-3" id="faq-list">
+          {faqs.map((faq, i) => (
+            <details class="group border border-gray-200 rounded-xl overflow-hidden transition-all hover:border-gray-300">
+              <summary class="flex items-center justify-between cursor-pointer px-5 py-4 text-left select-none">
+                <span class="font-medium text-gray-800 pr-4">{faq.question}</span>
+                <svg class="w-5 h-5 text-gray-400 shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div class="px-5 pb-4 text-gray-600 leading-relaxed text-[15px]">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+
+      <hr class="border-gray-100 mb-16 anim-fade-in" />
+
+      <div class="anim-fade-up">
+        <h2 class="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
+          <span class="w-1 h-6 bg-brand rounded-full inline-block"></span>
+          질문 남기기
+        </h2>
+        <p class="text-sm text-gray-500 mb-8">
+          보내주신 질문은 비공개로 윤원장에게만 전달됩니다.<br />
+          이메일을 남겨주시면 개별 답변해 드리며, 자주 묻는 질문은 개인정보 없이 블로그 글이나 FAQ에 반영될 수 있습니다.
+        </p>
+
+        {TALLY_FORM_ID ? (
+          <iframe
+            data-tally-src={`https://tally.so/embed/${TALLY_FORM_ID}?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1`}
+            loading="lazy"
+            width="100%"
+            height="500"
+            frameborder="0"
+            title="질문 남기기"
+            class="rounded-xl"
+            style="min-height:300px;"
+          ></iframe>
+          <script is:inline src="https://tally.so/widgets/embed.js"></script>
+        ) : (
+          <div class="border-2 border-dashed border-gray-200 rounded-xl p-8 text-center">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center">
+              <svg class="w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+            </div>
+            <p class="text-gray-500 font-medium mb-2">질문 폼 준비 중</p>
+            <p class="text-sm text-gray-400">곧 질문을 남기실 수 있습니다.</p>
+          </div>
+        )}
+      </div>
+
+      <div class="mt-16 text-center anim-fade-up">
+        <p class="text-sm text-gray-400">
+          급한 문의는
+          <a href="mailto:hoonchany99@gmail.com" class="text-brand hover:underline font-medium">이메일</a>로
+          보내주셔도 됩니다.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+</BaseLayout>

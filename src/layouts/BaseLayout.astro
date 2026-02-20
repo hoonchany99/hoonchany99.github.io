@@ -17,6 +17,7 @@ interface Props {
   tags?: string[];
   breadcrumbs?: BreadcrumbItem[];
   faqSchema?: { question: string; answer: string }[];
+  noindex?: boolean;
 }
 
 const {
@@ -28,12 +29,30 @@ const {
   tags = [],
   breadcrumbs,
   faqSchema,
+  noindex = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site).href;
 const siteName = '서울대 윤원장의 치과사전';
 const authorName = '서울대 윤원장';
+const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
+const pageTitle = isHome ? siteName : `${title} | ${siteName}`;
+
+const siteLogoUrl = new URL('/img/윤원장의치과사전.png', Astro.site).href;
+
+const websiteLd = isHome ? JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: siteName,
+  url: Astro.site?.href,
+  description,
+  publisher: {
+    '@type': 'Person',
+    name: authorName,
+    url: Astro.site?.href,
+  },
+}) : null;
 
 const jsonLd = type === 'article' ? JSON.stringify({
   '@context': 'https://schema.org',
@@ -44,12 +63,12 @@ const jsonLd = type === 'article' ? JSON.stringify({
   author: {
     '@type': 'Person',
     name: authorName,
-    url: 'https://blog.naver.com/studytosurvive',
+    url: Astro.site?.href,
   },
   publisher: {
     '@type': 'Organization',
     name: siteName,
-    logo: { '@type': 'ImageObject', url: new URL('/img/윤원장의치과사전.png', Astro.site).href },
+    logo: { '@type': 'ImageObject', url: siteLogoUrl },
   },
   url: canonicalURL.href,
   datePublished: publishedDate?.toISOString(),
@@ -85,18 +104,26 @@ const faqLd = faqSchema?.length ? JSON.stringify({
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {noindex ? (
+    <meta name="robots" content="noindex, nofollow" />
+  ) : (
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  )}
+  <meta name="author" content={authorName} />
+  <meta name="theme-color" content="#3FB8D3" />
   <link rel="icon" type="image/png" href="/img/avatar.png" />
+  <link rel="apple-touch-icon" href="/img/avatar.png" />
   <link rel="canonical" href={canonicalURL} />
   <link rel="alternate" type="application/rss+xml" title={siteName} href={new URL('/rss.xml', Astro.site)} />
   <link rel="sitemap" href="/sitemap-index.xml" />
 
-  <title>{title} | {siteName}</title>
+  <title>{pageTitle}</title>
   <meta name="description" content={description} />
 
   <!-- Open Graph -->
   <meta property="og:type" content={type} />
   <meta property="og:url" content={canonicalURL} />
-  <meta property="og:title" content={title} />
+  <meta property="og:title" content={pageTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:image" content={ogImage} />
   <meta property="og:locale" content="ko_KR" />
@@ -113,7 +140,7 @@ const faqLd = faqSchema?.length ? JSON.stringify({
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={title} />
+  <meta name="twitter:title" content={pageTitle} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={ogImage} />
 
@@ -121,6 +148,7 @@ const faqLd = faqSchema?.length ? JSON.stringify({
   <meta name="google-site-verification" content="vGrVYbN3w-4NUUDXN8V7ErxN9c78oaswIkpjTsk91_4" />
 
   <!-- JSON-LD 구조화 데이터 -->
+  {websiteLd && <script type="application/ld+json" set:html={websiteLd} />}
   {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
   {breadcrumbLd && <script type="application/ld+json" set:html={breadcrumbLd} />}
   {faqLd && <script type="application/ld+json" set:html={faqLd} />}

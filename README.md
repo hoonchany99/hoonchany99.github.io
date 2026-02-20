@@ -2,7 +2,7 @@
 
 A dental health blog by Dr. Hoonchan Yoon — reliable oral health information written by a practicing dentist.
 
-**[hoonchany99.github.io](https://hoonchany99.github.io)**
+**[doctoryoon.kr](https://doctoryoon.kr)**
 
 ## Tech Stack
 

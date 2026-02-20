@@ -4,7 +4,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://hoonchany99.github.io',
+  site: 'https://doctoryoon.kr',
   integrations: [
     react(),
     tailwind(),

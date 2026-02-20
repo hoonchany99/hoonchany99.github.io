@@ -34,8 +34,8 @@ function getReadingTime(body: string): number {
 
       <div class="grid md:grid-cols-2 gap-6">
         {latestPosts.map((post, i) => (
-          <a href={`/posts/${post.slug}/`} class={`anim-fade-up anim-delay-${Math.min(i + 1, 3)} bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer group border border-gray-100 flex flex-col sm:flex-row`}>
-            <div class="sm:w-32 md:w-40 flex-shrink-0 overflow-hidden bg-gradient-to-br from-teal-50 to-cyan-50">
+          <a href={`/posts/${post.slug}/`} class={`anim-fade-up anim-delay-${Math.min(i + 1, 3)} bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer group border border-gray-100 flex flex-row`}>
+            <div class="hidden sm:block sm:w-32 md:w-40 flex-shrink-0 overflow-hidden bg-gradient-to-br from-teal-50 to-cyan-50">
               {post.data.image?.path ? (
                 <img
                   src={post.data.image.path}

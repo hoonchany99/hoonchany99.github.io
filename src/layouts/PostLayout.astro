@@ -192,6 +192,11 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
             </ul>
           </nav>
         </aside>
+
+        <!-- 목차 (모바일 — 오른쪽 도트 인디케이터) -->
+        <nav id="mobile-toc" class="fixed right-2 top-1/2 -translate-y-1/2 z-40 lg:hidden opacity-0 pointer-events-none transition-opacity duration-500">
+          <div class="flex flex-col items-center gap-3" id="mobile-toc-dots"></div>
+        </nav>
       </div>
     </div>
   </article>
@@ -268,6 +273,8 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
     function buildTOC() {
       const content = document.querySelector('.post-content');
       const tocList = document.getElementById('toc-list');
+      const mobileTocList = document.getElementById('mobile-toc-list');
+      const mobileTocNav = document.getElementById('mobile-toc');
       if (!content || !tocList) return;
 
       const headings: { el: Element; text: string; level: number }[] = [];
@@ -291,6 +298,7 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
       if (headings.length === 0) {
         const toc = document.getElementById('toc');
         if (toc) toc.style.display = 'none';
+        if (mobileTocNav) mobileTocNav.style.display = 'none';
         return;
       }
 
@@ -304,19 +312,70 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
         a.dataset.tocTarget = targetId;
         li.appendChild(a);
         tocList.appendChild(li);
+
+        const mobileDots = document.getElementById('mobile-toc-dots');
+        if (mobileDots && level === 2) {
+          const dot = document.createElement('button');
+          const label = text.replace(/^[\s\u200B]*[^\w가-힣\s]*\s*/, '').substring(0, 12) || text.substring(0, 12);
+          dot.className = 'mobile-toc-item group relative w-2 h-2 rounded-full bg-gray-300/40 transition-all duration-300 hover:scale-150';
+          dot.dataset.tocTarget = targetId;
+          dot.setAttribute('aria-label', label);
+          dot.addEventListener('click', () => {
+            document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+
+          const tooltip = document.createElement('span');
+          tooltip.textContent = label;
+          tooltip.className = 'absolute right-5 top-1/2 -translate-y-1/2 whitespace-nowrap text-[11px] font-medium text-gray-600 bg-white/90 backdrop-blur-sm px-2.5 py-1 rounded-lg shadow-sm border border-gray-100 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200';
+          dot.appendChild(tooltip);
+
+          mobileDots.appendChild(dot);
+        }
       });
 
-      const tocLinks = tocList.querySelectorAll('a[data-toc-target]');
+      const mDots = document.getElementById('mobile-toc-dots');
+      if (mobileTocNav && mDots && mDots.children.length > 0) {
+        let hideTimer: ReturnType<typeof setTimeout>;
+        const show = () => {
+          mobileTocNav.classList.remove('opacity-0', 'pointer-events-none');
+          mobileTocNav.classList.add('opacity-100');
+        };
+        const fadeOut = () => {
+          clearTimeout(hideTimer);
+          hideTimer = setTimeout(() => {
+            mobileTocNav.classList.remove('opacity-100');
+            mobileTocNav.classList.add('opacity-0', 'pointer-events-none');
+          }, 3000);
+        };
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 300) { show(); fadeOut(); }
+          else { mobileTocNav.classList.add('opacity-0', 'pointer-events-none'); mobileTocNav.classList.remove('opacity-100'); }
+        }, { passive: true });
+        mobileTocNav.addEventListener('pointerenter', () => { clearTimeout(hideTimer); show(); });
+        mobileTocNav.addEventListener('pointerleave', fadeOut);
+      }
+
+      const allTocLinks = document.querySelectorAll('a[data-toc-target]');
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              tocLinks.forEach((l) => l.classList.remove('text-brand', 'font-semibold'));
-              const active = tocList.querySelector(`a[data-toc-target="${entry.target.id}"]`);
-              if (active) {
-                active.classList.remove('text-gray-400');
-                active.classList.add('text-brand', 'font-semibold');
-              }
+              allTocLinks.forEach((l) => {
+                l.classList.remove('text-brand', 'font-semibold');
+                if (l.classList.contains('mobile-toc-item')) {
+                  l.classList.remove('!bg-brand', 'w-3', 'h-3');
+                  l.classList.add('bg-gray-300/40', 'w-2', 'h-2');
+                }
+              });
+              document.querySelectorAll(`[data-toc-target="${entry.target.id}"]`).forEach((active) => {
+                if (active.classList.contains('mobile-toc-item')) {
+                  active.classList.remove('bg-gray-300/40', 'w-2', 'h-2');
+                  active.classList.add('!bg-brand', 'w-3', 'h-3');
+                } else {
+                  active.classList.remove('text-gray-400');
+                  active.classList.add('text-brand', 'font-semibold');
+                }
+              });
             }
           });
         },

@@ -23,8 +23,7 @@ export function Hero() {
         </h1>
         <p className="hero-anim-3 text-lg md:text-xl text-gray-500 mb-10 leading-relaxed max-w-xl mx-auto">
           정확한 정보만, 치과의사가 직접 전합니다.
-          <br />
-          이 글들이 여러분의 걱정을 조금 덜어주길 바랍니다.
+          <br />이 글들이 여러분의 걱정을 조금 덜어주길 바랍니다.
         </p>
         <div className="hero-anim-4 flex flex-row gap-3 sm:gap-4 justify-center">
           <a

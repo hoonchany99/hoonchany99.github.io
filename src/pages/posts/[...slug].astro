@@ -18,17 +18,45 @@ const readingTime = Math.max(1, Math.round(bodyText.length / 500));
 
 const myTags = post.data.tags ?? [];
 
+// 전체 태그에서 공통 루트 키워드를 자동 추출
+function buildRootKeywords(allPosts: any[]): string[] {
+  const tagSet = new Set<string>();
+  for (const p of allPosts) {
+    for (const t of (p.data.tags ?? [])) tagSet.add(t);
+  }
+  const allTags = [...tagSet];
+
+  const freq = new Map<string, number>();
+  for (const tag of allTags) {
+    for (const other of allTags) {
+      if (tag === other) continue;
+      // tag가 other의 부분 문자열이고 2글자 이상이면 루트 후보
+      if (tag.length >= 2 && tag.length <= 6 && other.includes(tag)) {
+        freq.set(tag, (freq.get(tag) ?? 0) + 1);
+      }
+      // 공통 접두사 추출 (2~6글자)
+      let common = 0;
+      while (common < tag.length && common < other.length && tag[common] === other[common]) common++;
+      if (common >= 2 && common <= 6) {
+        const prefix = tag.slice(0, common);
+        freq.set(prefix, (freq.get(prefix) ?? 0) + 1);
+      }
+    }
+  }
+
+  return [...freq.entries()]
+    .filter(([kw, cnt]) => cnt >= 2 && kw.length >= 2)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 150)
+    .map(([kw]) => kw);
+}
+
+const autoKeywords = buildRootKeywords(allPosts);
+
 function getKeywords(tags: string[]): string[] {
   const roots = new Set<string>();
-  const keywords = [
-    '사랑니','임플란트','크라운','인레이','스케일링','신경치료','충치',
-    '미백','라미네이트','잇몸','발치','치주염','치은염','보철','교정',
-    '시림','입냄새','구취','유치','불소','마취','양치','레진','온레이',
-    '뼈이식','앞니','어금니','턱관절','양악','세렉','치아변색','구강',
-    '치수염','파절','깨짐','통증','출혈','붓기','염증','수면',
-  ];
   for (const tag of tags) {
-    for (const kw of keywords) {
+    for (const kw of autoKeywords) {
       if (tag.includes(kw)) roots.add(kw);
     }
     roots.add(tag);

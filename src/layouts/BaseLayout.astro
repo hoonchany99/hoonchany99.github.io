@@ -152,6 +152,15 @@ const faqLd = faqSchema?.length ? JSON.stringify({
   <!-- Naver Search Advisor -->
   <meta name="naver-site-verification" content="a39315f66a646c5d87ef9f7c9b0b8f5ee0d321e1" />
 
+  <!-- Google Analytics -->
+  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-R57Y08MWVH"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-R57Y08MWVH');
+  </script>
+
   <!-- JSON-LD 구조화 데이터 -->
   {websiteLd && <script type="application/ld+json" set:html={websiteLd} />}
   {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}

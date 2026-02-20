@@ -6,6 +6,14 @@ interface RelatedPost {
   title: string;
   image: string | null;
   date?: Date;
+  category?: string | null;
+  excerpt?: string;
+  readingTime?: number;
+}
+
+interface NavPost {
+  slug: string;
+  title: string;
 }
 
 interface Props {
@@ -16,14 +24,42 @@ interface Props {
   tags?: string[];
   relatedPosts?: RelatedPost[];
   readingTime?: number;
+  prevPost?: NavPost | null;
+  nextPost?: NavPost | null;
+  faqSchema?: { question: string; answer: string }[];
 }
 
-const { title, description, date, image, tags = [], relatedPosts = [], readingTime } = Astro.props;
+const { title, description, date, image, tags = [], relatedPosts = [], readingTime, prevPost, nextPost, faqSchema } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} image={image} type="article" publishedDate={date} tags={tags}>
+<BaseLayout
+  title={title}
+  description={description}
+  image={image}
+  type="article"
+  publishedDate={date}
+  tags={tags}
+  breadcrumbs={[
+    { name: '홈', url: '/' },
+    { name: '블로그', url: '/posts/' },
+    { name: title, url: Astro.url.pathname },
+  ]}
+  faqSchema={faqSchema}
+>
+  <!-- 읽기 진행률 바 -->
+  <div id="reading-progress" class="fixed top-0 left-0 h-[3px] bg-brand z-50 transition-none" style="width:0%"></div>
+
   <article class="py-12 md:py-20">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <!-- Breadcrumb -->
+      <nav class="mb-6 text-sm text-gray-400" aria-label="breadcrumb">
+        <ol class="flex items-center gap-1.5 flex-wrap">
+          <li><a href="/" class="hover:text-brand transition-colors">홈</a></li>
+          <li class="before:content-['/'] before:mx-1.5 before:text-gray-300"><a href="/posts/" class="hover:text-brand transition-colors">블로그</a></li>
+          <li class="before:content-['/'] before:mx-1.5 before:text-gray-300 text-gray-600 font-medium truncate max-w-[280px] sm:max-w-none">{title}</li>
+        </ol>
+      </nav>
+
       <!-- 헤더 -->
       <header class="mb-10 pb-8 border-b border-gray-200 max-w-3xl">
         {tags.length > 0 && (
@@ -88,21 +124,35 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
           {relatedPosts.length > 0 && (
             <div class="mt-12 pt-8 border-t border-gray-200">
               <h2 class="text-lg font-bold text-gray-900 mb-6">함께 읽으면 좋은 글</h2>
-              <div class="grid sm:grid-cols-3 gap-4">
+              <div class="flex flex-col sm:grid sm:grid-cols-3 gap-6 sm:gap-4">
                 {relatedPosts.map((rp) => (
-                  <a href={`/posts/${rp.slug}/`} class="group block bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-lg hover:-translate-y-0.5 transition-all">
-                    <div class="aspect-[16/10] bg-gradient-to-br from-teal-50 to-cyan-50 overflow-hidden">
+                  <a href={`/posts/${rp.slug}/`} class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-0.5 border border-gray-100 flex flex-row sm:flex-col">
+                    <div class="hidden sm:block aspect-[16/10] bg-gradient-to-br from-teal-50 to-cyan-50 overflow-hidden">
                       {rp.image ? (
                         <img src={rp.image} alt={rp.title} loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                       ) : (
                         <div class="w-full h-full flex items-center justify-center text-4xl">📝</div>
                       )}
                     </div>
-                    <div class="p-4">
-                      <h3 class="text-sm font-bold text-gray-900 group-hover:text-brand transition-colors leading-snug line-clamp-2">{rp.title}</h3>
-                      {rp.date && (
-                        <p class="text-xs text-gray-400 mt-1">{rp.date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                    <div class="p-5 sm:p-4 flex flex-col justify-center flex-1 min-w-0">
+                      <div class="flex items-center gap-3 mb-3 flex-wrap">
+                        {rp.category && (
+                          <span class="bg-brand/10 text-brand px-3 py-0.5 rounded-full text-xs font-semibold">{rp.category}</span>
+                        )}
+                        {rp.date && (
+                          <span class="text-xs text-gray-400">{rp.date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                        )}
+                        {rp.readingTime && (
+                          <span class="text-xs text-gray-400">{rp.readingTime}분 읽기</span>
+                        )}
+                      </div>
+                      <h3 class="text-lg sm:text-sm font-bold text-gray-900 mb-2 sm:mb-0 group-hover:text-brand transition-colors leading-snug line-clamp-2">{rp.title}</h3>
+                      {rp.excerpt && (
+                        <p class="text-gray-500 text-sm sm:text-xs mt-0 sm:mt-1.5 leading-relaxed line-clamp-2">{rp.excerpt}</p>
                       )}
+                      <div class="flex items-center text-brand font-semibold mt-3 sm:mt-2 text-sm sm:text-xs group-hover:gap-2 transition-all">
+                        <span>더 읽기 →</span>
+                      </div>
                     </div>
                   </a>
                 ))}
@@ -110,12 +160,28 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
             </div>
           )}
 
-          <!-- 하단 -->
-          <footer class="mt-12 pt-8 border-t border-gray-200">
-            <a href="/posts/" class="inline-flex items-center gap-2 text-brand font-semibold hover:gap-3 transition-all">
-              ← 모든 글 보기
-            </a>
-          </footer>
+          <!-- 이전/다음 글 -->
+          <nav class="mt-12 pt-8 border-t border-gray-200">
+            <div class="grid grid-cols-2 gap-4">
+              {prevPost ? (
+                <a href={`/posts/${prevPost.slug}/`} class="group flex flex-col p-4 rounded-xl border border-gray-100 hover:border-brand/40 hover:shadow-md transition-all">
+                  <span class="text-xs text-gray-400 mb-1">← 이전 글</span>
+                  <span class="text-sm font-semibold text-gray-700 group-hover:text-brand transition-colors line-clamp-2 leading-snug">{prevPost.title}</span>
+                </a>
+              ) : <div />}
+              {nextPost ? (
+                <a href={`/posts/${nextPost.slug}/`} class="group flex flex-col items-end text-right p-4 rounded-xl border border-gray-100 hover:border-brand/40 hover:shadow-md transition-all">
+                  <span class="text-xs text-gray-400 mb-1">다음 글 →</span>
+                  <span class="text-sm font-semibold text-gray-700 group-hover:text-brand transition-colors line-clamp-2 leading-snug">{nextPost.title}</span>
+                </a>
+              ) : <div />}
+            </div>
+            <div class="mt-6 text-center">
+              <a href="/posts/" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-brand font-medium transition-colors">
+                모든 글 보기
+              </a>
+            </div>
+          </nav>
         </div>
 
         <!-- 목차 (데스크톱) -->
@@ -129,6 +195,46 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
       </div>
     </div>
   </article>
+
+  <!-- 맨 위로 버튼 -->
+  <button
+    id="back-to-top"
+    class="fixed bottom-6 right-6 z-50 w-11 h-11 rounded-full bg-white border border-gray-200 shadow-lg flex items-center justify-center text-gray-500 hover:text-brand hover:border-brand transition-all opacity-0 pointer-events-none"
+    aria-label="맨 위로"
+  >
+    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg>
+  </button>
+
+  <script>
+    (function initProgress() {
+      const bar = document.getElementById('reading-progress');
+      if (!bar) return;
+      const update = () => {
+        const h = document.documentElement.scrollHeight - window.innerHeight;
+        bar.style.width = h > 0 ? `${Math.min(100, (window.scrollY / h) * 100)}%` : '0%';
+      };
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+
+  <script>
+    (function initBackToTop() {
+      const btn = document.getElementById('back-to-top');
+      if (!btn) return;
+      const toggle = () => {
+        if (window.scrollY > 300) {
+          btn.classList.remove('opacity-0', 'pointer-events-none');
+          btn.classList.add('opacity-100');
+        } else {
+          btn.classList.add('opacity-0', 'pointer-events-none');
+          btn.classList.remove('opacity-100');
+        }
+      };
+      window.addEventListener('scroll', toggle, { passive: true });
+      btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    })();
+  </script>
 
   <script>
     (function initShare() {

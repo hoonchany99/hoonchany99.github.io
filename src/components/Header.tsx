@@ -14,7 +14,8 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <a href="/" className="block hover:opacity-90 transition-opacity">
-            <img src="/img/logo_no_background_horizontal.png" alt="윤원장의 치과사전" className="h-14 w-auto" />
+            <img src="/img/logo_no_background.png" alt="윤원장의 치과사전" className="h-12 w-auto md:hidden" />
+            <img src="/img/logo_no_background_horizontal.png" alt="윤원장의 치과사전" className="h-14 w-auto hidden md:block" />
           </a>
 
           <div className="hidden md:flex items-center gap-8">

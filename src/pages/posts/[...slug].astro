@@ -80,12 +80,37 @@ const scored = allPosts
   .sort((a: any, b: any) => b.score - a.score || (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0))
   .slice(0, 3);
 
+function getExcerpt(body: string, maxLen = 80): string {
+  const text = body.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+  if (text.length <= maxLen) return text;
+  return text.slice(0, maxLen).replace(/\s\S*$/, '') + '…';
+}
+
+function getReadTime(body: string): number {
+  const text = body.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+  return Math.max(1, Math.round(text.length / 500));
+}
+
 const relatedPosts = scored.map((p: any) => ({
   slug: p.slug,
   title: p.data.title,
   image: p.data.image?.path ?? null,
   date: p.data.date,
+  category: p.data.categories?.[0] ?? null,
+  excerpt: getExcerpt(p.body),
+  readingTime: getReadTime(p.body),
 }));
+
+const sorted = [...allPosts].sort(
+  (a: any, b: any) => (a.data.date?.valueOf() ?? 0) - (b.data.date?.valueOf() ?? 0)
+);
+const currentIdx = sorted.findIndex((p: any) => p.slug === post.slug);
+const prevPost = currentIdx > 0 ? { slug: sorted[currentIdx - 1].slug, title: sorted[currentIdx - 1].data.title } : null;
+const nextPost = currentIdx < sorted.length - 1 ? { slug: sorted[currentIdx + 1].slug, title: sorted[currentIdx + 1].data.title } : null;
+
+const postTitle = post.data.title ?? '';
+const postDesc = post.data.description ?? '';
+const faqSchema = postTitle.includes('?') ? [{ question: postTitle, answer: postDesc }] : undefined;
 ---
 
 <PostLayout
@@ -96,6 +121,9 @@ const relatedPosts = scored.map((p: any) => ({
   tags={post.data.tags}
   relatedPosts={relatedPosts}
   readingTime={readingTime}
+  prevPost={prevPost}
+  nextPost={nextPost}
+  faqSchema={faqSchema}
 >
   <Content />
 </PostLayout>

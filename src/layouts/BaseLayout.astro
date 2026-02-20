@@ -3,6 +3,11 @@ import '../styles/global.css';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
 interface Props {
   title: string;
   description?: string;
@@ -10,6 +15,8 @@ interface Props {
   type?: 'website' | 'article';
   publishedDate?: Date;
   tags?: string[];
+  breadcrumbs?: BreadcrumbItem[];
+  faqSchema?: { question: string; answer: string }[];
 }
 
 const {
@@ -19,6 +26,8 @@ const {
   type = 'website',
   publishedDate,
   tags = [],
+  breadcrumbs,
+  faqSchema,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -47,6 +56,27 @@ const jsonLd = type === 'article' ? JSON.stringify({
   dateModified: publishedDate?.toISOString(),
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalURL.href },
   keywords: tags.join(', '),
+}) : null;
+
+const breadcrumbLd = breadcrumbs?.length ? JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbs.map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.name,
+    item: new URL(item.url, Astro.site).href,
+  })),
+}) : null;
+
+const faqLd = faqSchema?.length ? JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqSchema.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+  })),
 }) : null;
 ---
 
@@ -92,6 +122,8 @@ const jsonLd = type === 'article' ? JSON.stringify({
 
   <!-- JSON-LD 구조화 데이터 -->
   {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
+  {breadcrumbLd && <script type="application/ld+json" set:html={breadcrumbLd} />}
+  {faqLd && <script type="application/ld+json" set:html={faqLd} />}
 </head>
 <body class="min-h-screen flex flex-col font-sans text-gray-900 bg-white">
   <Header client:load />

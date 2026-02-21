@@ -22,7 +22,7 @@ export function Footer() {
           <a href="/about/" className="text-sm text-gray-400 hover:text-white transition-colors">소개</a>
           <span className="text-gray-700">·</span>
           <a
-            href="https://blog.naver.com/studytosurvive"
+            href="https://blog.naver.com/doctoryoon-kr"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-brand hover:text-brand-light transition-colors font-semibold"

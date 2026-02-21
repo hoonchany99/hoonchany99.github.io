@@ -19,7 +19,7 @@ from datetime import datetime
 
 # ──────────────────────────── 설정 ────────────────────────────
 
-BLOG_ID = "studytosurvive"
+BLOG_ID = "doctoryoon-kr"
 CATEGORY_NO = 7  # 치과사전 일상편
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POSTS_DIR = os.path.join(BASE, "src/content/posts")

@@ -34,7 +34,7 @@ export function About() {
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               그래서 이 공간을 만들었습니다. 어려운 말 없이, 초등학생도 이해할 수
-              있게. 그리고 의사로서 책임질 수 있을 만큼 정확하게요.
+              있게. 그리고 의사가 책임질 수 있을 만큼 정확하게요.
             </p>
 
             <a

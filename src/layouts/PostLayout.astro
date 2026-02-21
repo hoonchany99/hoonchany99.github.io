@@ -71,9 +71,11 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
         )}
         <h1 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4 leading-tight">{title}</h1>
         <div class="flex items-center gap-3">
-          <img src="/img/profile.png" alt="서울대 윤원장" class="w-7 h-7 rounded-full object-cover ring-2 ring-brand-bg" />
+          <a href="/about/" class="shrink-0">
+            <img src="/img/avatar.png" alt="서울대 윤원장" class="w-7 h-7 rounded-full object-cover ring-2 ring-brand-bg hover:ring-brand transition-all" />
+          </a>
           <div class="flex items-center gap-3 text-sm text-gray-400">
-            <span class="font-medium text-gray-600">서울대 윤원장</span>
+            <a href="/about/" class="font-medium text-gray-600 hover:text-brand transition-colors">서울대 윤원장</a>
             {date && (
               <>
                 <span class="text-gray-300">·</span>

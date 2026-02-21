@@ -20,26 +20,21 @@ export function About() {
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
               안녕하세요,
               <br />
-              <span className="text-brand">서울대학교 치의학대학원</span> 출신
-              <br />
-              치과의사 윤원장입니다
+              치과의사 <span className="text-brand">윤원장</span>입니다
             </h2>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              사실 저는 제 이야기를 길게 꺼내는 사람이 아닙니다. 환자분 이야기를
-              듣는 게 더 편하고, 진료실에서도 먼저 묻습니다.
+              치과가 무서운 건 당연한 일입니다. 그런데 생각해보면, 치료 자체보다{" "}
+              <span className="font-semibold text-gray-800">"앞으로 뭘 하는지 모른다"</span>는
+              게 더 무서울 때가 많아요.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              이 블로그는 진료실에서 미처 다 하지 못한 이야기들을 차분히
-              정리하고 기록하기 위해 만들었습니다.
+              저는 서울대학교 치의학대학원을 졸업했고, 진료실에서 늘 이게
+              아쉬웠습니다. 설명하고 싶은 건 많은데 시간이 부족하고, 환자분은
+              긴장한 채로 의자에 앉아 계시니 절반도 전달이 안 되는 것 같았어요.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              <span className="font-semibold text-gray-800">
-                "정확하고, 쉽게 이해되고, 믿을 수 있는 치과 정보"
-              </span>
-              만 담겠습니다.
-              <br />
-              초등학생도 이해할 수 있을 만큼 쉽게, 의사가 책임질 수 있을 만큼
-              정확하게요.
+              그래서 이 공간을 만들었습니다. 어려운 말 없이, 초등학생도 이해할 수
+              있게. 그리고 의사로서 책임질 수 있을 만큼 정확하게요.
             </p>
 
             <a

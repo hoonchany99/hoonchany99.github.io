@@ -7,7 +7,7 @@ export function About() {
             <div className="relative z-10">
               <div className="w-full aspect-square max-w-sm mx-auto rounded-2xl shadow-2xl overflow-hidden">
                 <img
-                  src="/img/avatar.png"
+                  src="/img/profile.png"
                   alt="서울대 윤원장"
                   className="w-full h-full object-cover"
                 />

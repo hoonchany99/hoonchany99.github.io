@@ -71,93 +71,59 @@ def log(msg):
 # ──────────────────────────── 1. 글 목록 가져오기 ────────────────────────────
 
 async def fetch_post_list():
-    """네이버 블로그에서 일상편 카테고리의 글 목록을 가져옵니다."""
+    """네이버 블로그에서 일상편 카테고리의 글 목록을 가져옵니다 (모바일 무한스크롤)."""
     from playwright.async_api import async_playwright
 
     posts = []
+    seen_log_nos = set()
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
 
-        page_num = 1
-        while True:
-            url = f"https://blog.naver.com/PostList.naver?blogId={BLOG_ID}&from=postList&categoryNo={CATEGORY_NO}&currentPage={page_num}"
-            await page.goto(url, wait_until="domcontentloaded", timeout=20000)
-            await page.wait_for_timeout(3000)
+        url = f"https://m.blog.naver.com/{BLOG_ID}?categoryNo={CATEGORY_NO}"
+        await page.goto(url, wait_until="domcontentloaded", timeout=20000)
+        await page.wait_for_timeout(3000)
 
-            # mainFrame이 있으면 사용, 없으면 page 자체에서 탐색
-            ctx = page.frame(name="mainFrame") or page
-
-            selectors = [
-                "a[href*='logNo']",
-                "a[href*='Redirect=Log']",
-                ".blog2_series .title a",
-                "table.blog2_list td.title a",
-                ".wrap_list .title a",
-                "a.pcol2",
-            ]
-
-            items = []
-            for sel in selectors:
-                items = await ctx.query_selector_all(sel)
-                if items:
-                    break
-
-            if not items:
+        prev_count = 0
+        for _ in range(30):
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            await page.wait_for_timeout(2000)
+            content = await page.content()
+            log_nos = set(re.findall(rf'{BLOG_ID}/(\d+)', content))
+            if len(log_nos) == prev_count:
                 break
+            prev_count = len(log_nos)
 
-            found_new = False
-            for item in items:
-                href = await item.get_attribute("href") or ""
-                text = (await item.inner_text()).strip()
-                if not text or not href:
-                    continue
-                if len(text) < 5:
-                    continue
+        content = await page.content()
 
-                log_no_m = re.search(r'logNo=(\d+)', href) or re.search(r'/(\d+)$', href)
-                if not log_no_m:
-                    continue
-                log_no = log_no_m.group(1)
+        # 모바일 리스트 아이템 블록별로 분리하여 추출
+        blocks = content.split('class="item__')
+        for block in blocks[1:]:
+            m_no = re.search(rf'{BLOG_ID}/(\d+)', block)
+            if not m_no:
+                continue
+            log_no = m_no.group(1)
+            if log_no in seen_log_nos:
+                continue
 
-                if any(pp["logNo"] == log_no for pp in posts):
-                    continue
+            m_title = re.search(r'class="[^"]*title[^"]*"[^>]*><span[^>]*><span>([^<]+)</span>', block)
+            if not m_title:
+                continue
+            title = m_title.group(1).strip()
+            if not title or len(title) < 3:
+                continue
 
-                posts.append({
-                    "url": f"https://blog.naver.com/{BLOG_ID}/{log_no}",
-                    "logNo": log_no,
-                    "title": text,
-                })
-                found_new = True
+            m_date = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', block)
+            date_str = f"{m_date.group(1)}-{int(m_date.group(2)):02d}-{int(m_date.group(3)):02d}" if m_date else datetime.now().strftime("%Y-%m-%d")
 
-            if not found_new:
-                break
-
-            page_num += 1
-            if page_num > 20:
-                break
-
-        # 날짜 가져오기 (각 글 방문)
-        for post in posts:
-            try:
-                await page.goto(post["url"], wait_until="domcontentloaded", timeout=15000)
-                await page.wait_for_timeout(2000)
-                ctx = page.frame(name="mainFrame") or page
-                date_el = await ctx.query_selector(".se_publishDate, .blog_date, .se-date, .date, .blog2_series .date, span.se_publishDate")
-                if date_el:
-                    date_text = await date_el.inner_text()
-                    date_m = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', date_text)
-                    if date_m:
-                        post["date"] = f"{date_m.group(1)}-{int(date_m.group(2)):02d}-{int(date_m.group(3)):02d}"
-                if "date" not in post:
-                    content = await ctx.content()
-                    date_m = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', content)
-                    if date_m:
-                        post["date"] = f"{date_m.group(1)}-{int(date_m.group(2)):02d}-{int(date_m.group(3)):02d}"
-                if "date" not in post:
-                    post["date"] = datetime.now().strftime("%Y-%m-%d")
-            except:
-                post["date"] = datetime.now().strftime("%Y-%m-%d")
+            seen_log_nos.add(log_no)
+            posts.append({
+                "url": f"https://blog.naver.com/{BLOG_ID}/{log_no}",
+                "logNo": log_no,
+                "title": title,
+                "date": date_str,
+            })
 
         await browser.close()
 
@@ -469,23 +435,39 @@ async def main():
             existing_slugs.add(f[:-3])
     log(f"기존 글: {len(existing_slugs)}개")
 
-    # 기존 logNo 매핑 (md 파일에서 naver URL 추출)
+    # 기존 logNo 매핑 (md 파일에서 naver URL 추출) + 기존 제목 수집
     existing_log_nos = set()
+    existing_titles = set()
     for f in os.listdir(POSTS_DIR):
         if not f.endswith(".md"):
             continue
         with open(os.path.join(POSTS_DIR, f)) as fp:
             content = fp.read()
-        for m in re.finditer(r'blog\.naver\.com/' + BLOG_ID + r'/(\d+)', content):
+        for m in re.finditer(r'blog\.naver\.com/[\w-]+/(\d+)', content):
             existing_log_nos.add(m.group(1))
+        title_m = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', content, re.MULTILINE)
+        if title_m:
+            existing_titles.add(title_m.group(1).strip())
+
+    log(f"기존 logNo: {len(existing_log_nos)}개, 기존 제목: {len(existing_titles)}개")
 
     # 네이버 글 목록 가져오기
     log("네이버 블로그 글 목록 가져오는 중...")
     all_posts = await fetch_post_list()
     log(f"네이버 전체 글: {len(all_posts)}개")
 
-    # 새 글 필터링 (logNo 기준)
-    new_posts = [p for p in all_posts if p["logNo"] not in existing_log_nos]
+    # 새 글 필터링 (logNo + 제목 기준)
+    import html as html_module
+    new_posts = []
+    for p in all_posts:
+        if p["logNo"] in existing_log_nos:
+            continue
+        title = p["title"]
+        decoded_title = html_module.unescape(title)
+        if title in existing_titles or decoded_title in existing_titles:
+            continue
+        p["title"] = decoded_title
+        new_posts.append(p)
     log(f"새 글: {len(new_posts)}개")
 
     if not new_posts:

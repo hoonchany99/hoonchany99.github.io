@@ -83,17 +83,26 @@ async def fetch_post_list():
         while True:
             url = f"https://blog.naver.com/PostList.naver?blogId={BLOG_ID}&from=postList&categoryNo={CATEGORY_NO}&currentPage={page_num}"
             await page.goto(url, wait_until="domcontentloaded", timeout=20000)
-            await page.wait_for_timeout(2000)
+            await page.wait_for_timeout(3000)
 
-            frame = page.frame(name="mainFrame")
-            if not frame:
-                break
+            # mainFrame이 있으면 사용, 없으면 page 자체에서 탐색
+            ctx = page.frame(name="mainFrame") or page
 
-            items = await frame.query_selector_all(".blog2_series .title a, table.blog2_list td.title a, .wrap_list .title a, a.pcol2")
-            if not items:
-                items = await frame.query_selector_all("table td a[href*='logNo']")
-            if not items:
-                items = await frame.query_selector_all("a[href*='Redirect=Log']")
+            selectors = [
+                "a[href*='logNo']",
+                "a[href*='Redirect=Log']",
+                ".blog2_series .title a",
+                "table.blog2_list td.title a",
+                ".wrap_list .title a",
+                "a.pcol2",
+            ]
+
+            items = []
+            for sel in selectors:
+                items = await ctx.query_selector_all(sel)
+                if items:
+                    break
+
             if not items:
                 break
 
@@ -102,6 +111,8 @@ async def fetch_post_list():
                 href = await item.get_attribute("href") or ""
                 text = (await item.inner_text()).strip()
                 if not text or not href:
+                    continue
+                if len(text) < 5:
                     continue
 
                 log_no_m = re.search(r'logNo=(\d+)', href) or re.search(r'/(\d+)$', href)
@@ -130,15 +141,19 @@ async def fetch_post_list():
         for post in posts:
             try:
                 await page.goto(post["url"], wait_until="domcontentloaded", timeout=15000)
-                await page.wait_for_timeout(1500)
-                frame = page.frame(name="mainFrame")
-                if frame:
-                    date_el = await frame.query_selector(".se_publishDate, .blog_date, .se-date, .date")
-                    if date_el:
-                        date_text = await date_el.inner_text()
-                        date_m = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', date_text)
-                        if date_m:
-                            post["date"] = f"{date_m.group(1)}-{int(date_m.group(2)):02d}-{int(date_m.group(3)):02d}"
+                await page.wait_for_timeout(2000)
+                ctx = page.frame(name="mainFrame") or page
+                date_el = await ctx.query_selector(".se_publishDate, .blog_date, .se-date, .date, .blog2_series .date, span.se_publishDate")
+                if date_el:
+                    date_text = await date_el.inner_text()
+                    date_m = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', date_text)
+                    if date_m:
+                        post["date"] = f"{date_m.group(1)}-{int(date_m.group(2)):02d}-{int(date_m.group(3)):02d}"
+                if "date" not in post:
+                    content = await ctx.content()
+                    date_m = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', content)
+                    if date_m:
+                        post["date"] = f"{date_m.group(1)}-{int(date_m.group(2)):02d}-{int(date_m.group(3)):02d}"
                 if "date" not in post:
                     post["date"] = datetime.now().strftime("%Y-%m-%d")
             except:
@@ -204,15 +219,12 @@ async def extract_html(posts_to_process):
                         if "PostView" in (f.url or ""):
                             frame = f
                             break
+                ctx = frame or page
 
-                if not frame:
-                    log(f"    프레임을 찾을 수 없음")
-                    continue
-
-                container = await frame.query_selector(".se-main-container")
+                container = await ctx.query_selector(".se-main-container")
                 if not container:
                     await page.wait_for_timeout(3000)
-                    container = await frame.query_selector(".se-main-container")
+                    container = await ctx.query_selector(".se-main-container")
 
                 if not container:
                     log(f"    컨테이너를 찾을 수 없음")
@@ -251,17 +263,18 @@ async def scrape_tags(posts_to_process):
                 await page.wait_for_timeout(1000)
 
                 frame = page.frame(name="mainFrame")
+                ctx = frame or page
                 if frame:
                     await frame.wait_for_load_state("domcontentloaded", timeout=10000)
-                    await page.wait_for_timeout(500)
-                    tag_els = await frame.query_selector_all(
-                        ".tag_post a, .post_tag a, .wrap_tag a, .se-tag a, "
-                        "#hashTagArea a, .post-tag a, [class*='tag'] a, [class*='Tag'] a"
-                    )
-                    for el in tag_els:
-                        text = (await el.inner_text()).strip().lstrip('#').strip()
-                        if text and len(text) < 30 and text not in NOISE_TAGS:
-                            tags.append(text)
+                await page.wait_for_timeout(500)
+                tag_els = await ctx.query_selector_all(
+                    ".tag_post a, .post_tag a, .wrap_tag a, .se-tag a, "
+                    "#hashTagArea a, .post-tag a, [class*='tag'] a, [class*='Tag'] a"
+                )
+                for el in tag_els:
+                    text = (await el.inner_text()).strip().lstrip('#').strip()
+                    if text and len(text) < 30 and text not in NOISE_TAGS:
+                        tags.append(text)
 
                 seen = set()
                 unique = []

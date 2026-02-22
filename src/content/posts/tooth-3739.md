@@ -1,11 +1,11 @@
 ---
 title: "딱딱한 거 씹다 치아가 깨졌다면? 꼭 확인해야 할 손상 범위"
-date: 2026-02-13
+date: 2026-02-23
 categories: [치과사전]
 tags: ["치아파절", "법랑질파절", "상아질파절", "치수파절", "신경치료", "수직치근파절", "VRF", "치근파절", "치관파절"]
 description: "딱딱한 거 씹다 치아가 깨졌다면? 꼭 확인해야 할 손상 범위"
 image:
-  path: /img/posts/tooth-3739/main.jpg
+  path: /img/posts/tooth-3739/cover.png
   alt: "딱딱한 거 씹다 치아가 깨졌다면? 꼭 확인해야 할 손상 범위"
 ---
 

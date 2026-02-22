@@ -162,10 +162,11 @@ def generate_slug(title: str, existing_slugs: set) -> str:
 # ──────────────────────────── 3. HTML 추출 ────────────────────────────
 
 async def extract_html(posts_to_process):
-    """새 글의 HTML을 추출합니다."""
+    """새 글의 HTML과 정확한 작성일을 추출합니다."""
     from playwright.async_api import async_playwright
 
     results = {}
+    date_map = {}
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
@@ -187,6 +188,39 @@ async def extract_html(posts_to_process):
                             break
                 ctx = frame or page
 
+                # 개별 글 페이지에서 정확한 날짜 추출
+                date_selectors = [
+                    ".se_publishDate",
+                    ".se-date",
+                    ".blog_date",
+                    ".date",
+                    "[class*='publish_date']",
+                    "[class*='date'] .pcol2",
+                    ".blog2_post_date",
+                    "p.date",
+                    "span.date",
+                ]
+                extracted_date = None
+                for sel in date_selectors:
+                    el = await ctx.query_selector(sel)
+                    if el:
+                        text = await el.inner_text()
+                        m = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', text)
+                        if m:
+                            extracted_date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+                            break
+
+                if not extracted_date:
+                    page_text = await ctx.inner_text("body") if not frame else await frame.inner_text("body")
+                    date_matches = re.findall(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\.', page_text[:2000])
+                    if date_matches:
+                        m = date_matches[0]
+                        extracted_date = f"{m[0]}-{int(m[1]):02d}-{int(m[2]):02d}"
+
+                if extracted_date:
+                    date_map[slug] = extracted_date
+                    log(f"    날짜: {extracted_date}")
+
                 container = await ctx.query_selector(".se-main-container")
                 if not container:
                     await page.wait_for_timeout(3000)
@@ -205,7 +239,7 @@ async def extract_html(posts_to_process):
 
         await browser.close()
 
-    return results
+    return results, date_map
 
 
 # ──────────────────────────── 4. 태그 추출 ────────────────────────────
@@ -368,13 +402,17 @@ def process_post(slug, title, date, html, tags):
     html = "\n".join(line.lstrip() for line in lines)
     html = re.sub(r'\n{3,}', '\n\n', html)
 
-    # 메인 이미지 경로 결정
+    # 메인 이미지 경로 결정 (cover 우선)
     main_img = f"/img/posts/{slug}/cover.jpg"
+    found = False
     for prefix in ["cover", "main"]:
         for ext in [".png", ".jpg", ".jpeg"]:
             if os.path.exists(os.path.join(img_dir, f"{prefix}{ext}")):
                 main_img = f"/img/posts/{slug}/{prefix}{ext}"
+                found = True
                 break
+        if found:
+            break
 
     # 태그 문자열
     tag_str = json.dumps(tags, ensure_ascii=False) if tags else "[]"
@@ -480,9 +518,18 @@ async def main():
         existing_slugs.add(post["slug"])
         log(f"  새 글: {post['title']} → {post['slug']}")
 
-    # HTML 추출
+    # HTML 추출 (개별 글 페이지에서 정확한 날짜도 함께 추출)
     log("HTML 추출 중...")
-    html_map = await extract_html(new_posts)
+    html_map, date_map = await extract_html(new_posts)
+
+    # 개별 글 페이지에서 추출한 정확한 날짜로 업데이트
+    for post in new_posts:
+        slug = post["slug"]
+        if slug in date_map:
+            old_date = post["date"]
+            post["date"] = date_map[slug]
+            if old_date != post["date"]:
+                log(f"  날짜 보정: {post['title']} ({old_date} → {post['date']})")
 
     # 태그 추출
     log("태그 추출 중...")

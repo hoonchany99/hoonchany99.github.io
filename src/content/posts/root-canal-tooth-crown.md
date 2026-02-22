@@ -1,24 +1,12 @@
 ---
-title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유
-
-신경치료를 받고 나면 “치아가 약해진다는 말” 많이 들어보셨죠? 근데 도대체 왜 약해지는 걸까요? 그리...
-
-blog.naver.com"
-date: 2026-02-13
+title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"
+date: 2025-12-04
 categories: [치과사전]
 tags: ["신경치료", "크라운", "치아약해짐", "치아파절", "치아크랙", "치아크랙치료", "지르코니아크라운", "골드크라운"]
-description: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유
-
-신경치료를 받고 나면 “치아가 약해진다는 말” 많이 들어보셨죠? 근데 도대체 왜 약해지는 걸까요? 그리...
-
-blog.naver.com"
+description: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"
 image:
-  path: /img/posts/root-canal-crown-tooth/main.jpg
-  alt: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유
-
-신경치료를 받고 나면 “치아가 약해진다는 말” 많이 들어보셨죠? 근데 도대체 왜 약해지는 걸까요? 그리...
-
-blog.naver.com"
+  path: /img/posts/root-canal-tooth-crown/cover.png
+  alt: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"
 ---
 
 <article class="naver-post">
@@ -28,7 +16,7 @@ blog.naver.com"
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-936B1A4C-F734-4376-B83C-168F1142365F&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMDRfMjkg/MDAxNzY0ODI4ODgwODQ3.O_sc0CFwW7EM1vETV1VQjI52R3u8MLKpfSp-ISYyIcsg.zckKoOjCPOyCAANGAwZQ1YDJJ1DTEjvZ512-yAU5cG8g.PNG/IMG_0052_2.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;103839&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-crown-tooth/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-936B1A4C-F734-4376-B83C-168F1142365F_0">
+<img src="/img/posts/root-canal-tooth-crown/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-936B1A4C-F734-4376-B83C-168F1142365F_0">
 </a>
 </div>
 </div>
@@ -65,8 +53,8 @@ blog.naver.com"
 <div class="se-component-content se-component-content-normal">
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:384px;">
 <div class="se-module se-module-image" style="">
-<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-7AA8B7D9-9C28-49F7-BD2F-F0182B6242BD&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-crown-tooth/main.jpg&quot;, &quot;originalWidth&quot; : &quot;449&quot;, &quot;originalHeight&quot; : &quot;272&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;61242&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-crown-tooth/main.jpg" data-lazy-src="/img/posts/root-canal-crown-tooth/main.jpg" data-width="384" data-height="232" alt="" class="se-image-resource egjs-visible" id="SE-7AA8B7D9-9C28-49F7-BD2F-F0182B6242BD_0">
+<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-7AA8B7D9-9C28-49F7-BD2F-F0182B6242BD&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-tooth-crown/main.jpg&quot;, &quot;originalWidth&quot; : &quot;449&quot;, &quot;originalHeight&quot; : &quot;272&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;61242&quot; }" area-hidden="true">
+<img src="/img/posts/root-canal-tooth-crown/main.jpg" data-lazy-src="/img/posts/root-canal-tooth-crown/main.jpg" data-width="384" data-height="232" alt="" class="se-image-resource egjs-visible" id="SE-7AA8B7D9-9C28-49F7-BD2F-F0182B6242BD_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-afaab71c-f781-4db1-98e7-46b9ba151014"><span style="" class="se-fs- se-ff-   " id="SE-4e9c54d7-075f-49b7-8b5b-04acceb78596">신경치료의 과정입니다. 파일(File)이라는 기구로 감염된 신경을 모두 제거한 후 Gutta Percha라는 재료로 신경을 다시 메꾸게 됩니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-78105362-3610-47df-b899-9baee24e36dd"><a href="https://kevincoxdental.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-78105362-3610-47df-b899-9baee24e36dd&quot;, &quot;link&quot;: &quot;https://kevincoxdental.com/&quot;}" target="_blank">https://kevincoxdental.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-fd64bee3-f693-4aca-8506-a632a24d3d70">)</span></p></div>
@@ -104,8 +92,8 @@ blog.naver.com"
 <div class="se-component-content se-component-content-fit">
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
-<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-FE571968-F455-45DB-A18D-4F1C4B122BA1&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-crown-tooth/img1.png&quot;, &quot;originalWidth&quot; : &quot;850&quot;, &quot;originalHeight&quot; : &quot;302&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;75041&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-crown-tooth/img1.png" data-lazy-src="/img/posts/root-canal-crown-tooth/img1.png" data-width="500" data-height="177" alt="" class="se-image-resource egjs-visible" id="SE-FE571968-F455-45DB-A18D-4F1C4B122BA1_0">
+<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-FE571968-F455-45DB-A18D-4F1C4B122BA1&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-tooth-crown/img1.png&quot;, &quot;originalWidth&quot; : &quot;850&quot;, &quot;originalHeight&quot; : &quot;302&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;75041&quot; }" area-hidden="true">
+<img src="/img/posts/root-canal-tooth-crown/img1.png" data-lazy-src="/img/posts/root-canal-tooth-crown/img1.png" data-width="500" data-height="177" alt="" class="se-image-resource egjs-visible" id="SE-FE571968-F455-45DB-A18D-4F1C4B122BA1_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-e57dcc41-34dd-401e-ab84-a7a64a691fcf"><span style="" class="se-fs- se-ff-   " id="SE-08a7f6b0-57bc-4cd5-a9a4-354053cc336e">2013년 유럽 심미치과학회 논문에 따르면 왼쪽에서 오른쪽으로 갈수록 치아가 파절될 가능성이 커집니다. 신경을 제거하고, 치질이 얇아질수록 말이죠. (출처: Rocca, Giovanni &amp; Krejci, Ivo. (2013). Crown and post-free adhesive restorations for endodontically treated posterior teeth: from direct composite to endocrowns. The European journal of esthetic dentistry : official journal of the European Academy of Esthetic Dentistry. 8. 156-179. )</span></p></div>
@@ -160,8 +148,8 @@ blog.naver.com"
 <div class="se-component-content se-component-content-normal">
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:360px;">
 <div class="se-module se-module-image" style="">
-<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-FA0CED34-3460-4407-945E-12700618EAF3&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-crown-tooth/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1287920&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-crown-tooth/img2.png" data-lazy-src="/img/posts/root-canal-crown-tooth/img2.png" data-width="360" data-height="360" alt="" class="se-image-resource egjs-visible" id="SE-FA0CED34-3460-4407-945E-12700618EAF3_0">
+<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-FA0CED34-3460-4407-945E-12700618EAF3&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-tooth-crown/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1287920&quot; }" area-hidden="true">
+<img src="/img/posts/root-canal-tooth-crown/img2.png" data-lazy-src="/img/posts/root-canal-tooth-crown/img2.png" data-width="360" data-height="360" alt="" class="se-image-resource egjs-visible" id="SE-FA0CED34-3460-4407-945E-12700618EAF3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-23086c19-4829-4d10-a2ee-741f909dfc81"><span style="" class="se-fs- se-ff-   " id="SE-c530f654-a85d-464f-b974-18b3ad1b04cf">크라운은 이렇게 신경치료된 치아 위에 보호막을 만들어 줍니다.</span></p></div>
@@ -250,8 +238,8 @@ blog.naver.com"
 <div class="se-component-content se-component-content-normal">
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:320px;">
 <div class="se-module se-module-image" style="">
-<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-C04B7615-4B57-40DB-A6D4-5841E9F4A96D&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-crown-tooth/img3.png&quot;, &quot;originalWidth&quot; : &quot;316&quot;, &quot;originalHeight&quot; : &quot;194&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;110445&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-crown-tooth/img3.png" data-lazy-src="/img/posts/root-canal-crown-tooth/img3.png" data-width="320" data-height="196" alt="" class="se-image-resource egjs-visible" id="SE-C04B7615-4B57-40DB-A6D4-5841E9F4A96D_0">
+<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-C04B7615-4B57-40DB-A6D4-5841E9F4A96D&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-tooth-crown/img3.png&quot;, &quot;originalWidth&quot; : &quot;316&quot;, &quot;originalHeight&quot; : &quot;194&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;110445&quot; }" area-hidden="true">
+<img src="/img/posts/root-canal-tooth-crown/img3.png" data-lazy-src="/img/posts/root-canal-tooth-crown/img3.png" data-width="320" data-height="196" alt="" class="se-image-resource egjs-visible" id="SE-C04B7615-4B57-40DB-A6D4-5841E9F4A96D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-2cfcf4ea-3c26-4716-a317-f5ac09744429"><span style="" class="se-fs- se-ff-   " id="SE-6c5b8c20-4947-44bb-a02c-a3b4e405cae5">통증이 없다고 안심했다가 이런 식으로 치아가 파절될 수 있어요. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-7087fdef-469e-4edf-9c2e-af325d4a5718"><a href="https://www.speareducation.com/r" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-7087fdef-469e-4edf-9c2e-af325d4a5718&quot;, &quot;link&quot;: &quot;https://www.speareducation.com/r&quot;}" target="_blank">https://www.speareducation.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-4e971da3-d1ff-4993-bd5a-0136e1447c45">)</span></p></div>
@@ -289,7 +277,7 @@ blog.naver.com"
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/studytosurvive/224092679592" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2d153c97-c90c-401c-9345-671d39d249b4&quot;, &quot;link&quot;: &quot;https://blog.naver.com/studytosurvive/224092679592&quot;}">
+<a href="/posts/root-canal-pain/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2d153c97-c90c-401c-9345-671d39d249b4&quot;, &quot;link&quot;: &quot;/posts/root-canal-pain/&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다</strong>
 <p class="se-oglink-summary">신경치료를 받고 나면 “이 통증이 정상인지” “문제가 생긴 건지” 많이 걱정되셨죠. 특히 신경치료 후 ...</p>
@@ -305,7 +293,7 @@ blog.naver.com"
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/studytosurvive/223060317762" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-af39c6dd-3d26-4bd6-ac06-79f0dc8bc15d&quot;, &quot;link&quot;: &quot;https://blog.naver.com/studytosurvive/223060317762&quot;}">
+<a href="/posts/prosthesis/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-af39c6dd-3d26-4bd6-ac06-79f0dc8bc15d&quot;, &quot;link&quot;: &quot;/posts/prosthesis/&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">원데이보철, 다시 한 번 고민해보세요.</strong>
 <p class="se-oglink-summary">안녕하세요, 서울대학교 치의학대학원 출신 윤원장입니다. 보통 예전부터 치과에서 크라운이나 임플란트 치...</p>

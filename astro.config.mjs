@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://doctoryoon.kr',
+  trailingSlash: 'always',
   integrations: [
     react(),
     tailwind(),

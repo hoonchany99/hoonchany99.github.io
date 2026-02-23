@@ -38,7 +38,7 @@ export function About() {
             </p>
 
             <a
-              href="/about"
+              href="/about/"
               className="inline-block bg-brand text-white px-8 py-3.5 rounded-xl hover:bg-brand-dark transition-all font-bold shadow-lg shadow-brand/20 hover:-translate-y-0.5"
             >
               윤원장에 대해 더 알아보기

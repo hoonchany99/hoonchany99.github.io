@@ -189,10 +189,11 @@ async def extract_html(posts_to_process):
                 ctx = frame or page
 
                 # 개별 글 페이지에서 정확한 날짜 추출
+                # 작성일은 iframe 밖(부모 페이지)에 표시되므로 page에서 먼저 검색
                 date_selectors = [
+                    ".blog_date",
                     ".se_publishDate",
                     ".se-date",
-                    ".blog_date",
                     ".date",
                     "[class*='publish_date']",
                     "[class*='date'] .pcol2",
@@ -201,17 +202,21 @@ async def extract_html(posts_to_process):
                     "span.date",
                 ]
                 extracted_date = None
-                for sel in date_selectors:
-                    el = await ctx.query_selector(sel)
-                    if el:
-                        text = await el.inner_text()
-                        m = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', text)
-                        if m:
-                            extracted_date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
-                            break
+                for search_ctx in [page, ctx]:
+                    for sel in date_selectors:
+                        el = await search_ctx.query_selector(sel)
+                        if el:
+                            text = await el.inner_text()
+                            m = re.search(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})', text)
+                            if m:
+                                extracted_date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+                                break
+                    if extracted_date:
+                        break
 
                 if not extracted_date:
-                    page_text = await ctx.inner_text("body") if not frame else await frame.inner_text("body")
+                    # 부모 페이지 텍스트에서 날짜 패턴 검색
+                    page_text = await page.inner_text("body")
                     date_matches = re.findall(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\.', page_text[:2000])
                     if date_matches:
                         m = date_matches[0]

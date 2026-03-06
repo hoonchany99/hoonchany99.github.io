@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /search.json
 
 Sitemap: https://doctoryoon.kr/sitemap-index.xml

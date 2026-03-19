@@ -541,6 +541,7 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
       text-decoration: none;
       transition: all 0.2s;
       background: #f8fafc;
+      overflow: hidden;
     }
 
     .post-content .se-oglink-info::before {
@@ -557,6 +558,8 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
     .post-content .se-oglink-info-container {
       display: flex;
       align-items: center;
+      min-width: 0;
+      overflow: hidden;
     }
 
     .post-content .se-oglink-title {
@@ -567,6 +570,7 @@ const { title, description, date, image, tags = [], relatedPosts = [], readingTi
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      min-width: 0;
     }
 
     .post-content .se-oglink-summary,

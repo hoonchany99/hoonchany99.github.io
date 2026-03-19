@@ -14,6 +14,7 @@ interface Props {
   image?: string;
   type?: 'website' | 'article';
   publishedDate?: Date;
+  modifiedDate?: Date;
   tags?: string[];
   breadcrumbs?: BreadcrumbItem[];
   faqSchema?: { question: string; answer: string }[];
@@ -26,6 +27,7 @@ const {
   image = '/img/윤원장의치과사전.png',
   type = 'website',
   publishedDate,
+  modifiedDate,
   tags = [],
   breadcrumbs,
   faqSchema,
@@ -36,10 +38,26 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site).href;
 const siteName = '서울대 윤원장의 치과사전';
 const authorName = '서울대 윤원장';
+const aboutUrl = new URL('/about/', Astro.site).href;
 const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
 const pageTitle = isHome ? siteName : `${title} | ${siteName}`;
 
 const siteLogoUrl = new URL('/img/윤원장의치과사전.png', Astro.site).href;
+
+const authorPerson = {
+  '@type': 'Person',
+  name: authorName,
+  url: aboutUrl,
+  jobTitle: '치과의사',
+  alumniOf: {
+    '@type': 'EducationalOrganization',
+    name: '서울대학교 치의학대학원',
+  },
+  sameAs: [
+    'https://blog.naver.com/doctoryoon-kr',
+    'https://www.instagram.com/doctoryoon.kr/',
+  ],
+};
 
 const websiteLd = isHome ? JSON.stringify({
   '@context': 'https://schema.org',
@@ -47,12 +65,24 @@ const websiteLd = isHome ? JSON.stringify({
   name: siteName,
   url: Astro.site?.href,
   description,
-  publisher: {
-    '@type': 'Person',
-    name: authorName,
-    url: Astro.site?.href,
-  },
+  publisher: authorPerson,
 }) : null;
+
+const orgLd = isHome ? JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: siteName,
+  url: Astro.site?.href,
+  logo: siteLogoUrl,
+  description: '서울대 치의학대학원 출신 치과의사가 직접 작성하는 치과 건강 정보 사이트',
+  founder: authorPerson,
+  sameAs: [
+    'https://blog.naver.com/doctoryoon-kr',
+    'https://www.instagram.com/doctoryoon.kr/',
+  ],
+}) : null;
+
+const effectiveModifiedDate = modifiedDate ?? publishedDate;
 
 const jsonLd = type === 'article' ? JSON.stringify({
   '@context': 'https://schema.org',
@@ -60,11 +90,7 @@ const jsonLd = type === 'article' ? JSON.stringify({
   headline: title,
   description,
   image: ogImage,
-  author: {
-    '@type': 'Person',
-    name: authorName,
-    url: Astro.site?.href,
-  },
+  author: authorPerson,
   publisher: {
     '@type': 'Organization',
     name: siteName,
@@ -72,7 +98,7 @@ const jsonLd = type === 'article' ? JSON.stringify({
   },
   url: canonicalURL.href,
   datePublished: publishedDate?.toISOString(),
-  dateModified: publishedDate?.toISOString(),
+  dateModified: effectiveModifiedDate?.toISOString(),
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalURL.href },
   keywords: tags.join(', '),
 }) : null;
@@ -163,6 +189,7 @@ const faqLd = faqSchema?.length ? JSON.stringify({
 
   <!-- JSON-LD 구조화 데이터 -->
   {websiteLd && <script type="application/ld+json" set:html={websiteLd} />}
+  {orgLd && <script type="application/ld+json" set:html={orgLd} />}
   {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
   {breadcrumbLd && <script type="application/ld+json" set:html={breadcrumbLd} />}
   {faqLd && <script type="application/ld+json" set:html={faqLd} />}

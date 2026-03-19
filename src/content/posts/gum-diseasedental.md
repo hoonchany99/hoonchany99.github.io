@@ -3,7 +3,7 @@ title: "잇몸질환치과, 그대로 두면 큰일납니다."
 date: 2023-04-07
 categories: [치과사전]
 tags: ["잇몸질환치과", "잇몸질환", "치주염", "치은염"]
-description: "잇몸질환치과, 그대로 두면 큰일납니다."
+description: "잇몸질환치과, 그대로 두면 큰일납니다. 안녕하세요, 서울대학교 치의학대학원 출신 윤원장입니다. 잇몸에 뭐가 생겼는데 무슨병이지?"
 image:
   path: /img/posts/gum-diseasedental/cover.png
   alt: "잇몸질환치과, 그대로 두면 큰일납니다."

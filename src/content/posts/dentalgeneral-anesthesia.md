@@ -3,7 +3,7 @@ title: "치과전신마취, 아직도 모르시나요?"
 date: 2022-08-24
 categories: [치과사전]
 tags: ["치과전신마취", "치과수면마취", "치과국소마취", "전신마취", "수면마취", "국소마취", "Sedation", "General", "Anesthesia", "GA", "LA", "N2O", "미다졸람", "Midasolam", "데스플루란", "세보플루란", "Desflurane", "Sevoflurane", "플루마제닐", "Flumazenil", "사랑니", "발치", "무통마취", "사랑니발치", "진통제", "진정법", "치과마취과", "치과마취"]
-description: "치과전신마취, 아직도 모르시나요?"
+description: "치과전신마취, 아직도 모르시나요? 서울대학교 치의학대학원 출신 윤원장입니다. 치과전신마취까지 생각하시다니요, 이 글을 누르신 분들은 아마 치과에 심한 공포를 가지고 계실 거라 생각됩니다."
 image:
   path: /img/posts/dentalgeneral-anesthesia/cover.png
   alt: "치과전신마취, 아직도 모르시나요?"

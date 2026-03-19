@@ -3,7 +3,7 @@ title: "수돗물불소, 아직도 모르셨나요?"
 date: 2023-05-18
 categories: [치과사전]
 tags: ["수돗물불소", "수불사업", "불화인회석", "수산화인회석"]
-description: "수돗물불소, 아직도 모르셨나요?"
+description: "수돗물불소, 아직도 모르셨나요? 안녕하세요, 서울대학교 치의학대학원 출신 윤원장입니다. \"수돗물에 불소가 있다던데..."
 image:
   path: /img/posts/fluoride/cover.png
   alt: "수돗물불소, 아직도 모르셨나요?"

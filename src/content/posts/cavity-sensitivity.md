@@ -3,7 +3,7 @@ title: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."
 date: 2022-11-05
 categories: [치과사전]
 tags: ["법랑질", "충치이시림", "충치", "이시림"]
-description: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."
+description: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다. 서울대학교 치의학대학원 출신 윤원장입니다. 아이고, 이가 시리시다구요?"
 image:
   path: /img/posts/cavity-sensitivity/cover.png
   alt: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."

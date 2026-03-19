@@ -3,7 +3,7 @@ title: "무통마취치과, 아직도 모르셨나요?"
 date: 2023-04-03
 categories: [치과사전]
 tags: ["무통마취치과", "무통마취", "치과마취", "DentalVibe"]
-description: "무통마취치과, 아직도 모르셨나요?"
+description: "무통마취치과, 아직도 모르셨나요? 안녕하세요, 서울대학교 치의학대학원 출신 윤원장입니다. 치과치료는 아픕니다."
 image:
   path: /img/posts/painlessanesthesiadental/cover.png
   alt: "무통마취치과, 아직도 모르셨나요?"

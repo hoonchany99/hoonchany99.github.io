@@ -419,9 +419,21 @@ def process_post(slug, title, date, html, tags):
         if found:
             break
 
+    # 본문에서 description 추출 (HTML 태그 제거 후 첫 의미 있는 텍스트)
+    plain = re.sub(r'<[^>]+>', ' ', html)
+    plain = re.sub(r'\s+', ' ', plain).strip()
+    plain = re.sub(r'[​\u200b\xa0]', '', plain)  # zero-width, nbsp 제거
+    sentences = [s.strip() for s in re.split(r'[.?!]\s', plain) if len(s.strip()) > 10]
+    if sentences:
+        desc_text = title + " " + ". ".join(sentences[:2]) + "."
+        if len(desc_text) > 160:
+            desc_text = desc_text[:157] + "..."
+    else:
+        desc_text = title
+    desc = desc_text.replace('"', '\\"')
+
     # 태그 문자열
     tag_str = json.dumps(tags, ensure_ascii=False) if tags else "[]"
-    desc = title.replace('"', '\\"')
 
     content = f'''---
 title: "{title}"

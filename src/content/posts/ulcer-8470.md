@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-d6c9f4de-e8ee-43bc-88d2-90f43a0d249b&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMjA5MjBfOTYg/MDAxNjYzNjgxMTMzMjc2.tTjoe8-sJ3wlTEmif3-rObqWE9VrUK_jXOQtQRfhauYg.NmKUBxbPbXOK2H1rPAZN-m49q3cBjBH1yiPYvfTxa-Mg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/ulcer-8470/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-d6c9f4de-e8ee-43bc-88d2-90f43a0d249b_0">
+<img src="/img/posts/ulcer-8470/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="입안 헐음, 그냥 두면 절대 안됩니다." class="se-image-resource egjs-visible" id="SE-d6c9f4de-e8ee-43bc-88d2-90f43a0d249b_0">
 </a>
 </div>
 </div>
@@ -35,7 +35,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-cb4aa413-23b0-42d7-bad2-cfd5e13750d4&quot;, &quot;src&quot; : &quot;/img/posts/ulcer-8470/main.png&quot;, &quot;originalWidth&quot; : &quot;1890&quot;, &quot;originalHeight&quot; : &quot;1198&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/ulcer-8470/main.png" data-lazy-src="/img/posts/ulcer-8470/main.png" data-width="500" data-height="316" alt="" class="se-image-resource egjs-visible" id="SE-cb4aa413-23b0-42d7-bad2-cfd5e13750d4_0">
+<img src="/img/posts/ulcer-8470/main.png" data-lazy-src="/img/posts/ulcer-8470/main.png" data-width="500" data-height="316" alt="입안 헐음, 그냥 두면 절대 안됩니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-cb4aa413-23b0-42d7-bad2-cfd5e13750d4_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-72fbe0d6-ae01-40df-9675-e8872513381c"><span style="" class="se-fs- se-ff-   " id="SE-98248c46-ab7c-4f66-b878-855533861a0e">재발성 아프타성 구내궤양</span></p></div>
@@ -55,7 +55,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-8a6bb037-3df6-4508-b7ea-7a37df8cb9e4&quot;, &quot;src&quot; : &quot;/img/posts/ulcer-8470/img1.png&quot;, &quot;originalWidth&quot; : &quot;1806&quot;, &quot;originalHeight&quot; : &quot;1198&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/ulcer-8470/img1.png" data-lazy-src="/img/posts/ulcer-8470/img1.png" data-width="500" data-height="331" alt="" class="se-image-resource egjs-visible" id="SE-8a6bb037-3df6-4508-b7ea-7a37df8cb9e4_0">
+<img src="/img/posts/ulcer-8470/img1.png" data-lazy-src="/img/posts/ulcer-8470/img1.png" data-width="500" data-height="331" alt="입안 헐음, 그냥 두면 절대 안됩니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-8a6bb037-3df6-4508-b7ea-7a37df8cb9e4_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-cb7a685b-0798-416a-b7e1-43f0527e87b8"><span style="" class="se-fs- se-ff-   " id="SE-7ede6f3d-1f46-464d-93b4-dc985da0ab6b">헤르페스성 구내염</span></p></div>
@@ -75,7 +75,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-9a220db9-9c78-4796-b6d5-c49d07d27db6&quot;, &quot;src&quot; : &quot;/img/posts/ulcer-8470/img2.png&quot;, &quot;originalWidth&quot; : &quot;1599&quot;, &quot;originalHeight&quot; : &quot;1198&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/ulcer-8470/img2.png" data-lazy-src="/img/posts/ulcer-8470/img2.png" data-width="500" data-height="374" alt="" class="se-image-resource egjs-visible" id="SE-9a220db9-9c78-4796-b6d5-c49d07d27db6_0">
+<img src="/img/posts/ulcer-8470/img2.png" data-lazy-src="/img/posts/ulcer-8470/img2.png" data-width="500" data-height="374" alt="입안 헐음, 그냥 두면 절대 안됩니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-9a220db9-9c78-4796-b6d5-c49d07d27db6_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-f4e9fc7d-ce0a-4efa-8d57-1eb120002df0"><span style="" class="se-fs- se-ff-   " id="SE-813900a7-6da8-46cb-b841-7deafe66d18c">칸디다증</span></p></div>
@@ -111,7 +111,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/brushing-cavity/" class="se-oglink-thumbnail" >
-<img src="/img/posts/ulcer-8470/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/ulcer-8470/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="입안 헐음, 그냥 두면 절대 안됩니다. 관련 이미지 5">
 </a>
 <a href="/posts/brushing-cavity/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

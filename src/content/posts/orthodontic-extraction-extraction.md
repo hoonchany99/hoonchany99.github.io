@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3FFF993F-F60C-473E-8DAB-D4904B8E2AED&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNjAyMTJfNCAg/MDAxNzcwODgyMjUyNTA0.FU_PCxEzCubiWUnE3sdA8c1Kx2D5dA6uuCgK7nq440Ug.A80H--eMra0TRSG-0AowSmON2K0EOxDgOKCNvxK_mTog.PNG/Thumbnail_forpatients_long_%EB%B3%B5%EC%82%AC.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;53884&quot; }" area-hidden="true">
-<img src="/img/posts/orthodontic-extraction-extraction/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-3FFF993F-F60C-473E-8DAB-D4904B8E2AED_0">
+<img src="/img/posts/orthodontic-extraction-extraction/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="교정할 때 꼭 발치해야 할까? 발치 기준 이렇게 설명드립니다" class="se-image-resource egjs-visible" id="SE-3FFF993F-F60C-473E-8DAB-D4904B8E2AED_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:426px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-ECD161AC-A0A6-4E9E-9E4D-C2B48CD4B10A&quot;, &quot;src&quot; : &quot;/img/posts/orthodontic-extraction-extraction/main.jpg&quot;, &quot;originalWidth&quot; : &quot;1470&quot;, &quot;originalHeight&quot; : &quot;980&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;82055&quot; }" area-hidden="true">
-<img src="/img/posts/orthodontic-extraction-extraction/main.jpg" data-lazy-src="/img/posts/orthodontic-extraction-extraction/main.jpg" data-width="426" data-height="284" alt="" class="se-image-resource egjs-visible" id="SE-ECD161AC-A0A6-4E9E-9E4D-C2B48CD4B10A_0">
+<img src="/img/posts/orthodontic-extraction-extraction/main.jpg" data-lazy-src="/img/posts/orthodontic-extraction-extraction/main.jpg" data-width="426" data-height="284" alt="교정할 때 꼭 발치해야 할까? 발치 기준 이렇게 설명드립니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-ECD161AC-A0A6-4E9E-9E4D-C2B48CD4B10A_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left " style="" id="SE-c3880c3c-030d-4c85-abfe-d2627ef4b830"><span style="" class="se-fs- se-ff-   " id="SE-d1f57541-5df5-4cd8-b9ce-55b2b4888fb5">치아교정은 치아를 가지런히 배열하기 위해 진행하는 것입니다. 하지만 공간이 없다면요? 위 사진의 경우 도저히 발치를 하지 않고서는 충분한 공간 확보가 어려워보입니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-82249cbc-38ab-4ab0-b381-4715574fe931"><a href="https://www.forbesorthodontics.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-82249cbc-38ab-4ab0-b381-4715574fe931&quot;, &quot;link&quot;: &quot;https://www.forbesorthodontics.com/&quot;}" target="_blank">https://www.forbesorthodontics.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-c9178b6c-000f-4f73-810c-64d3ceb7e124">)</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:214px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-7D4519DB-2A3B-4C3B-9AB5-121C3F257D36&quot;, &quot;src&quot; : &quot;/img/posts/orthodontic-extraction-extraction/img1.jpeg&quot;, &quot;originalWidth&quot; : &quot;201&quot;, &quot;originalHeight&quot; : &quot;251&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;7244&quot; }" area-hidden="true">
-<img src="/img/posts/orthodontic-extraction-extraction/img1.jpeg" data-lazy-src="/img/posts/orthodontic-extraction-extraction/img1.jpeg" data-width="214" data-height="267" alt="" class="se-image-resource egjs-visible" id="SE-7D4519DB-2A3B-4C3B-9AB5-121C3F257D36_0">
+<img src="/img/posts/orthodontic-extraction-extraction/img1.jpeg" data-lazy-src="/img/posts/orthodontic-extraction-extraction/img1.jpeg" data-width="214" data-height="267" alt="교정할 때 꼭 발치해야 할까? 발치 기준 이렇게 설명드립니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-7D4519DB-2A3B-4C3B-9AB5-121C3F257D36_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left " style="" id="SE-c6101485-cc41-4ab1-8ec2-cec9a76b10c5"><span style="" class="se-fs- se-ff-   " id="SE-01b5eda5-b718-4500-98be-9c03683f81e5">위 사진의 경우 발치없이 교정을 하려고 하면 공간이 부족합니다. 결국 첫번째 작은 어금니를 발치해서 교정을 하는 방법으로 진행하게 됩니다. </span></p></div>
@@ -132,7 +132,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:216px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-58A7BD8C-295B-41CD-8113-D670FA12B347&quot;, &quot;src&quot; : &quot;/img/posts/orthodontic-extraction-extraction/img2.jpeg&quot;, &quot;originalWidth&quot; : &quot;192&quot;, &quot;originalHeight&quot; : &quot;263&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;7474&quot; }" area-hidden="true">
-<img src="/img/posts/orthodontic-extraction-extraction/img2.jpeg" data-lazy-src="/img/posts/orthodontic-extraction-extraction/img2.jpeg" data-width="216" data-height="295" alt="" class="se-image-resource egjs-visible" id="SE-58A7BD8C-295B-41CD-8113-D670FA12B347_0">
+<img src="/img/posts/orthodontic-extraction-extraction/img2.jpeg" data-lazy-src="/img/posts/orthodontic-extraction-extraction/img2.jpeg" data-width="216" data-height="295" alt="교정할 때 꼭 발치해야 할까? 발치 기준 이렇게 설명드립니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-58A7BD8C-295B-41CD-8113-D670FA12B347_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left " style="" id="SE-7dd2682a-cdff-4606-8a71-23e85be740b6"><span style="" class="se-fs- se-ff-   " id="SE-93aa7d3d-d7a4-44aa-9e8d-e39056ce6d26">사진처럼 경미한 치열 부규칙의 경우 비발치 교정이 가능합니다.</span></p></div>

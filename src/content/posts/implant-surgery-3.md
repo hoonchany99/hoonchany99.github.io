@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-92D6928C-1AF1-41EF-8715-9392E0E3D809&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMDJfMjY1/MDAxNzY0NjExMjQxNTc3.lyB5tQ_VNMHwGm2J1M1t4xoK0lcEIPHLaXeFGZchSqIg.spy68uJp0B1lCv1OdifzuZP6SHPxKvTEs_fc3wTr1Dwg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;86232&quot; }" area-hidden="true">
-<img src="/img/posts/implant-surgery-3/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-92D6928C-1AF1-41EF-8715-9392E0E3D809_0">
+<img src="/img/posts/implant-surgery-3/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름" class="se-image-resource egjs-visible" id="SE-92D6928C-1AF1-41EF-8715-9392E0E3D809_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:411px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3741149E-3A8C-4A52-AFBA-1AF9AECF137D&quot;, &quot;src&quot; : &quot;/img/posts/implant-surgery-3/main.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1224622&quot; }" area-hidden="true">
-<img src="/img/posts/implant-surgery-3/main.png" data-lazy-src="/img/posts/implant-surgery-3/main.png" data-width="411" data-height="274" alt="" class="se-image-resource egjs-visible" id="SE-3741149E-3A8C-4A52-AFBA-1AF9AECF137D_0">
+<img src="/img/posts/implant-surgery-3/main.png" data-lazy-src="/img/posts/implant-surgery-3/main.png" data-width="411" data-height="274" alt="임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-3741149E-3A8C-4A52-AFBA-1AF9AECF137D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-559976aa-a8e9-45db-98b7-8879d4dbcd9f"><span style="" class="se-fs- se-ff-   " id="SE-0ce40a78-687a-4d8a-867c-778f6a8a7a20">이렇게 뼈가 부족한 경우 추가적으로 골이식(GBR)을 시행합니다</span></p></div>
@@ -76,7 +76,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:353px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-8A45F316-E3E3-45E0-9B04-64C57B0607BD&quot;, &quot;src&quot; : &quot;/img/posts/implant-surgery-3/img1.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;655163&quot; }" area-hidden="true">
-<img src="/img/posts/implant-surgery-3/img1.png" data-lazy-src="/img/posts/implant-surgery-3/img1.png" data-width="353" data-height="353" alt="" class="se-image-resource egjs-visible" id="SE-8A45F316-E3E3-45E0-9B04-64C57B0607BD_0">
+<img src="/img/posts/implant-surgery-3/img1.png" data-lazy-src="/img/posts/implant-surgery-3/img1.png" data-width="353" data-height="353" alt="임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-8A45F316-E3E3-45E0-9B04-64C57B0607BD_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-82607050-e32b-4fce-a403-9c82891edbf6"><span style="" class="se-fs- se-ff-   " id="SE-e9afc06a-8f38-4df4-826a-19bc6cffea7f">임플란트 픽스쳐 식립 과정은 임플란트의 뿌리 부분을 뼈에 심는 과정이에요. 많이들 무서워하시더라구요... 하지만 생각보다 안아프고 빨리 끝나서 걱정안하셔도 된답니다ㅎㅎ</span></p></div>
@@ -98,7 +98,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:407px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-FEDA7EF6-E753-4203-AE94-707A3E4E1898&quot;, &quot;src&quot; : &quot;/img/posts/implant-surgery-3/img2.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1184733&quot; }" area-hidden="true">
-<img src="/img/posts/implant-surgery-3/img2.png" data-lazy-src="/img/posts/implant-surgery-3/img2.png" data-width="407" data-height="271" alt="" class="se-image-resource egjs-visible" id="SE-FEDA7EF6-E753-4203-AE94-707A3E4E1898_0">
+<img src="/img/posts/implant-surgery-3/img2.png" data-lazy-src="/img/posts/implant-surgery-3/img2.png" data-width="407" data-height="271" alt="임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-FEDA7EF6-E753-4203-AE94-707A3E4E1898_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-82ba3880-3359-46ee-b531-00ecc6992ad8"><span style="" class="se-fs- se-ff-   " id="SE-fbebd59f-2848-4036-ab82-f591bc6d8314">임플란트와 뼈가 골융합(Osseointegration)을 이루는 과정</span></p></div>
@@ -120,7 +120,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:289px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-80F6F80E-1D38-4533-84C6-67AD67923297&quot;, &quot;src&quot; : &quot;/img/posts/implant-surgery-3/img3.jpeg&quot;, &quot;originalWidth&quot; : &quot;289&quot;, &quot;originalHeight&quot; : &quot;174&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;6028&quot; }" area-hidden="true">
-<img src="/img/posts/implant-surgery-3/img3.jpeg" data-lazy-src="/img/posts/implant-surgery-3/img3.jpeg" data-width="289" data-height="174" alt="" class="se-image-resource egjs-visible" id="SE-80F6F80E-1D38-4533-84C6-67AD67923297_0">
+<img src="/img/posts/implant-surgery-3/img3.jpeg" data-lazy-src="/img/posts/implant-surgery-3/img3.jpeg" data-width="289" data-height="174" alt="임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-80F6F80E-1D38-4533-84C6-67AD67923297_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-482855ae-2ca8-4e37-8ac6-cde2c56e3aa8"><span style="" class="se-fs- se-ff-   " id="SE-905480fb-f9d7-4444-967d-2cfc2c23c248">임플란트를 식립한 전후 엑스레이 사진입니다. 임플란트는 방사선을 투과하지 못해서 밝은 흰색으로 보여요. </span></p></div>

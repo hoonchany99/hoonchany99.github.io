@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-d0d18445-ffa3-4c27-a6b2-873185b65849&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMjA4MjRfMTA2/MDAxNjYxMzE5MzU4MTU5.PCVhpZ5hJaOFN3MgFsW9YiDLKXFaMa6Svwioc1P-IY4g.yNr_jG1xwycUZXHEWyktMaeVouFk0YuymbbRgapP9kcg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/dentalgeneral-anesthesia/cover.png" data-lazy-src="" data-width="693" data-height="693" alt="" class="se-image-resource egjs-visible" id="SE-d0d18445-ffa3-4c27-a6b2-873185b65849_0">
+<img src="/img/posts/dentalgeneral-anesthesia/cover.png" data-lazy-src="" data-width="693" data-height="693" alt="치과전신마취, 아직도 모르시나요?" class="se-image-resource egjs-visible" id="SE-d0d18445-ffa3-4c27-a6b2-873185b65849_0">
 </a>
 </div>
 </div>
@@ -35,7 +35,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-7227c675-0074-48db-957c-44bee61e922c&quot;, &quot;src&quot; : &quot;/img/posts/dentalgeneral-anesthesia/main.jpg&quot;, &quot;originalWidth&quot; : &quot;1297&quot;, &quot;originalHeight&quot; : &quot;500&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/dentalgeneral-anesthesia/main.jpg" data-lazy-src="/img/posts/dentalgeneral-anesthesia/main.jpg" data-width="693" data-height="267" alt="" class="se-image-resource egjs-visible" id="SE-7227c675-0074-48db-957c-44bee61e922c_0">
+<img src="/img/posts/dentalgeneral-anesthesia/main.jpg" data-lazy-src="/img/posts/dentalgeneral-anesthesia/main.jpg" data-width="693" data-height="267" alt="치과전신마취, 아직도 모르시나요? 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-7227c675-0074-48db-957c-44bee61e922c_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-A81AA1F7-5E13-46F5-8166-038F09B38EE5"><span style="" class="se-fs- se-ff-   " id="SE-1A64C46B-C888-44C7-B025-44FFD115423D">전신마취(General Anesthesia)를 행하는 모습</span></p></div>
@@ -55,7 +55,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-08ece294-d20e-4848-a055-46fc8b767987&quot;, &quot;src&quot; : &quot;/img/posts/dentalgeneral-anesthesia/img1.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;480&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/dentalgeneral-anesthesia/img1.png" data-lazy-src="/img/posts/dentalgeneral-anesthesia/img1.png" data-width="693" data-height="415" alt="" class="se-image-resource egjs-visible" id="SE-08ece294-d20e-4848-a055-46fc8b767987_0">
+<img src="/img/posts/dentalgeneral-anesthesia/img1.png" data-lazy-src="/img/posts/dentalgeneral-anesthesia/img1.png" data-width="693" data-height="415" alt="치과전신마취, 아직도 모르시나요? 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-08ece294-d20e-4848-a055-46fc8b767987_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-2F9FD706-994E-4DC1-9E01-0DDA7D2B0018"><span style="" class="se-fs- se-ff-   " id="SE-0430229C-99DC-45AF-BD75-96BDCBBD9B4A">보통 사랑니를 뽑아도 진통제 없이는 밤에 고통을 참기 힘들기 마련이죠.</span></p></div>
@@ -75,7 +75,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5692d0b2-34ba-496b-b375-bcfa008ff273&quot;, &quot;src&quot; : &quot;/img/posts/dentalgeneral-anesthesia/img2.jpg&quot;, &quot;originalWidth&quot; : &quot;3207&quot;, &quot;originalHeight&quot; : &quot;1604&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/dentalgeneral-anesthesia/img2.jpg" data-lazy-src="/img/posts/dentalgeneral-anesthesia/img2.jpg" data-width="693" data-height="346" alt="" class="se-image-resource egjs-visible" id="SE-5692d0b2-34ba-496b-b375-bcfa008ff273_0">
+<img src="/img/posts/dentalgeneral-anesthesia/img2.jpg" data-lazy-src="/img/posts/dentalgeneral-anesthesia/img2.jpg" data-width="693" data-height="346" alt="치과전신마취, 아직도 모르시나요? 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-5692d0b2-34ba-496b-b375-bcfa008ff273_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-88C08F50-AB9A-487B-86F4-E302C952342F"><span style="" class="se-fs- se-ff-   " id="SE-F72D6315-A31B-4C21-832E-620B69190149">치과수면마취를 시행하는 모습</span></p></div>

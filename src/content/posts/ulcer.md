@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5b0ce9c9-0994-4d92-b11f-4f5e2bd4480e&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA2MDFfNTQg/MDAxNjg1NjMwNTMyNjU1.e8uUr18yvR79c0rweSOGssUUxz03bVcwBE739k6t6nEg.gFng-MROnM2djt35iW1ayOkeIzw0GLdmyQJNzcRdDaIg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/ulcer/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-5b0ce9c9-0994-4d92-b11f-4f5e2bd4480e_0">
+<img src="/img/posts/ulcer/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="입안헐음, 큰일나기전에 보세요" class="se-image-resource egjs-visible" id="SE-5b0ce9c9-0994-4d92-b11f-4f5e2bd4480e_0">
 </a>
 </div>
 </div>
@@ -51,7 +51,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-e7eae944-4a7c-4061-b19b-c49ca888d7c8&quot;, &quot;src&quot; : &quot;/img/posts/ulcer/main.png&quot;, &quot;originalWidth&quot; : &quot;5104&quot;, &quot;originalHeight&quot; : &quot;3434&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/ulcer/main.png" data-lazy-src="/img/posts/ulcer/main.png" data-width="500" data-height="336" alt="" class="se-image-resource egjs-visible" id="SE-e7eae944-4a7c-4061-b19b-c49ca888d7c8_0">
+<img src="/img/posts/ulcer/main.png" data-lazy-src="/img/posts/ulcer/main.png" data-width="500" data-height="336" alt="입안헐음, 큰일나기전에 보세요 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-e7eae944-4a7c-4061-b19b-c49ca888d7c8_0">
 </a>
 </div>
 </div>
@@ -86,7 +86,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-" style="max-width:493px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-acdff79a-a78c-4d14-bc63-8e581e3b4388&quot;, &quot;src&quot; : &quot;/img/posts/ulcer/img1.png&quot;, &quot;originalWidth&quot; : &quot;493&quot;, &quot;originalHeight&quot; : &quot;370&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/ulcer/img1.png" data-lazy-src="/img/posts/ulcer/img1.png" data-width="493" data-height="370" alt="" class="se-image-resource egjs-visible" id="SE-acdff79a-a78c-4d14-bc63-8e581e3b4388_0">
+<img src="/img/posts/ulcer/img1.png" data-lazy-src="/img/posts/ulcer/img1.png" data-width="493" data-height="370" alt="입안헐음, 큰일나기전에 보세요 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-acdff79a-a78c-4d14-bc63-8e581e3b4388_0">
 </a>
 </div>
 </div>
@@ -121,7 +121,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-68b618a5-70e2-44b2-8d6f-91d3ac9a835d&quot;, &quot;src&quot; : &quot;/img/posts/ulcer/img2.png&quot;, &quot;originalWidth&quot; : &quot;1934&quot;, &quot;originalHeight&quot; : &quot;2513&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/ulcer/img2.png" data-lazy-src="/img/posts/ulcer/img2.png" data-width="500" data-height="649" alt="" class="se-image-resource egjs-visible" id="SE-68b618a5-70e2-44b2-8d6f-91d3ac9a835d_0">
+<img src="/img/posts/ulcer/img2.png" data-lazy-src="/img/posts/ulcer/img2.png" data-width="500" data-height="649" alt="입안헐음, 큰일나기전에 보세요 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-68b618a5-70e2-44b2-8d6f-91d3ac9a835d_0">
 </a>
 </div>
 </div>
@@ -156,7 +156,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/ulcer-8470/" class="se-oglink-thumbnail" >
-<img src="/img/posts/ulcer/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/ulcer/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="입안헐음, 큰일나기전에 보세요 관련 이미지 5">
 </a>
 <a href="/posts/ulcer-8470/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

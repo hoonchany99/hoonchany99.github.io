@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3840B2FB-3C58-40D6-93C5-85C1FED50F0B&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMTBfNzMg/MDAxNzY1MzUzNzM2MTM0.u42F3qp0vR-G4ryBaF3EpW1hoJdNO8sq1L82d2HASDUg.gSaN8p_zDfqV2WsmGfkV_lG8AjAGjeIvGwi9eivnZg8g.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;107574&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-tooth/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-3840B2FB-3C58-40D6-93C5-85C1FED50F0B_0">
+<img src="/img/posts/scaling-tooth/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="스케일링 후 치아가 시린가요? 민감해진 이유와 대처법" class="se-image-resource egjs-visible" id="SE-3840B2FB-3C58-40D6-93C5-85C1FED50F0B_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:359px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-DFE8A4F8-07EA-44AE-A93E-86FE291F5AD4&quot;, &quot;src&quot; : &quot;/img/posts/scaling-tooth/main.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1339244&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-tooth/main.png" data-lazy-src="/img/posts/scaling-tooth/main.png" data-width="359" data-height="239" alt="" class="se-image-resource egjs-visible" id="SE-DFE8A4F8-07EA-44AE-A93E-86FE291F5AD4_0">
+<img src="/img/posts/scaling-tooth/main.png" data-lazy-src="/img/posts/scaling-tooth/main.png" data-width="359" data-height="239" alt="스케일링 후 치아가 시린가요? 민감해진 이유와 대처법 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-DFE8A4F8-07EA-44AE-A93E-86FE291F5AD4_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-23558d8e-3147-41a5-b6c9-4af6ceb4327d"><span style="" class="se-fs- se-ff-   " id="SE-7a77b733-0ecf-4d6b-961a-9b3c8d819b54">스케일링을 하는 모습입니다. 치아 표면의 치석을 제거하는 시술이죠.</span></p></div>
@@ -59,7 +59,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:291px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4E78C507-0FF8-472D-94AA-5D8DFDA4A82D&quot;, &quot;src&quot; : &quot;/img/posts/scaling-tooth/img1.jpg&quot;, &quot;originalWidth&quot; : &quot;376&quot;, &quot;originalHeight&quot; : &quot;606&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;89125&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-tooth/img1.jpg" data-lazy-src="/img/posts/scaling-tooth/img1.jpg" data-width="291" data-height="469" alt="" class="se-image-resource egjs-visible" id="SE-4E78C507-0FF8-472D-94AA-5D8DFDA4A82D_0">
+<img src="/img/posts/scaling-tooth/img1.jpg" data-lazy-src="/img/posts/scaling-tooth/img1.jpg" data-width="291" data-height="469" alt="스케일링 후 치아가 시린가요? 민감해진 이유와 대처법 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-4E78C507-0FF8-472D-94AA-5D8DFDA4A82D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-d1da5d78-c5d0-45a2-9eec-bbdc74b9c6e9"><span style="" class="se-fs- se-ff-   " id="SE-d1a01271-5149-45fe-8413-0d4ae67216f2">위 그림처럼 치석이 사라지면 상아질이 노출되는 경우가 생길 수 있습니다. 이 경우, 상아질의 상아세관이 자극을 받아 치아가 시린 현상이 나타날 수 있습니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-d597f30b-61d9-4ce2-b2f2-9f55bbf7ef06"><a href="https://www.sciencedirect.com/s" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-d597f30b-61d9-4ce2-b2f2-9f55bbf7ef06&quot;, &quot;link&quot;: &quot;https://www.sciencedirect.com/s&quot;}" target="_blank"><b>https://www.sciencedirect.com/</b></a></span><span style="" class="se-fs- se-ff-   " id="SE-bf0872e8-d43d-4660-8da2-73d0aaa74912"><b>)</b></span></p></div>
@@ -98,7 +98,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:409px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-782A16E8-BC2A-4012-A947-6E962CC95525&quot;, &quot;src&quot; : &quot;/img/posts/scaling-tooth/img2.png&quot;, &quot;originalWidth&quot; : &quot;1060&quot;, &quot;originalHeight&quot; : &quot;336&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;110157&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-tooth/img2.png" data-lazy-src="/img/posts/scaling-tooth/img2.png" data-width="409" data-height="129" alt="" class="se-image-resource egjs-visible" id="SE-782A16E8-BC2A-4012-A947-6E962CC95525_0">
+<img src="/img/posts/scaling-tooth/img2.png" data-lazy-src="/img/posts/scaling-tooth/img2.png" data-width="409" data-height="129" alt="스케일링 후 치아가 시린가요? 민감해진 이유와 대처법 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-782A16E8-BC2A-4012-A947-6E962CC95525_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-12594c70-5949-4aca-adcd-600211735754"><span style="" class="se-fs- se-ff-   " id="SE-cda35e38-9bc9-4466-8df4-a97453a72125">시린이 치약을 사용하시는 것도 큰 도움이 됩니다. 위 사진은 마트에서 흔히 볼 수 있는 센소다인 치약입니다. </span></p></div>

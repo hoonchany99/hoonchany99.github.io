@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-81b98d57-adf3-4e29-9e18-668f3c96b971&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA1MjBfMTAz/MDAxNjg0NTY5ODk3MzY0.g7_6ulnbaPq1-vcAA00p7n9eAQ5LJVei6FkLkA4VucIg.HIZwgDT3fDps7w7wIz94K4GGC8WzQO7bNpeMcEAz4cAg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/diabetesdental/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-81b98d57-adf3-4e29-9e18-668f3c96b971_0">
+<img src="/img/posts/diabetesdental/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="당뇨치과치료, 그냥 이렇게만 하세요." class="se-image-resource egjs-visible" id="SE-81b98d57-adf3-4e29-9e18-668f3c96b971_0">
 </a>
 </div>
 </div>
@@ -35,7 +35,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-bffbc36e-52c3-4786-aafb-5dbb907e8752&quot;, &quot;src&quot; : &quot;/img/posts/diabetesdental/main.png&quot;, &quot;originalWidth&quot; : &quot;4096&quot;, &quot;originalHeight&quot; : &quot;2730&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/diabetesdental/main.png" data-lazy-src="/img/posts/diabetesdental/main.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-bffbc36e-52c3-4786-aafb-5dbb907e8752_0">
+<img src="/img/posts/diabetesdental/main.png" data-lazy-src="/img/posts/diabetesdental/main.png" data-width="500" data-height="333" alt="당뇨치과치료, 그냥 이렇게만 하세요. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-bffbc36e-52c3-4786-aafb-5dbb907e8752_0">
 </a>
 </div>
 </div>
@@ -70,7 +70,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-" style="max-width:468px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-442a7f29-8338-4c7a-8441-5a442833805d&quot;, &quot;src&quot; : &quot;/img/posts/diabetesdental/img1.png&quot;, &quot;originalWidth&quot; : &quot;468&quot;, &quot;originalHeight&quot; : &quot;346&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/diabetesdental/img1.png" data-lazy-src="/img/posts/diabetesdental/img1.png" data-width="468" data-height="346" alt="" class="se-image-resource egjs-visible" id="SE-442a7f29-8338-4c7a-8441-5a442833805d_0">
+<img src="/img/posts/diabetesdental/img1.png" data-lazy-src="/img/posts/diabetesdental/img1.png" data-width="468" data-height="346" alt="당뇨치과치료, 그냥 이렇게만 하세요. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-442a7f29-8338-4c7a-8441-5a442833805d_0">
 </a>
 </div>
 </div>
@@ -121,7 +121,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-ddee5ded-9ef6-448f-9d4c-da23d0511c6d&quot;, &quot;src&quot; : &quot;/img/posts/diabetesdental/img2.png&quot;, &quot;originalWidth&quot; : &quot;600&quot;, &quot;originalHeight&quot; : &quot;400&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/diabetesdental/img2.png" data-lazy-src="/img/posts/diabetesdental/img2.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-ddee5ded-9ef6-448f-9d4c-da23d0511c6d_0">
+<img src="/img/posts/diabetesdental/img2.png" data-lazy-src="/img/posts/diabetesdental/img2.png" data-width="500" data-height="333" alt="당뇨치과치료, 그냥 이렇게만 하세요. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-ddee5ded-9ef6-448f-9d4c-da23d0511c6d_0">
 </a>
 </div>
 </div>
@@ -140,7 +140,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/brushing-cavity/" class="se-oglink-thumbnail" >
-<img src="/img/posts/diabetesdental/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/diabetesdental/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="당뇨치과치료, 그냥 이렇게만 하세요. 관련 이미지 5">
 </a>
 <a href="/posts/brushing-cavity/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5F70AD89-DDA0-424A-A341-6F8A2B5DF83B&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMjZfNDIg/MDAxNzY0MTM4NzU4NzAy.ji0xAskFoUEvhOp6Ji-shBORMcVuw79Hz8y7I0_xcvwg.8Mwe0ZAQKkTexO9uNj-S4x1p2jC4EVMh8XUjJgVJs5Ag.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;244509&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-sensitivity/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-5F70AD89-DDA0-424A-A341-6F8A2B5DF83B_0">
+<img src="/img/posts/toothwhitening-sensitivity/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="치아미백 후 시림... 정상일까요? 바로 알아보세요" class="se-image-resource egjs-visible" id="SE-5F70AD89-DDA0-424A-A341-6F8A2B5DF83B_0">
 </a>
 </div>
 </div>
@@ -72,7 +72,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:236px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-62E53E14-A7EA-4614-BCD5-14673EA5E0A2&quot;, &quot;src&quot; : &quot;/img/posts/toothwhitening-sensitivity/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1536&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2284820&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-sensitivity/main.png" data-lazy-src="/img/posts/toothwhitening-sensitivity/main.png" data-width="236" data-height="354" alt="" class="se-image-resource egjs-visible" id="SE-62E53E14-A7EA-4614-BCD5-14673EA5E0A2_0">
+<img src="/img/posts/toothwhitening-sensitivity/main.png" data-lazy-src="/img/posts/toothwhitening-sensitivity/main.png" data-width="236" data-height="354" alt="치아미백 후 시림... 정상일까요? 바로 알아보세요 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-62E53E14-A7EA-4614-BCD5-14673EA5E0A2_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-57bbe61d-fcaa-42b3-ae81-16e8c2159143"><span style="" class="se-fs- se-ff-   " id="SE-3bcb65a4-317f-4a6e-baa4-ffad2ad96c06">치아는 에나멜, 덴틴, 치수 이렇게 세 층으로 구성되어있어요</span></p></div>
@@ -94,7 +94,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:195px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-54CEA524-4957-4DEE-B96D-065BB82C8289&quot;, &quot;src&quot; : &quot;/img/posts/toothwhitening-sensitivity/img1.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1630273&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-sensitivity/img1.png" data-lazy-src="/img/posts/toothwhitening-sensitivity/img1.png" data-width="195" data-height="195" alt="" class="se-image-resource egjs-visible" id="SE-54CEA524-4957-4DEE-B96D-065BB82C8289_0">
+<img src="/img/posts/toothwhitening-sensitivity/img1.png" data-lazy-src="/img/posts/toothwhitening-sensitivity/img1.png" data-width="195" data-height="195" alt="치아미백 후 시림... 정상일까요? 바로 알아보세요 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-54CEA524-4957-4DEE-B96D-065BB82C8289_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-27fd133b-bb82-4424-a569-231159e8ebc9"><span style="" class="se-fs- se-ff-   " id="SE-7f8a3873-03c9-4e98-8787-caae948bbced">차가운 자극은 피해주세요</span></p></div>
@@ -116,7 +116,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:423px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-72A95BCC-964B-48DA-9ED5-C03E3CFE6F53&quot;, &quot;src&quot; : &quot;/img/posts/toothwhitening-sensitivity/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1299536&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-sensitivity/img2.png" data-lazy-src="/img/posts/toothwhitening-sensitivity/img2.png" data-width="423" data-height="423" alt="" class="se-image-resource egjs-visible" id="SE-72A95BCC-964B-48DA-9ED5-C03E3CFE6F53_0">
+<img src="/img/posts/toothwhitening-sensitivity/img2.png" data-lazy-src="/img/posts/toothwhitening-sensitivity/img2.png" data-width="423" data-height="423" alt="치아미백 후 시림... 정상일까요? 바로 알아보세요 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-72A95BCC-964B-48DA-9ED5-C03E3CFE6F53_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-baa1c5f0-e819-4097-b4d4-f13d7cfc1e2a"><span style="" class="se-fs- se-ff-   " id="SE-60814c84-09ba-40a0-9473-c0f8bb8b35ff"><b>치아미백 후 시림의 기전 — 미백제가 신경에 가까워지는 과정</b></span></p></div>
@@ -155,7 +155,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:341px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-B08B2872-61BB-4059-B1D3-3D38A771CDD8&quot;, &quot;src&quot; : &quot;/img/posts/toothwhitening-sensitivity/img3.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1536&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2684472&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-sensitivity/img3.png" data-lazy-src="/img/posts/toothwhitening-sensitivity/img3.png" data-width="341" data-height="511" alt="" class="se-image-resource egjs-visible" id="SE-B08B2872-61BB-4059-B1D3-3D38A771CDD8_0">
+<img src="/img/posts/toothwhitening-sensitivity/img3.png" data-lazy-src="/img/posts/toothwhitening-sensitivity/img3.png" data-width="341" data-height="511" alt="치아미백 후 시림... 정상일까요? 바로 알아보세요 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-B08B2872-61BB-4059-B1D3-3D38A771CDD8_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-c8b8cdde-eb70-41c6-884d-40c362f24d89"><span style="" class="se-fs- se-ff-   " id="SE-a65f91cb-e86a-4b5e-b034-011cad735580">정상범위 밖의 시림이 있을 때는 치과를 방문해주세요</span></p></div>

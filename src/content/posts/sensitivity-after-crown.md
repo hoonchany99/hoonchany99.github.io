@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" >
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-660C6B9D-5098-485F-998D-5BADCC363C37", "src" : "/img/posts/sensitivity-after-crown/main.png", "originalWidth" : "1080", "originalHeight" : "1350", "linkUse" : "false", "link" : "", "fileSize": "105570" }'>
-<img src="/img/posts/sensitivity-after-crown/main.png" data-lazy-src="/img/posts/sensitivity-after-crown/main.png" data-width="500" data-height="625" alt="" class="se-image-resource" />
+<img src="/img/posts/sensitivity-after-crown/main.png" data-lazy-src="/img/posts/sensitivity-after-crown/main.png" data-width="500" data-height="625" alt="크라운치료 후 시림... 언제까지 정상일까요? 기준을 알려드립니다 관련 이미지 1" class="se-image-resource" />
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:399px;">
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-8282DEE2-C03E-4953-8F37-0D64679C125A", "src" : "/img/posts/sensitivity-after-crown/img1.png", "originalWidth" : "1200", "originalHeight" : "800", "linkUse" : "false", "link" : "", "fileSize": "1625896" }'>
-<img src="/img/posts/sensitivity-after-crown/img1.png" data-lazy-src="/img/posts/sensitivity-after-crown/img1.png" data-width="399" data-height="266" alt="" class="se-image-resource" />
+<img src="/img/posts/sensitivity-after-crown/img1.png" data-lazy-src="/img/posts/sensitivity-after-crown/img1.png" data-width="399" data-height="266" alt="크라운치료 후 시림... 언제까지 정상일까요? 기준을 알려드립니다 관련 이미지 2" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-c8ddaa2d-694a-4262-afed-0032b3251c42"><span style="" class="se-fs- se-ff-   " id="SE-63291add-ad21-47f4-8e62-1b67a52f7fc6">크라운치료를 나타낸 그림입니다. 치아를 깎고 크라운을 씌우는 만큼 일정 기간동안은 정상적인 시림이 나타납니다. </span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:315px;">
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-75B4CEED-2573-4D96-94C2-055C1AC8DE54", "src" : "/img/posts/sensitivity-after-crown/img2.jpg", "originalWidth" : "710", "originalHeight" : "682", "linkUse" : "false", "link" : "", "fileSize": "94085" }'>
-<img src="/img/posts/sensitivity-after-crown/img2.jpg" data-lazy-src="/img/posts/sensitivity-after-crown/img2.jpg" data-width="315" data-height="302" alt="" class="se-image-resource" />
+<img src="/img/posts/sensitivity-after-crown/img2.jpg" data-lazy-src="/img/posts/sensitivity-after-crown/img2.jpg" data-width="315" data-height="302" alt="크라운치료 후 시림... 언제까지 정상일까요? 기준을 알려드립니다 관련 이미지 3" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-27e02fcd-a7bc-4af0-b39b-3cca2ad49066"><span style="" class="se-fs- se-ff-   " id="SE-138110f5-a7ca-479c-88ef-9ed1bf03c066">치아가 시릴 수 있는 다양한 원인들을 나타낸 그림입니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-9501cec2-2e10-42ff-a8be-c7f781406119"><a href="https://shawnessydental.com/" class="se-link __se_link" data-linktype="text" data-linkdata='{"id": "SE-9501cec2-2e10-42ff-a8be-c7f781406119", "link": "https://shawnessydental.com/"}' target="_blank">https://shawnessydental.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-dfe66dce-d492-4688-9651-c875a7641b73">)</span></p></div>
@@ -115,7 +115,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:378px;">
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-FBF52997-A1C3-40FE-A574-7E9816732724", "src" : "/img/posts/sensitivity-after-crown/img3.jpg", "originalWidth" : "1024", "originalHeight" : "576", "linkUse" : "false", "link" : "", "fileSize": "52003" }'>
-<img src="/img/posts/sensitivity-after-crown/img3.jpg" data-lazy-src="/img/posts/sensitivity-after-crown/img3.jpg" data-width="378" data-height="212" alt="" class="se-image-resource" />
+<img src="/img/posts/sensitivity-after-crown/img3.jpg" data-lazy-src="/img/posts/sensitivity-after-crown/img3.jpg" data-width="378" data-height="212" alt="크라운치료 후 시림... 언제까지 정상일까요? 기준을 알려드립니다 관련 이미지 4" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-7d810b72-e8c9-418d-b7bc-55ee4b6ae737"><span style="" class="se-fs- se-ff-   " id="SE-da23eb89-ed8d-4ff0-bc64-7abcdaca75c7">교합(씹는 높이)가 문제가 있다면 치과에서 교합지(색이 묻어있는 종이)를 이용해서 어떤 치아가 높은지, 어떤 치아가 낮은지를 파악합니다. 그리고 높이를 적절하게 조정해줍니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-e269dc3e-07a6-475c-8b7c-ca6f48ae55de"><a href="https://www.styleitaliano.org/" class="se-link __se_link" data-linktype="text" data-linkdata='{"id": "SE-e269dc3e-07a6-475c-8b7c-ca6f48ae55de", "link": "https://www.styleitaliano.org/"}' target="_blank">https://www.styleitaliano.org/</a></span><span style="" class="se-fs- se-ff-   " id="SE-698ceb68-243b-4921-9637-e9219893b09e">)</span></p></div>
@@ -137,7 +137,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" >
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-8D918179-C93A-4553-8BCC-A6D0E6EF4F65", "src" : "/img/posts/sensitivity-after-crown/img4.jpg", "originalWidth" : "836", "originalHeight" : "418", "linkUse" : "false", "link" : "", "fileSize": "177689" }'>
-<img src="/img/posts/sensitivity-after-crown/img4.jpg" data-lazy-src="/img/posts/sensitivity-after-crown/img4.jpg" data-width="500" data-height="250" alt="" class="se-image-resource" />
+<img src="/img/posts/sensitivity-after-crown/img4.jpg" data-lazy-src="/img/posts/sensitivity-after-crown/img4.jpg" data-width="500" data-height="250" alt="크라운치료 후 시림... 언제까지 정상일까요? 기준을 알려드립니다 관련 이미지 5" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-1f68d4c8-5be4-437f-964f-f26681ccb825"><span style="" class="se-fs- se-ff-   " id="SE-86012453-30e7-4589-b0be-079cbef0a6f4">치아가 시리는 과정을 나타낸 그림입니다. 왼쪽 그림은 치아를 구성하는 층인 상아질(Dentin)의 모습인데요, 여기서 관들로 구성이 되어있습니다. 이 관들 안에는 액체가 차 있는데, 만약 외부의 자극이 들어오게 되면 이 액체가 움직여서 신경(빨간 부분 안의 노란 선들)을 자극하게 되는 원리입니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-531c0fdc-ecaf-43b5-90db-370a7feab2fe"><a href="https://denpedia.com/" class="se-link __se_link" data-linktype="text" data-linkdata='{"id": "SE-531c0fdc-ecaf-43b5-90db-370a7feab2fe", "link": "https://denpedia.com/"}' target="_blank">https://denpedia.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-5bb11938-54a0-4256-80f4-70bc821d3437">)</span></p></div>

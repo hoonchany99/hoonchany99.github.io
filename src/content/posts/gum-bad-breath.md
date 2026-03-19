@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-35C86150-6649-4C9A-99FB-E05FBC55497B&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMTNfOTMg/MDAxNzY1NTYwNTcwMjg0.D-WW-w1DaJ7Cr337wCWD-hl80UlLIpDI-A54jX9CLVEg.f4O5_TXPtDT47DR7JFD1UpqVI6x-uBWUe-E5JtREGqwg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;93461&quot; }" area-hidden="true">
-<img src="/img/posts/gum-bad-breath/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-35C86150-6649-4C9A-99FB-E05FBC55497B_0">
+<img src="/img/posts/gum-bad-breath/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다" class="se-image-resource egjs-visible" id="SE-35C86150-6649-4C9A-99FB-E05FBC55497B_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:412px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-9CFA1538-57CA-4E3C-BAEE-E3A48B2060C2&quot;, &quot;src&quot; : &quot;/img/posts/gum-bad-breath/main.jpg&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;596&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;150817&quot; }" area-hidden="true">
-<img src="/img/posts/gum-bad-breath/main.jpg" data-lazy-src="/img/posts/gum-bad-breath/main.jpg" data-width="412" data-height="204" alt="" class="se-image-resource egjs-visible" id="SE-9CFA1538-57CA-4E3C-BAEE-E3A48B2060C2_0">
+<img src="/img/posts/gum-bad-breath/main.jpg" data-lazy-src="/img/posts/gum-bad-breath/main.jpg" data-width="412" data-height="204" alt="잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-9CFA1538-57CA-4E3C-BAEE-E3A48B2060C2_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-091a8605-6f59-468d-8a07-e61798d5bf12"><span style="" class="se-fs- se-ff-   " id="SE-7fc25ff6-8b64-4800-8e3b-83f8c8d44ffe">치석이 쌓인 모습입니다. 치태가 쌓여서 치석이 되는건데요. 치석 자체로는 문제가 되지 않습니다. 하지만 치석은 세균이 잘 달라붙는 울퉁불퉁한 표면을 가지고 있어요. 그래서 냄새나는 황화합물(VSCs)를 만들게 되고, 더 나아가 치은염과 치주염이 생기게 됩니다. </span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:369px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-59CA2000-BD80-490D-A810-E595517F25D3&quot;, &quot;src&quot; : &quot;/img/posts/gum-bad-breath/img1.png&quot;, &quot;originalWidth&quot; : &quot;1400&quot;, &quot;originalHeight&quot; : &quot;810&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;281234&quot; }" area-hidden="true">
-<img src="/img/posts/gum-bad-breath/img1.png" data-lazy-src="/img/posts/gum-bad-breath/img1.png" data-width="369" data-height="213" alt="" class="se-image-resource egjs-visible" id="SE-59CA2000-BD80-490D-A810-E595517F25D3_0">
+<img src="/img/posts/gum-bad-breath/img1.png" data-lazy-src="/img/posts/gum-bad-breath/img1.png" data-width="369" data-height="213" alt="잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-59CA2000-BD80-490D-A810-E595517F25D3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-4b041363-9fbe-4f0d-900c-b1012e4321c5"><span style="" class="se-fs- se-ff- se-weight-unset  " id="SE-bcac46bd-b21c-47e3-b9f5-a685fdfa5f09">치태가 점점 쌓여 굳으면 치석이 됩니다. 그 치석은 표면이 울퉁불퉁하고 혐기성 성질을 띠어서 세균이 서식하기 좋은 환경이 되죠. (출처: </span><span style="" class="se-fs- se-ff- se-weight-unset  " id="SE-1bb4261e-7af3-46b9-acca-0a641bd1b411"><a href="https://www.thomsonmedical.com" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-1bb4261e-7af3-46b9-acca-0a641bd1b411&quot;, &quot;link&quot;: &quot;https://www.thomsonmedical.com&quot;}" target="_blank">https://www.thomsonmedical.com</a></span><span style="" class="se-fs- se-ff- se-weight-unset  " id="SE-29c2a089-38fd-4717-907d-a28719185e1e">)</span></p></div>
@@ -132,7 +132,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:439px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-FBCDE1FA-D467-4ADF-A4B1-7E104494902E&quot;, &quot;src&quot; : &quot;/img/posts/gum-bad-breath/img2.png&quot;, &quot;originalWidth&quot; : &quot;3216&quot;, &quot;originalHeight&quot; : &quot;1532&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1293941&quot; }" area-hidden="true">
-<img src="/img/posts/gum-bad-breath/img2.png" data-lazy-src="/img/posts/gum-bad-breath/img2.png" data-width="439" data-height="209" alt="" class="se-image-resource egjs-visible" id="SE-FBCDE1FA-D467-4ADF-A4B1-7E104494902E_0">
+<img src="/img/posts/gum-bad-breath/img2.png" data-lazy-src="/img/posts/gum-bad-breath/img2.png" data-width="439" data-height="209" alt="잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-FBCDE1FA-D467-4ADF-A4B1-7E104494902E_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-2f5560b1-1a1e-44a3-ba86-ed0afdcdc2f2"><span style="" class="se-fs- se-ff-   " id="SE-5a26315a-16f2-4353-8299-671694a4c535"><b>입냄새가 생기는 원리를 나타낸 그림입니다. 치석이나 혀의 돌기에 있는 그람음성 혐기성균의 효소를 통해서 아미노산을 황화합물(VSCs)로 만들어 입냄새가 나게 됩니다.   (출처: </b></span><span style="" class="se-fs- se-ff-   " id="SE-5d0b7130-1a05-4391-ac24-21d55542b212"><a href="https://doi.org/10.3390/ijerph191811303" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-5d0b7130-1a05-4391-ac24-21d55542b212&quot;, &quot;link&quot;: &quot;https://doi.org/10.3390/ijerph191811303&quot;}" target="_blank"><b>https://doi.org/10.3390/ijerph191811303</b></a></span><span style="" class="se-fs- se-ff-   " id="SE-64673933-5be8-4f68-9930-aa13b0e52b29"><b>)</b></span></p></div>

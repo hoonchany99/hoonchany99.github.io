@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-f278a884-09ae-4969-bbdb-bce733e6183f&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzAzMzBfMTU3/MDAxNjgwMTgxNjgxMzMz.d1LMU6i364WlBJIO0AQ1aQ5WVQIXJlmLMn3vcRtIw2Ag.xhzm2n5k_fmursQjjUsJVQHYqsUV8g7CEBIWL1BdaCgg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/prosthesis/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-f278a884-09ae-4969-bbdb-bce733e6183f_0">
+<img src="/img/posts/prosthesis/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="원데이보철, 다시 한 번 고민해보세요." class="se-image-resource egjs-visible" id="SE-f278a884-09ae-4969-bbdb-bce733e6183f_0">
 </a>
 </div>
 </div>
@@ -51,7 +51,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-e0a0d357-7388-459a-97d7-0d7b535469be&quot;, &quot;src&quot; : &quot;/img/posts/prosthesis/main.png&quot;, &quot;originalWidth&quot; : &quot;1000&quot;, &quot;originalHeight&quot; : &quot;562&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/prosthesis/main.png" data-lazy-src="/img/posts/prosthesis/main.png" data-width="500" data-height="281" alt="" class="se-image-resource egjs-visible" id="SE-e0a0d357-7388-459a-97d7-0d7b535469be_0">
+<img src="/img/posts/prosthesis/main.png" data-lazy-src="/img/posts/prosthesis/main.png" data-width="500" data-height="281" alt="원데이보철, 다시 한 번 고민해보세요. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-e0a0d357-7388-459a-97d7-0d7b535469be_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-9e163c25-c997-40ff-ba8b-3f3fcb3e3a7a"><span style="" class="se-fs- se-ff-   " id="SE-3b97b9e5-6654-4403-b4ad-4be9b90d341e">구강스캐너로 스캔하는 모습(본을 뜨는 모습)</span></p></div>
@@ -87,7 +87,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-0a395d00-9392-4b26-a3ae-818893477e0d&quot;, &quot;src&quot; : &quot;/img/posts/prosthesis/img1.png&quot;, &quot;originalWidth&quot; : &quot;922&quot;, &quot;originalHeight&quot; : &quot;508&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/prosthesis/img1.png" data-lazy-src="/img/posts/prosthesis/img1.png" data-width="500" data-height="275" alt="" class="se-image-resource egjs-visible" id="SE-0a395d00-9392-4b26-a3ae-818893477e0d_0">
+<img src="/img/posts/prosthesis/img1.png" data-lazy-src="/img/posts/prosthesis/img1.png" data-width="500" data-height="275" alt="원데이보철, 다시 한 번 고민해보세요. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-0a395d00-9392-4b26-a3ae-818893477e0d_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-df441822-830f-4269-8e92-c84a645c31cd"><span style="" class="se-fs- se-ff-   " id="SE-f32edf3c-2458-43ce-90fb-b5ea98931e7f">컴퓨터로 보철물을 디자인하는 모습</span></p></div>
@@ -139,7 +139,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-9ca202f5-ad71-4b53-928b-3e57d78ec298&quot;, &quot;src&quot; : &quot;/img/posts/prosthesis/img2.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;848&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/prosthesis/img2.png" data-lazy-src="/img/posts/prosthesis/img2.png" data-width="500" data-height="353" alt="" class="se-image-resource egjs-visible" id="SE-9ca202f5-ad71-4b53-928b-3e57d78ec298_0">
+<img src="/img/posts/prosthesis/img2.png" data-lazy-src="/img/posts/prosthesis/img2.png" data-width="500" data-height="353" alt="원데이보철, 다시 한 번 고민해보세요. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-9ca202f5-ad71-4b53-928b-3e57d78ec298_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-a4bc043a-f78e-4345-8b67-2292e02ee138"><span style="" class="se-fs- se-ff-   " id="SE-a983c50b-e75b-44dc-af3c-af36e3bb7b58">원데이 보철 시스템</span></p></div>

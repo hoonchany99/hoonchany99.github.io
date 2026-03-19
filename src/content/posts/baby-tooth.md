@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-ff8b0223-dd33-46ea-9cbf-2e38b87c535f&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MzBfNjQg/MDAxNjgyNzg3NTQ1MDI5.m16xB0LbUHicJMxhBqpoYzsKCAChYxUI1lUvxF3ms6og.JxbadNgaREWZW9LnM9lMj5L0JMmN_V4XLwamwlzp_bkg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;115094&quot; }" area-hidden="true">
-<img src="/img/posts/baby-tooth/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-ff8b0223-dd33-46ea-9cbf-2e38b87c535f_0">
+<img src="/img/posts/baby-tooth/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="유치파절, 진정하시고 이렇게만 대처하세요" class="se-image-resource egjs-visible" id="SE-ff8b0223-dd33-46ea-9cbf-2e38b87c535f_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-45ea7b6f-fe24-4794-bad9-c76c82ebb952&quot;, &quot;src&quot; : &quot;/img/posts/baby-tooth/main.png&quot;, &quot;originalWidth&quot; : &quot;300&quot;, &quot;originalHeight&quot; : &quot;342&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;179678&quot; }" area-hidden="true">
-<img src="/img/posts/baby-tooth/main.png" data-lazy-src="/img/posts/baby-tooth/main.png" data-width="500" data-height="570" alt="" class="se-image-resource egjs-visible" id="SE-45ea7b6f-fe24-4794-bad9-c76c82ebb952_0">
+<img src="/img/posts/baby-tooth/main.png" data-lazy-src="/img/posts/baby-tooth/main.png" data-width="500" data-height="570" alt="유치파절, 진정하시고 이렇게만 대처하세요 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-45ea7b6f-fe24-4794-bad9-c76c82ebb952_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-8258D151-A37C-46EA-A2E6-9DAEAF9441CE"><span style="" class="se-fs- se-ff-   " id="SE-1B9724CA-DC1D-425E-83FF-1D4D6D6F5E1E">치아의 3개의 층</span></p></div>
@@ -76,7 +76,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-bd8298a6-63e0-4e90-88d0-b97bb36d65dc&quot;, &quot;src&quot; : &quot;/img/posts/baby-tooth/img1.png&quot;, &quot;originalWidth&quot; : &quot;275&quot;, &quot;originalHeight&quot; : &quot;183&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;77364&quot; }" area-hidden="true">
-<img src="/img/posts/baby-tooth/img1.png" data-lazy-src="/img/posts/baby-tooth/img1.png" data-width="500" data-height="332" alt="" class="se-image-resource egjs-visible" id="SE-bd8298a6-63e0-4e90-88d0-b97bb36d65dc_0">
+<img src="/img/posts/baby-tooth/img1.png" data-lazy-src="/img/posts/baby-tooth/img1.png" data-width="500" data-height="332" alt="유치파절, 진정하시고 이렇게만 대처하세요 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-bd8298a6-63e0-4e90-88d0-b97bb36d65dc_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-2C521CD2-5F43-40F5-932E-CFA5E5E338C3"><span style="" class="se-fs- se-ff-   " id="SE-57AFBC82-A0BF-4B25-ADE3-4BBA38485DAD">치아 스플린트 치료</span></p></div>
@@ -132,7 +132,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-d61b4e3e-b033-414c-bd61-458f08424055&quot;, &quot;src&quot; : &quot;/img/posts/baby-tooth/img2.png&quot;, &quot;originalWidth&quot; : &quot;2560&quot;, &quot;originalHeight&quot; : &quot;1441&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;5909550&quot; }" area-hidden="true">
-<img src="/img/posts/baby-tooth/img2.png" data-lazy-src="/img/posts/baby-tooth/img2.png" data-width="500" data-height="281" alt="" class="se-image-resource egjs-visible" id="SE-d61b4e3e-b033-414c-bd61-458f08424055_0">
+<img src="/img/posts/baby-tooth/img2.png" data-lazy-src="/img/posts/baby-tooth/img2.png" data-width="500" data-height="281" alt="유치파절, 진정하시고 이렇게만 대처하세요 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-d61b4e3e-b033-414c-bd61-458f08424055_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-68A7EA0E-9850-474C-9369-C6CCC56CF942"><span style="" class="se-fs- se-ff-   " id="SE-AC5E37F6-2FE7-4A17-A1FC-84EA94A0C9C8">아이가 놀때는 옆에서 지켜봐 주세요</span></p></div>
@@ -154,7 +154,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/baby-tooth-fracture/" class="se-oglink-thumbnail __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-53aefcdb-6ca6-4928-93b8-d3073530d260&quot;, &quot;link&quot;: &quot;/posts/baby-tooth-fracture/&quot;}">
-<img src="/img/posts/baby-tooth/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/baby-tooth/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="유치파절, 진정하시고 이렇게만 대처하세요 관련 이미지 5">
 </a>
 <a href="/posts/baby-tooth-fracture/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-53aefcdb-6ca6-4928-93b8-d3073530d260&quot;, &quot;link&quot;: &quot;/posts/baby-tooth-fracture/&quot;}">
 <div class="se-oglink-info-container">

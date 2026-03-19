@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-204FBBA6-6801-4514-B590-3146E35FDA90&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMjdfMTIy/MDAxNzY0MTc5NjMyMzky.n-lvH1VkwNriF3nN3KFmrazfbvBPp6i-bp4OanPDDRUg.Okie9DqjnmJkhvxALPC6C3PJsjZJwQs07SYEAuylLC0g.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;99263&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain-4268/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-204FBBA6-6801-4514-B590-3146E35FDA90_0">
+<img src="/img/posts/wisdom-tooth-pain-4268/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="사랑니 통증이 갑자기 심해진 이유, 이걸 확인해보셔야 합니다" class="se-image-resource egjs-visible" id="SE-204FBBA6-6801-4514-B590-3146E35FDA90_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:331px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-2702A011-C4AC-4F41-8D31-6619D934DE14&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-pain-4268/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1496028&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain-4268/main.png" data-lazy-src="/img/posts/wisdom-tooth-pain-4268/main.png" data-width="331" data-height="331" alt="" class="se-image-resource egjs-visible" id="SE-2702A011-C4AC-4F41-8D31-6619D934DE14_0">
+<img src="/img/posts/wisdom-tooth-pain-4268/main.png" data-lazy-src="/img/posts/wisdom-tooth-pain-4268/main.png" data-width="331" data-height="331" alt="사랑니 통증이 갑자기 심해진 이유, 이걸 확인해보셔야 합니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-2702A011-C4AC-4F41-8D31-6619D934DE14_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-e9e6a96e-266a-41cf-937e-f4d61f1c37f5"><span style="" class="se-fs- se-ff-   " id="SE-2c44f6e6-fef4-41ee-975f-62d287ffea58">사랑니 통증</span></p></div>
@@ -59,7 +59,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:331px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-8DA7AA76-ABEF-4D26-A7DE-B6AD7B7412D3&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-pain-4268/img1.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1479641&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain-4268/img1.png" data-lazy-src="/img/posts/wisdom-tooth-pain-4268/img1.png" data-width="331" data-height="331" alt="" class="se-image-resource egjs-visible" id="SE-8DA7AA76-ABEF-4D26-A7DE-B6AD7B7412D3_0">
+<img src="/img/posts/wisdom-tooth-pain-4268/img1.png" data-lazy-src="/img/posts/wisdom-tooth-pain-4268/img1.png" data-width="331" data-height="331" alt="사랑니 통증이 갑자기 심해진 이유, 이걸 확인해보셔야 합니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-8DA7AA76-ABEF-4D26-A7DE-B6AD7B7412D3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-f3d396ec-a6b0-4486-8225-266548cb1a9c"><span style="" class="se-fs- se-ff-   " id="SE-f67ee23d-5468-4bce-9ab7-034528f13d63">사랑니와 어금니 사이에 음식물이 껴서 잇몸이 부은 모습</span></p></div>
@@ -115,7 +115,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:441px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1376D82E-89E2-451C-9AED-4DD8C9DC45F7&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-pain-4268/img2.png&quot;, &quot;originalWidth&quot; : &quot;1536&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2228167&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain-4268/img2.png" data-lazy-src="/img/posts/wisdom-tooth-pain-4268/img2.png" data-width="441" data-height="294" alt="" class="se-image-resource egjs-visible" id="SE-1376D82E-89E2-451C-9AED-4DD8C9DC45F7_0">
+<img src="/img/posts/wisdom-tooth-pain-4268/img2.png" data-lazy-src="/img/posts/wisdom-tooth-pain-4268/img2.png" data-width="441" data-height="294" alt="사랑니 통증이 갑자기 심해진 이유, 이걸 확인해보셔야 합니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-1376D82E-89E2-451C-9AED-4DD8C9DC45F7_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-f9b6903d-afb2-4545-99fd-1f4d0b301311"><span style="" class="se-fs- se-ff-   " id="SE-d05bf103-1187-4b90-8d3f-a70fa7d9663e">우선 집에서 이것들을 해보세요. 조금 나아질거에요</span></p></div>
@@ -154,7 +154,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:302px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-AFCEF830-A20F-48C4-B70C-B0CB02813255&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-pain-4268/img3.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1536&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1537173&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain-4268/img3.png" data-lazy-src="/img/posts/wisdom-tooth-pain-4268/img3.png" data-width="302" data-height="453" alt="" class="se-image-resource egjs-visible" id="SE-AFCEF830-A20F-48C4-B70C-B0CB02813255_0">
+<img src="/img/posts/wisdom-tooth-pain-4268/img3.png" data-lazy-src="/img/posts/wisdom-tooth-pain-4268/img3.png" data-width="302" data-height="453" alt="사랑니 통증이 갑자기 심해진 이유, 이걸 확인해보셔야 합니다 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-AFCEF830-A20F-48C4-B70C-B0CB02813255_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-836e6efe-e906-4322-b0aa-6f3b20905bd6"><span style="" class="se-fs- se-ff-   " id="SE-22229a0c-817e-43af-9259-109238b6d7d7">이럴 경우, 꼭 원인을 확인해야 됩니다</span></p></div>

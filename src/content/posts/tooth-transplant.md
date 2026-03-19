@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-6ab3ae27-e2c5-4244-917e-1b629e72d8d9&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MTRfMjg3/MDAxNjgxNDY0OTQ0OTE2.gS_KxZo6ulnM3XW_KxU2X0Z6QUR-VUzLpnfQTx0h5b8g.Vz9RFCerCSvhPCx0taQbpvqn2t7DXsuZEc076BEN4e4g.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/tooth-transplant/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-6ab3ae27-e2c5-4244-917e-1b629e72d8d9_0">
+<img src="/img/posts/tooth-transplant/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="자가치아이식, 이 글 하나만 보셔도 충분합니다." class="se-image-resource egjs-visible" id="SE-6ab3ae27-e2c5-4244-917e-1b629e72d8d9_0">
 </a>
 </div>
 </div>
@@ -51,7 +51,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3e5ac606-7df0-4104-8381-1860d1585304&quot;, &quot;src&quot; : &quot;/img/posts/tooth-transplant/main.png&quot;, &quot;originalWidth&quot; : &quot;351&quot;, &quot;originalHeight&quot; : &quot;232&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/tooth-transplant/main.png" data-lazy-src="/img/posts/tooth-transplant/main.png" data-width="500" data-height="330" alt="" class="se-image-resource egjs-visible" id="SE-3e5ac606-7df0-4104-8381-1860d1585304_0">
+<img src="/img/posts/tooth-transplant/main.png" data-lazy-src="/img/posts/tooth-transplant/main.png" data-width="500" data-height="330" alt="자가치아이식, 이 글 하나만 보셔도 충분합니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-3e5ac606-7df0-4104-8381-1860d1585304_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-15b13c70-5c51-4f4f-8d1d-1f0b1931bca2"><span style="" class="se-fs- se-ff-   " id="SE-4b5e4a2a-85ef-4986-bc10-7fd9647f1e04">망가진 어금니를 제거하고 숨어있는 사랑니를 발치합니다. </span></p></div>
@@ -71,7 +71,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3f2dd44d-8236-4dc2-ac06-05d00e087aaa&quot;, &quot;src&quot; : &quot;/img/posts/tooth-transplant/img1.png&quot;, &quot;originalWidth&quot; : &quot;366&quot;, &quot;originalHeight&quot; : &quot;341&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/tooth-transplant/img1.png" data-lazy-src="/img/posts/tooth-transplant/img1.png" data-width="500" data-height="465" alt="" class="se-image-resource egjs-visible" id="SE-3f2dd44d-8236-4dc2-ac06-05d00e087aaa_0">
+<img src="/img/posts/tooth-transplant/img1.png" data-lazy-src="/img/posts/tooth-transplant/img1.png" data-width="500" data-height="465" alt="자가치아이식, 이 글 하나만 보셔도 충분합니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-3f2dd44d-8236-4dc2-ac06-05d00e087aaa_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-6d3497e3-c8e7-42e8-bfda-df783851ba94"><span style="" class="se-fs- se-ff-   " id="SE-4c85d0a2-0acc-40f5-9366-aa745f24ead2">치아를 발치해서 다듬는 과정을 거칩니다.</span></p></div>
@@ -91,7 +91,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-cee4f780-089d-4517-bb43-712c41e5e533&quot;, &quot;src&quot; : &quot;/img/posts/tooth-transplant/img2.png&quot;, &quot;originalWidth&quot; : &quot;370&quot;, &quot;originalHeight&quot; : &quot;441&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/tooth-transplant/img2.png" data-lazy-src="/img/posts/tooth-transplant/img2.png" data-width="500" data-height="595" alt="" class="se-image-resource egjs-visible" id="SE-cee4f780-089d-4517-bb43-712c41e5e533_0">
+<img src="/img/posts/tooth-transplant/img2.png" data-lazy-src="/img/posts/tooth-transplant/img2.png" data-width="500" data-height="595" alt="자가치아이식, 이 글 하나만 보셔도 충분합니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-cee4f780-089d-4517-bb43-712c41e5e533_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-e66ae17f-ed8d-4325-802d-4b4afebae329"><span style="" class="se-fs- se-ff-   " id="SE-d6e91af9-c25a-4385-8eba-e017cacab1d5">치아를 넣고 고정한 후 봉합합니다. </span></p></div>
@@ -143,7 +143,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/implant-1292/" class="se-oglink-thumbnail" >
-<img src="/img/posts/tooth-transplant/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/tooth-transplant/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="자가치아이식, 이 글 하나만 보셔도 충분합니다. 관련 이미지 5">
 </a>
 <a href="/posts/implant-1292/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

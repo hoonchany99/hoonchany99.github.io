@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-507d827a-56c7-4877-ad3b-d862fe07d42f&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA1MzFfMjQ1/MDAxNjg1NTQyMDQ4NzI0.UjiLAgB9M9wMt00cS_G3TUFT1wyYrosbQto96_tJelwg.dW76ncsT59XHUy9pJ37EMoryBk21iy-aJlXt8EW5uJwg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;388459&quot; }" area-hidden="true">
-<img src="/img/posts/gum-throbbing/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-507d827a-56c7-4877-ad3b-d862fe07d42f_0">
+<img src="/img/posts/gum-throbbing/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="잇몸욱신, 그냥 두면 안됩니다." class="se-image-resource egjs-visible" id="SE-507d827a-56c7-4877-ad3b-d862fe07d42f_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-6ceb3b8e-d59b-4c60-9f7c-9c6b6eef030b&quot;, &quot;src&quot; : &quot;/img/posts/gum-throbbing/main.png&quot;, &quot;originalWidth&quot; : &quot;4500&quot;, &quot;originalHeight&quot; : &quot;3000&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;17649317&quot; }" area-hidden="true">
-<img src="/img/posts/gum-throbbing/main.png" data-lazy-src="/img/posts/gum-throbbing/main.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-6ceb3b8e-d59b-4c60-9f7c-9c6b6eef030b_0">
+<img src="/img/posts/gum-throbbing/main.png" data-lazy-src="/img/posts/gum-throbbing/main.png" data-width="500" data-height="333" alt="잇몸욱신, 그냥 두면 안됩니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-6ceb3b8e-d59b-4c60-9f7c-9c6b6eef030b_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-a11ae1a2-b36c-41da-8ab1-22da352a67b9"><span style="" class="se-fs- se-ff-   " id="SE-618a638b-9468-417a-8dfd-faa0ef11f908">진지발리스 균</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-cbe73ce5-6be3-43b7-9e5a-39b977ecf358&quot;, &quot;src&quot; : &quot;/img/posts/gum-throbbing/img1.png&quot;, &quot;originalWidth&quot; : &quot;744&quot;, &quot;originalHeight&quot; : &quot;537&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;563858&quot; }" area-hidden="true">
-<img src="/img/posts/gum-throbbing/img1.png" data-lazy-src="/img/posts/gum-throbbing/img1.png" data-width="500" data-height="360" alt="" class="se-image-resource egjs-visible" id="SE-cbe73ce5-6be3-43b7-9e5a-39b977ecf358_0">
+<img src="/img/posts/gum-throbbing/img1.png" data-lazy-src="/img/posts/gum-throbbing/img1.png" data-width="500" data-height="360" alt="잇몸욱신, 그냥 두면 안됩니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-cbe73ce5-6be3-43b7-9e5a-39b977ecf358_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-4777c5a8-05d9-4171-ba36-1a02c72321cb"><span style="" class="se-fs- se-ff-   " id="SE-3cc1f88d-b7e1-445b-9193-8c313d40232a">치주염의 발생과정</span></p></div>
@@ -140,7 +140,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-b85f66ce-83df-4c57-8687-67f6b3f330ab&quot;, &quot;src&quot; : &quot;/img/posts/gum-throbbing/img2.png&quot;, &quot;originalWidth&quot; : &quot;1028&quot;, &quot;originalHeight&quot; : &quot;324&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;301245&quot; }" area-hidden="true">
-<img src="/img/posts/gum-throbbing/img2.png" data-lazy-src="/img/posts/gum-throbbing/img2.png" data-width="500" data-height="157" alt="" class="se-image-resource egjs-visible" id="SE-b85f66ce-83df-4c57-8687-67f6b3f330ab_0">
+<img src="/img/posts/gum-throbbing/img2.png" data-lazy-src="/img/posts/gum-throbbing/img2.png" data-width="500" data-height="157" alt="잇몸욱신, 그냥 두면 안됩니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-b85f66ce-83df-4c57-8687-67f6b3f330ab_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-5a82b59d-0555-4edd-b728-a48106fd8a12"><span style="" class="se-fs- se-ff-   " id="SE-923ffe17-3564-4a93-9403-4e4583312945">여러 종류의 잇몸질환 치약들</span></p></div>
@@ -179,7 +179,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/gum-diseasedental/" class="se-oglink-thumbnail __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-4a1b2251-e4ca-4adb-8d60-eab6c5a37e21&quot;, &quot;link&quot;: &quot;/posts/gum-diseasedental/&quot;}">
-<img src="/img/posts/gum-throbbing/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/gum-throbbing/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="잇몸욱신, 그냥 두면 안됩니다. 관련 이미지 5">
 </a>
 <a href="/posts/gum-diseasedental/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-4a1b2251-e4ca-4adb-8d60-eab6c5a37e21&quot;, &quot;link&quot;: &quot;/posts/gum-diseasedental/&quot;}">
 <div class="se-oglink-info-container">

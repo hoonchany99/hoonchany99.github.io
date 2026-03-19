@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-17aaca95-fc5b-405d-aa12-df1508429781&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMjA5MDhfMTQ1/MDAxNjYyNjMyODg3MzM1.6HFB0sLB1swNGYU6mHWMn-Ya-hM2KRZkUsPiOWoWlwQg.DbrJYd__Dw6eO-TimywEReTFM1uy8J_69MDQ-wIqBE8g.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;153110&quot; }" area-hidden="true">
-<img src="/img/posts/supernumerary/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-17aaca95-fc5b-405d-aa12-df1508429781_0">
+<img src="/img/posts/supernumerary/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다" class="se-image-resource egjs-visible" id="SE-17aaca95-fc5b-405d-aa12-df1508429781_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4fb34b7d-ac26-4be2-a85a-5ebd22686437&quot;, &quot;src&quot; : &quot;/img/posts/supernumerary/main.png&quot;, &quot;originalWidth&quot; : &quot;1565&quot;, &quot;originalHeight&quot; : &quot;1260&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;584218&quot; }" area-hidden="true">
-<img src="/img/posts/supernumerary/main.png" data-lazy-src="/img/posts/supernumerary/main.png" data-width="500" data-height="401" alt="" class="se-image-resource egjs-visible" id="SE-4fb34b7d-ac26-4be2-a85a-5ebd22686437_0">
+<img src="/img/posts/supernumerary/main.png" data-lazy-src="/img/posts/supernumerary/main.png" data-width="500" data-height="401" alt="어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-4fb34b7d-ac26-4be2-a85a-5ebd22686437_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-1FF4B479-6D0C-419A-9F34-99007A6E871D"><span style="" class="se-fs- se-ff-   " id="SE-69ABE6DA-954C-4480-B3A6-496A010CB2F8">과잉치를 엑스레이로 찍은 모습</span></p></div>
@@ -59,7 +59,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1a52531b-9f82-4186-a5e5-11e3be15cb13&quot;, &quot;src&quot; : &quot;/img/posts/supernumerary/img1.png&quot;, &quot;originalWidth&quot; : &quot;1890&quot;, &quot;originalHeight&quot; : &quot;1260&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2012036&quot; }" area-hidden="true">
-<img src="/img/posts/supernumerary/img1.png" data-lazy-src="/img/posts/supernumerary/img1.png" data-width="500" data-height="332" alt="" class="se-image-resource egjs-visible" id="SE-1a52531b-9f82-4186-a5e5-11e3be15cb13_0">
+<img src="/img/posts/supernumerary/img1.png" data-lazy-src="/img/posts/supernumerary/img1.png" data-width="500" data-height="332" alt="어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-1a52531b-9f82-4186-a5e5-11e3be15cb13_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-6CC8CFC5-FEBF-4170-B2E3-8A92868C0814"><span style="" class="se-fs- se-ff-   " id="SE-A9421FC5-D650-4E44-B00D-55D08C8CAA56">치과치료에 겁이 많은 아이</span></p></div>
@@ -81,7 +81,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-51f9661f-bbd7-47e9-a819-43edf491a966&quot;, &quot;src&quot; : &quot;/img/posts/supernumerary/img2.png&quot;, &quot;originalWidth&quot; : &quot;1565&quot;, &quot;originalHeight&quot; : &quot;1044&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1223301&quot; }" area-hidden="true">
-<img src="/img/posts/supernumerary/img2.png" data-lazy-src="/img/posts/supernumerary/img2.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-51f9661f-bbd7-47e9-a819-43edf491a966_0">
+<img src="/img/posts/supernumerary/img2.png" data-lazy-src="/img/posts/supernumerary/img2.png" data-width="500" data-height="333" alt="어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-51f9661f-bbd7-47e9-a819-43edf491a966_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-6C50863F-0649-4A3D-A47E-828636EB1B2B"><span style="" class="se-fs- se-ff-   " id="SE-C1AAD7E4-A8B8-44C6-8151-C036FE0F38DE">치과에 대한 인식을 아이에게 좋게 유지시켜주는게 중요합니다</span></p></div>
@@ -103,7 +103,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/dentalgeneral-anesthesia/" class="se-oglink-thumbnail __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-5d6a390f-4253-4aa9-8b65-67cb00e02b8c&quot;, &quot;link&quot;: &quot;/posts/dentalgeneral-anesthesia/&quot;}">
-<img src="/img/posts/supernumerary/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/supernumerary/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다 관련 이미지 5">
 </a>
 <a href="/posts/dentalgeneral-anesthesia/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-5d6a390f-4253-4aa9-8b65-67cb00e02b8c&quot;, &quot;link&quot;: &quot;/posts/dentalgeneral-anesthesia/&quot;}">
 <div class="se-oglink-info-container">

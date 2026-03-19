@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-10A64B64-7106-4BE4-85E6-84D8860E2CC5&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMzBfMTg1/MDAxNzY0NDkwNjA2Mjc3.kybhxZBvIGTqgdjS_GzapDQWj_DkA9mGc5ShZXjLfBkg.EXeG978z-tZIJCnbSXcKmn4Elr03Bva3TtgdKPlYNYMg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;76892&quot; }" area-hidden="true">
-<img src="/img/posts/first-molar/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-10A64B64-7106-4BE4-85E6-84D8860E2CC5_0">
+<img src="/img/posts/first-molar/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다" class="se-image-resource egjs-visible" id="SE-10A64B64-7106-4BE4-85E6-84D8860E2CC5_0">
 </a>
 </div>
 </div>
@@ -71,7 +71,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:344px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-2C8D5CAB-A767-4CF5-8050-B35D0CE379C8&quot;, &quot;src&quot; : &quot;/img/posts/first-molar/main.jpeg&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;751&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;87349&quot; }" area-hidden="true">
-<img src="/img/posts/first-molar/main.jpeg" data-lazy-src="/img/posts/first-molar/main.jpeg" data-width="344" data-height="252" alt="" class="se-image-resource egjs-visible" id="SE-2C8D5CAB-A767-4CF5-8050-B35D0CE379C8_0">
+<img src="/img/posts/first-molar/main.jpeg" data-lazy-src="/img/posts/first-molar/main.jpeg" data-width="344" data-height="252" alt="큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-2C8D5CAB-A767-4CF5-8050-B35D0CE379C8_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-c48ace43-7c00-490c-8283-dba5d82025aa"><span style="" class="se-fs- se-ff-   " id="SE-5edf34f4-9904-4fae-867c-fc39d99e0955">유치열(좌측)과 영구치열(우측)입니다. 유치는 총 20개, 영구치는 총 28개로 구성되어 있어요. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-fdd460b0-6391-4835-8ecb-f50f6c7093f4"><a href="https://www.spadental.co.uk" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-fdd460b0-6391-4835-8ecb-f50f6c7093f4&quot;, &quot;link&quot;: &quot;https://www.spadental.co.uk&quot;}" target="_blank">https://www.spadental.co.uk</a></span><span style="" class="se-fs- se-ff-   " id="SE-2186d888-43b5-4324-a54e-c45e61dbeec1">)</span></p></div>
@@ -110,7 +110,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:349px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-D4B9A28B-B6D6-43BB-89AC-A6CAAD10CCB7&quot;, &quot;src&quot; : &quot;/img/posts/first-molar/img1.jpeg&quot;, &quot;originalWidth&quot; : &quot;580&quot;, &quot;originalHeight&quot; : &quot;387&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;26854&quot; }" area-hidden="true">
-<img src="/img/posts/first-molar/img1.jpeg" data-lazy-src="/img/posts/first-molar/img1.jpeg" data-width="349" data-height="232" alt="" class="se-image-resource egjs-visible" id="SE-D4B9A28B-B6D6-43BB-89AC-A6CAAD10CCB7_0">
+<img src="/img/posts/first-molar/img1.jpeg" data-lazy-src="/img/posts/first-molar/img1.jpeg" data-width="349" data-height="232" alt="큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-D4B9A28B-B6D6-43BB-89AC-A6CAAD10CCB7_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-990676d6-68e9-4e9c-82df-5ae840557b82"><span style="" class="se-fs- se-ff-   " id="SE-eb298cc2-9b94-48b1-b658-6af143b5d352">유치열의 공간이 부족할 경우 총생(Crowding)이 나타날 수 있어요.</span></p></div>
@@ -149,7 +149,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:300px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-998D035D-439E-419F-AAD3-C2D704760F96&quot;, &quot;src&quot; : &quot;/img/posts/first-molar/img2.jpg&quot;, &quot;originalWidth&quot; : &quot;600&quot;, &quot;originalHeight&quot; : &quot;624&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;56001&quot; }" area-hidden="true">
-<img src="/img/posts/first-molar/img2.jpg" data-lazy-src="/img/posts/first-molar/img2.jpg" data-width="300" data-height="312" alt="" class="se-image-resource egjs-visible" id="SE-998D035D-439E-419F-AAD3-C2D704760F96_0">
+<img src="/img/posts/first-molar/img2.jpg" data-lazy-src="/img/posts/first-molar/img2.jpg" data-width="300" data-height="312" alt="큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-998D035D-439E-419F-AAD3-C2D704760F96_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-ed083a26-d31a-4096-be7a-3a69877b5b75"><span style="" class="se-fs- se-ff-   " id="SE-29218a43-7989-4d4a-8962-9a58b22aa675">영구치가 나오는 시기를 정리하는 그림입니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-11bf8216-6307-43e5-b3b2-b30083d0dc42"><a href="https://brookhavenchildrensdentistry.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-11bf8216-6307-43e5-b3b2-b30083d0dc42&quot;, &quot;link&quot;: &quot;https://brookhavenchildrensdentistry.com/&quot;}" target="_blank">https://brookhavenchildrensdentistry.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-4125e84c-b49b-4c72-adfe-c6b55122ce47">)</span></p></div>
@@ -188,7 +188,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:333px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-EAC4D55B-7348-4CF7-B21B-91DA19997506&quot;, &quot;src&quot; : &quot;/img/posts/first-molar/img3.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;718&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1057537&quot; }" area-hidden="true">
-<img src="/img/posts/first-molar/img3.png" data-lazy-src="/img/posts/first-molar/img3.png" data-width="333" data-height="298" alt="" class="se-image-resource egjs-visible" id="SE-EAC4D55B-7348-4CF7-B21B-91DA19997506_0">
+<img src="/img/posts/first-molar/img3.png" data-lazy-src="/img/posts/first-molar/img3.png" data-width="333" data-height="298" alt="큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-EAC4D55B-7348-4CF7-B21B-91DA19997506_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-9db103f3-5ba0-4caf-bcaa-15e530beb854"><span style="" class="se-fs- se-ff-   " id="SE-9af35a81-2450-4497-aa50-8973b4012c84">혼합치열기의 파노라마 사진. 유치 아래에 영구치가 나오고 있는거 보이시죠?</span></p></div>
@@ -227,7 +227,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:341px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1FCE8F8F-3318-4992-8BD6-6FC0D4F9C7D0&quot;, &quot;src&quot; : &quot;/img/posts/first-molar/img4.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;996907&quot; }" area-hidden="true">
-<img src="/img/posts/first-molar/img4.png" data-lazy-src="/img/posts/first-molar/img4.png" data-width="341" data-height="341" alt="" class="se-image-resource egjs-visible" id="SE-1FCE8F8F-3318-4992-8BD6-6FC0D4F9C7D0_0">
+<img src="/img/posts/first-molar/img4.png" data-lazy-src="/img/posts/first-molar/img4.png" data-width="341" data-height="341" alt="큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다 관련 이미지 6" class="se-image-resource egjs-visible" id="SE-1FCE8F8F-3318-4992-8BD6-6FC0D4F9C7D0_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-527f6d9b-51b8-47d4-b9fb-ce8992ae9e85"><span style="" class="se-fs- se-ff-   " id="SE-30dc677a-4b91-4899-a8bb-64c4b7dfde0b">유치가 공간유지의 기능을 못한다면 이 사진처럼 "공간유지장치"라는 치료를 하게될 수도 있어요. 장치를 통해 유치의 역할을 대신 해 주는 것이죠. </span></p></div>

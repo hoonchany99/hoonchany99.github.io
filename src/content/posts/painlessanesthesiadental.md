@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4b7805a5-e1e9-40cf-9d0c-3343c9766018&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MDNfMTkx/MDAxNjgwNTI1MDExMjk5.vdVhlCnZfr0xVasqoD-A2CY0-XCWI_eQlfYPFHeFMNkg.PpKPC5nI_ebicVpK98nyW7L785pOrBRgshT1OpduK7kg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/painlessanesthesiadental/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-4b7805a5-e1e9-40cf-9d0c-3343c9766018_0">
+<img src="/img/posts/painlessanesthesiadental/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="무통마취치과, 아직도 모르셨나요?" class="se-image-resource egjs-visible" id="SE-4b7805a5-e1e9-40cf-9d0c-3343c9766018_0">
 </a>
 </div>
 </div>
@@ -35,7 +35,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-e8b06fea-b9ac-437e-868e-35ac1dfab123&quot;, &quot;src&quot; : &quot;/img/posts/painlessanesthesiadental/main.png&quot;, &quot;originalWidth&quot; : &quot;920&quot;, &quot;originalHeight&quot; : &quot;613&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/painlessanesthesiadental/main.png" data-lazy-src="/img/posts/painlessanesthesiadental/main.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-e8b06fea-b9ac-437e-868e-35ac1dfab123_0">
+<img src="/img/posts/painlessanesthesiadental/main.png" data-lazy-src="/img/posts/painlessanesthesiadental/main.png" data-width="500" data-height="333" alt="무통마취치과, 아직도 모르셨나요? 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-e8b06fea-b9ac-437e-868e-35ac1dfab123_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-7e3b951a-1e3c-4097-9612-4bc093c83b99"><span style="" class="se-fs- se-ff-   " id="SE-83db84a6-9622-4f3c-a54c-654452ff3fa0">치과치료는 아픕니다..ㅜ</span></p></div>
@@ -87,7 +87,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-116cbb55-6a83-486e-8293-ddfe2ffd474d&quot;, &quot;src&quot; : &quot;/img/posts/painlessanesthesiadental/img1.png&quot;, &quot;originalWidth&quot; : &quot;650&quot;, &quot;originalHeight&quot; : &quot;650&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/painlessanesthesiadental/img1.png" data-lazy-src="/img/posts/painlessanesthesiadental/img1.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-116cbb55-6a83-486e-8293-ddfe2ffd474d_0">
+<img src="/img/posts/painlessanesthesiadental/img1.png" data-lazy-src="/img/posts/painlessanesthesiadental/img1.png" data-width="500" data-height="500" alt="무통마취치과, 아직도 모르셨나요? 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-116cbb55-6a83-486e-8293-ddfe2ffd474d_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-4be6edf2-411f-4e33-b6f6-1ebdbd6fb22b"><span style="" class="se-fs- se-ff-   " id="SE-666915f9-2c2f-4342-938e-0211f0678856">DentalVibe 기계</span></p></div>
@@ -123,7 +123,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-a69cb4ba-693e-473a-837a-649e1d589907&quot;, &quot;src&quot; : &quot;/img/posts/painlessanesthesiadental/img2.png&quot;, &quot;originalWidth&quot; : &quot;1600&quot;, &quot;originalHeight&quot; : &quot;1067&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/painlessanesthesiadental/img2.png" data-lazy-src="/img/posts/painlessanesthesiadental/img2.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-a69cb4ba-693e-473a-837a-649e1d589907_0">
+<img src="/img/posts/painlessanesthesiadental/img2.png" data-lazy-src="/img/posts/painlessanesthesiadental/img2.png" data-width="500" data-height="333" alt="무통마취치과, 아직도 모르셨나요? 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-a69cb4ba-693e-473a-837a-649e1d589907_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-25e88a0f-2c89-4790-bc35-61e4b346db93"><span style="" class="se-fs- se-ff-   " id="SE-dfadfa1f-cb8f-409e-b307-ad955dc9825d">무통마취로 환자의 편안함이 증가됩니다.</span></p></div>
@@ -159,7 +159,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/implant-1292/" class="se-oglink-thumbnail" >
-<img src="/img/posts/painlessanesthesiadental/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/painlessanesthesiadental/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="무통마취치과, 아직도 모르셨나요? 관련 이미지 5">
 </a>
 <a href="/posts/implant-1292/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-6cd9bb40-d604-4188-86e1-82eb30a4d9f6&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMjFfNDYg/MDAxNzYzNjU0MzI3OTQ1.4svOL0I7fgKoAIk4byArlDWlJasQlxgaaIujOzn1niwg.NwBdpFEhKuvkt5DgxsBpBKIXrUhNfFAABG4EP1kQq2Ag.PNG/Thumbnail_forpatients.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;395670&quot; }" area-hidden="true">
-<img src="/img/posts/palate/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-6cd9bb40-d604-4188-86e1-82eb30a4d9f6_0">
+<img src="/img/posts/palate/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="입천장까졌을때, 빨리 낫는 법 알려드립니다" class="se-image-resource egjs-visible" id="SE-6cd9bb40-d604-4188-86e1-82eb30a4d9f6_0">
 </a>
 </div>
 </div>
@@ -45,7 +45,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-87002EB7-D74B-46E3-915E-6E1466B28FE3&quot;, &quot;src&quot; : &quot;/img/posts/palate/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;858683&quot; }" area-hidden="true">
-<img src="/img/posts/palate/main.png" data-lazy-src="/img/posts/palate/main.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-87002EB7-D74B-46E3-915E-6E1466B28FE3_0">
+<img src="/img/posts/palate/main.png" data-lazy-src="/img/posts/palate/main.png" data-width="500" data-height="500" alt="입천장까졌을때, 빨리 낫는 법 알려드립니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-87002EB7-D74B-46E3-915E-6E1466B28FE3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-8c6452c8-6735-4e2b-89d3-7955b68b0182"><span style="" class="se-fs- se-ff-   " id="SE-86d153b7-2028-4b92-8c1e-5bb1db5c860a">입천장까졌을때 생길 수 있는 손상 부위와 구강 점막의 재생 구조</span></p></div>
@@ -84,7 +84,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-50DE526E-E69A-46CC-B99B-29F503FABC60&quot;, &quot;src&quot; : &quot;/img/posts/palate/img1.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;755328&quot; }" area-hidden="true">
-<img src="/img/posts/palate/img1.png" data-lazy-src="/img/posts/palate/img1.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-50DE526E-E69A-46CC-B99B-29F503FABC60_0">
+<img src="/img/posts/palate/img1.png" data-lazy-src="/img/posts/palate/img1.png" data-width="500" data-height="500" alt="입천장까졌을때, 빨리 낫는 법 알려드립니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-50DE526E-E69A-46CC-B99B-29F503FABC60_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-b3ab6207-fb9a-4c5a-9449-ac9cad206582"><span style="" class="se-fs- se-ff-   " id="SE-D353ED9C-69E1-4323-8A87-9B0F2CA79239">입천장까졌을때, 빠르게 회복하는 3가지 방법 - 냉찜질, 연고, 휴식</span></p></div>
@@ -114,7 +114,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-14F15F65-5447-4057-8004-A02DFD69C385&quot;, &quot;src&quot; : &quot;/img/posts/palate/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1255041&quot; }" area-hidden="true">
-<img src="/img/posts/palate/img2.png" data-lazy-src="/img/posts/palate/img2.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-14F15F65-5447-4057-8004-A02DFD69C385_0">
+<img src="/img/posts/palate/img2.png" data-lazy-src="/img/posts/palate/img2.png" data-width="500" data-height="500" alt="입천장까졌을때, 빨리 낫는 법 알려드립니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-14F15F65-5447-4057-8004-A02DFD69C385_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-2d7883cb-89ad-4aa8-b35a-c930b95bab88"><span style="" class="se-fs- se-ff-   " id="SE-562bcc54-4428-4393-ae06-11c2fc66f389">찬물로 손상 부위를 진정시킵니다.</span></p></div>
@@ -162,7 +162,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-244B0D48-9414-4FDB-9BFB-35FFE84CBBF8&quot;, &quot;src&quot; : &quot;/img/posts/palate/img3.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1171887&quot; }" area-hidden="true">
-<img src="/img/posts/palate/img3.png" data-lazy-src="/img/posts/palate/img3.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-244B0D48-9414-4FDB-9BFB-35FFE84CBBF8_0">
+<img src="/img/posts/palate/img3.png" data-lazy-src="/img/posts/palate/img3.png" data-width="500" data-height="500" alt="입천장까졌을때, 빨리 낫는 법 알려드립니다 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-244B0D48-9414-4FDB-9BFB-35FFE84CBBF8_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-ebf87bd3-5cdc-4b18-8ea6-43ebc7f5d444"><span style="" class="se-fs- se-ff-   " id="SE-35a82c00-d09e-41ce-875c-0dba747847ca">입천장까졌을때 연고를 바르는게 큰 도움이 됩니다.</span></p></div>
@@ -209,7 +209,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-DF35CE81-4212-4FA0-AFCC-271264DBB649&quot;, &quot;src&quot; : &quot;/img/posts/palate/img4.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;834204&quot; }" area-hidden="true">
-<img src="/img/posts/palate/img4.png" data-lazy-src="/img/posts/palate/img4.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-DF35CE81-4212-4FA0-AFCC-271264DBB649_0">
+<img src="/img/posts/palate/img4.png" data-lazy-src="/img/posts/palate/img4.png" data-width="500" data-height="500" alt="입천장까졌을때, 빨리 낫는 법 알려드립니다 관련 이미지 6" class="se-image-resource egjs-visible" id="SE-DF35CE81-4212-4FA0-AFCC-271264DBB649_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-577d77ac-4d8f-46ed-bcaa-84fe3b424508"><span style="" class="se-fs- se-ff-   " id="SE-2f9dee2e-f5a5-4cbc-b230-e6a1ce48392e">입천장까졌을때, 비슷한 증상을 가진 질환과 구분해야 합니다.</span></p></div>

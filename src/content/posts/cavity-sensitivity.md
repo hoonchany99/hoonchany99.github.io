@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-f1641d3b-c32c-4e38-9a41-97686405915c&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMjExMDVfMTA4/MDAxNjY3NTc4Njk4NDM0.tGt5T3FF2zc-kWqIotclTKpz8kwTXoleUrbLlAadRvkg.bdvN7zprfTgYLH4n3cMMBUCMPDYD1XKSE50H4FX14cYg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/cavity-sensitivity/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-f1641d3b-c32c-4e38-9a41-97686405915c_0">
+<img src="/img/posts/cavity-sensitivity/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="충치 이시림, 그냥 두면 결국 뽑아야 됩니다." class="se-image-resource egjs-visible" id="SE-f1641d3b-c32c-4e38-9a41-97686405915c_0">
 </a>
 </div>
 </div>
@@ -67,7 +67,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-d31b531c-568a-4b7f-8f3d-eaf767fb9fd4&quot;, &quot;src&quot; : &quot;/img/posts/cavity-sensitivity/main.png&quot;, &quot;originalWidth&quot; : &quot;612&quot;, &quot;originalHeight&quot; : &quot;612&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/cavity-sensitivity/main.png" data-lazy-src="/img/posts/cavity-sensitivity/main.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-d31b531c-568a-4b7f-8f3d-eaf767fb9fd4_0">
+<img src="/img/posts/cavity-sensitivity/main.png" data-lazy-src="/img/posts/cavity-sensitivity/main.png" data-width="500" data-height="500" alt="충치 이시림, 그냥 두면 결국 뽑아야 됩니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-d31b531c-568a-4b7f-8f3d-eaf767fb9fd4_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-09ac61df-b2a4-4409-a760-fa2bdd8c90c1"><span style="" class="se-fs- se-ff-   " id="SE-b9f289d0-242a-4026-9e0f-e9e8e4fdb89c">치아의 세개의 층</span></p></div>
@@ -135,7 +135,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5f35eb8b-b7a9-4d29-a3ef-f9292d59da9d&quot;, &quot;src&quot; : &quot;/img/posts/cavity-sensitivity/img1.png&quot;, &quot;originalWidth&quot; : &quot;2000&quot;, &quot;originalHeight&quot; : &quot;835&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/cavity-sensitivity/img1.png" data-lazy-src="/img/posts/cavity-sensitivity/img1.png" data-width="500" data-height="208" alt="" class="se-image-resource egjs-visible" id="SE-5f35eb8b-b7a9-4d29-a3ef-f9292d59da9d_0">
+<img src="/img/posts/cavity-sensitivity/img1.png" data-lazy-src="/img/posts/cavity-sensitivity/img1.png" data-width="500" data-height="208" alt="충치 이시림, 그냥 두면 결국 뽑아야 됩니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-5f35eb8b-b7a9-4d29-a3ef-f9292d59da9d_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-7b696053-0cd8-4ca9-9841-fe5989be55e3"><span style="" class="se-fs- se-ff-   " id="SE-e04e60ad-b751-4357-bd68-5be9c7c2416b">충치의 진행에 따른 양상</span></p></div>
@@ -155,7 +155,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-c9916e61-03a7-40ef-907b-251c51bd77dd&quot;, &quot;src&quot; : &quot;/img/posts/cavity-sensitivity/img2.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;532&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/cavity-sensitivity/img2.png" data-lazy-src="/img/posts/cavity-sensitivity/img2.png" data-width="500" data-height="332" alt="" class="se-image-resource egjs-visible" id="SE-c9916e61-03a7-40ef-907b-251c51bd77dd_0">
+<img src="/img/posts/cavity-sensitivity/img2.png" data-lazy-src="/img/posts/cavity-sensitivity/img2.png" data-width="500" data-height="332" alt="충치 이시림, 그냥 두면 결국 뽑아야 됩니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-c9916e61-03a7-40ef-907b-251c51bd77dd_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-a6b58993-6a3a-4fb0-b3ca-500daf2ba284"><span style="" class="se-fs- se-ff-   " id="SE-46b70239-5f67-4b2f-9c17-d27c1fb06880">정기적인 검진이 중요합니다.</span></p></div>
@@ -191,7 +191,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/brushing-cavity/" class="se-oglink-thumbnail" >
-<img src="/img/posts/cavity-sensitivity/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/cavity-sensitivity/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="충치 이시림, 그냥 두면 결국 뽑아야 됩니다. 관련 이미지 5">
 </a>
 <a href="/posts/brushing-cavity/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

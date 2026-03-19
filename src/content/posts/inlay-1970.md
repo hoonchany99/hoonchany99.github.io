@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-C9BC0C4D-1D9A-4D75-93E0-288DAADBFAFF&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMTVfMTY4/MDAxNzY1ODA4OTA5NTkw.hweB9MaUNNEpTrqOIcidooJg0Ac4o-I0A3-U5p8GnZQg.B4WkYm2mw3cdm_RWPobo9slwAuJA0Ud5hdo8mIStOoog.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;104458&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-1970/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-C9BC0C4D-1D9A-4D75-93E0-288DAADBFAFF_0">
+<img src="/img/posts/inlay-1970/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="인레이, 그게 뭐지? 어떤 경우에 사용하는지 정리해봤어요" class="se-image-resource egjs-visible" id="SE-C9BC0C4D-1D9A-4D75-93E0-288DAADBFAFF_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:378px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-A65B2CE7-33F3-482F-A013-EA456FC0E47B&quot;, &quot;src&quot; : &quot;/img/posts/inlay-1970/main.jpg&quot;, &quot;originalWidth&quot; : &quot;2048&quot;, &quot;originalHeight&quot; : &quot;1048&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;248469&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-1970/main.jpg" data-lazy-src="/img/posts/inlay-1970/main.jpg" data-width="378" data-height="193" alt="" class="se-image-resource egjs-visible" id="SE-A65B2CE7-33F3-482F-A013-EA456FC0E47B_0">
+<img src="/img/posts/inlay-1970/main.jpg" data-lazy-src="/img/posts/inlay-1970/main.jpg" data-width="378" data-height="193" alt="인레이, 그게 뭐지? 어떤 경우에 사용하는지 정리해봤어요 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-A65B2CE7-33F3-482F-A013-EA456FC0E47B_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-bd7160fb-5e02-49fb-b6b4-f36846ed8d21"><span style="" class="se-fs- se-ff-   " id="SE-d80aa6f6-88c2-448e-a72d-1d53a9fa5bff">이런식으로 충치가 있는 부분에 와동을 형성(홈을 형성)하고 그 자리에 홈과 동일하게 생긴 보철물로 채워넣는 치료입니다. 보철물은 보통 레진, 세라믹, 금으로 합니다 (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-8c4fc52b-3a02-4625-b726-71b2c7a6b546"><a href="https://smilesdental.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-8c4fc52b-3a02-4625-b726-71b2c7a6b546&quot;, &quot;link&quot;: &quot;https://smilesdental.com/&quot;}" target="_blank">https://smilesdental.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-ec292600-cc44-4cbd-a59a-23dddd0eb992">)</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-C4C864A0-AFA5-4518-9A08-3D6CF4866C94&quot;, &quot;src&quot; : &quot;/img/posts/inlay-1970/img1.jpg&quot;, &quot;originalWidth&quot; : &quot;900&quot;, &quot;originalHeight&quot; : &quot;491&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;113874&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-1970/img1.jpg" data-lazy-src="/img/posts/inlay-1970/img1.jpg" data-width="900" data-height="491" alt="" class="se-image-resource egjs-visible" id="SE-C4C864A0-AFA5-4518-9A08-3D6CF4866C94_0">
+<img src="/img/posts/inlay-1970/img1.jpg" data-lazy-src="/img/posts/inlay-1970/img1.jpg" data-width="900" data-height="491" alt="인레이, 그게 뭐지? 어떤 경우에 사용하는지 정리해봤어요 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-C4C864A0-AFA5-4518-9A08-3D6CF4866C94_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-center " style="" id="SE-838D74A7-2A65-4FB9-8E92-0B6E48162371"><span style="" class="se-fs- se-ff-   " id="SE-A6D025EC-D39B-485C-AC94-60ECC08FCEE1">인레이 그리고 크라운 치료를 나타낸 그림입니다. </span></p></div>
@@ -149,7 +149,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-9DBD8248-DED6-4F8E-B0A3-1EE446FD9E43&quot;, &quot;src&quot; : &quot;/img/posts/inlay-1970/img2.jpg&quot;, &quot;originalWidth&quot; : &quot;900&quot;, &quot;originalHeight&quot; : &quot;491&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;80646&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-1970/img2.jpg" data-lazy-src="/img/posts/inlay-1970/img2.jpg" data-width="900" data-height="491" alt="" class="se-image-resource egjs-visible" id="SE-9DBD8248-DED6-4F8E-B0A3-1EE446FD9E43_0">
+<img src="/img/posts/inlay-1970/img2.jpg" data-lazy-src="/img/posts/inlay-1970/img2.jpg" data-width="900" data-height="491" alt="인레이, 그게 뭐지? 어떤 경우에 사용하는지 정리해봤어요 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-9DBD8248-DED6-4F8E-B0A3-1EE446FD9E43_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-center " style="" id="SE-FA54BB7A-2DD2-49E6-AD04-3F68F7A99178"><span style="" class="se-fs- se-ff-   " id="SE-D4D653B7-F507-4F2D-939D-0504A28A11A4">골드 인레이와 세라믹 인레이 그림입니다. 당연한 얘기겠지만, 골드 인레이는 심미성의 측면에서 문제가 있죠. 반면 세라믹 인레이는 치아와 비슷한 색이기 때문에 굉장히 심미적입니다. </span></p></div>
@@ -188,7 +188,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:350px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-74FEC13D-3265-4F1E-B06E-11305263BD3D&quot;, &quot;src&quot; : &quot;/img/posts/inlay-1970/img3.jpg&quot;, &quot;originalWidth&quot; : &quot;350&quot;, &quot;originalHeight&quot; : &quot;263&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;29877&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-1970/img3.jpg" data-lazy-src="/img/posts/inlay-1970/img3.jpg" data-width="350" data-height="263" alt="" class="se-image-resource egjs-visible" id="SE-74FEC13D-3265-4F1E-B06E-11305263BD3D_0">
+<img src="/img/posts/inlay-1970/img3.jpg" data-lazy-src="/img/posts/inlay-1970/img3.jpg" data-width="350" data-height="263" alt="인레이, 그게 뭐지? 어떤 경우에 사용하는지 정리해봤어요 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-74FEC13D-3265-4F1E-B06E-11305263BD3D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-b0814940-171c-47bf-b85e-87255cf8980e"><span style="" class="se-fs- se-ff-   " id="SE-39e8ad8f-f904-4b96-b0ad-0b6d1ccdbeb6">이런 식으로 치아에 금이 간 경우에는 반드시 크라운 치료를 해야 합니다. 신경치료를 하는 방식도 좋지만 필수는 아닙니다. 미국 치과의사 협회에 따르면 금이 간 경우(Crack이 있는 치아), 신경치료는 필수가 아니지만 크라운 치료는 필수적으로 하는 걸 권장한다고 나와 있습니다. (논문출처: </span><span style="" class="se-fs- se-ff-   " id="SE-21dd7da8-b6b5-4702-b22e-84d1a346f9b4"><a href="https://www.aae.org/specialty/wp-content/uploads/sites/2/2022/12/ecfe-2022-edition-FINAL.pdf" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-21dd7da8-b6b5-4702-b22e-84d1a346f9b4&quot;, &quot;link&quot;: &quot;https://www.aae.org/specialty/wp-content/uploads/sites/2/2022/12/ecfe-2022-edition-FINAL.pdf&quot;}" target="_blank">https://www.aae.org/specialty/wp-content/uploads/sites/2/2022/12/ecfe-2022-edition-FINAL.pdf</a></span><span style="" class="se-fs- se-ff-   " id="SE-f25a6689-951d-41c8-a70a-1eac85af7025">, 그림출처: </span><span style="" class="se-fs- se-ff-   " id="SE-497e82b0-e549-4022-a660-599e44889c17"><a href="https://totalcaredentalstudio.com.au" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-497e82b0-e549-4022-a660-599e44889c17&quot;, &quot;link&quot;: &quot;https://totalcaredentalstudio.com.au&quot;}" target="_blank">https://totalcaredentalstudio.com.au</a></span><span style="" class="se-fs- se-ff-   " id="SE-c19e5615-177a-4182-878f-a7962cfd122f">)</span></p></div>

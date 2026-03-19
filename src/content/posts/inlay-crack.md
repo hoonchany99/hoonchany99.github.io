@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1060F401-2ADF-4F1E-A487-A80428D72D66&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMjdfMTQ5/MDAxNzY2ODE5MTY4Mzcx.LCUrc4LRyWpHbgdcTF6E13NkduvL9TyLUqdcewPEgp0g.DM54OusxE-i3y53icxmbsDfjQiYvKCAIU1SjmI2rjZMg.PNG/Thumbnail_forpatients_long_%EB%B3%B5%EC%82%AC.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;57740&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-crack/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-1060F401-2ADF-4F1E-A487-A80428D72D66_0">
+<img src="/img/posts/inlay-crack/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="인레이 얼마나 오래 쓸 수 있을까? 깨짐, 마모 걱정 줄이는 팁" class="se-image-resource egjs-visible" id="SE-1060F401-2ADF-4F1E-A487-A80428D72D66_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:376px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-0C52479D-46E0-4769-8AF0-D4265167EE8B&quot;, &quot;src&quot; : &quot;/img/posts/inlay-crack/main.png&quot;, &quot;originalWidth&quot; : &quot;580&quot;, &quot;originalHeight&quot; : &quot;580&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;307388&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-crack/main.png" data-lazy-src="/img/posts/inlay-crack/main.png" data-width="376" data-height="376" alt="" class="se-image-resource egjs-visible" id="SE-0C52479D-46E0-4769-8AF0-D4265167EE8B_0">
+<img src="/img/posts/inlay-crack/main.png" data-lazy-src="/img/posts/inlay-crack/main.png" data-width="376" data-height="376" alt="인레이 얼마나 오래 쓸 수 있을까? 깨짐, 마모 걱정 줄이는 팁 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-0C52479D-46E0-4769-8AF0-D4265167EE8B_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-a8cb5652-181f-472c-93d7-1da0d567cc4c"><span style="" class="se-fs- se-ff-   " id="SE-8c6c167c-2894-48bd-8fbd-f1b7ccc5e5f5">인레이의 모습입니다. 위 그림처럼 충치로 손상된 부위를 제거한 뒤 그 공간을 딱 맞게 메워주는 치료입니다. </span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:470px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-2F746F36-8A6C-47A3-AAF5-BC6402A28FF3&quot;, &quot;src&quot; : &quot;/img/posts/inlay-crack/img1.png&quot;, &quot;originalWidth&quot; : &quot;936&quot;, &quot;originalHeight&quot; : &quot;405&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;107640&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-crack/img1.png" data-lazy-src="/img/posts/inlay-crack/img1.png" data-width="470" data-height="203" alt="" class="se-image-resource egjs-visible" id="SE-2F746F36-8A6C-47A3-AAF5-BC6402A28FF3_0">
+<img src="/img/posts/inlay-crack/img1.png" data-lazy-src="/img/posts/inlay-crack/img1.png" data-width="470" data-height="203" alt="인레이 얼마나 오래 쓸 수 있을까? 깨짐, 마모 걱정 줄이는 팁 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-2F746F36-8A6C-47A3-AAF5-BC6402A28FF3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-1fb326a2-f771-4506-b538-dbcc24c40d1d"><span style="" class="se-fs- se-ff-   " id="SE-e6556b62-8b95-427b-962e-f8ea5fb94adb">사진처럼 씹는 힘이 강하거나 이를 꽉 무는 습관이 있는 경우, 인레이가 망가질 확률이 올라갑니다(출처: </span><span style="" class="se-fs- se-ff-   " id="SE-9c45b487-8d9a-48cc-a414-61f539c1d225"><a href="https://dimensionsofdentalhygiene.com" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-9c45b487-8d9a-48cc-a414-61f539c1d225&quot;, &quot;link&quot;: &quot;https://dimensionsofdentalhygiene.com&quot;}" target="_blank"><b>https://dimensionsofdentalhygiene.com</b></a></span><span style="" class="se-fs- se-ff-   " id="SE-95b76bbb-b784-449b-98cb-cd37447e553f"><b>)</b></span></p></div>
@@ -132,7 +132,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:334px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-E7D2A15C-0760-4E27-A08C-C66CACB73333&quot;, &quot;src&quot; : &quot;/img/posts/inlay-crack/img2.png&quot;, &quot;originalWidth&quot; : &quot;580&quot;, &quot;originalHeight&quot; : &quot;580&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;372375&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-crack/img2.png" data-lazy-src="/img/posts/inlay-crack/img2.png" data-width="334" data-height="334" alt="" class="se-image-resource egjs-visible" id="SE-E7D2A15C-0760-4E27-A08C-C66CACB73333_0">
+<img src="/img/posts/inlay-crack/img2.png" data-lazy-src="/img/posts/inlay-crack/img2.png" data-width="334" data-height="334" alt="인레이 얼마나 오래 쓸 수 있을까? 깨짐, 마모 걱정 줄이는 팁 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-E7D2A15C-0760-4E27-A08C-C66CACB73333_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-76de72c5-83a0-40c3-8339-66c992c9f2f4"><span style="" class="se-fs- se-ff-   " id="SE-716150a4-9621-4e4b-811d-d2834d974b95">금 인레이의 모습입니다. 전통적인 방법입니다. </span></p></div>
@@ -154,7 +154,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:490px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-509AE1BF-883A-471F-BDEB-F58BD2ECBD4D&quot;, &quot;src&quot; : &quot;/img/posts/inlay-crack/img3.png&quot;, &quot;originalWidth&quot; : &quot;600&quot;, &quot;originalHeight&quot; : &quot;250&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;142387&quot; }" area-hidden="true">
-<img src="/img/posts/inlay-crack/img3.png" data-lazy-src="/img/posts/inlay-crack/img3.png" data-width="490" data-height="204" alt="" class="se-image-resource egjs-visible" id="SE-509AE1BF-883A-471F-BDEB-F58BD2ECBD4D_0">
+<img src="/img/posts/inlay-crack/img3.png" data-lazy-src="/img/posts/inlay-crack/img3.png" data-width="490" data-height="204" alt="인레이 얼마나 오래 쓸 수 있을까? 깨짐, 마모 걱정 줄이는 팁 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-509AE1BF-883A-471F-BDEB-F58BD2ECBD4D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-7f46115a-6670-49ae-8b19-554c8769fcf9"><span style="" class="se-fs- se-ff-   " id="SE-5e556c57-7c8d-40ac-8b6e-a52096efd19f">인레이 하방에 세균이 들어가서 2차충치가 생긴 모습입니다. 이런 경우 인레이 안쪽의 치아가 썩게 되어 더 큰 문제를 유발할 수 있습니다 (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-a77b993c-b439-4d87-af59-be45d821281a"><a href="https://www.dentaltix.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-a77b993c-b439-4d87-af59-be45d821281a&quot;, &quot;link&quot;: &quot;https://www.dentaltix.com/&quot;}" target="_blank">https://www.dentaltix.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-6fda92c4-af7c-4a94-b3d4-b6b8e7ab43d5">)</span></p></div>

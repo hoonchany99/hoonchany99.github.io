@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-61255028-FFDB-4609-A7AD-848B21FA47B7&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMDRfMjM3/MDAxNzY0ODQyODE3MzMx.TzMsvKimkSlknAOLtf7tSbIKsDgIuXXzqr3dtByEA7Ug.wG-_L7rcgOeGxtdH41uvroGcv1iH74f_ZzYeZA5bpNcg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;73425&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-4311/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-61255028-FFDB-4609-A7AD-848B21FA47B7_0">
+<img src="/img/posts/cavity-4311/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="이게 충치일까? 그냥 착색일까? 스스로 구분하는 방법" class="se-image-resource egjs-visible" id="SE-61255028-FFDB-4609-A7AD-848B21FA47B7_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:271px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-507BDFA6-A959-47F5-ACD0-119E0326F983&quot;, &quot;src&quot; : &quot;/img/posts/cavity-4311/main.jpg&quot;, &quot;originalWidth&quot; : &quot;885&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;136404&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-4311/main.jpg" data-lazy-src="/img/posts/cavity-4311/main.jpg" data-width="271" data-height="313" alt="" class="se-image-resource egjs-visible" id="SE-507BDFA6-A959-47F5-ACD0-119E0326F983_0">
+<img src="/img/posts/cavity-4311/main.jpg" data-lazy-src="/img/posts/cavity-4311/main.jpg" data-width="271" data-height="313" alt="이게 충치일까? 그냥 착색일까? 스스로 구분하는 방법 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-507BDFA6-A959-47F5-ACD0-119E0326F983_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-cd89958e-efaf-4ebf-baf9-ec89e8a13b42"><span style="" class="se-fs- se-ff-   " id="SE-376e42eb-3626-40d9-946a-9075a4dc38c4">충치와 착색의 차이를 나타낸 그림입니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-b7daf6c1-8fbd-4418-96e2-e57ec569a8c3"><a href="https://shawnessydental.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-b7daf6c1-8fbd-4418-96e2-e57ec569a8c3&quot;, &quot;link&quot;: &quot;https://shawnessydental.com/&quot;}" target="_blank">https://shawnessydental.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-5d3517f6-e0a6-4903-9e40-6b0d3b51614e">)</span></p></div>
@@ -76,7 +76,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:406px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-42CE85F5-263E-4E07-9256-94630D3BC3C1&quot;, &quot;src&quot; : &quot;/img/posts/cavity-4311/img1.jpg&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;573&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;83205&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-4311/img1.jpg" data-lazy-src="/img/posts/cavity-4311/img1.jpg" data-width="406" data-height="193" alt="" class="se-image-resource egjs-visible" id="SE-42CE85F5-263E-4E07-9256-94630D3BC3C1_0">
+<img src="/img/posts/cavity-4311/img1.jpg" data-lazy-src="/img/posts/cavity-4311/img1.jpg" data-width="406" data-height="193" alt="이게 충치일까? 그냥 착색일까? 스스로 구분하는 방법 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-42CE85F5-263E-4E07-9256-94630D3BC3C1_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-85e6c8c0-3ea5-4478-bfbd-98a5a26a0ca8"><span style="" class="se-fs- se-ff-   " id="SE-13d5306c-15a5-44a9-a1b3-6a6e7e26615b">백색병소(White spot lesion)의 모습입니다. 특히 교정치료 후에 많이 보이는 패턴이죠. 이런 경우 초기충치로 발전할 가능성이 높습니다. (출처: https://nature.com)</span></p></div>
@@ -115,7 +115,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:308px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-0B66A51F-0270-4CFF-ABD6-28A34FC45B3F&quot;, &quot;src&quot; : &quot;/img/posts/cavity-4311/img2.jpg&quot;, &quot;originalWidth&quot; : &quot;879&quot;, &quot;originalHeight&quot; : &quot;1000&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;801063&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-4311/img2.jpg" data-lazy-src="/img/posts/cavity-4311/img2.jpg" data-width="308" data-height="350" alt="" class="se-image-resource egjs-visible" id="SE-0B66A51F-0270-4CFF-ABD6-28A34FC45B3F_0">
+<img src="/img/posts/cavity-4311/img2.jpg" data-lazy-src="/img/posts/cavity-4311/img2.jpg" data-width="308" data-height="350" alt="이게 충치일까? 그냥 착색일까? 스스로 구분하는 방법 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-0B66A51F-0270-4CFF-ABD6-28A34FC45B3F_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-8feed629-a81e-44a9-92ab-fdf3b43fa40f"><span style="" class="se-fs- se-ff-   " id="SE-a7b93511-3223-4327-9f6c-a99fb373c377">이런식으로 어금니의 씹는 면 '홈'에 생긴 경우 충치의 가능성이 매우 높습니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-621aac94-0cad-4a2f-870e-572ee5311e0a"><a href="https://www.nationalelfservice.net" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-621aac94-0cad-4a2f-870e-572ee5311e0a&quot;, &quot;link&quot;: &quot;https://www.nationalelfservice.net&quot;}" target="_blank">https://www.nationalelfservice.net</a></span><span style="" class="se-fs- se-ff-   " id="SE-398c19be-a745-4372-a5a0-62a6dfdc6f6a">)</span></p></div>
@@ -154,7 +154,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:263px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4CB3FD8D-6225-4575-A037-F93958CBB45C&quot;, &quot;src&quot; : &quot;/img/posts/cavity-4311/img3.jpg&quot;, &quot;originalWidth&quot; : &quot;660&quot;, &quot;originalHeight&quot; : &quot;1000&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;549076&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-4311/img3.jpg" data-lazy-src="/img/posts/cavity-4311/img3.jpg" data-width="263" data-height="398" alt="" class="se-image-resource egjs-visible" id="SE-4CB3FD8D-6225-4575-A037-F93958CBB45C_0">
+<img src="/img/posts/cavity-4311/img3.jpg" data-lazy-src="/img/posts/cavity-4311/img3.jpg" data-width="263" data-height="398" alt="이게 충치일까? 그냥 착색일까? 스스로 구분하는 방법 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-4CB3FD8D-6225-4575-A037-F93958CBB45C_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-74348d59-c36d-41cf-91de-bf2492fcb2cb"><span style="" class="se-fs- se-ff-   " id="SE-aa531cf6-cad7-41ba-b14c-4876d462b822">초기 충치를 방치하게 되면 결국 이처럼 깊은 충치로 발전되게 됩니다. 미리미리 치료를 해야 합니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-cd5f73e0-aee0-4974-93b2-73645800a041"><a href="https://www.nationalelfservice.net" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-cd5f73e0-aee0-4974-93b2-73645800a041&quot;, &quot;link&quot;: &quot;https://www.nationalelfservice.net&quot;}" target="_blank">https://www.nationalelfservice.net</a></span><span style="" class="se-fs- se-ff-   " id="SE-333b1c50-304a-4663-a785-eb5558514fba">)</span></p></div>

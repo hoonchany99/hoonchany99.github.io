@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5485D312-4F8A-4BAB-80FB-6E5BDAA5883A&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMDhfMTMz/MDAxNzY1MTI4NDg4NzU5.aeEfXLEEeb4uk0Jp_cKdSAikO8qXvXvtSyRR0a0vkmkg.iAMa3rWIRc_p1FRzZmHG1RLabMYOBdtt5Q5iknn7c8Ug.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;84374&quot; }" area-hidden="true">
-<img src="/img/posts/laminate/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-5485D312-4F8A-4BAB-80FB-6E5BDAA5883A_0">
+<img src="/img/posts/laminate/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="라미네이트가 잘 빠지는 이유, 이런 경우 조심하세요" class="se-image-resource egjs-visible" id="SE-5485D312-4F8A-4BAB-80FB-6E5BDAA5883A_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:416px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-60F74289-17E8-4713-B413-7BD7B67CCBBA&quot;, &quot;src&quot; : &quot;/img/posts/laminate/main.jpg&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;52483&quot; }" area-hidden="true">
-<img src="/img/posts/laminate/main.jpg" data-lazy-src="/img/posts/laminate/main.jpg" data-width="416" data-height="277" alt="" class="se-image-resource egjs-visible" id="SE-60F74289-17E8-4713-B413-7BD7B67CCBBA_0">
+<img src="/img/posts/laminate/main.jpg" data-lazy-src="/img/posts/laminate/main.jpg" data-width="416" data-height="277" alt="라미네이트가 잘 빠지는 이유, 이런 경우 조심하세요 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-60F74289-17E8-4713-B413-7BD7B67CCBBA_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-d050bcab-eff7-45af-847f-9913b202b261"><span style="" class="se-fs- se-ff-   " id="SE-8ae8c238-d4c4-401c-a477-5996abad20a5">라미네이트가 잘 빠지는 경우, 흔한 부작용입니다. 이제부터 왜 이런 부작용이 발생하는지 알려드릴게요 (출처: </span><span style="" class="se-fs- se-ff- se-weight-unset  " id="SE-839ca9ff-4000-4ea5-b0a0-645157f31610"><a href="https://smilefortwayne.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-839ca9ff-4000-4ea5-b0a0-645157f31610&quot;, &quot;link&quot;: &quot;https://smilefortwayne.com/&quot;}" target="_blank">https://smilefortwayne.com/</a></span><span style="" class="se-fs- se-ff- se-weight-unset  " id="SE-271849f7-17d8-4fa1-8adc-c6ed4c52a780">)</span></p></div>
@@ -76,7 +76,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:397px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-E3CAFC25-0B6F-4CED-A46A-3194C65B5A9D&quot;, &quot;src&quot; : &quot;/img/posts/laminate/img1.png&quot;, &quot;originalWidth&quot; : &quot;1536&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2591226&quot; }" area-hidden="true">
-<img src="/img/posts/laminate/img1.png" data-lazy-src="/img/posts/laminate/img1.png" data-width="397" data-height="264" alt="" class="se-image-resource egjs-visible" id="SE-E3CAFC25-0B6F-4CED-A46A-3194C65B5A9D_0">
+<img src="/img/posts/laminate/img1.png" data-lazy-src="/img/posts/laminate/img1.png" data-width="397" data-height="264" alt="라미네이트가 잘 빠지는 이유, 이런 경우 조심하세요 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-E3CAFC25-0B6F-4CED-A46A-3194C65B5A9D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-06615e1e-2d7a-431c-8635-d71511abeb75"><span style="" class="se-fs- se-ff-   " id="SE-e53314ac-196a-4b99-ac2c-9086b528234a">법랑질(Enamel)이 마모된 경우입니다.</span></p></div>
@@ -115,7 +115,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:295px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-C306621D-1370-4D4E-96B1-655AB2F48AB7&quot;, &quot;src&quot; : &quot;/img/posts/laminate/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1836600&quot; }" area-hidden="true">
-<img src="/img/posts/laminate/img2.png" data-lazy-src="/img/posts/laminate/img2.png" data-width="295" data-height="295" alt="" class="se-image-resource egjs-visible" id="SE-C306621D-1370-4D4E-96B1-655AB2F48AB7_0">
+<img src="/img/posts/laminate/img2.png" data-lazy-src="/img/posts/laminate/img2.png" data-width="295" data-height="295" alt="라미네이트가 잘 빠지는 이유, 이런 경우 조심하세요 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-C306621D-1370-4D4E-96B1-655AB2F48AB7_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-438053bc-442e-4895-a99c-f42ec21a002c"><span style="" class="se-fs- se-ff-   " id="SE-b63985fb-f61b-4c2a-a468-8d880f418b0c">이갈이가 심하신 분들이라면 주의가 필요합니다.</span></p></div>
@@ -154,7 +154,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:393px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-D320824D-99CF-419D-A98D-507B46480502&quot;, &quot;src&quot; : &quot;/img/posts/laminate/img3.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1685298&quot; }" area-hidden="true">
-<img src="/img/posts/laminate/img3.png" data-lazy-src="/img/posts/laminate/img3.png" data-width="393" data-height="393" alt="" class="se-image-resource egjs-visible" id="SE-D320824D-99CF-419D-A98D-507B46480502_0">
+<img src="/img/posts/laminate/img3.png" data-lazy-src="/img/posts/laminate/img3.png" data-width="393" data-height="393" alt="라미네이트가 잘 빠지는 이유, 이런 경우 조심하세요 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-D320824D-99CF-419D-A98D-507B46480502_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-193712c1-841a-4545-b2c7-5380efa35fa3"><span style="" class="se-fs- se-ff-   " id="SE-169515e1-cd10-434b-b346-5fc80d253287">라미네이트를 접착할 때는 반드시 러버댐을 사용해 방습상태 하에서 시행해야 합니다.</span></p></div>

@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-923B8BA9-0296-4A6D-9B81-F14CBC3947BB&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMDFfMTA2/MDAxNzY0NTk4NTU2OTA4.L1tB6tJSwx4iR-lEDrytU1FYnuy0YN5NBJ5RW-fyKkUg.V5WyoepYGMZwJes4IfIedLH7cdzC-cYuhrbZynw9gGgg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;80380&quot; }" area-hidden="true">
-<img src="/img/posts/brushing-bad-breath/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-923B8BA9-0296-4A6D-9B81-F14CBC3947BB_0">
+<img src="/img/posts/brushing-bad-breath/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="양치해도 해결 안 되는 입냄새... 놓치기 쉬운 한 가지 원인" class="se-image-resource egjs-visible" id="SE-923B8BA9-0296-4A6D-9B81-F14CBC3947BB_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:347px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-74BA2CBB-7D87-4576-9336-460BDAE143AC&quot;, &quot;src&quot; : &quot;/img/posts/brushing-bad-breath/main.jpg&quot;, &quot;originalWidth&quot; : &quot;600&quot;, &quot;originalHeight&quot; : &quot;400&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;51852&quot; }" area-hidden="true">
-<img src="/img/posts/brushing-bad-breath/main.jpg" data-lazy-src="/img/posts/brushing-bad-breath/main.jpg" data-width="347" data-height="231" alt="" class="se-image-resource egjs-visible" id="SE-74BA2CBB-7D87-4576-9336-460BDAE143AC_0">
+<img src="/img/posts/brushing-bad-breath/main.jpg" data-lazy-src="/img/posts/brushing-bad-breath/main.jpg" data-width="347" data-height="231" alt="양치해도 해결 안 되는 입냄새... 놓치기 쉬운 한 가지 원인 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-74BA2CBB-7D87-4576-9336-460BDAE143AC_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-8e393e3d-2964-40e9-8926-81ea9269e5f7"><span style="" class="se-fs- se-ff-   " id="SE-5ee87a24-9980-434f-975e-1aacf9a73454">혀 표면에 쌓인 설태의 모습입니다(출처: </span><span style="" class="se-fs- se-ff- se-weight-unset  " id="SE-3d269804-68e5-4325-96f5-822a83eb05b5"><a href="https://rebrush.co.kr/article/%EA%B5%AC%EA%B0%95-%EB%A7%A4%EA%B1%B0%EC%A7%84/5/15976?srsltid=AfmBOopaWIQUgvYWhiHb2vcvLNQ0D9GbUw8cpm9HZ1z91Rrg-WMUW8Tm" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-3d269804-68e5-4325-96f5-822a83eb05b5&quot;, &quot;link&quot;: &quot;https://rebrush.co.kr/article/%EA%B5%AC%EA%B0%95-%EB%A7%A4%EA%B1%B0%EC%A7%84/5/15976?srsltid=AfmBOopaWIQUgvYWhiHb2vcvLNQ0D9GbUw8cpm9HZ1z91Rrg-WMUW8Tm&quot;}" target="_blank">https://rebrush.co.kr/</a></span><span style="" class="se-fs- se-ff- se-weight-unset  " id="SE-3112c971-a917-4494-956b-9a30990cda9a">)</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:292px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-54F0A348-E576-463C-B824-9F5985500F3E&quot;, &quot;src&quot; : &quot;/img/posts/brushing-bad-breath/img1.png&quot;, &quot;originalWidth&quot; : &quot;533&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;558109&quot; }" area-hidden="true">
-<img src="/img/posts/brushing-bad-breath/img1.png" data-lazy-src="/img/posts/brushing-bad-breath/img1.png" data-width="292" data-height="438" alt="" class="se-image-resource egjs-visible" id="SE-54F0A348-E576-463C-B824-9F5985500F3E_0">
+<img src="/img/posts/brushing-bad-breath/img1.png" data-lazy-src="/img/posts/brushing-bad-breath/img1.png" data-width="292" data-height="438" alt="양치해도 해결 안 되는 입냄새... 놓치기 쉬운 한 가지 원인 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-54F0A348-E576-463C-B824-9F5985500F3E_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-8773a6e0-7988-4a8f-8f79-b1b9ad88aa8f"><span style="" class="se-fs- se-ff-   " id="SE-9d9fb9ae-e4b3-449b-a165-721ae5915a2a">혀클리너를 사용하시면 큰 도움이 됩니다!</span></p></div>
@@ -115,7 +115,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:306px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-C1585E6F-C7A9-4887-A288-50E4C374251A&quot;, &quot;src&quot; : &quot;/img/posts/brushing-bad-breath/img2.png&quot;, &quot;originalWidth&quot; : &quot;533&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;495872&quot; }" area-hidden="true">
-<img src="/img/posts/brushing-bad-breath/img2.png" data-lazy-src="/img/posts/brushing-bad-breath/img2.png" data-width="306" data-height="459" alt="" class="se-image-resource egjs-visible" id="SE-C1585E6F-C7A9-4887-A288-50E4C374251A_0">
+<img src="/img/posts/brushing-bad-breath/img2.png" data-lazy-src="/img/posts/brushing-bad-breath/img2.png" data-width="306" data-height="459" alt="양치해도 해결 안 되는 입냄새... 놓치기 쉬운 한 가지 원인 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-C1585E6F-C7A9-4887-A288-50E4C374251A_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-796821ff-16f1-4224-ae85-1da61782d268"><span style="" class="se-fs- se-ff-   " id="SE-f890e5f3-21f8-44b7-9405-ff5fd6823e5c">치주염(Periodontitis)가 있는 치아</span></p></div>

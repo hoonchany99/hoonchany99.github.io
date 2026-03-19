@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-BE4C4F59-EEB2-47ED-95B9-F4034165320E&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMDJfMjMz/MDAxNzY0Njg0NjkyMDE0.ZY_tUudUpVQUadjs-Ixz6HDg5iDacKrmCz3YcFFyQTQg.uM2MKM0uGVCCiV52JCR95q0EA-k0fmJWpD8Kx0ZGjrYg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;82258&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-4202/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-BE4C4F59-EEB2-47ED-95B9-F4034165320E_0">
+<img src="/img/posts/wisdom-tooth-4202/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우" class="se-image-resource egjs-visible" id="SE-BE4C4F59-EEB2-47ED-95B9-F4034165320E_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:417px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-0EE09AF4-F5FF-4B47-ADC6-D020B77D34F2&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-4202/main.jpg&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;569&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;68409&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-4202/main.jpg" data-lazy-src="/img/posts/wisdom-tooth-4202/main.jpg" data-width="417" data-height="231" alt="" class="se-image-resource egjs-visible" id="SE-0EE09AF4-F5FF-4B47-ADC6-D020B77D34F2_0">
+<img src="/img/posts/wisdom-tooth-4202/main.jpg" data-lazy-src="/img/posts/wisdom-tooth-4202/main.jpg" data-width="417" data-height="231" alt="사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-0EE09AF4-F5FF-4B47-ADC6-D020B77D34F2_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-5549824f-c5e3-4606-b212-951b9a4bcb72"><span style="" class="se-fs- se-ff-   " id="SE-35ebb372-fb99-42b3-8515-fea07d4007aa">사랑니의 위치와 방향에 따른 분류입니다 (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-a4baab13-a668-4664-8613-6bbe22bab2a8"><a href="https://www.pacificoralsurgeon.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-a4baab13-a668-4664-8613-6bbe22bab2a8&quot;, &quot;link&quot;: &quot;https://www.pacificoralsurgeon.com/&quot;}" target="_blank">https://www.pacificoralsurgeon.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-3628309e-7cc9-4ae0-b76e-0a0e68b8753f">)</span></p></div>
@@ -127,7 +127,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:382px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-F0E21785-AC4B-4F81-BD39-43B2D8325704&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-4202/img1.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;672188&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-4202/img1.png" data-lazy-src="/img/posts/wisdom-tooth-4202/img1.png" data-width="382" data-height="382" alt="" class="se-image-resource egjs-visible" id="SE-F0E21785-AC4B-4F81-BD39-43B2D8325704_0">
+<img src="/img/posts/wisdom-tooth-4202/img1.png" data-lazy-src="/img/posts/wisdom-tooth-4202/img1.png" data-width="382" data-height="382" alt="사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-F0E21785-AC4B-4F81-BD39-43B2D8325704_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-957cf9ff-eacf-4cad-97e0-507d62dcc4ba"><span style="" class="se-fs- se-ff-   " id="SE-d0bd5217-9734-4247-b124-adfb95e1f0b0">사랑니 주변에 염증이 있는 경우(Pericoronitis) 발치를 고려해야 합니다.</span></p></div>
@@ -200,7 +200,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:367px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-B1DAF6AC-E075-483E-8B46-66ABF5318D57&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-4202/img2.jpg&quot;, &quot;originalWidth&quot; : &quot;420&quot;, &quot;originalHeight&quot; : &quot;333&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;57764&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-4202/img2.jpg" data-lazy-src="/img/posts/wisdom-tooth-4202/img2.jpg" data-width="367" data-height="290" alt="" class="se-image-resource egjs-visible" id="SE-B1DAF6AC-E075-483E-8B46-66ABF5318D57_0">
+<img src="/img/posts/wisdom-tooth-4202/img2.jpg" data-lazy-src="/img/posts/wisdom-tooth-4202/img2.jpg" data-width="367" data-height="290" alt="사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-B1DAF6AC-E075-483E-8B46-66ABF5318D57_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-02558989-19b9-4c9f-b6a7-65213b15423b"><span style="" class="se-fs- se-ff-   " id="SE-40bb1aa1-e07d-4d47-b3ca-3346c6ad550c">위 x-ray 사진의 경우 빨간색 표시된 부분이 앞 치아(어금니)의 뿌리가 사랑니에 의해 흡수된 경우입니다. 이 경우 발치가 필수에요! (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-a066cbbd-3918-48d7-b6fc-6838e269a0bd"><a href="https://www.twinkledental.com" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-a066cbbd-3918-48d7-b6fc-6838e269a0bd&quot;, &quot;link&quot;: &quot;https://www.twinkledental.com&quot;}" target="_blank">https://www.twinkledental.com</a></span><span style="" class="se-fs- se-ff-   " id="SE-e9e60a2a-22b0-441e-a062-5cc24231c502">)</span></p></div>
@@ -231,7 +231,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:380px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-BC34F735-D70B-48BB-A2C8-0823B61864E3&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-4202/img3.jpg&quot;, &quot;originalWidth&quot; : &quot;1000&quot;, &quot;originalHeight&quot; : &quot;655&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;177047&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-4202/img3.jpg" data-lazy-src="/img/posts/wisdom-tooth-4202/img3.jpg" data-width="380" data-height="248" alt="" class="se-image-resource egjs-visible" id="SE-BC34F735-D70B-48BB-A2C8-0823B61864E3_0">
+<img src="/img/posts/wisdom-tooth-4202/img3.jpg" data-lazy-src="/img/posts/wisdom-tooth-4202/img3.jpg" data-width="380" data-height="248" alt="사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-BC34F735-D70B-48BB-A2C8-0823B61864E3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-07bb502a-f728-4de0-b89d-324558be20b3"><span style="" class="se-fs- se-ff-   " id="SE-5ecb8cae-1895-4569-ab8b-2c7e2f7a1e86">사랑니로 인해 발생할 수 있는 문제점들. 시계방향으로 잇몸 염증, 앞 치아 어금니의 충치, 앞 치아 어금니의 뿌리 흡수, 낭종 발생. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-ac4a7fae-29da-4489-848c-4f7b33b761a6"><a href="https://www.twinkledental.com" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-ac4a7fae-29da-4489-848c-4f7b33b761a6&quot;, &quot;link&quot;: &quot;https://www.twinkledental.com&quot;}" target="_blank"><b>https://www.twinkledental.com</b></a></span><span style="" class="se-fs- se-ff-   " id="SE-62bf1ed7-a091-465b-8289-0bb5b72605ec"><b>)</b></span></p></div>

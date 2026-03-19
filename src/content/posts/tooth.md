@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1412dedd-c135-439a-9fa9-b89a93515880&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MDVfMTUx/MDAxNjgwNzA0NjE3MTM1.KyrWLNtuaHt8LxUBB-HxWiJCqoUQDjR9ZewMab5NOyYg.SZoM5d5ozkf2Drjvz1QW8spw6ehPlFkPg-1NbYXssV4g.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/tooth/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-1412dedd-c135-439a-9fa9-b89a93515880_0">
+<img src="/img/posts/tooth/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="자연치아살리기, 살리는게 정말 맞을까요?" class="se-image-resource egjs-visible" id="SE-1412dedd-c135-439a-9fa9-b89a93515880_0">
 </a>
 </div>
 </div>
@@ -51,7 +51,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-cc9da91a-54df-40fb-8ebb-6424e545032c&quot;, &quot;src&quot; : &quot;/img/posts/tooth/main.png&quot;, &quot;originalWidth&quot; : &quot;1000&quot;, &quot;originalHeight&quot; : &quot;667&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/tooth/main.png" data-lazy-src="/img/posts/tooth/main.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-cc9da91a-54df-40fb-8ebb-6424e545032c_0">
+<img src="/img/posts/tooth/main.png" data-lazy-src="/img/posts/tooth/main.png" data-width="500" data-height="333" alt="자연치아살리기, 살리는게 정말 맞을까요? 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-cc9da91a-54df-40fb-8ebb-6424e545032c_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-0373be8a-4225-413e-86b2-410042a096f5"><span style="" class="se-fs- se-ff-   " id="SE-a595c4fa-0dbd-4bc3-baff-8f59201ba911">교합이 맞지 않습니다</span></p></div>
@@ -87,7 +87,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-d689ab6a-9d94-4d36-ab03-b040c678a133&quot;, &quot;src&quot; : &quot;/img/posts/tooth/img1.png&quot;, &quot;originalWidth&quot; : &quot;688&quot;, &quot;originalHeight&quot; : &quot;387&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/tooth/img1.png" data-lazy-src="/img/posts/tooth/img1.png" data-width="500" data-height="281" alt="" class="se-image-resource egjs-visible" id="SE-d689ab6a-9d94-4d36-ab03-b040c678a133_0">
+<img src="/img/posts/tooth/img1.png" data-lazy-src="/img/posts/tooth/img1.png" data-width="500" data-height="281" alt="자연치아살리기, 살리는게 정말 맞을까요? 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-d689ab6a-9d94-4d36-ab03-b040c678a133_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-3473edf3-3193-4ad9-936e-29f536d9f670"><span style="" class="se-fs- se-ff-   " id="SE-052c3d74-901f-4e70-84aa-705378f4e802">양치질을 잘 합니다.</span></p></div>
@@ -107,7 +107,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-d9e841c7-6132-4875-99d7-a8143abc6892&quot;, &quot;src&quot; : &quot;/img/posts/tooth/img2.png&quot;, &quot;originalWidth&quot; : &quot;2000&quot;, &quot;originalHeight&quot; : &quot;1000&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/tooth/img2.png" data-lazy-src="/img/posts/tooth/img2.png" data-width="500" data-height="250" alt="" class="se-image-resource egjs-visible" id="SE-d9e841c7-6132-4875-99d7-a8143abc6892_0">
+<img src="/img/posts/tooth/img2.png" data-lazy-src="/img/posts/tooth/img2.png" data-width="500" data-height="250" alt="자연치아살리기, 살리는게 정말 맞을까요? 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-d9e841c7-6132-4875-99d7-a8143abc6892_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-ec61880e-1473-4eb2-964e-d2b2a857d6e3"><span style="" class="se-fs- se-ff-   " id="SE-0a7fea98-7881-4fc6-bf0e-db17da967b02">건강한 식단을 유지합니다.</span></p></div>
@@ -143,7 +143,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/cavity-sensitivity/" class="se-oglink-thumbnail" >
-<img src="/img/posts/tooth/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/tooth/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="자연치아살리기, 살리는게 정말 맞을까요? 관련 이미지 5">
 </a>
 <a href="/posts/cavity-sensitivity/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

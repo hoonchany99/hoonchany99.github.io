@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-8338c188-47dd-4568-831c-85a597421cd2&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzAzMzFfMjk4/MDAxNjgwMjU5ODU4NTEw.EGafr_CJDErZ3oK02fRqU5hrQ8Pm8K06bjilmV7HvRAg.b7GwwzF6tnZcrNodO3edyr0t1iRHqrLvzlYLpNv3SCkg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/implant-1292/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-8338c188-47dd-4568-831c-85a597421cd2_0">
+<img src="/img/posts/implant-1292/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="임플란트장점, 이래도 하시겠습니까?" class="se-image-resource egjs-visible" id="SE-8338c188-47dd-4568-831c-85a597421cd2_0">
 </a>
 </div>
 </div>
@@ -51,7 +51,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-066e7dbf-9b47-4da5-8194-e262da4c0bf5&quot;, &quot;src&quot; : &quot;/img/posts/implant-1292/main.png&quot;, &quot;originalWidth&quot; : &quot;760&quot;, &quot;originalHeight&quot; : &quot;570&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/implant-1292/main.png" data-lazy-src="/img/posts/implant-1292/main.png" data-width="500" data-height="375" alt="" class="se-image-resource egjs-visible" id="SE-066e7dbf-9b47-4da5-8194-e262da4c0bf5_0">
+<img src="/img/posts/implant-1292/main.png" data-lazy-src="/img/posts/implant-1292/main.png" data-width="500" data-height="375" alt="임플란트장점, 이래도 하시겠습니까? 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-066e7dbf-9b47-4da5-8194-e262da4c0bf5_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-a8f49e79-9af5-45ae-b3c9-2dc49253b246"><span style="" class="se-fs- se-ff-   " id="SE-3af89708-6ade-4ba2-9a95-0001d904178b">임플란트</span></p></div>
@@ -87,7 +87,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-8b2a192a-1533-46fc-8b84-8924d07783df&quot;, &quot;src&quot; : &quot;/img/posts/implant-1292/img1.png&quot;, &quot;originalWidth&quot; : &quot;2116&quot;, &quot;originalHeight&quot; : &quot;1106&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/implant-1292/img1.png" data-lazy-src="/img/posts/implant-1292/img1.png" data-width="500" data-height="261" alt="" class="se-image-resource egjs-visible" id="SE-8b2a192a-1533-46fc-8b84-8924d07783df_0">
+<img src="/img/posts/implant-1292/img1.png" data-lazy-src="/img/posts/implant-1292/img1.png" data-width="500" data-height="261" alt="임플란트장점, 이래도 하시겠습니까? 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-8b2a192a-1533-46fc-8b84-8924d07783df_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-65ca3d89-7a02-4c82-9d37-58075fafa2cf"><span style="" class="se-fs- se-ff-   " id="SE-5da119b6-9291-48b6-b4dc-b44b49bf4b0b">임플란트를 하면 평소처럼 양치질을 할 수 있습니다.</span></p></div>
@@ -107,7 +107,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4af05ee6-a9e5-4c11-8097-a5d1bf776865&quot;, &quot;src&quot; : &quot;/img/posts/implant-1292/img2.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;533&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/implant-1292/img2.png" data-lazy-src="/img/posts/implant-1292/img2.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-4af05ee6-a9e5-4c11-8097-a5d1bf776865_0">
+<img src="/img/posts/implant-1292/img2.png" data-lazy-src="/img/posts/implant-1292/img2.png" data-width="500" data-height="333" alt="임플란트장점, 이래도 하시겠습니까? 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-4af05ee6-a9e5-4c11-8097-a5d1bf776865_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-79e101a8-bebb-4414-baa2-6767a28693c6"><span style="" class="se-fs- se-ff-   " id="SE-8dc54b7c-fa69-42ce-8009-e881f548f866">웃는 모습을 오래오래 유지할 수 있습니다. </span></p></div>
@@ -143,7 +143,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/prosthesis/" class="se-oglink-thumbnail" >
-<img src="/img/posts/implant-1292/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/implant-1292/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="임플란트장점, 이래도 하시겠습니까? 관련 이미지 5">
 </a>
 <a href="/posts/prosthesis/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

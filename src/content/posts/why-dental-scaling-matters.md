@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-" >
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-7ABE03F9-1CD7-433B-BE5F-1DD7649629A1", "src" : "/img/posts/why-dental-scaling-matters/main.png", "originalWidth" : "1080", "originalHeight" : "1080", "linkUse" : "false", "link" : "", "fileSize": "1032217" }'>
-<img src="/img/posts/why-dental-scaling-matters/main.png" data-lazy-src="/img/posts/why-dental-scaling-matters/main.png" data-width="500" data-height="500" alt="" class="se-image-resource" />
+<img src="/img/posts/why-dental-scaling-matters/main.png" data-lazy-src="/img/posts/why-dental-scaling-matters/main.png" data-width="500" data-height="500" alt="스케일링 하는 이유, 안받으시면 정말 손해입니다 관련 이미지 1" class="se-image-resource" />
 </a>
 </div>
 </div>
@@ -55,7 +55,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-" >
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-514D1CE9-2923-4576-B840-CB96D9830A5C", "src" : "/img/posts/why-dental-scaling-matters/img1.jpg", "originalWidth" : "680", "originalHeight" : "318", "linkUse" : "false", "link" : "", "fileSize": "135396" }'>
-<img src="/img/posts/why-dental-scaling-matters/img1.jpg" data-lazy-src="/img/posts/why-dental-scaling-matters/img1.jpg" data-width="500" data-height="233" alt="" class="se-image-resource" />
+<img src="/img/posts/why-dental-scaling-matters/img1.jpg" data-lazy-src="/img/posts/why-dental-scaling-matters/img1.jpg" data-width="500" data-height="233" alt="스케일링 하는 이유, 안받으시면 정말 손해입니다 관련 이미지 2" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-D100BB37-6307-4434-8FEE-0A4F81DCE7BE"><span style="" class="se-fs- se-ff-   " id="SE-83D948BF-EB67-47AF-9DED-F2BF1D0643DF">자연치와 임플란트의 모식도</span></p></div>
@@ -77,7 +77,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:300px;">
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-C06E8F22-CA7E-4E5F-931E-0C0CF2F41902", "src" : "/img/posts/why-dental-scaling-matters/img2.jpg", "originalWidth" : "300", "originalHeight" : "275", "linkUse" : "false", "link" : "", "fileSize": "16365" }'>
-<img src="/img/posts/why-dental-scaling-matters/img2.jpg" data-lazy-src="/img/posts/why-dental-scaling-matters/img2.jpg" data-width="300" data-height="275" alt="" class="se-image-resource" />
+<img src="/img/posts/why-dental-scaling-matters/img2.jpg" data-lazy-src="/img/posts/why-dental-scaling-matters/img2.jpg" data-width="300" data-height="275" alt="스케일링 하는 이유, 안받으시면 정말 손해입니다 관련 이미지 3" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-E2016061-31A6-491A-B682-0E80D50E8E25"><span style="" class="se-fs- se-ff-   " id="SE-3F97C0EB-ECAC-4605-8DFD-4020F24C5CBE">임플란트 진료비 현황</span></p></div>
@@ -99,7 +99,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:375px;">
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-50435038-CE1B-4E0A-90D0-703E1351D882", "src" : "/img/posts/why-dental-scaling-matters/img3.jpg", "originalWidth" : "600", "originalHeight" : "556", "linkUse" : "false", "link" : "", "fileSize": "36731" }'>
-<img src="/img/posts/why-dental-scaling-matters/img3.jpg" data-lazy-src="/img/posts/why-dental-scaling-matters/img3.jpg" data-width="375" data-height="347" alt="" class="se-image-resource" />
+<img src="/img/posts/why-dental-scaling-matters/img3.jpg" data-lazy-src="/img/posts/why-dental-scaling-matters/img3.jpg" data-width="375" data-height="347" alt="스케일링 하는 이유, 안받으시면 정말 손해입니다 관련 이미지 4" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-F759E234-F599-4FAC-875B-976AE635395E"><span style="" class="se-fs- se-ff-   " id="SE-09972697-F72F-43B9-927A-8FDDE2503D2F">치태와 치석이 잇몸에 염증을 일으킨다</span></p></div>
@@ -121,7 +121,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-left" >
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-06CB842B-07FC-41B4-9450-CD27167056A5", "src" : "/img/posts/why-dental-scaling-matters/img4.jpg", "originalWidth" : "1080", "originalHeight" : "720", "linkUse" : "false", "link" : "", "fileSize": "65852" }'>
-<img src="/img/posts/why-dental-scaling-matters/img4.jpg" data-lazy-src="/img/posts/why-dental-scaling-matters/img4.jpg" data-width="500" data-height="332" alt="" class="se-image-resource" />
+<img src="/img/posts/why-dental-scaling-matters/img4.jpg" data-lazy-src="/img/posts/why-dental-scaling-matters/img4.jpg" data-width="500" data-height="332" alt="스케일링 하는 이유, 안받으시면 정말 손해입니다 관련 이미지 5" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-center " style="" id="SE-2823e5b7-6071-4862-be79-c365cfe4931b"><span style="" class="se-fs- se-ff-   " id="SE-367587C6-3D67-4B6B-AAF4-8CB3974ECDFE"><a href="https://unsplash.com/photos/1AhGNGKuhR0?utm_source&#x3D;naversmarteditor&amp;utm_medium&#x3D;referral&amp;utm_campaign&#x3D;api-credit" class="se-link __se_link" data-linktype="text" data-linkdata='{"id": "SE-367587C6-3D67-4B6B-AAF4-8CB3974ECDFE", "link": "https://unsplash.com/photos/1AhGNGKuhR0?utm_source&#x3D;naversmarteditor&amp;#38;utm_medium&#x3D;referral&amp;#38;utm_campaign&#x3D;api-credit"}' target="_blank">© jblesly, 출처 Unsplash</a></span></p></div>

@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-E510688F-B5E9-4609-ABBA-40D65A672CD7&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMjJfNjkg/MDAxNzY2NDE0NDY0MTA1.FcAv-G37IfhFCHPlbHIGcOBo10gOz50V7N4NAYgjlYMg.5h9A4zioEYPPxRWvFJMxYevtEB549ysB-PHb5OmtFoEg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;98818&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-root-canal/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-E510688F-B5E9-4609-ABBA-40D65A672CD7_0">
+<img src="/img/posts/cavity-root-canal/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="깊은 충치가 있다면 왜 신경치료가 필요할까요?" class="se-image-resource egjs-visible" id="SE-E510688F-B5E9-4609-ABBA-40D65A672CD7_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:378px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-94C2A7CB-8234-4AD4-AD23-D869F892BCA8&quot;, &quot;src&quot; : &quot;/img/posts/cavity-root-canal/main.jpg&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;100954&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-root-canal/main.jpg" data-lazy-src="/img/posts/cavity-root-canal/main.jpg" data-width="378" data-height="378" alt="" class="se-image-resource egjs-visible" id="SE-94C2A7CB-8234-4AD4-AD23-D869F892BCA8_0">
+<img src="/img/posts/cavity-root-canal/main.jpg" data-lazy-src="/img/posts/cavity-root-canal/main.jpg" data-width="378" data-height="378" alt="깊은 충치가 있다면 왜 신경치료가 필요할까요? 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-94C2A7CB-8234-4AD4-AD23-D869F892BCA8_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-6cd58428-f9b5-40ee-a793-3ca13ed3cbc6"><span style="" class="se-fs- se-ff-   " id="SE-eccc89db-c52f-4707-9445-eb4a97a571ef">충치의 크기에 따른 모습입니다. 치아의 구조는 표면부터 법랑질, 상아질, 치수(신경)순입니다. 그리고 충치는 안쪽으로 점점 파고드는 양상을 띱니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-d2754089-d634-4cfb-8fb1-89c094c8bd20"><a href="https://thumbs.dreamstime.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-d2754089-d634-4cfb-8fb1-89c094c8bd20&quot;, &quot;link&quot;: &quot;https://thumbs.dreamstime.com/&quot;}" target="_blank">https://thumbs.dreamstime.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-3a3db7d5-bd89-4f55-b166-cb120836ebf2">)</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:415px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-ACADA1DC-1C06-413D-923F-4CF181D1BA38&quot;, &quot;src&quot; : &quot;/img/posts/cavity-root-canal/img1.jpg&quot;, &quot;originalWidth&quot; : &quot;667&quot;, &quot;originalHeight&quot; : &quot;400&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;223097&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-root-canal/img1.jpg" data-lazy-src="/img/posts/cavity-root-canal/img1.jpg" data-width="415" data-height="248" alt="" class="se-image-resource egjs-visible" id="SE-ACADA1DC-1C06-413D-923F-4CF181D1BA38_0">
+<img src="/img/posts/cavity-root-canal/img1.jpg" data-lazy-src="/img/posts/cavity-root-canal/img1.jpg" data-width="415" data-height="248" alt="깊은 충치가 있다면 왜 신경치료가 필요할까요? 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-ACADA1DC-1C06-413D-923F-4CF181D1BA38_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-4c9ca58a-21d4-451f-b390-2b701df9972a"><span style="" class="se-fs- se-ff-   " id="SE-bd5b09b8-563b-4434-a289-612766f63c5a">왼쪽은 건강한 치아, 오른쪽은 치수염이 있는 치아입니다. 치수염이란 치수(신경)에 염증이 생긴 상황을 말합니다 (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-5369fa36-6e62-4245-a06f-3b7e0a2af549"><a href="https://www.news-medical.net/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-5369fa36-6e62-4245-a06f-3b7e0a2af549&quot;, &quot;link&quot;: &quot;https://www.news-medical.net/&quot;}" target="_blank">https://www.news-medical.net/</a></span><span style="" class="se-fs- se-ff-   " id="SE-b5cd9750-c3be-41d5-a8c2-ea3963aa4bae">)</span></p></div>
@@ -136,12 +136,12 @@ image:
 <div class="se-imageGroup-item se-imageGroup-col-2">
 <div class="se-module se-module-image" style="width:51.25858123569794%;">
 <a id="SE-e3effc4b-abe5-4bf1-9c01-d515e9efd4de" class="se-module-image-link __se_image_link __se_link" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-e3effc4b-abe5-4bf1-9c01-d515e9efd4de&quot;, &quot;src&quot; : &quot;/img/posts/cavity-root-canal/img2.jpg&quot;, &quot;originalWidth&quot; : &quot;748&quot;, &quot;originalHeight&quot; : &quot;426&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;51522&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-root-canal/img2.jpg" data-lazy-src="/img/posts/cavity-root-canal/img2.jpg" data-width="748" data-height="426" alt="" class="se-image-resource egjs-visible" id="SE-fa56fb91-ad34-4f38-8d82-b4048d15083a_0">
+<img src="/img/posts/cavity-root-canal/img2.jpg" data-lazy-src="/img/posts/cavity-root-canal/img2.jpg" data-width="748" data-height="426" alt="깊은 충치가 있다면 왜 신경치료가 필요할까요? 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-fa56fb91-ad34-4f38-8d82-b4048d15083a_0">
 </a>
 </div>
 <div class="se-module se-module-image" style="width:48.74141876430206%;">
 <a id="SE-81455925-4126-40b1-9979-649f249e7c1d" class="se-module-image-link __se_image_link __se_link" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-81455925-4126-40b1-9979-649f249e7c1d&quot;, &quot;src&quot; : &quot;/img/posts/cavity-root-canal/img3.jpg&quot;, &quot;originalWidth&quot; : &quot;748&quot;, &quot;originalHeight&quot; : &quot;448&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;57986&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-root-canal/img3.jpg" data-lazy-src="/img/posts/cavity-root-canal/img3.jpg" data-width="748" data-height="448" alt="" class="se-image-resource egjs-visible" id="SE-fa56fb91-ad34-4f38-8d82-b4048d15083a_1">
+<img src="/img/posts/cavity-root-canal/img3.jpg" data-lazy-src="/img/posts/cavity-root-canal/img3.jpg" data-width="748" data-height="448" alt="깊은 충치가 있다면 왜 신경치료가 필요할까요? 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-fa56fb91-ad34-4f38-8d82-b4048d15083a_1">
 </a>
 </div>
 </div>
@@ -165,7 +165,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:456px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-DBFEC8C9-B21C-40F8-BB02-47D934E0F490&quot;, &quot;src&quot; : &quot;/img/posts/cavity-root-canal/img4.jpg&quot;, &quot;originalWidth&quot; : &quot;687&quot;, &quot;originalHeight&quot; : &quot;279&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;161757&quot; }" area-hidden="true">
-<img src="/img/posts/cavity-root-canal/img4.jpg" data-lazy-src="/img/posts/cavity-root-canal/img4.jpg" data-width="456" data-height="185" alt="" class="se-image-resource egjs-visible" id="SE-DBFEC8C9-B21C-40F8-BB02-47D934E0F490_0">
+<img src="/img/posts/cavity-root-canal/img4.jpg" data-lazy-src="/img/posts/cavity-root-canal/img4.jpg" data-width="456" data-height="185" alt="깊은 충치가 있다면 왜 신경치료가 필요할까요? 관련 이미지 6" class="se-image-resource egjs-visible" id="SE-DBFEC8C9-B21C-40F8-BB02-47D934E0F490_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-dee0ca73-c734-4854-846f-4970f4f65e29"><span style="" class="se-fs- se-ff-   " id="SE-3dd03b97-48bb-46ec-af7c-a8ad9a56aad2">신경치료의 과정을 나타낸 그림입니다. 먼저 신경을 깨끗하게 제거하구요, 그다음에 원래 신경이 있던 공간에 생체 친화적인 재료로 채워 넣습니다. 그리고 빈 공간을 잘 수복해주면 신경치료가 완료됩니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-9037c6b1-5c66-4e42-b413-b1866bc917cd"><a href="https://www.fitzgeralddentistry.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-9037c6b1-5c66-4e42-b413-b1866bc917cd&quot;, &quot;link&quot;: &quot;https://www.fitzgeralddentistry.com/&quot;}" target="_blank">https://www.fitzgeralddentistry.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-d1c81b67-0f35-49ed-bc41-afb171906257">)</span></p></div>

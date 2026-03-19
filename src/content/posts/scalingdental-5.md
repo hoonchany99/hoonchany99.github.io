@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-14b7198b-e96f-4f9a-bb13-d5632ee90b23&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MDhfMTI3/MDAxNjgwOTYzMjU0MzE3.LXvHG3TCC_2KAfV4mv2RT4bbRpgo7S3b-QmrmA8IwD8g.RWLhBrLzfaec_vVH1p6_jrhzr6412t68HVFwZ1nB7PQg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/scalingdental-5/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-14b7198b-e96f-4f9a-bb13-d5632ee90b23_0">
+<img src="/img/posts/scalingdental-5/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="스케일링잘하는치과, 5가지만 보시면 됩니다." class="se-image-resource egjs-visible" id="SE-14b7198b-e96f-4f9a-bb13-d5632ee90b23_0">
 </a>
 </div>
 </div>
@@ -83,7 +83,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-a26eb162-d069-4276-83f7-a1e2b67cfff2&quot;, &quot;src&quot; : &quot;/img/posts/scalingdental-5/main.png&quot;, &quot;originalWidth&quot; : &quot;1000&quot;, &quot;originalHeight&quot; : &quot;667&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/scalingdental-5/main.png" data-lazy-src="/img/posts/scalingdental-5/main.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-a26eb162-d069-4276-83f7-a1e2b67cfff2_0">
+<img src="/img/posts/scalingdental-5/main.png" data-lazy-src="/img/posts/scalingdental-5/main.png" data-width="500" data-height="333" alt="스케일링잘하는치과, 5가지만 보시면 됩니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-a26eb162-d069-4276-83f7-a1e2b67cfff2_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-6f741089-4483-4983-911c-e1d63f34c0a2"><span style="" class="se-fs- se-ff-   " id="SE-e68ddfa8-043c-409c-86e2-07f39f020641">수면마취를 시행하는 모습</span></p></div>
@@ -142,7 +142,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-6b38551a-4e8e-4d33-8b23-a9a92ca7244d&quot;, &quot;src&quot; : &quot;/img/posts/scalingdental-5/img1.png&quot;, &quot;originalWidth&quot; : &quot;768&quot;, &quot;originalHeight&quot; : &quot;419&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/scalingdental-5/img1.png" data-lazy-src="/img/posts/scalingdental-5/img1.png" data-width="500" data-height="272" alt="" class="se-image-resource egjs-visible" id="SE-6b38551a-4e8e-4d33-8b23-a9a92ca7244d_0">
+<img src="/img/posts/scalingdental-5/img1.png" data-lazy-src="/img/posts/scalingdental-5/img1.png" data-width="500" data-height="272" alt="스케일링잘하는치과, 5가지만 보시면 됩니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-6b38551a-4e8e-4d33-8b23-a9a92ca7244d_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-8094c776-8b10-4ce7-b8e7-cadc1755a291"><span style="" class="se-fs- se-ff-   " id="SE-a4efd904-d378-47c8-8e28-f2e74c0a7a5b">레이저 스케일링 방법</span></p></div>
@@ -178,7 +178,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3a7c0e31-33ca-4e3e-8e6c-83d4e71b947c&quot;, &quot;src&quot; : &quot;/img/posts/scalingdental-5/img2.png&quot;, &quot;originalWidth&quot; : &quot;600&quot;, &quot;originalHeight&quot; : &quot;400&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/scalingdental-5/img2.png" data-lazy-src="/img/posts/scalingdental-5/img2.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-3a7c0e31-33ca-4e3e-8e6c-83d4e71b947c_0">
+<img src="/img/posts/scalingdental-5/img2.png" data-lazy-src="/img/posts/scalingdental-5/img2.png" data-width="500" data-height="333" alt="스케일링잘하는치과, 5가지만 보시면 됩니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-3a7c0e31-33ca-4e3e-8e6c-83d4e71b947c_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-b8d413a0-7973-4f51-9499-cceca5ace01e"><span style="" class="se-fs- se-ff-   " id="SE-7fe98b4b-0657-4514-8690-26c8dc004362">편안한 분위기의 치과</span></p></div>

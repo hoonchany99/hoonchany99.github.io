@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-F50136F9-3B72-4ED9-A38A-5BAEDDB6F497&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMzBfMjM4/MDAxNzY0NDUwMDI2NjU2.hHkWU_1wn-0oRYrAXDV5P2HLYQhQrjwWtLfG7YNSNjIg.miKoLISXCFMzXvHXhyq5OVTwz12DYpawEX1PH9IzdAcg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;94202&quot; }" area-hidden="true">
-<img src="/img/posts/ceramic-inlay/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-F50136F9-3B72-4ED9-A38A-5BAEDDB6F497_0">
+<img src="/img/posts/ceramic-inlay/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="세라믹? 금? 인레이 재료별 장단점 정리해드립니다" class="se-image-resource egjs-visible" id="SE-F50136F9-3B72-4ED9-A38A-5BAEDDB6F497_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:337px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-DD7A5A48-5069-4E12-853C-64246AB0D2F7&quot;, &quot;src&quot; : &quot;/img/posts/ceramic-inlay/main.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;741992&quot; }" area-hidden="true">
-<img src="/img/posts/ceramic-inlay/main.png" data-lazy-src="/img/posts/ceramic-inlay/main.png" data-width="337" data-height="337" alt="" class="se-image-resource egjs-visible" id="SE-DD7A5A48-5069-4E12-853C-64246AB0D2F7_0">
+<img src="/img/posts/ceramic-inlay/main.png" data-lazy-src="/img/posts/ceramic-inlay/main.png" data-width="337" data-height="337" alt="세라믹? 금? 인레이 재료별 장단점 정리해드립니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-DD7A5A48-5069-4E12-853C-64246AB0D2F7_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-e4f4b097-50fd-427b-b2dd-d18b8a3a16c9"><span style="" class="se-fs- se-ff-   " id="SE-86027ec2-b011-4c7f-8e3c-c71ffaa2353d">세라믹 인레이</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:280px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-90094717-C3DF-494B-9BDF-95179EAAA9B7&quot;, &quot;src&quot; : &quot;/img/posts/ceramic-inlay/img1.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1044200&quot; }" area-hidden="true">
-<img src="/img/posts/ceramic-inlay/img1.png" data-lazy-src="/img/posts/ceramic-inlay/img1.png" data-width="280" data-height="280" alt="" class="se-image-resource egjs-visible" id="SE-90094717-C3DF-494B-9BDF-95179EAAA9B7_0">
+<img src="/img/posts/ceramic-inlay/img1.png" data-lazy-src="/img/posts/ceramic-inlay/img1.png" data-width="280" data-height="280" alt="세라믹? 금? 인레이 재료별 장단점 정리해드립니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-90094717-C3DF-494B-9BDF-95179EAAA9B7_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-b4691f8b-8932-418e-b09b-d31961a735a4"><span style="" class="se-fs- se-ff-   " id="SE-2808cc76-bee9-466b-a6f2-5eaf9b2b3f6f">세라믹 인레이 치료를 위해서 치아를 삭제한 모습입니다. 금 인레이보다 세라믹은 파절에 저항하기 위해 조금 더 삭제해야 합니다.</span></p></div>
@@ -132,7 +132,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:301px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-01DD7BE7-2954-4D69-B907-472DF6F64ABB&quot;, &quot;src&quot; : &quot;/img/posts/ceramic-inlay/img2.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;842266&quot; }" area-hidden="true">
-<img src="/img/posts/ceramic-inlay/img2.png" data-lazy-src="/img/posts/ceramic-inlay/img2.png" data-width="301" data-height="301" alt="" class="se-image-resource egjs-visible" id="SE-01DD7BE7-2954-4D69-B907-472DF6F64ABB_0">
+<img src="/img/posts/ceramic-inlay/img2.png" data-lazy-src="/img/posts/ceramic-inlay/img2.png" data-width="301" data-height="301" alt="세라믹? 금? 인레이 재료별 장단점 정리해드립니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-01DD7BE7-2954-4D69-B907-472DF6F64ABB_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-304c4394-baef-4658-aa0f-aea5b6a3317b"><span style="" class="se-fs- se-ff-   " id="SE-3a97c133-c15e-402d-bc5e-4c6db1ac998f">금 인레이는 이런식으로 치료됩니다. 전통적인 방법이죠.</span></p></div>
@@ -188,7 +188,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:292px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-51716B4B-CCAF-4FAB-9DD6-4918708EAB9F&quot;, &quot;src&quot; : &quot;/img/posts/ceramic-inlay/img3.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;909213&quot; }" area-hidden="true">
-<img src="/img/posts/ceramic-inlay/img3.png" data-lazy-src="/img/posts/ceramic-inlay/img3.png" data-width="292" data-height="292" alt="" class="se-image-resource egjs-visible" id="SE-51716B4B-CCAF-4FAB-9DD6-4918708EAB9F_0">
+<img src="/img/posts/ceramic-inlay/img3.png" data-lazy-src="/img/posts/ceramic-inlay/img3.png" data-width="292" data-height="292" alt="세라믹? 금? 인레이 재료별 장단점 정리해드립니다 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-51716B4B-CCAF-4FAB-9DD6-4918708EAB9F_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-b5cb8b10-fc88-4239-9bc6-dfa9a1821860"><span style="" class="se-fs- se-ff-   " id="SE-85dd74be-bd04-4f75-8404-1b4e30b40517">금 인레이 하방에 2차 충치가 생긴 모습</span></p></div>
@@ -227,7 +227,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-7216E1DB-4C12-4034-A5A3-F082CB089065&quot;, &quot;src&quot; : &quot;/img/posts/ceramic-inlay/img4.jpg&quot;, &quot;originalWidth&quot; : &quot;1072&quot;, &quot;originalHeight&quot; : &quot;643&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;140216&quot; }" area-hidden="true">
-<img src="/img/posts/ceramic-inlay/img4.jpg" data-lazy-src="/img/posts/ceramic-inlay/img4.jpg" data-width="500" data-height="299" alt="" class="se-image-resource egjs-visible" id="SE-7216E1DB-4C12-4034-A5A3-F082CB089065_0">
+<img src="/img/posts/ceramic-inlay/img4.jpg" data-lazy-src="/img/posts/ceramic-inlay/img4.jpg" data-width="500" data-height="299" alt="세라믹? 금? 인레이 재료별 장단점 정리해드립니다 관련 이미지 6" class="se-image-resource egjs-visible" id="SE-7216E1DB-4C12-4034-A5A3-F082CB089065_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-9dc0fa9e-dc3c-4595-b694-150edfb26b8a"><span style="" class="se-fs- se-ff-   " id="SE-18c06544-967d-4569-9798-697e946e54d5">인레이의 재료에 따른 비교도표 (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-e6d2c9fa-8bb5-4827-b6e5-8a9fe672f276"><a href="https://arlingtondentalsmile.com/dental-inlays-onlays-near-arlington-ma" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-e6d2c9fa-8bb5-4827-b6e5-8a9fe672f276&quot;, &quot;link&quot;: &quot;https://arlingtondentalsmile.com/dental-inlays-onlays-near-arlington-ma&quot;}" target="_blank">https://arlingtondentalsmile.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-e2c5affb-4b69-4057-899a-25286e2a544f">) 여기는 레진인레이도 포함되어 있네요. 레진인레이에 대해서는 추후 따로 포스팅하도록 하겠습니다^^</span></p></div>

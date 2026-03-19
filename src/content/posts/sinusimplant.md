@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-0963c606-2eec-4a61-ac58-8db8e6e248b7&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MDZfMTE4/MDAxNjgwNzY5NTc2NjQz.qRJy3eIpsdhBTWXudoWzmTx7yY7wDT2rNx5lFpD9hlIg.xfEBXUX5F_JhcDBFqMsuoV8hSIellpCE3tik3zODvYgg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;180620&quot; }" area-hidden="true">
-<img src="/img/posts/sinusimplant/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-0963c606-2eec-4a61-ac58-8db8e6e248b7_0">
+<img src="/img/posts/sinusimplant/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다." class="se-image-resource egjs-visible" id="SE-0963c606-2eec-4a61-ac58-8db8e6e248b7_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-ef72afe4-03e7-4fa1-8e61-785f3a4e6882&quot;, &quot;src&quot; : &quot;/img/posts/sinusimplant/main.png&quot;, &quot;originalWidth&quot; : &quot;548&quot;, &quot;originalHeight&quot; : &quot;502&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;389345&quot; }" area-hidden="true">
-<img src="/img/posts/sinusimplant/main.png" data-lazy-src="/img/posts/sinusimplant/main.png" data-width="500" data-height="458" alt="" class="se-image-resource egjs-visible" id="SE-ef72afe4-03e7-4fa1-8e61-785f3a4e6882_0">
+<img src="/img/posts/sinusimplant/main.png" data-lazy-src="/img/posts/sinusimplant/main.png" data-width="500" data-height="458" alt="상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-ef72afe4-03e7-4fa1-8e61-785f3a4e6882_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-aff94a6e-cc0c-427a-ba21-cf8510603b32"><span style="" class="se-fs- se-ff-   " id="SE-0f5792e6-40f3-4461-a9ca-cd7d27d004f2">상악동의 위치</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-02e78f3c-7f4d-4b66-8da1-04b790405ea0&quot;, &quot;src&quot; : &quot;/img/posts/sinusimplant/img1.png&quot;, &quot;originalWidth&quot; : &quot;550&quot;, &quot;originalHeight&quot; : &quot;180&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;190169&quot; }" area-hidden="true">
-<img src="/img/posts/sinusimplant/img1.png" data-lazy-src="/img/posts/sinusimplant/img1.png" data-width="500" data-height="163" alt="" class="se-image-resource egjs-visible" id="SE-02e78f3c-7f4d-4b66-8da1-04b790405ea0_0">
+<img src="/img/posts/sinusimplant/img1.png" data-lazy-src="/img/posts/sinusimplant/img1.png" data-width="500" data-height="163" alt="상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-02e78f3c-7f4d-4b66-8da1-04b790405ea0_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-059450a9-869a-4acd-a42d-d6c7cc1c1f3e"><span style="" class="se-fs- se-ff-   " id="SE-47fc561b-24a6-40b6-a6bb-875d30af31af">뼈이식을 한 후 임플란트를 한 모습</span></p></div>
@@ -149,7 +149,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-a4e5245b-8957-47fb-8ea2-dc2e8adaf701&quot;, &quot;src&quot; : &quot;/img/posts/sinusimplant/img2.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1485875&quot; }" area-hidden="true">
-<img src="/img/posts/sinusimplant/img2.png" data-lazy-src="/img/posts/sinusimplant/img2.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-a4e5245b-8957-47fb-8ea2-dc2e8adaf701_0">
+<img src="/img/posts/sinusimplant/img2.png" data-lazy-src="/img/posts/sinusimplant/img2.png" data-width="500" data-height="333" alt="상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-a4e5245b-8957-47fb-8ea2-dc2e8adaf701_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-0a71145a-381d-4863-a108-619ce98aea67"><span style="" class="se-fs- se-ff-   " id="SE-7da8805e-6f4e-4c22-8a2f-7810b98764c1">임플란트를 한 모습</span></p></div>
@@ -188,7 +188,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/implant-1292/" class="se-oglink-thumbnail __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2381a324-4000-4ff0-9084-8881a1b6a9f8&quot;, &quot;link&quot;: &quot;/posts/implant-1292/&quot;}">
-<img src="/img/posts/sinusimplant/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/sinusimplant/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다. 관련 이미지 5">
 </a>
 <a href="/posts/implant-1292/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2381a324-4000-4ff0-9084-8881a1b6a9f8&quot;, &quot;link&quot;: &quot;/posts/implant-1292/&quot;}">
 <div class="se-oglink-info-container">

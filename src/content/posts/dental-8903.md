@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4649e27d-0f20-4178-93bc-f94dfaf78d6a&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MDJfMzIg/MDAxNjgwNDI0OTk3ODYw.kFzwBuYsHgAWZzGUCE-k4ebSV3YSjNxl_719I1r5r8og.2Fkr1FQ8fvc4DCT4FOpN9x7EYNkM-LgbrIzoIoJB6y0g.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/dental-8903/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-4649e27d-0f20-4178-93bc-f94dfaf78d6a_0">
+<img src="/img/posts/dental-8903/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="치과진료과목, 어디로 갈지 고민하지 마세요." class="se-image-resource egjs-visible" id="SE-4649e27d-0f20-4178-93bc-f94dfaf78d6a_0">
 </a>
 </div>
 </div>
@@ -67,7 +67,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-ec71f5cc-7879-4ab9-9f57-58da1fcee972&quot;, &quot;src&quot; : &quot;/img/posts/dental-8903/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;636&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/dental-8903/main.png" data-lazy-src="/img/posts/dental-8903/main.png" data-width="500" data-height="310" alt="" class="se-image-resource egjs-visible" id="SE-ec71f5cc-7879-4ab9-9f57-58da1fcee972_0">
+<img src="/img/posts/dental-8903/main.png" data-lazy-src="/img/posts/dental-8903/main.png" data-width="500" data-height="310" alt="치과진료과목, 어디로 갈지 고민하지 마세요. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-ec71f5cc-7879-4ab9-9f57-58da1fcee972_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-88fd4fa8-06cc-4215-8c71-071104da52a4"><span style="" class="se-fs- se-ff-   " id="SE-367360ef-0f85-43bd-925a-43a6c079a189">치과교정과</span></p></div>
@@ -87,7 +87,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-90c0a4ad-fd32-49cf-a2f3-d84a2da8d0f8&quot;, &quot;src&quot; : &quot;/img/posts/dental-8903/img1.png&quot;, &quot;originalWidth&quot; : &quot;1536&quot;, &quot;originalHeight&quot; : &quot;863&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/dental-8903/img1.png" data-lazy-src="/img/posts/dental-8903/img1.png" data-width="500" data-height="280" alt="" class="se-image-resource egjs-visible" id="SE-90c0a4ad-fd32-49cf-a2f3-d84a2da8d0f8_0">
+<img src="/img/posts/dental-8903/img1.png" data-lazy-src="/img/posts/dental-8903/img1.png" data-width="500" data-height="280" alt="치과진료과목, 어디로 갈지 고민하지 마세요. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-90c0a4ad-fd32-49cf-a2f3-d84a2da8d0f8_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-5511eedc-8ba1-4707-acb4-8855664ddddc"><span style="" class="se-fs- se-ff-   " id="SE-bde5e620-4b64-488e-be82-82db17e6dafb">구강악안면외과</span></p></div>
@@ -107,7 +107,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-9fc1ca3d-1f1d-47f1-af7e-93fe23ed4e0c&quot;, &quot;src&quot; : &quot;/img/posts/dental-8903/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;683&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/dental-8903/img2.png" data-lazy-src="/img/posts/dental-8903/img2.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-9fc1ca3d-1f1d-47f1-af7e-93fe23ed4e0c_0">
+<img src="/img/posts/dental-8903/img2.png" data-lazy-src="/img/posts/dental-8903/img2.png" data-width="500" data-height="333" alt="치과진료과목, 어디로 갈지 고민하지 마세요. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-9fc1ca3d-1f1d-47f1-af7e-93fe23ed4e0c_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-a9e26f92-c8a6-4dec-ac41-1fc4f9a3632e"><span style="" class="se-fs- se-ff-   " id="SE-b0ac83df-a85a-462c-9044-24f9acd6083b">소아치과</span></p></div>
@@ -143,7 +143,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-left">
 <div class="se-module se-module-oglink">
 <a href="/posts/baby-tooth-fracture/" class="se-oglink-thumbnail" >
-<img src="/img/posts/dental-8903/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/dental-8903/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="치과진료과목, 어디로 갈지 고민하지 마세요. 관련 이미지 5">
 </a>
 <a href="/posts/baby-tooth-fracture/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

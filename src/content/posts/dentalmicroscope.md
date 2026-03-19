@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3db5c1b4-5868-48d7-a87d-a92f6f17bda9&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MTlfMzYg/MDAxNjgxOTA5MjQxNDc0.wpWXW5iXUFRQ7KQ91Wr2tYZ5rTDsNejAibAppXXuCkYg.j2s2MTcOC98kqK9pLumbRopr8pXf7OKN4kgfk0zk4AYg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;88379&quot; }" area-hidden="true">
-<img src="/img/posts/dentalmicroscope/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-3db5c1b4-5868-48d7-a87d-a92f6f17bda9_0">
+<img src="/img/posts/dentalmicroscope/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="치과미세현미경, 장단점 최종정리" class="se-image-resource egjs-visible" id="SE-3db5c1b4-5868-48d7-a87d-a92f6f17bda9_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-61f26080-2f21-4ccd-a8e7-26d56705b940&quot;, &quot;src&quot; : &quot;/img/posts/dentalmicroscope/main.png&quot;, &quot;originalWidth&quot; : &quot;1000&quot;, &quot;originalHeight&quot; : &quot;1000&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;953912&quot; }" area-hidden="true">
-<img src="/img/posts/dentalmicroscope/main.png" data-lazy-src="/img/posts/dentalmicroscope/main.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-61f26080-2f21-4ccd-a8e7-26d56705b940_0">
+<img src="/img/posts/dentalmicroscope/main.png" data-lazy-src="/img/posts/dentalmicroscope/main.png" data-width="500" data-height="500" alt="치과미세현미경, 장단점 최종정리 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-61f26080-2f21-4ccd-a8e7-26d56705b940_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-4cb2938a-03f6-4732-aa7c-52e8ce1a4637"><span style="" class="se-fs- se-ff-   " id="SE-b76654ea-311d-446e-956c-5e4318e8ac3d">Zeiss 사의 미세현미경</span></p></div>
@@ -76,7 +76,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-a6f91265-d673-47ab-b476-115f89726675&quot;, &quot;src&quot; : &quot;/img/posts/dentalmicroscope/img1.png&quot;, &quot;originalWidth&quot; : &quot;299&quot;, &quot;originalHeight&quot; : &quot;218&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;99545&quot; }" area-hidden="true">
-<img src="/img/posts/dentalmicroscope/img1.png" data-lazy-src="/img/posts/dentalmicroscope/img1.png" data-width="500" data-height="364" alt="" class="se-image-resource egjs-visible" id="SE-a6f91265-d673-47ab-b476-115f89726675_0">
+<img src="/img/posts/dentalmicroscope/img1.png" data-lazy-src="/img/posts/dentalmicroscope/img1.png" data-width="500" data-height="364" alt="치과미세현미경, 장단점 최종정리 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-a6f91265-d673-47ab-b476-115f89726675_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-bdbbd46e-97d1-4652-b2c1-48f25200acf0"><span style="" class="se-fs- se-ff-   " id="SE-bcd86f54-32e5-4c4c-8f0e-5a014a603db9">치아의 미세 균열을 더 자세히 볼 수 있다. </span></p></div>
@@ -115,7 +115,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-8ccd5f46-a450-4264-baf0-4434fbb73ea3&quot;, &quot;src&quot; : &quot;/img/posts/dentalmicroscope/img2.png&quot;, &quot;originalWidth&quot; : &quot;433&quot;, &quot;originalHeight&quot; : &quot;313&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;253913&quot; }" area-hidden="true">
-<img src="/img/posts/dentalmicroscope/img2.png" data-lazy-src="/img/posts/dentalmicroscope/img2.png" data-width="500" data-height="361" alt="" class="se-image-resource egjs-visible" id="SE-8ccd5f46-a450-4264-baf0-4434fbb73ea3_0">
+<img src="/img/posts/dentalmicroscope/img2.png" data-lazy-src="/img/posts/dentalmicroscope/img2.png" data-width="500" data-height="361" alt="치과미세현미경, 장단점 최종정리 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-8ccd5f46-a450-4264-baf0-4434fbb73ea3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-f7b3dc66-31d8-4664-811b-a8fa36b35ce4"><span style="" class="se-fs- se-ff-   " id="SE-68094644-871f-4c8c-a5f5-eb7456d98cac">신경관 입구를 더 잘 찾을 수 있다. </span></p></div>

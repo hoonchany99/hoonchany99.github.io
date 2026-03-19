@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-F524C1C8-9C81-48CB-84AA-DE103A141DA8&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMTBfMTM1/MDAxNzY1Mjk1NzU5NTA5.WZhJBga8QLk2y7dPAqDk8VtMFX1pfx908FplllLY8-Ug.CMPex36BMn7qSe-QBcE0oRN3yGKRmFsOfN6qERmX6Kgg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;99005&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-F524C1C8-9C81-48CB-84AA-DE103A141DA8_0">
+<img src="/img/posts/wisdom-tooth-pain/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="사랑니 아픈데 언제 괜찮아질까? 통증과 붓기 회복 기준" class="se-image-resource egjs-visible" id="SE-F524C1C8-9C81-48CB-84AA-DE103A141DA8_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:349px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-CABDA1A2-D8FE-4231-9224-19BEA3AC8C93&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-pain/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1479641&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain/main.png" data-lazy-src="/img/posts/wisdom-tooth-pain/main.png" data-width="349" data-height="349" alt="" class="se-image-resource egjs-visible" id="SE-CABDA1A2-D8FE-4231-9224-19BEA3AC8C93_0">
+<img src="/img/posts/wisdom-tooth-pain/main.png" data-lazy-src="/img/posts/wisdom-tooth-pain/main.png" data-width="349" data-height="349" alt="사랑니 아픈데 언제 괜찮아질까? 통증과 붓기 회복 기준 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-CABDA1A2-D8FE-4231-9224-19BEA3AC8C93_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-c4f4bf1f-ddf5-4a82-b1ad-d882f6425832"><span style="" class="se-fs- se-ff-   " id="SE-216c6c97-4589-42f7-8d75-1f9d6c197875">사랑니 주변에 음식물이 껴서 치관주위염(Pericoronitis)가 생긴 모습</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:409px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5EA2657D-9AFE-47C7-A87E-FB9893988F81&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-pain/img1.jpeg&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1666&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;303479&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain/img1.jpeg" data-lazy-src="/img/posts/wisdom-tooth-pain/img1.jpeg" data-width="409" data-height="665" alt="" class="se-image-resource egjs-visible" id="SE-5EA2657D-9AFE-47C7-A87E-FB9893988F81_0">
+<img src="/img/posts/wisdom-tooth-pain/img1.jpeg" data-lazy-src="/img/posts/wisdom-tooth-pain/img1.jpeg" data-width="409" data-height="665" alt="사랑니 아픈데 언제 괜찮아질까? 통증과 붓기 회복 기준 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-5EA2657D-9AFE-47C7-A87E-FB9893988F81_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-0778b363-7742-41c3-b57d-50a3ade31b01"><span style="" class="se-fs- se-ff-   " id="SE-5c9bf179-799c-49c6-8b07-4570ef070e00">위 그림과 같이 정상적인 통증조절의 패턴은 초기에 통증이 최고조였다가 이후 자연스럽게 감소하는 구조입니다. 하지만 그렇지 못한 경우, 문제가 됩니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-2e279a6e-4fff-4c74-be49-87208f5f25e3"><a href="https://www.advancedsmilesmarion.com/r" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-2e279a6e-4fff-4c74-be49-87208f5f25e3&quot;, &quot;link&quot;: &quot;https://www.advancedsmilesmarion.com/r&quot;}" target="_blank">https://www.advancedsmilesmarion.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-cdfc6af2-accb-4e99-ba06-da41e73af5b7">)</span></p></div>
@@ -132,7 +132,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:360px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-2DA244E4-D0EE-4EFC-A7F0-CB52B3D24DB8&quot;, &quot;src&quot; : &quot;/img/posts/wisdom-tooth-pain/img2.jpg&quot;, &quot;originalWidth&quot; : &quot;1500&quot;, &quot;originalHeight&quot; : &quot;1600&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;421523&quot; }" area-hidden="true">
-<img src="/img/posts/wisdom-tooth-pain/img2.jpg" data-lazy-src="/img/posts/wisdom-tooth-pain/img2.jpg" data-width="360" data-height="384" alt="" class="se-image-resource egjs-visible" id="SE-2DA244E4-D0EE-4EFC-A7F0-CB52B3D24DB8_0">
+<img src="/img/posts/wisdom-tooth-pain/img2.jpg" data-lazy-src="/img/posts/wisdom-tooth-pain/img2.jpg" data-width="360" data-height="384" alt="사랑니 아픈데 언제 괜찮아질까? 통증과 붓기 회복 기준 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-2DA244E4-D0EE-4EFC-A7F0-CB52B3D24DB8_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-51fae9dd-9d09-461b-b508-2f067edff1c4"><span style="" class="se-fs- se-ff-   " id="SE-22d6a45f-52f5-40aa-8b68-0f0a1632b5a4">사랑니 통증이 있을때 완화하는 방법들을 나열한 그림입니다. 제가 말씀드린 3가지만 해주셔도 많은 효과가 있을겁니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-d8b7d31c-18de-432c-a448-15854e1a5c18"><a href="https://idental.com.sg/r" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-d8b7d31c-18de-432c-a448-15854e1a5c18&quot;, &quot;link&quot;: &quot;https://idental.com.sg/r&quot;}" target="_blank">https://idental.com.sg/</a></span><span style="" class="se-fs- se-ff-   " id="SE-4a3b5a2b-372e-4e67-af0d-736510eb954c">)</span></p></div>

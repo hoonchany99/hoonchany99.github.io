@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" >
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-195C845D-8109-4D48-B479-38FAE03C78C4", "src" : "/img/posts/inlay-care-daily-tips/main.png", "originalWidth" : "1080", "originalHeight" : "1350", "linkUse" : "false", "link" : "", "fileSize": "49443" }'>
-<img src="/img/posts/inlay-care-daily-tips/main.png" data-lazy-src="/img/posts/inlay-care-daily-tips/main.png" data-width="500" data-height="625" alt="" class="se-image-resource" />
+<img src="/img/posts/inlay-care-daily-tips/main.png" data-lazy-src="/img/posts/inlay-care-daily-tips/main.png" data-width="500" data-height="625" alt="인레이 오래 쓰려면 이렇게 관리하세요 — 생활수칙 & 양치 팁 관련 이미지 1" class="se-image-resource" />
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" >
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-A98A1EA3-4DCB-40BE-80C0-08D5389D1676", "src" : "/img/posts/inlay-care-daily-tips/img1.jpg", "originalWidth" : "960", "originalHeight" : "350", "linkUse" : "false", "link" : "", "fileSize": "30175" }'>
-<img src="/img/posts/inlay-care-daily-tips/img1.jpg" data-lazy-src="/img/posts/inlay-care-daily-tips/img1.jpg" data-width="500" data-height="182" alt="" class="se-image-resource" />
+<img src="/img/posts/inlay-care-daily-tips/img1.jpg" data-lazy-src="/img/posts/inlay-care-daily-tips/img1.jpg" data-width="500" data-height="182" alt="인레이 오래 쓰려면 이렇게 관리하세요 — 생활수칙 & 양치 팁 관련 이미지 2" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left " style="" id="SE-5a580f92-166a-4562-be9f-f15efbcafd8a"><span style="" class="se-fs- se-ff-   " id="SE-85a8ddcf-972e-44cf-a31e-cd50b2765ebc">인레이의 모습입니다. 정확하게 말하면 가장 왼쪽만 인레이구요, 오른쪽 두개는 온레이라고 합니다. 참고로 치아의 교두(볼록 튀어나온 부분)을 커버하면 온레이라고 하구요, 커버하지 않으면 인레이라고 합니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-ee554a39-3895-4a89-8c62-bd58de3ec6c7"><a href="https://sacksdentalnj.com/" class="se-link __se_link" data-linktype="text" data-linkdata='{"id": "SE-ee554a39-3895-4a89-8c62-bd58de3ec6c7", "link": "https://sacksdentalnj.com/"}' target="_blank">https://sacksdentalnj.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-3079b236-7821-4fc5-9390-ecfee4a138f7">)</span></p></div>
@@ -59,7 +59,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" >
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-2F2A148D-1AAC-4CD0-B6DF-F5C8109F11BA", "src" : "/img/posts/inlay-care-daily-tips/img2.png", "originalWidth" : "3215", "originalHeight" : "955", "linkUse" : "false", "link" : "", "fileSize": "1467860" }'>
-<img src="/img/posts/inlay-care-daily-tips/img2.png" data-lazy-src="/img/posts/inlay-care-daily-tips/img2.png" data-width="500" data-height="148" alt="" class="se-image-resource" />
+<img src="/img/posts/inlay-care-daily-tips/img2.png" data-lazy-src="/img/posts/inlay-care-daily-tips/img2.png" data-width="500" data-height="148" alt="인레이 오래 쓰려면 이렇게 관리하세요 — 생활수칙 & 양치 팁 관련 이미지 3" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left " style="" id="SE-0a25bdb4-7b61-4f14-9d15-d59c55759075"><span style="" class="se-fs- se-ff-   " id="SE-0c21af70-d2c9-4e44-a11f-00cc045ce52a">이 사진을 보시면 파란색 부분은 인레이, 그리고 초록색 부분은 치아의 가장 바깥층인 법랑질이구요, 노란색 부분은 치아의 안쪽 층인 상아질입니다. 즉, 초록색과 노란색은 원래 있던 치아인 셈이죠. 자세히 보시면 인레이와 치아 사이에 하늘색 뜬 부분이 보이실 겁니다. 이 부분이 인레이의 수명을 줄이는 원인이 됩니다. (출처:  </span><span style="" class="se-fs- se-ff-   " id="SE-0b140914-4dea-4680-93b7-e63a0b1b92fd"><a href="https://www.mdpi.com/1996-1944/15/17/6161" class="se-link __se_link" data-linktype="text" data-linkdata='{"id": "SE-0b140914-4dea-4680-93b7-e63a0b1b92fd", "link": "https://www.mdpi.com/1996-1944/15/17/6161"}' target="_blank">https://www.mdpi.com/1996-1944/15/17/6161</a></span><span style="" class="se-fs- se-ff-   " id="SE-46be927e-8331-43db-bd30-c45fdd594040">)</span></p></div>
@@ -98,7 +98,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:406px;">
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-B72DEBBA-428D-4FB3-A21F-B9EE9F0A5A6D", "src" : "/img/posts/inlay-care-daily-tips/img3.png", "originalWidth" : "512", "originalHeight" : "343", "linkUse" : "false", "link" : "", "fileSize": "216562" }'>
-<img src="/img/posts/inlay-care-daily-tips/img3.png" data-lazy-src="/img/posts/inlay-care-daily-tips/img3.png" data-width="406" data-height="271" alt="" class="se-image-resource" />
+<img src="/img/posts/inlay-care-daily-tips/img3.png" data-lazy-src="/img/posts/inlay-care-daily-tips/img3.png" data-width="406" data-height="271" alt="인레이 오래 쓰려면 이렇게 관리하세요 — 생활수칙 & 양치 팁 관련 이미지 4" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-bcd15ae2-f2bc-4a13-863a-35ed27f40424"><span style="" class="se-fs- se-ff-   " id="SE-34ae10dc-cbed-411c-ad40-96c1f368b284">양치를 하는 팁입니다. 잇몸쪽으로 칫솔을 45도로 기울여주세요. 그리고 잇몸과 치아 사이로 칫솔을 밀착시킨 후 가볍게 진동을 줍니다. 그리고 나서 칫솔을 바깥쪽으로 쓸어주면 된답니다~ 씹는면은 그냥 앞뒤로 닦아주세요 (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-6c6d24bc-dd50-44a0-a551-d37853ec5ab5"><a href="https://www.manchegodental.com/" class="se-link __se_link" data-linktype="text" data-linkdata='{"id": "SE-6c6d24bc-dd50-44a0-a551-d37853ec5ab5", "link": "https://www.manchegodental.com/"}' target="_blank">https://www.manchegodental.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-3a4059c1-8668-4c11-80d3-28a643616066">)</span></p></div>
@@ -137,7 +137,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:350px;">
 <div class="se-module se-module-image" style="">
 <a href="#" class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata='{"id" : "SE-7BD76DC5-A48F-4B11-920A-B7B6EB3DE857", "src" : "/img/posts/inlay-care-daily-tips/img4.jpg", "originalWidth" : "640", "originalHeight" : "452", "linkUse" : "false", "link" : "", "fileSize": "141733" }'>
-<img src="/img/posts/inlay-care-daily-tips/img4.jpg" data-lazy-src="/img/posts/inlay-care-daily-tips/img4.jpg" data-width="350" data-height="247" alt="" class="se-image-resource" />
+<img src="/img/posts/inlay-care-daily-tips/img4.jpg" data-lazy-src="/img/posts/inlay-care-daily-tips/img4.jpg" data-width="350" data-height="247" alt="인레이 오래 쓰려면 이렇게 관리하세요 — 생활수칙 & 양치 팁 관련 이미지 5" class="se-image-resource" />
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left " style="" id="SE-fcb82f6a-ddbe-48d0-8dfe-3464999bd026"><span style="" class="se-fs- se-ff-   " id="SE-8051eff4-7c20-4963-a9b5-95c40ee152e7">뻔한 이야기로 들리실  수 있지만 정기검진 무시하시면 안됩니다. 모든 병은 작은 것에서부터 시작합니다. 처음엔 간단한 치료로 끝낼 수 있지만 시간이 지나면 큰 치료로 변할 수 있다는점, 아시죠? (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-7731ff67-316d-420b-a661-ac2db351599a"><a href="https://www.patriotfamilydental.com/" class="se-link __se_link" data-linktype="text" data-linkdata='{"id": "SE-7731ff67-316d-420b-a661-ac2db351599a", "link": "https://www.patriotfamilydental.com/"}' target="_blank">https://www.patriotfamilydental.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-6fce0bf7-b504-4570-aa4e-2ccbaec9dd67">)</span></p></div>

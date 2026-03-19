@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3e007631-5c11-4bad-ae9c-d91da768adf0&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MjJfMjMy/MDAxNjgyMTAxOTM1MDA2.oUakRYKk2O7rJQJFY1yJDlodTI8GcAb5dgb9kKoV1Qsg.gaoUW6s-0QN75IoATYx7eqHtX1fZPKBSWfPVchXEqeIg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-toothcrack/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-3e007631-5c11-4bad-ae9c-d91da768adf0_0">
+<img src="/img/posts/baby-toothcrack/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="유치깨짐, 일단 진정하시고 이렇게만 하세요." class="se-image-resource egjs-visible" id="SE-3e007631-5c11-4bad-ae9c-d91da768adf0_0">
 </a>
 </div>
 </div>
@@ -51,7 +51,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-ba9f8751-6085-423e-8c35-64ae28ce4dc3&quot;, &quot;src&quot; : &quot;/img/posts/baby-toothcrack/main.png&quot;, &quot;originalWidth&quot; : &quot;390&quot;, &quot;originalHeight&quot; : &quot;280&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-toothcrack/main.png" data-lazy-src="/img/posts/baby-toothcrack/main.png" data-width="500" data-height="358" alt="" class="se-image-resource egjs-visible" id="SE-ba9f8751-6085-423e-8c35-64ae28ce4dc3_0">
+<img src="/img/posts/baby-toothcrack/main.png" data-lazy-src="/img/posts/baby-toothcrack/main.png" data-width="500" data-height="358" alt="유치깨짐, 일단 진정하시고 이렇게만 하세요. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-ba9f8751-6085-423e-8c35-64ae28ce4dc3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-c1f96f88-3cbb-4ba9-a660-d1d02f16cc93"><span style="" class="se-fs- se-ff-   " id="SE-ba5ed8e4-3774-461e-9cfc-115688ee7c8a">유치가 깨져도 당황하지 마세요</span></p></div>
@@ -87,7 +87,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-3c46490c-1665-4393-9463-8313f95d06c5&quot;, &quot;src&quot; : &quot;/img/posts/baby-toothcrack/img1.png&quot;, &quot;originalWidth&quot; : &quot;480&quot;, &quot;originalHeight&quot; : &quot;275&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-toothcrack/img1.png" data-lazy-src="/img/posts/baby-toothcrack/img1.png" data-width="500" data-height="286" alt="" class="se-image-resource egjs-visible" id="SE-3c46490c-1665-4393-9463-8313f95d06c5_0">
+<img src="/img/posts/baby-toothcrack/img1.png" data-lazy-src="/img/posts/baby-toothcrack/img1.png" data-width="500" data-height="286" alt="유치깨짐, 일단 진정하시고 이렇게만 하세요. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-3c46490c-1665-4393-9463-8313f95d06c5_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-803d38bc-8aef-4636-971e-77c3e5723b76"><span style="" class="se-fs- se-ff-   " id="SE-3c854f18-c6cf-4082-bbc4-a6d31e2a4204">유치가 깨진 경우</span></p></div>
@@ -99,7 +99,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-df808fd0-8271-4082-822e-3083bca2ff50&quot;, &quot;src&quot; : &quot;/img/posts/baby-toothcrack/img2.png&quot;, &quot;originalWidth&quot; : &quot;700&quot;, &quot;originalHeight&quot; : &quot;375&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-toothcrack/img2.png" data-lazy-src="/img/posts/baby-toothcrack/img2.png" data-width="500" data-height="267" alt="" class="se-image-resource egjs-visible" id="SE-df808fd0-8271-4082-822e-3083bca2ff50_0">
+<img src="/img/posts/baby-toothcrack/img2.png" data-lazy-src="/img/posts/baby-toothcrack/img2.png" data-width="500" data-height="267" alt="유치깨짐, 일단 진정하시고 이렇게만 하세요. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-df808fd0-8271-4082-822e-3083bca2ff50_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-473ff95a-c602-4383-bd70-a45b588f9a23"><span style="" class="se-fs- se-ff-   " id="SE-1bdfce88-d4d9-420e-88a6-3bab0a4b8da6">이렇게 치료할 수 있습니다</span></p></div>
@@ -119,7 +119,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-67d95397-6f08-457e-85fa-a9228065eb7d&quot;, &quot;src&quot; : &quot;/img/posts/baby-toothcrack/img3.png&quot;, &quot;originalWidth&quot; : &quot;1945&quot;, &quot;originalHeight&quot; : &quot;705&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-toothcrack/img3.png" data-lazy-src="/img/posts/baby-toothcrack/img3.png" data-width="500" data-height="181" alt="" class="se-image-resource egjs-visible" id="SE-67d95397-6f08-457e-85fa-a9228065eb7d_0">
+<img src="/img/posts/baby-toothcrack/img3.png" data-lazy-src="/img/posts/baby-toothcrack/img3.png" data-width="500" data-height="181" alt="유치깨짐, 일단 진정하시고 이렇게만 하세요. 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-67d95397-6f08-457e-85fa-a9228065eb7d_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-b09a0dee-e40c-4444-aca9-0fea38875dc2"><span style="" class="se-fs- se-ff-   " id="SE-82cd46f0-90dc-489f-8c28-06c142ff7738">부목(스플린트)로 치아를 고정한 모습</span></p></div>
@@ -147,7 +147,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/baby-tooth-fracture/" class="se-oglink-thumbnail" >
-<img src="/img/posts/baby-toothcrack/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/baby-toothcrack/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="유치깨짐, 일단 진정하시고 이렇게만 하세요. 관련 이미지 6">
 </a>
 <a href="/posts/baby-tooth-fracture/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

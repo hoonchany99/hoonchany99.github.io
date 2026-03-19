@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-303c4a6a-702b-4d16-9b37-0f9b85c8d5c3&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MTBfMzEg/MDAxNjgxMDU5NjIxMzk3.O6IRFVDjQKWXwr81O4m1lYoQgHWhuxUgBCWm_7JYopog.xNkyQf6TkVAMQ5J8jvJgaou3IesWBYVoPabDLgTKlnYg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;192278&quot; }" area-hidden="true">
-<img src="/img/posts/jawsurgery/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-303c4a6a-702b-4d16-9b37-0f9b85c8d5c3_0">
+<img src="/img/posts/jawsurgery/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="턱깎는수술, 무서운거 아닙니다." class="se-image-resource egjs-visible" id="SE-303c4a6a-702b-4d16-9b37-0f9b85c8d5c3_0">
 </a>
 </div>
 </div>
@@ -71,7 +71,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-efde6cd7-e210-4df8-a247-7626f80ab120&quot;, &quot;src&quot; : &quot;/img/posts/jawsurgery/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;576&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;809818&quot; }" area-hidden="true">
-<img src="/img/posts/jawsurgery/main.png" data-lazy-src="/img/posts/jawsurgery/main.png" data-width="500" data-height="281" alt="" class="se-image-resource egjs-visible" id="SE-efde6cd7-e210-4df8-a247-7626f80ab120_0">
+<img src="/img/posts/jawsurgery/main.png" data-lazy-src="/img/posts/jawsurgery/main.png" data-width="500" data-height="281" alt="턱깎는수술, 무서운거 아닙니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-efde6cd7-e210-4df8-a247-7626f80ab120_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-c7233ace-7c78-46a3-8c81-579fec513f60"><span style="" class="se-fs- se-ff-   " id="SE-a701b1d3-3e06-4527-8537-853ff94e2e4e">부정교합이 있는 경우 필요합니다</span></p></div>
@@ -152,7 +152,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-796742d0-8654-4066-8994-9e3de66b5810&quot;, &quot;src&quot; : &quot;/img/posts/jawsurgery/img1.png&quot;, &quot;originalWidth&quot; : &quot;900&quot;, &quot;originalHeight&quot; : &quot;500&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;605483&quot; }" area-hidden="true">
-<img src="/img/posts/jawsurgery/img1.png" data-lazy-src="/img/posts/jawsurgery/img1.png" data-width="500" data-height="277" alt="" class="se-image-resource egjs-visible" id="SE-796742d0-8654-4066-8994-9e3de66b5810_0">
+<img src="/img/posts/jawsurgery/img1.png" data-lazy-src="/img/posts/jawsurgery/img1.png" data-width="500" data-height="277" alt="턱깎는수술, 무서운거 아닙니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-796742d0-8654-4066-8994-9e3de66b5810_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-db41a9ec-e45e-4b55-8826-5bb4ff649e58"><span style="" class="se-fs- se-ff-   " id="SE-568e9694-a6f8-4eb6-89fc-caab248b2aed">뼈를 위치시킨 후 고정합니다. </span></p></div>
@@ -208,7 +208,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-" style="max-width:480px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-b523aefa-4a34-4dc3-8349-2a50680cee3e&quot;, &quot;src&quot; : &quot;/img/posts/jawsurgery/img2.png&quot;, &quot;originalWidth&quot; : &quot;480&quot;, &quot;originalHeight&quot; : &quot;339&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;221643&quot; }" area-hidden="true">
-<img src="/img/posts/jawsurgery/img2.png" data-lazy-src="/img/posts/jawsurgery/img2.png" data-width="480" data-height="339" alt="" class="se-image-resource egjs-visible" id="SE-b523aefa-4a34-4dc3-8349-2a50680cee3e_0">
+<img src="/img/posts/jawsurgery/img2.png" data-lazy-src="/img/posts/jawsurgery/img2.png" data-width="480" data-height="339" alt="턱깎는수술, 무서운거 아닙니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-b523aefa-4a34-4dc3-8349-2a50680cee3e_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-bcb93322-d817-43c3-acf3-17eaf3d0b28e"><span style="" class="se-fs- se-ff-   " id="SE-5b1f8346-2733-4341-ae90-312f8489e55d">대부분의 환자들은 성공적인 치료결과를 경험합니다. </span></p></div>

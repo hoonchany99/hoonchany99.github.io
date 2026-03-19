@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-BD0783FD-9094-4958-8FBA-8A5195460A4A&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNjAxMTBfOSAg/MDAxNzY4MDMxMzQ2Njk5.AlBTKF-qaSRJCGDeSgpfp4ZBOrBEAW_mqufv6SZolNEg.xfOTF0naLbvkxNZ44zHTI5EMakf3NNjwlVErz1LEi6Eg.PNG/Thumbnail_forpatients_long_%EB%B3%B5%EC%82%AC.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;53241&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-crack/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-BD0783FD-9094-4958-8FBA-8A5195460A4A_0">
+<img src="/img/posts/laminate-crack/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="라미네이트는 얼마나 오래 갈까? 깨짐, 변색 없이 유지하는 법" class="se-image-resource egjs-visible" id="SE-BD0783FD-9094-4958-8FBA-8A5195460A4A_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:328px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-E456431E-E6A2-4018-BD49-5A6782F6A06D&quot;, &quot;src&quot; : &quot;/img/posts/laminate-crack/main.jpeg&quot;, &quot;originalWidth&quot; : &quot;292&quot;, &quot;originalHeight&quot; : &quot;173&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;4919&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-crack/main.jpeg" data-lazy-src="/img/posts/laminate-crack/main.jpeg" data-width="328" data-height="194" alt="" class="se-image-resource egjs-visible" id="SE-E456431E-E6A2-4018-BD49-5A6782F6A06D_0">
+<img src="/img/posts/laminate-crack/main.jpeg" data-lazy-src="/img/posts/laminate-crack/main.jpeg" data-width="328" data-height="194" alt="라미네이트는 얼마나 오래 갈까? 깨짐, 변색 없이 유지하는 법 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-E456431E-E6A2-4018-BD49-5A6782F6A06D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-bcf06a58-51cc-4ea5-8a5b-ce16b6c454d4"><span style="" class="se-fs- se-ff-   " id="SE-d2d34786-8590-4f0b-85b2-f6718e2f68f7">요즘 라미네이트 하시는 분들 많이들 계신데요, 얼마나 가는지 많이들 궁금해하십니다. 얼마나 오래 쓸 수 있을까요? 평생 가는걸까요? (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-cb4e0cde-c556-43cf-930a-c49f4e6cbb53"><a href="https://dentakademiglobal.com" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-cb4e0cde-c556-43cf-930a-c49f4e6cbb53&quot;, &quot;link&quot;: &quot;https://dentakademiglobal.com&quot;}" target="_blank">https://dentakademiglobal.com</a></span><span style="" class="se-fs- se-ff-   " id="SE-25bbd5bf-c932-438f-ac18-61cf56e9d516">)</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:433px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-13AE3CBA-9349-4C6F-BF49-7D0502D196A3&quot;, &quot;src&quot; : &quot;/img/posts/laminate-crack/img1.jpg&quot;, &quot;originalWidth&quot; : &quot;750&quot;, &quot;originalHeight&quot; : &quot;450&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;42752&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-crack/img1.jpg" data-lazy-src="/img/posts/laminate-crack/img1.jpg" data-width="433" data-height="259" alt="" class="se-image-resource egjs-visible" id="SE-13AE3CBA-9349-4C6F-BF49-7D0502D196A3_0">
+<img src="/img/posts/laminate-crack/img1.jpg" data-lazy-src="/img/posts/laminate-crack/img1.jpg" data-width="433" data-height="259" alt="라미네이트는 얼마나 오래 갈까? 깨짐, 변색 없이 유지하는 법 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-13AE3CBA-9349-4C6F-BF49-7D0502D196A3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-5f2ab14b-9fa4-485c-bfbd-f89e298a7605"><span style="" class="se-fs- se-ff-   " id="SE-088f02e4-6744-47f4-ba42-070bbeae2739">라미네이트가 파절되는 경우가 종종 있는데요, 재료의 문제라기보다는 습관의 문제인 경우가 훨씬 더 많습니다. 너무 큰 힘이 가해져서 생기는 경우가 많아요 (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-2af9b349-de69-4fb9-ad42-fd24dfb02de2"><a href="https://www.goldenmiledental.ca" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-2af9b349-de69-4fb9-ad42-fd24dfb02de2&quot;, &quot;link&quot;: &quot;https://www.goldenmiledental.ca&quot;}" target="_blank">https://www.goldenmiledental.ca</a></span><span style="" class="se-fs- se-ff-   " id="SE-dbb02e84-720c-42b3-ae20-784840193107">)</span></p></div>
@@ -132,7 +132,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:383px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-0A212D78-D59D-488E-AC18-254060BE4F7D&quot;, &quot;src&quot; : &quot;/img/posts/laminate-crack/img2.png&quot;, &quot;originalWidth&quot; : &quot;454&quot;, &quot;originalHeight&quot; : &quot;259&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;213525&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-crack/img2.png" data-lazy-src="/img/posts/laminate-crack/img2.png" data-width="383" data-height="218" alt="" class="se-image-resource egjs-visible" id="SE-0A212D78-D59D-488E-AC18-254060BE4F7D_0">
+<img src="/img/posts/laminate-crack/img2.png" data-lazy-src="/img/posts/laminate-crack/img2.png" data-width="383" data-height="218" alt="라미네이트는 얼마나 오래 갈까? 깨짐, 변색 없이 유지하는 법 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-0A212D78-D59D-488E-AC18-254060BE4F7D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-3bb0dc11-1b62-4407-b1e9-33e28fcbcbf7"><span style="" class="se-fs- se-ff-   " id="SE-e8d6af93-cb02-4778-baad-0e33eda8de5e">라미네이트 주변이 변색되는 경우도 종종 있는데요, 관리 문제인 경우가 많아요. 그럼 어떻게 하면 라미네이트 유지기간을 늘릴 수 있을까요? (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-ab704a15-a1b9-44c3-8156-f98ccdcef0e3"><a href="https://www.semanticscholar.org" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-ab704a15-a1b9-44c3-8156-f98ccdcef0e3&quot;, &quot;link&quot;: &quot;https://www.semanticscholar.org&quot;}" target="_blank">https://www.semanticscholar.org</a></span><span style="" class="se-fs- se-ff-   " id="SE-db3de0c3-82a4-4c0f-81ae-7e9ca5257a8d">)</span></p></div>
@@ -171,7 +171,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:348px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-E76FB9AC-05DA-48C1-B7C8-6DB0F2087381&quot;, &quot;src&quot; : &quot;/img/posts/laminate-crack/img3.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1636770&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-crack/img3.png" data-lazy-src="/img/posts/laminate-crack/img3.png" data-width="348" data-height="348" alt="" class="se-image-resource egjs-visible" id="SE-E76FB9AC-05DA-48C1-B7C8-6DB0F2087381_0">
+<img src="/img/posts/laminate-crack/img3.png" data-lazy-src="/img/posts/laminate-crack/img3.png" data-width="348" data-height="348" alt="라미네이트는 얼마나 오래 갈까? 깨짐, 변색 없이 유지하는 법 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-E76FB9AC-05DA-48C1-B7C8-6DB0F2087381_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-1b06e315-f48b-4002-a7ed-4171cbd6d4c8"><span style="" class="se-fs- se-ff-   " id="SE-56c72f7a-6de6-487e-8cfc-599f9c288c6d">라미네이트, 잘 관리만 해주신다면 오래 쓰실 수 있는 치료랍니다ㅎㅎ</span></p></div>

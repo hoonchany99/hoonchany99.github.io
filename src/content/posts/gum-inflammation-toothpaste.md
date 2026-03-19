@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-7af7ea62-2efd-4a05-bba9-7f9f699993fb", "src" : "https://mblogthumb-phinf.pstatic.net/MjAyNjAyMTNfOTQg/MDAxNzcwOTEyOTQ5NjU5.tQJwfXUpK1xWigoA7U3OsyT4E_67w8s-IVr_c3GAFxwg._YNdFfg_GP5dDWsN4UpMUxlkeCkfruTCFwLmVLlk3jcg.PNG/Thumbnail_forpatients_long_%EB%B3%B5%EC%82%AC.png", "originalWidth" : "1080", "originalHeight" : "1350", "linkUse" : "false", "link" : "", "fileSize": "66825" }' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/main.png" /></a>
+<img alt="잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까? 관련 이미지 1" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/main.png" /></a>
 </div>
 </div>
 </div>
@@ -53,7 +53,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:416px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-c1c8bbc6-7e1f-4e40-ac50-4d32f3af68ac", "src" : "https://mblogthumb-phinf.pstatic.net/MjAyNjAyMTNfMTc4/MDAxNzcwOTA4ODUyNTgx.IowjLMSClAgzUJFxrZXTI2qteN9QaCD1s-qHo7CxlYkg.oj4fDko6lFjOu7n7dCWKjk-1gS6UcWyJsYeoZbbzWI8g.JPEG/Gingivitiss-e1519453847373.jpg", "originalWidth" : "660", "originalHeight" : "330", "linkUse" : "false", "link" : "", "fileSize": "12437" }' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/gingivitis.jpg"/>
+<img alt="잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까? 관련 이미지 2" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/gingivitis.jpg"/>
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left" id="SE-1fa0ce38-5be1-43ef-85c1-ddd89e5529c3" style=""><span class="se-fs- se-ff-" id="SE-7a7e8232-c884-4116-8a75-e70a1b3e1f30" style="">위 사진을 보시면 잇몸쪽이 빨갛게 부어오른 것을 보실 수 있습니다. 치태가 쌓여 염증을 일으키게 되면 생기게 됩니다. (출처: </span><span class="se-fs- se-ff-" id="SE-bb61e112-0025-4bbf-9a71-2c887d70cad4" style=""><a class="se-link __se_link" data-linkdata='{"id": "SE-bb61e112-0025-4bbf-9a71-2c887d70cad4", "link": "https://dentalexcellencegreenbay.com/"}' data-linktype="text" href="https://dentalexcellencegreenbay.com/" target="_blank">https://dentalexcellencegreenbay.com/</a></span><span class="se-fs- se-ff-" id="SE-e7cb76a4-caff-49e6-bc75-bbb77614d264" style="">)</span></p></div>
@@ -75,7 +75,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:429px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-eacee100-bfef-4934-b5e6-3fa52467fe24", "src" : "https://mblogthumb-phinf.pstatic.net/MjAyNjAyMTNfMSAg/MDAxNzcwOTA5MDA4MTc3.JtbzcKFI_8F5-NGyGQ2MQ7457MMBLFzabsBdnK6rM3sg.jdgyn06i6qElweEP-EUHkDil44Y43n63SKSggO1bsx4g.JPEG/image.cfm.jpeg", "originalWidth" : "960", "originalHeight" : "720", "linkUse" : "false", "link" : "", "fileSize": "91267" }' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/colgate.jpg"/>
+<img alt="잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까? 관련 이미지 3" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/colgate.jpg"/>
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left" id="SE-4bf97441-4446-448b-b25d-7d0df8a3f007" style=""><span class="se-fs- se-ff-" id="SE-36320fb5-9188-4735-9a2a-7c4fc1a25fea" style="">Colgate사에서 나온 치약인데요, 겉에보면 충치예방, 치은염예방 치약이라고 써있습니다. 이런 치약들은 과연 뭐가 다를까요? 그리고 어떤 치약을 골라야 되는걸까요? (출처: </span><span class="se-fs- se-ff-" id="SE-b635f263-fc02-4365-b550-9384adfe296f" style=""><a class="se-link __se_link" data-linkdata='{"id": "SE-b635f263-fc02-4365-b550-9384adfe296f", "link": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2f8a2d7e-a5c7-4006-b681-f2874e3a2af7&amp;#38;type=display"}' data-linktype="text" href="https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2f8a2d7e-a5c7-4006-b681-f2874e3a2af7&amp;type=display" target="_blank">https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2f8a2d7e-a5c7-4006-b681-f2874e3a2af7&amp;type=display</a></span><span class="se-fs- se-ff-" id="SE-d9f206b8-7e6d-4c8a-b174-0720200b2379" style="">)</span></p></div>
@@ -114,7 +114,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:396px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-39e482db-5575-4409-811f-792e29d94a0b", "src" : "https://mblogthumb-phinf.pstatic.net/MjAyNjAyMTNfMTgg/MDAxNzcwOTA5MDc0NTYx.AQlWY4shtBeB8Yut5pSUI80xJl6ya3vX4gzmAnhNL6gg.mxYCCzVzpLhJH85C0DLiS3MxPeV-JiC3KcC_bJe37Zog.PNG/Screen-Shot-2021-04-13-at-2.43.43-PM.png", "originalWidth" : "1268", "originalHeight" : "1196", "linkUse" : "false", "link" : "", "fileSize": "2240609" }' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/brushing.png"/>
+<img alt="잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까? 관련 이미지 4" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/brushing.png"/>
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left" id="SE-0d137b8e-324a-4a00-bfe4-641fa913bd1f" style=""><span class="se-fs- se-ff- se-weight-unset" id="SE-ad770efe-b10f-47b0-a3ae-43a01ffa4146" style="">칫솔질을 잘 하는게 무엇보다 중요합니다. 치약보다도요. 위 그림을 보고 따라해주세요. 칫솔은 잇몸쪽으로 45도 기울여주세요. 그리고 가볍에 좌우로 진동을 주신 다음, 바깥으로 쓸어주시면 됩니다. 안쪽도 같은 방법으로 하시구요, 씹는면은 앞뒤로 닦아주시면 됩니다. 자세한건 그림출처 말고 아래 블로그 글을 참고하세요(그림출처: </span><span class="se-fs- se-ff- se-weight-unset" id="SE-0c3fd15b-f656-403e-8647-8b1a4370dee1" style=""><a class="se-link __se_link" data-linkdata='{"id": "SE-0c3fd15b-f656-403e-8647-8b1a4370dee1", "link": "https://marpledental.com/"}' data-linktype="text" href="https://marpledental.com/" target="_blank">https://marpledental.com/</a></span><span class="se-fs- se-ff- se-weight-unset" id="SE-a0590eb9-db53-4f96-a4ba-a1003f6be1e5" style="">)</span></p></div>
@@ -152,7 +152,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:329px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-afb893f7-8d74-47ce-b50e-64f61f492060", "src" : "https://mblogthumb-phinf.pstatic.net/MjAyNjAyMTNfMTQg/MDAxNzcwOTA5MTU5NzI5.FesVQuHtys6As53QaoTANP_rdYAqUJX1fT_yV0pPImUg.xx6QDJZSR_bftcFQCEuhPgcmOtXznXpeNkbPVf0j2XUg.JPEG/images.jpeg", "originalWidth" : "285", "originalHeight" : "177", "linkUse" : "false", "link" : "", "fileSize": "7249" }' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/scaling.jpg"/>
+<img alt="잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까? 관련 이미지 5" class="se-image-resource" loading="lazy" src="/img/posts/gum-inflammation-toothpaste/scaling.jpg"/>
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-left" id="SE-5e050d17-9436-47a4-85d4-8ce7a75bdc26" style=""><span class="se-fs- se-ff- se-weight-unset" id="SE-4465191b-3de6-4aa1-99b1-fcc25deb4429" style="">이미 치태가 쌓여 굳었다면, 이때는 칫솔질로는 부족합니다. 치과에서 스케일링을 받으셔야 됩니다. 치석을 기구로 깔끔하게 제거해드립니다. (출처: </span><span class="se-fs- se-ff- se-weight-unset" id="SE-3c325852-0d04-489f-91af-466ce8056ed5" style=""><a class="se-link __se_link" data-linkdata='{"id": "SE-3c325852-0d04-489f-91af-466ce8056ed5", "link": "https://www.toothclub.co.uk/"}' data-linktype="text" href="https://www.toothclub.co.uk/" target="_blank">https://www.toothclub.co.uk/</a></span><span class="se-fs- se-ff- se-weight-unset" id="SE-267600b6-964d-4892-b45d-4e1af2e48738" style="">)</span></p></div>

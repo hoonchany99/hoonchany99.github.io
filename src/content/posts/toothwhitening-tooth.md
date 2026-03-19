@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-52038ebc-a027-4809-958a-44b94e936d4f&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMjdfMTk2/MDAxNzY0MTcwODIzMTU4.gF5EUfhZEznRIDLFF94h-lAz7WytB4zWGLGOC8JQiXgg.PpWPaz9Yb_azwthvvul7bHJe4DTvmeSgNp5UxYzB6vkg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;141058&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-tooth/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-52038ebc-a027-4809-958a-44b94e936d4f_0">
+<img src="/img/posts/toothwhitening-tooth/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="치아미백 하면 치아 약해진다? 실제로는 이렇게 설명드립니다" class="se-image-resource egjs-visible" id="SE-52038ebc-a027-4809-958a-44b94e936d4f_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:436px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1D0DC660-2FA3-4E89-90C4-9FF52E7AF7A7&quot;, &quot;src&quot; : &quot;/img/posts/toothwhitening-tooth/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1719730&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-tooth/main.png" data-lazy-src="/img/posts/toothwhitening-tooth/main.png" data-width="436" data-height="436" alt="" class="se-image-resource egjs-visible" id="SE-1D0DC660-2FA3-4E89-90C4-9FF52E7AF7A7_0">
+<img src="/img/posts/toothwhitening-tooth/main.png" data-lazy-src="/img/posts/toothwhitening-tooth/main.png" data-width="436" data-height="436" alt="치아미백 하면 치아 약해진다? 실제로는 이렇게 설명드립니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-1D0DC660-2FA3-4E89-90C4-9FF52E7AF7A7_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-9f7d40b0-e146-4b41-87d2-99b77b408424"><span style="" class="se-fs- se-ff-   " id="SE-4dd4b717-7caa-4b16-9906-f280b127601d">치아 미백이 이루어지는 기전</span></p></div>
@@ -76,7 +76,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:241px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-572E8EBA-995A-418D-ACEA-823A5CBB9454&quot;, &quot;src&quot; : &quot;/img/posts/toothwhitening-tooth/img1.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1536&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1761906&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-tooth/img1.png" data-lazy-src="/img/posts/toothwhitening-tooth/img1.png" data-width="241" data-height="361" alt="" class="se-image-resource egjs-visible" id="SE-572E8EBA-995A-418D-ACEA-823A5CBB9454_0">
+<img src="/img/posts/toothwhitening-tooth/img1.png" data-lazy-src="/img/posts/toothwhitening-tooth/img1.png" data-width="241" data-height="361" alt="치아미백 하면 치아 약해진다? 실제로는 이렇게 설명드립니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-572E8EBA-995A-418D-ACEA-823A5CBB9454_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-38c060e1-af65-456e-ae5d-14a684aecadb"><span style="" class="se-fs- se-ff-   " id="SE-6c1123ef-7871-4ecf-b764-0875d0cbdf82">상아질의 미세소관</span></p></div>
@@ -98,7 +98,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:286px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-2AF130B7-3EE4-4FD9-98F9-656950207229&quot;, &quot;src&quot; : &quot;/img/posts/toothwhitening-tooth/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1536&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2118001&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-tooth/img2.png" data-lazy-src="/img/posts/toothwhitening-tooth/img2.png" data-width="286" data-height="429" alt="" class="se-image-resource egjs-visible" id="SE-2AF130B7-3EE4-4FD9-98F9-656950207229_0">
+<img src="/img/posts/toothwhitening-tooth/img2.png" data-lazy-src="/img/posts/toothwhitening-tooth/img2.png" data-width="286" data-height="429" alt="치아미백 하면 치아 약해진다? 실제로는 이렇게 설명드립니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-2AF130B7-3EE4-4FD9-98F9-656950207229_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-b50b9850-720a-4b46-ab0d-92afaeaf3bcb"><span style="" class="se-fs- se-ff-   " id="SE-cdb65b55-01d0-477e-b590-d9f0f12e1ddf">시린이 치약의 효과를 나타낸 그림</span></p></div>
@@ -120,7 +120,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:325px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-49AFF823-C548-46BE-9F7E-30EDBFEA0531&quot;, &quot;src&quot; : &quot;/img/posts/toothwhitening-tooth/img3.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1536&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2420712&quot; }" area-hidden="true">
-<img src="/img/posts/toothwhitening-tooth/img3.png" data-lazy-src="/img/posts/toothwhitening-tooth/img3.png" data-width="325" data-height="487" alt="" class="se-image-resource egjs-visible" id="SE-49AFF823-C548-46BE-9F7E-30EDBFEA0531_0">
+<img src="/img/posts/toothwhitening-tooth/img3.png" data-lazy-src="/img/posts/toothwhitening-tooth/img3.png" data-width="325" data-height="487" alt="치아미백 하면 치아 약해진다? 실제로는 이렇게 설명드립니다 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-49AFF823-C548-46BE-9F7E-30EDBFEA0531_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-aab42845-88fa-4e5a-b15e-fec69c5dc304"><span style="" class="se-fs- se-ff-   " id="SE-f7490e57-1f2f-4403-9228-e74114a193e7">미백 문제가 아닌 경우. 치과에 가보셔야 합니다.</span></p></div>

@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-79A5A916-53E7-4938-B3C6-AEE61D4A3777&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MjFfNzkg/MDAxNjgyMDA4NDAxNjI4.9-0S7wBSjNsfmtF8eOz8kvVM4BVsB5iCn4H91YszKfwg.ofwllj0WtCnvCzisyakBV1Nl-oWi6JPqTbjRsCekwQEg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;104158&quot; }" area-hidden="true">
-<img src="/img/posts/front-teeth/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-79A5A916-53E7-4938-B3C6-AEE61D4A3777_0">
+<img src="/img/posts/front-teeth/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="앞니까매짐, 빨리 해결 안하시면 이렇게 됩니다." class="se-image-resource egjs-visible" id="SE-79A5A916-53E7-4938-B3C6-AEE61D4A3777_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-346EDBBA-7DAB-4D20-AF0D-EC283A8EC1F3&quot;, &quot;src&quot; : &quot;/img/posts/front-teeth/main.png&quot;, &quot;originalWidth&quot; : &quot;1600&quot;, &quot;originalHeight&quot; : &quot;731&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1583602&quot; }" area-hidden="true">
-<img src="/img/posts/front-teeth/main.png" data-lazy-src="/img/posts/front-teeth/main.png" data-width="500" data-height="228" alt="" class="se-image-resource egjs-visible" id="SE-346EDBBA-7DAB-4D20-AF0D-EC283A8EC1F3_0">
+<img src="/img/posts/front-teeth/main.png" data-lazy-src="/img/posts/front-teeth/main.png" data-width="500" data-height="228" alt="앞니까매짐, 빨리 해결 안하시면 이렇게 됩니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-346EDBBA-7DAB-4D20-AF0D-EC283A8EC1F3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-4e3ae052-b7ce-4613-97d9-2182ccf85bea"><span style="" class="se-fs- se-ff-   " id="SE-9ea8b54e-9d15-41da-b552-10c9aca1b925">앞니가 까매진 모습</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-8FE7AC33-7E6C-49E2-856F-9930DF64F50B&quot;, &quot;src&quot; : &quot;/img/posts/front-teeth/img1.png&quot;, &quot;originalWidth&quot; : &quot;2560&quot;, &quot;originalHeight&quot; : &quot;1920&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;4179780&quot; }" area-hidden="true">
-<img src="/img/posts/front-teeth/img1.png" data-lazy-src="/img/posts/front-teeth/img1.png" data-width="500" data-height="375" alt="" class="se-image-resource egjs-visible" id="SE-8FE7AC33-7E6C-49E2-856F-9930DF64F50B_0">
+<img src="/img/posts/front-teeth/img1.png" data-lazy-src="/img/posts/front-teeth/img1.png" data-width="500" data-height="375" alt="앞니까매짐, 빨리 해결 안하시면 이렇게 됩니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-8FE7AC33-7E6C-49E2-856F-9930DF64F50B_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-e92f417a-e4cc-4e3e-b7e7-93b1dd0bc96f"><span style="" class="se-fs- se-ff-   " id="SE-2a5525e3-8831-4813-aa8a-c271087dbd9e">크라운을 씌웁니다</span></p></div>
@@ -149,7 +149,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1AB74201-A7A1-4FB9-88FA-02DA175C7DA1&quot;, &quot;src&quot; : &quot;/img/posts/front-teeth/img2.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;900&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1010814&quot; }" area-hidden="true">
-<img src="/img/posts/front-teeth/img2.png" data-lazy-src="/img/posts/front-teeth/img2.png" data-width="500" data-height="375" alt="" class="se-image-resource egjs-visible" id="SE-1AB74201-A7A1-4FB9-88FA-02DA175C7DA1_0">
+<img src="/img/posts/front-teeth/img2.png" data-lazy-src="/img/posts/front-teeth/img2.png" data-width="500" data-height="375" alt="앞니까매짐, 빨리 해결 안하시면 이렇게 됩니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-1AB74201-A7A1-4FB9-88FA-02DA175C7DA1_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-a8cfe6a2-2b92-48f8-a624-f7b2976aa7b8"><span style="" class="se-fs- se-ff-   " id="SE-b8630638-f5c1-4db8-9ce3-bbd58f40aaf6">금연!! 중요합니다!!</span></p></div>

@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-left">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1ca29706-967f-436a-9cdc-a3c353d0fe0e&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMjEwMzFfMTgg/MDAxNjY3MjE1NDY4NTU1.fijt3GLYqV6FBYZ1qhNoArabTBcwP3taaYg0ODjUjVkg.v3IcGWrPJYXBJJ8SHOpoYikGbtV-BmfHrACcp66vktMg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/fluoride-7270/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-1ca29706-967f-436a-9cdc-a3c353d0fe0e_0">
+<img src="/img/posts/fluoride-7270/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="수돗물불소, 마시지 말고 일단 읽어보세요." class="se-image-resource egjs-visible" id="SE-1ca29706-967f-436a-9cdc-a3c353d0fe0e_0">
 </a>
 </div>
 </div>
@@ -35,7 +35,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-315d287d-72cd-4368-bd4b-9ed4e7b2d1ca&quot;, &quot;src&quot; : &quot;/img/posts/fluoride-7270/main.png&quot;, &quot;originalWidth&quot; : &quot;1417&quot;, &quot;originalHeight&quot; : &quot;813&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/fluoride-7270/main.png" data-lazy-src="/img/posts/fluoride-7270/main.png" data-width="500" data-height="286" alt="" class="se-image-resource egjs-visible" id="SE-315d287d-72cd-4368-bd4b-9ed4e7b2d1ca_0">
+<img src="/img/posts/fluoride-7270/main.png" data-lazy-src="/img/posts/fluoride-7270/main.png" data-width="500" data-height="286" alt="수돗물불소, 마시지 말고 일단 읽어보세요. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-315d287d-72cd-4368-bd4b-9ed4e7b2d1ca_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-eccd7511-d0db-418c-bfb0-90ebacf37976"><span style="" class="se-fs- se-ff-   " id="SE-a2b19fe7-6645-412d-a818-5abf7d915d2b">수돗물에 불소가 있을까요?</span></p></div>
@@ -55,7 +55,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-cb393855-a188-40c4-8170-6e8eda1353c6&quot;, &quot;src&quot; : &quot;/img/posts/fluoride-7270/img1.png&quot;, &quot;originalWidth&quot; : &quot;1417&quot;, &quot;originalHeight&quot; : &quot;1417&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/fluoride-7270/img1.png" data-lazy-src="/img/posts/fluoride-7270/img1.png" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-cb393855-a188-40c4-8170-6e8eda1353c6_0">
+<img src="/img/posts/fluoride-7270/img1.png" data-lazy-src="/img/posts/fluoride-7270/img1.png" data-width="500" data-height="500" alt="수돗물불소, 마시지 말고 일단 읽어보세요. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-cb393855-a188-40c4-8170-6e8eda1353c6_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-3d493b47-961a-479d-aa68-22d45d047d66"><span style="" class="se-fs- se-ff-   " id="SE-82836518-54eb-4a2a-9263-269f9a33654d">치아의 구조</span></p></div>
@@ -75,7 +75,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-1a8fa211-b30c-4083-a375-8329d9554755&quot;, &quot;src&quot; : &quot;/img/posts/fluoride-7270/img2.png&quot;, &quot;originalWidth&quot; : &quot;1312&quot;, &quot;originalHeight&quot; : &quot;813&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/fluoride-7270/img2.png" data-lazy-src="/img/posts/fluoride-7270/img2.png" data-width="500" data-height="309" alt="" class="se-image-resource egjs-visible" id="SE-1a8fa211-b30c-4083-a375-8329d9554755_0">
+<img src="/img/posts/fluoride-7270/img2.png" data-lazy-src="/img/posts/fluoride-7270/img2.png" data-width="500" data-height="309" alt="수돗물불소, 마시지 말고 일단 읽어보세요. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-1a8fa211-b30c-4083-a375-8329d9554755_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-698ffac6-b44b-4a33-8ee7-8fd324aa5828"><span style="" class="se-fs- se-ff-   " id="SE-9c302b5f-2b25-4898-b2df-978fa0199bb7">수산화인회석과 불화인회석</span></p></div>
@@ -127,7 +127,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/brushing-cavity/" class="se-oglink-thumbnail" >
-<img src="/img/posts/fluoride-7270/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/fluoride-7270/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="수돗물불소, 마시지 말고 일단 읽어보세요. 관련 이미지 5">
 </a>
 <a href="/posts/brushing-cavity/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-bec77bf1-6d8d-4e94-b2a3-b351c55643d6&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMjA2MjNfMjcx/MDAxNjU1OTE0MzA5NTgz.3ByTnuZOFeNQxf74wBpoty6hydG5eB0pWVZg3G6224kg.yCEzeSHGbRcdp4Mp7NYxRe_8GUSgb7wpiwKXNYHQkEwg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-tooth-fracture/cover.png" data-lazy-src="" data-width="693" data-height="693" alt="" class="se-image-resource egjs-visible" id="SE-bec77bf1-6d8d-4e94-b2a3-b351c55643d6_0">
+<img src="/img/posts/baby-tooth-fracture/cover.png" data-lazy-src="" data-width="693" data-height="693" alt="유치 부러짐, 당황하지 말고 이것부터 하세요" class="se-image-resource egjs-visible" id="SE-bec77bf1-6d8d-4e94-b2a3-b351c55643d6_0">
 </a>
 </div>
 </div>
@@ -35,7 +35,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4cdd789d-4b5c-4b01-9ef0-4ac027ca4f5a&quot;, &quot;src&quot; : &quot;/img/posts/baby-tooth-fracture/main.jpg&quot;, &quot;originalWidth&quot; : &quot;1980&quot;, &quot;originalHeight&quot; : &quot;1031&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-tooth-fracture/main.jpg" data-lazy-src="/img/posts/baby-tooth-fracture/main.jpg" data-width="693" data-height="360" alt="" class="se-image-resource egjs-visible" id="SE-4cdd789d-4b5c-4b01-9ef0-4ac027ca4f5a_0">
+<img src="/img/posts/baby-tooth-fracture/main.jpg" data-lazy-src="/img/posts/baby-tooth-fracture/main.jpg" data-width="693" data-height="360" alt="유치 부러짐, 당황하지 말고 이것부터 하세요 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-4cdd789d-4b5c-4b01-9ef0-4ac027ca4f5a_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-3a70e2e2-afd9-4bfc-b2bb-59ce172d124a"><span style="" class="se-fs- se-ff-   " id="SE-a3221c9b-b2bb-4d57-9806-32a45a34b0fd">치아의 뿌리가 줄기세포에 의해 자라는 과정</span></p></div>
@@ -55,7 +55,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:519px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-87ff1ada-a9ca-4885-a016-da2b0f40613f&quot;, &quot;src&quot; : &quot;/img/posts/baby-tooth-fracture/img1.jpg&quot;, &quot;originalWidth&quot; : &quot;737&quot;, &quot;originalHeight&quot; : &quot;449&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-tooth-fracture/img1.jpg" data-lazy-src="/img/posts/baby-tooth-fracture/img1.jpg" data-width="519" data-height="316" alt="" class="se-image-resource egjs-visible" id="SE-87ff1ada-a9ca-4885-a016-da2b0f40613f_0">
+<img src="/img/posts/baby-tooth-fracture/img1.jpg" data-lazy-src="/img/posts/baby-tooth-fracture/img1.jpg" data-width="519" data-height="316" alt="유치 부러짐, 당황하지 말고 이것부터 하세요 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-87ff1ada-a9ca-4885-a016-da2b0f40613f_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-b5828ef1-99ea-4f59-b5a3-316ce5fb9894"><span style="" class="se-fs- se-ff-   " id="SE-1e6bd0dc-5904-401d-aa7f-a20539fca479">크라운 치료</span></p></div>
@@ -75,7 +75,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:501px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-81a2e210-e9cf-49bc-8cf8-2a23e0c3ca13&quot;, &quot;src&quot; : &quot;/img/posts/baby-tooth-fracture/img2.jpg&quot;, &quot;originalWidth&quot; : &quot;300&quot;, &quot;originalHeight&quot; : &quot;200&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-tooth-fracture/img2.jpg" data-lazy-src="/img/posts/baby-tooth-fracture/img2.jpg" data-width="501" data-height="334" alt="" class="se-image-resource egjs-visible" id="SE-81a2e210-e9cf-49bc-8cf8-2a23e0c3ca13_0">
+<img src="/img/posts/baby-tooth-fracture/img2.jpg" data-lazy-src="/img/posts/baby-tooth-fracture/img2.jpg" data-width="501" data-height="334" alt="유치 부러짐, 당황하지 말고 이것부터 하세요 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-81a2e210-e9cf-49bc-8cf8-2a23e0c3ca13_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-964d0bc3-feb1-4ed7-bbce-837da21cde8a"><span style="" class="se-fs- se-ff-   " id="SE-d3f11291-595b-49c9-9ea2-b7f6d34a1077">레진 치료</span></p></div>
@@ -95,7 +95,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:539px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-c751fc88-9159-4b46-a4ae-737387802da9&quot;, &quot;src&quot; : &quot;/img/posts/baby-tooth-fracture/img3.jpg&quot;, &quot;originalWidth&quot; : &quot;450&quot;, &quot;originalHeight&quot; : &quot;207&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/baby-tooth-fracture/img3.jpg" data-lazy-src="/img/posts/baby-tooth-fracture/img3.jpg" data-width="539" data-height="247" alt="" class="se-image-resource egjs-visible" id="SE-c751fc88-9159-4b46-a4ae-737387802da9_0">
+<img src="/img/posts/baby-tooth-fracture/img3.jpg" data-lazy-src="/img/posts/baby-tooth-fracture/img3.jpg" data-width="539" data-height="247" alt="유치 부러짐, 당황하지 말고 이것부터 하세요 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-c751fc88-9159-4b46-a4ae-737387802da9_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-af9f8623-8df2-43dd-b62b-4c59cba71994"><span style="" class="se-fs- se-ff-   " id="SE-e5b3e18b-fd14-4904-b88a-2ab3d495d3db">스플린트 치료</span></p></div>
@@ -131,7 +131,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/supernumerary/" class="se-oglink-thumbnail" >
-<img src="/img/posts/baby-tooth-fracture/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/baby-tooth-fracture/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="유치 부러짐, 당황하지 말고 이것부터 하세요 관련 이미지 6">
 </a>
 <a href="/posts/supernumerary/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

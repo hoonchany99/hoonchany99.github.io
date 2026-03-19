@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-95f50bac-66d7-48e9-980c-35991108963b&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MDFfMTE4/MDAxNjgwMzE3NTU5MzQz.MknCtnOuOq1px8W31lhtBGyXrF0FMUXA9mrotzKFEmsg.i9u6l73I7nakPdOD_-PTmfYya1aZx4bqBL6E1r7SsCYg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/cerecinlay/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-95f50bac-66d7-48e9-980c-35991108963b_0">
+<img src="/img/posts/cerecinlay/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="세렉인레이, 드디어 정체를 알려드립니다." class="se-image-resource egjs-visible" id="SE-95f50bac-66d7-48e9-980c-35991108963b_0">
 </a>
 </div>
 </div>
@@ -51,7 +51,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-9981b4a0-f8fe-40c9-b070-b51c60f092f1&quot;, &quot;src&quot; : &quot;/img/posts/cerecinlay/main.png&quot;, &quot;originalWidth&quot; : &quot;850&quot;, &quot;originalHeight&quot; : &quot;636&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/cerecinlay/main.png" data-lazy-src="/img/posts/cerecinlay/main.png" data-width="500" data-height="374" alt="" class="se-image-resource egjs-visible" id="SE-9981b4a0-f8fe-40c9-b070-b51c60f092f1_0">
+<img src="/img/posts/cerecinlay/main.png" data-lazy-src="/img/posts/cerecinlay/main.png" data-width="500" data-height="374" alt="세렉인레이, 드디어 정체를 알려드립니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-9981b4a0-f8fe-40c9-b070-b51c60f092f1_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-e2cbfaf7-1352-4889-baf2-c76e8b010d63"><span style="" class="se-fs- se-ff-   " id="SE-1881794c-4e43-4ada-9520-d71a16f2ac9b">구강스캐너로 스캔을 하는 모습</span></p></div>
@@ -71,7 +71,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-002ee8a1-5d10-40a0-8163-01f84720f4b3&quot;, &quot;src&quot; : &quot;/img/posts/cerecinlay/img1.png&quot;, &quot;originalWidth&quot; : &quot;300&quot;, &quot;originalHeight&quot; : &quot;168&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/cerecinlay/img1.png" data-lazy-src="/img/posts/cerecinlay/img1.png" data-width="500" data-height="280" alt="" class="se-image-resource egjs-visible" id="SE-002ee8a1-5d10-40a0-8163-01f84720f4b3_0">
+<img src="/img/posts/cerecinlay/img1.png" data-lazy-src="/img/posts/cerecinlay/img1.png" data-width="500" data-height="280" alt="세렉인레이, 드디어 정체를 알려드립니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-002ee8a1-5d10-40a0-8163-01f84720f4b3_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-2b47b12a-4add-499d-b9e5-5d9c9d6b07cd"><span style="" class="se-fs- se-ff-   " id="SE-4ba2aa59-7b43-4a75-86c6-1faf4cca0668">기계를 이용하여 세라믹 블록으로 인레이를 만드는 모습</span></p></div>
@@ -107,7 +107,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-05b93409-324f-4da8-a3d6-4adb3bcec113&quot;, &quot;src&quot; : &quot;/img/posts/cerecinlay/img2.png&quot;, &quot;originalWidth&quot; : &quot;600&quot;, &quot;originalHeight&quot; : &quot;480&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/cerecinlay/img2.png" data-lazy-src="/img/posts/cerecinlay/img2.png" data-width="500" data-height="400" alt="" class="se-image-resource egjs-visible" id="SE-05b93409-324f-4da8-a3d6-4adb3bcec113_0">
+<img src="/img/posts/cerecinlay/img2.png" data-lazy-src="/img/posts/cerecinlay/img2.png" data-width="500" data-height="400" alt="세렉인레이, 드디어 정체를 알려드립니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-05b93409-324f-4da8-a3d6-4adb3bcec113_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-463c4227-8de5-40a5-a4bb-e93c50db17dc"><span style="" class="se-fs- se-ff-   " id="SE-e0c02915-fe41-4392-b856-f1fd2ad32dc7">컴퓨터로 인레이를 디자인하는 모습</span></p></div>
@@ -143,7 +143,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/prosthesis/" class="se-oglink-thumbnail" >
-<img src="/img/posts/cerecinlay/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/cerecinlay/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="세렉인레이, 드디어 정체를 알려드립니다. 관련 이미지 5">
 </a>
 <a href="/posts/prosthesis/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

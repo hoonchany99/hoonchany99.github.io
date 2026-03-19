@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4d2d8b31-a56b-4c6a-950a-54a29622db2b&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MTBfOTQg/MDAxNjgxMTE5NzIyNDMx.aP99X2KHMTKengyhHcuJoRe_q0LbNOkaYjPp5QUiHIMg.SwMV9aQ_vLuTDpXaBcNimqELi4yka0um0rpBDtmg4_Ag.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/bad-breath/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-4d2d8b31-a56b-4c6a-950a-54a29622db2b_0">
+<img src="/img/posts/bad-breath/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="입냄새제거방법, 이것만 아시면 됩니다." class="se-image-resource egjs-visible" id="SE-4d2d8b31-a56b-4c6a-950a-54a29622db2b_0">
 </a>
 </div>
 </div>
@@ -83,7 +83,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-85e138c8-e08a-4ffe-b613-3e7bf3c47d73&quot;, &quot;src&quot; : &quot;/img/posts/bad-breath/main.png&quot;, &quot;originalWidth&quot; : &quot;1100&quot;, &quot;originalHeight&quot; : &quot;734&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/bad-breath/main.png" data-lazy-src="/img/posts/bad-breath/main.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-85e138c8-e08a-4ffe-b613-3e7bf3c47d73_0">
+<img src="/img/posts/bad-breath/main.png" data-lazy-src="/img/posts/bad-breath/main.png" data-width="500" data-height="333" alt="입냄새제거방법, 이것만 아시면 됩니다. 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-85e138c8-e08a-4ffe-b613-3e7bf3c47d73_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-ce64d560-9b78-4436-b185-e84113d593f2"><span style="" class="se-fs- se-ff-   " id="SE-19b4fd2a-b465-47b8-b7ae-57b4566fd270">양파와 마늘은 구취를 유발합니다.</span></p></div>
@@ -103,7 +103,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-ea603881-ef3f-4f90-8b88-e55278cadf5c&quot;, &quot;src&quot; : &quot;/img/posts/bad-breath/img1.png&quot;, &quot;originalWidth&quot; : &quot;1000&quot;, &quot;originalHeight&quot; : &quot;750&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/bad-breath/img1.png" data-lazy-src="/img/posts/bad-breath/img1.png" data-width="500" data-height="375" alt="" class="se-image-resource egjs-visible" id="SE-ea603881-ef3f-4f90-8b88-e55278cadf5c_0">
+<img src="/img/posts/bad-breath/img1.png" data-lazy-src="/img/posts/bad-breath/img1.png" data-width="500" data-height="375" alt="입냄새제거방법, 이것만 아시면 됩니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-ea603881-ef3f-4f90-8b88-e55278cadf5c_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-e938db34-bf26-4991-b3ff-5fed9843c353"><span style="" class="se-fs- se-ff-   " id="SE-93738bd6-4508-49c6-9455-e591e27c36ec">흡연은 구취의 주범입니다.</span></p></div>
@@ -139,7 +139,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-fa79944e-571e-4369-b73f-3e939316c08c&quot;, &quot;src&quot; : &quot;/img/posts/bad-breath/img2.png&quot;, &quot;originalWidth&quot; : &quot;275&quot;, &quot;originalHeight&quot; : &quot;183&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/bad-breath/img2.png" data-lazy-src="/img/posts/bad-breath/img2.png" data-width="500" data-height="332" alt="" class="se-image-resource egjs-visible" id="SE-fa79944e-571e-4369-b73f-3e939316c08c_0">
+<img src="/img/posts/bad-breath/img2.png" data-lazy-src="/img/posts/bad-breath/img2.png" data-width="500" data-height="332" alt="입냄새제거방법, 이것만 아시면 됩니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-fa79944e-571e-4369-b73f-3e939316c08c_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-8a076951-c6fc-4e53-83bb-588ec207ad77"><span style="" class="se-fs- se-ff-   " id="SE-b3366442-59c9-4466-9725-0c031b6ab503">치실 사용도 굉장히 중요합니다. </span></p></div>

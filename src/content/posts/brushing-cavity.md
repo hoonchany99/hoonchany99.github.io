@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-9817cff4-36c5-432b-a768-69376279db24&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMjA5MTZfMTE0/MDAxNjYzMzQwMjk5MTkx.8bLylmumylBroKuzXyWX8YCyIhUktTAVoSLKvXUOQdEg.u99cbqUGK3PJ5M3XiSJxwcCuX8oteCZ_tiqyDPAKA0gg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001-2.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;65151&quot; }" area-hidden="true">
-<img src="/img/posts/brushing-cavity/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-9817cff4-36c5-432b-a768-69376279db24_0">
+<img src="/img/posts/brushing-cavity/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="올바른 양치법, 이것만 알아도 충치안생깁니다" class="se-image-resource egjs-visible" id="SE-9817cff4-36c5-432b-a768-69376279db24_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-e2eb178e-f503-49c4-8857-753db77af568&quot;, &quot;src&quot; : &quot;/img/posts/brushing-cavity/main.png&quot;, &quot;originalWidth&quot; : &quot;743&quot;, &quot;originalHeight&quot; : &quot;596&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;658430&quot; }" area-hidden="true">
-<img src="/img/posts/brushing-cavity/main.png" data-lazy-src="/img/posts/brushing-cavity/main.png" data-width="500" data-height="401" alt="" class="se-image-resource egjs-visible" id="SE-e2eb178e-f503-49c4-8857-753db77af568_0">
+<img src="/img/posts/brushing-cavity/main.png" data-lazy-src="/img/posts/brushing-cavity/main.png" data-width="500" data-height="401" alt="올바른 양치법, 이것만 알아도 충치안생깁니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-e2eb178e-f503-49c4-8857-753db77af568_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-94bd3757-f6cf-40f8-b5e5-5b0ff6bcc85b"><span style="" class="se-fs- se-ff-   " id="SE-1ab706cc-a37f-4d98-9d6b-46b2e7ddc4ab">양치질을 잘 합시다~</span></p></div>
@@ -59,7 +59,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-2acd8f96-842c-4ec3-a99c-f33abc0d3fe0&quot;, &quot;src&quot; : &quot;/img/posts/brushing-cavity/img1.png&quot;, &quot;originalWidth&quot; : &quot;1184&quot;, &quot;originalHeight&quot; : &quot;808&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1556172&quot; }" area-hidden="true">
-<img src="/img/posts/brushing-cavity/img1.png" data-lazy-src="/img/posts/brushing-cavity/img1.png" data-width="500" data-height="341" alt="" class="se-image-resource egjs-visible" id="SE-2acd8f96-842c-4ec3-a99c-f33abc0d3fe0_0">
+<img src="/img/posts/brushing-cavity/img1.png" data-lazy-src="/img/posts/brushing-cavity/img1.png" data-width="500" data-height="341" alt="올바른 양치법, 이것만 알아도 충치안생깁니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-2acd8f96-842c-4ec3-a99c-f33abc0d3fe0_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-0f25eb32-cc35-481e-9d86-ef9473c6d4b5"><span style="" class="se-fs- se-ff-   " id="SE-c5606e3c-e64e-4333-a8fd-868d07b683c3">바스법</span></p></div>
@@ -81,7 +81,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-7873b224-ef6b-4659-8bf6-7161517ee52d&quot;, &quot;src&quot; : &quot;/img/posts/brushing-cavity/img2.png&quot;, &quot;originalWidth&quot; : &quot;1890&quot;, &quot;originalHeight&quot; : &quot;596&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1727737&quot; }" area-hidden="true">
-<img src="/img/posts/brushing-cavity/img2.png" data-lazy-src="/img/posts/brushing-cavity/img2.png" data-width="500" data-height="157" alt="" class="se-image-resource egjs-visible" id="SE-7873b224-ef6b-4659-8bf6-7161517ee52d_0">
+<img src="/img/posts/brushing-cavity/img2.png" data-lazy-src="/img/posts/brushing-cavity/img2.png" data-width="500" data-height="157" alt="올바른 양치법, 이것만 알아도 충치안생깁니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-7873b224-ef6b-4659-8bf6-7161517ee52d_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-c6fbf138-8f36-4bf1-b15f-c25f360a44ad"><span style="" class="se-fs- se-ff-   " id="SE-97f9400c-a4e6-4e07-962f-4158aaecd535">치실을 사용하는 것이 중요합니다ㅎㅎ</span></p></div>

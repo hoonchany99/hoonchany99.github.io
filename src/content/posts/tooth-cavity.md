@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-6EDC5FC3-DF71-4A6D-928E-09F126895CA2&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTEyMTBfNDMg/MDAxNzY1MzU1NDMyNjIx.oMhiuV7andOsAAF9utVaTpFlLtuF2Qz65u5PTKv9ljUg.sDLoWpphVS-TWBEY2QixqqWmH0PM-jWLC7huYQxz9Jkg.PNG/IMG_0052.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;90746&quot; }" area-hidden="true">
-<img src="/img/posts/tooth-cavity/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-6EDC5FC3-DF71-4A6D-928E-09F126895CA2_0">
+<img src="/img/posts/tooth-cavity/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="단맛에만 시린 치아... 충치 초기일까요? 확인해야 할 신호들" class="se-image-resource egjs-visible" id="SE-6EDC5FC3-DF71-4A6D-928E-09F126895CA2_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:309px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-F5D88D06-7F45-4DB5-AA02-D2EF3E4B562B&quot;, &quot;src&quot; : &quot;/img/posts/tooth-cavity/main.jpg&quot;, &quot;originalWidth&quot; : &quot;550&quot;, &quot;originalHeight&quot; : &quot;550&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;55531&quot; }" area-hidden="true">
-<img src="/img/posts/tooth-cavity/main.jpg" data-lazy-src="/img/posts/tooth-cavity/main.jpg" data-width="309" data-height="309" alt="" class="se-image-resource egjs-visible" id="SE-F5D88D06-7F45-4DB5-AA02-D2EF3E4B562B_0">
+<img src="/img/posts/tooth-cavity/main.jpg" data-lazy-src="/img/posts/tooth-cavity/main.jpg" data-width="309" data-height="309" alt="단맛에만 시린 치아... 충치 초기일까요? 확인해야 할 신호들 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-F5D88D06-7F45-4DB5-AA02-D2EF3E4B562B_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-18294ec9-9119-40c1-a6cd-2d5ee3c2f191"><span style="" class="se-fs- se-ff-   " id="SE-5815aba4-209b-4db7-b6dc-386f630bcec3">초기충치 그림. 가장 표면의 층인 법랑질(Enamel)에 작은 틈이 생기기 시작한 상태에서 단맛이 닿으면 안쪽의 상아세관의 삼투압을 자극하게 됩니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-45006373-cf0a-4c3b-b363-df86615d0995"><a href="https://www.ar32.in/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-45006373-cf0a-4c3b-b363-df86615d0995&quot;, &quot;link&quot;: &quot;https://www.ar32.in/&quot;}" target="_blank">https://www.ar32.in/</a></span><span style="" class="se-fs- se-ff-   " id="SE-d72a95e3-f6b6-4118-9376-471ae73dfeeb">)</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:384px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-57351D4F-16DD-4229-8FA9-9A86D3AD1339&quot;, &quot;src&quot; : &quot;/img/posts/tooth-cavity/img1.jpg&quot;, &quot;originalWidth&quot; : &quot;1000&quot;, &quot;originalHeight&quot; : &quot;740&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;119159&quot; }" area-hidden="true">
-<img src="/img/posts/tooth-cavity/img1.jpg" data-lazy-src="/img/posts/tooth-cavity/img1.jpg" data-width="384" data-height="284" alt="" class="se-image-resource egjs-visible" id="SE-57351D4F-16DD-4229-8FA9-9A86D3AD1339_0">
+<img src="/img/posts/tooth-cavity/img1.jpg" data-lazy-src="/img/posts/tooth-cavity/img1.jpg" data-width="384" data-height="284" alt="단맛에만 시린 치아... 충치 초기일까요? 확인해야 할 신호들 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-57351D4F-16DD-4229-8FA9-9A86D3AD1339_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-3e7fe4b9-9a81-42f8-b354-b4d03e95ab55"><span style="" class="se-fs- se-ff-   " id="SE-f1854559-871f-45c5-bf4e-aee3d21fa8b9">Hydrodynamic theory (유체역학가설)을 나타낸 도식입니다. 차가운 자극을 받으면 상아질 안의 상아세관이 영향을 받아 이동해서 신경을 자극하게 됩니다. (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-c32242c7-a2c5-40f9-a428-7f8888efe93d"><a href="https://thefuturedentistry.com/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-c32242c7-a2c5-40f9-a428-7f8888efe93d&quot;, &quot;link&quot;: &quot;https://thefuturedentistry.com/&quot;}" target="_blank">https://thefuturedentistry.com/</a></span><span style="" class="se-fs- se-ff-   " id="SE-50661843-3bb1-4835-951d-bf573701e266">)</span></p></div>

@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-8521bcb1-7012-4501-98e3-c5cb51d2e454&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MDRfMjQ3/MDAxNjgwNjAzNjM1Mzk4.wRWB-TPT6ZEC1WeeGSjcTD9OFMNgABmw9H5pC3xXpwwg.XrKs3wv0k6VL9wMj55JMdJkQjo0JCXYAGwjNKrBNCUUg.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;108680&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-tooth-7438/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-8521bcb1-7012-4501-98e3-c5cb51d2e454_0">
+<img src="/img/posts/scaling-tooth-7438/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="스케일링이유, 치아로 평생 고생하지 않으셨으면 좋겠습니다" class="se-image-resource egjs-visible" id="SE-8521bcb1-7012-4501-98e3-c5cb51d2e454_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-092a1b8f-f85f-4169-a20e-c4607dfc3ea6&quot;, &quot;src&quot; : &quot;/img/posts/scaling-tooth-7438/main.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1605834&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-tooth-7438/main.png" data-lazy-src="/img/posts/scaling-tooth-7438/main.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-092a1b8f-f85f-4169-a20e-c4607dfc3ea6_0">
+<img src="/img/posts/scaling-tooth-7438/main.png" data-lazy-src="/img/posts/scaling-tooth-7438/main.png" data-width="500" data-height="333" alt="스케일링이유, 치아로 평생 고생하지 않으셨으면 좋겠습니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-092a1b8f-f85f-4169-a20e-c4607dfc3ea6_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-03b1d91d-f4ae-48da-8c76-302253f4e100"><span style="" class="se-fs- se-ff-   " id="SE-3b30bc2a-fe7d-47c6-962b-ec54879d8363">스케일링을 하는 모습</span></p></div>
@@ -110,7 +110,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-028b4d87-2819-4cfc-b69f-d57faa1e562a&quot;, &quot;src&quot; : &quot;/img/posts/scaling-tooth-7438/img1.png&quot;, &quot;originalWidth&quot; : &quot;1000&quot;, &quot;originalHeight&quot; : &quot;667&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1053626&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-tooth-7438/img1.png" data-lazy-src="/img/posts/scaling-tooth-7438/img1.png" data-width="500" data-height="333" alt="" class="se-image-resource egjs-visible" id="SE-028b4d87-2819-4cfc-b69f-d57faa1e562a_0">
+<img src="/img/posts/scaling-tooth-7438/img1.png" data-lazy-src="/img/posts/scaling-tooth-7438/img1.png" data-width="500" data-height="333" alt="스케일링이유, 치아로 평생 고생하지 않으셨으면 좋겠습니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-028b4d87-2819-4cfc-b69f-d57faa1e562a_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-5e290a48-8388-4153-bb1f-251f8272f598"><span style="" class="se-fs- se-ff-   " id="SE-4b5d3f71-d69b-4f87-b127-7eea892d91bc">스케일링을 통해 치석을 제거합니다. </span></p></div>
@@ -149,7 +149,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-080db176-c3de-4bd1-a35c-7ed4a932870c&quot;, &quot;src&quot; : &quot;/img/posts/scaling-tooth-7438/img2.png&quot;, &quot;originalWidth&quot; : &quot;900&quot;, &quot;originalHeight&quot; : &quot;627&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;977680&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-tooth-7438/img2.png" data-lazy-src="/img/posts/scaling-tooth-7438/img2.png" data-width="500" data-height="348" alt="" class="se-image-resource egjs-visible" id="SE-080db176-c3de-4bd1-a35c-7ed4a932870c_0">
+<img src="/img/posts/scaling-tooth-7438/img2.png" data-lazy-src="/img/posts/scaling-tooth-7438/img2.png" data-width="500" data-height="348" alt="스케일링이유, 치아로 평생 고생하지 않으셨으면 좋겠습니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-080db176-c3de-4bd1-a35c-7ed4a932870c_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-49c4f650-bd0e-4397-bda2-949afbbff20f"><span style="" class="se-fs- se-ff-   " id="SE-fca86f72-a3cf-432a-8195-042add9a6dc7">치석이 많은경우 잇몸이 많이 부어있을 수 있습니다.</span></p></div>
@@ -222,7 +222,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/why-dental-scaling-matters/" class="se-oglink-thumbnail __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-abbe5404-dee6-4e8d-b46e-a3a77c9a6ec8&quot;, &quot;link&quot;: &quot;/posts/why-dental-scaling-matters/&quot;}">
-<img src="/img/posts/scaling-tooth-7438/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/scaling-tooth-7438/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="스케일링이유, 치아로 평생 고생하지 않으셨으면 좋겠습니다 관련 이미지 5">
 </a>
 <a href="/posts/why-dental-scaling-matters/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-abbe5404-dee6-4e8d-b46e-a3a77c9a6ec8&quot;, &quot;link&quot;: &quot;/posts/why-dental-scaling-matters/&quot;}">
 <div class="se-oglink-info-container">

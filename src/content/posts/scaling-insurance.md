@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-2d11b8a8-7898-4e5e-8c11-0dfdddada0f5&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMzBfODYg/MDAxNzY0NDkwNDE2MTg4.Y8V_DiEeQENCAeJ93t6T-Selko-xXEPdOTX0XbaHEOQg.zoO_J8ROVIb6fkJYg_bkOHjLPaeMc1M3rGJA6mohH5Ug.PNG/IMG_0052_2.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;86633&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-insurance/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-2d11b8a8-7898-4e5e-8c11-0dfdddada0f5_0">
+<img src="/img/posts/scaling-insurance/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다" class="se-image-resource egjs-visible" id="SE-2d11b8a8-7898-4e5e-8c11-0dfdddada0f5_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:299px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5451EFFF-1C54-4D98-A207-8BD972D8BD12&quot;, &quot;src&quot; : &quot;/img/posts/scaling-insurance/main.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1171701&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-insurance/main.png" data-lazy-src="/img/posts/scaling-insurance/main.png" data-width="299" data-height="299" alt="" class="se-image-resource egjs-visible" id="SE-5451EFFF-1C54-4D98-A207-8BD972D8BD12_0">
+<img src="/img/posts/scaling-insurance/main.png" data-lazy-src="/img/posts/scaling-insurance/main.png" data-width="299" data-height="299" alt="스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-5451EFFF-1C54-4D98-A207-8BD972D8BD12_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-93c115ae-1703-4a6a-99b3-80a86ecc2944"><span style="" class="se-fs- se-ff-   " id="SE-27e993ef-3144-49fc-b7b6-a4b441df9368">치석이 쌓인 치아의 모습입니다. 이런 환자분들이 꽤 많아요. 스케일링이 필수적입니다.</span></p></div>
@@ -144,7 +144,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:377px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-7C797A6C-F41F-4DFC-B7D5-9A40E015E52E&quot;, &quot;src&quot; : &quot;/img/posts/scaling-insurance/img1.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1018077&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-insurance/img1.png" data-lazy-src="/img/posts/scaling-insurance/img1.png" data-width="377" data-height="251" alt="" class="se-image-resource egjs-visible" id="SE-7C797A6C-F41F-4DFC-B7D5-9A40E015E52E_0">
+<img src="/img/posts/scaling-insurance/img1.png" data-lazy-src="/img/posts/scaling-insurance/img1.png" data-width="377" data-height="251" alt="스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-7C797A6C-F41F-4DFC-B7D5-9A40E015E52E_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-f46a07e6-e891-4f2b-92dd-146c99e5f487"><span style="" class="se-fs- se-ff-   " id="SE-5a925bb6-ff02-4edb-8747-32f0706df689">왼쪽은 치석으로 인한 잇몽의 염증에만 국한된 치은염(Gingivitis)이에요. 만약 이걸 그대로 두시면 오른쪽처럼 뼈가 녹고 뿌리가 노출되늗 치주염(Periodontitis)로 발전하게 됩니다. </span></p></div>
@@ -183,7 +183,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:349px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-F953F578-A82F-44AD-925D-5BA0C7F47091&quot;, &quot;src&quot; : &quot;/img/posts/scaling-insurance/img2.png&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;813162&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-insurance/img2.png" data-lazy-src="/img/posts/scaling-insurance/img2.png" data-width="349" data-height="349" alt="" class="se-image-resource egjs-visible" id="SE-F953F578-A82F-44AD-925D-5BA0C7F47091_0">
+<img src="/img/posts/scaling-insurance/img2.png" data-lazy-src="/img/posts/scaling-insurance/img2.png" data-width="349" data-height="349" alt="스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-F953F578-A82F-44AD-925D-5BA0C7F47091_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-251de68e-17f8-4e04-bbee-b202f3e8bf46"><span style="" class="se-fs- se-ff-   " id="SE-ac43d71a-8f39-4359-8e91-9d19aed27c18">이렇게 치아에 검정색 선처럼 착색이 생기시는 분들이 종종 있어요. 저도 그래서 잘 압니다 ㅎㅎ 이런 분들은 6개월에 한번씩 비급여 스케일링도 섞어주시는걸 추천드려요.</span></p></div>
@@ -222,7 +222,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:344px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-7E23DC25-60A5-4F02-BDFC-A65B2974CE70&quot;, &quot;src&quot; : &quot;/img/posts/scaling-insurance/img3.png&quot;, &quot;originalWidth&quot; : &quot;1200&quot;, &quot;originalHeight&quot; : &quot;800&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1339244&quot; }" area-hidden="true">
-<img src="/img/posts/scaling-insurance/img3.png" data-lazy-src="/img/posts/scaling-insurance/img3.png" data-width="344" data-height="229" alt="" class="se-image-resource egjs-visible" id="SE-7E23DC25-60A5-4F02-BDFC-A65B2974CE70_0">
+<img src="/img/posts/scaling-insurance/img3.png" data-lazy-src="/img/posts/scaling-insurance/img3.png" data-width="344" data-height="229" alt="스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-7E23DC25-60A5-4F02-BDFC-A65B2974CE70_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-05a3ee37-d6d6-4a84-999a-b06a06c81e1b"><span style="" class="se-fs- se-ff-   " id="SE-cb77b8b7-8cc9-447b-a591-c85b88107d96">스케일링을 진행하는 모습입니다. 큐렛(Currette)이라는 기구로 치석을 긁어내 제거해주는거에요. 물론 요즘은 많이들 친숙하신 초음파 스케일러를 가장 많이 사용합니다.</span></p></div>

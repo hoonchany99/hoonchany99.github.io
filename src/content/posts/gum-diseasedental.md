@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-e5e6198c-e784-4e92-b6df-ec37975d9849&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA0MDdfNDkg/MDAxNjgwODYwMTMyMjIz.8PyyouQRdcRpE1ozLH_zwMQbvqM4SYP5-CKimYK_I1og.KO20fAHRu1jMY9y2y2sAZw-HrqVUWE9EiMcsET6uZf8g.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/gum-diseasedental/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-e5e6198c-e784-4e92-b6df-ec37975d9849_0">
+<img src="/img/posts/gum-diseasedental/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="잇몸질환치과, 그대로 두면 큰일납니다." class="se-image-resource egjs-visible" id="SE-e5e6198c-e784-4e92-b6df-ec37975d9849_0">
 </a>
 </div>
 </div>
@@ -35,7 +35,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/ulcer-8470/" class="se-oglink-thumbnail" >
-<img src="/img/posts/gum-diseasedental/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/gum-diseasedental/oglink1.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="잇몸질환치과, 그대로 두면 큰일납니다. 관련 이미지 2">
 </a>
 <a href="/posts/ulcer-8470/" class="se-oglink-info" >
 <div class="se-oglink-info-container">
@@ -77,7 +77,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-857f8560-6ad4-4246-80cc-c7eb4964d20a&quot;, &quot;src&quot; : &quot;/img/posts/gum-diseasedental/main.png&quot;, &quot;originalWidth&quot; : &quot;275&quot;, &quot;originalHeight&quot; : &quot;183&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/gum-diseasedental/main.png" data-lazy-src="/img/posts/gum-diseasedental/main.png" data-width="500" data-height="332" alt="" class="se-image-resource egjs-visible" id="SE-857f8560-6ad4-4246-80cc-c7eb4964d20a_0">
+<img src="/img/posts/gum-diseasedental/main.png" data-lazy-src="/img/posts/gum-diseasedental/main.png" data-width="500" data-height="332" alt="잇몸질환치과, 그대로 두면 큰일납니다. 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-857f8560-6ad4-4246-80cc-c7eb4964d20a_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-13015c73-b893-4b81-8bd2-e3322e1c589a"><span style="" class="se-fs- se-ff-   " id="SE-a14335d0-db0c-45be-a2dc-1540bf578dd3">치주질환</span></p></div>
@@ -113,7 +113,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-10fe1fd5-5415-4c37-b9ef-b2052adf79f4&quot;, &quot;src&quot; : &quot;/img/posts/gum-diseasedental/img1.png&quot;, &quot;originalWidth&quot; : &quot;732&quot;, &quot;originalHeight&quot; : &quot;487&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/gum-diseasedental/img1.png" data-lazy-src="/img/posts/gum-diseasedental/img1.png" data-width="500" data-height="332" alt="" class="se-image-resource egjs-visible" id="SE-10fe1fd5-5415-4c37-b9ef-b2052adf79f4_0">
+<img src="/img/posts/gum-diseasedental/img1.png" data-lazy-src="/img/posts/gum-diseasedental/img1.png" data-width="500" data-height="332" alt="잇몸질환치과, 그대로 두면 큰일납니다. 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-10fe1fd5-5415-4c37-b9ef-b2052adf79f4_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-66a4f33f-ed06-4217-be12-32af7e086ae6"><span style="" class="se-fs- se-ff-   " id="SE-13fb50fa-48b4-4def-81b0-b89c737b5cf0">치은염</span></p></div>
@@ -165,7 +165,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-f7bca351-03b4-4da1-b5bc-31762dba9d85&quot;, &quot;src&quot; : &quot;/img/posts/gum-diseasedental/img2.png&quot;, &quot;originalWidth&quot; : &quot;259&quot;, &quot;originalHeight&quot; : &quot;194&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/gum-diseasedental/img2.png" data-lazy-src="/img/posts/gum-diseasedental/img2.png" data-width="500" data-height="374" alt="" class="se-image-resource egjs-visible" id="SE-f7bca351-03b4-4da1-b5bc-31762dba9d85_0">
+<img src="/img/posts/gum-diseasedental/img2.png" data-lazy-src="/img/posts/gum-diseasedental/img2.png" data-width="500" data-height="374" alt="잇몸질환치과, 그대로 두면 큰일납니다. 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-f7bca351-03b4-4da1-b5bc-31762dba9d85_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-fe256b62-6189-451c-8284-ea76adcc39f4"><span style="" class="se-fs- se-ff-   " id="SE-8f5bcc1b-8637-4f56-975f-726bf3cd05cb">스케일링</span></p></div>
@@ -201,7 +201,7 @@ image:
 <div class="se-section se-section-oglink se-l-large_image se-section-align-">
 <div class="se-module se-module-oglink">
 <a href="/posts/brushing-cavity/" class="se-oglink-thumbnail" >
-<img src="/img/posts/gum-diseasedental/oglink2.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="">
+<img src="/img/posts/gum-diseasedental/oglink2.jpg" class="se-oglink-thumbnail-resource egjs-visible" alt="잇몸질환치과, 그대로 두면 큰일납니다. 관련 이미지 6">
 </a>
 <a href="/posts/brushing-cavity/" class="se-oglink-info" >
 <div class="se-oglink-info-container">

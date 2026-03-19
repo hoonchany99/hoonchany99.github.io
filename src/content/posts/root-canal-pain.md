@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-D22C2CF8-66D6-47BB-8E4A-14AA9BBAFD23&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMzBfMjMy/MDAxNzY0NDMzMTE1ODQ5.pde4hMcN6A1w3ds5LWO3LuIqE2yM-82BgM2DjoJhdlkg.wdhyIx1RnYNckCwZRk34TCXbRNnptLaQgM4pYbfAMfcg.PNG/IMG_0064.PNG&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;99262&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-pain/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-D22C2CF8-66D6-47BB-8E4A-14AA9BBAFD23_0">
+<img src="/img/posts/root-canal-pain/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다" class="se-image-resource egjs-visible" id="SE-D22C2CF8-66D6-47BB-8E4A-14AA9BBAFD23_0">
 </a>
 </div>
 </div>
@@ -54,7 +54,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:304px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5B5B2F2D-CBDF-4C84-8EEE-2D02042DFBCF&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-pain/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1743112&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-pain/main.png" data-lazy-src="/img/posts/root-canal-pain/main.png" data-width="304" data-height="304" alt="" class="se-image-resource egjs-visible" id="SE-5B5B2F2D-CBDF-4C84-8EEE-2D02042DFBCF_0">
+<img src="/img/posts/root-canal-pain/main.png" data-lazy-src="/img/posts/root-canal-pain/main.png" data-width="304" data-height="304" alt="신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-5B5B2F2D-CBDF-4C84-8EEE-2D02042DFBCF_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-bbd7e728-6ee8-4d30-84fa-08348b2f1c90"><span style="" class="se-fs- se-ff-   " id="SE-c405d87e-751c-48ec-b590-c205163f42ef">신경치료를 하는 과정. 신경을 긁어서 모두 제거합니다.</span></p></div>
@@ -93,7 +93,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:291px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-0C9AF01B-F739-492F-A1F8-7EBA653630CF&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-pain/img1.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2867804&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-pain/img1.png" data-lazy-src="/img/posts/root-canal-pain/img1.png" data-width="291" data-height="291" alt="" class="se-image-resource egjs-visible" id="SE-0C9AF01B-F739-492F-A1F8-7EBA653630CF_0">
+<img src="/img/posts/root-canal-pain/img1.png" data-lazy-src="/img/posts/root-canal-pain/img1.png" data-width="291" data-height="291" alt="신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-0C9AF01B-F739-492F-A1F8-7EBA653630CF_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-794f457a-4db5-4db7-aebb-92455293934e"><span style="" class="se-fs- se-ff-   " id="SE-a05dab6b-f288-40fe-9141-137f9fa5397b">엑스레이 상에서 치아의 뿌리 쪽에 둥글게 진한 검정색 부분이 염증입니다</span></p></div>
@@ -115,7 +115,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:272px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-6BB3DC52-F57D-4CEB-AC8A-ECEFDF178A1D&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-pain/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1606022&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-pain/img2.png" data-lazy-src="/img/posts/root-canal-pain/img2.png" data-width="272" data-height="272" alt="" class="se-image-resource egjs-visible" id="SE-6BB3DC52-F57D-4CEB-AC8A-ECEFDF178A1D_0">
+<img src="/img/posts/root-canal-pain/img2.png" data-lazy-src="/img/posts/root-canal-pain/img2.png" data-width="272" data-height="272" alt="신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-6BB3DC52-F57D-4CEB-AC8A-ECEFDF178A1D_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-5a9702f5-6c7a-46ed-9b67-bbdf14f1e627"><span style="" class="se-fs- se-ff-   " id="SE-57ba0b9a-3542-4198-8490-01b95a1e1621">치아의 타진을 검사하는 방법</span></p></div>
@@ -137,7 +137,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:341px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-4B1A1539-592E-45E9-B55D-67293DCCBF0C&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-pain/img3.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;787&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1503876&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-pain/img3.png" data-lazy-src="/img/posts/root-canal-pain/img3.png" data-width="341" data-height="262" alt="" class="se-image-resource egjs-visible" id="SE-4B1A1539-592E-45E9-B55D-67293DCCBF0C_0">
+<img src="/img/posts/root-canal-pain/img3.png" data-lazy-src="/img/posts/root-canal-pain/img3.png" data-width="341" data-height="262" alt="신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-4B1A1539-592E-45E9-B55D-67293DCCBF0C_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-d019f83b-a696-4c72-8714-80843d5ae000"><span style="" class="se-fs- se-ff-   " id="SE-dbbaa3f2-9ce5-4d98-ad39-7b143aa60edf">신경을 제거하는 과정에서 감염된 잔사들이 근관 끝으로 밀려나면 우리 몸의 방어체계와 감염잔사들의 균형이 깨져 염증반응이 생기게 됩니다. Flare-up의 원인입니다.</span></p></div>
@@ -193,7 +193,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:299px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-E33AFC22-3CA5-41F5-A4A7-09F1F00CB9D5&quot;, &quot;src&quot; : &quot;/img/posts/root-canal-pain/img4.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;2232779&quot; }" area-hidden="true">
-<img src="/img/posts/root-canal-pain/img4.png" data-lazy-src="/img/posts/root-canal-pain/img4.png" data-width="299" data-height="299" alt="" class="se-image-resource egjs-visible" id="SE-E33AFC22-3CA5-41F5-A4A7-09F1F00CB9D5_0">
+<img src="/img/posts/root-canal-pain/img4.png" data-lazy-src="/img/posts/root-canal-pain/img4.png" data-width="299" data-height="299" alt="신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다 관련 이미지 6" class="se-image-resource egjs-visible" id="SE-E33AFC22-3CA5-41F5-A4A7-09F1F00CB9D5_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-f6660153-1e0a-4792-aa1a-9871df9866ca"><span style="" class="se-fs- se-ff-   " id="SE-1505d913-9f18-47ff-b9e7-829752d8fd99">러버댐. 신경치료를 할 때 꼭 필요한 사전과정입니다. </span></p></div>

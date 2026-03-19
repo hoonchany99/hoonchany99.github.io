@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-25be86b5-35e2-4fe8-ad1e-c61349d8dbdc&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyMzA1MThfMjEz/MDAxNjg0MzkyMTYzNDc1.oG-AUkIey_yTg3jY-cnYMrmDJxRCiNfzYiQ2UYrW16cg.fniGBHz39AZQYbfqTv0U4WFcVhfcFN8kSseeetiZU64g.PNG.studytosurvive/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EC%9D%B4%EC%A0%A0%EB%AF%B8%EB%A3%A8%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-001-2.png&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1080&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/fluoride/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="" class="se-image-resource egjs-visible" id="SE-25be86b5-35e2-4fe8-ad1e-c61349d8dbdc_0">
+<img src="/img/posts/fluoride/cover.png" data-lazy-src="" data-width="500" data-height="500" alt="수돗물불소, 아직도 모르셨나요?" class="se-image-resource egjs-visible" id="SE-25be86b5-35e2-4fe8-ad1e-c61349d8dbdc_0">
 </a>
 </div>
 </div>
@@ -35,7 +35,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-5ef69616-4018-4a1c-be09-c1b662cf4d7b&quot;, &quot;src&quot; : &quot;/img/posts/fluoride/main.png&quot;, &quot;originalWidth&quot; : &quot;2000&quot;, &quot;originalHeight&quot; : &quot;1125&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/fluoride/main.png" data-lazy-src="/img/posts/fluoride/main.png" data-width="500" data-height="281" alt="" class="se-image-resource egjs-visible" id="SE-5ef69616-4018-4a1c-be09-c1b662cf4d7b_0">
+<img src="/img/posts/fluoride/main.png" data-lazy-src="/img/posts/fluoride/main.png" data-width="500" data-height="281" alt="수돗물불소, 아직도 모르셨나요? 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-5ef69616-4018-4a1c-be09-c1b662cf4d7b_0">
 </a>
 </div>
 </div>
@@ -70,7 +70,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-dd891350-38fc-4c8c-a231-75767d08eaf2&quot;, &quot;src&quot; : &quot;/img/posts/fluoride/img1.png&quot;, &quot;originalWidth&quot; : &quot;500&quot;, &quot;originalHeight&quot; : &quot;313&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/fluoride/img1.png" data-lazy-src="/img/posts/fluoride/img1.png" data-width="500" data-height="313" alt="" class="se-image-resource egjs-visible" id="SE-dd891350-38fc-4c8c-a231-75767d08eaf2_0">
+<img src="/img/posts/fluoride/img1.png" data-lazy-src="/img/posts/fluoride/img1.png" data-width="500" data-height="313" alt="수돗물불소, 아직도 모르셨나요? 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-dd891350-38fc-4c8c-a231-75767d08eaf2_0">
 </a>
 </div>
 </div>
@@ -121,7 +121,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-bc793a73-bed7-4c5b-8ff1-9e5a0364e7d6&quot;, &quot;src&quot; : &quot;/img/posts/fluoride/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;620&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;}" area-hidden="true">
-<img src="/img/posts/fluoride/img2.png" data-lazy-src="/img/posts/fluoride/img2.png" data-width="500" data-height="302" alt="" class="se-image-resource egjs-visible" id="SE-bc793a73-bed7-4c5b-8ff1-9e5a0364e7d6_0">
+<img src="/img/posts/fluoride/img2.png" data-lazy-src="/img/posts/fluoride/img2.png" data-width="500" data-height="302" alt="수돗물불소, 아직도 모르셨나요? 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-bc793a73-bed7-4c5b-8ff1-9e5a0364e7d6_0">
 </a>
 </div>
 </div>

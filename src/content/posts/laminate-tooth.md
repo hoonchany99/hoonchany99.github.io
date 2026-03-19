@@ -16,7 +16,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-94A567BE-0F1A-4790-AC6B-7401BF5DB9E8&quot;, &quot;src&quot; : &quot;https://postfiles.pstatic.net/MjAyNTExMjdfMTkx/MDAxNzY0MjUxOTQxNDky.-F8Ig3GodGxK7Y1ez5rgGzq6wrbYe9EDzOWJl32TMlQg.6pgT5jNPySgSoaFQ6ovk7aiL_QKSjjw9rITbzCikDXcg.PNG/IMG_0058.PNG&quot;, &quot;originalWidth&quot; : &quot;1080&quot;, &quot;originalHeight&quot; : &quot;1350&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;95393&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-tooth/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="" class="se-image-resource egjs-visible" id="SE-94A567BE-0F1A-4790-AC6B-7401BF5DB9E8_0">
+<img src="/img/posts/laminate-tooth/cover.png" data-lazy-src="" data-width="500" data-height="625" alt="라미네이트, 치아 많이 깎나요? 꼭 알아야 할 삭제 기준" class="se-image-resource egjs-visible" id="SE-94A567BE-0F1A-4790-AC6B-7401BF5DB9E8_0">
 </a>
 </div>
 </div>
@@ -37,7 +37,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:362px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-A0FB4654-C1A0-4DDF-8899-80B3E4123262&quot;, &quot;src&quot; : &quot;/img/posts/laminate-tooth/main.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1636770&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-tooth/main.png" data-lazy-src="/img/posts/laminate-tooth/main.png" data-width="362" data-height="362" alt="" class="se-image-resource egjs-visible" id="SE-A0FB4654-C1A0-4DDF-8899-80B3E4123262_0">
+<img src="/img/posts/laminate-tooth/main.png" data-lazy-src="/img/posts/laminate-tooth/main.png" data-width="362" data-height="362" alt="라미네이트, 치아 많이 깎나요? 꼭 알아야 할 삭제 기준 관련 이미지 2" class="se-image-resource egjs-visible" id="SE-A0FB4654-C1A0-4DDF-8899-80B3E4123262_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-f54ee90b-629a-49ce-8c25-a4b5e76ca45e"><span style="" class="se-fs- se-ff-   " id="SE-da9f2e9a-c4d0-49e1-a66e-03eeb5ccdb46">라미네이트</span></p></div>
@@ -59,7 +59,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:450px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-E90E3B5D-F416-4C0D-B53F-DAD1F4C8DC96&quot;, &quot;src&quot; : &quot;/img/posts/laminate-tooth/img1.png&quot;, &quot;originalWidth&quot; : &quot;1536&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1549093&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-tooth/img1.png" data-lazy-src="/img/posts/laminate-tooth/img1.png" data-width="450" data-height="300" alt="" class="se-image-resource egjs-visible" id="SE-E90E3B5D-F416-4C0D-B53F-DAD1F4C8DC96_0">
+<img src="/img/posts/laminate-tooth/img1.png" data-lazy-src="/img/posts/laminate-tooth/img1.png" data-width="450" data-height="300" alt="라미네이트, 치아 많이 깎나요? 꼭 알아야 할 삭제 기준 관련 이미지 3" class="se-image-resource egjs-visible" id="SE-E90E3B5D-F416-4C0D-B53F-DAD1F4C8DC96_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-3ccd3e8f-26ef-4fa8-b5c6-41cad8093528"><span style="" class="se-fs- se-ff-   " id="SE-bd79703f-f6d1-4dbb-8eac-545b899ee904">보통 0.2~0.5mm를 삭제합니다</span></p></div>
@@ -81,7 +81,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:402px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-B86369D6-D6B2-47D3-AD81-49D97915D4AF&quot;, &quot;src&quot; : &quot;/img/posts/laminate-tooth/img2.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1526182&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-tooth/img2.png" data-lazy-src="/img/posts/laminate-tooth/img2.png" data-width="402" data-height="402" alt="" class="se-image-resource egjs-visible" id="SE-B86369D6-D6B2-47D3-AD81-49D97915D4AF_0">
+<img src="/img/posts/laminate-tooth/img2.png" data-lazy-src="/img/posts/laminate-tooth/img2.png" data-width="402" data-height="402" alt="라미네이트, 치아 많이 깎나요? 꼭 알아야 할 삭제 기준 관련 이미지 4" class="se-image-resource egjs-visible" id="SE-B86369D6-D6B2-47D3-AD81-49D97915D4AF_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-830815fa-f64b-47a8-a4de-9968bb3bbf2c"><span style="" class="se-fs- se-ff-   " id="SE-7d74b2ca-8020-4525-a241-4b3daee51b52">치아가 입술 방향으로 튀어나와 있는 상황</span></p></div>
@@ -120,7 +120,7 @@ image:
 <div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:381px;">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-DB971C0A-E764-45B2-975A-410AB01FEBD7&quot;, &quot;src&quot; : &quot;/img/posts/laminate-tooth/img3.png&quot;, &quot;originalWidth&quot; : &quot;1024&quot;, &quot;originalHeight&quot; : &quot;1024&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;1523381&quot; }" area-hidden="true">
-<img src="/img/posts/laminate-tooth/img3.png" data-lazy-src="/img/posts/laminate-tooth/img3.png" data-width="381" data-height="381" alt="" class="se-image-resource egjs-visible" id="SE-DB971C0A-E764-45B2-975A-410AB01FEBD7_0">
+<img src="/img/posts/laminate-tooth/img3.png" data-lazy-src="/img/posts/laminate-tooth/img3.png" data-width="381" data-height="381" alt="라미네이트, 치아 많이 깎나요? 꼭 알아야 할 삭제 기준 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-DB971C0A-E764-45B2-975A-410AB01FEBD7_0">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-75e54e81-a038-421b-9506-5710da9d8c2c"><span style="" class="se-fs- se-ff-   " id="SE-28446fb0-132c-495d-a9be-e6b041155fd5">법랑질 마모가 된 앞니들</span></p></div>

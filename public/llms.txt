@@ -1,0 +1,40 @@
+# 서울대 윤원장의 치과사전
+
+> 서울대 치의학대학원 출신 치과의사가 직접 작성하는 치과 건강 정보 블로그. 진료실에서 미처 전하지 못한 치아 이야기를 정확하고 쉽게 전합니다.
+
+## 주요 페이지
+
+- [홈](https://doctoryoon.kr/): 최신 치과 건강 글 모아보기와 사이트 소개
+- [블로그](https://doctoryoon.kr/posts/): 충치, 임플란트, 신경치료, 사랑니, 라미네이트, 스케일링 등 93개 이상의 치과 정보 글 목록
+- [Q&A](https://doctoryoon.kr/qna/): 치과 관련 자주 묻는 질문과 직접 질문을 남길 수 있는 페이지
+- [소개](https://doctoryoon.kr/about/): 서울대학교 치의학대학원 출신 윤원장의 소개와 블로그 운영 철학
+
+## 인기 주제별 글
+
+### 임플란트
+- [임플란트 수술 과정 3단계](https://doctoryoon.kr/posts/implant/): 임플란트 수술 전체 흐름을 1차, 2차 수술과 보철 단계로 설명
+- [임플란트 후 통증, 언제까지 정상일까?](https://doctoryoon.kr/posts/implant-pain/): 수술 후 정상 회복 기간과 병원 방문이 필요한 위험 신호 기준
+- [임플란트 비용과 보험](https://doctoryoon.kr/posts/implant-cost/): 임플란트 가격 구성 요소와 건강보험 적용 조건 안내
+- [뼈 이식이 필요한 경우](https://doctoryoon.kr/posts/sinusimplant/): 상악동 거상술 등 뼈가 부족할 때의 임플란트 치료 과정
+
+### 충치·신경치료
+- [충치 치료, 때우기 vs 크라운 기준](https://doctoryoon.kr/posts/cavity-crown/): 충치 범위에 따른 레진, 인레이, 크라운 치료 선택 기준
+- [신경치료 후 크라운이 필요한 이유](https://doctoryoon.kr/posts/root-canal-tooth-crown/): 신경치료 후 치아가 약해지는 원리와 크라운 보호의 필요성
+- [신경치료 중 통증, 정상인가요?](https://doctoryoon.kr/posts/root-canal-pain/): 신경치료 과정에서 느끼는 통증의 원인과 정상 범위
+
+### 라미네이트·미백
+- [라미네이트 수명과 유지 관리법](https://doctoryoon.kr/posts/laminate-crack/): 라미네이트 깨짐, 변색 방지를 위한 관리 포인트
+- [치아미백, 시린 이가 걱정된다면](https://doctoryoon.kr/posts/toothwhitening-sensitivity/): 미백 후 시린 증상의 원인과 대처법
+
+### 사랑니
+- [사랑니 꼭 빼야 할까?](https://doctoryoon.kr/posts/wisdom-tooth/): 발치가 필요한 경우와 경과 관찰이 가능한 경우의 기준
+- [매복 사랑니 발치 과정](https://doctoryoon.kr/posts/impacted-wisdom-tooth-pain/): 잇몸 속에 묻힌 사랑니의 발치 과정과 회복 기간
+
+### 스케일링·잇몸
+- [스케일링 하는 이유](https://doctoryoon.kr/posts/scaling-tooth/): 치석 제거의 중요성과 건강보험 적용 안내
+- [잇몸이 붓고 피가 난다면](https://doctoryoon.kr/posts/gum-throbbing/): 잇몸 염증의 초기 증상과 치주 질환 예방법
+
+## Optional
+
+- [RSS 피드](https://doctoryoon.kr/rss.xml): 새 글 알림을 위한 RSS 피드
+- [사이트맵](https://doctoryoon.kr/sitemap-index.xml): 전체 페이지 목록

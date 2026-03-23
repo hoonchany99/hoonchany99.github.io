@@ -16,6 +16,12 @@ interface NavPost {
   title: string;
 }
 
+interface TopicHubRef {
+  slug: string;
+  name: string;
+  icon: string;
+}
+
 interface Props {
   title: string;
   description?: string;
@@ -29,9 +35,10 @@ interface Props {
   nextPost?: NavPost | null;
   faqSchema?: { question: string; answer: string }[];
   tldr?: string;
+  topicHub?: TopicHubRef | null;
 }
 
-const { title, description, date, modifiedDate, image, tags = [], relatedPosts = [], readingTime, prevPost, nextPost, faqSchema, tldr } = Astro.props;
+const { title, description, date, modifiedDate, image, tags = [], relatedPosts = [], readingTime, prevPost, nextPost, faqSchema, tldr, topicHub } = Astro.props;
 ---
 
 <BaseLayout
@@ -123,8 +130,34 @@ const { title, description, date, modifiedDate, image, tags = [], relatedPosts =
             <slot />
           </div>
 
+          <!-- 주제 CTA + Q&A CTA -->
+          <div class="mt-12 pt-8 border-t border-gray-200 flex flex-col sm:flex-row gap-3">
+            {topicHub && (
+              <a
+                href={`/topics/${topicHub.slug}/`}
+                class="flex-1 flex items-center gap-3 p-4 rounded-xl border border-brand/20 bg-brand/5 hover:bg-brand/10 hover:border-brand/40 transition-all group"
+              >
+                <span class="text-2xl">{topicHub.icon}</span>
+                <div class="min-w-0">
+                  <p class="text-xs text-gray-500 mb-0.5">이 주제 관련 글 더 보기</p>
+                  <p class="text-sm font-bold text-gray-900 group-hover:text-brand transition-colors">{topicHub.name} →</p>
+                </div>
+              </a>
+            )}
+            <a
+              href="/qna/"
+              class="flex-1 flex items-center gap-3 p-4 rounded-xl border border-gray-200 bg-gray-50 hover:bg-gray-100 hover:border-gray-300 transition-all group"
+            >
+              <span class="text-2xl">💬</span>
+              <div class="min-w-0">
+                <p class="text-xs text-gray-500 mb-0.5">비슷한 증상, 궁금한 점이 있으신가요?</p>
+                <p class="text-sm font-bold text-gray-900 group-hover:text-brand transition-colors">Q&A에서 질문하기 →</p>
+              </div>
+            </a>
+          </div>
+
           <!-- 공유 -->
-          <div class="mt-12 pt-8 border-t border-gray-200">
+          <div class="mt-8 pt-8 border-t border-gray-200">
             <p class="text-sm font-semibold text-gray-500 mb-3">공유하기</p>
             <div class="flex items-center gap-3">
               <button

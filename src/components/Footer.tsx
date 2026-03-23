@@ -1,3 +1,12 @@
+const topicLinks = [
+  { label: "충치·신경치료", href: "/topics/cavity/" },
+  { label: "임플란트", href: "/topics/implant/" },
+  { label: "크라운·인레이", href: "/topics/crown-inlay/" },
+  { label: "사랑니·발치", href: "/topics/wisdom-tooth/" },
+  { label: "라미네이트·미백", href: "/topics/laminate-whitening/" },
+  { label: "잇몸·예방", href: "/topics/gum-prevention/" },
+];
+
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-16">
@@ -12,8 +21,10 @@ export function Footer() {
           이 글들이 여러분의 걱정을 조금 덜어주길 바랍니다.
         </p>
 
-        <div className="flex items-center justify-center gap-6 mb-10">
+        <div className="flex items-center justify-center gap-6 mb-6">
           <a href="/" className="text-sm text-gray-400 hover:text-white transition-colors">홈</a>
+          <span className="text-gray-700">·</span>
+          <a href="/topics/" className="text-sm text-gray-400 hover:text-white transition-colors">주제별</a>
           <span className="text-gray-700">·</span>
           <a href="/posts/" className="text-sm text-gray-400 hover:text-white transition-colors">블로그</a>
           <span className="text-gray-700">·</span>
@@ -29,6 +40,14 @@ export function Footer() {
           >
             네이버 블로그
           </a>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5 mb-10">
+          {topicLinks.map((link) => (
+            <a key={link.href} href={link.href} className="text-xs text-gray-500 hover:text-gray-300 transition-colors">
+              {link.label}
+            </a>
+          ))}
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-gray-500 text-xs space-y-1">

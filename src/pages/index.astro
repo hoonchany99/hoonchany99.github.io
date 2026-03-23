@@ -2,12 +2,22 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { Hero } from '../components/Hero';
 import { About } from '../components/About';
+import { TopicHubs } from '../components/TopicHubs';
 import { getCollection } from 'astro:content';
+import { topicHubs, findTopicHub } from '../data/topicHubs';
 
 const posts = (await getCollection('posts')).sort(
   (a, b) => (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0)
 );
 const latestPosts = posts.slice(0, 6);
+
+const hubCounts: Record<string, number> = {};
+for (const hub of topicHubs) {
+  hubCounts[hub.slug] = posts.filter((post) => {
+    const matched = findTopicHub(post.data.tags ?? []);
+    return matched?.slug === hub.slug;
+  }).length;
+}
 
 function getExcerpt(body: string, maxLen = 100): string {
   const text = body.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
@@ -23,6 +33,11 @@ function getReadingTime(body: string): number {
 
 <BaseLayout title="서울대 윤원장의 치과사전" description="임플란트, 충치, 신경치료, 사랑니, 라미네이트, 스케일링까지. 서울대 치의학대학원 출신 치과의사가 진료실에서 미처 전하지 못한 치과 정보를 정확하고 쉽게 전합니다.">
   <Hero />
+
+  <!-- 주제별 허브 -->
+  <div class="anim-fade-up">
+    <TopicHubs hubCounts={hubCounts} />
+  </div>
 
   <!-- 최신 블로그 포스트 -->
   <section class="py-20 bg-white">

@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const navLinks = [
   { label: "홈", href: "/" },
+  { label: "주제별", href: "/topics/" },
   { label: "블로그", href: "/posts/" },
   { label: "Q&A", href: "/qna/" },
   { label: "소개", href: "/about/" }

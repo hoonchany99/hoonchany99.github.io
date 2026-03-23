@@ -1,6 +1,7 @@
 ---
 import PostLayout from '../../layouts/PostLayout.astro';
 import { getCollection } from 'astro:content';
+import { findTopicHub } from '../../data/topicHubs';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -111,6 +112,9 @@ const nextPost = currentIdx < sorted.length - 1 ? { slug: sorted[currentIdx + 1]
 const postTitle = post.data.title ?? '';
 const postDesc = post.data.description ?? '';
 const faqSchema = postTitle.includes('?') ? [{ question: postTitle, answer: postDesc }] : undefined;
+
+const topicHub = findTopicHub(myTags);
+const topicHubData = topicHub ? { slug: topicHub.slug, name: topicHub.name, icon: topicHub.icon } : null;
 ---
 
 <PostLayout
@@ -126,6 +130,7 @@ const faqSchema = postTitle.includes('?') ? [{ question: postTitle, answer: post
   nextPost={nextPost}
   faqSchema={faqSchema}
   tldr={post.data.tldr}
+  topicHub={topicHubData}
 >
   <Content />
 </PostLayout>

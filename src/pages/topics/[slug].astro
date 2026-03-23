@@ -2,12 +2,24 @@
 import type { GetStaticPaths } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { topicHubs, findTopicHub } from '../../data/topicHubs';
+import { topicHubs, findTopicHub, topicIcons } from '../../data/topicHubs';
 
 export const getStaticPaths = (async () => {
   const posts = (await getCollection('posts')).sort(
     (a, b) => (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0)
   );
+
+  function scorePost(post: any, hub: typeof topicHubs[number]): number {
+    const tags = post.data.tags ?? [];
+    let score = 0;
+    for (const tag of tags) {
+      const nt = tag.toLowerCase();
+      for (const kw of hub.tagKeywords) {
+        if (nt.includes(kw) || kw.includes(nt)) score++;
+      }
+    }
+    return score;
+  }
 
   return topicHubs.map((hub) => {
     const filtered = posts.filter((post) => {
@@ -15,14 +27,22 @@ export const getStaticPaths = (async () => {
       const matched = findTopicHub(tags);
       return matched?.slug === hub.slug;
     });
+
+    const scored = filtered.map((p) => ({ post: p, score: scorePost(p, hub) }));
+    scored.sort((a, b) => b.score - a.score || (b.post.data.date?.valueOf() ?? 0) - (a.post.data.date?.valueOf() ?? 0));
+
+    const featuredPosts = scored.slice(0, 3).map((s) => s.post);
+    const featuredSlugs = new Set(featuredPosts.map((p) => p.slug));
+    const otherPosts = filtered.filter((p) => !featuredSlugs.has(p.slug));
+
     return {
       params: { slug: hub.slug },
-      props: { hub, posts: filtered },
+      props: { hub, featuredPosts, otherPosts, totalCount: filtered.length },
     };
   });
 }) satisfies GetStaticPaths;
 
-const { hub, posts } = Astro.props;
+const { hub, featuredPosts, otherPosts, totalCount } = Astro.props;
 
 function getExcerpt(body: string, maxLen = 100): string {
   const text = body.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
@@ -47,55 +67,122 @@ function getReadingTime(body: string): number {
 >
   <section class="py-16">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
-      <div class="mb-12 anim-fade-up">
+      <!-- 헤더 -->
+      <div class="mb-10 anim-fade-up">
         <a href="/topics/" class="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-brand transition-colors mb-6">
           ← 주제별 보기
         </a>
         <div class="flex items-center gap-4 mb-4">
-          <span class="text-4xl">{hub.icon}</span>
+          <div class="w-12 h-12 text-brand shrink-0" set:html={topicIcons[hub.slug] ?? hub.icon} />
           <div>
             <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900">{hub.name}</h1>
             <p class="text-lg text-gray-600 mt-2">{hub.description}</p>
           </div>
         </div>
-        <p class="text-sm text-gray-400 mt-4">총 {posts.length}편의 글</p>
+        <p class="text-sm text-gray-400 mt-4">총 {totalCount}편의 글</p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-6">
-        {posts.map((post, i) => (
-          <a href={`/posts/${post.slug}/`} class={`anim-fade-up anim-delay-${Math.min(i + 1, 3)} bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-0.5 group border border-gray-100 flex flex-row`}>
-            <div class="hidden sm:block sm:w-32 md:w-40 flex-shrink-0 overflow-hidden bg-gradient-to-br from-teal-50 to-cyan-50">
-              {post.data.image?.path ? (
-                <img
-                  src={post.data.image.path}
-                  alt={post.data.image.alt || post.data.title}
-                  loading="lazy"
-                  class="w-full h-full object-cover"
-                />
-              ) : (
-                <div class="w-full h-full min-h-[160px] flex items-center justify-center">
-                  <div class="text-5xl">📝</div>
+      <!-- 가이드 섹션 -->
+      <div class="mb-12 bg-gradient-to-br from-brand-bg/60 to-teal-50/40 border border-brand/10 rounded-2xl p-6 md:p-8 anim-fade-up">
+        <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+          <div>
+            <p class="text-xs font-bold text-brand uppercase tracking-wider mb-3">자주 묻는 질문</p>
+            <ul class="space-y-2.5">
+              {hub.guideFaq.map((q) => (
+                <li class="flex items-start gap-2.5 text-sm text-gray-700 leading-relaxed">
+                  <span class="text-brand mt-0.5 shrink-0">Q.</span>
+                  <span>{q}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-bold text-brand uppercase tracking-wider mb-3">이런 분이 먼저 읽어보세요</p>
+            <p class="text-sm text-gray-700 leading-relaxed">{hub.guideAudience}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 대표 글 -->
+      {featuredPosts.length > 0 && (
+        <div class="mb-12 anim-fade-up">
+          <h2 class="text-lg font-bold text-gray-900 mb-5 flex items-center gap-2">
+            <span class="w-1.5 h-5 bg-brand rounded-full inline-block"></span>
+            대표 글
+          </h2>
+          <div class="grid md:grid-cols-3 gap-4">
+            {featuredPosts.map((post, i) => (
+              <a href={`/posts/${post.slug}/`} class={`anim-fade-up anim-delay-${Math.min(i + 1, 3)} group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-1 border border-gray-100 flex flex-col`}>
+                <div class="aspect-[16/10] bg-gradient-to-br from-teal-50 to-cyan-50 overflow-hidden">
+                  {post.data.image?.path ? (
+                    <img
+                      src={post.data.image.path}
+                      alt={post.data.image.alt || post.data.title}
+                      loading="lazy"
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  ) : (
+                    <div class="w-full h-full flex items-center justify-center text-4xl">📝</div>
+                  )}
                 </div>
-              )}
-            </div>
-            <div class="p-5 sm:p-6 flex flex-col justify-center flex-1 min-w-0">
-              <div class="flex items-center gap-3 mb-3 flex-wrap">
-                {post.data.date && (
-                  <span class="text-xs text-gray-400">{post.data.date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                )}
-                <span class="text-xs text-gray-400">{getReadingTime(post.body)}분 읽기</span>
-              </div>
-              <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-brand transition-colors leading-snug">{post.data.title}</h3>
-              <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">{getExcerpt(post.body)}</p>
-              <div class="flex items-center text-brand font-semibold mt-3 text-sm group-hover:gap-2 transition-all">
-                <span>더 읽기 →</span>
-              </div>
-            </div>
-          </a>
-        ))}
-      </div>
+                <div class="p-4 flex flex-col flex-1">
+                  <div class="flex items-center gap-2 mb-2">
+                    <span class="text-[10px] font-bold text-brand bg-brand/10 px-2 py-0.5 rounded-full">추천</span>
+                    <span class="text-xs text-gray-400">{getReadingTime(post.body)}분 읽기</span>
+                  </div>
+                  <h3 class="text-sm font-bold text-gray-900 group-hover:text-brand transition-colors leading-snug line-clamp-2 mb-1.5">{post.data.title}</h3>
+                  <p class="text-gray-500 text-xs leading-relaxed line-clamp-2">{getExcerpt(post.body)}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
 
-      {posts.length === 0 && (
+      <!-- 나머지 글 -->
+      {otherPosts.length > 0 && (
+        <div>
+          <h2 class="text-lg font-bold text-gray-900 mb-5 flex items-center gap-2">
+            <span class="w-1.5 h-5 bg-gray-300 rounded-full inline-block"></span>
+            모든 글
+          </h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            {otherPosts.map((post, i) => (
+              <a href={`/posts/${post.slug}/`} class={`anim-fade-up anim-delay-${Math.min(i + 1, 3)} bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-0.5 group border border-gray-100 flex flex-row`}>
+                <div class="hidden sm:block sm:w-32 md:w-40 flex-shrink-0 overflow-hidden bg-gradient-to-br from-teal-50 to-cyan-50">
+                  {post.data.image?.path ? (
+                    <img
+                      src={post.data.image.path}
+                      alt={post.data.image.alt || post.data.title}
+                      loading="lazy"
+                      class="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div class="w-full h-full min-h-[160px] flex items-center justify-center">
+                      <div class="text-5xl">📝</div>
+                    </div>
+                  )}
+                </div>
+                <div class="p-5 sm:p-6 flex flex-col justify-center flex-1 min-w-0">
+                  <div class="flex items-center gap-3 mb-3 flex-wrap">
+                    {post.data.date && (
+                      <span class="text-xs text-gray-400">{post.data.date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                    )}
+                    <span class="text-xs text-gray-400">{getReadingTime(post.body)}분 읽기</span>
+                  </div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-brand transition-colors leading-snug">{post.data.title}</h3>
+                  <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">{getExcerpt(post.body)}</p>
+                  <div class="flex items-center text-brand font-semibold mt-3 text-sm group-hover:gap-2 transition-all">
+                    <span>더 읽기 →</span>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {totalCount === 0 && (
         <p class="text-center text-gray-500 py-20">이 주제에 해당하는 글이 아직 없습니다.</p>
       )}
 

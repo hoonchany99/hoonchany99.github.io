@@ -1,4 +1,4 @@
-import { topicHubs } from '../data/topicHubs';
+import { topicHubs, topicIcons } from '../data/topicHubs';
 
 interface Props {
   hubCounts: Record<string, number>;
@@ -20,7 +20,7 @@ export function TopicHubs({ hubCounts }: Props) {
               href={`/topics/${hub.slug}/`}
               className="group bg-white rounded-2xl border border-gray-100 p-5 md:p-6 hover:shadow-lg hover:border-brand/30 hover:-translate-y-0.5 transition-all"
             >
-              <div className="text-2xl md:text-3xl mb-3">{hub.icon}</div>
+              <div className="w-8 h-8 md:w-10 md:h-10 text-brand mb-3" dangerouslySetInnerHTML={{ __html: topicIcons[hub.slug] ?? hub.icon }} />
               <h3 className="text-base md:text-lg font-bold text-gray-900 group-hover:text-brand transition-colors mb-1.5 leading-snug">
                 {hub.name}
               </h3>

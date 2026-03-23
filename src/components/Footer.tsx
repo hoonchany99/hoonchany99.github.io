@@ -17,8 +17,8 @@ export function Footer() {
           </span>
         </a>
         <p className="text-gray-400 text-sm leading-relaxed mb-8 max-w-md mx-auto">
-          정확한 정보만, 치과의사가 직접 전합니다.<br />
-          이 글들이 여러분의 걱정을 조금 덜어주길 바랍니다.
+          치과 치료가 막막할 때 기준이 되는 설명.<br />
+          치과의사가 정확하고 쉽게 풀어드립니다.
         </p>
 
         <div className="flex items-center justify-center gap-6 mb-6">

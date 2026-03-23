@@ -39,7 +39,7 @@ export function TopicHubs({ hubCounts }: Props) {
             href="/topics/"
             className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-brand font-medium transition-colors"
           >
-            주제별 전체 보기
+            주제별 가이드 보기
           </a>
         </div>
       </div>

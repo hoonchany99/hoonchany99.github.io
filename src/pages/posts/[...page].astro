@@ -28,7 +28,7 @@ const totalPages = page.lastPage;
 const currentPage = page.currentPage;
 ---
 
-<BaseLayout title={currentPage === 1 ? '블로그' : `블로그 - ${currentPage}페이지`} description="충치 치료, 임플란트 수술, 사랑니 발치, 신경치료, 라미네이트, 스케일링 등 환자들이 가장 자주 묻는 치과 질문에 서울대 윤원장이 직접 답합니다.">
+<BaseLayout title={currentPage === 1 ? '블로그' : `블로그 - ${currentPage}페이지`} description={currentPage === 1 ? '충치, 신경치료, 임플란트, 사랑니, 라미네이트, 크라운, 스케일링까지. 서울대 치의학대학원 출신 치과의사가 환자들이 가장 자주 묻는 치과 질문에 정확하고 쉽게 답합니다. 100편 이상의 치과 정보 글을 확인하세요.' : `서울대 윤원장의 치과 정보 블로그 ${currentPage}페이지입니다. 충치, 임플란트, 사랑니, 신경치료, 라미네이트, 크라운, 잇몸 관리까지 서울대 치의학대학원 출신 치과의사가 주제별로 정리한 ${totalPages * 12}편 이상의 치과 건강 정보를 확인하세요.`}>
   <section class="py-16">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       <div class="text-center mb-12 anim-fade-up">

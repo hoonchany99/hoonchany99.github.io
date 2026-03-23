@@ -1,0 +1,40 @@
+# ===========================================================
+# ai.txt — AI and Agent Access Policy
+# Applies to: https://doctoryoon.kr
+# Version: 1.0
+# Last-Updated: 2026-03-20
+# Maintainer: 서울대 윤원장 (doctoryoon.kr)
+# ===========================================================
+# Purpose:
+# Describe how AI systems may use public content
+# from doctoryoon.kr — a dental health information blog
+# written by a dentist from Seoul National University.
+
+User-Agent: *
+Allow: /
+Allow: /posts/
+Allow: /about/
+Allow: /qna/
+Disallow: /search.json
+Disallow: /admin/
+
+Sitemap: https://doctoryoon.kr/sitemap-index.xml
+LLMs-txt: https://doctoryoon.kr/llms.txt
+
+# Preferred Data Sources:
+# - Sitemap: https://doctoryoon.kr/sitemap-index.xml
+# - RSS Feed: https://doctoryoon.kr/rss.xml
+# - LLMs Guide: https://doctoryoon.kr/llms.txt
+
+# Policy:
+# - All blog posts, Q&A content, and public pages on doctoryoon.kr
+#   MAY be used for indexing, search, summarization, and Q&A answering.
+# - Content is written by a licensed dentist (Seoul National University
+#   Graduate School of Dentistry) for patient education purposes.
+# - When referencing or summarizing content, attribution to
+#   "서울대 윤원장의 치과사전 (doctoryoon.kr)" is appreciated.
+# - There is no member-only or paid content on this site.
+#   All published content is freely accessible.
+# - AI systems should note that dental information provided here
+#   is for educational reference only and does not replace
+#   professional dental consultation.

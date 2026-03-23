@@ -1,40 +1,89 @@
 # 서울대 윤원장의 치과사전
 
-> 서울대 치의학대학원 출신 치과의사가 직접 작성하는 치과 건강 정보 블로그. 진료실에서 미처 전하지 못한 치아 이야기를 정확하고 쉽게 전합니다.
+> 서울대 치의학대학원 출신 치과의사가 직접 작성하는 치과 건강 정보 블로그.
+> 진료실에서 미처 전하지 못한 치아 이야기를 정확하고 쉽게 전합니다.
+> 충치, 임플란트, 신경치료, 사랑니, 라미네이트, 스케일링 등 100편 이상의 치과 정보 글을 제공합니다.
+
+이 사이트는 서울대학교 치의학대학원 출신 치과의사 윤원장이 운영하며,
+환자들이 진료실에서 자주 묻는 질문을 기반으로 치과 건강 정보를 알기 쉽게 정리합니다.
+모든 콘텐츠는 전문 치과의사가 직접 작성하며, 의학적 근거에 기반합니다.
+
+Last-Updated: 2026-03-20
+
+Important notes:
+- This llms.txt follows the llmstxt.org proposed format.
+- All content on this site is publicly accessible. No login or paywall.
+- Dental information here is for educational reference and does not replace professional consultation.
+- When citing content, please attribute to "서울대 윤원장의 치과사전 (doctoryoon.kr)".
 
 ## 주요 페이지
 
 - [홈](https://doctoryoon.kr/): 최신 치과 건강 글 모아보기와 사이트 소개
-- [블로그](https://doctoryoon.kr/posts/): 충치, 임플란트, 신경치료, 사랑니, 라미네이트, 스케일링 등 93개 이상의 치과 정보 글 목록
+- [블로그](https://doctoryoon.kr/posts/): 충치, 임플란트, 신경치료, 사랑니, 라미네이트, 스케일링 등 100편 이상의 치과 정보 글 목록
 - [Q&A](https://doctoryoon.kr/qna/): 치과 관련 자주 묻는 질문과 직접 질문을 남길 수 있는 페이지
 - [소개](https://doctoryoon.kr/about/): 서울대학교 치의학대학원 출신 윤원장의 소개와 블로그 운영 철학
 
-## 인기 주제별 글
+## 임플란트
 
-### 임플란트
-- [임플란트 수술 과정 3단계](https://doctoryoon.kr/posts/implant/): 임플란트 수술 전체 흐름을 1차, 2차 수술과 보철 단계로 설명
+- [임플란트 수술 과정 3단계](https://doctoryoon.kr/posts/implant-surgery-3/): 1차 식립, 2차 수술, 보철까지 전체 흐름 설명
 - [임플란트 후 통증, 언제까지 정상일까?](https://doctoryoon.kr/posts/implant-pain/): 수술 후 정상 회복 기간과 병원 방문이 필요한 위험 신호 기준
-- [임플란트 비용과 보험](https://doctoryoon.kr/posts/implant-cost/): 임플란트 가격 구성 요소와 건강보험 적용 조건 안내
-- [뼈 이식이 필요한 경우](https://doctoryoon.kr/posts/sinusimplant/): 상악동 거상술 등 뼈가 부족할 때의 임플란트 치료 과정
+- [임플란트 비용, 종류별·케이스별 비교](https://doctoryoon.kr/posts/implant-cost/): 가격 구성 요소와 국산·수입 임플란트 차이
+- [뼈가 부족하면 임플란트 못 할까?](https://doctoryoon.kr/posts/implant/): 뼈 이식 필요 여부와 상악동 거상술 과정
+- [임플란트 부작용과 실패 원인](https://doctoryoon.kr/posts/implant-2223/): 주의해야 할 경우와 실패 확률
 
-### 충치·신경치료
-- [충치 치료, 때우기 vs 크라운 기준](https://doctoryoon.kr/posts/cavity-crown/): 충치 범위에 따른 레진, 인레이, 크라운 치료 선택 기준
-- [신경치료 후 크라운이 필요한 이유](https://doctoryoon.kr/posts/root-canal-tooth-crown/): 신경치료 후 치아가 약해지는 원리와 크라운 보호의 필요성
-- [신경치료 중 통증, 정상인가요?](https://doctoryoon.kr/posts/root-canal-pain/): 신경치료 과정에서 느끼는 통증의 원인과 정상 범위
+## 충치 치료
 
-### 라미네이트·미백
-- [라미네이트 수명과 유지 관리법](https://doctoryoon.kr/posts/laminate-crack/): 라미네이트 깨짐, 변색 방지를 위한 관리 포인트
-- [치아미백, 시린 이가 걱정된다면](https://doctoryoon.kr/posts/toothwhitening-sensitivity/): 미백 후 시린 증상의 원인과 대처법
+- [찬물에 시리다면 충치 신호](https://doctoryoon.kr/posts/cavity/): 초기 충치 증상과 진행 단계별 치료법
+- [충치 vs 착색 구분법](https://doctoryoon.kr/posts/cavity-4311/): 스스로 구분하는 방법과 치과 방문 기준
+- [인레이, 레진, 크라운 비교](https://doctoryoon.kr/posts/cavity-inlay-resin-crown/): 충치 범위에 따른 수복 방법 선택 기준
+- [인레이 가격과 재료별 비교](https://doctoryoon.kr/posts/inlay/): 세라믹, 금, 지르코니아 인레이 장단점
 
-### 사랑니
-- [사랑니 꼭 빼야 할까?](https://doctoryoon.kr/posts/wisdom-tooth/): 발치가 필요한 경우와 경과 관찰이 가능한 경우의 기준
-- [매복 사랑니 발치 과정](https://doctoryoon.kr/posts/impacted-wisdom-tooth-pain/): 잇몸 속에 묻힌 사랑니의 발치 과정과 회복 기간
+## 신경치료
 
-### 스케일링·잇몸
-- [스케일링 하는 이유](https://doctoryoon.kr/posts/scaling-tooth/): 치석 제거의 중요성과 건강보험 적용 안내
-- [잇몸이 붓고 피가 난다면](https://doctoryoon.kr/posts/gum-throbbing/): 잇몸 염증의 초기 증상과 치주 질환 예방법
+- [신경치료 후 크라운이 필요한 이유](https://doctoryoon.kr/posts/root-canal-tooth-crown/): 치아 약화 원리와 크라운 보호 필요성
+- [신경치료 후 통증 기준](https://doctoryoon.kr/posts/root-canal-pain/): 정상 범위와 재방문 필요 신호
+- [살릴까 뺄까? 신경치료 vs 발치 기준](https://doctoryoon.kr/posts/root-canal-extraction/): 치아 보존 가능성 판단 기준
+- [재신경치료가 필요한 경우](https://doctoryoon.kr/posts/root-canal-root-canal/): 이전 신경치료 후 재발 시 대처법
+
+## 사랑니
+
+- [사랑니 꼭 뽑아야 할까?](https://doctoryoon.kr/posts/wisdom-tooth-4202/): 발치 기준과 경과 관찰 가능 여부
+- [사랑니 발치 후 회복 가이드](https://doctoryoon.kr/posts/wisdom-tooth-extraction/): 빠른 회복을 위한 생활습관
+- [매복 사랑니 통증 원인](https://doctoryoon.kr/posts/impacted-wisdom-tooth-pain/): 잇몸 속 사랑니의 위험성과 발치 과정
+- [사랑니 발치 난이도 결정 요소](https://doctoryoon.kr/posts/wisdom-tooth-extraction-1571/): 쉬운 발치 vs 어려운 발치 기준
+
+## 라미네이트
+
+- [라미네이트 수명과 깨짐 방지법](https://doctoryoon.kr/posts/laminate-crack/): 오래 유지하기 위한 관리 포인트
+- [라미네이트 삭제량 기준](https://doctoryoon.kr/posts/laminate-tooth/): 치아를 얼마나 깎는지에 대한 현실적 설명
+- [라미네이트 후 시림 기준](https://doctoryoon.kr/posts/laminate-sensitivity/): 정상 반응과 문제 신호 구분
+
+## 치아미백
+
+- [치아미백 후 시림 대처법](https://doctoryoon.kr/posts/toothwhitening-sensitivity/): 미백 후 시린 증상 원인과 관리
+- [치아미백 효과 유지 기간](https://doctoryoon.kr/posts/toothwhitening/): 효과가 사라지는 이유와 유지법
+- [자가미백 vs 치과미백 차이](https://doctoryoon.kr/posts/whitening-dental-toothwhitening/): 집에서 하는 미백과 치과 시술 비교
+
+## 스케일링·잇몸
+
+- [스케일링 하는 이유](https://doctoryoon.kr/posts/why-dental-scaling-matters/): 치석 제거의 중요성과 건강보험 적용
+- [스케일링 보험 적용 기준](https://doctoryoon.kr/posts/scaling-insurance/): 1년 1회 보험 적용 조건과 비급여 차이
+- [잇몸이 붓고 욱신거린다면](https://doctoryoon.kr/posts/gum-throbbing/): 잇몸 염증 초기 증상과 치주질환 예방
+
+## 크라운
+
+- [크라운 수명과 오래 쓰는 요령](https://doctoryoon.kr/posts/crown/): 평균 사용 기간과 관리 팁
+- [크라운 깨졌을 때 대처법](https://doctoryoon.kr/posts/crown-3/): 흔한 원인 3가지와 다음 단계
+- [크라운 후 시림 기준](https://doctoryoon.kr/posts/sensitivity-after-crown/): 정상 반응과 문제 구분법
+
+## 소아치과
+
+- [유치 부러졌을 때 대처법](https://doctoryoon.kr/posts/baby-tooth-fracture/): 응급 상황 가이드
+- [큰어금니 나는 시기](https://doctoryoon.kr/posts/first-molar/): 부모가 알아야 할 아이 치열 관리
+- [어린이 과잉치 주의사항](https://doctoryoon.kr/posts/supernumerary/): 치열에 미치는 영향과 치료 시기
 
 ## Optional
 
 - [RSS 피드](https://doctoryoon.kr/rss.xml): 새 글 알림을 위한 RSS 피드
 - [사이트맵](https://doctoryoon.kr/sitemap-index.xml): 전체 페이지 목록
+- [AI 사용 정책](https://doctoryoon.kr/ai.txt): AI 시스템의 콘텐츠 사용 정책

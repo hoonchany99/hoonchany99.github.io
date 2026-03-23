@@ -57,7 +57,7 @@ const currentPage = page.currentPage;
             href={`/topics/${hub.slug}/`}
             class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium bg-white border border-gray-200 text-gray-600 hover:border-brand/40 hover:text-brand hover:bg-brand/5 transition-all"
           >
-            <span class="w-4 h-4 text-current" set:html={topicIcons[hub.slug] ?? hub.icon} />
+            <span class="w-5 h-3.5 text-current inline-block" set:html={topicIcons[hub.slug] ?? hub.icon} />
             <span>{hub.name}</span>
           </a>
         ))}

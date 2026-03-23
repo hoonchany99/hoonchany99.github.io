@@ -138,7 +138,7 @@ const { title, description, date, modifiedDate, image, tags = [], relatedPosts =
                 href={`/topics/${topicHub.slug}/`}
                 class="flex-1 flex items-center gap-3 p-4 rounded-xl border border-brand/20 bg-brand/5 hover:bg-brand/10 hover:border-brand/40 transition-all group"
               >
-                <div class="w-7 h-7 text-brand shrink-0" set:html={topicIcons[topicHub.slug] ?? topicHub.icon} />
+                <div class="w-10 h-7 text-brand shrink-0" set:html={topicIcons[topicHub.slug] ?? topicHub.icon} />
                 <div class="min-w-0">
                   <p class="text-xs text-gray-500 mb-0.5">이 주제 관련 글 더 보기</p>
                   <p class="text-sm font-bold text-gray-900 group-hover:text-brand transition-colors">{topicHub.name} →</p>

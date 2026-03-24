@@ -341,14 +341,12 @@ const currentPage = page.currentPage;
 
         requestAnimationFrame(() => {
           requestAnimationFrame(() => {
-            function revealCards() {
-              const cards = document.getElementById('ai-cards-section');
-              const footer = document.getElementById('ai-footer-section');
-              if (cards) { cards.style.opacity = '1'; cards.style.transform = 'translateY(0)'; }
-              setTimeout(() => {
-                if (footer) { footer.style.opacity = '1'; footer.style.transform = 'translateY(0)'; }
-              }, 200);
-            }
+            const cards = document.getElementById('ai-cards-section');
+            const footer = document.getElementById('ai-footer-section');
+            if (cards) { cards.style.opacity = '1'; cards.style.transform = 'translateY(0)'; }
+            setTimeout(() => {
+              if (footer) { footer.style.opacity = '1'; footer.style.transform = 'translateY(0)'; }
+            }, 200);
 
             if (!document.getElementById('blink-cursor-style')) {
               const style = document.createElement('style');
@@ -372,11 +370,8 @@ const currentPage = page.currentPage;
                 if (idx >= text.length) {
                   clearInterval(timer);
                   cursor.remove();
-                  revealCards();
                 }
               }, 22);
-            } else {
-              revealCards();
             }
           });
         });

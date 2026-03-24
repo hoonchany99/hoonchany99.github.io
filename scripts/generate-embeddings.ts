@@ -120,6 +120,27 @@ async function main() {
     }
   }
 
+  const aboutPath = path.resolve(__dirname, '../src/pages/about.astro');
+  if (fs.existsSync(aboutPath)) {
+    const aboutRaw = fs.readFileSync(aboutPath, 'utf-8');
+    const aboutBody = aboutRaw.replace(/^---[\s\S]*?---/, '');
+    const aboutText = stripHtml(aboutBody);
+    const aboutChunks = chunkText(aboutText);
+    console.log(`📄 소개 페이지: ${aboutChunks.length}개 chunk`);
+
+    for (let i = 0; i < aboutChunks.length; i++) {
+      allChunks.push({
+        slug: 'about',
+        title: '서울대 윤원장 소개',
+        tags: ['윤원장', '소개', '서울대', '치과의사'],
+        topicHub: null,
+        image: '/img/profile.png',
+        chunkIdx: i,
+        text: aboutChunks[i],
+      });
+    }
+  }
+
   console.log(`🔪 총 ${allChunks.length}개 chunk 생성`);
 
   const results: ChunkData[] = [];

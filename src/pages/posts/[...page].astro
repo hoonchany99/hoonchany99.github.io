@@ -50,11 +50,10 @@ const currentPage = page.currentPage;
           </div>
           <button
             id="ai-search-btn"
-            class="w-11 h-11 md:w-auto md:h-auto md:px-4 md:py-3 rounded-xl bg-brand text-white text-sm font-bold hover:bg-brand-dark disabled:opacity-40 disabled:cursor-not-allowed transition-all shrink-0 flex items-center justify-center"
+            class="px-4 py-2.5 md:py-3 rounded-xl bg-brand text-white text-xs md:text-sm font-bold hover:bg-brand-dark disabled:opacity-40 disabled:cursor-not-allowed transition-all shrink-0 min-h-[44px] flex items-center justify-center whitespace-nowrap"
             disabled
           >
-            <svg class="w-5 h-5 md:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-            <span class="hidden md:inline">질문해보기</span>
+            질문해보기
           </button>
         </div>
         <p id="search-hint" class="text-center text-[11px] text-gray-400 mt-2">질문을 입력하고 버튼을 누르면, AI가 관련 글을 찾고 짧게 정리해드립니다</p>
@@ -234,7 +233,7 @@ const currentPage = page.currentPage;
         resultsEl.innerHTML = `
           <div class="text-center py-14">
             <div id="no-result-ai-hint" class="inline-flex items-center gap-2 text-[#3FB8D3] cursor-pointer hover:opacity-80 transition-opacity">
-              <span class="text-sm font-medium">엔터를 누르면 "${input.value}" 관련 글을 찾아드릴게요</span>
+              <span class="text-sm font-medium">"${input.value}" 관련 글을 찾아드릴까요?</span>
               <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
             </div>
           </div>

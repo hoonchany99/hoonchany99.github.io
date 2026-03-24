@@ -153,13 +153,13 @@ export function AskSearch({ compact = false }: Props) {
   // ─── Compact 모드 (홈페이지용) ───
   if (compact) {
     return (
-      <section className="py-10">
+      <section className="py-8 md:py-10">
         <div className="max-w-2xl mx-auto px-4 sm:px-6">
-          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 md:p-8">
-            <h2 className="text-lg md:text-xl font-bold text-gray-900 mb-1.5 text-center">
+          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 md:p-8">
+            <h2 className="text-base md:text-xl font-bold text-gray-900 mb-1 md:mb-1.5 text-center">
               궁금한 치과 질문을 먼저 찾아보세요
             </h2>
-            <p className="text-xs md:text-sm text-gray-400 mb-5 text-center">
+            <p className="text-[11px] md:text-sm text-gray-400 mb-4 md:mb-5 text-center">
               블로그 글을 바탕으로, 관련 글과 함께 쉽게 설명해드립니다.
             </p>
 
@@ -172,19 +172,20 @@ export function AskSearch({ compact = false }: Props) {
                   onChange={(e) => setQuery(e.target.value)}
                   onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
                   placeholder="예: 신경치료 꼭 해야 하나요?"
-                  className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-brand/50 focus:ring-2 focus:ring-brand/20 transition-all bg-gray-50"
+                  className="w-full pl-10 pr-4 py-2.5 md:py-3 rounded-xl border border-gray-200 text-[16px] leading-tight md:text-sm focus:outline-none focus:border-brand/50 focus:ring-2 focus:ring-brand/20 transition-all bg-gray-50"
                 />
               </div>
               <button
                 onClick={() => handleSearch()}
                 disabled={!query.trim()}
-                className="px-4 py-2.5 rounded-xl bg-brand text-white text-sm font-bold hover:bg-brand-dark disabled:opacity-40 disabled:cursor-not-allowed transition-all shrink-0"
+                className="w-11 h-11 md:w-auto md:h-auto md:px-4 md:py-2.5 rounded-xl bg-brand text-white text-sm font-bold hover:bg-brand-dark disabled:opacity-40 disabled:cursor-not-allowed transition-all shrink-0 flex items-center justify-center"
               >
-                질문해보기
+                <SearchIcon className="w-5 h-5 md:hidden" />
+                <span className="hidden md:inline">질문해보기</span>
               </button>
             </div>
 
-            <div className="flex flex-wrap gap-1.5 justify-center">
+            <div className="flex gap-1.5 overflow-x-auto pb-1 -mx-1 px-1 scrollbar-hide justify-start md:justify-center md:flex-wrap">
               {EXAMPLE_CHIPS.slice(0, 3).map((chip) => (
                 <button
                   key={chip}
@@ -192,7 +193,7 @@ export function AskSearch({ compact = false }: Props) {
                     setQuery(chip);
                     handleSearch(chip);
                   }}
-                  className="text-[11px] px-3 py-1 rounded-full border border-gray-200 text-gray-400 hover:border-brand/40 hover:text-brand hover:bg-brand/5 transition-all"
+                  className="text-[11px] px-3 py-1.5 rounded-full border border-gray-200 text-gray-400 hover:border-brand/40 hover:text-brand hover:bg-brand/5 transition-all whitespace-nowrap shrink-0"
                 >
                   {chip}
                 </button>
@@ -228,7 +229,7 @@ export function AskSearch({ compact = false }: Props) {
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
               placeholder="궁금한 치과 질문을 입력해보세요"
-              className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-brand focus:ring-2 focus:ring-brand/20 transition-all bg-white"
+              className="w-full pl-12 pr-4 py-2.5 md:py-3 rounded-xl border border-gray-200 text-[16px] leading-tight md:text-sm focus:outline-none focus:border-brand focus:ring-2 focus:ring-brand/20 transition-all bg-white"
             />
           </div>
           <button

@@ -45,30 +45,35 @@ const currentPage = page.currentPage;
               id="blog-search"
               type="text"
               placeholder="궁금한 치과 질문이나 치료명을 입력해보세요"
-              class="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none text-sm transition-all bg-white"
+              class="w-full pl-12 pr-4 py-2.5 md:py-3 rounded-xl border border-gray-200 focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none text-[16px] leading-tight md:text-sm transition-all bg-white"
             />
           </div>
           <button
             id="ai-search-btn"
-            class="px-4 py-3 rounded-xl bg-brand text-white text-sm font-bold hover:bg-brand-dark disabled:opacity-40 disabled:cursor-not-allowed transition-all shrink-0"
+            class="w-11 h-11 md:w-auto md:h-auto md:px-4 md:py-3 rounded-xl bg-brand text-white text-sm font-bold hover:bg-brand-dark disabled:opacity-40 disabled:cursor-not-allowed transition-all shrink-0 flex items-center justify-center"
             disabled
-          >질문해보기</button>
+          >
+            <svg class="w-5 h-5 md:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <span class="hidden md:inline">질문해보기</span>
+          </button>
         </div>
         <p id="search-hint" class="text-center text-[11px] text-gray-400 mt-2">질문을 입력하고 버튼을 누르면, AI가 관련 글을 찾고 짧게 정리해드립니다</p>
         <div id="search-results" class="mt-4 hidden"></div>
       </div>
 
       <!-- 주제 필터 칩 -->
-      <div class="mb-8 flex flex-wrap items-center justify-center gap-2 anim-fade-up">
-        {topicHubs.map((hub) => (
-          <a
-            href={`/topics/${hub.slug}/`}
-            class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium bg-white border border-gray-200 text-gray-600 hover:border-brand/40 hover:text-brand hover:bg-brand/5 transition-all"
-          >
-            <span>{hub.icon}</span>
-            <span>{hub.name}</span>
-          </a>
-        ))}
+      <div class="mb-8 anim-fade-up overflow-x-auto scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0">
+        <div class="flex items-center gap-1.5 md:gap-2 md:flex-wrap md:justify-center w-max md:w-auto">
+          {topicHubs.map((hub) => (
+            <a
+              href={`/topics/${hub.slug}/`}
+              class="inline-flex items-center gap-1 md:gap-1.5 px-3 md:px-4 py-2 rounded-full text-xs md:text-sm font-medium bg-white border border-gray-200 text-gray-600 hover:border-brand/40 hover:text-brand hover:bg-brand/5 transition-all min-h-[40px] whitespace-nowrap shrink-0"
+            >
+              <span>{hub.icon}</span>
+              <span>{hub.name}</span>
+            </a>
+          ))}
+        </div>
       </div>
 
       <div class="grid md:grid-cols-2 gap-6">

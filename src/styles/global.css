@@ -100,6 +100,15 @@ body {
   animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.55s forwards;
 }
 
+/* 스크롤바 숨기기 (가로 스크롤 칩용) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* 모션 감소 설정 존중 */
 @media (prefers-reduced-motion: reduce) {
   .anim-fade-up,

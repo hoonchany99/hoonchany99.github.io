@@ -43,7 +43,7 @@ export function Header() {
           </div>
 
           <button
-            className="md:hidden p-2 rounded-md text-gray-600 hover:text-brand hover:bg-gray-100"
+            className="md:hidden p-2.5 rounded-lg text-gray-600 hover:text-brand hover:bg-gray-100 min-w-[44px] min-h-[44px] flex items-center justify-center"
             onClick={() => setOpen(!open)}
             aria-label="메뉴 열기"
           >
@@ -80,13 +80,13 @@ export function Header() {
         </div>
 
         {open && (
-          <nav className="md:hidden py-4 border-t border-gray-200">
-            <div className="flex flex-col space-y-4">
+          <nav className="md:hidden py-2 border-t border-gray-200">
+            <div className="flex flex-col">
               {navLinks.map((l) => (
                 <a
                   key={l.href}
                   href={l.href}
-                  className="text-gray-600 hover:text-brand transition-colors"
+                  className="text-gray-600 hover:text-brand hover:bg-gray-50 transition-colors py-3 px-2 rounded-lg text-[15px] font-medium min-h-[44px] flex items-center"
                   onClick={() => setOpen(false)}
                 >
                   {l.label}

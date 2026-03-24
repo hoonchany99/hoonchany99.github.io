@@ -38,15 +38,23 @@ const currentPage = page.currentPage;
 
       <!-- 검색 -->
       <div class="mb-10 max-w-lg mx-auto anim-fade-up">
-        <div class="relative">
-          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-          <input
-            id="blog-search"
-            type="text"
-            placeholder="궁금한 치과 주제를 검색해보세요"
-            class="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none text-sm transition-all bg-white"
-          />
+        <div class="flex gap-2">
+          <div class="relative flex-1">
+            <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <input
+              id="blog-search"
+              type="text"
+              placeholder="궁금한 치과 질문이나 치료명을 입력해보세요"
+              class="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none text-sm transition-all bg-white"
+            />
+          </div>
+          <button
+            id="ai-search-btn"
+            class="px-4 py-3 rounded-xl bg-brand text-white text-sm font-bold hover:bg-brand-dark disabled:opacity-40 disabled:cursor-not-allowed transition-all shrink-0"
+            disabled
+          >질문해보기</button>
         </div>
+        <p id="search-hint" class="text-center text-[11px] text-gray-400 mt-2">질문을 입력하고 버튼을 누르면, AI가 관련 글을 찾고 짧게 정리해드립니다</p>
         <div id="search-results" class="mt-4 hidden"></div>
       </div>
 
@@ -154,13 +162,40 @@ const currentPage = page.currentPage;
   </section>
 
   <script>
+    const WORKER_URL = 'https://doctoryoon-summarize.hoonchany99.workers.dev';
+    const DISCLAIMER = '일반적인 정보를 안내하며, 실제 진단과 치료 계획은 검사에 따라 달라질 수 있습니다.';
+
     const input = document.getElementById('blog-search') as HTMLInputElement;
+    const aiBtn = document.getElementById('ai-search-btn') as HTMLButtonElement;
     const resultsEl = document.getElementById('search-results')!;
+    const searchHint = document.getElementById('search-hint');
     const cardGrid = document.querySelector('.grid.md\\:grid-cols-2') as HTMLElement;
+    const topicChips = document.querySelector('.mb-8.flex.flex-wrap') as HTMLElement;
     const paginationNav = document.getElementById('pagination-nav');
     const postCount = document.getElementById('post-count');
     let posts: any[] = [];
     let loaded = false;
+    let aiMode = false;
+
+    function showGrid() {
+      if (cardGrid) cardGrid.style.display = '';
+      if (topicChips) topicChips.style.display = '';
+      if (paginationNav) paginationNav.style.display = '';
+      if (postCount) postCount.style.display = '';
+      if (searchHint) searchHint.style.display = '';
+      resultsEl.classList.add('hidden');
+      resultsEl.innerHTML = '';
+      aiMode = false;
+    }
+
+    function hideGrid() {
+      if (cardGrid) cardGrid.style.display = 'none';
+      if (topicChips) topicChips.style.display = 'none';
+      if (paginationNav) paginationNav.style.display = 'none';
+      if (postCount) postCount.style.display = 'none';
+      if (searchHint) searchHint.style.display = 'none';
+      resultsEl.classList.remove('hidden');
+    }
 
     async function loadIndex() {
       if (loaded) return;
@@ -169,21 +204,17 @@ const currentPage = page.currentPage;
       loaded = true;
     }
 
-    input?.addEventListener('focus', loadIndex);
+    function highlight(text: string, q: string) {
+      if (!q) return text;
+      const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      return text.replace(re, '<mark class="bg-yellow-100 text-inherit rounded px-0.5">$1</mark>');
+    }
 
-    input?.addEventListener('input', async () => {
-      await loadIndex();
-      const q = input.value.trim().toLowerCase();
+    function formatDate(iso: string) {
+      return new Date(iso).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
 
-      if (!q) {
-        resultsEl.classList.add('hidden');
-        resultsEl.innerHTML = '';
-        if (cardGrid) cardGrid.style.display = '';
-        if (paginationNav) paginationNav.style.display = '';
-        if (postCount) postCount.style.display = '';
-        return;
-      }
-
+    function showKeywordResults(q: string) {
       const matches = posts.filter((p: any) =>
         p.title.toLowerCase().includes(q) ||
         p.description.toLowerCase().includes(q) ||
@@ -192,20 +223,12 @@ const currentPage = page.currentPage;
         p.categories.some((c: string) => c.toLowerCase().includes(q))
       ).slice(0, 12);
 
-      if (cardGrid) cardGrid.style.display = 'none';
-      if (paginationNav) paginationNav.style.display = 'none';
-      if (postCount) postCount.style.display = 'none';
-      resultsEl.classList.remove('hidden');
+      hideGrid();
 
       if (matches.length === 0) {
         resultsEl.innerHTML = `<p class="text-center text-gray-400 py-12">"${input.value}" 검색 결과가 없습니다</p>`;
         return;
       }
-
-      const formatDate = (iso: string) => {
-        const d = new Date(iso);
-        return d.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' });
-      };
 
       resultsEl.innerHTML = `
         <p class="text-sm text-gray-400 mb-4">${matches.length}개의 검색 결과</p>
@@ -222,13 +245,132 @@ const currentPage = page.currentPage;
             </a>
           `).join('')}
         </div>
+        <button id="ai-cta-banner" class="mt-5 w-full flex items-center justify-center gap-2 py-3.5 px-4 rounded-xl border border-dashed border-[#3FB8D3]/30 bg-[#3FB8D3]/[0.03] hover:bg-[#3FB8D3]/[0.07] hover:border-[#3FB8D3]/50 transition-all group cursor-pointer">
+          <svg class="w-4 h-4 text-[#3FB8D3]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          <span class="text-xs font-semibold text-[#3FB8D3] group-hover:text-[#3FB8D3]">이 질문, AI로 더 정확하게 찾아볼까요?</span>
+          <span class="text-[10px] text-gray-400">관련 글 + 짧은 요약</span>
+        </button>
       `;
+
+      document.getElementById('ai-cta-banner')?.addEventListener('click', () => {
+        showAiResults(input.value.trim());
+      });
+    }
+
+    async function showAiResults(query: string) {
+      aiMode = true;
+      hideGrid();
+
+      resultsEl.innerHTML = `
+        <div class="text-center py-16">
+          <div class="inline-block w-8 h-8 border-[2.5px] border-[#3FB8D3]/20 border-t-[#3FB8D3] rounded-full animate-spin mb-4"></div>
+          <p class="text-sm text-gray-600 font-medium">관련 글을 찾고 있습니다</p>
+          <p class="text-xs text-gray-400 mt-1">잠시만 기다려주세요</p>
+        </div>
+      `;
+
+      try {
+        const res = await fetch(WORKER_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query }),
+        });
+
+        if (!res.ok) throw new Error('Worker error');
+        const data = await res.json() as { summary: string | null; results: any[] };
+
+        if (!data.results || data.results.length === 0) {
+          resultsEl.innerHTML = `
+            <div class="text-center py-16">
+              <p class="text-sm font-semibold text-gray-700 mb-1.5">딱 맞는 글을 찾지 못했습니다</p>
+              <p class="text-xs text-gray-500 mb-6">다른 표현으로 다시 질문해보시거나, 주제별 가이드를 살펴보세요.</p>
+              <a href="/topics/" class="text-xs px-4 py-2 rounded-lg bg-[#3FB8D3] text-white font-bold hover:opacity-90 transition-all">주제별 가이드 보기</a>
+            </div>
+          `;
+          return;
+        }
+
+        const summaryHtml = data.summary
+          ? `<div class="bg-[#3FB8D3]/[0.03] rounded-2xl p-5 border border-[#3FB8D3]/10 mb-5">
+              <div class="flex items-center gap-1.5 mb-2.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3FB8D3]"></span>
+                <p class="text-xs font-bold text-[#3FB8D3]">짧게 정리하면</p>
+              </div>
+              <p class="text-sm text-gray-700 leading-[1.8]">${data.summary}</p>
+            </div>`
+          : '';
+
+        const cardsHtml = data.results.map((r: any, i: number) => `
+          <a href="/posts/${r.slug}/" class="flex items-start gap-4 bg-white rounded-xl border border-gray-100 p-4 hover:shadow-md hover:border-[#3FB8D3]/20 hover:-translate-y-0.5 transition-all group">
+            <span class="shrink-0 w-6 h-6 rounded-full bg-gray-100 text-[11px] font-bold text-gray-400 flex items-center justify-center mt-0.5">${i + 1}</span>
+            <div class="min-w-0 flex-1">
+              <h3 class="text-sm font-bold text-gray-900 group-hover:text-[#3FB8D3] transition-colors mb-1">${r.title}</h3>
+              <p class="text-xs text-gray-500 leading-relaxed line-clamp-2">${r.excerpt}</p>
+              ${r.tags?.length ? `<div class="flex flex-wrap gap-1.5 mt-2">${r.tags.slice(0, 3).map((t: string) => `<span class="text-[10px] px-2 py-0.5 rounded-full bg-gray-50 text-gray-400 border border-gray-100">${t}</span>`).join('')}</div>` : ''}
+            </div>
+          </a>
+        `).join('');
+
+        resultsEl.innerHTML = `
+          <div class="max-w-3xl mx-auto space-y-5">
+            ${summaryHtml}
+            <div>
+              <p class="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <span class="w-1 h-4 bg-[#3FB8D3] rounded-full inline-block"></span>
+                이 질문과 관련된 글
+              </p>
+              <div class="space-y-2.5">${cardsHtml}</div>
+            </div>
+            <div class="pt-4 border-t border-gray-100">
+              <p class="text-[11px] text-gray-400 text-center leading-relaxed mb-4">${DISCLAIMER}</p>
+              <div class="flex flex-wrap gap-2.5 justify-center">
+                <button id="ai-reset" class="text-xs px-4 py-2 rounded-lg border border-gray-200 text-gray-500 hover:border-[#3FB8D3]/40 hover:text-[#3FB8D3] transition-all">다른 질문하기</button>
+                <a href="/topics/" class="text-xs px-4 py-2 rounded-lg border border-gray-200 text-gray-500 hover:border-[#3FB8D3]/40 hover:text-[#3FB8D3] transition-all">주제별 가이드 보기</a>
+              </div>
+            </div>
+          </div>
+        `;
+
+        document.getElementById('ai-reset')?.addEventListener('click', () => {
+          input.value = '';
+          showGrid();
+          input.focus();
+        });
+      } catch {
+        await loadIndex();
+        showKeywordResults(query.toLowerCase());
+      }
+    }
+
+    input?.addEventListener('focus', loadIndex);
+
+    input?.addEventListener('input', async () => {
+      aiBtn.disabled = !input.value.trim();
+      if (aiMode) return;
+      await loadIndex();
+      const q = input.value.trim().toLowerCase();
+      if (!q) { showGrid(); return; }
+      showKeywordResults(q);
     });
 
-    function highlight(text: string, q: string) {
-      if (!q) return text;
-      const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-      return text.replace(re, '<mark class="bg-yellow-100 text-inherit rounded px-0.5">$1</mark>');
+    input?.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const q = input.value.trim();
+        if (q) showAiResults(q);
+      }
+    });
+
+    aiBtn?.addEventListener('click', () => {
+      const q = input.value.trim();
+      if (q) showAiResults(q);
+    });
+
+    // ?q= 파라미터로 자동 AI 검색
+    const urlQ = new URLSearchParams(window.location.search).get('q');
+    if (urlQ && input) {
+      input.value = urlQ;
+      showAiResults(urlQ);
     }
   </script>
 </BaseLayout>

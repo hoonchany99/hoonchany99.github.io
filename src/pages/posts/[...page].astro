@@ -339,43 +339,47 @@ const currentPage = page.currentPage;
           input.focus();
         });
 
-        function revealCards() {
-          const cards = document.getElementById('ai-cards-section');
-          const footer = document.getElementById('ai-footer-section');
-          if (cards) { cards.style.opacity = '1'; cards.style.transform = 'translateY(0)'; }
-          setTimeout(() => {
-            if (footer) { footer.style.opacity = '1'; footer.style.transform = 'translateY(0)'; }
-          }, 150);
-        }
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            function revealCards() {
+              const cards = document.getElementById('ai-cards-section');
+              const footer = document.getElementById('ai-footer-section');
+              if (cards) { cards.style.opacity = '1'; cards.style.transform = 'translateY(0)'; }
+              setTimeout(() => {
+                if (footer) { footer.style.opacity = '1'; footer.style.transform = 'translateY(0)'; }
+              }, 200);
+            }
 
-        if (data.summary) {
-          const el = document.getElementById('ai-summary-text');
-          if (el) {
-            const text = data.summary;
-            let i = 0;
-            const cursor = document.createElement('span');
-            cursor.style.cssText = 'display:inline-block;width:2px;height:1em;background:#3FB8D3;margin-left:2px;vertical-align:middle;animation:blink-cursor 0.8s step-end infinite;';
             if (!document.getElementById('blink-cursor-style')) {
               const style = document.createElement('style');
               style.id = 'blink-cursor-style';
               style.textContent = '@keyframes blink-cursor{0%,100%{opacity:1}50%{opacity:0}}';
               document.head.appendChild(style);
             }
-            el.appendChild(cursor);
-            const timer = setInterval(() => {
-              i++;
-              el.textContent = text.slice(0, i);
+
+            const el = document.getElementById('ai-summary-text');
+            if (el) {
+              const text = data.summary!;
+              let idx = 0;
+              const cursor = document.createElement('span');
+              cursor.style.cssText = 'display:inline-block;width:2px;height:1em;background:#3FB8D3;margin-left:2px;vertical-align:middle;animation:blink-cursor 0.8s step-end infinite;';
+              el.textContent = '';
               el.appendChild(cursor);
-              if (i >= text.length) {
-                clearInterval(timer);
-                cursor.remove();
-                revealCards();
-              }
-            }, 22);
-          }
-        } else {
-          revealCards();
-        }
+              const timer = setInterval(() => {
+                idx++;
+                el.textContent = text.slice(0, idx);
+                el.appendChild(cursor);
+                if (idx >= text.length) {
+                  clearInterval(timer);
+                  cursor.remove();
+                  revealCards();
+                }
+              }, 22);
+            } else {
+              revealCards();
+            }
+          });
+        });
       } catch {
         aiMode = false;
         await loadIndex();

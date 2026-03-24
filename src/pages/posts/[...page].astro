@@ -62,7 +62,7 @@ const currentPage = page.currentPage;
       </div>
 
       <!-- 주제 필터 칩 -->
-      <div class="mb-8 anim-fade-up overflow-x-auto scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0">
+      <div id="topic-chips" class="mb-8 anim-fade-up overflow-x-auto scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0">
         <div class="flex items-center gap-1.5 md:gap-2 md:flex-wrap md:justify-center w-max md:w-auto">
           {topicHubs.map((hub) => (
             <a
@@ -175,7 +175,7 @@ const currentPage = page.currentPage;
     const resultsEl = document.getElementById('search-results')!;
     const searchHint = document.getElementById('search-hint');
     const cardGrid = document.querySelector('.grid.md\\:grid-cols-2') as HTMLElement;
-    const topicChips = document.querySelector('.mb-8.flex.flex-wrap') as HTMLElement;
+    const topicChips = document.getElementById('topic-chips');
     const paginationNav = document.getElementById('pagination-nav');
     const postCount = document.getElementById('post-count');
     let posts: any[] = [];
@@ -231,7 +231,18 @@ const currentPage = page.currentPage;
       hideGrid();
 
       if (matches.length === 0) {
-        resultsEl.innerHTML = `<p class="text-center text-gray-400 py-12">"${input.value}" 검색 결과가 없습니다</p>`;
+        resultsEl.innerHTML = `
+          <div class="text-center py-14">
+            <p class="text-sm text-gray-500 mb-6">"${input.value}"에 대한 키워드 결과가 없습니다</p>
+            <div id="no-result-ai-hint" class="inline-flex items-center gap-2 text-[#3FB8D3] cursor-pointer hover:opacity-80 transition-opacity">
+              <span class="text-sm font-medium">엔터를 누르면 질문으로 찾아드릴게요</span>
+              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+            </div>
+          </div>
+        `;
+        document.getElementById('no-result-ai-hint')?.addEventListener('click', () => {
+          showAiResults(input.value.trim());
+        });
         return;
       }
 
@@ -392,9 +403,10 @@ const currentPage = page.currentPage;
     input?.addEventListener('input', async () => {
       aiBtn.disabled = !input.value.trim();
       if (aiMode) return;
-      await loadIndex();
       const q = input.value.trim().toLowerCase();
       if (!q) { showGrid(); return; }
+      if (topicChips) topicChips.style.display = 'none';
+      await loadIndex();
       showKeywordResults(q);
     });
 

@@ -119,14 +119,14 @@ const currentPage = page.currentPage;
 
       <!-- 페이지네이션 -->
       {totalPages > 1 && (
-        <nav id="pagination-nav" class="mt-16 flex items-center justify-center gap-2" aria-label="페이지 이동">
+        <nav id="pagination-nav" class="mt-16 flex items-center justify-center gap-1 md:gap-2" aria-label="페이지 이동">
           {page.url.prev ? (
-            <a href={page.url.prev} class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">
-              ← 이전
+            <a href={page.url.prev} class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">
+              ←
             </a>
           ) : (
-            <span class="px-3 py-2 rounded-lg text-sm font-medium text-gray-300 cursor-not-allowed">
-              ← 이전
+            <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full text-sm font-medium text-gray-300 cursor-not-allowed">
+              ←
             </span>
           )}
 
@@ -136,7 +136,7 @@ const currentPage = page.currentPage;
             return (
               <a
                 href={url}
-                class={`w-10 h-10 flex items-center justify-center rounded-lg text-sm font-semibold transition-colors ${
+                class={`w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full text-xs md:text-sm font-semibold transition-colors ${
                   isActive
                     ? 'bg-brand text-white'
                     : 'text-gray-600 hover:bg-gray-100'
@@ -149,12 +149,12 @@ const currentPage = page.currentPage;
           })}
 
           {page.url.next ? (
-            <a href={page.url.next} class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">
-              다음 →
+            <a href={page.url.next} class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">
+              →
             </a>
           ) : (
-            <span class="px-3 py-2 rounded-lg text-sm font-medium text-gray-300 cursor-not-allowed">
-              다음 →
+            <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full text-sm font-medium text-gray-300 cursor-not-allowed">
+              →
             </span>
           )}
         </nav>

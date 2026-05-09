@@ -5,7 +5,6 @@ const navLinks = [
   { label: "주제별", href: "/topics/" },
   { label: "블로그", href: "/posts/" },
   { label: "Q&A", href: "/qna/" },
-  { label: "에디터", href: "/editor/" },
   { label: "소개", href: "/about/" }
 ];
 

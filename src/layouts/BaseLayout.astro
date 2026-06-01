@@ -19,6 +19,8 @@ interface Props {
   breadcrumbs?: BreadcrumbItem[];
   faqSchema?: { question: string; answer: string }[];
   noindex?: boolean;
+  /** Google only: keep indexing while other bots use `noindex` (e.g. Naver Yeti). */
+  googlebotIndex?: boolean;
 }
 
 const {
@@ -32,6 +34,7 @@ const {
   breadcrumbs,
   faqSchema,
   noindex = false,
+  googlebotIndex = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -131,7 +134,13 @@ const faqLd = faqSchema?.length ? JSON.stringify({
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {noindex ? (
-    <meta name="robots" content="noindex, nofollow" />
+    <>
+      <meta name="robots" content="noindex, follow" />
+      <meta name="Yeti" content="noindex" />
+      {googlebotIndex && (
+        <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+      )}
+    </>
   ) : (
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   )}

@@ -1,0 +1,44 @@
+# 네이버 서치어드바이저 → doctoryoon.kr → 요청 → 웹페이지 수집
+# noindex 배포 후, 하루 5~10개만 제출 (120개 일괄 X)
+# 출처: 조회수_순위_월간 2026-03 / 04 / 05 합산 (네이버 블로그 통계)
+# 생성: 2026-06-02
+
+# 1 1451  충치 치료, 비용은 얼마나 들까? …
+https://doctoryoon.kr/posts/crown-inlay-cavity/
+
+# 2  923  크라운 했는데 시리거나 아프다면? …
+https://doctoryoon.kr/posts/crown-6206/
+
+# 3  521  사랑니 발치 비용, 보험 적용되나요? …
+https://doctoryoon.kr/posts/wisdom-tooth-extraction-cost/
+
+# 4  330  딱딱한 거 씹다 치아가 깨졌다면? …
+https://doctoryoon.kr/posts/tooth-3739/
+
+# 5  320  크라운으로 씹을 때 아프다면? …
+https://doctoryoon.kr/posts/crown-5831/
+
+# 6  306  임플란트 비용, 병원마다 왜 다를까? …
+https://doctoryoon.kr/posts/implant-cost-price/
+
+# 7  301  레진 치료 비용은 얼마? …
+https://doctoryoon.kr/posts/resin-cost-care/
+
+# 8  300  신경치료 비용은 얼마일까? …
+https://doctoryoon.kr/posts/root-canal-cost-insurance/
+
+# 9  278  크라운 씌우려면 꼭 신경치료 해야 할까요? …
+https://doctoryoon.kr/posts/crown-root-canal/
+
+# 10 266  크라운 재료별 가격, 골드·지르코니아·PFM …
+https://doctoryoon.kr/posts/zirconia-crown-price/
+
+# --- 예비 (11~15위, 필요 시 추가 제출) ---
+# 11 250  inlay
+# https://doctoryoon.kr/posts/inlay/
+# 12 249  crown-3320
+# https://doctoryoon.kr/posts/crown-3320/
+# 14 236  wisdom-tooth-extraction-recovery
+# https://doctoryoon.kr/posts/wisdom-tooth-extraction-recovery/
+# 15 236  scaling-insurance-6436
+# https://doctoryoon.kr/posts/scaling-insurance-6436/

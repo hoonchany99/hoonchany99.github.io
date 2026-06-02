@@ -42,3 +42,28 @@ https://doctoryoon.kr/posts/zirconia-crown-price/
 # https://doctoryoon.kr/posts/wisdom-tooth-extraction-recovery/
 # 15 236  scaling-insurance-6436
 # https://doctoryoon.kr/posts/scaling-insurance-6436/
+
+# --- posts 목록 (noindex 배포 후, 웹페이지 수집) ---
+https://doctoryoon.kr/posts/
+
+# --- topics (noindex 배포 후, 웹페이지 수집) ---
+# 주제별 목록
+https://doctoryoon.kr/topics/
+
+# 충치 · 신경치료 (레진치료비용 등 검색에 노출됐던 허브)
+https://doctoryoon.kr/topics/cavity/
+
+# 임플란트
+https://doctoryoon.kr/topics/implant/
+
+# 크라운 · 인레이
+https://doctoryoon.kr/topics/crown-inlay/
+
+# 사랑니 · 발치
+https://doctoryoon.kr/topics/wisdom-tooth/
+
+# 라미네이트 · 미백
+https://doctoryoon.kr/topics/laminate-whitening/
+
+# 잇몸 · 스케일링 · 예방
+https://doctoryoon.kr/topics/gum-prevention/

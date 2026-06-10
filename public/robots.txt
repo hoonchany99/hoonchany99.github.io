@@ -1,5 +1,11 @@
 User-agent: *
 Allow: /
 Disallow: /search.json
+Disallow: /personal/
+
+User-agent: Yeti
+Allow: /
+Disallow: /search.json
+Disallow: /personal/
 
 Sitemap: https://doctoryoon.kr/sitemap-index.xml

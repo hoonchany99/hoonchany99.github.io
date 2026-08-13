@@ -1,6 +1,7 @@
 ---
 name: "가역적 치수염"
 termSlug: gayeogjeog-chisuyeom
+en: "Reversible Pulpitis"
 tier: B
 aliases:
   - "가역적 치수염"

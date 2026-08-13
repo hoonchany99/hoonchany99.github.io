@@ -1,6 +1,7 @@
 ---
 name: "발치"
 termSlug: extraction
+en: "Tooth Extraction"
 tier: B
 aliases:
   - "발치"

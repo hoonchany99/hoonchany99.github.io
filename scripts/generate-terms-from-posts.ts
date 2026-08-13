@@ -6,6 +6,7 @@ import { termsCanonical } from '../src/data/termsCanonical.ts';
 import { termFaqsBySlug, FAQ_COUNT } from '../src/data/termFaqs.ts';
 import { termDetailsBySlug } from '../src/data/termDetails.ts';
 import { authoredBySlug } from '../src/data/termsAuthored.ts';
+import { termNamesEn } from '../src/data/termNamesEn.ts';
 import { writeTermsIndex } from './lib/writeTermsIndex.ts';
 
 /** 검색·트래픽 우선순위 (기존 md tier 유지용) */
@@ -215,6 +216,7 @@ function renderTermFile(
     '---',
     `name: ${yamlQuote(term.name)}`,
     `termSlug: ${term.slug}`,
+    ...(termNamesEn[term.slug] ? [`en: ${yamlQuote(termNamesEn[term.slug])}`] : []),
     `tier: ${tier}`,
     'aliases:',
     ...term.aliases.map((a) => `  - ${yamlQuote(a)}`),

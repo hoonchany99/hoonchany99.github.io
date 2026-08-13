@@ -1,6 +1,7 @@
 ---
 name: "어금니"
 termSlug: molar
+en: "Molar"
 tier: B
 aliases:
   - "어금니"

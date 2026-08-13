@@ -1,6 +1,7 @@
 ---
 name: "이시림"
 termSlug: sensitivity
+en: "Dentin Hypersensitivity"
 tier: B
 aliases:
   - "이시림"

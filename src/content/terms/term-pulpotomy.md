@@ -1,6 +1,7 @@
 ---
 name: "치수절단술"
 termSlug: pulpotomy
+en: "Pulpotomy"
 tier: B
 aliases:
   - "치수절단술"

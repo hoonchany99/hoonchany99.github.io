@@ -1,6 +1,7 @@
 ---
 name: "유지장치"
 termSlug: retainer
+en: "Orthodontic Retainer"
 tier: B
 aliases:
   - "유지장치"

@@ -1,6 +1,7 @@
 ---
 name: "법랑진주"
 termSlug: beobrangjinju
+en: "Enamel Pearl"
 tier: B
 aliases:
   - "법랑진주"

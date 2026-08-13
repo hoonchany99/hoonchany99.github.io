@@ -1,6 +1,7 @@
 ---
 name: "보존치료"
 termSlug: conservative-dentistry
+en: "Conservative Dentistry"
 tier: B
 aliases:
   - "보존치료"

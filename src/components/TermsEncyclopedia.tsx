@@ -4,6 +4,8 @@ import { TERM_INDEX_BAR, compareTermNames, getChosungGroup, getTermChosung } fro
 export interface TermItem {
   slug: string;
   name: string;
+  /** 영문명 — 한국 제도 용어 등 대응어가 없으면 없음 */
+  en?: string;
   definition: string;
   aliases: string[];
 }
@@ -70,7 +72,7 @@ export function TermsEncyclopedia() {
       if (chosung && term.chosungGroup !== chosung) return false;
       if (!q) return true;
       const haystack = normalizeQuery(
-        [term.name, term.definition, ...term.aliases].join(' ')
+        [term.name, term.en ?? '', term.definition, ...term.aliases].join(' ')
       );
       return haystack.includes(q);
     });
@@ -211,6 +213,11 @@ export function TermsEncyclopedia() {
                     <h2 className="text-lg font-bold text-gray-900 group-hover:text-brand transition-colors">
                       {term.name}
                     </h2>
+                    {term.en && (
+                      <p className="text-xs font-medium text-brand/70 tracking-wide mt-0.5">
+                        {term.en}
+                      </p>
+                    )}
                     {syn.length > 0 && (
                       <p className="text-xs text-gray-400 mt-0.5 truncate">
                         {syn.join(' · ')}

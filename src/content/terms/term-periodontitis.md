@@ -1,6 +1,7 @@
 ---
 name: "치주염"
 termSlug: periodontitis
+en: "Periodontitis"
 tier: A
 aliases:
   - "치주염"

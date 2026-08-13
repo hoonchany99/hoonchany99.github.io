@@ -1,6 +1,7 @@
 ---
 name: "구취·입냄새"
 termSlug: halitosis
+en: "Halitosis"
 tier: B
 aliases:
   - "입냄새"

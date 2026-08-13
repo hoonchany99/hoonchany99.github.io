@@ -1,6 +1,7 @@
 ---
 name: "부정교합"
 termSlug: malocclusion
+en: "Malocclusion"
 tier: A
 aliases:
   - "부정교합"

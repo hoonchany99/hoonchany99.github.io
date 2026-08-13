@@ -1,6 +1,7 @@
 ---
 name: "스케일링"
 termSlug: scaling
+en: "Dental Scaling"
 tier: A
 aliases:
   - "스케일링"

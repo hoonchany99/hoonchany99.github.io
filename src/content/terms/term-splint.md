@@ -1,6 +1,7 @@
 ---
 name: "스플린트"
 termSlug: splint
+en: "Occlusal Splint"
 tier: B
 aliases:
   - "스플린트"

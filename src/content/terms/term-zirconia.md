@@ -1,6 +1,7 @@
 ---
 name: "지르코니아"
 termSlug: zirconia
+en: "Zirconia"
 tier: B
 aliases:
   - "지르코니아"

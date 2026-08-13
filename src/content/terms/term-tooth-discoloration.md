@@ -1,6 +1,7 @@
 ---
 name: "치아 변색"
 termSlug: tooth-discoloration
+en: "Tooth Discoloration"
 tier: B
 aliases:
   - "치아변색"

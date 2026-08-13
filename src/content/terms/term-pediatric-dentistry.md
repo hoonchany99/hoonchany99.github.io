@@ -1,6 +1,7 @@
 ---
 name: "소아치과"
 termSlug: pediatric-dentistry
+en: "Pediatric Dentistry"
 tier: B
 aliases:
   - "소아치과"

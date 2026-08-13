@@ -1,6 +1,7 @@
 ---
 name: "신경치료"
 termSlug: root-canal
+en: "Root Canal Treatment"
 tier: A
 aliases:
   - "신경치료"

@@ -1,6 +1,7 @@
 ---
 name: "러버댐"
 termSlug: rubber-dam
+en: "Rubber Dam"
 tier: B
 aliases:
   - "러버댐"

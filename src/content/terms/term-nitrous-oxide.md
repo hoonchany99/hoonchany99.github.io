@@ -1,6 +1,7 @@
 ---
 name: "웃음가스"
 termSlug: nitrous-oxide
+en: "Nitrous Oxide"
 tier: B
 aliases:
   - "웃음가스"

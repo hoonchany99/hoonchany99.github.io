@@ -1,6 +1,7 @@
 ---
 name: "즉시임플란트"
 termSlug: immediate-implant
+en: "Immediate Implant Placement"
 tier: A
 aliases:
   - "즉시임플란트"

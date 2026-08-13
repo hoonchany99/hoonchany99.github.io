@@ -1,6 +1,7 @@
 ---
 name: "온레이"
 termSlug: onlay
+en: "Onlay"
 tier: B
 aliases:
   - "온레이"

@@ -1,6 +1,7 @@
 ---
 name: "유치"
 termSlug: primary-tooth
+en: "Primary Tooth"
 tier: A
 aliases:
   - "유치"

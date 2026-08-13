@@ -1,6 +1,7 @@
 ---
 name: "치경부 마모증"
 termSlug: chigyeongbu-mamojeung
+en: "Non-Carious Cervical Lesion"
 tier: B
 aliases:
   - "치경부 마모증"

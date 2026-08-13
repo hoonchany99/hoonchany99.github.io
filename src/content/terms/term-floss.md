@@ -1,6 +1,7 @@
 ---
 name: "치실"
 termSlug: floss
+en: "Dental Floss"
 tier: B
 aliases:
   - "치실"

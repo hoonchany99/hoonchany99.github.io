@@ -1,6 +1,7 @@
 ---
 name: "뼈이식"
 termSlug: bone-graft
+en: "Bone Graft"
 tier: B
 aliases:
   - "뼈이식"

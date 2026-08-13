@@ -1,6 +1,7 @@
 ---
 name: "브릿지"
 termSlug: bridge
+en: "Dental Bridge"
 tier: B
 aliases:
   - "브릿지"

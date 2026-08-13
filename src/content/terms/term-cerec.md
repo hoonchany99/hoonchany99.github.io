@@ -1,6 +1,7 @@
 ---
 name: "세렉"
 termSlug: cerec
+en: "CEREC"
 tier: A
 aliases:
   - "세렉"

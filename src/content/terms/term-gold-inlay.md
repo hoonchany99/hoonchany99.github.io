@@ -1,6 +1,7 @@
 ---
 name: "금인레이"
 termSlug: gold-inlay
+en: "Gold Inlay"
 tier: B
 aliases:
   - "금인레이"

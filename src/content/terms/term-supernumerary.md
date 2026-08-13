@@ -1,6 +1,7 @@
 ---
 name: "과잉치"
 termSlug: supernumerary
+en: "Supernumerary Tooth"
 tier: B
 aliases:
   - "과잉치"

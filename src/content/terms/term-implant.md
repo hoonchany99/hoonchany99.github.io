@@ -1,6 +1,7 @@
 ---
 name: "임플란트"
 termSlug: implant
+en: "Dental Implant"
 tier: A
 aliases:
   - "임플란트"

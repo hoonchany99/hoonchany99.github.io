@@ -1,6 +1,7 @@
 ---
 name: "오버덴처"
 termSlug: overdenture
+en: "Overdenture"
 tier: B
 aliases:
   - "오버덴처"

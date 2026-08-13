@@ -1,6 +1,7 @@
 ---
 name: "재발성 아프타 구내염"
 termSlug: jaebalseong-apeuta-gunaeyeom
+en: "Recurrent Aphthous Stomatitis"
 tier: B
 aliases:
   - "재발성 아프타 구내염"

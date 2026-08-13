@@ -23,6 +23,8 @@ const terms = defineCollection({
     name: z.string(),
     /** URL 경로용 (/terms/[slug]/) — posts와 파일 id 충돌 방지 */
     termSlug: z.string(),
+    /** 영문명 — 한국 제도 용어 등 대응어가 없으면 비운다 */
+    en: z.string().optional(),
     aliases: z.array(z.string()).optional(),
     definition: z.string(),
     detail: z.string(),

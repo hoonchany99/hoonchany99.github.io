@@ -1,6 +1,7 @@
 ---
 name: "치근단절제술"
 termSlug: apicoectomy
+en: "Apicoectomy"
 tier: B
 aliases:
   - "치근단절제술"

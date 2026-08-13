@@ -1,6 +1,7 @@
 ---
 name: "영구치"
 termSlug: permanent-tooth
+en: "Permanent Tooth"
 tier: B
 aliases:
   - "영구치"

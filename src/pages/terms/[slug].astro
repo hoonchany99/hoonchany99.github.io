@@ -34,6 +34,7 @@ const definedTermLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'DefinedTerm',
   name: term.data.name,
+  ...(term.data.en ? { alternateName: term.data.en } : {}),
   description: term.data.definition,
   url: new URL(Astro.url.pathname, Astro.site).href,
   inDefinedTermSet: {
@@ -68,6 +69,11 @@ const definedTermLd = JSON.stringify({
 
         <div>
           <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{term.data.name}</h1>
+          {term.data.en && (
+            <p class="mt-1.5 text-base md:text-lg font-medium text-brand/80 tracking-wide">
+              {term.data.en}
+            </p>
+          )}
           {synonymList.length > 0 && (
             <p class="mt-2.5 text-xs text-gray-400 leading-relaxed">
               <span class="font-medium text-gray-500 mr-1.5">동의어</span>

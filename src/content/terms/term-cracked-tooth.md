@@ -1,6 +1,7 @@
 ---
 name: "치아 크랙"
 termSlug: cracked-tooth
+en: "Cracked Tooth Syndrome"
 tier: A
 aliases:
   - "치아크랙"

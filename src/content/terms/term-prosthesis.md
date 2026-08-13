@@ -1,6 +1,7 @@
 ---
 name: "보철"
 termSlug: prosthesis
+en: "Dental Prosthesis"
 tier: B
 aliases:
   - "보철"

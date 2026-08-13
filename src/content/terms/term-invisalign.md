@@ -1,6 +1,7 @@
 ---
 name: "인비절라인"
 termSlug: invisalign
+en: "Invisalign"
 tier: A
 aliases:
   - "인비절라인"

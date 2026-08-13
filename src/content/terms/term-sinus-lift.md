@@ -1,6 +1,7 @@
 ---
 name: "상악동거상술"
 termSlug: sinus-lift
+en: "Maxillary Sinus Lift"
 tier: B
 aliases:
   - "상악동"

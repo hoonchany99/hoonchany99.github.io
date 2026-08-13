@@ -1,6 +1,7 @@
 ---
 name: "불소"
 termSlug: fluoride
+en: "Fluoride"
 tier: B
 aliases:
   - "불소"

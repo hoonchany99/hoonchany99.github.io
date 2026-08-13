@@ -5,6 +5,7 @@ import { termsCanonical } from '../../src/data/termsCanonical.ts';
 import { termDetailsBySlug } from '../../src/data/termDetails.ts';
 import { termFaqsBySlug } from '../../src/data/termFaqs.ts';
 import { authoredBySlug } from '../../src/data/termsAuthored.ts';
+import { termNamesEn } from '../../src/data/termNamesEn.ts';
 import { compareTermNames } from '../../src/utils/korean.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -27,6 +28,7 @@ export function writeTermsIndex(): number {
     .map((term) => ({
       slug: term.slug,
       name: term.name,
+      en: termNamesEn[term.slug],
       definition: truncateDefinition(
         authoredBySlug[term.slug]?.definition ?? term.definition
       ),

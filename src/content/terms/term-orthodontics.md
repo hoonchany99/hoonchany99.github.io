@@ -1,6 +1,7 @@
 ---
 name: "치아교정"
 termSlug: orthodontics
+en: "Orthodontic Treatment"
 tier: B
 aliases:
   - "치아교정"

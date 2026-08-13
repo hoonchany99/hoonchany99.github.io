@@ -1,6 +1,7 @@
 ---
 name: "라미네이트"
 termSlug: laminate
+en: "Laminate Veneer"
 tier: A
 aliases:
   - "라미네이트"

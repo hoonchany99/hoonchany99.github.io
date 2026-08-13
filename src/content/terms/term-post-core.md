@@ -1,6 +1,7 @@
 ---
 name: "포스트"
 termSlug: post-core
+en: "Post and Core"
 tier: B
 aliases:
   - "포스트"

@@ -1,6 +1,7 @@
 ---
 name: "박리성 치은염"
 termSlug: bagriseong-chieunyeom
+en: "Desquamative Gingivitis"
 tier: B
 aliases:
   - "박리성 치은염"

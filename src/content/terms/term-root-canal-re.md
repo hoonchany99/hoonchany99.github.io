@@ -1,6 +1,7 @@
 ---
 name: "재신경치료"
 termSlug: root-canal-re
+en: "Endodontic Retreatment"
 tier: A
 aliases:
   - "재신경치료"

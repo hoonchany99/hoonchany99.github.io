@@ -1,6 +1,7 @@
 ---
 name: "투스젬"
 termSlug: tooth-gem
+en: "Tooth Gem"
 tier: B
 aliases:
   - "투스젬"

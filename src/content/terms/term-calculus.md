@@ -1,6 +1,7 @@
 ---
 name: "치석"
 termSlug: calculus
+en: "Dental Calculus"
 tier: A
 aliases:
   - "치석"

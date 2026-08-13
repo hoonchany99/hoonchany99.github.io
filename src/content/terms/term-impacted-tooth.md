@@ -1,6 +1,7 @@
 ---
 name: "매복치"
 termSlug: impacted-tooth
+en: "Impacted Tooth"
 tier: A
 aliases:
   - "매복치"

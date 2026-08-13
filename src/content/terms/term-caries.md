@@ -1,6 +1,7 @@
 ---
 name: "우식"
 termSlug: caries
+en: "Dental Caries"
 tier: B
 aliases:
   - "우식"

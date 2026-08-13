@@ -1,6 +1,7 @@
 ---
 name: "실란트"
 termSlug: sealant
+en: "Pit and Fissure Sealant"
 tier: B
 aliases:
   - "실란트"

@@ -1,6 +1,7 @@
 ---
 name: "골유착"
 termSlug: osseointegration
+en: "Osseointegration"
 tier: B
 aliases:
   - "골유착"

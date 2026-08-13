@@ -1,6 +1,7 @@
 ---
 name: "치은염"
 termSlug: gingivitis
+en: "Gingivitis"
 tier: B
 aliases:
   - "치은염"

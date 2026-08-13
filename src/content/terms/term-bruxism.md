@@ -1,6 +1,7 @@
 ---
 name: "이갈이"
 termSlug: bruxism
+en: "Bruxism"
 tier: B
 aliases:
   - "이갈이"

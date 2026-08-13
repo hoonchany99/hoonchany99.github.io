@@ -1,6 +1,7 @@
 ---
 name: "인레이"
 termSlug: inlay
+en: "Inlay"
 tier: A
 aliases:
   - "인레이"

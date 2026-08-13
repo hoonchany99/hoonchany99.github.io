@@ -1,6 +1,7 @@
 ---
 name: "임플란트 주위염"
 termSlug: peri-implantitis
+en: "Peri-implantitis"
 tier: B
 aliases:
   - "임플란트주위염"

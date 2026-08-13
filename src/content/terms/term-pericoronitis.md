@@ -1,6 +1,7 @@
 ---
 name: "치관주위염"
 termSlug: pericoronitis
+en: "Pericoronitis"
 tier: A
 aliases:
   - "치관주위염"

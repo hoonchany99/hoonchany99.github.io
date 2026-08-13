@@ -1,6 +1,7 @@
 ---
 name: "백악질"
 termSlug: baegagjil
+en: "Cementum"
 tier: B
 aliases:
   - "백악질"

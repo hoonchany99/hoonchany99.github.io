@@ -1,6 +1,7 @@
 ---
 name: "국소마취"
 termSlug: local-anesthesia
+en: "Local Anesthesia"
 tier: B
 aliases:
   - "국소마취"

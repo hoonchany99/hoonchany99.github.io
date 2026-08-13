@@ -1,6 +1,7 @@
 ---
 name: "잇몸이식"
 termSlug: gum-graft
+en: "Gingival Graft"
 tier: B
 aliases:
   - "잇몸이식"

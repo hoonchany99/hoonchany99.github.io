@@ -1,6 +1,7 @@
 ---
 name: "치근단염"
 termSlug: apical-periodontitis
+en: "Apical Periodontitis"
 tier: B
 aliases:
   - "치근단염증"

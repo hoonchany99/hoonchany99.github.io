@@ -1,6 +1,7 @@
 ---
 name: "치아 파절"
 termSlug: tooth-fracture
+en: "Tooth Fracture"
 tier: B
 aliases:
   - "치아파절"

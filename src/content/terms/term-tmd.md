@@ -1,6 +1,7 @@
 ---
 name: "턱관절장애"
 termSlug: tmd
+en: "Temporomandibular Disorder"
 tier: A
 aliases:
   - "턱관절장애"

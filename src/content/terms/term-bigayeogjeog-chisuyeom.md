@@ -1,6 +1,7 @@
 ---
 name: "비가역적 치수염"
 termSlug: bigayeogjeog-chisuyeom
+en: "Irreversible Pulpitis"
 tier: B
 aliases:
   - "비가역적 치수염"

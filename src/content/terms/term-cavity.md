@@ -1,6 +1,7 @@
 ---
 name: "충치"
 termSlug: cavity
+en: "Tooth Decay"
 tier: A
 aliases:
   - "충치"

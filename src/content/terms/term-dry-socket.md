@@ -1,6 +1,7 @@
 ---
 name: "건조와"
 termSlug: dry-socket
+en: "Alveolar Osteitis"
 tier: B
 aliases:
   - "건조와"

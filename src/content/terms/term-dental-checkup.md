@@ -1,6 +1,7 @@
 ---
 name: "정기검진"
 termSlug: dental-checkup
+en: "Dental Check-up"
 tier: A
 aliases:
   - "정기검진"

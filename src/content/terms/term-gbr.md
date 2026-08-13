@@ -1,6 +1,7 @@
 ---
 name: "GBR"
 termSlug: gbr
+en: "Guided Bone Regeneration"
 tier: A
 aliases:
   - "GBR"

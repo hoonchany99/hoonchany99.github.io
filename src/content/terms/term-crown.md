@@ -1,6 +1,7 @@
 ---
 name: "크라운"
 termSlug: crown
+en: "Dental Crown"
 tier: A
 aliases:
   - "크라운"

@@ -1,6 +1,7 @@
 ---
 name: "사랑니"
 termSlug: wisdom-tooth
+en: "Third Molar"
 tier: A
 aliases:
   - "사랑니"

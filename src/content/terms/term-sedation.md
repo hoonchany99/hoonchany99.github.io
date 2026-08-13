@@ -1,6 +1,7 @@
 ---
 name: "수면치과·의식하진정"
 termSlug: sedation
+en: "Conscious Sedation"
 tier: B
 aliases:
   - "수면치과"

@@ -1,6 +1,7 @@
 ---
 name: "교합조정"
 termSlug: occlusal-adjustment
+en: "Occlusal Adjustment"
 tier: B
 aliases:
   - "교합조정"

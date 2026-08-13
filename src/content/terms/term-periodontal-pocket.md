@@ -1,6 +1,7 @@
 ---
 name: "치주낭"
 termSlug: periodontal-pocket
+en: "Periodontal Pocket"
 tier: B
 aliases:
   - "치주낭"

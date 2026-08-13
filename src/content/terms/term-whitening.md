@@ -1,6 +1,7 @@
 ---
 name: "치아미백"
 termSlug: whitening
+en: "Tooth Whitening"
 tier: A
 aliases:
   - "치아미백"

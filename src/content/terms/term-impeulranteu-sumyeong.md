@@ -1,6 +1,7 @@
 ---
 name: "임플란트 수명"
 termSlug: impeulranteu-sumyeong
+en: "Implant Longevity"
 tier: B
 aliases:
   - "임플란트 수명"

@@ -1,6 +1,7 @@
 ---
 name: "치근활택술"
 termSlug: scaling-root-planing
+en: "Root Planing"
 tier: B
 aliases:
   - "치근활택술"

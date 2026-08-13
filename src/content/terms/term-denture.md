@@ -1,6 +1,7 @@
 ---
 name: "틀니"
 termSlug: denture
+en: "Denture"
 tier: A
 aliases:
   - "틀니"

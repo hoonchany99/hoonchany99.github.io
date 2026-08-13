@@ -1,6 +1,7 @@
 ---
 name: "레진"
 termSlug: resin
+en: "Composite Resin"
 tier: B
 aliases:
   - "레진"

@@ -1,6 +1,7 @@
 ---
 name: "치수"
 termSlug: chisu
+en: "Dental Pulp"
 tier: B
 aliases:
   - "치수"

@@ -1,6 +1,7 @@
 ---
 name: "PFM"
 termSlug: pfm
+en: "Porcelain-Fused-to-Metal"
 tier: B
 aliases:
   - "PFM"

@@ -7,6 +7,10 @@
  */
 export const termNamesEn: Record<string, string> = {
   // 해부·조직
+  'chia-gujo': 'Tooth Anatomy',
+  chigwan: 'Anatomical Crown',
+  chigeun: 'Tooth Root',
+  chisugang: 'Pulp Chamber',
   baegagjil: 'Cementum',
   chisu: 'Dental Pulp',
   beobrangjinju: 'Enamel Pearl',
@@ -59,6 +63,12 @@ export const termNamesEn: Record<string, string> = {
   'sinus-lift': 'Maxillary Sinus Lift',
 
   // 잇몸·치주
+  chieun: 'Gingiva',
+  buchagchieun: 'Attached Gingiva',
+  chieunyeolgu: 'Gingival Sulcus',
+  chijuindae: 'Periodontal Ligament',
+  chijogol: 'Alveolar Bone',
+  'chieun-toechug': 'Gingival Recession',
   gingivitis: 'Gingivitis',
   periodontitis: 'Periodontitis',
   'periodontal-pocket': 'Periodontal Pocket',

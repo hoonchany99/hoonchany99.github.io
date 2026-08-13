@@ -28,9 +28,9 @@ faqs:
     answer: "신경까지 노출·통증·X-ray상 신경 주변 손상이 있으면 신경치료가 필요할 수 있어요. 검진 후 결정합니다."
 relatedTerms:
   - primary-tooth
+  - chia-gujo
   - cracked-tooth
   - orthodontics
-  - tooth-discoloration
 relatedPosts:
   - slug: baby-tooth-fracture
     title: "유치 부러짐, 당황하지 말고 이것부터 하세요"

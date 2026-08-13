@@ -26,10 +26,10 @@ faqs:
   - question: "치근단염 치료 기간은?"
     answer: "신경치료·재신경치료는 보통 여러 번 내원이 필요할 수 있어요. 근단 수술이 필요하면 추가 기간·회복이 더해질 수 있습니다."
 relatedTerms:
+  - chigeun
   - chisu
   - root-canal
   - apicoectomy
-  - scaling-root-planing
 relatedPosts:
   - slug: root-canal-treatment-before
     title: "신경치료 전에 꼭 해야 할 검사, 이것이 성공률을 좌우합니다"

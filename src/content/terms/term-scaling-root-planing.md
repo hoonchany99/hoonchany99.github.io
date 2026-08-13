@@ -29,8 +29,8 @@ faqs:
 relatedTerms:
   - apical-periodontitis
   - apicoectomy
+  - chigeun
   - cavity
-  - root-canal
 relatedPosts:
   []
 ---

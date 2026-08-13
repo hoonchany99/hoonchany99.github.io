@@ -27,9 +27,9 @@ faqs:
     answer: "있습니다. 치수가 아직 건강한 부분이 남아 있을 때 치수 복조술이나 치수절단술을 고려해요. 다만 염증 정도, 나이, 치아 상태에 따라 가능 여부가 달라집니다. 검사 후에 결정하는 경우가 많아요."
 relatedTerms:
   - apical-periodontitis
+  - chigeun
   - root-canal
   - bigayeogjeog-chisuyeom
-  - gayeogjeog-chisuyeom
 relatedPosts:
   - slug: cavity-root-canal
     title: "깊은 충치가 있다면 왜 신경치료가 필요할까요?"

@@ -31,8 +31,8 @@ faqs:
 relatedTerms:
   - root-canal-re
   - apical-periodontitis
+  - chigeun
   - chisu
-  - extraction
 relatedPosts:
   - slug: root-canal-extraction
     title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"

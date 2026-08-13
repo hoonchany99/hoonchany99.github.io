@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - gayeogjeog-chisuyeom
   - chisu
+  - chisugang
   - pulpotomy
-  - cavity
 relatedPosts:
   []
 ---

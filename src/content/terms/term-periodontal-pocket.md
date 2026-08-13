@@ -26,10 +26,10 @@ faqs:
   - question: "치주낭 예방법은?"
     answer: "양치·치실, 정기 스케aling·검진, 흡연 줄이기, 당뇨 관리 등이 도움이 될 수 있어요."
 relatedTerms:
+  - chijuindae
   - periodontitis
   - cavity
   - root-canal
-  - implant
 relatedPosts:
   []
 ---

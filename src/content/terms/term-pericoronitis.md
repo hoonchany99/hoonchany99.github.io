@@ -29,8 +29,8 @@ faqs:
 relatedTerms:
   - wisdom-tooth
   - peri-implantitis
+  - chigwan
   - cavity
-  - root-canal
 relatedPosts:
   - slug: wisdom-tooth-gum
     title: "사랑니 주변 잇몸이 붓고 고름이 보인다면? 염증 신호일 수 있어요"

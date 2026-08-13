@@ -24,10 +24,10 @@ faqs:
   - question: "치은염과 입냄새 관련 있나요?"
     answer: "잇몸 염증·치태가 입냄새 원인이 될 수 있어요. 스케일링·올바른 구강 위생으로 개선되는 경우가 많습니다."
 relatedTerms:
+  - chieun
   - periodontitis
   - bagriseong-chieunyeom
-  - cavity
-  - root-canal
+  - buchagchieun
 relatedPosts:
   - slug: gum-brushing-reason
     title: "양치할 때 잇몸에서 피가 나는 이유, 단순 자극일까 잇몸병일까?"

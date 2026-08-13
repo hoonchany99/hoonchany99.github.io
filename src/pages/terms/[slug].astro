@@ -1,0 +1,194 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, getEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { doctorWVoiceGuide } from '../../data/doctorWVoice';
+
+export const getStaticPaths = (async () => {
+  const terms = await getCollection('terms');
+  return terms.map((term) => ({
+    params: { slug: term.data.termSlug },
+    props: { term },
+  }));
+}) satisfies GetStaticPaths;
+
+const { term } = Astro.props;
+const publicSlug = term.data.termSlug;
+
+const synonymList = (term.data.aliases ?? []).filter((a) => a !== term.data.name);
+
+const relatedTermEntries = (
+  await Promise.all(
+    term.data.relatedTerms.map((slug) => getEntry('terms', `term-${slug}`))
+  )
+).filter(Boolean);
+
+const description =
+  term.data.definition.length > 155
+    ? term.data.definition.slice(0, 152).replace(/\s\S*$/, '') + '…'
+    : term.data.definition;
+
+const askSearchUrl = `/ask/?q=${encodeURIComponent(term.data.name)}`;
+
+const definedTermLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTerm',
+  name: term.data.name,
+  description: term.data.definition,
+  url: new URL(Astro.url.pathname, Astro.site).href,
+  inDefinedTermSet: {
+    '@type': 'DefinedTermSet',
+    name: '윤원장의 치과사전',
+    url: new URL('/terms/', Astro.site).href,
+  },
+});
+---
+
+<BaseLayout
+  title={`${term.data.name} — 치과사전`}
+  description={description}
+  type="article"
+  tags={[term.data.name, ...synonymList]}
+  faqSchema={term.data.faqs}
+  breadcrumbs={[
+    { name: '홈', url: '/' },
+    { name: '치과사전', url: '/terms/' },
+    { name: term.data.name, url: `/terms/${publicSlug}/` },
+  ]}
+>
+  <script type="application/ld+json" set:html={definedTermLd} />
+
+  <article>
+    <!-- 상단 헤더 -->
+    <header class="bg-gradient-to-b from-brand-bg to-white border-b border-gray-100/80 pt-10 md:pt-12 pb-8 md:pb-10">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 anim-fade-up">
+        <nav class="text-sm text-gray-500 mb-6">
+          <a href="/terms/" class="hover:text-brand transition-colors">치과사전</a>
+        </nav>
+
+        <div>
+          <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{term.data.name}</h1>
+          {synonymList.length > 0 && (
+            <p class="mt-2.5 text-xs text-gray-400 leading-relaxed">
+              <span class="font-medium text-gray-500 mr-1.5">동의어</span>
+              {synonymList.slice(0, 8).join(' · ')}
+            </p>
+          )}
+        </div>
+      </div>
+    </header>
+
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 pt-8 md:pt-10 pb-10 md:pb-12">
+      <section class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
+        <div class="rounded-2xl bg-gray-50/70 border border-gray-100/90 px-6 py-6 md:px-7 md:py-7">
+          <div class="text-gray-700 leading-relaxed text-[15px] md:text-base">
+            <p class="text-xl md:text-2xl font-bold text-gray-900 leading-relaxed mb-8 md:mb-10">
+              <span class="bg-[linear-gradient(transparent_55%,rgba(253,224,71,0.55)_55%)] box-decoration-clone">
+                {term.data.definition}
+              </span>
+            </p>
+            <div class="space-y-4">
+              {term.data.detail.split('\n\n').filter(Boolean).map((paragraph) => (
+                <p>{paragraph.trim()}</p>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {term.data.faqs.length > 0 && (
+        <section class="mb-10 anim-fade-up anim-delay-2">
+          <h2 class="text-lg font-bold text-gray-900 mb-4">자주 묻는 질문</h2>
+          <div class="space-y-3">
+            {term.data.faqs.map((faq) => (
+              <details class="group rounded-xl border border-gray-100 bg-white open:shadow-sm open:border-brand/20">
+                <summary class="cursor-pointer px-5 py-4 font-medium text-gray-900 list-none flex justify-between items-start gap-3">
+                  <span>{faq.question}</span>
+                  <span class="text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0 mt-0.5">▼</span>
+                </summary>
+                <div class="px-5 pb-4 text-gray-600 leading-relaxed border-t border-gray-50 pt-3">
+                  {faq.answer}
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {relatedTermEntries.length > 0 && (
+        <section class="mb-10 anim-fade-up anim-delay-3">
+          <h2 class="text-lg font-bold text-gray-900 mb-3">함께 보면 좋은 용어</h2>
+          <div class="grid sm:grid-cols-2 gap-3">
+            {relatedTermEntries.map((related) => (
+              <a
+                href={`/terms/${related!.data.termSlug}/`}
+                class="block p-4 rounded-xl border border-gray-100 hover:border-brand/40 hover:shadow-md transition-all group"
+              >
+                <span class="font-semibold text-gray-900 group-hover:text-brand transition-colors">
+                  {related!.data.name}
+                </span>
+                <p class="text-sm text-gray-500 mt-1 line-clamp-2">{related!.data.definition}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {term.data.relatedPosts.length > 0 && (
+        <section class="mb-10 anim-fade-up anim-delay-3">
+          <h2 class="text-lg font-bold text-gray-900 mb-3">더 읽어보기</h2>
+          <ul class="rounded-xl border border-gray-100 divide-y divide-gray-50 overflow-hidden">
+            {term.data.relatedPosts.map((post) => (
+              <li>
+                <a
+                  href={`/posts/${post.slug}/`}
+                  class="flex items-center gap-3 px-4 py-3.5 text-gray-700 hover:bg-brand-bg/40 hover:text-brand transition-colors"
+                >
+                  <span class="text-brand flex-shrink-0">→</span>
+                  <span class="text-sm leading-snug">{post.title}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p class="text-xs text-gray-400 mt-2">
+            증상별 사례와 자세한 설명은 위 글에서 이어서 보실 수 있어요.
+          </p>
+        </section>
+      )}
+
+      <!-- 하단 CTA -->
+      <section class="mt-12 p-6 md:p-8 rounded-2xl bg-gradient-to-br from-brand-bg to-white border border-brand/15 anim-fade-up">
+        <h2 class="text-lg font-bold text-gray-900 mb-2">{term.data.name}, 더 궁금하신가요?</h2>
+        <p class="text-sm text-gray-600 mb-4">
+          AI 검색으로 관련 글을 찾거나, 같은 주제의 다른 용어를 살펴보세요.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a
+            href={askSearchUrl}
+            class="inline-flex items-center px-4 py-2.5 rounded-xl bg-brand text-white text-sm font-bold hover:bg-brand-dark transition-colors"
+          >
+            AI 치과 검색
+          </a>
+          <a
+            href="/terms/"
+            class="inline-flex items-center px-4 py-2.5 rounded-xl bg-white text-gray-700 text-sm font-bold border border-gray-200 hover:border-brand transition-colors"
+          >
+            사전 목록
+          </a>
+          <a
+            href="/topics/"
+            class="inline-flex items-center px-4 py-2.5 rounded-xl bg-white text-gray-700 text-sm font-bold border border-gray-200 hover:border-brand transition-colors"
+          >
+            주제별 가이드
+          </a>
+        </div>
+      </section>
+
+      <footer class="mt-10 pt-6 border-t border-gray-100 text-xs text-gray-400 leading-relaxed">
+        <p>
+          이 페이지는 치과 용어 참고 자료입니다. {doctorWVoiceGuide.disclaimer}
+        </p>
+      </footer>
+    </div>
+  </article>
+</BaseLayout>

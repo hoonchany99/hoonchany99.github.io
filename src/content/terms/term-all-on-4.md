@@ -1,0 +1,44 @@
+---
+name: "All-on-4"
+termSlug: all-on-4
+tier: A
+aliases:
+  - "All-on-4"
+  - "올온포"
+  - "전체임플란트"
+  - "무치악임플란트"
+definition: "All-on-4는 임플란트 4개 정도로 턱 전체 치아를 고정하는 전체 임플란트 치료 개념이에요. 무치악·틀니가 불편한 분에게 논의됩니다."
+detail: |
+  All-on-4는 무치악(치아가 거의 없거나 전부 없는) 상태에서 임플란트 4개(또는 유사 개수)로 전체 치아를 고정하는 치료 개념이에요. 같은 날 또는 단기간에 임시·최종 보철을 연결하는 경우가 많습니다.
+  
+  기울여 심는 각도·즉시 부하 등으로 뼈이식 범위를 줄일 수 있는 케이스가 있어요. CT·구강 검사로 적합 여부를 판단합니다.
+  
+  관리·정기 검진·흡연·당뇨·교합 부담이 장기 예후에 영향을 줄 수 있어요. 비용·수술·유지 관리는 개인 계획에 맞게 상담해 드립니다.
+faqs:
+  - question: "All-on-4는 누구에게 맞나요?"
+    answer: "무치악·치아가 거의 없는 분에게 임플란트 소수 개로 전체 치아를 고정하는 개념이에요. CT·구강 검사로 적합 여부를 판단합니다."
+  - question: "All-on-4는 당일 치아를 받나요?"
+    answer: "같은 날 또는 단기간에 임시·최종 보철을 연결하는 경우가 많아요. 초기에는 무리한 씹기를 피해야 합니다."
+  - question: "All-on-4와 일반 임플란트 차이는?"
+    answer: "전체 치아를 4개(또는 유사 개수) 임플란트에 연결하는 방식이에요. 뼈이식 범위를 줄일 수 있는 케이스가 있습니다."
+  - question: "All-on-4 관리는?"
+    answer: "정기 검진·스케aling·집에서 관리가 중요해요. 흡연·당뇨·교합 부담이 장기 예후에 영향을 줄 수 있습니다."
+  - question: "All-on-4 비용은?"
+    answer: "임플란트·보철·수술 범위에 따라 달라져요. 개인 계획에 맞게 상담해 드립니다."
+relatedTerms:
+  - immediate-implant
+  - impeulranteu-geongangboheom
+  - impeulranteu-sumyeong
+  - overdenture
+relatedPosts:
+  - slug: implant-crown-inlay
+    title: "인레이, 크라운, 임플란트, 어떤 순서로 선택해야 할까?"
+  - slug: implant-prosthesis-front-teeth
+    title: "앞니 보철이나 임플란트 계획 중이라면... 투스젬 제거 먼저 해야 할까?"
+  - slug: implant-pain
+    title: "임플란트 후 통증, 언제까지가 정상일까?"
+  - slug: implant-surgery-3
+    title: "임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름"
+  - slug: sinusimplant
+    title: "상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다."
+---

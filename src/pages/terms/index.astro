@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { TermsEncyclopedia } from '../../components/TermsEncyclopedia';
+import { getCollection } from 'astro:content';
+
+const terms = (await getCollection('terms')).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name, 'ko')
+);
+
+const indexFaqs = [
+  {
+    question: '치과사전에서 어떤 용어를 찾을 수 있나요?',
+    answer: `충치, 임플란트, 크라운, 사랑니, 스케일링 같은 핵심 용어 ${terms.length}개를 모아뒀어요. 카테고리·초성·검색으로 찾을 수 있고, 각 용어는 한 줄 요약과 FAQ로 정리해 두었습니다.`,
+  },
+  {
+    question: '블로그 글과 치과사전은 어떻게 다른가요?',
+    answer:
+      '네이버 블로그는 증상·케이스 중심으로 길게 풀어 쓴 글이에요. 치과사전은 용어 뜻과 자주 묻는 질문만 짧게 정리한 참고 자료입니다. 같은 주제라도 구성이 달라요.',
+  },
+];
+
+const definedTermSetLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTermSet',
+  name: '윤원장의 치과사전',
+  description: `서울대 치의학대학원 출신 치과의사가 정리한 ${terms.length}개 치과 용어 사전`,
+  url: new URL('/terms/', Astro.site).href,
+  inLanguage: 'ko',
+  numberOfItems: terms.length,
+});
+---
+
+<BaseLayout
+  title="치과사전"
+  description={`충치, 임플란트, 크라운, 사랑니 등 ${terms.length}개 치과 용어를 카테고리·초성·검색으로 찾아보세요. 정의와 FAQ로 정리된 윤원장의 치과사전.`}
+  faqSchema={indexFaqs}
+  breadcrumbs={[
+    { name: '홈', url: '/' },
+    { name: '치과사전', url: '/terms/' },
+  ]}
+>
+  <script type="application/ld+json" set:html={definedTermSetLd} />
+
+  <section class="py-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12 anim-fade-up">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">치과사전</h1>
+        <p class="text-lg text-gray-600">
+          막막한 치과 용어, 서울대 윤원장이 직접 정리해 두었어요
+        </p>
+      </div>
+
+      <div class="anim-fade-up anim-delay-1">
+        <TermsEncyclopedia client:load />
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-14 bg-brand-bg/50 border-t border-brand/10">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center anim-fade-up">
+      <span class="inline-block text-xs font-bold text-brand bg-brand/10 px-3 py-1 rounded-full mb-4">
+        더 궁금하신가요?
+      </span>
+      <h2 class="text-2xl font-bold text-gray-900 mb-3">증상·치료가 헷갈릴 때</h2>
+      <p class="text-gray-600 mb-6">
+        증상으로 검색하면 관련 글을 찾아드려요. 주제별 가이드에서 이어서 보셔도 좋습니다.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a
+          href="/ask/"
+          class="inline-flex items-center justify-center gap-2 bg-brand text-white px-6 py-3 rounded-xl font-bold hover:bg-brand-dark transition-colors shadow-lg shadow-brand/20"
+        >
+          AI 치과 검색
+        </a>
+        <a
+          href="/topics/"
+          class="inline-flex items-center justify-center gap-2 bg-white text-gray-700 px-6 py-3 rounded-xl font-bold border border-gray-200 hover:border-brand hover:text-brand transition-colors"
+        >
+          주제별 가이드
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -26,10 +26,10 @@ faqs:
   - question: "투스젬 제거는 어떻게 하나요?"
     answer: "치과에서 접착제를 제거·연마하는 방식이 일반적이에요. 집에서 뜯지 마시고 내원해 주세요."
 relatedTerms:
-  - all-on-4
-  - immediate-implant
-  - impeulranteu-geongangboheom
-  - impeulranteu-sumyeong
+  - prosthesis
+  - cavity
+  - root-canal
+  - implant
 relatedPosts:
   - slug: dental
     title: "투스젬, 해도 문제 없을까? 치과의사가 생각하는 현실적인 3가지 문제점"

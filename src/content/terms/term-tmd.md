@@ -32,8 +32,5 @@ relatedTerms:
   - implant
   - wisdom-tooth
 relatedPosts:
-  - slug: post-879817
-    title: "입안벌어짐, 주저하지말고 “이것”하세요."
-    image: "/img/posts/post-879817/cover.png"
-    date: "2023-04-13"
+  []
 ---

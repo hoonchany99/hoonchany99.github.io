@@ -26,10 +26,10 @@ faqs:
   - question: "마취가 잘 안 풀리는 것 같아요"
     answer: "개인·주사 부위·마취 종류에 따라 시간 차이가 있어요. 몇 시간 지나도 이상한 감각·통증·부종이 있으면 연락해 주세요."
 relatedTerms:
-  - nitrous-oxide
-  - balchi-hu-juuisahang
-  - impacted-tooth
-  - sedation
+  - cavity
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
   - slug: dentalgeneral-anesthesia
     title: "치과전신마취, 아직도 모르시나요?"
@@ -39,8 +39,4 @@ relatedPosts:
     title: "무통마취치과, 아직도 모르셨나요?"
     image: "/img/posts/painlessanesthesiadental/cover.png"
     date: "2023-04-03"
-  - slug: supernumerary
-    title: "어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다"
-    image: "/img/posts/supernumerary/cover.png"
-    date: "2022-09-08"
 ---

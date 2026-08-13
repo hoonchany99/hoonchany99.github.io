@@ -26,10 +26,10 @@ faqs:
   - question: "치주염과 입냄새 관련 있나요?"
     answer: "잇몸 주머니·치석·염증이 입냄새 원인이 될 수 있어요. 치주 치료·스케일링으로 개선되는 경우가 많습니다."
 relatedTerms:
-  - calculus
-  - jaebalseong-apeuta-gunaeyeom
-  - scaling-root-planing
-  - seukeilring-geongangboheom
+  - cavity
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
   - slug: bad-breath
     title: "입냄새제거방법, 이것만 아시면 됩니다."
@@ -43,12 +43,4 @@ relatedPosts:
     title: "입안 헐음, 그냥 두면 절대 안됩니다."
     image: "/img/posts/ulcer-8470/cover.png"
     date: "2022-09-20"
-  - slug: bad-breath-saliva
-    title: "입이 자주 마르나요? 입냄새, 타액 부족 때문일 수 있습니다"
-    image: "/img/posts/bad-breath-saliva/cover.png"
-    date: "2025-12-29"
-  - slug: gum-bad-breath
-    title: "잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다"
-    image: "/img/posts/gum-bad-breath/cover.png"
-    date: "2025-12-13"
 ---

@@ -26,10 +26,10 @@ faqs:
   - question: "시린이 치료는 어떻게 하나요?"
     answer: "시린이 치약·불소·민감 완화제, 충치·잇몸 치료 등 원인에 맞게 진행해요. 씹을 때 통증이 동반되면 꼭 검진해 보세요."
 relatedTerms:
-  - caries
   - cavity
   - crown
-  - seukeilring-geongangboheom
+  - whitening
+  - root-canal
 relatedPosts:
   - slug: cavity-sensitivity
     title: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."

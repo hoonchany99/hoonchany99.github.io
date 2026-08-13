@@ -28,16 +28,9 @@ faqs:
     answer: "난이도·발치 여부·장치 종류에 따라 6개월~2년 이상도 가능해요. 진단 후 예상 기간을 안내해 드려요."
 relatedTerms:
   - occlusal-adjustment
-  - gold-inlay
-  - molar
-  - orthodontics
+  - cavity
+  - root-canal
+  - implant
 relatedPosts:
-  - slug: jawsurgery
-    title: "턱깎는수술, 무서운거 아닙니다."
-    image: "/img/posts/jawsurgery/cover.png"
-    date: "2023-04-10"
-  - slug: first-molar
-    title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
-    image: "/img/posts/first-molar/cover.png"
-    date: "2022-07-22"
+  []
 ---

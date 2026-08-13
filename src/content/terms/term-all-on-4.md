@@ -26,29 +26,10 @@ faqs:
   - question: "All-on-4 비용은?"
     answer: "임플란트·보철·수술 범위에 따라 달라져요. 개인 계획에 맞게 상담해 드립니다."
 relatedTerms:
-  - immediate-implant
-  - impeulranteu-geongangboheom
-  - impeulranteu-sumyeong
-  - overdenture
+  - cavity
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
-  - slug: implant-crown-inlay
-    title: "인레이, 크라운, 임플란트, 어떤 순서로 선택해야 할까?"
-    image: "/img/posts/implant-crown-inlay/cover.png"
-    date: "2026-03-29"
-  - slug: implant-prosthesis-front-teeth
-    title: "앞니 보철이나 임플란트 계획 중이라면... 투스젬 제거 먼저 해야 할까?"
-    image: "/img/posts/implant-prosthesis-front-teeth/cover.png"
-    date: "2026-03-10"
-  - slug: implant-pain
-    title: "임플란트 후 통증, 언제까지가 정상일까?"
-    image: "/img/posts/implant-pain/cover.png"
-    date: "2025-12-15"
-  - slug: implant-surgery-3
-    title: "임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름"
-    image: "/img/posts/implant-surgery-3/cover.png"
-    date: "2025-12-02"
-  - slug: sinusimplant
-    title: "상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다."
-    image: "/img/posts/sinusimplant/cover.png"
-    date: "2023-04-06"
+  []
 ---

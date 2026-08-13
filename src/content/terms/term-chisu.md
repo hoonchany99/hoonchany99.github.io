@@ -26,8 +26,8 @@ faqs:
   - question: "신경을 안 빼고 살리는 방법도 있나요?"
     answer: "있습니다. 치수가 아직 건강한 부분이 남아 있을 때 치수 복조술이나 치수절단술을 고려해요. 다만 염증 정도, 나이, 치아 상태에 따라 가능 여부가 달라집니다. 검사 후에 결정하는 경우가 많아요."
 relatedTerms:
-  - pulpotomy
-  - root-canal-re
+  - apical-periodontitis
+  - root-canal
   - bigayeogjeog-chisuyeom
   - gayeogjeog-chisuyeom
 relatedPosts:
@@ -39,16 +39,4 @@ relatedPosts:
     title: "신경치료 전에 꼭 해야 할 검사, 이것이 성공률을 좌우합니다"
     image: "/img/posts/root-canal-treatment-before/cover.png"
     date: "2026-03-12"
-  - slug: tooth-3739
-    title: "딱딱한 거 씹다 치아가 깨졌다면? 꼭 확인해야 할 손상 범위"
-    image: "/img/posts/tooth-3739/cover.png"
-    date: "2026-02-23"
-  - slug: cavity-inlay-resin-crown
-    title: "충치 치료 후 어떤 수복이 좋을까? 인레이, 레진, 크라운 비교 분석"
-    image: "/img/posts/cavity-inlay-resin-crown/cover.png"
-    date: "2026-01-08"
-  - slug: post-794511
-    title: "이빨욱신, 그냥 두시면 정말 큰일납니다."
-    image: "/img/posts/post-794511/cover.png"
-    date: "2023-06-08"
 ---

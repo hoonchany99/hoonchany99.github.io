@@ -25,21 +25,13 @@ faqs:
   - question: "발치 후 바로 뼈이식해야 하나요?"
     answer: "발치 직후 이식(소켓 보존)이 도움이 되는 경우가 있어요. 다만 케이스마다 다를 수 있습니다. 발치·CT 검사 후 계획을 정해요."
 relatedTerms:
-  - all-on-4
-  - immediate-implant
-  - impeulranteu-geongangboheom
-  - impeulranteu-sumyeong
+  - periodontitis
+  - gum-graft
+  - cavity
+  - root-canal
 relatedPosts:
   - slug: implant
     title: "뼈가 부족하면 임플란트 안 될까? 뼈 이식이 필요한 경우는?"
     image: "/img/posts/implant/cover.png"
     date: "2026-01-26"
-  - slug: implant-cost
-    title: "임플란트, 비용은 얼마나 들까? 종류별, 케이스별 비교"
-    image: "/img/posts/implant-cost/cover.png"
-    date: "2026-01-03"
-  - slug: sinusimplant
-    title: "상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다."
-    image: "/img/posts/sinusimplant/cover.png"
-    date: "2023-04-06"
 ---

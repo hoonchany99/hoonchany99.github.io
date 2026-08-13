@@ -27,16 +27,9 @@ faqs:
     answer: "통증이 점점 나아지다가 3~5일째 갑자기 심해지는 게 특징이에요. 귀나 관자놀이까지 뻗치는 둔한 통증이 많습니다. 진통제로도 잘 안 잡히면 방문해 주세요. 상처를 세척하고 약제를 넣어 주면 훨씬 편해집니다."
 relatedTerms:
   - extraction
-  - conservative-dentistry
-  - local-anesthesia
-  - nitrous-oxide
+  - cavity
+  - root-canal
+  - implant
 relatedPosts:
-  - slug: root-canal-extraction
-    title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"
-    image: "/img/posts/root-canal-extraction/cover.png"
-    date: "2026-01-30"
-  - slug: dentalgeneral-anesthesia
-    title: "치과전신마취, 아직도 모르시나요?"
-    image: "/img/posts/dentalgeneral-anesthesia/cover.png"
-    date: "2022-08-24"
+  []
 ---

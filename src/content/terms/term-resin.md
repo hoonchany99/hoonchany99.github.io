@@ -31,9 +31,9 @@ faqs:
     answer: "깨진 정도에 따라 재레진, 인레이·크라운 전환 등을 검토해요. 이갈이·단단한 음식·오래된 레진 등이 원인이 될 수 있습니다. 원인과 함께 치료 방향을 정하는 게 좋아요."
 relatedTerms:
   - cavity
-  - chisu
-  - molar
-  - tooth-gem
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
   - slug: resin-cost-care
     title: "레진 치료 비용은 얼마? 수명은 몇 년일까? 관리법까지 한눈에"
@@ -51,8 +51,4 @@ relatedPosts:
     title: "충치 치료 후 어떤 수복이 좋을까? 인레이, 레진, 크라운 비교 분석"
     image: "/img/posts/cavity-inlay-resin-crown/cover.png"
     date: "2026-01-08"
-  - slug: dental
-    title: "투스젬, 해도 문제 없을까? 치과의사가 생각하는 현실적인 3가지 문제점"
-    image: "/img/posts/dental/cover.png"
-    date: "2026-02-26"
 ---

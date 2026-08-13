@@ -25,29 +25,10 @@ faqs:
   - question: "뼈가 부족하다는데 그래도 보험이 되나요?"
     answer: "임플란트 식립 자체는 조건을 충족하면 적용될 수 있어요. 다만 뼈이식이나 상악동거상술은 별도 항목으로, 비급여가 되는 경우가 있습니다. 계획 단계에서 예상 비용을 함께 확인하시는 게 좋아요."
 relatedTerms:
+  - geongangboheom-jeogyong-teulni
   - immediate-implant
   - impeulranteu-sumyeong
-  - all-on-4
-  - overdenture
+  - implant
 relatedPosts:
-  - slug: implant-crown-inlay
-    title: "인레이, 크라운, 임플란트, 어떤 순서로 선택해야 할까?"
-    image: "/img/posts/implant-crown-inlay/cover.png"
-    date: "2026-03-29"
-  - slug: implant-prosthesis-front-teeth
-    title: "앞니 보철이나 임플란트 계획 중이라면... 투스젬 제거 먼저 해야 할까?"
-    image: "/img/posts/implant-prosthesis-front-teeth/cover.png"
-    date: "2026-03-10"
-  - slug: implant-pain
-    title: "임플란트 후 통증, 언제까지가 정상일까?"
-    image: "/img/posts/implant-pain/cover.png"
-    date: "2025-12-15"
-  - slug: implant-surgery-3
-    title: "임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름"
-    image: "/img/posts/implant-surgery-3/cover.png"
-    date: "2025-12-02"
-  - slug: sinusimplant
-    title: "상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다."
-    image: "/img/posts/sinusimplant/cover.png"
-    date: "2023-04-06"
+  []
 ---

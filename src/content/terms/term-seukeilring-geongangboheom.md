@@ -25,29 +25,10 @@ faqs:
   - question: "잇몸 치료랑 스케일링은 다른 건가요?"
     answer: "다릅니다. 스케일링은 주로 잇몸 위쪽 치석을 제거하는 처치예요. 치석이 잇몸 아래 뿌리까지 붙어 있으면 치근활택술 같은 치주 치료로 넘어갑니다. 이 경우 보험 적용 방식과 내원 횟수가 달라져요."
 relatedTerms:
-  - scaling-root-planing
-  - calculus
+  - geongangboheom-jeogyong-teulni
+  - impeulranteu-geongangboheom
   - scaling
-  - bagriseong-chieunyeom
+  - silbiboheom-chigwa-jeogyong
 relatedPosts:
-  - slug: scaling-insurance-6436
-    title: "스케일링 보험, 1년에 몇 번까지? 적용 조건과 비급여 기준"
-    image: "/img/posts/scaling-insurance-6436/cover.png"
-    date: "2026-04-21"
-  - slug: scaling-tooth-toothwhitening
-    title: "스케일링만 하면 치아가 하얘질까? 치아미백과의 확실한 차이"
-    image: "/img/posts/scaling-tooth-toothwhitening/cover.png"
-    date: "2026-01-14"
-  - slug: scaling-gum
-    title: "스케일링 직후 잇몸에서 피가 난다면, 어디까지 정상일까?"
-    image: "/img/posts/scaling-gum/cover.png"
-    date: "2025-12-23"
-  - slug: gum-bad-breath
-    title: "잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다"
-    image: "/img/posts/gum-bad-breath/cover.png"
-    date: "2025-12-13"
-  - slug: scaling-tooth
-    title: "스케일링 후 치아가 시린가요? 민감해진 이유와 대처법"
-    image: "/img/posts/scaling-tooth/cover.png"
-    date: "2025-12-10"
+  []
 ---

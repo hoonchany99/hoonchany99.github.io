@@ -26,10 +26,10 @@ faqs:
   - question: "재신경치료 후에도 아프면?"
     answer: "일시적 불편과 재감염은 다를 수 있어요. 씹을 때 깊은 통증·잇몸 부종·농양이 있으면 X-ray 등으로 다시 확인하는 게 좋습니다."
 relatedTerms:
-  - pulpotomy
   - root-canal
-  - apical-periodontitis
-  - chisu
+  - extraction
+  - conservative-dentistry
+  - cavity
 relatedPosts:
   - slug: root-canal-root-canal
     title: "한 번 신경치료했는데 또 아프다면? 재신경치료가 답일까요?"
@@ -39,16 +39,4 @@ relatedPosts:
     title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"
     image: "/img/posts/root-canal-extraction/cover.png"
     date: "2026-01-30"
-  - slug: root-canal-gum-tooth
-    title: "치아주변 고름이나 잇몸부종 있다면? 지금 신경치료가 필요할 수 있어요"
-    image: "/img/posts/root-canal-gum-tooth/cover.png"
-    date: "2026-03-07"
-  - slug: root-canal-treatment-before
-    title: "신경치료 전에 꼭 해야 할 검사, 이것이 성공률을 좌우합니다"
-    image: "/img/posts/root-canal-treatment-before/cover.png"
-    date: "2026-03-12"
-  - slug: tooth-3739
-    title: "딱딱한 거 씹다 치아가 깨졌다면? 꼭 확인해야 할 손상 범위"
-    image: "/img/posts/tooth-3739/cover.png"
-    date: "2026-02-23"
 ---

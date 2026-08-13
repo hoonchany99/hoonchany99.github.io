@@ -25,10 +25,10 @@ faqs:
   - question: "상악동거상술 비용은 얼마나 드나요?"
     answer: "이식 범위·재료·동시 식립 여부에 따라 달라져요. CT·검진 후 계획과 함께 견적을 안내해 드려요."
 relatedTerms:
-  - all-on-4
-  - bone-graft
-  - immediate-implant
-  - impeulranteu-geongangboheom
+  - cavity
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
   - slug: sinusimplant
     title: "상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다."

@@ -27,10 +27,10 @@ faqs:
   - question: "교정 중 발치해야 하나요?"
     answer: "공간 부족·돌출 등에 따라 발치가 필요한 경우가 있어요. 모든 분에게 해당되지는 않아요. 진단·X-ray 후 결정합니다."
 relatedTerms:
-  - invisalign
-  - tooth-fracture
   - extraction
-  - malocclusion
+  - invisalign
+  - cracked-tooth
+  - tooth-discoloration
 relatedPosts:
   - slug: duration-treatment
     title: "인비절라인 치료기간은 얼마나 걸릴까? 실제로 달라지는 요소들"
@@ -44,12 +44,4 @@ relatedPosts:
     title: "토끼앞니, 계속 가지고 사실거면 읽지 마세요."
     image: "/img/posts/front-teeth-6682/cover.png"
     date: "2022-11-08"
-  - slug: jawsurgery
-    title: "턱깎는수술, 무서운거 아닙니다."
-    image: "/img/posts/jawsurgery/cover.png"
-    date: "2023-04-10"
-  - slug: dental-8903
-    title: "치과진료과목, 어디로 갈지 고민하지 마세요."
-    image: "/img/posts/dental-8903/cover.png"
-    date: "2023-04-02"
 ---

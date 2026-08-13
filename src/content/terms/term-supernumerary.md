@@ -26,10 +26,10 @@ faqs:
   - question: "과잉치와 교정은?"
     answer: "교정 계획·교환 시기와 함께 발치 시점을 정하는 경우가 많아요. 소아·청소년에서 함께 검토합니다."
 relatedTerms:
-  - impacted-tooth
-  - local-anesthesia
-  - nitrous-oxide
-  - sedation
+  - cavity
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
   - slug: supernumerary
     title: "어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다"

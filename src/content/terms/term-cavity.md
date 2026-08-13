@@ -30,10 +30,10 @@ faqs:
   - question: "충치 치료 후 레진·인레이·크라운 중 뭘 선택하나요?"
     answer: "충치 범위와 씹는 힘·심미 요구에 따라 결정해요. 범위가 작으면 레진, 중간이면 인레이·온레이, 손실이 크거나 신경치료 후에는 크라운을 고려하는 경우가 많습니다."
 relatedTerms:
-  - caries
-  - molar
   - resin
   - sensitivity
+  - root-canal
+  - implant
 relatedPosts:
   - slug: crown-inlay-cavity
     title: "충치 치료, 비용은 얼마나 들까? 레진, 인레이, 크라운 단계별 가격 정리"
@@ -47,12 +47,12 @@ relatedPosts:
     title: "충치가 아프기 시작했다면? 단계별로 달라지는 통증과 치료 시점"
     image: "/img/posts/cavity-pain-treatment/cover.png"
     date: "2026-04-06"
-  - slug: cavity-sensitivity
-    title: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."
-    image: "/img/posts/cavity-sensitivity/cover.png"
-    date: "2022-11-05"
   - slug: cavity
     title: "찬물만 닿아도 시리다면... 충치 신호일 수 있습니다"
     image: "/img/posts/cavity/cover.png"
     date: "2026-01-19"
+  - slug: cavity-sensitivity
+    title: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."
+    image: "/img/posts/cavity-sensitivity/cover.png"
+    date: "2022-11-05"
 ---

@@ -26,13 +26,10 @@ faqs:
   - question: "흡연하면 골유착에 안 좋나요?"
     answer: "흡연은 유착·치유에 불리한 것으로 알려져 있어요. 수술 전후 금연·감소를 권하는 경우가 많습니다."
 relatedTerms:
-  - all-on-4
-  - immediate-implant
-  - impeulranteu-geongangboheom
-  - impeulranteu-sumyeong
+  - cavity
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
-  - slug: implant-pain
-    title: "임플란트 후 통증, 언제까지가 정상일까?"
-    image: "/img/posts/implant-pain/cover.png"
-    date: "2025-12-15"
+  []
 ---

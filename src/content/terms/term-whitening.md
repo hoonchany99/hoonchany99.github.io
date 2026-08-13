@@ -25,10 +25,10 @@ faqs:
   - question: "치과 미백과 홈 미백 차이는?"
     answer: "치과 내원 미백은 빠르고 강한 편이에요. 맞춤 트레이·OTC는 천천히·집에서 하는 방식입니다. 목표·민감도·예산에 따라 선택할 수 있어요."
 relatedTerms:
-  - calculus
-  - scaling-root-planing
   - sensitivity
-  - seukeilring-geongangboheom
+  - cracked-tooth
+  - orthodontics
+  - tooth-discoloration
 relatedPosts:
   - slug: toothwhitening
     title: "치아미백 효과 얼마나 갈까? 효과가 사라지는 이유 설명드립니다"

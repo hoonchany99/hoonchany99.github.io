@@ -27,28 +27,9 @@ faqs:
     answer: "치과의 구강내과 진료가 출발점이 되는 경우가 많아요. 원인이 자가면역 수포성 질환으로 확인되면 피부과와 함께 보기도 합니다. 잇몸 관리 자체는 치과에서 병행해요."
 relatedTerms:
   - gingivitis
-  - periodontitis
-  - scaling-root-planing
-  - floss
+  - cavity
+  - root-canal
+  - implant
 relatedPosts:
-  - slug: brushing-method
-    title: "양치할 때마다 피가 난다면... 잘못된 방법 때문일까요?"
-    image: "/img/posts/brushing-method/cover.png"
-    date: "2026-03-25"
-  - slug: scaling-gum
-    title: "스케일링 직후 잇몸에서 피가 난다면, 어디까지 정상일까?"
-    image: "/img/posts/scaling-gum/cover.png"
-    date: "2025-12-23"
-  - slug: scaling-insurance
-    title: "스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다"
-    image: "/img/posts/scaling-insurance/cover.png"
-    date: "2025-11-30"
-  - slug: gum-throbbing
-    title: "잇몸욱신, 그냥 두면 안됩니다."
-    image: "/img/posts/gum-throbbing/cover.png"
-    date: "2023-05-31"
-  - slug: gum-diseasedental
-    title: "잇몸질환치과, 그대로 두면 큰일납니다."
-    image: "/img/posts/gum-diseasedental/cover.png"
-    date: "2023-04-07"
+  []
 ---

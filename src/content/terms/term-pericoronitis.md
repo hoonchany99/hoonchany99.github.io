@@ -27,10 +27,10 @@ faqs:
   - question: "치관주위염 때 발치 바로 하나요?"
     answer: "급성 염증·부종이 심하면 먼저 소독·약물로 가라앉힌 뒤 발치하는 경우가 많아요. 상태에 따라 일정이 달라집니다."
 relatedTerms:
-  - impacted-tooth
   - wisdom-tooth
-  - extraction
-  - molar
+  - peri-implantitis
+  - cavity
+  - root-canal
 relatedPosts:
   - slug: wisdom-tooth-gum
     title: "사랑니 주변 잇몸이 붓고 고름이 보인다면? 염증 신호일 수 있어요"
@@ -40,16 +40,4 @@ relatedPosts:
     title: "매복 사랑니가 통증을 만드는 이유, 이런 경우 특히 조심하세요"
     image: "/img/posts/impacted-wisdom-tooth-pain/cover.png"
     date: "2026-01-07"
-  - slug: wisdom-tooth-molar-cavity
-    title: "사랑니 때문에 옆 어금니 충치 생길 수 있을까? 실제로 가능한 경우"
-    image: "/img/posts/wisdom-tooth-molar-cavity/cover.png"
-    date: "2026-03-24"
-  - slug: wisdom-tooth-extraction-1571
-    title: "내 사랑니는 어려운 편일까? 발치 난이도 결정 요소 정리"
-    image: "/img/posts/wisdom-tooth-extraction-1571/cover.png"
-    date: "2025-12-16"
-  - slug: wisdom-tooth-pain
-    title: "사랑니 아픈데 언제 괜찮아질까? 통증과 붓기 회복 기준"
-    image: "/img/posts/wisdom-tooth-pain/cover.png"
-    date: "2025-12-10"
 ---

@@ -29,8 +29,8 @@ faqs:
   - question: "크라운 수명은 얼마나 되나요?"
     answer: "관리·재료·교합·이갈이에 따라 달라져요. 보통 10년 전후를 기대하는 경우가 많지만, 개인차가 큽니다. 정기 검진과 경계부 관리가 중요해요."
 relatedTerms:
-  - pfm
   - occlusal-adjustment
+  - pfm
   - sensitivity
   - zirconia
 relatedPosts:
@@ -38,10 +38,6 @@ relatedPosts:
     title: "크라운 재료별 가격, 골드·지르코니아·PFM 어떤 게 나을까?"
     image: "/img/posts/zirconia-crown-price/cover.png"
     date: "2026-04-05"
-  - slug: crown-gum
-    title: "크라운 주변 잇몸이 붓는다면? 경계부 확인이 필요한 이유"
-    image: "/img/posts/crown-gum/cover.png"
-    date: "2026-02-09"
   - slug: sensitivity-after-crown
     title: "크라운치료 후 시림... 언제까지 정상일까요? 기준을 알려드립니다"
     image: "/img/posts/sensitivity-after-crown/main.png"
@@ -50,6 +46,10 @@ relatedPosts:
     title: "크라운 색이 티 나는 이유… 자연스럽게 만드는 기준은?"
     image: "/img/posts/crown-3692/cover.png"
     date: "2026-01-13"
+  - slug: crown-gum
+    title: "크라운 주변 잇몸이 붓는다면? 경계부 확인이 필요한 이유"
+    image: "/img/posts/crown-gum/cover.png"
+    date: "2026-02-09"
   - slug: crown-5831
     title: "크라운으로 씹을 때 아프다면? 조정이 필요한 대표적인 경우"
     image: "/img/posts/crown-5831/cover.png"

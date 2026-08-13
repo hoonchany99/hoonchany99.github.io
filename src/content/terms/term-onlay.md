@@ -26,15 +26,8 @@ faqs:
 relatedTerms:
   - gold-inlay
   - inlay
-  - caries
-  - cerec
+  - cavity
+  - root-canal
 relatedPosts:
-  - slug: inlay-1970
-    title: "인레이, 그게 뭐지? 어떤 경우에 사용하는지 정리해봤어요"
-    image: "/img/posts/inlay-1970/cover.png"
-    date: "2025-12-15"
-  - slug: ceramic-inlay
-    title: "세라믹? 금? 인레이 재료별 장단점 정리해드립니다"
-    image: "/img/posts/ceramic-inlay/cover.png"
-    date: "2025-11-30"
+  []
 ---

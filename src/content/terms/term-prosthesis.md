@@ -25,10 +25,10 @@ faqs:
   - question: "보철 치료 기간은?"
     answer: "크라운·브릿지는 보통 2~3주, 임플란트는 수개월, 틀니는 상대적으로 짧을 수 있어요. 치료 종류·케이스에 따라 달라집니다."
 relatedTerms:
-  - all-on-4
-  - cerec
-  - immediate-implant
-  - impeulranteu-geongangboheom
+  - tooth-gem
+  - cavity
+  - root-canal
+  - implant
 relatedPosts:
   - slug: prosthesis
     title: "원데이보철, 다시 한 번 고민해보세요."

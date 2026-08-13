@@ -27,12 +27,9 @@ faqs:
     answer: "치아 위치·난이도·마취·봉합 등에 따라 달라져요. 대부분 비급여인 경우가 많습니다. 수술 전 범위와 예상 비용을 확인하시면 좋아요."
 relatedTerms:
   - apical-periodontitis
-  - root-canal
-  - root-canal-re
   - scaling-root-planing
+  - cavity
+  - root-canal
 relatedPosts:
-  - slug: root-canal-root-canal
-    title: "한 번 신경치료했는데 또 아프다면? 재신경치료가 답일까요?"
-    image: "/img/posts/root-canal-root-canal/cover.png"
-    date: "2026-01-08"
+  []
 ---

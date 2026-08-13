@@ -26,10 +26,10 @@ faqs:
   - question: "치주염 예방법은?"
     answer: "올바른 칫솔질·치간 관리, 정기 스케일링·검진, 금연·당뇨 관리가 도움이 될 수 있어요. 잇몸 출혈을 \"약해서\" 넘기지 마세요."
 relatedTerms:
-  - bagriseong-chieunyeom
-  - gingivitis
   - bone-graft
+  - gingivitis
   - periodontal-pocket
+  - cavity
 relatedPosts:
   - slug: gum-brushing-reason
     title: "양치할 때 잇몸에서 피가 나는 이유, 단순 자극일까 잇몸병일까?"

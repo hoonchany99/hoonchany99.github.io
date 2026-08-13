@@ -26,29 +26,13 @@ faqs:
   - question: "우식이 빨리 진행되나요?"
     answer: "개인·위치·식습관·관리 상태에 따라 달라져요. 방치하면 몇 달~1년 안에 깊어질 수 있어 조기 치료가 중요합니다."
 relatedTerms:
-  - gold-inlay
-  - inlay
   - cavity
-  - cerec
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
   - slug: cavity-4311
     title: "이게 충치일까? 그냥 착색일까? 스스로 구분하는 방법"
     image: "/img/posts/cavity-4311/cover.png"
     date: "2025-12-04"
-  - slug: inlay-crack
-    title: "인레이 얼마나 오래 쓸 수 있을까? 깨짐, 마모 걱정 줄이는 팁"
-    image: "/img/posts/inlay-crack/cover.png"
-    date: "2025-12-27"
-  - slug: ceramic-inlay
-    title: "세라믹? 금? 인레이 재료별 장단점 정리해드립니다"
-    image: "/img/posts/ceramic-inlay/cover.png"
-    date: "2025-11-30"
-  - slug: cavity-crown
-    title: "씹을 때만 아픈데... 충치일까? 크라운 문제일까?"
-    image: "/img/posts/cavity-crown/cover.png"
-    date: "2025-12-25"
-  - slug: cavity-sensitivity
-    title: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."
-    image: "/img/posts/cavity-sensitivity/cover.png"
-    date: "2022-11-05"
 ---

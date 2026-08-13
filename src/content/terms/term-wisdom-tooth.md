@@ -30,29 +30,29 @@ faqs:
   - question: "사랑니 때문에 앞니가 밀리나요?"
     answer: "공간 부족·매복 각도에 따라 앞 치아 밀림의 원인이 될 수 있어요. 교정 계획과 함께 발치 시기를 정하는 경우도 많습니다."
 relatedTerms:
-  - pericoronitis
   - extraction
-  - impacted-tooth
   - molar
+  - pericoronitis
+  - cavity
 relatedPosts:
   - slug: wisdom-tooth-molar-cavity
     title: "사랑니 때문에 옆 어금니 충치 생길 수 있을까? 실제로 가능한 경우"
     image: "/img/posts/wisdom-tooth-molar-cavity/cover.png"
     date: "2026-03-24"
-  - slug: wisdom-tooth-extraction-1571
-    title: "내 사랑니는 어려운 편일까? 발치 난이도 결정 요소 정리"
-    image: "/img/posts/wisdom-tooth-extraction-1571/cover.png"
-    date: "2025-12-16"
   - slug: wisdom-tooth-recovery
     title: "사랑니 뽑고 나서 뭘 먹어야 할까? 식사.술.운동 회복 가이드"
     image: "/img/posts/wisdom-tooth-recovery/cover.png"
     date: "2026-04-06"
-  - slug: wisdom-tooth-pain
-    title: "사랑니 아픈데 언제 괜찮아질까? 통증과 붓기 회복 기준"
-    image: "/img/posts/wisdom-tooth-pain/cover.png"
-    date: "2025-12-10"
   - slug: wisdom-tooth-extraction-cost
     title: "사랑니 발치 비용, 보험 적용되나요? 단순·매복별 가격 총정리"
     image: "/img/posts/wisdom-tooth-extraction-cost/cover.png"
     date: "2026-04-03"
+  - slug: wisdom-tooth-extraction-1571
+    title: "내 사랑니는 어려운 편일까? 발치 난이도 결정 요소 정리"
+    image: "/img/posts/wisdom-tooth-extraction-1571/cover.png"
+    date: "2025-12-16"
+  - slug: impacted-wisdom-tooth-pain
+    title: "매복 사랑니가 통증을 만드는 이유, 이런 경우 특히 조심하세요"
+    image: "/img/posts/impacted-wisdom-tooth-pain/cover.png"
+    date: "2026-01-07"
 ---

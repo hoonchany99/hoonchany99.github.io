@@ -26,13 +26,10 @@ faqs:
   - question: "진정 치료 전 금식해야 하나요?"
     answer: "진정 종류·범위에 따라 금식·금수 시간이 달라질 수 있어요. 처방·금식·귀가 지침을 꼭 따르세요."
 relatedTerms:
-  - impacted-tooth
-  - local-anesthesia
-  - nitrous-oxide
-  - supernumerary
+  - pediatric-dentistry
+  - silbiboheom-chigwa-jeogyong
+  - cavity
+  - root-canal
 relatedPosts:
-  - slug: supernumerary
-    title: "어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다"
-    image: "/img/posts/supernumerary/cover.png"
-    date: "2022-09-08"
+  []
 ---

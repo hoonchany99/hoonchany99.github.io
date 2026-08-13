@@ -27,15 +27,11 @@ faqs:
 relatedTerms:
   - root-canal
   - root-canal-re
-  - balchi-hu-juuisahang
-  - extraction
+  - cavity
+  - implant
 relatedPosts:
   - slug: tooth
     title: "자연치아살리기, 살리는게 정말 맞을까요?"
     image: "/img/posts/tooth/cover.png"
     date: "2023-04-05"
-  - slug: root-canal-extraction
-    title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"
-    image: "/img/posts/root-canal-extraction/cover.png"
-    date: "2026-01-30"
 ---

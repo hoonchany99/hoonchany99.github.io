@@ -27,17 +27,10 @@ faqs:
   - question: "치실 사용법을 알려주세요"
     answer: "약 30~40cm 정도를 잡고, 치아 사이에 C자로 감아 올리듯 천천히 넣었다 빼세요. 너무 세게 넣으면 잇몸 상처가 날 수 있어요."
 relatedTerms:
-  - bagriseong-chieunyeom
-  - gingivitis
-  - scaling-root-planing
-  - seukeilring-geongangboheom
+  - cavity
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
-  - slug: brushing-cavity
-    title: "올바른 양치법, 이것만 알아도 충치안생깁니다"
-    image: "/img/posts/brushing-cavity/cover.png"
-    date: "2022-09-17"
-  - slug: scaling-gum
-    title: "스케일링 직후 잇몸에서 피가 난다면, 어디까지 정상일까?"
-    image: "/img/posts/scaling-gum/cover.png"
-    date: "2025-12-23"
+  []
 ---

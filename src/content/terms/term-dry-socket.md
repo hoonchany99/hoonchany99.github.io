@@ -24,17 +24,10 @@ faqs:
   - question: "건조와면 다시 발치해야 하나요?"
     answer: "재발치는 필요 없어요. 혈병 형성·통증 관리·소독 등으로 치료합니다. 증상이 악화되면 바로 내원해 주세요."
 relatedTerms:
-  - extraction
   - cavity
   - root-canal
   - implant
+  - wisdom-tooth
 relatedPosts:
-  - slug: wisdom-tooth-extraction-recovery
-    title: "사랑니 발치 후 하얀 막처럼 보인다면? 정상 회복과 내원 신호"
-    image: "/img/posts/wisdom-tooth-extraction-recovery/cover.png"
-    date: "2026-03-11"
-  - slug: wisdom-tooth-extraction
-    title: "사랑니 발치 후 회복 빠르게 하려면? 생활습관이 중요합니다"
-    image: "/img/posts/wisdom-tooth-extraction/cover.png"
-    date: "2026-02-08"
+  []
 ---

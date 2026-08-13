@@ -27,21 +27,10 @@ faqs:
   - question: "치아 변색 예방법은?"
     answer: "양치·가글, 착색 음식·흡연 줄이기, 정기 검진, 충치·잇몸 조기 치료가 도움이 될 수 있어요."
 relatedTerms:
-  - tooth-fracture
-  - laminate
   - cracked-tooth
   - orthodontics
+  - tooth-fracture
+  - whitening
 relatedPosts:
-  - slug: post-659519
-    title: "누렁니, 그냥 두시면 큰일납니다."
-    image: "/img/posts/post-659519/cover.png"
-    date: "2023-05-16"
-  - slug: front-teeth
-    title: "앞니까매짐, 빨리 해결 안하시면 이렇게 됩니다."
-    image: "/img/posts/front-teeth/cover.png"
-    date: "2023-04-21"
-  - slug: laminate-crack
-    title: "라미네이트는 얼마나 오래 갈까? 깨짐, 변색 없이 유지하는 법"
-    image: "/img/posts/laminate-crack/cover.png"
-    date: "2026-01-10"
+  []
 ---

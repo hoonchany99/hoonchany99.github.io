@@ -30,9 +30,9 @@ faqs:
     answer: "손상 범위가 크지 않으면 인레이·온레이를 먼저 고려할 수 있어요. 치아 전체를 덮어야 할 정도면 크라운이 맞는 경우가 많습니다."
 relatedTerms:
   - gold-inlay
-  - caries
   - cerec
   - onlay
+  - cavity
 relatedPosts:
   - slug: inlay
     title: "인레이, 가격은 어느 정도일까? 재료별 & 병원별 비교"

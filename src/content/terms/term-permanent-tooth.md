@@ -27,9 +27,9 @@ faqs:
     answer: "치주염·외상·교환기 등 원인이 다양해요. 검진으로 원인 확인 후 치료 방향을 정하는 게 좋습니다."
 relatedTerms:
   - gold-inlay
-  - malocclusion
   - molar
-  - occlusal-adjustment
+  - primary-tooth
+  - cavity
 relatedPosts:
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"

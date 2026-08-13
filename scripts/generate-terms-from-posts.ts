@@ -45,6 +45,16 @@ const TERMS_DIR = path.resolve(__dirname, '../src/content/terms');
 /** '함께 보면 좋은 용어' 노출 개수 */
 const RELATED_TERM_COUNT = 4;
 
+/** '관련 블로그 글' 노출 개수 */
+const RELATED_POST_COUNT = 5;
+
+/**
+ * 관련 글로 붙이기 위한 최소 관련도.
+ * 이 아래는 주제가 스치기만 한 글이라, 의료 정보 페이지에 '관련 글'로
+ * 내보내면 링크 하나 얻고 신뢰를 잃는다. 없는 편이 낫다.
+ */
+const MIN_POST_SCORE = 10;
+
 interface PostRecord {
   slug: string;
   title: string;
@@ -59,23 +69,32 @@ function normalize(s: string): string {
   return s.toLowerCase().replace(/\s+/g, '');
 }
 
-function matchesAlias(text: string, alias: string): boolean {
-  const nText = normalize(text);
-  const nAlias = normalize(alias);
-  return nText === nAlias || nText.includes(nAlias) || nAlias.includes(nText);
-}
-
+/**
+ * 용어와 글의 관련도.
+ *
+ * 방향이 중요하다. 글 쪽이 용어를 담고 있으면 그 글은 용어를 다룬 글이지만,
+ * 반대로 용어가 글의 키워드를 담고 있는 건 상위 개념이 겹칠 뿐이다.
+ * ('박리성 치은염'이 '치은염'을 담았다고 일반 치은염 글이 관련 글은 아니다)
+ * 그래서 역방향은 약하게만 센다.
+ */
 function scorePost(post: PostRecord, aliases: string[], name: string): number {
   let score = 0;
   const allKeys = [name, ...aliases];
+
   for (const tag of post.tags) {
+    const nTag = normalize(tag);
     for (const key of allKeys) {
-      if (matchesAlias(tag, key)) score += 3;
+      const nKey = normalize(key);
+      if (nTag === nKey || nTag.includes(nKey)) score += 3;
+      else if (nKey.includes(nTag)) score += 1;
     }
   }
+
+  const nTitle = normalize(post.title);
   for (const key of allKeys) {
-    if (matchesAlias(post.title, key)) score += 5;
+    if (nTitle.includes(normalize(key))) score += 5;
   }
+
   return score;
 }
 
@@ -262,7 +281,7 @@ function main() {
   for (const term of termsCanonical) {
     const scored = posts
       .map((post) => ({ post, score: scorePost(post, term.aliases, term.name) }))
-      .filter(({ score }) => score > 0)
+      .filter(({ score }) => score >= MIN_POST_SCORE)
       .sort(
         (a, b) =>
           b.score - a.score ||
@@ -270,7 +289,7 @@ function main() {
       );
     relatedPostsByTerm.set(
       term.slug,
-      scored.slice(0, 5).map(({ post }) => post)
+      scored.slice(0, RELATED_POST_COUNT).map(({ post }) => post)
     );
   }
 

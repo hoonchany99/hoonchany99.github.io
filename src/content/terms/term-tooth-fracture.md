@@ -27,29 +27,13 @@ faqs:
   - question: "치아 파절 후 신경치료가 필요한가요?"
     answer: "신경까지 노출·통증·X-ray상 신경 주변 손상이 있으면 신경치료가 필요할 수 있어요. 검진 후 결정합니다."
 relatedTerms:
+  - primary-tooth
   - cracked-tooth
   - orthodontics
   - tooth-discoloration
-  - chisu
 relatedPosts:
   - slug: baby-tooth-fracture
     title: "유치 부러짐, 당황하지 말고 이것부터 하세요"
     image: "/img/posts/baby-tooth-fracture/cover.png"
     date: "2022-06-23"
-  - slug: front-teeth
-    title: "앞니까매짐, 빨리 해결 안하시면 이렇게 됩니다."
-    image: "/img/posts/front-teeth/cover.png"
-    date: "2023-04-21"
-  - slug: tooth-3739
-    title: "딱딱한 거 씹다 치아가 깨졌다면? 꼭 확인해야 할 손상 범위"
-    image: "/img/posts/tooth-3739/cover.png"
-    date: "2026-02-23"
-  - slug: root-canal-tooth-crown
-    title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"
-    image: "/img/posts/root-canal-tooth-crown/cover.png"
-    date: "2025-12-04"
-  - slug: front-teeth-6682
-    title: "토끼앞니, 계속 가지고 사실거면 읽지 마세요."
-    image: "/img/posts/front-teeth-6682/cover.png"
-    date: "2022-11-08"
 ---

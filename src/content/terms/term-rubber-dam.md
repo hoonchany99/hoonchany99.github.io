@@ -26,13 +26,10 @@ faqs:
   - question: "러버댐 때문에 치료 시간이 늘어나나요?"
     answer: "장착에 몇 분 더 걸릴 수 있어요. 대신 치료 품질·위생·안전에 도움이 되는 경우가 많습니다."
 relatedTerms:
-  - apical-periodontitis
-  - root-canal
   - cavity
+  - root-canal
   - implant
+  - wisdom-tooth
 relatedPosts:
-  - slug: root-canal-pain
-    title: "신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다"
-    image: "/img/posts/root-canal-pain/cover.png"
-    date: "2025-11-30"
+  []
 ---

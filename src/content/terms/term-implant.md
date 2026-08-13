@@ -50,8 +50,8 @@ relatedPosts:
     title: "임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름"
     image: "/img/posts/implant-surgery-3/cover.png"
     date: "2025-12-02"
-  - slug: implant-pain
-    title: "임플란트 후 통증, 언제까지가 정상일까?"
-    image: "/img/posts/implant-pain/cover.png"
-    date: "2025-12-15"
+  - slug: implant-2223
+    title: "임플란트가 실패할 수 있다면? 부작용과 주의해야 할 경우들"
+    image: "/img/posts/implant-2223/cover.png"
+    date: "2026-01-16"
 ---

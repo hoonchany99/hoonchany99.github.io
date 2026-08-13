@@ -29,9 +29,9 @@ faqs:
     answer: "부모 도움 아래 양치·불소 치약·설탕 줄이기·정기 검진이 기본이에요. 유치도 충치·외상이 생길 수 있어 관리가 중요합니다."
 relatedTerms:
   - gold-inlay
-  - malocclusion
   - molar
-  - occlusal-adjustment
+  - permanent-tooth
+  - tooth-fracture
 relatedPosts:
   - slug: baby-tooth-fracture
     title: "유치 부러짐, 당황하지 말고 이것부터 하세요"
@@ -49,8 +49,4 @@ relatedPosts:
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
     image: "/img/posts/first-molar/cover.png"
     date: "2022-07-22"
-  - slug: cavity-reason
-    title: "실란트 했는데 충치 생길거면 왜 해야되나요? 이유를 설명해드립니다"
-    image: "/img/posts/cavity-reason/cover.png"
-    date: "2026-02-28"
 ---

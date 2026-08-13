@@ -26,17 +26,10 @@ faqs:
   - question: "치석 제거 후 시려요"
     answer: "일시적 시림·출혈은 흔할 수 있어요. 대부분 며칠~몇 주 내 호전됩니다. 심하거나 오래가면 검진으로 원인을 확인해요."
 relatedTerms:
-  - scaling-root-planing
-  - seukeilring-geongangboheom
-  - halitosis
-  - whitening
+  - cavity
+  - root-canal
+  - implant
+  - wisdom-tooth
 relatedPosts:
-  - slug: gum-bad-breath
-    title: "잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다"
-    image: "/img/posts/gum-bad-breath/cover.png"
-    date: "2025-12-13"
-  - slug: scaling-tooth-toothwhitening
-    title: "스케일링만 하면 치아가 하얘질까? 치아미백과의 확실한 차이"
-    image: "/img/posts/scaling-tooth-toothwhitening/cover.png"
-    date: "2026-01-14"
+  []
 ---

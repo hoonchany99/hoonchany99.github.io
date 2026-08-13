@@ -31,8 +31,5 @@ relatedTerms:
   - pulpotomy
   - cavity
 relatedPosts:
-  - slug: cavity-root-canal
-    title: "깊은 충치가 있다면 왜 신경치료가 필요할까요?"
-    image: "/img/posts/cavity-root-canal/cover.png"
-    date: "2025-12-22"
+  []
 ---

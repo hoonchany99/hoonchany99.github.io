@@ -26,17 +26,10 @@ faqs:
   - question: "스플린트 관리는 어떻게 하나요?"
     answer: "매일 세척·건조 보관, 뜨거운 물·직사광선 피하기, 정기 검진으로 마모·변형을 확인하세요. 깨지면 교체가 필요할 수 있어요."
 relatedTerms:
-  - primary-tooth
   - cavity
   - root-canal
   - implant
+  - wisdom-tooth
 relatedPosts:
-  - slug: baby-toothcrack
-    title: "유치깨짐, 일단 진정하시고 이렇게만 하세요."
-    image: "/img/posts/baby-toothcrack/cover.png"
-    date: "2023-04-22"
-  - slug: post-501653
-    title: "잘때숨막힘, 그대로 두면 위험합니다"
-    image: "/img/posts/post-501653/cover.png"
-    date: "2022-09-02"
+  []
 ---

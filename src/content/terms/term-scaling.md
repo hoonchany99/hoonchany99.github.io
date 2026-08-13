@@ -26,10 +26,10 @@ faqs:
   - question: "스케일링만으로 치주염이 낫나요?"
     answer: "치은염·초기 치주염에는 도움이 되는 경우가 많아요. 진행된 치주염은 치근활택술·수술 등 추가 치료가 필요할 수 있습니다."
 relatedTerms:
-  - scaling-root-planing
   - seukeilring-geongangboheom
-  - bagriseong-chieunyeom
-  - gingivitis
+  - cavity
+  - root-canal
+  - implant
 relatedPosts:
   - slug: scaling-insurance-1
     title: "스케일링 보험은 1년에 몇 번? 놓치기 쉬운 적용 기준"

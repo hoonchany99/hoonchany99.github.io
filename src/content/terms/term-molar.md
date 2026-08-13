@@ -26,10 +26,10 @@ faqs:
   - question: "어금니 관리 팁은?"
     answer: "교두 사이 칫솔·치간 칫솔, 정기 검진·실란트(어린이), 단단한 음식·이갈이 주의가 도움이 될 수 있어요."
 relatedTerms:
-  - cavity
   - gold-inlay
-  - impacted-tooth
-  - malocclusion
+  - permanent-tooth
+  - primary-tooth
+  - wisdom-tooth
 relatedPosts:
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
@@ -39,12 +39,4 @@ relatedPosts:
     title: "사랑니 때문에 옆 어금니 충치 생길 수 있을까? 실제로 가능한 경우"
     image: "/img/posts/wisdom-tooth-molar-cavity/cover.png"
     date: "2026-03-24"
-  - slug: resin-cost-care
-    title: "레진 치료 비용은 얼마? 수명은 몇 년일까? 관리법까지 한눈에"
-    image: "/img/posts/resin-cost-care/cover.png"
-    date: "2026-04-09"
-  - slug: cavity-pain-treatment
-    title: "충치가 아프기 시작했다면? 단계별로 달라지는 통증과 치료 시점"
-    image: "/img/posts/cavity-pain-treatment/cover.png"
-    date: "2026-04-06"
 ---

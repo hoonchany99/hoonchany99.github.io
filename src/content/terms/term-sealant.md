@@ -26,10 +26,10 @@ faqs:
   - question: "실란트 보험 적용되나요?"
     answer: "연령·치아·규정에 따라 건강보험 적용 여부가 달라질 수 있어요. 내원 시 조건을 확인해 드려요."
 relatedTerms:
-  - primary-tooth
   - immediate-implant
   - impeulranteu-geongangboheom
   - impeulranteu-sumyeong
+  - implant
 relatedPosts:
   - slug: cavity-reason
     title: "실란트 했는데 충치 생길거면 왜 해야되나요? 이유를 설명해드립니다"

@@ -28,21 +28,13 @@ faqs:
   - question: "세렉 비용은 더 비싼가요?"
     answer: "장비·재료·당일 제작 등으로 비용 구조가 달라질 수 있어요. 치료 전 범위와 예상 비용을 확인하시면 좋아요."
 relatedTerms:
-  - inlay
-  - caries
   - gold-inlay
-  - onlay
+  - inlay
+  - cavity
+  - root-canal
 relatedPosts:
   - slug: cerecinlay
     title: "세렉인레이, 드디어 정체를 알려드립니다."
     image: "/img/posts/cerecinlay/cover.png"
     date: "2023-04-01"
-  - slug: prosthesis
-    title: "원데이보철, 다시 한 번 고민해보세요."
-    image: "/img/posts/prosthesis/cover.png"
-    date: "2023-03-30"
-  - slug: ceramic-inlay
-    title: "세라믹? 금? 인레이 재료별 장단점 정리해드립니다"
-    image: "/img/posts/ceramic-inlay/cover.png"
-    date: "2025-11-30"
 ---

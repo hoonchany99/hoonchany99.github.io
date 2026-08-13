@@ -31,6 +31,10 @@ relatedTerms:
 relatedPosts:
   - slug: wisdom-tooth-extraction-recovery
     title: "사랑니 발치 후 하얀 막처럼 보인다면? 정상 회복과 내원 신호"
+    image: "/img/posts/wisdom-tooth-extraction-recovery/cover.png"
+    date: "2026-03-11"
   - slug: wisdom-tooth-extraction
     title: "사랑니 발치 후 회복 빠르게 하려면? 생활습관이 중요합니다"
+    image: "/img/posts/wisdom-tooth-extraction/cover.png"
+    date: "2026-02-08"
 ---

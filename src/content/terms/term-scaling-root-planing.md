@@ -34,12 +34,22 @@ relatedTerms:
 relatedPosts:
   - slug: scaling-insurance
     title: "스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다"
+    image: "/img/posts/scaling-insurance/cover.png"
+    date: "2025-11-30"
   - slug: scaling-insurance-6436
     title: "스케일링 보험, 1년에 몇 번까지? 적용 조건과 비급여 기준"
+    image: "/img/posts/scaling-insurance-6436/cover.png"
+    date: "2026-04-21"
   - slug: scaling-tooth-toothwhitening
     title: "스케일링만 하면 치아가 하얘질까? 치아미백과의 확실한 차이"
+    image: "/img/posts/scaling-tooth-toothwhitening/cover.png"
+    date: "2026-01-14"
   - slug: scaling-gum
     title: "스케일링 직후 잇몸에서 피가 난다면, 어디까지 정상일까?"
+    image: "/img/posts/scaling-gum/cover.png"
+    date: "2025-12-23"
   - slug: gum-bad-breath
     title: "잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다"
+    image: "/img/posts/gum-bad-breath/cover.png"
+    date: "2025-12-13"
 ---

@@ -33,12 +33,22 @@ relatedTerms:
 relatedPosts:
   - slug: ceramic-inlay
     title: "세라믹? 금? 인레이 재료별 장단점 정리해드립니다"
+    image: "/img/posts/ceramic-inlay/cover.png"
+    date: "2025-11-30"
   - slug: inlay
     title: "인레이, 가격은 어느 정도일까? 재료별 & 병원별 비교"
+    image: "/img/posts/inlay/cover.png"
+    date: "2026-01-15"
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
+    image: "/img/posts/first-molar/cover.png"
+    date: "2022-07-22"
   - slug: inlay-crack
     title: "인레이 얼마나 오래 쓸 수 있을까? 깨짐, 마모 걱정 줄이는 팁"
+    image: "/img/posts/inlay-crack/cover.png"
+    date: "2025-12-27"
   - slug: inlay-1970
     title: "인레이, 그게 뭐지? 어떤 경우에 사용하는지 정리해봤어요"
+    image: "/img/posts/inlay-1970/cover.png"
+    date: "2025-12-15"
 ---

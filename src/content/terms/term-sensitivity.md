@@ -33,12 +33,22 @@ relatedTerms:
 relatedPosts:
   - slug: cavity-sensitivity
     title: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."
+    image: "/img/posts/cavity-sensitivity/cover.png"
+    date: "2022-11-05"
   - slug: sensitivity-after-crown
     title: "크라운치료 후 시림... 언제까지 정상일까요? 기준을 알려드립니다"
+    image: "/img/posts/sensitivity-after-crown/main.png"
+    date: "2025-12-09"
   - slug: tooth-cavity
     title: "단맛에만 시린 치아... 충치 초기일까요? 확인해야 할 신호들"
+    image: "/img/posts/tooth-cavity/cover.png"
+    date: "2025-12-10"
   - slug: scaling-tooth
     title: "스케일링 후 치아가 시린가요? 민감해진 이유와 대처법"
+    image: "/img/posts/scaling-tooth/cover.png"
+    date: "2025-12-10"
   - slug: toothwhitening-sensitivity
     title: "치아미백 후 시림... 정상일까요? 바로 알아보세요"
+    image: "/img/posts/toothwhitening-sensitivity/cover.png"
+    date: "2025-11-26"
 ---

@@ -33,10 +33,18 @@ relatedTerms:
 relatedPosts:
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
+    image: "/img/posts/first-molar/cover.png"
+    date: "2022-07-22"
   - slug: wisdom-tooth-molar-cavity
     title: "사랑니 때문에 옆 어금니 충치 생길 수 있을까? 실제로 가능한 경우"
+    image: "/img/posts/wisdom-tooth-molar-cavity/cover.png"
+    date: "2026-03-24"
   - slug: resin-cost-care
     title: "레진 치료 비용은 얼마? 수명은 몇 년일까? 관리법까지 한눈에"
+    image: "/img/posts/resin-cost-care/cover.png"
+    date: "2026-04-09"
   - slug: cavity-pain-treatment
     title: "충치가 아프기 시작했다면? 단계별로 달라지는 통증과 치료 시점"
+    image: "/img/posts/cavity-pain-treatment/cover.png"
+    date: "2026-04-06"
 ---

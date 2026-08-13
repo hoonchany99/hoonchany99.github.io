@@ -33,10 +33,18 @@ relatedTerms:
 relatedPosts:
   - slug: toothpaste-fluoride
     title: "무불소 치약만으로 충분할까? 장단점과 선택 기준"
+    image: "/img/posts/toothpaste-fluoride/cover.png"
+    date: "2026-03-17"
   - slug: cavity-toothpaste-fluoride
     title: "치약 불소 효과 있을까? 충치 예방, 진짜 되는지 따져봤습니다"
+    image: "/img/posts/cavity-toothpaste-fluoride/cover.png"
+    date: "2026-02-26"
   - slug: fluoride-7270
     title: "수돗물불소, 마시지 말고 일단 읽어보세요."
+    image: "/img/posts/fluoride-7270/cover.png"
+    date: "2022-10-31"
   - slug: fluoride
     title: "수돗물불소, 아직도 모르셨나요?"
+    image: "/img/posts/fluoride/cover.png"
+    date: "2023-05-18"
 ---

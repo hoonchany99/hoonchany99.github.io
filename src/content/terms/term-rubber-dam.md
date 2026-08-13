@@ -33,4 +33,6 @@ relatedTerms:
 relatedPosts:
   - slug: root-canal-pain
     title: "신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다"
+    image: "/img/posts/root-canal-pain/cover.png"
+    date: "2025-11-30"
 ---

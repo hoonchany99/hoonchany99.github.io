@@ -37,12 +37,22 @@ relatedTerms:
 relatedPosts:
   - slug: wisdom-tooth-molar-cavity
     title: "사랑니 때문에 옆 어금니 충치 생길 수 있을까? 실제로 가능한 경우"
+    image: "/img/posts/wisdom-tooth-molar-cavity/cover.png"
+    date: "2026-03-24"
   - slug: wisdom-tooth-extraction-1571
     title: "내 사랑니는 어려운 편일까? 발치 난이도 결정 요소 정리"
+    image: "/img/posts/wisdom-tooth-extraction-1571/cover.png"
+    date: "2025-12-16"
   - slug: wisdom-tooth-recovery
     title: "사랑니 뽑고 나서 뭘 먹어야 할까? 식사.술.운동 회복 가이드"
+    image: "/img/posts/wisdom-tooth-recovery/cover.png"
+    date: "2026-04-06"
   - slug: wisdom-tooth-pain
     title: "사랑니 아픈데 언제 괜찮아질까? 통증과 붓기 회복 기준"
+    image: "/img/posts/wisdom-tooth-pain/cover.png"
+    date: "2025-12-10"
   - slug: wisdom-tooth-extraction-cost
     title: "사랑니 발치 비용, 보험 적용되나요? 단순·매복별 가격 총정리"
+    image: "/img/posts/wisdom-tooth-extraction-cost/cover.png"
+    date: "2026-04-03"
 ---

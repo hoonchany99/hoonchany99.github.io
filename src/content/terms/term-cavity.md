@@ -37,12 +37,22 @@ relatedTerms:
 relatedPosts:
   - slug: crown-inlay-cavity
     title: "충치 치료, 비용은 얼마나 들까? 레진, 인레이, 크라운 단계별 가격 정리"
+    image: "/img/posts/crown-inlay-cavity/cover.png"
+    date: "2026-03-30"
   - slug: cavity-4240
     title: "충치 초기, 집에서 알아챌 수 있을까? 놓치기 쉬운 신호 5가지"
+    image: "/img/posts/cavity-4240/cover.png"
+    date: "2026-05-02"
   - slug: cavity-pain-treatment
     title: "충치가 아프기 시작했다면? 단계별로 달라지는 통증과 치료 시점"
+    image: "/img/posts/cavity-pain-treatment/cover.png"
+    date: "2026-04-06"
   - slug: cavity-sensitivity
     title: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."
+    image: "/img/posts/cavity-sensitivity/cover.png"
+    date: "2022-11-05"
   - slug: cavity
     title: "찬물만 닿아도 시리다면... 충치 신호일 수 있습니다"
+    image: "/img/posts/cavity/cover.png"
+    date: "2026-01-19"
 ---

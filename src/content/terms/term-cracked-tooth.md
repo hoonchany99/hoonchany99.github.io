@@ -34,6 +34,10 @@ relatedTerms:
 relatedPosts:
   - slug: root-canal-tooth-crown
     title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"
+    image: "/img/posts/root-canal-tooth-crown/cover.png"
+    date: "2025-12-04"
   - slug: cavity-crown
     title: "씹을 때만 아픈데... 충치일까? 크라운 문제일까?"
+    image: "/img/posts/cavity-crown/cover.png"
+    date: "2025-12-25"
 ---

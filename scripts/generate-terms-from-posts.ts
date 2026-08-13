@@ -52,6 +52,7 @@ interface PostRecord {
   description?: string;
   tldr?: string;
   date?: Date;
+  image?: string;
 }
 
 function normalize(s: string): string {
@@ -93,6 +94,7 @@ function loadPosts(): PostRecord[] {
         description: data.description as string | undefined,
         tldr: data.tldr as string | undefined,
         date: data.date ? new Date(data.date) : undefined,
+        image: (data.image as { path?: string } | undefined)?.path,
       };
     });
 }
@@ -231,7 +233,12 @@ function renderTermFile(
     ...(relatedTerms.length ? relatedTerms.map((s) => `  - ${s}`) : ['  []']),
     'relatedPosts:',
     ...(relatedPosts.length
-      ? relatedPosts.flatMap((p) => [`  - slug: ${p.slug}`, `    title: ${yamlQuote(p.title)}`])
+      ? relatedPosts.flatMap((p) => [
+          `  - slug: ${p.slug}`,
+          `    title: ${yamlQuote(p.title)}`,
+          ...(p.image ? [`    image: ${yamlQuote(p.image)}`] : []),
+          ...(p.date ? [`    date: ${yamlQuote(p.date.toISOString().slice(0, 10))}`] : []),
+        ])
       : ['  []']),
     '---',
     '',

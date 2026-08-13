@@ -32,12 +32,22 @@ relatedTerms:
 relatedPosts:
   - slug: wisdom-tooth-extraction-cost
     title: "사랑니 발치 비용, 보험 적용되나요? 단순·매복별 가격 총정리"
+    image: "/img/posts/wisdom-tooth-extraction-cost/cover.png"
+    date: "2026-04-03"
   - slug: orthodontic-extraction-extraction
     title: "교정할 때 꼭 발치해야 할까? 발치 기준 이렇게 설명드립니다"
+    image: "/img/posts/orthodontic-extraction-extraction/cover.png"
+    date: "2026-02-12"
   - slug: wisdom-tooth-extraction-recovery
     title: "사랑니 발치 후 하얀 막처럼 보인다면? 정상 회복과 내원 신호"
+    image: "/img/posts/wisdom-tooth-extraction-recovery/cover.png"
+    date: "2026-03-11"
   - slug: root-canal-extraction
     title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"
+    image: "/img/posts/root-canal-extraction/cover.png"
+    date: "2026-01-30"
   - slug: wisdom-tooth-extraction-1571
     title: "내 사랑니는 어려운 편일까? 발치 난이도 결정 요소 정리"
+    image: "/img/posts/wisdom-tooth-extraction-1571/cover.png"
+    date: "2025-12-16"
 ---

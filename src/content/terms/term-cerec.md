@@ -35,8 +35,14 @@ relatedTerms:
 relatedPosts:
   - slug: cerecinlay
     title: "세렉인레이, 드디어 정체를 알려드립니다."
+    image: "/img/posts/cerecinlay/cover.png"
+    date: "2023-04-01"
   - slug: prosthesis
     title: "원데이보철, 다시 한 번 고민해보세요."
+    image: "/img/posts/prosthesis/cover.png"
+    date: "2023-03-30"
   - slug: ceramic-inlay
     title: "세라믹? 금? 인레이 재료별 장단점 정리해드립니다"
+    image: "/img/posts/ceramic-inlay/cover.png"
+    date: "2025-11-30"
 ---

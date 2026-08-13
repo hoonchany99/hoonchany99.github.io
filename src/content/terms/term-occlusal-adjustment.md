@@ -33,10 +33,18 @@ relatedTerms:
 relatedPosts:
   - slug: crown-3320
     title: "크라운이 높게 느껴진다면? 교합 조정이 필요한 신호입니다"
+    image: "/img/posts/crown-3320/cover.png"
+    date: "2025-12-16"
   - slug: crown-5831
     title: "크라운으로 씹을 때 아프다면? 조정이 필요한 대표적인 경우"
+    image: "/img/posts/crown-5831/cover.png"
+    date: "2026-03-22"
   - slug: jawsurgery
     title: "턱깎는수술, 무서운거 아닙니다."
+    image: "/img/posts/jawsurgery/cover.png"
+    date: "2023-04-10"
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
+    image: "/img/posts/first-molar/cover.png"
+    date: "2022-07-22"
 ---

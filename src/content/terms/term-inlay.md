@@ -36,12 +36,22 @@ relatedTerms:
 relatedPosts:
   - slug: inlay
     title: "인레이, 가격은 어느 정도일까? 재료별 & 병원별 비교"
+    image: "/img/posts/inlay/cover.png"
+    date: "2026-01-15"
   - slug: inlay-crack
     title: "인레이 얼마나 오래 쓸 수 있을까? 깨짐, 마모 걱정 줄이는 팁"
+    image: "/img/posts/inlay-crack/cover.png"
+    date: "2025-12-27"
   - slug: ceramic-inlay
     title: "세라믹? 금? 인레이 재료별 장단점 정리해드립니다"
+    image: "/img/posts/ceramic-inlay/cover.png"
+    date: "2025-11-30"
   - slug: cerecinlay
     title: "세렉인레이, 드디어 정체를 알려드립니다."
+    image: "/img/posts/cerecinlay/cover.png"
+    date: "2023-04-01"
   - slug: inlay-care-daily-tips
     title: "인레이 오래 쓰려면 이렇게 관리하세요 — 생활수칙 & 양치 팁"
+    image: "/img/posts/inlay-care-daily-tips/main.png"
+    date: "2026-02-12"
 ---

@@ -34,12 +34,22 @@ relatedTerms:
 relatedPosts:
   - slug: wisdom-tooth-4202
     title: "사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우"
+    image: "/img/posts/wisdom-tooth-4202/cover.png"
+    date: "2025-12-02"
   - slug: impacted-wisdom-tooth-pain
     title: "매복 사랑니가 통증을 만드는 이유, 이런 경우 특히 조심하세요"
+    image: "/img/posts/impacted-wisdom-tooth-pain/cover.png"
+    date: "2026-01-07"
   - slug: wisdom-tooth-molar-cavity
     title: "사랑니 때문에 옆 어금니 충치 생길 수 있을까? 실제로 가능한 경우"
+    image: "/img/posts/wisdom-tooth-molar-cavity/cover.png"
+    date: "2026-03-24"
   - slug: wisdom-tooth-extraction-1571
     title: "내 사랑니는 어려운 편일까? 발치 난이도 결정 요소 정리"
+    image: "/img/posts/wisdom-tooth-extraction-1571/cover.png"
+    date: "2025-12-16"
   - slug: supernumerary
     title: "어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다"
+    image: "/img/posts/supernumerary/cover.png"
+    date: "2022-09-08"
 ---

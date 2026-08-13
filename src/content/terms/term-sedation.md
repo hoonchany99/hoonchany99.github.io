@@ -33,4 +33,6 @@ relatedTerms:
 relatedPosts:
   - slug: supernumerary
     title: "어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다"
+    image: "/img/posts/supernumerary/cover.png"
+    date: "2022-09-08"
 ---

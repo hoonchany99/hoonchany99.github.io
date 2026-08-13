@@ -33,12 +33,22 @@ relatedTerms:
 relatedPosts:
   - slug: gum-brushing-reason
     title: "양치할 때 잇몸에서 피가 나는 이유, 단순 자극일까 잇몸병일까?"
+    image: "/img/posts/gum-brushing-reason/cover.png"
+    date: "2026-04-28"
   - slug: gum-throbbing
     title: "잇몸욱신, 그냥 두면 안됩니다."
+    image: "/img/posts/gum-throbbing/cover.png"
+    date: "2023-05-31"
   - slug: gum-diseasedental
     title: "잇몸질환치과, 그대로 두면 큰일납니다."
+    image: "/img/posts/gum-diseasedental/cover.png"
+    date: "2023-04-07"
   - slug: brushing-method
     title: "양치할 때마다 피가 난다면... 잘못된 방법 때문일까요?"
+    image: "/img/posts/brushing-method/cover.png"
+    date: "2026-03-25"
   - slug: implant
     title: "뼈가 부족하면 임플란트 안 될까? 뼈 이식이 필요한 경우는?"
+    image: "/img/posts/implant/cover.png"
+    date: "2026-01-26"
 ---

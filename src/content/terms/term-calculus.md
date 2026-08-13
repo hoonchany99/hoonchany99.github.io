@@ -33,6 +33,10 @@ relatedTerms:
 relatedPosts:
   - slug: gum-bad-breath
     title: "잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다"
+    image: "/img/posts/gum-bad-breath/cover.png"
+    date: "2025-12-13"
   - slug: scaling-tooth-toothwhitening
     title: "스케일링만 하면 치아가 하얘질까? 치아미백과의 확실한 차이"
+    image: "/img/posts/scaling-tooth-toothwhitening/cover.png"
+    date: "2026-01-14"
 ---

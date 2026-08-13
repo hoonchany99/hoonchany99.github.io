@@ -32,4 +32,6 @@ relatedTerms:
 relatedPosts:
   - slug: sinusimplant
     title: "상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다."
+    image: "/img/posts/sinusimplant/cover.png"
+    date: "2023-04-06"
 ---

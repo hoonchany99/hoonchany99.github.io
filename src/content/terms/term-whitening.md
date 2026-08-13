@@ -32,12 +32,22 @@ relatedTerms:
 relatedPosts:
   - slug: toothwhitening
     title: "치아미백 효과 얼마나 갈까? 효과가 사라지는 이유 설명드립니다"
+    image: "/img/posts/toothwhitening/cover.png"
+    date: "2026-01-05"
   - slug: toothwhitening-tooth
     title: "치아미백 하면 치아 약해진다? 실제로는 이렇게 설명드립니다"
+    image: "/img/posts/toothwhitening-tooth/cover.png"
+    date: "2025-11-27"
   - slug: whitening-dental-toothwhitening
     title: "집에서 하는 미백, 효과는 있을까? 치과에서 보는 치아미백 차이"
+    image: "/img/posts/whitening-dental-toothwhitening/cover.png"
+    date: "2025-12-12"
   - slug: toothwhitening-sensitivity
     title: "치아미백 후 시림... 정상일까요? 바로 알아보세요"
+    image: "/img/posts/toothwhitening-sensitivity/cover.png"
+    date: "2025-11-26"
   - slug: scaling-tooth-toothwhitening
     title: "스케일링만 하면 치아가 하얘질까? 치아미백과의 확실한 차이"
+    image: "/img/posts/scaling-tooth-toothwhitening/cover.png"
+    date: "2026-01-14"
 ---

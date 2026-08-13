@@ -43,6 +43,10 @@ const terms = defineCollection({
         z.object({
           slug: z.string(),
           title: z.string(),
+          /** 카드 썸네일 (/img/posts/…) */
+          image: z.string().optional(),
+          /** 발행일 YYYY-MM-DD */
+          date: z.string().optional(),
         })
       )
       .default([]),

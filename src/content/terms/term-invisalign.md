@@ -33,6 +33,10 @@ relatedTerms:
 relatedPosts:
   - slug: duration-treatment
     title: "인비절라인 치료기간은 얼마나 걸릴까? 실제로 달라지는 요소들"
+    image: "/img/posts/duration-treatment/cover.png"
+    date: "2026-03-20"
   - slug: front-teeth-6682
     title: "토끼앞니, 계속 가지고 사실거면 읽지 마세요."
+    image: "/img/posts/front-teeth-6682/cover.png"
+    date: "2022-11-08"
 ---

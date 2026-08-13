@@ -33,6 +33,10 @@ relatedTerms:
 relatedPosts:
   - slug: dental
     title: "투스젬, 해도 문제 없을까? 치과의사가 생각하는 현실적인 3가지 문제점"
+    image: "/img/posts/dental/cover.png"
+    date: "2026-02-26"
   - slug: implant-prosthesis-front-teeth
     title: "앞니 보철이나 임플란트 계획 중이라면... 투스젬 제거 먼저 해야 할까?"
+    image: "/img/posts/implant-prosthesis-front-teeth/cover.png"
+    date: "2026-03-10"
 ---

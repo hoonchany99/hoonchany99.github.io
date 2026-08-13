@@ -31,12 +31,22 @@ relatedTerms:
 relatedPosts:
   - slug: implant-pain
     title: "임플란트 후 통증, 언제까지가 정상일까?"
+    image: "/img/posts/implant-pain/cover.png"
+    date: "2025-12-15"
   - slug: implant-crown-inlay
     title: "인레이, 크라운, 임플란트, 어떤 순서로 선택해야 할까?"
+    image: "/img/posts/implant-crown-inlay/cover.png"
+    date: "2026-03-29"
   - slug: implant-prosthesis-front-teeth
     title: "앞니 보철이나 임플란트 계획 중이라면... 투스젬 제거 먼저 해야 할까?"
+    image: "/img/posts/implant-prosthesis-front-teeth/cover.png"
+    date: "2026-03-10"
   - slug: implant-2223
     title: "임플란트가 실패할 수 있다면? 부작용과 주의해야 할 경우들"
+    image: "/img/posts/implant-2223/cover.png"
+    date: "2026-01-16"
   - slug: implant-surgery-3
     title: "임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름"
+    image: "/img/posts/implant-surgery-3/cover.png"
+    date: "2025-12-02"
 ---

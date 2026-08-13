@@ -37,12 +37,22 @@ relatedTerms:
 relatedPosts:
   - slug: resin-cost-care
     title: "레진 치료 비용은 얼마? 수명은 몇 년일까? 관리법까지 한눈에"
+    image: "/img/posts/resin-cost-care/cover.png"
+    date: "2026-04-09"
   - slug: crown-inlay-cavity
     title: "충치 치료, 비용은 얼마나 들까? 레진, 인레이, 크라운 단계별 가격 정리"
+    image: "/img/posts/crown-inlay-cavity/cover.png"
+    date: "2026-03-30"
   - slug: resin-after
     title: "레진빌드업 후 시리다면? 정상 범위와 확인해야 할 점"
+    image: "/img/posts/resin-after/cover.png"
+    date: "2026-03-13"
   - slug: cavity-inlay-resin-crown
     title: "충치 치료 후 어떤 수복이 좋을까? 인레이, 레진, 크라운 비교 분석"
+    image: "/img/posts/cavity-inlay-resin-crown/cover.png"
+    date: "2026-01-08"
   - slug: dental
     title: "투스젬, 해도 문제 없을까? 치과의사가 생각하는 현실적인 3가지 문제점"
+    image: "/img/posts/dental/cover.png"
+    date: "2026-02-26"
 ---

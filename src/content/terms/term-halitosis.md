@@ -33,12 +33,22 @@ relatedTerms:
 relatedPosts:
   - slug: bad-breath
     title: "입냄새제거방법, 이것만 아시면 됩니다."
+    image: "/img/posts/bad-breath/cover.png"
+    date: "2023-04-10"
   - slug: brushing-bad-breath
     title: "양치해도 해결 안 되는 입냄새... 놓치기 쉬운 한 가지 원인"
+    image: "/img/posts/brushing-bad-breath/cover.png"
+    date: "2025-12-01"
   - slug: ulcer-8470
     title: "입안 헐음, 그냥 두면 절대 안됩니다."
+    image: "/img/posts/ulcer-8470/cover.png"
+    date: "2022-09-20"
   - slug: bad-breath-saliva
     title: "입이 자주 마르나요? 입냄새, 타액 부족 때문일 수 있습니다"
+    image: "/img/posts/bad-breath-saliva/cover.png"
+    date: "2025-12-29"
   - slug: gum-bad-breath
     title: "잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다"
+    image: "/img/posts/gum-bad-breath/cover.png"
+    date: "2025-12-13"
 ---

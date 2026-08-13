@@ -36,12 +36,22 @@ relatedTerms:
 relatedPosts:
   - slug: implant-pain-recovery
     title: "임플란트 수술 후 통증, 며칠까지가 정상일까? 단계별 회복 기준"
+    image: "/img/posts/implant-pain-recovery/cover.png"
+    date: "2026-05-03"
   - slug: implant-cost
     title: "임플란트, 비용은 얼마나 들까? 종류별, 케이스별 비교"
+    image: "/img/posts/implant-cost/cover.png"
+    date: "2026-01-03"
   - slug: implant-cost-price
     title: "임플란트 비용, 병원마다 왜 다를까? 종류별 가격 차이가 생기는 이유"
+    image: "/img/posts/implant-cost-price/cover.png"
+    date: "2026-04-03"
   - slug: implant-surgery-3
     title: "임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름"
+    image: "/img/posts/implant-surgery-3/cover.png"
+    date: "2025-12-02"
   - slug: implant-pain
     title: "임플란트 후 통증, 언제까지가 정상일까?"
+    image: "/img/posts/implant-pain/cover.png"
+    date: "2025-12-15"
 ---

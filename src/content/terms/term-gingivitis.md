@@ -31,12 +31,22 @@ relatedTerms:
 relatedPosts:
   - slug: gum-brushing-reason
     title: "양치할 때 잇몸에서 피가 나는 이유, 단순 자극일까 잇몸병일까?"
+    image: "/img/posts/gum-brushing-reason/cover.png"
+    date: "2026-04-28"
   - slug: brushing-method
     title: "양치할 때마다 피가 난다면... 잘못된 방법 때문일까요?"
+    image: "/img/posts/brushing-method/cover.png"
+    date: "2026-03-25"
   - slug: scaling-gum
     title: "스케일링 직후 잇몸에서 피가 난다면, 어디까지 정상일까?"
+    image: "/img/posts/scaling-gum/cover.png"
+    date: "2025-12-23"
   - slug: scaling-insurance
     title: "스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다"
+    image: "/img/posts/scaling-insurance/cover.png"
+    date: "2025-11-30"
   - slug: gum-throbbing
     title: "잇몸욱신, 그냥 두면 안됩니다."
+    image: "/img/posts/gum-throbbing/cover.png"
+    date: "2023-05-31"
 ---

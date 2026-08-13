@@ -33,4 +33,6 @@ relatedTerms:
 relatedPosts:
   - slug: implant-pain
     title: "임플란트 후 통증, 언제까지가 정상일까?"
+    image: "/img/posts/implant-pain/cover.png"
+    date: "2025-12-15"
 ---

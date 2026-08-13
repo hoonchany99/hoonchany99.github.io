@@ -34,6 +34,10 @@ relatedTerms:
 relatedPosts:
   - slug: brushing-cavity
     title: "올바른 양치법, 이것만 알아도 충치안생깁니다"
+    image: "/img/posts/brushing-cavity/cover.png"
+    date: "2022-09-17"
   - slug: scaling-gum
     title: "스케일링 직후 잇몸에서 피가 난다면, 어디까지 정상일까?"
+    image: "/img/posts/scaling-gum/cover.png"
+    date: "2025-12-23"
 ---

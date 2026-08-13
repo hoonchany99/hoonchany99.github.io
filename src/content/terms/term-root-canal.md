@@ -36,12 +36,22 @@ relatedTerms:
 relatedPosts:
   - slug: root-canal-extraction
     title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"
+    image: "/img/posts/root-canal-extraction/cover.png"
+    date: "2026-01-30"
   - slug: root-canal-treatment-before
     title: "신경치료 전에 꼭 해야 할 검사, 이것이 성공률을 좌우합니다"
+    image: "/img/posts/root-canal-treatment-before/cover.png"
+    date: "2026-03-12"
   - slug: root-canal-root-canal
     title: "한 번 신경치료했는데 또 아프다면? 재신경치료가 답일까요?"
+    image: "/img/posts/root-canal-root-canal/cover.png"
+    date: "2026-01-08"
   - slug: root-canal-cost-insurance
     title: "신경치료 비용은 얼마일까? 보험 적용 범위와 추가 비용까지 정리"
+    image: "/img/posts/root-canal-cost-insurance/cover.png"
+    date: "2026-04-05"
   - slug: root-canal-pain
     title: "신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다"
+    image: "/img/posts/root-canal-pain/cover.png"
+    date: "2025-11-30"
 ---

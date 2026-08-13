@@ -36,12 +36,22 @@ relatedTerms:
 relatedPosts:
   - slug: zirconia-crown-price
     title: "크라운 재료별 가격, 골드·지르코니아·PFM 어떤 게 나을까?"
+    image: "/img/posts/zirconia-crown-price/cover.png"
+    date: "2026-04-05"
   - slug: crown-gum
     title: "크라운 주변 잇몸이 붓는다면? 경계부 확인이 필요한 이유"
+    image: "/img/posts/crown-gum/cover.png"
+    date: "2026-02-09"
   - slug: sensitivity-after-crown
     title: "크라운치료 후 시림... 언제까지 정상일까요? 기준을 알려드립니다"
+    image: "/img/posts/sensitivity-after-crown/main.png"
+    date: "2025-12-09"
   - slug: crown-3692
     title: "크라운 색이 티 나는 이유… 자연스럽게 만드는 기준은?"
+    image: "/img/posts/crown-3692/cover.png"
+    date: "2026-01-13"
   - slug: crown-5831
     title: "크라운으로 씹을 때 아프다면? 조정이 필요한 대표적인 경우"
+    image: "/img/posts/crown-5831/cover.png"
+    date: "2026-03-22"
 ---

@@ -34,6 +34,10 @@ relatedTerms:
 relatedPosts:
   - slug: jawsurgery
     title: "턱깎는수술, 무서운거 아닙니다."
+    image: "/img/posts/jawsurgery/cover.png"
+    date: "2023-04-10"
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
+    image: "/img/posts/first-molar/cover.png"
+    date: "2022-07-22"
 ---

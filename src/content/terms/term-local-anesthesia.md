@@ -33,8 +33,14 @@ relatedTerms:
 relatedPosts:
   - slug: dentalgeneral-anesthesia
     title: "치과전신마취, 아직도 모르시나요?"
+    image: "/img/posts/dentalgeneral-anesthesia/cover.png"
+    date: "2022-08-24"
   - slug: painlessanesthesiadental
     title: "무통마취치과, 아직도 모르셨나요?"
+    image: "/img/posts/painlessanesthesiadental/cover.png"
+    date: "2023-04-03"
   - slug: supernumerary
     title: "어린이과잉치, 그대로 두면 큰 후회로 돌아옵니다"
+    image: "/img/posts/supernumerary/cover.png"
+    date: "2022-09-08"
 ---

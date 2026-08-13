@@ -33,12 +33,22 @@ relatedTerms:
 relatedPosts:
   - slug: scaling-insurance-1
     title: "스케일링 보험은 1년에 몇 번? 놓치기 쉬운 적용 기준"
+    image: "/img/posts/scaling-insurance-1/cover.png"
+    date: "2026-01-13"
   - slug: insurance-scaling-scaling-cost
     title: "보험 스케일링과 비급여 스케일링, 비용 차이는 얼마나 날까?"
+    image: "/img/posts/insurance-scaling-scaling-cost/cover.png"
+    date: "2026-01-21"
   - slug: scaling-insurance-6436
     title: "스케일링 보험, 1년에 몇 번까지? 적용 조건과 비급여 기준"
+    image: "/img/posts/scaling-insurance-6436/cover.png"
+    date: "2026-04-21"
   - slug: scaling-insurance
     title: "스케일링 보험 적용... 이 조건 안 맞으면 ‘비급여’가 됩니다"
+    image: "/img/posts/scaling-insurance/cover.png"
+    date: "2025-11-30"
   - slug: scalingdental-5
     title: "스케일링잘하는치과, 5가지만 보시면 됩니다."
+    image: "/img/posts/scalingdental-5/cover.png"
+    date: "2023-04-08"
 ---

@@ -34,12 +34,22 @@ relatedTerms:
 relatedPosts:
   - slug: zirconia-crown-price
     title: "크라운 재료별 가격, 골드·지르코니아·PFM 어떤 게 나을까?"
+    image: "/img/posts/zirconia-crown-price/cover.png"
+    date: "2026-04-05"
   - slug: implant-crown-inlay
     title: "인레이, 크라운, 임플란트, 어떤 순서로 선택해야 할까?"
+    image: "/img/posts/implant-crown-inlay/cover.png"
+    date: "2026-03-29"
   - slug: crown-gum
     title: "크라운 주변 잇몸이 붓는다면? 경계부 확인이 필요한 이유"
+    image: "/img/posts/crown-gum/cover.png"
+    date: "2026-02-09"
   - slug: inlay-1970
     title: "인레이, 그게 뭐지? 어떤 경우에 사용하는지 정리해봤어요"
+    image: "/img/posts/inlay-1970/cover.png"
+    date: "2025-12-15"
   - slug: root-canal-tooth-crown
     title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"
+    image: "/img/posts/root-canal-tooth-crown/cover.png"
+    date: "2025-12-04"
 ---

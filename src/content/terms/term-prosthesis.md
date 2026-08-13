@@ -32,6 +32,10 @@ relatedTerms:
 relatedPosts:
   - slug: prosthesis
     title: "원데이보철, 다시 한 번 고민해보세요."
+    image: "/img/posts/prosthesis/cover.png"
+    date: "2023-03-30"
   - slug: implant-prosthesis-front-teeth
     title: "앞니 보철이나 임플란트 계획 중이라면... 투스젬 제거 먼저 해야 할까?"
+    image: "/img/posts/implant-prosthesis-front-teeth/cover.png"
+    date: "2026-03-10"
 ---

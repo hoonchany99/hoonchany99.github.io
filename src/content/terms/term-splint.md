@@ -33,6 +33,10 @@ relatedTerms:
 relatedPosts:
   - slug: baby-toothcrack
     title: "유치깨짐, 일단 진정하시고 이렇게만 하세요."
+    image: "/img/posts/baby-toothcrack/cover.png"
+    date: "2023-04-22"
   - slug: post-501653
     title: "잘때숨막힘, 그대로 두면 위험합니다"
+    image: "/img/posts/post-501653/cover.png"
+    date: "2022-09-02"
 ---

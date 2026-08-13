@@ -33,4 +33,6 @@ relatedTerms:
 relatedPosts:
   - slug: root-canal-root-canal
     title: "한 번 신경치료했는데 또 아프다면? 재신경치료가 답일까요?"
+    image: "/img/posts/root-canal-root-canal/cover.png"
+    date: "2026-01-08"
 ---

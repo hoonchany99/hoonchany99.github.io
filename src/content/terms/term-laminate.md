@@ -34,12 +34,22 @@ relatedTerms:
 relatedPosts:
   - slug: laminate-5427
     title: "라미네이트 색상, 어떻게 고를까? ‘티 안 나는 자연스러움’의 기준"
+    image: "/img/posts/laminate-5427/cover.png"
+    date: "2026-03-16"
   - slug: laminate
     title: "라미네이트가 잘 빠지는 이유, 이런 경우 조심하세요"
+    image: "/img/posts/laminate/cover.png"
+    date: "2025-12-08"
   - slug: laminate-tooth
     title: "라미네이트, 치아 많이 깎나요? 꼭 알아야 할 삭제 기준"
+    image: "/img/posts/laminate-tooth/cover.png"
+    date: "2025-11-27"
   - slug: laminate-sensitivity
     title: "라미네이트 후 시림... 정상일까요? 언제 사라질까요?"
+    image: "/img/posts/laminate-sensitivity/cover.png"
+    date: "2025-12-24"
   - slug: laminate-crack
     title: "라미네이트는 얼마나 오래 갈까? 깨짐, 변색 없이 유지하는 법"
+    image: "/img/posts/laminate-crack/cover.png"
+    date: "2026-01-10"
 ---

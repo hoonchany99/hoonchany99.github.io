@@ -35,12 +35,22 @@ relatedTerms:
 relatedPosts:
   - slug: baby-tooth-fracture
     title: "유치 부러짐, 당황하지 말고 이것부터 하세요"
+    image: "/img/posts/baby-tooth-fracture/cover.png"
+    date: "2022-06-23"
   - slug: baby-tooth
     title: "유치파절, 진정하시고 이렇게만 대처하세요"
+    image: "/img/posts/baby-tooth/cover.png"
+    date: "2023-04-30"
   - slug: baby-toothcrack
     title: "유치깨짐, 일단 진정하시고 이렇게만 하세요."
+    image: "/img/posts/baby-toothcrack/cover.png"
+    date: "2023-04-22"
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
+    image: "/img/posts/first-molar/cover.png"
+    date: "2022-07-22"
   - slug: cavity-reason
     title: "실란트 했는데 충치 생길거면 왜 해야되나요? 이유를 설명해드립니다"
+    image: "/img/posts/cavity-reason/cover.png"
+    date: "2026-02-28"
 ---

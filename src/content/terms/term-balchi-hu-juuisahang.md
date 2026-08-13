@@ -33,6 +33,10 @@ relatedTerms:
 relatedPosts:
   - slug: root-canal-extraction
     title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"
+    image: "/img/posts/root-canal-extraction/cover.png"
+    date: "2026-01-30"
   - slug: dentalgeneral-anesthesia
     title: "치과전신마취, 아직도 모르시나요?"
+    image: "/img/posts/dentalgeneral-anesthesia/cover.png"
+    date: "2022-08-24"
 ---

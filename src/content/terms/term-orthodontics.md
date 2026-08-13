@@ -34,12 +34,22 @@ relatedTerms:
 relatedPosts:
   - slug: duration-treatment
     title: "인비절라인 치료기간은 얼마나 걸릴까? 실제로 달라지는 요소들"
+    image: "/img/posts/duration-treatment/cover.png"
+    date: "2026-03-20"
   - slug: orthodontic-extraction-extraction
     title: "교정할 때 꼭 발치해야 할까? 발치 기준 이렇게 설명드립니다"
+    image: "/img/posts/orthodontic-extraction-extraction/cover.png"
+    date: "2026-02-12"
   - slug: front-teeth-6682
     title: "토끼앞니, 계속 가지고 사실거면 읽지 마세요."
+    image: "/img/posts/front-teeth-6682/cover.png"
+    date: "2022-11-08"
   - slug: jawsurgery
     title: "턱깎는수술, 무서운거 아닙니다."
+    image: "/img/posts/jawsurgery/cover.png"
+    date: "2023-04-10"
   - slug: dental-8903
     title: "치과진료과목, 어디로 갈지 고민하지 마세요."
+    image: "/img/posts/dental-8903/cover.png"
+    date: "2023-04-02"
 ---

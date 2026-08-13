@@ -33,12 +33,22 @@ relatedTerms:
 relatedPosts:
   - slug: cavity-root-canal
     title: "깊은 충치가 있다면 왜 신경치료가 필요할까요?"
+    image: "/img/posts/cavity-root-canal/cover.png"
+    date: "2025-12-22"
   - slug: root-canal-treatment-before
     title: "신경치료 전에 꼭 해야 할 검사, 이것이 성공률을 좌우합니다"
+    image: "/img/posts/root-canal-treatment-before/cover.png"
+    date: "2026-03-12"
   - slug: tooth-3739
     title: "딱딱한 거 씹다 치아가 깨졌다면? 꼭 확인해야 할 손상 범위"
+    image: "/img/posts/tooth-3739/cover.png"
+    date: "2026-02-23"
   - slug: cavity-inlay-resin-crown
     title: "충치 치료 후 어떤 수복이 좋을까? 인레이, 레진, 크라운 비교 분석"
+    image: "/img/posts/cavity-inlay-resin-crown/cover.png"
+    date: "2026-01-08"
   - slug: post-794511
     title: "이빨욱신, 그냥 두시면 정말 큰일납니다."
+    image: "/img/posts/post-794511/cover.png"
+    date: "2023-06-08"
 ---

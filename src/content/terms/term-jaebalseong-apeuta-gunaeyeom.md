@@ -33,4 +33,6 @@ relatedTerms:
 relatedPosts:
   - slug: ulcer-8470
     title: "입안 헐음, 그냥 두면 절대 안됩니다."
+    image: "/img/posts/ulcer-8470/cover.png"
+    date: "2022-09-20"
 ---

@@ -28,3 +28,6 @@ _site/
 
 # Script cache (term content generation progress)
 scripts/.cache/
+
+# Claude Code 로컬 설정
+.claude/

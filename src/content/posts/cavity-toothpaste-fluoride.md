@@ -221,11 +221,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=222915987270&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-c77ff777-5b1a-4703-bd30-ef69749336a2&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=222915987270&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/fluoride-7270/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-c77ff777-5b1a-4703-bd30-ef69749336a2&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=222915987270&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">수돗물불소, 마시지 말고 일단 읽어보세요.</strong>
 <p class="se-oglink-summary">안녕하세요. 서울대학교 치의학대학원 출신 윤원장입니다. 이 글을 누르신 분들은 90% 확률로 이런 점이 궁...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>

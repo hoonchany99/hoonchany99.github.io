@@ -260,11 +260,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224182056868&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-fa19b144-14da-444d-983f-fd1b299da672&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224182056868&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/gum-inflammation-toothpaste/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-fa19b144-14da-444d-983f-fd1b299da672&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224182056868&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까?</strong>
 <p class="se-oglink-summary">양치할 때마다 잇몸이 붓고, 피가 나고, 살짝 욱신거리나요? 😣 “치약을 바꿔야 하나…?” “잇몸질환용...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>
@@ -276,11 +276,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224107917592&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2c2ffa0c-709a-4fad-a581-bb33c8538875&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224107917592&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/gum-bad-breath/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2c2ffa0c-709a-4fad-a581-bb33c8538875&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224107917592&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">잇몸이 아프고 입냄새가 난다면…단순한 문제가 아닐 수 있습니다</strong>
 <p class="se-oglink-summary">양치는 분명 잘하고 있는데, 잇몸이 괜히 욱신거리고 입에서 냄새가 나는 것 같을 때… “이거 그냥 컨디션...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>

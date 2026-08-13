@@ -221,11 +221,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224196768166&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-3cc48014-2388-4d38-9f44-61805cd2ed9a&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224196768166&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/cavity-toothpaste-fluoride/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-3cc48014-2388-4d38-9f44-61805cd2ed9a&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224196768166&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">치약 불소 효과 있을까? 충치 예방, 진짜 되는지 따져봤습니다</strong>
 <p class="se-oglink-summary">“불소 치약 쓰면 정말 충치 예방되나요?” 🤔 “아이한테 써도 괜찮은 건가요?” “요즘은 무불소가 더 ...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>
@@ -237,11 +237,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224182056868&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2353cb23-6512-4052-94f3-550931bebcf3&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224182056868&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/gum-inflammation-toothpaste/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2353cb23-6512-4052-94f3-550931bebcf3&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224182056868&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까?</strong>
 <p class="se-oglink-summary">양치할 때마다 잇몸이 붓고, 피가 나고, 살짝 욱신거리나요? 😣 “치약을 바꿔야 하나…?” “잇몸질환용...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>

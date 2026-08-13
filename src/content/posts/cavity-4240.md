@@ -299,11 +299,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224234481933&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-c579eabc-9c14-461e-89f0-b46fe769cbb2&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224234481933&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/crown-inlay-cavity/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-c579eabc-9c14-461e-89f0-b46fe769cbb2&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224234481933&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">충치 치료, 비용은 얼마나 들까? 레진, 인레이, 크라운 단계별 가격 정리</strong>
 <p class="se-oglink-summary">치과에서 “충치가 있습니다”라는 말을 들으면 그 다음 질문은 거의 같아요. “그래서 비용은 얼마나 나오...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>
@@ -315,11 +315,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224242413262&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-a25a7fe3-1a35-49f9-94df-5a614b0bd7ce&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224242413262&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/cavity-pain-treatment/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-a25a7fe3-1a35-49f9-94df-5a614b0bd7ce&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224242413262&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">충치가 아프기 시작했다면? 단계별로 달라지는 통증과 치료 시점</strong>
 <p class="se-oglink-summary">처음엔 그냥 시린 정도였는데… 어느 순간부터 씹을 때 찌릿하고, 가만히 있어도 욱신거리기 시작했다면 ?...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>

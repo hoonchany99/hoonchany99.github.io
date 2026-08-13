@@ -282,11 +282,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224173286000&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2438ebd3-2760-4849-9dd2-cffe4739828e&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224173286000&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/crown-root-canal/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-2438ebd3-2760-4849-9dd2-cffe4739828e&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224173286000&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">크라운 씌우려면 꼭 신경치료 해야 할까요? 기준 정리</strong>
 <p class="se-oglink-summary">크라운 치료를 앞두고 이런 질문, 정말 자주 나옵니다. “크라운 하면 신경치료는 무조건 하는 거죠?” ?...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>
@@ -298,11 +298,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224214069822&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-c6e39333-01b9-40f1-a57a-e3a6bb33dcb9&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224214069822&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/root-canal-treatment-before/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-c6e39333-01b9-40f1-a57a-e3a6bb33dcb9&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224214069822&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">신경치료 전에 꼭 해야 할 검사, 이것이 성공률을 좌우합니다</strong>
 <p class="se-oglink-summary">아파서 치과에 오신분들 중에 많은 분들이 이렇게 생각하시더라구요. “너무 아픈데 바로 신경치료 왜 안해...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>

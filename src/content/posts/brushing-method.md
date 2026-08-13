@@ -192,11 +192,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr/222876694919?trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-7ee30f1b-3049-4a24-9bb4-da72452f8a17&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr/222876694919?trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/brushing-cavity/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-7ee30f1b-3049-4a24-9bb4-da72452f8a17&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr/222876694919?trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">올바른 양치법, 이것만 알아도 충치안생깁니다</strong>
 <p class="se-oglink-summary">안녕하세요. 서울대학교 치의학대학원 출신 윤원장입니다. 사실 저는 양치질을 대충합니다. 그럼에도 치아...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>
@@ -268,11 +268,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=222876694919&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-793f09e5-7f7d-4ae4-b1d1-9e18a6d3cf31&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=222876694919&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/brushing-cavity/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-793f09e5-7f7d-4ae4-b1d1-9e18a6d3cf31&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=222876694919&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">올바른 양치법, 이것만 알아도 충치안생깁니다</strong>
 <p class="se-oglink-summary">안녕하세요. 서울대학교 치의학대학원 출신 윤원장입니다. 사실 저는 양치질을 대충합니다. 그럼에도 치아...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>
@@ -284,11 +284,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224182056868&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-e91ca8b3-fd2d-4ec9-9196-40bd6f3af1d3&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224182056868&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/gum-inflammation-toothpaste/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-e91ca8b3-fd2d-4ec9-9196-40bd6f3af1d3&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224182056868&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">잇몸이 자주 붓는다면... 어떤 치약이 도움이 될까?</strong>
 <p class="se-oglink-summary">양치할 때마다 잇몸이 붓고, 피가 나고, 살짝 욱신거리나요? 😣 “치약을 바꿔야 하나…?” “잇몸질환용...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>

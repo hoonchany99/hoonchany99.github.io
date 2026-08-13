@@ -255,11 +255,11 @@ AI 활용
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr/224233427497" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-651030d2-9a89-43f1-8775-bbd4108f4521&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr/224233427497&quot;}">
+<a href="/posts/implant-crown-inlay/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-651030d2-9a89-43f1-8775-bbd4108f4521&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr/224233427497&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">인레이, 크라운, 임플란트, 어떤 순서로 선택해야 할까?</strong>
 <p class="se-oglink-summary">충치 치료를 해야 한다고 들었는데 막상 선택지가 너무 많아서 헷갈릴 때가 있습니다. “인레이 하면 되는 ...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>
@@ -271,11 +271,11 @@ AI 활용
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224139786114&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-83231c1e-7fdd-4a02-be33-286f8684054b&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224139786114&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/cavity-inlay-resin-crown/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-83231c1e-7fdd-4a02-be33-286f8684054b&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224139786114&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">충치 치료 후 어떤 수복이 좋을까? 인레이, 레진, 크라운 비교 분석</strong>
 <p class="se-oglink-summary">충치 치료는 끝났는데 의사 선생님이 갑자기 이렇게 말합니다. “레진으로 할 수도 있고요, 인레이도 가능...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>

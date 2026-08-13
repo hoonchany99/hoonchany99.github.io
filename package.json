@@ -4,9 +4,13 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/stamp-personal-noindex.mjs",
+    "build": "tsx scripts/relink-naver-cards.ts && tsx scripts/generate-terms-index.ts && astro build && node scripts/stamp-personal-noindex.mjs",
+    "generate-terms-index": "tsx scripts/generate-terms-index.ts",
     "preview": "astro preview",
-    "generate-embeddings": "tsx scripts/generate-embeddings.ts"
+    "generate-embeddings": "tsx scripts/generate-embeddings.ts",
+    "generate-terms": "tsx scripts/generate-terms-from-posts.ts",
+    "relink-naver-cards": "tsx scripts/relink-naver-cards.ts",
+    "sync-bdbddc-terms": "tsx scripts/sync-bdbddc-terms.ts"
   },
   "dependencies": {
     "@astrojs/react": "^4.4.2",

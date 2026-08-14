@@ -31,8 +31,8 @@ faqs:
 relatedTerms:
   - immediate-implant
   - impeulranteu-geongangboheom
+  - impeulranteu-simenteu-vs-seukeuryu
   - impeulranteu-sumyeong
-  - peri-implantitis
 relatedPosts:
   - slug: implant-pain-recovery
     title: "임플란트 수술 후 통증, 며칠까지가 정상일까? 단계별 회복 기준"

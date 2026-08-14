@@ -130,6 +130,30 @@ export const termNamesEn: Record<string, string> = {
   'heubyeongwa-gugang-geongang': 'Smoking and Oral Health',
   'yagmul-alrereugiwa-chigwa': 'Drug Allergy in Dentistry',
 
+  // 보철 (추가)
+  'bocheol-sumyeong': 'Prosthesis Longevity',
+  'bocheolmul-talrag': 'Restoration Debonding',
+  'bocheolmul-pajeol': 'Restoration Fracture',
+  imsichia: 'Temporary Restoration',
+  'bocheol-saegjo-seontaeg': 'Shade Selection',
+  'bocheol-gyohab-jojeong': 'Occlusal Adjustment of Prosthesis',
+  jidaechi: 'Abutment Tooth',
+  'chigwayong-simenteu': 'Dental Cement',
+  'impeulranteu-simenteu-vs-seukeuryu': 'Cement- vs Screw-Retained Implant Restoration',
+  'cadcam-dangil-bocheol': 'CAD/CAM Same-Day Restoration',
+
+  // 소아·맹출
+  maengchul: 'Tooth Eruption',
+  'chia-maengchul-sunseo': 'Eruption Sequence',
+  'chia-maengchul-jiyeon': 'Delayed Eruption',
+  'iso-maengchul': 'Ectopic Eruption',
+  'yuchi-chungchi': 'Caries in Primary Teeth',
+  'yuchi-jogi-sangsil': 'Premature Loss of Primary Tooth',
+  'yuchi-oesang': 'Primary Tooth Trauma',
+  'yuchi-singyeongchiryo': 'Pulp Therapy in Primary Teeth',
+  'soa-seuteinriseu-seutil-keuraun': 'Stainless Steel Crown',
+  'eorini-chungchi-yebang': 'Caries Prevention in Children',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

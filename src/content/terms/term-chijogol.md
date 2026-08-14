@@ -26,10 +26,10 @@ faqs:
   - question: "X-ray에서 뼈가 내려갔다는 게 무슨 뜻인가요?"
     answer: "치아를 감싸던 뼈의 높이가 낮아졌다는 뜻이에요. 치주염이 진행된 정도를 가늠하는 기준이 됩니다. 이전 사진과 비교하면 얼마나 빠르게 진행되는지도 볼 수 있어요."
 relatedTerms:
+  - yuchi-jogi-sangsil
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

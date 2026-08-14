@@ -63,6 +63,17 @@ export const termsExcluded: ExcludedTerm[] = [
     reason: '중복',
   },
 
+  { slug: 'imsi-keuraun', name: '임시 크라운', reason: '중복' }, // → 임시치아
+  { slug: 'imsi-bocheolmul', name: '임시 보철물', reason: '중복' }, // → 임시치아
+  { slug: 'bon-simenteu', name: '본 시멘트', reason: '중복' }, // → 치과용 시멘트
+  { slug: 'imsi-simenteu', name: '임시 시멘트', reason: '중복' }, // → 치과용 시멘트
+  { slug: 'bocheol-bondeu-simenteisyeon', name: '보철 본드 시멘테이션', reason: '중복' }, // → 치과용 시멘트
+  { slug: 'impeulranteu-bocheol-jongryu', name: '임플란트 보철 종류', reason: '중복' }, // → 임플란트 보철
+  { slug: 'imsang-keuraun', name: '임상 크라운', reason: '중복' }, // → 치관
+  { slug: 'yeongguchi-maengchul-sunseo', name: '영구치 맹출 순서', reason: '중복' }, // → 치아 맹출 순서
+  { slug: 'yeongguchi-iso-maengchul', name: '영구치 이소 맹출', reason: '중복' }, // → 이소 맹출
+  { slug: 'chia-maengchul-jangae', name: '치아 맹출 장애', reason: '중복' }, // → 치아 맹출 지연
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

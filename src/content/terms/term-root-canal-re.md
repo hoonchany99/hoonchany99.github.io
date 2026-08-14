@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - root-canal
   - extraction
+  - yuchi-singyeongchiryo
   - conservative-dentistry
-  - imsin-jung-chigwachiryo
 relatedPosts:
   - slug: root-canal-root-canal
     title: "한 번 신경치료했는데 또 아프다면? 재신경치료가 답일까요?"

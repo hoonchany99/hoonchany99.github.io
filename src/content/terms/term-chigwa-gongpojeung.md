@@ -26,10 +26,10 @@ faqs:
   - question: "몇 년째 안 갔는데 혼날까 봐 못 가겠어요."
     answer: "오래 미루신 분들이 자주 하시는 걱정이에요. 지난 일을 따지기보다 지금 상태에서 무엇부터 할지 정하는 게 진료의 목적입니다. 편한 것부터 순서를 잡아 나가면 됩니다."
 relatedTerms:
+  - chigwayong-simenteu
   - dangnyo-hwanja-chigwa
   - goldagongjeung-hwanja-chigwa
   - imsin-jung-chigwachiryo
-  - pediatric-dentistry
 relatedPosts:
   []
 ---

@@ -27,9 +27,9 @@ faqs:
     answer: "적응 기간을 두고 재평가할 수 있어요. 지속되면 스플린트·교정·보철 재검토 등 추가 평가가 필요할 수 있습니다."
 relatedTerms:
   - crown
+  - bocheol-gyohab-jojeong
   - malocclusion
   - cavity
-  - root-canal
 relatedPosts:
   - slug: crown-3320
     title: "크라운이 높게 느껴진다면? 교합 조정이 필요한 신호입니다"

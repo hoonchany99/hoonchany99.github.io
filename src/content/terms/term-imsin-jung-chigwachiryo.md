@@ -27,9 +27,9 @@ faqs:
     answer: "임신 중 쓸 수 있는 약과 피해야 할 약이 나뉩니다. 반드시 임신 사실을 알려 주시고, 필요하면 산부인과와 상의해 정합니다. 임의로 상비약을 드시는 건 권하지 않아요."
 relatedTerms:
   - chigwa-gongpojeung
+  - chigwayong-simenteu
   - conservative-dentistry
   - dangnyo-hwanja-chigwa
-  - goldagongjeung-hwanja-chigwa
 relatedPosts:
   []
 ---

@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - immediate-implant
   - impeulranteu-geongangboheom
+  - impeulranteu-simenteu-vs-seukeuryu
   - implant
-  - peri-implantitis
 relatedPosts:
   []
 ---

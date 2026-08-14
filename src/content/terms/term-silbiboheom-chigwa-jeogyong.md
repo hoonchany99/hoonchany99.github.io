@@ -27,8 +27,8 @@ faqs:
 relatedTerms:
   - geongangboheom-jeogyong-teulni
   - chigwa-gongpojeung
+  - chigwayong-simenteu
   - dangnyo-hwanja-chigwa
-  - goldagongjeung-hwanja-chigwa
 relatedPosts:
   []
 ---

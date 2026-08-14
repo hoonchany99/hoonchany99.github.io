@@ -26,10 +26,10 @@ faqs:
   - question: "X-ray로는 어디까지 볼 수 있나요?"
     answer: "치관·치근의 형태, 뿌리 개수, 잇몸뼈 높이, 치수강의 크기까지 확인할 수 있어요. 다만 초기 충치나 잇몸 상태는 사진만으로 판단하기 어려워서, 직접 보는 검사와 함께 판단합니다."
 relatedTerms:
+  - chia-maengchul-jiyeon
+  - chia-maengchul-sunseo
   - cracked-tooth
-  - orthodontics
-  - tooth-discoloration
-  - tooth-fracture
+  - imsichia
 relatedPosts:
   []
 ---

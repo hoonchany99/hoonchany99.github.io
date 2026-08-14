@@ -30,7 +30,7 @@ relatedTerms:
   - extraction
   - invisalign
   - chia-gujo
-  - cracked-tooth
+  - chia-maengchul-jiyeon
 relatedPosts:
   - slug: duration-treatment
     title: "인비절라인 치료기간은 얼마나 걸릴까? 실제로 달라지는 요소들"

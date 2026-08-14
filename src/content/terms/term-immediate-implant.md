@@ -27,9 +27,9 @@ faqs:
     answer: "골유착까지 수주~수개월이 필요해요. 초기 붓기·통증은 흔할 수 있으며, 정기 검진으로 진행을 확인합니다."
 relatedTerms:
   - impeulranteu-geongangboheom
+  - impeulranteu-simenteu-vs-seukeuryu
   - impeulranteu-sumyeong
   - implant
-  - peri-implantitis
 relatedPosts:
   []
 ---

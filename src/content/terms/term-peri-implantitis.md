@@ -26,8 +26,8 @@ faqs:
 relatedTerms:
   - immediate-implant
   - impeulranteu-geongangboheom
+  - impeulranteu-simenteu-vs-seukeuryu
   - impeulranteu-sumyeong
-  - implant
 relatedPosts:
   []
 ---

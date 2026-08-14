@@ -27,8 +27,8 @@ faqs:
 relatedTerms:
   - geongangboheom-jeogyong-teulni
   - immediate-implant
+  - impeulranteu-simenteu-vs-seukeuryu
   - impeulranteu-sumyeong
-  - implant
 relatedPosts:
   []
 ---

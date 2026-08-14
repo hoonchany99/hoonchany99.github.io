@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - immediate-implant
   - impeulranteu-geongangboheom
+  - impeulranteu-simenteu-vs-seukeuryu
   - impeulranteu-sumyeong
-  - implant
 relatedPosts:
   - slug: cavity-reason
     title: "실란트 했는데 충치 생길거면 왜 해야되나요? 이유를 설명해드립니다"

@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - goldagongjeung-hwanja-chigwa
   - chigwa-gongpojeung
+  - chigwayong-simenteu
   - imsin-jung-chigwachiryo
-  - pediatric-dentistry
 relatedPosts:
   []
 ---

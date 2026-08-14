@@ -26,9 +26,9 @@ faqs:
     answer: "상해로 인정되면 관련 특약에서 보장될 여지가 있어요. 다만 상품과 약관에 따라 차이가 큽니다. 사고 경위를 기록해 두시고 보험사에 먼저 확인해 보시는 게 좋아요."
 relatedTerms:
   - geongangboheom-jeogyong-teulni
-  - impeulranteu-geongangboheom
-  - pediatric-dentistry
-  - sedation
+  - chigwa-gongpojeung
+  - dangnyo-hwanja-chigwa
+  - goldagongjeung-hwanja-chigwa
 relatedPosts:
   []
 ---

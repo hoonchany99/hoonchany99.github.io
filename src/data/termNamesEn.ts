@@ -118,6 +118,18 @@ export const termNamesEn: Record<string, string> = {
   'jaebalseong-apeuta-gunaeyeom': 'Recurrent Aphthous Stomatitis',
   halitosis: 'Halitosis',
 
+  // 전신질환·구강내과
+  'dangnyo-hwanja-chigwa': 'Diabetes and Dental Care',
+  'imsin-jung-chigwachiryo': 'Dental Care During Pregnancy',
+  'imsinseong-chieunyeom': 'Pregnancy Gingivitis',
+  'yagmul-gwanryeon-teogbbyeo-goesa': 'Medication-Related Osteonecrosis of the Jaw',
+  'goldagongjeung-hwanja-chigwa': 'Osteoporosis and Dental Care',
+  gugangam: 'Oral Cancer',
+  guganggeonjojeung: 'Xerostomia',
+  'chigwa-gongpojeung': 'Dental Anxiety',
+  'heubyeongwa-gugang-geongang': 'Smoking and Oral Health',
+  'yagmul-alrereugiwa-chigwa': 'Drug Allergy in Dentistry',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

@@ -27,9 +27,9 @@ faqs:
     answer: "염증은 가라앉지만 파였던 잇몸 형태가 남는 경우가 있어요. 음식이 끼거나 관리가 어려워지면 추가 치료를 검토합니다. 재발을 막는 관리가 그만큼 중요합니다."
 relatedTerms:
   - bagriseong-chieunyeom
+  - imsinseong-chieunyeom
   - geubseong-chisuyeom
   - gingivitis
-  - yagmulseong-chieun-jeungsig
 relatedPosts:
   []
 ---

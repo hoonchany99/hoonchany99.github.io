@@ -28,7 +28,7 @@ relatedTerms:
   - geongangboheom-jeogyong-teulni
   - impeulranteu-geongangboheom
   - scaling
-  - silbiboheom-chigwa-jeogyong
+  - heubyeongwa-gugang-geongang
 relatedPosts:
   []
 ---

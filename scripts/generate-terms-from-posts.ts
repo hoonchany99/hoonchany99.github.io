@@ -6,6 +6,7 @@ import { termsCanonical } from '../src/data/termsCanonical.ts';
 import { termFaqsBySlug, FAQ_COUNT } from '../src/data/termFaqs.ts';
 import { termDetailsBySlug } from '../src/data/termDetails.ts';
 import { authoredBySlug } from '../src/data/termsAuthored.ts';
+import { excludedSlugs } from '../src/data/termsExcluded.ts';
 import { termNamesEn } from '../src/data/termNamesEn.ts';
 import { writeTermsIndex } from './lib/writeTermsIndex.ts';
 
@@ -175,6 +176,7 @@ function pickRelatedTerms(
  * 없는 용어는 페이지를 만들지 않는다 — 빈 페이지를 색인시키지 않기 위함.
  */
 function hasVerifiedContent(slug: string): boolean {
+  if (excludedSlugs.has(slug)) return false;
   if (authoredBySlug[slug]) return true;
   return Boolean(termDetailsBySlug[slug] && termFaqsBySlug[slug]?.length);
 }
@@ -340,7 +342,7 @@ function main() {
   }
 
   console.log(
-    `done: ${created} written, ${skipped} skipped, ${unwritten} 미작성(페이지 없음)${dryRun ? ' (dry-run)' : ''}`
+    `done: ${created} written, ${skipped} skipped, ${unwritten - excludedSlugs.size} 미작성, ${excludedSlugs.size} 제외${dryRun ? ' (dry-run)' : ''}`
   );
 
   if (!dryRun) {

@@ -24,10 +24,10 @@ faqs:
   - question: "건조와면 다시 발치해야 하나요?"
     answer: "재발치는 필요 없어요. 혈병 형성·통증 관리·소독 등으로 치료합니다. 증상이 악화되면 바로 내원해 주세요."
 relatedTerms:
+  - guganggeonjojeung
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - bagriseong-chieunyeom
   - geubseong-goesaseong-gweyangseong-chieunyeom
+  - imsinseong-chieunyeom
   - buchagchieun
-  - chieun
 relatedPosts:
   []
 ---

@@ -190,6 +190,18 @@ export const termNamesEn: Record<string, string> = {
   'pyomyeon-machwi': 'Topical Anesthesia',
   'jeolgae-baenong': 'Incision and Drainage',
 
+  // 턱관절·통증
+  'teogeseo-sori': 'TMJ Sounds',
+  'teoggwanjeol-diseukeu-byeonwi': 'TMJ Disc Displacement',
+  'teoggwanjeol-jangae-jaga-jindan': 'TMD Self-Assessment',
+  'teoggwanjeol-jagaundong': 'TMJ Self-Exercise',
+  'teoggwanjeol-jusa': 'TMJ Injection',
+  'teoggwanjeol-golgwanjeolyeom': 'TMJ Osteoarthritis',
+  'teoggwanjeol-gangjigjeung': 'TMJ Ankylosis',
+  'manseong-dutonggwa-teoggwanjeol': 'Headache and TMD',
+  'gyohab-oesang': 'Occlusal Trauma',
+  'hachijosingyeong-sonsang': 'Inferior Alveolar Nerve Injury',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

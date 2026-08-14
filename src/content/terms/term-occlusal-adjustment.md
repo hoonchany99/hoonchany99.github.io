@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - crown
   - bocheol-gyohab-jojeong
+  - gyohab-oesang
   - malocclusion
-  - cavity
 relatedPosts:
   - slug: crown-3320
     title: "크라운이 높게 느껴진다면? 교합 조정이 필요한 신호입니다"

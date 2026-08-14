@@ -27,10 +27,10 @@ faqs:
   - question: "턱관절 수술이 필요한가요?"
     answer: "대부분은 비수술 치료로 관리해요. 심한 경우·구조적 문제가 있을 때만 수술을 검토합니다."
 relatedTerms:
-  - cavity
-  - root-canal
-  - implant
-  - wisdom-tooth
+  - teoggwanjeol-jangae-jaga-jindan
+  - manseong-dutonggwa-teoggwanjeol
+  - teoggwanjeol-diseukeu-byeonwi
+  - teoggwanjeol-gangjigjeung
 relatedPosts:
   []
 ---

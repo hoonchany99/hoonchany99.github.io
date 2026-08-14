@@ -28,9 +28,9 @@ faqs:
     answer: "난이도·발치 여부·장치 종류에 따라 6개월~2년 이상도 가능해요. 진단 후 예상 기간을 안내해 드려요."
 relatedTerms:
   - bocheol-gyohab-jojeong
+  - gyohab-oesang
   - occlusal-adjustment
   - cavity
-  - root-canal
 relatedPosts:
   []
 ---

@@ -29,7 +29,7 @@ relatedTerms:
   - root-canal
   - root-canal-re
   - conservative-dentistry
-  - impeulranteu-singyeong-sonsang
+  - hachijosingyeong-sonsang
 relatedPosts:
   []
 ---

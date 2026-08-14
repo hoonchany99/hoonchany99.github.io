@@ -27,9 +27,9 @@ faqs:
     answer: "가능성이 있습니다. 변색, 법랑질 형성 이상, 맹출 방향 변화 등이 보고돼요. 그래서 다친 뒤에는 영구치가 나올 때까지 정기적으로 확인하는 게 좋습니다."
 relatedTerms:
   - chia-oesang
+  - gyohab-oesang
   - primary-tooth
   - yuchi-chungchi
-  - yuchi-jogi-sangsil
 relatedPosts:
   []
 ---

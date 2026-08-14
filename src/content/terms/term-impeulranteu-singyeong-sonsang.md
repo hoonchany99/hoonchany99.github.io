@@ -26,10 +26,10 @@ faqs:
   - question: "저리면 임플란트를 빼야 하나요?"
     answer: "경우에 따라 다릅니다. 픽스처가 신경을 직접 누르고 있다면 제거하거나 짧은 것으로 교체를 검토해요. 상태를 확인한 뒤 판단합니다."
 relatedTerms:
+  - hachijosingyeong-sonsang
   - immediate-implant
   - impeulranteu-1cha-susul
   - impeulranteu-2cha-susul
-  - impeulranteu-eobeoteumeonteu
 relatedPosts:
   []
 ---

@@ -24,10 +24,10 @@ faqs:
   - question: "임플란트를 다시 심을 수 있나요?"
     answer: "제거 후 뼈 재건·치유 기간을 거쳐 재식립을 검토할 수 있어요. 케이스·뼈 상태·원인 관리에 따라 달라질 수 있습니다."
 relatedTerms:
+  - impeulranteu-juwi-jeommagyeom
   - immediate-implant
-  - impeulranteu-geongangboheom
-  - impeulranteu-simenteu-vs-seukeuryu
-  - impeulranteu-sumyeong
+  - impeulranteu-1cha-susul
+  - impeulranteu-2cha-susul
 relatedPosts:
   []
 ---

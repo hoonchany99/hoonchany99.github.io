@@ -27,9 +27,9 @@ faqs:
     answer: "보철물을 다시 만들면 가능한 경우가 있습니다. 다만 임플란트를 심은 각도가 제약이 돼요. 그래서 수술 계획 단계에서 어떤 방식으로 갈지 함께 고려합니다."
 relatedTerms:
   - immediate-implant
-  - impeulranteu-geongangboheom
-  - impeulranteu-sumyeong
-  - implant
+  - impeulranteu-1cha-susul
+  - impeulranteu-2cha-susul
+  - impeulranteu-eobeoteumeonteu
 relatedPosts:
   []
 ---

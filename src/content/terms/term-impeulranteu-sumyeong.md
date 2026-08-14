@@ -27,9 +27,9 @@ faqs:
     answer: "칫솔질과 치간 관리, 정기 검진이 기본입니다. 임플란트 주변은 치실이나 치간칫솔로 따로 챙겨 주세요. 이갈이가 있으면 장치를 고려하고, 흡연과 혈당 관리도 함께 보는 게 좋아요."
 relatedTerms:
   - immediate-implant
-  - impeulranteu-geongangboheom
-  - impeulranteu-simenteu-vs-seukeuryu
-  - implant
+  - impeulranteu-1cha-susul
+  - impeulranteu-2cha-susul
+  - impeulranteu-eobeoteumeonteu
 relatedPosts:
   []
 ---

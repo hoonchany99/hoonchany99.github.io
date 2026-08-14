@@ -27,9 +27,9 @@ faqs:
     answer: "범위·이식 방식·치아 개수에 따라 달라져요. 대부분 비급여인 경우가 많습니다. 수술 전 상담해 드려요."
 relatedTerms:
   - bone-graft
+  - golisigjae
   - cavity
   - root-canal
-  - implant
 relatedPosts:
   []
 ---

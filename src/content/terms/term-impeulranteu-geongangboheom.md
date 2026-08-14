@@ -27,8 +27,8 @@ faqs:
 relatedTerms:
   - geongangboheom-jeogyong-teulni
   - immediate-implant
-  - impeulranteu-simenteu-vs-seukeuryu
-  - impeulranteu-sumyeong
+  - impeulranteu-1cha-susul
+  - impeulranteu-2cha-susul
 relatedPosts:
   []
 ---

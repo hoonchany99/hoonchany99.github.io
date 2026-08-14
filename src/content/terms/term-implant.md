@@ -29,10 +29,10 @@ faqs:
   - question: "임플란트도 평생 가나요?"
     answer: "관리·흡연·당뇨·교합 등에 따라 예후가 달라질 수 있어요. 자연치처럼 정기 검진·스케일링·집에서 관리가 필요합니다. 임플란트 주위염 예방이 중요해요."
 relatedTerms:
+  - impeulranteu-tongjeung
   - immediate-implant
-  - impeulranteu-geongangboheom
-  - impeulranteu-simenteu-vs-seukeuryu
-  - impeulranteu-sumyeong
+  - impeulranteu-1cha-susul
+  - impeulranteu-2cha-susul
 relatedPosts:
   - slug: implant-pain-recovery
     title: "임플란트 수술 후 통증, 며칠까지가 정상일까? 단계별 회복 기준"

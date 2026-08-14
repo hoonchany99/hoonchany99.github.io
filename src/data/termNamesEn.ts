@@ -166,6 +166,18 @@ export const termNamesEn: Record<string, string> = {
   'soa-gyojeong': 'Interceptive Orthodontics',
   'gyojeongyong-waieo': 'Orthodontic Archwire',
 
+  // 임플란트 (추가)
+  'impeulranteu-pigseucheo': 'Implant Fixture',
+  'impeulranteu-eobeoteumeonteu': 'Implant Abutment',
+  'impeulranteu-1cha-susul': 'Implant Placement Surgery',
+  'impeulranteu-2cha-susul': 'Second-Stage Implant Surgery',
+  'impeulranteu-silpae': 'Implant Failure',
+  'impeulranteu-juwi-jeommagyeom': 'Peri-implant Mucositis',
+  'impeulranteu-tongjeung': 'Implant Pain',
+  'impeulranteu-singyeong-sonsang': 'Implant Nerve Injury',
+  'impeulranteu-gwanri': 'Implant Maintenance',
+  golisigjae: 'Bone Graft Material',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

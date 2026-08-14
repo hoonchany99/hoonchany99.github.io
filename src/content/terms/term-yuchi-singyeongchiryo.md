@@ -29,7 +29,7 @@ relatedTerms:
   - root-canal
   - root-canal-re
   - conservative-dentistry
-  - imsin-jung-chigwachiryo
+  - impeulranteu-singyeong-sonsang
 relatedPosts:
   []
 ---

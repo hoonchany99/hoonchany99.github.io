@@ -26,9 +26,9 @@ faqs:
     answer: "발치 직후 이식(소켓 보존)이 도움이 되는 경우가 있어요. 다만 케이스마다 다를 수 있습니다. 발치·CT 검사 후 계획을 정해요."
 relatedTerms:
   - periodontitis
+  - golisigjae
   - gum-graft
   - cavity
-  - root-canal
 relatedPosts:
   - slug: implant
     title: "뼈가 부족하면 임플란트 안 될까? 뼈 이식이 필요한 경우는?"

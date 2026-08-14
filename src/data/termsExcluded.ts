@@ -88,6 +88,27 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'sumyeon-impeulranteu', name: '수면 임플란트', reason: '홍보·비교' },
   { slug: 'geubsog-gyojeong', name: '급속 교정', reason: '홍보·비교' },
 
+  { slug: 'impeulranteu-yujibosu', name: '임플란트 유지보수', reason: '중복' }, // → 임플란트 관리
+  { slug: 'impeulranteu-hu-gwanri', name: '임플란트 후 관리', reason: '중복' }, // → 임플란트 관리
+  { slug: 'impeulranteu-golyuchag-silpae', name: '임플란트 골유착 실패', reason: '중복' }, // → 임플란트 실패
+  { slug: 'balchi-hu-jeugsi-impeulranteu', name: '발치 후 즉시 임플란트', reason: '중복' }, // → 즉시임플란트
+  { slug: 'impeulranteu-imsichia', name: '임플란트 임시치아', reason: '중복' }, // → 임시치아
+  { slug: 'keoseuteom-eobeoteumeonteu', name: '커스텀 어버트먼트', reason: '중복' }, // → 임플란트 어버트먼트
+  { slug: 'sangagdongyeom', name: '상악동염', reason: '중복' }, // → 치성 상악동염 (치과 영역)
+  {
+    slug: 'cheugbang-jeobgeun-sangagdong-geosangsul',
+    name: '측방 접근 상악동 거상술',
+    reason: '중복',
+  }, // → 상악동거상술
+  {
+    slug: 'chijojeong-jeobgeun-sangagdong-geosangsul',
+    name: '치조정 접근 상악동 거상술',
+    reason: '중복',
+  }, // → 상악동거상술
+  { slug: 'impeulranteu-insang', name: '임플란트 인상', reason: '중복' }, // → 임플란트 보철
+
+  { slug: 'nebigeisyeon-impeulranteu', name: '네비게이션 임플란트', reason: '홍보·비교' },
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

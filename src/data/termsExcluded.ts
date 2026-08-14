@@ -109,6 +109,21 @@ export const termsExcluded: ExcludedTerm[] = [
 
   { slug: 'nebigeisyeon-impeulranteu', name: '네비게이션 임플란트', reason: '홍보·비교' },
 
+  { slug: 'chia-oesang-daecheo', name: '치아 외상 대처', reason: '중복' }, // → 치아 외상
+  { slug: 'chia-talgu', name: '치아 탈구', reason: '중복' }, // → 치아 외상
+  { slug: 'chia-atalgu', name: '치아 아탈구', reason: '중복' }, // → 치아 외상
+  { slug: 'chia-jaesigsul-hu-gwanri', name: '치아 재식술 후 관리', reason: '중복' }, // → 치아 재식술
+  { slug: 'machwi', name: '마취', reason: '중복' }, // → 국소마취
+  { slug: 'machwijinjeong', name: '마취·진정', reason: '중복' }, // → 국소마취, 수면치과·의식하진정
+  { slug: 'chimyunmachwi', name: '침윤마취', reason: '중복' }, // → 국소마취
+  { slug: 'susul-gaideu', name: '수술 가이드', reason: '중복' }, // → 가이드 수술
+  { slug: 'chiju-panmag-susul', name: '치주 판막 수술', reason: '중복' }, // → 잇몸 수술
+  { slug: 'peulraeb-susul', name: '플랩 수술', reason: '중복' }, // → 잇몸 수술
+  { slug: 'teoggyojeong-susul', name: '턱교정 수술', reason: '중복' }, // → 악교정 수술
+  { slug: 'teoggwanjeol-diseukeu', name: '턱관절 디스크', reason: '중복' }, // → 턱관절 디스크 변위
+  { slug: 'mujeolgae-impeulranteu', name: '무절개 임플란트', reason: '홍보·비교' },
+  { slug: 'teoggwanjeolgugangoegwa', name: '턱관절·구강외과', reason: '행정·계약' }, // 진료과 소개
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

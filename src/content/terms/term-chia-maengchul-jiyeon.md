@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - chia-maengchul-sunseo
   - chia-gujo
-  - cracked-tooth
-  - imsichia
+  - chia-jaesigsul
+  - chia-oesang
 relatedPosts:
   []
 ---

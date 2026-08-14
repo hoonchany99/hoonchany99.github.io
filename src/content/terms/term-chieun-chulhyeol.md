@@ -27,9 +27,9 @@ faqs:
     answer: "자극 없이 저절로 나는 출혈은 조금 다르게 봅니다. 심한 염증일 수도 있고, 복용 중인 약이나 전신적인 원인이 있을 수도 있어요. 이 경우 미루지 마시고 진료를 받아 보세요."
 relatedTerms:
   - bagriseong-chieunyeom
+  - balchi-hu-chulhyeol
   - buchagchieun
   - chieun
-  - chieun-jeoljesul
 relatedPosts:
   []
 ---

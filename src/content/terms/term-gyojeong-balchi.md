@@ -29,7 +29,7 @@ relatedTerms:
   - extraction
   - orthodontics
   - aggyojeong-susul
-  - balchi-hu-juuisahang
+  - balchi-hu-chulhyeol
 relatedPosts:
   - slug: orthodontic-extraction-extraction
     title: "교정할 때 꼭 발치해야 할까? 발치 기준 이렇게 설명드립니다"

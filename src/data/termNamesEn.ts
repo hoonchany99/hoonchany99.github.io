@@ -178,6 +178,18 @@ export const termNamesEn: Record<string, string> = {
   'impeulranteu-gwanri': 'Implant Maintenance',
   golisigjae: 'Bone Graft Material',
 
+  // 외과·발치 (추가)
+  'chia-oesang': 'Dental Trauma',
+  'chia-wanjeon-talgu': 'Tooth Avulsion',
+  'chia-jaesigsul': 'Tooth Replantation',
+  'balchi-hu-chulhyeol': 'Post-Extraction Bleeding',
+  'balchi-hu-tongjeung': 'Post-Extraction Pain',
+  'dansun-balchi': 'Simple Extraction',
+  'bogjab-balchi': 'Surgical Extraction',
+  jeondalmachwi: 'Nerve Block Anesthesia',
+  'pyomyeon-machwi': 'Topical Anesthesia',
+  'jeolgae-baenong': 'Incision and Drainage',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

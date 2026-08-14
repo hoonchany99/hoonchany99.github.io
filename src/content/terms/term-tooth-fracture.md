@@ -30,7 +30,7 @@ relatedTerms:
   - primary-tooth
   - bocheolmul-pajeol
   - chia-gujo
-  - chia-maengchul-jiyeon
+  - chia-jaesigsul
 relatedPosts:
   - slug: baby-tooth-fracture
     title: "유치 부러짐, 당황하지 말고 이것부터 하세요"

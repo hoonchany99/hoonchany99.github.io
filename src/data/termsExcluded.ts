@@ -74,6 +74,20 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'yeongguchi-iso-maengchul', name: '영구치 이소 맹출', reason: '중복' }, // → 이소 맹출
   { slug: 'chia-maengchul-jangae', name: '치아 맹출 장애', reason: '중복' }, // → 치아 맹출 지연
 
+  { slug: 'gyojeong-wagseu', name: '교정 왁스', reason: '중복' }, // → 교정용 왁스
+  { slug: 'selpeu-rigeiting-beurakes', name: '셀프 리게이팅 브라켓', reason: '중복' }, // 표기 차이
+  { slug: 'gyojeong-jung-gwanri', name: '교정 중 관리', reason: '중복' }, // → 교정 중 구강 관리
+  { slug: 'impeulranteu-silpae-wonin', name: '임플란트 실패 원인', reason: '중복' }, // → 임플란트 실패
+  { slug: 'olonpo-impeulranteu', name: '올온포 임플란트', reason: '중복' }, // → All-on-4
+  { slug: 'noin-impeulranteu-boheom', name: '노인 임플란트 보험', reason: '중복' }, // → 임플란트 건강보험
+  { slug: 'maikeuro-impeulranteu', name: '마이크로 임플란트', reason: '중복' }, // → 미니 임플란트
+
+  // 시술명이라기보다 홍보용 명칭
+  { slug: 'wondei-impeulranteu', name: '원데이 임플란트', reason: '홍보·비교' },
+  { slug: 'gonando-impeulranteu', name: '고난도 임플란트', reason: '홍보·비교' },
+  { slug: 'sumyeon-impeulranteu', name: '수면 임플란트', reason: '홍보·비교' },
+  { slug: 'geubsog-gyojeong', name: '급속 교정', reason: '홍보·비교' },
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

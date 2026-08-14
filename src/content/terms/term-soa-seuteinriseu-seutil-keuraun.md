@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - crown
   - pediatric-dentistry
+  - soa-gyojeong
   - cavity
-  - root-canal
 relatedPosts:
   []
 ---

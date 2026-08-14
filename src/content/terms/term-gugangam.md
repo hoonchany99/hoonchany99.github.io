@@ -27,9 +27,9 @@ faqs:
     answer: "거울 앞에서 혀를 내밀어 옆면과 아랫면, 입바닥, 볼 안쪽, 잇몸을 한 번씩 보시면 됩니다. 한쪽에만 있는 변화, 점점 커지는 것, 색이 다른 부위를 눈여겨보세요. 다만 자가 확인이 검진을 대신하지는 않습니다."
 relatedTerms:
   - guganggeonjojeung
+  - gyojeong-jung-gugang-gwanri
   - heubyeongwa-gugang-geongang
   - cavity
-  - root-canal
 relatedPosts:
   []
 ---

@@ -29,7 +29,7 @@ relatedTerms:
   - guganggeonjojeung
   - geongangboheom-jeogyong-teulni
   - gugangam
-  - impeulranteu-geongangboheom
+  - gyojeong-jung-gugang-gwanri
 relatedPosts:
   []
 ---

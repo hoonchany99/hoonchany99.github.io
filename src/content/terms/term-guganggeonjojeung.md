@@ -29,7 +29,7 @@ relatedTerms:
   - heubyeongwa-gugang-geongang
   - dry-socket
   - gugangam
-  - cavity
+  - gyojeong-jung-gugang-gwanri
 relatedPosts:
   []
 ---

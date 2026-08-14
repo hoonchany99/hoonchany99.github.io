@@ -154,6 +154,18 @@ export const termNamesEn: Record<string, string> = {
   'soa-seuteinriseu-seutil-keuraun': 'Stainless Steel Crown',
   'eorini-chungchi-yebang': 'Caries Prevention in Children',
 
+  // 교정 (추가)
+  'gyojeong-jindan-geomsa': 'Orthodontic Diagnostic Records',
+  'gyojeong-balchi': 'Extraction for Orthodontics',
+  'gyojeongyong-miniseukeuryu': 'Orthodontic Mini-Screw',
+  'gyojeong-jaebal': 'Orthodontic Relapse',
+  'gyojeong-jung-gugang-gwanri': 'Oral Hygiene During Orthodontics',
+  'seolcheug-gyojeong': 'Lingual Orthodontics',
+  'gineungjeog-gyojeong-jangchi': 'Functional Appliance',
+  'aggyojeong-susul': 'Orthognathic Surgery',
+  'soa-gyojeong': 'Interceptive Orthodontics',
+  'gyojeongyong-waieo': 'Orthodontic Archwire',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

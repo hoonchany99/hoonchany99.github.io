@@ -26,10 +26,10 @@ faqs:
   - question: "병원에 가야 하는 경우는 언제인가요?"
     answer: "3주 넘게 낫지 않거나, 궤양이 유난히 크고 깊거나, 한 번에 여러 개가 계속 생길 때예요. 눈이나 생식기에도 궤양이 함께 생긴다면 다른 전신 질환을 확인할 필요가 있습니다."
 relatedTerms:
+  - gyojeong-jaebal
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

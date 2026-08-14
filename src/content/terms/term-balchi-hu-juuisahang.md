@@ -27,9 +27,9 @@ faqs:
     answer: "통증이 점점 나아지다가 3~5일째 갑자기 심해지는 게 특징이에요. 귀나 관자놀이까지 뻗치는 둔한 통증이 많습니다. 진통제로도 잘 안 잡히면 방문해 주세요. 상처를 세척하고 약제를 넣어 주면 훨씬 편해집니다."
 relatedTerms:
   - extraction
+  - gyojeong-balchi
   - cavity
   - root-canal
-  - implant
 relatedPosts:
   []
 ---

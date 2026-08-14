@@ -27,10 +27,10 @@ faqs:
   - question: "교정 중 발치해야 하나요?"
     answer: "공간 부족·돌출 등에 따라 발치가 필요한 경우가 있어요. 모든 분에게 해당되지는 않아요. 진단·X-ray 후 결정합니다."
 relatedTerms:
+  - gyojeong-balchi
   - extraction
   - invisalign
-  - chia-gujo
-  - chia-maengchul-jiyeon
+  - soa-gyojeong
 relatedPosts:
   - slug: duration-treatment
     title: "인비절라인 치료기간은 얼마나 걸릴까? 실제로 달라지는 요소들"

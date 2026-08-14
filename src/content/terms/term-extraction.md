@@ -26,9 +26,9 @@ faqs:
     answer: "흡연·빨대·세게 가글·뱉기·음주·과격한 운동을 피하세요. 처방·주의사항을 꼭 따르시고, 통증이 악화되면 바로 연락해 주세요."
 relatedTerms:
   - wisdom-tooth
+  - gyojeong-balchi
   - orthodontics
   - root-canal
-  - root-canal-re
 relatedPosts:
   - slug: wisdom-tooth-extraction-cost
     title: "사랑니 발치 비용, 보험 적용되나요? 단순·매복별 가격 총정리"

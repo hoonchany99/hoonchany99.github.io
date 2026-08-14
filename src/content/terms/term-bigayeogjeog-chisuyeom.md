@@ -27,9 +27,9 @@ faqs:
     answer: "국소마취를 하고 진행하므로 치료 중 통증은 대부분 조절됩니다. 다만 염증이 심하면 마취가 잘 안 듣는 경우가 있어서, 마취 방법을 조정하기도 해요. 불편하시면 중간에 말씀해 주시면 됩니다."
 relatedTerms:
   - gayeogjeog-chisuyeom
+  - geubseong-chisuyeom
+  - manseong-chisuyeom
   - chisu
-  - chisugang
-  - pulpotomy
 relatedPosts:
   []
 ---

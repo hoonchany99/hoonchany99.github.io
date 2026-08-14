@@ -27,9 +27,9 @@ faqs:
     answer: "치아 위치·난이도·마취·봉합 등에 따라 달라져요. 대부분 비급여인 경우가 많습니다. 수술 전 범위와 예상 비용을 확인하시면 좋아요."
 relatedTerms:
   - apical-periodontitis
+  - chieun-jeoljesul
   - chigeun
   - scaling-root-planing
-  - cavity
 relatedPosts:
   []
 ---

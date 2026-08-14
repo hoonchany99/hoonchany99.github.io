@@ -29,7 +29,7 @@ relatedTerms:
   - bagriseong-chieunyeom
   - buchagchieun
   - chieun
-  - chieun-toechug
+  - chieun-chulhyeol
 relatedPosts:
   []
 ---

@@ -26,10 +26,10 @@ faqs:
   - question: "어느 과에서 봐야 하나요?"
     answer: "치과의 구강내과 진료가 출발점이 되는 경우가 많아요. 원인이 자가면역 수포성 질환으로 확인되면 피부과와 함께 보기도 합니다. 잇몸 관리 자체는 치과에서 병행해요."
 relatedTerms:
+  - geubseong-goesaseong-gweyangseong-chieunyeom
   - gingivitis
+  - yagmulseong-chieun-jeungsig
   - buchagchieun
-  - chieun
-  - chieun-toechug
 relatedPosts:
   []
 ---

@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - chisu
-  - gayeogjeog-chisuyeom
-  - pulpotomy
+  - chisu-goesa
+  - chisu-seoghoehwa
 relatedPosts:
   []
 ---

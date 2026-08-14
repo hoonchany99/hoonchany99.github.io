@@ -27,9 +27,9 @@ faqs:
     answer: "원인이 남아 있으면 염증이 더 깊어질 수 있어요. 비가역적 치수염이나 치수 괴사로 진행하면 신경치료가 필요해집니다. 초기에 원인을 정리하는 쪽이 부담이 적은 경우가 많아요."
 relatedTerms:
   - bigayeogjeog-chisuyeom
+  - geubseong-chisuyeom
+  - manseong-chisuyeom
   - chisu
-  - chisugang
-  - pulpotomy
 relatedPosts:
   []
 ---

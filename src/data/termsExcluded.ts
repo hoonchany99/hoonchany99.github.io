@@ -147,6 +147,20 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'yebang-chiuihag', name: '예방 치의학', reason: '행정·계약' }, // 학문 분야 소개
   { slug: 'seukeilring-hyeobjo', name: '스케일링 협조', reason: '검증불가' },
 
+  { slug: 'panorama-chwalyeong', name: '파노라마 촬영', reason: '중복' }, // → 파노라마
+  { slug: 'panorama-xseon', name: '파노라마 X선', reason: '중복' }, // → 파노라마
+  { slug: 'chigeundan-chwalyeong', name: '치근단 촬영', reason: '중복' }, // → 치근단 방사선
+  { slug: 'chigwa-ct', name: '치과 CT', reason: '중복' }, // → CT
+  { slug: 'sangaggol', name: '상악골', reason: '중복' }, // → 상악
+  { slug: 'haaggol', name: '하악골', reason: '중복' }, // → 하악
+  { slug: 'sirini', name: '시린이', reason: '중복' }, // → 이시림
+  { slug: 'boghabrejin', name: '복합레진', reason: '중복' }, // → 레진
+  { slug: 'jeojbyeong-usigjeung', name: '젖병 우식증', reason: '중복' }, // → 유아 우식
+  { slug: 'dijiteol-gugang-seukaen', name: '디지털 구강 스캔', reason: '중복' }, // → 구강 스캐너
+  { slug: 'dijiteol-jindan-mohyeong', name: '디지털 진단 모형', reason: '중복' }, // → 구강 스캐너
+  { slug: 'noin-guganggwanri', name: '노인 구강관리', reason: '중복' }, // → 노인 뿌리 우식 등 개별 용어
+  { slug: 'yeonha-jangae', name: '연하 장애', reason: '중복' }, // → 노인 연하장애
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

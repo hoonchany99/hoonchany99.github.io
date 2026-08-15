@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - apical-periodontitis
   - chieun-jeoljesul
+  - chigeundan-bangsaseon
   - chigeun
-  - scaling-root-planing
 relatedPosts:
   []
 ---

@@ -26,10 +26,10 @@ faqs:
   - question: "우식이 빨리 진행되나요?"
     answer: "개인·위치·식습관·관리 상태에 따라 달라져요. 방치하면 몇 달~1년 안에 깊어질 수 있어 조기 치료가 중요합니다."
 relatedTerms:
+  - icha-usig
+  - noin-bburi-usig
+  - yua-usig
   - cavity
-  - root-canal
-  - implant
-  - wisdom-tooth
 relatedPosts:
   - slug: cavity-4311
     title: "이게 충치일까? 그냥 착색일까? 스스로 구분하는 방법"

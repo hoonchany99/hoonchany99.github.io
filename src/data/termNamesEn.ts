@@ -238,6 +238,18 @@ export const termNamesEn: Record<string, string> = {
   'ismom-saegsochimchag': 'Gingival Pigmentation',
   'chijugeungwan-boghab-byeongso': 'Endo-Perio Lesion',
 
+  // 진단·영상 / 충치·수복 (추가)
+  panorama: 'Panoramic Radiograph',
+  'chigeundan-bangsaseon': 'Periapical Radiograph',
+  ct: 'Cone Beam CT',
+  'bangsaseon-anjeon': 'Radiation Safety',
+  wadong: 'Cavity Preparation',
+  'icha-usig': 'Secondary Caries',
+  'yua-usig': 'Early Childhood Caries',
+  'gwaminseong-sangajil': 'Dentin Hypersensitivity',
+  'geulraseu-aionomeo': 'Glass Ionomer',
+  'noin-bburi-usig': 'Root Caries',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

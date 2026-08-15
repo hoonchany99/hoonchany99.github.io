@@ -202,6 +202,18 @@ export const termNamesEn: Record<string, string> = {
   'gyohab-oesang': 'Occlusal Trauma',
   'hachijosingyeong-sonsang': 'Inferior Alveolar Nerve Injury',
 
+  // 구강내과·점막
+  gunaeyeom: 'Stomatitis',
+  baegbanjeung: 'Oral Leukoplakia',
+  pyeonpyeongtaeseon: 'Oral Lichen Planus',
+  'gugang-kandidajeung': 'Oral Candidiasis',
+  'gugang-dansunpojin': 'Oral Herpes Simplex',
+  seoltae: 'Tongue Coating',
+  jidoseol: 'Geographic Tongue',
+  seoltong: 'Glossodynia',
+  chimsaemyeom: 'Sialadenitis',
+  gugagmiranjeung: 'Angular Cheilitis',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

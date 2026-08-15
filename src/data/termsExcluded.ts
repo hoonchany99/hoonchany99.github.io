@@ -124,6 +124,21 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'mujeolgae-impeulranteu', name: '무절개 임플란트', reason: '홍보·비교' },
   { slug: 'teoggwanjeolgugangoegwa', name: '턱관절·구강외과', reason: '행정·계약' }, // 진료과 소개
 
+  { slug: 'hyeo-baegtae', name: '혀 백태', reason: '중복' }, // → 설태
+  { slug: 'hyeo-keulrineo', name: '혀 클리너', reason: '중복' }, // → 혀 세정
+  {
+    slug: 'gugang-geonjojeung-habbyeongjeung',
+    name: '구강 건조증 합병증',
+    reason: '중복',
+  }, // → 구강건조증
+  { slug: 'gugang-jeommag-jilhwan', name: '구강 점막 질환', reason: '중복' }, // 상위 개념 — 개별 용어로 대체
+
+  // 방향·부위를 가리키는 술어라 사전 항목으로 두기 어려움
+  { slug: 'seolcheug', name: '설측', reason: '중복' },
+  { slug: 'hyeobcheugseolcheug', name: '협측/설측', reason: '중복' },
+
+  { slug: 'hwanja-gyeongheom-seolgye', name: '환자 경험 설계', reason: '행정·계약' },
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

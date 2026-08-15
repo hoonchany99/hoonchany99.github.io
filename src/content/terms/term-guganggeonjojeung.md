@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - heubyeongwa-gugang-geongang
   - dry-socket
-  - gugangam
-  - gyojeong-jung-gugang-gwanri
+  - gugang-dansunpojin
+  - gugang-kandidajeung
 relatedPosts:
   []
 ---

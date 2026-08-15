@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - aggyojeong-susul
   - gineungjeog-gyojeong-jangchi
-  - gugangam
-  - guganggeonjojeung
+  - gugang-dansunpojin
+  - gugang-kandidajeung
 relatedPosts:
   []
 ---

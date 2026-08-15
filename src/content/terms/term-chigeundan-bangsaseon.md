@@ -29,7 +29,7 @@ relatedTerms:
   - apical-periodontitis
   - apicoectomy
   - bangsaseon-anjeon
-  - chigeun
+  - chigeundan-byeongso
 relatedPosts:
   []
 ---

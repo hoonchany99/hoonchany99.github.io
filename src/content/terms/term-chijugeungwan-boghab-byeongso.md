@@ -26,10 +26,10 @@ faqs:
   - question: "치아를 살릴 수 있나요?"
     answer: "원인과 남은 잇몸뼈 양에 달려 있습니다. 치수가 원인이고 뼈가 남아 있으면 살리는 경우가 많아요. 치주 파괴가 심하면 발치를 검토합니다."
 relatedTerms:
+  - chigeundan-byeongso
+  - chigeungwan
   - chiju-jaesaengsul
   - chiju-nongyang
-  - chiju-sopasul
-  - chiju-susul-hu-gwanri
 relatedPosts:
   []
 ---

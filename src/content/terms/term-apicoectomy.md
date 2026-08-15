@@ -29,7 +29,7 @@ relatedTerms:
   - apical-periodontitis
   - chieun-jeoljesul
   - chigeundan-bangsaseon
-  - chigeun
+  - chigeundan-byeongso
 relatedPosts:
   []
 ---

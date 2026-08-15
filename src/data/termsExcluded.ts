@@ -161,6 +161,10 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'noin-guganggwanri', name: '노인 구강관리', reason: '중복' }, // → 노인 뿌리 우식 등 개별 용어
   { slug: 'yeonha-jangae', name: '연하 장애', reason: '중복' }, // → 노인 연하장애
 
+  { slug: 'chigeundan-susul', name: '치근단 수술', reason: '중복' }, // → 치근단절제술
+  { slug: 'geubsog-gugae-hwagjang', name: '급속 구개 확장', reason: '중복' }, // → 구개 확장 장치
+  { slug: 'impeulranteu-sangagdong', name: '임플란트 상악동', reason: '중복' }, // → 상악동거상술
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

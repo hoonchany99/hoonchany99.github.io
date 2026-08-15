@@ -30,7 +30,7 @@ relatedTerms:
   - apical-periodontitis
   - apicoectomy
   - chigeun
-  - chigeundan-bangsaseon
+  - chigeun-cheongong
 relatedPosts:
   []
 ---

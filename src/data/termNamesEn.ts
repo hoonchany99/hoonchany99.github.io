@@ -250,6 +250,18 @@ export const termNamesEn: Record<string, string> = {
   'geulraseu-aionomeo': 'Glass Ionomer',
   'noin-bburi-usig': 'Root Caries',
 
+  // 근관 세부
+  chigeungwan: 'Root Canal (Anatomy)',
+  'geungwan-secheog': 'Root Canal Irrigation',
+  'geungwan-chungjeon': 'Root Canal Obturation',
+  'chigeundan-byeongso': 'Periapical Lesion',
+  'chigeundan-nangjong': 'Radicular Cyst',
+  'chigeundan-yugajong': 'Periapical Granuloma',
+  'chigeun-cheongong': 'Root Perforation',
+  'pail-pajeol': 'Separated Instrument',
+  'nikeltaitanyum-pail': 'Nickel-Titanium File',
+  'jeongigeungwanjang-cheugjeonggi': 'Electronic Apex Locator',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

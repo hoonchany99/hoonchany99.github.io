@@ -28,9 +28,9 @@ faqs:
     answer: "이갈이 관리, 단단한 음식·얼음 깨물기 피하기, 충치 조기 치료, 보철·교합 점검이 도움이 될 수 있어요."
 relatedTerms:
   - zirconia
+  - chia-chagsaeg
   - chia-gujo
   - chia-jaesigsul
-  - chia-maengchul-jiyeon
 relatedPosts:
   - slug: root-canal-tooth-crown
     title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"

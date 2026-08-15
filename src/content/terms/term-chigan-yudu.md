@@ -26,10 +26,10 @@ faqs:
   - question: "교정 후에 틈이 생겼어요."
     answer: "치아가 이동하면서 접촉 모양이 달라져 생길 수 있습니다. 잇몸이 얇거나 이전에 염증이 있었다면 더 그래요. 교정 담당 선생님과 함께 마무리 조정을 상의해 보세요."
 relatedTerms:
+  - chigan-igae
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

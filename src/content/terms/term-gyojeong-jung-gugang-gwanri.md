@@ -27,9 +27,9 @@ faqs:
     answer: "교정 중에는 세균막이 쌓여 잇몸이 붓는 경우가 흔합니다. 다만 방치하면 나빠져요. 그 부위를 더 신경 써서 닦고, 좋아지지 않으면 스케일링을 받으시는 게 좋습니다."
 relatedTerms:
   - aggyojeong-susul
+  - chiju-susul-hu-gwanri
+  - chiju-yujigwanri
   - gineungjeog-gyojeong-jangchi
-  - gugang-dansunpojin
-  - gugang-kandidajeung
 relatedPosts:
   []
 ---

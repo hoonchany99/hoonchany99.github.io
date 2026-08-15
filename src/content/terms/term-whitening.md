@@ -26,9 +26,9 @@ faqs:
     answer: "치과 내원 미백은 빠르고 강한 편이에요. 맞춤 트레이·OTC는 천천히·집에서 하는 방식입니다. 목표·민감도·예산에 따라 선택할 수 있어요."
 relatedTerms:
   - sensitivity
+  - chia-chagsaeg
   - chia-gujo
   - chia-jaesigsul
-  - chia-maengchul-jiyeon
 relatedPosts:
   - slug: toothwhitening
     title: "치아미백 효과 얼마나 갈까? 효과가 사라지는 이유 설명드립니다"

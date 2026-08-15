@@ -214,6 +214,30 @@ export const termNamesEn: Record<string, string> = {
   chimsaemyeom: 'Sialadenitis',
   gugagmiranjeung: 'Angular Cheilitis',
 
+  // 예방·관리
+  chissoljil: 'Toothbrushing',
+  'chissol-seontaeg': 'Choosing a Toothbrush',
+  'jeondong-chissol': 'Electric Toothbrush',
+  'bulso-dopo': 'Fluoride Application',
+  'chia-chagsaeg': 'Extrinsic Tooth Stain',
+  'teulni-gwanribeob': 'Denture Care',
+  'soa-gugang-geomjin': "Children's Dental Check-up",
+  'gugga-muryo-geomjin': 'National Oral Health Screening',
+  'yebangjeog-hangsaengje': 'Antibiotic Prophylaxis',
+  'chigan-igae': 'Diastema',
+
+  // 치주 (추가)
+  'manseong-chijuyeom': 'Chronic Periodontitis',
+  'gonggyeogseong-chijuyeom': 'Aggressive Periodontitis',
+  'chiju-nongyang': 'Periodontal Abscess',
+  'chiju-sopasul': 'Periodontal Curettage',
+  'ismom-susul': 'Periodontal Flap Surgery',
+  'chiju-jaesaengsul': 'Periodontal Regeneration',
+  'chiju-yujigwanri': 'Periodontal Maintenance',
+  'chiju-susul-hu-gwanri': 'Post-Periodontal Surgery Care',
+  'ismom-saegsochimchag': 'Gingival Pigmentation',
+  'chijugeungwan-boghab-byeongso': 'Endo-Perio Lesion',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

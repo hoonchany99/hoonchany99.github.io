@@ -26,10 +26,10 @@ faqs:
   - question: "수술 후 감각이 이상해진다던데요?"
     answer: "아랫입술과 턱 부위가 저린 느낌이 남을 수 있습니다. 대부분 시간이 지나며 회복되지만, 일부 남는 경우가 보고돼요. 수술 전에 이 위험을 함께 설명받으셔야 합니다."
 relatedTerms:
+  - chiju-susul-hu-gwanri
   - gineungjeog-gyojeong-jangchi
   - gyojeong-balchi
   - gyojeong-jaebal
-  - gyojeong-jindan-geomsa
 relatedPosts:
   []
 ---

@@ -139,6 +139,14 @@ export const termsExcluded: ExcludedTerm[] = [
 
   { slug: 'hwanja-gyeongheom-seolgye', name: '환자 경험 설계', reason: '행정·계약' },
 
+  { slug: 'olbareun-chissoljil-bangbeob', name: '올바른 칫솔질 방법', reason: '중복' }, // → 칫솔질
+  { slug: 'chigwa-jeonggi-geomjin', name: '치과 정기 검진', reason: '중복' }, // → 정기검진
+  { slug: 'chiju-jaesaeng-chiryo', name: '치주 재생 치료', reason: '중복' }, // → 치주 재생술
+  { slug: 'chiju-jilhwan', name: '치주 질환', reason: '중복' }, // → 치은염, 치주염
+  { slug: 'chijugwa', name: '치주과', reason: '행정·계약' }, // 진료과 소개
+  { slug: 'yebang-chiuihag', name: '예방 치의학', reason: '행정·계약' }, // 학문 분야 소개
+  { slug: 'seukeilring-hyeobjo', name: '스케일링 협조', reason: '검증불가' },
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

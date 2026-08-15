@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - crown
   - pediatric-dentistry
+  - soa-gugang-geomjin
   - soa-gyojeong
-  - cavity
 relatedPosts:
   []
 ---

@@ -29,7 +29,7 @@ relatedTerms:
   - bone-graft
   - chieun
   - gingivitis
-  - chijuindae
+  - gonggyeogseong-chijuyeom
 relatedPosts:
   - slug: gum-brushing-reason
     title: "양치할 때 잇몸에서 피가 나는 이유, 단순 자극일까 잇몸병일까?"

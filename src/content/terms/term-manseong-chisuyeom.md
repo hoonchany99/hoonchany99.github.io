@@ -29,7 +29,7 @@ relatedTerms:
   - geubseong-chisuyeom
   - bigayeogjeog-chisuyeom
   - gayeogjeog-chisuyeom
-  - bagriseong-chieunyeom
+  - manseong-chijuyeom
 relatedPosts:
   []
 ---

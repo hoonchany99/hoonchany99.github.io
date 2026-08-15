@@ -26,10 +26,10 @@ faqs:
   - question: "유치도 다시 심나요?"
     answer: "유치는 다시 심지 않습니다. 아래 영구치 싹을 손상시킬 수 있기 때문이에요. 영구치와 처치가 정반대인 지점입니다."
 relatedTerms:
+  - chia-chagsaeg
   - chia-gujo
   - chia-jaesigsul
   - chia-maengchul-jiyeon
-  - chia-maengchul-sunseo
 relatedPosts:
   []
 ---

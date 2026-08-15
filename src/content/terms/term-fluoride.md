@@ -26,10 +26,10 @@ faqs:
   - question: "불소 치약만으로 충치 예방되나요?"
     answer: "불소는 예방의 한 축이에요. 하루 두 번 양치, 칫솔·치간 관리, 설탕 줄이기, 정기 검진도 함께 필요합니다."
 relatedTerms:
+  - bulso-dopo
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   - slug: toothpaste-fluoride
     title: "무불소 치약만으로 충분할까? 장단점과 선택 기준"

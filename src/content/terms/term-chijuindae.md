@@ -26,10 +26,10 @@ faqs:
   - question: "이가 뜬 느낌이 드는 건 왜 그런가요?"
     answer: "뿌리 끝에 염증이 생기면 치주인대 공간이 붓습니다. 그래서 치아가 살짝 솟은 것처럼 느껴지고 씹을 때 먼저 닿아요. 신경 문제일 수 있어서 검사를 받아 보시는 게 좋습니다."
 relatedTerms:
-  - periodontal-pocket
-  - periodontitis
-  - cavity
-  - root-canal
+  - chiju-jaesaengsul
+  - chiju-nongyang
+  - chiju-sopasul
+  - chiju-susul-hu-gwanri
 relatedPosts:
   []
 ---

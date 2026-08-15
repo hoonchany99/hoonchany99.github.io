@@ -26,10 +26,10 @@ faqs:
   - question: "유지장치가 헐거워졌어요"
     answer: "조기 내원해 조정·재제작을 검토해요. 깨짐·분실 시에도 빨리 연락해 주세요."
 relatedTerms:
+  - chiju-yujigwanri
   - gineungjeog-gyojeong-jangchi
   - cavity
   - root-canal
-  - implant
 relatedPosts:
   []
 ---

@@ -27,10 +27,10 @@ faqs:
   - question: "치아 변색 예방법은?"
     answer: "양치·가글, 착색 음식·흡연 줄이기, 정기 검진, 충치·잇몸 조기 치료가 도움이 될 수 있어요."
 relatedTerms:
+  - chia-chagsaeg
   - chia-gujo
   - chia-jaesigsul
   - chia-maengchul-jiyeon
-  - chia-maengchul-sunseo
 relatedPosts:
   []
 ---

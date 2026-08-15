@@ -26,10 +26,10 @@ faqs:
   - question: "치실을 써도 되나요?"
     answer: "쓰셔야 합니다. 다만 위로 빼내면 임시치아가 함께 빠질 수 있어요. 넣은 뒤 옆으로 미끄러뜨려 빼는 방식이 안전합니다."
 relatedTerms:
+  - chia-chagsaeg
   - chia-gujo
   - chia-jaesigsul
   - chia-maengchul-jiyeon
-  - chia-maengchul-sunseo
 relatedPosts:
   []
 ---

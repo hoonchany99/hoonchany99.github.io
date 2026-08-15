@@ -27,9 +27,9 @@ faqs:
     answer: "대개 10대 후반에서 20대 초반입니다. 아예 나오지 않거나 뼈 안에 묻힌 채로 있는 경우도 많아요. X-ray로 위치와 방향을 확인해 뽑을지 판단합니다."
 relatedTerms:
   - chia-maengchul-jiyeon
+  - chia-chagsaeg
   - chia-gujo
   - chia-jaesigsul
-  - chia-oesang
 relatedPosts:
   []
 ---

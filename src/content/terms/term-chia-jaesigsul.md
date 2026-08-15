@@ -26,10 +26,10 @@ faqs:
   - question: "의도적 재식술은 어떤 경우에 하나요?"
     answer: "근관이 막혀 안에서 접근이 어렵거나, 뿌리 끝 수술이 곤란한 위치일 때 고려합니다. 뽑아서 밖에서 처치한 뒤 바로 다시 넣어요. 선택지가 제한적일 때 쓰는 방법입니다."
 relatedTerms:
+  - chia-chagsaeg
   - chia-gujo
   - chia-maengchul-jiyeon
   - chia-maengchul-sunseo
-  - chia-oesang
 relatedPosts:
   []
 ---

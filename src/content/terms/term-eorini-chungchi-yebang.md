@@ -27,9 +27,9 @@ faqs:
     answer: "대개 6개월 간격을 권합니다. 충치가 잘 생기는 아이는 더 자주 보기도 해요. 첫 방문은 첫 치아가 난 뒤 또는 돌 무렵을 기준으로 잡습니다."
 relatedTerms:
   - cavity
+  - yebangjeog-hangsaengje
   - yuchi-chungchi
   - root-canal
-  - implant
 relatedPosts:
   []
 ---

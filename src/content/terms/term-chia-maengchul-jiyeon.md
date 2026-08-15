@@ -27,9 +27,9 @@ faqs:
     answer: "선천적으로 치아 싹이 없는 경우가 있습니다. 옆 앞니나 작은어금니에서 비교적 흔해요. X-ray로 확인할 수 있고, 확인되면 공간 관리 계획을 세웁니다."
 relatedTerms:
   - chia-maengchul-sunseo
+  - chia-chagsaeg
   - chia-gujo
   - chia-jaesigsul
-  - chia-oesang
 relatedPosts:
   []
 ---

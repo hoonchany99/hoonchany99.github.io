@@ -27,10 +27,10 @@ faqs:
   - question: "정기검진 전 준비할 것은?"
     answer: "평소 불편·증상·복용 약·알레르기를 메모해 오시면 좋아요. 양치 후 내원하시면 검진에 도움이 됩니다."
 relatedTerms:
+  - gugga-muryo-geomjin
+  - soa-gugang-geomjin
   - cavity
   - root-canal
-  - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

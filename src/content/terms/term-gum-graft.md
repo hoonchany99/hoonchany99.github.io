@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - bone-graft
   - golisigjae
-  - cavity
-  - root-canal
+  - ismom-saegsochimchag
+  - ismom-susul
 relatedPosts:
   []
 ---

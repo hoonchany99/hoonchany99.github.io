@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - gugang-dansunpojin
   - gugang-kandidajeung
+  - gugang-sodae-isang
   - guganggeonjojeung
-  - gyojeong-jung-gugang-gwanri
 relatedPosts:
   []
 ---

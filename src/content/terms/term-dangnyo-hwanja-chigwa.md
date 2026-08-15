@@ -27,9 +27,9 @@ faqs:
     answer: "혈당이 높으면 회복이 느리고 감염 위험이 올라갈 수 있어요. 그래서 발치 전 혈당 상태를 확인하고, 이후 관리 주의사항을 더 꼼꼼히 안내해 드립니다."
 relatedTerms:
   - goldagongjeung-hwanja-chigwa
+  - simhyeolgwan-hwanja-chigwa
   - chigwa-gongpojeung
   - chigwayong-simenteu
-  - imsin-jung-chigwachiryo
 relatedPosts:
   []
 ---

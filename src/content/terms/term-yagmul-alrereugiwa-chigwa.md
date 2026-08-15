@@ -26,10 +26,10 @@ faqs:
   - question: "라텍스 알레르기도 말해야 하나요?"
     answer: "말씀해 주세요. 진료용 장갑이나 러버댐에 관련될 수 있습니다. 대체 재료로 준비하면 되므로, 미리 알면 문제없이 진행할 수 있어요."
 relatedTerms:
+  - hangeunggojewa-chigwa
   - chigwa-gongpojeung
   - chigwayong-simenteu
   - dangnyo-hwanja-chigwa
-  - goldagongjeung-hwanja-chigwa
 relatedPosts:
   []
 ---

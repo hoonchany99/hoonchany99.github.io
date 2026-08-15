@@ -262,6 +262,18 @@ export const termNamesEn: Record<string, string> = {
   'nikeltaitanyum-pail': 'Nickel-Titanium File',
   'jeongigeungwanjang-cheugjeonggi': 'Electronic Apex Locator',
 
+  // 해부·전신 (추가)
+  sangag: 'Maxilla',
+  haag: 'Mandible',
+  gugae: 'Palate',
+  hachijosingyeong: 'Inferior Alveolar Nerve',
+  'seolsingyeong-sonsang': 'Lingual Nerve Injury',
+  samchasingyeongtong: 'Trigeminal Neuralgia',
+  'gugang-sodae-isang': 'Frenum Abnormality',
+  'chiseong-sangagdongyeom': 'Odontogenic Sinusitis',
+  'simhyeolgwan-hwanja-chigwa': 'Cardiovascular Disease and Dental Care',
+  'hangeunggojewa-chigwa': 'Anticoagulants and Dental Care',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

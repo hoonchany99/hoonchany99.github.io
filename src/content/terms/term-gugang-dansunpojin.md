@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - dansun-balchi
   - gugang-kandidajeung
+  - gugang-sodae-isang
   - gugangam
-  - guganggeonjojeung
 relatedPosts:
   []
 ---

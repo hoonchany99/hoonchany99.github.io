@@ -26,10 +26,10 @@ faqs:
   - question: "어떻게 예방하나요?"
     answer: "부드러운 칫솔로 힘을 빼고 닦고, 산성 음료 뒤에 바로 세게 닦지 마세요. 이갈이가 있으면 장치를 고려합니다. 잇몸이 더 내려가지 않게 하는 것도 중요해요."
 relatedTerms:
+  - chiseong-sangagdongyeom
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

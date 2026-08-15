@@ -29,7 +29,7 @@ relatedTerms:
   - chigwayong-simenteu
   - dangnyo-hwanja-chigwa
   - goldagongjeung-hwanja-chigwa
-  - imsin-jung-chigwachiryo
+  - hangeunggojewa-chigwa
 relatedPosts:
   []
 ---

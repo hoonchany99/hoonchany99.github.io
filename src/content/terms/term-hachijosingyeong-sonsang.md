@@ -26,10 +26,10 @@ faqs:
   - question: "일상생활에 문제가 되나요?"
     answer: "입술 감각이 둔하면 음식을 흘리거나 씹다가 깨무는 일이 생길 수 있습니다. 뜨거운 음식에 데지 않도록 주의하세요. 대부분 시간이 지나며 적응하거나 회복됩니다."
 relatedTerms:
+  - hachijosingyeong
   - impeulranteu-singyeong-sonsang
+  - seolsingyeong-sonsang
   - chijogol
-  - root-canal
-  - root-canal-re
 relatedPosts:
   []
 ---

@@ -27,9 +27,9 @@ faqs:
     answer: "정도에 따라 공간을 다시 넓히는 장치를 쓰기도 합니다. 많이 좁아졌다면 교정 계획으로 이어질 수 있어요. 빨리 확인할수록 선택지가 많습니다."
 relatedTerms:
   - chijogol
+  - hachijosingyeong
   - hachijosingyeong-sonsang
   - primary-tooth
-  - yuchi-chungchi
 relatedPosts:
   []
 ---

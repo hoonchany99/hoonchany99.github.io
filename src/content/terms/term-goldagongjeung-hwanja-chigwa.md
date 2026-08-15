@@ -27,9 +27,9 @@ faqs:
     answer: "오히려 반대인 경우가 많아요. 문제 있는 치아를 두면 염증이 커져서 나중에 더 어려운 상황이 됩니다. 약을 시작하기 전이라면 미리 정리해 두는 쪽을 권합니다."
 relatedTerms:
   - dangnyo-hwanja-chigwa
+  - simhyeolgwan-hwanja-chigwa
   - chigwa-gongpojeung
   - chigwayong-simenteu
-  - imsin-jung-chigwachiryo
 relatedPosts:
   []
 ---

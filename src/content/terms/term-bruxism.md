@@ -25,10 +25,10 @@ faqs:
   - question: "이갈이 치료 비용은?"
     answer: "나이트가드·교합 조정·손상 치아 수복 등 범위에 따라 달라져요. 보험 적용은 제한적인 경우가 많습니다. 검진 후 안내해 드려요."
 relatedTerms:
+  - igali-botogseu
+  - igali-jeungsang
   - cavity
   - root-canal
-  - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

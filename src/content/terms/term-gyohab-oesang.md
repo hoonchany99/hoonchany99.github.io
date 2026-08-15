@@ -26,10 +26,10 @@ faqs:
   - question: "흔들리던 치아가 다시 단단해지나요?"
     answer: "부담이 줄면 안정되는 경우가 많습니다. 다만 이미 잇몸뼈가 많이 녹았다면 한계가 있어요. 원인을 없애고 경과를 지켜보며 판단합니다."
 relatedTerms:
-  - bocheol-gyohab-jojeong
-  - chia-oesang
-  - malocclusion
-  - occlusal-adjustment
+  - 1geub-bujeonggyohab
+  - 2geub-bujeonggyohab
+  - 3geub-bujeonggyohab
+  - bandaegyohab
 relatedPosts:
   []
 ---

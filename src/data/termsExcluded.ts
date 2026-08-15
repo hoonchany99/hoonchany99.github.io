@@ -165,6 +165,19 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'geubsog-gugae-hwagjang', name: '급속 구개 확장', reason: '중복' }, // → 구개 확장 장치
   { slug: 'impeulranteu-sangagdong', name: '임플란트 상악동', reason: '중복' }, // → 상악동거상술
 
+  { slug: 'teulni-gwanri', name: '틀니 관리', reason: '중복' }, // → 틀니 관리법
+  { slug: 'teulni-geongangboheom', name: '틀니 건강보험', reason: '중복' }, // → 건강보험 적용 틀니
+  { slug: 'je3daeguchi', name: '제3대구치', reason: '중복' }, // → 사랑니
+  { slug: 'gugang-baegsaegpanjeung', name: '구강 백색판증', reason: '중복' }, // → 백반증
+  { slug: 'chieun-byeonsaeg', name: '치은 변색', reason: '중복' }, // → 잇몸 색소침착
+  { slug: 'cheos-chigwa-bangmun-sigi', name: '첫 치과 방문 시기', reason: '중복' }, // → 첫 치과 방문
+  { slug: 'seupeulrinteu-chiryo', name: '스플린트 치료', reason: '중복' }, // → 스플린트
+  { slug: 'chia-mibaeg-jongryu', name: '치아 미백 종류', reason: '중복' }, // → 치아미백
+  { slug: 'chia-talsaeg', name: '치아 탈색', reason: '중복' }, // → 치아미백
+  { slug: 'soa-bujeonggyohab', name: '소아 부정교합', reason: '중복' }, // → 부정교합, 소아 교정
+  { slug: 'simmi-chigwa', name: '심미 치과', reason: '홍보·비교' },
+  { slug: 'jeongmil-teulni', name: '정밀 틀니', reason: '홍보·비교' },
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

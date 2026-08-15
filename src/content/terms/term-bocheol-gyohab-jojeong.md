@@ -27,9 +27,9 @@ faqs:
     answer: "오래 지속되면 좋지 않아요. 반대쪽에 부담이 몰리고 턱관절에도 영향을 줄 수 있습니다. 불편해서 한쪽만 쓰고 계시다면 원인을 찾는 게 먼저입니다."
 relatedTerms:
   - occlusal-adjustment
-  - bocheol-saegjo-seontaeg
-  - bocheol-sumyeong
-  - bocheolmul-pajeol
+  - 1geub-bujeonggyohab
+  - 2geub-bujeonggyohab
+  - 3geub-bujeonggyohab
 relatedPosts:
   []
 ---

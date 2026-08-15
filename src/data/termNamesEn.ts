@@ -274,6 +274,18 @@ export const termNamesEn: Record<string, string> = {
   'simhyeolgwan-hwanja-chigwa': 'Cardiovascular Disease and Dental Care',
   'hangeunggojewa-chigwa': 'Anticoagulants and Dental Care',
 
+  // 교합·이갈이
+  '1geub-bujeonggyohab': 'Class I Malocclusion',
+  '2geub-bujeonggyohab': 'Class II Malocclusion',
+  '3geub-bujeonggyohab': 'Class III Malocclusion',
+  bandaegyohab: 'Anterior Crossbite',
+  gaebanggyohab: 'Open Bite',
+  gwagaegyohab: 'Deep Bite',
+  'igali-jeungsang': 'Sleep Bruxism',
+  iagmulgi: 'Awake Clenching',
+  'igali-botogseu': 'Botulinum Toxin for Bruxism',
+  gyohabji: 'Articulating Paper',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

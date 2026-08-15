@@ -27,9 +27,9 @@ faqs:
     answer: "가능한 경우가 많습니다. 다만 수술 범위와 출혈 위험을 고려해 계획해요. 상황에 따라 처방하신 선생님과 상의가 필요할 수 있습니다."
 relatedTerms:
   - yagmul-alrereugiwa-chigwa
+  - cheos-chigwa-bangmun
   - chigwa-gongpojeung
   - chigwayong-simenteu
-  - dangnyo-hwanja-chigwa
 relatedPosts:
   []
 ---

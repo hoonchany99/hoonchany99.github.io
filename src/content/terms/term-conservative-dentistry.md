@@ -28,7 +28,7 @@ relatedTerms:
   - imsin-jung-chigwachiryo
   - root-canal
   - root-canal-re
-  - yuchi-singyeongchiryo
+  - soa-jinjeongchiryo
 relatedPosts:
   - slug: tooth
     title: "자연치아살리기, 살리는게 정말 맞을까요?"

@@ -178,6 +178,13 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'simmi-chigwa', name: '심미 치과', reason: '홍보·비교' },
   { slug: 'jeongmil-teulni', name: '정밀 틀니', reason: '홍보·비교' },
 
+  { slug: 'eotaechimeonteu', name: '어태치먼트', reason: '중복' }, // → 어태치먼트 의치
+  { slug: 'keompojis-rejin', name: '컴포짓 레진', reason: '중복' }, // → 레진
+  { slug: 'chia-saegsang-cheugjeong', name: '치아 색상 측정', reason: '중복' }, // → 보철 색조 선택
+  { slug: 'chigwa-jaeryo', name: '치과 재료', reason: '중복' }, // 상위 개념 — 개별 재료로 대체
+  { slug: 'chia-seonghyeong', name: '치아 성형', reason: '홍보·비교' },
+  { slug: 'chia-saeg-bogwon', name: '치아 색 복원', reason: '홍보·비교' },
+
   // 표준 문헌에서 확인되지 않는 항목
   {
     slug: 'bosangsonibagjeolhanhyeobgweyangjeunghugun',

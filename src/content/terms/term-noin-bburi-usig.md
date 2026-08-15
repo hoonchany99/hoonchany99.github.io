@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - caries
   - icha-usig
-  - yua-usig
-  - cavity
+  - noin-chigwa-jinjeong
+  - noin-uichi-jeogeung
 relatedPosts:
   []
 ---

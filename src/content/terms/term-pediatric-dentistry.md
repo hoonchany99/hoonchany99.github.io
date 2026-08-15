@@ -26,10 +26,10 @@ faqs:
   - question: "부모가 함께 해야 할 일은?"
     answer: "양치 도와주기·식습관·가글·정기 검진 동반 등이 중요해요. 집에서의 습관이 평생 구강 건강에 영향을 줍니다."
 relatedTerms:
+  - cheos-chigwa-bangmun
   - chigwa-gongpojeung
   - chigwayong-simenteu
   - dangnyo-hwanja-chigwa
-  - goldagongjeung-hwanja-chigwa
 relatedPosts:
   []
 ---

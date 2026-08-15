@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - goldagongjeung-hwanja-chigwa
   - simhyeolgwan-hwanja-chigwa
+  - cheos-chigwa-bangmun
   - chigwa-gongpojeung
-  - chigwayong-simenteu
 relatedPosts:
   []
 ---

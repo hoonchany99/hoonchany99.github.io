@@ -286,6 +286,18 @@ export const termNamesEn: Record<string, string> = {
   'igali-botogseu': 'Botulinum Toxin for Bruxism',
   gyohabji: 'Articulating Paper',
 
+  // 틀니·노인·소아 (추가)
+  uichisang: 'Denture Base',
+  'uichi-anjeongje': 'Denture Adhesive',
+  'eotaechimeonteu-uichi': 'Attachment-Retained Denture',
+  'noin-uichi-jeogeung': 'Adapting to New Dentures',
+  'noin-yeonhajangae': 'Dysphagia in Older Adults',
+  'noin-chigwa-jinjeong': 'Sedation in Older Adults',
+  'cheos-chigwa-bangmun': 'First Dental Visit',
+  'songarag-bbalgi': 'Thumb Sucking',
+  'jeojni-bbajineun-sigi': 'Exfoliation of Primary Teeth',
+  'soa-jinjeongchiryo': 'Pediatric Sedation',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

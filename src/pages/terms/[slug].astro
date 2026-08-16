@@ -16,6 +16,7 @@ const { term } = Astro.props;
 const publicSlug = term.data.termSlug;
 
 const synonymList = (term.data.aliases ?? []).filter((a) => a !== term.data.name);
+const alternateNames = [term.data.en, ...synonymList].filter(Boolean);
 
 const relatedTermEntries = (
   await Promise.all(
@@ -34,7 +35,8 @@ const definedTermLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'DefinedTerm',
   name: term.data.name,
-  ...(term.data.en ? { alternateName: term.data.en } : {}),
+  // 영문명과 동의어를 모두 실어 다른 표현으로 물어도 같은 항목으로 잡히게 한다
+  ...(alternateNames.length ? { alternateName: alternateNames } : {}),
   description: term.data.definition,
   url: new URL(Astro.url.pathname, Astro.site).href,
   inDefinedTermSet: {
@@ -42,6 +44,7 @@ const definedTermLd = JSON.stringify({
     name: '윤원장의 치과사전',
     url: new URL('/terms/', Astro.site).href,
   },
+  inLanguage: 'ko',
   ...(term.data.sources.length ? { citation: term.data.sources } : {}),
   ...(term.data.updated ? { dateModified: term.data.updated } : {}),
 });
@@ -50,6 +53,7 @@ const definedTermLd = JSON.stringify({
 <BaseLayout
   title={term.data.en ? `${term.data.name} (${term.data.en})` : term.data.name}
   modifiedDate={term.data.updated ? new Date(term.data.updated) : undefined}
+  authorIsOrganization={true}
   description={description}
   type="article"
   tags={[term.data.name, ...synonymList]}
@@ -91,7 +95,7 @@ const definedTermLd = JSON.stringify({
       <section class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
         <div class="rounded-2xl bg-gray-50/70 border border-gray-100/90 px-6 py-6 md:px-7 md:py-7">
           <div class="text-gray-700 leading-relaxed text-[15px] md:text-base">
-            <p class="text-xl md:text-2xl font-bold text-gray-900 leading-relaxed mb-8 md:mb-10">
+            <p data-speakable class="text-xl md:text-2xl font-bold text-gray-900 leading-relaxed mb-8 md:mb-10">
               <span class="bg-[linear-gradient(transparent_55%,rgba(253,224,71,0.55)_55%)] box-decoration-clone">
                 {term.data.definition}
               </span>

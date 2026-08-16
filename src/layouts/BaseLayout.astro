@@ -18,6 +18,8 @@ interface Props {
   tags?: string[];
   breadcrumbs?: BreadcrumbItem[];
   faqSchema?: { question: string; answer: string }[];
+  /** 사전 항목처럼 개인 저작이 아닌 편집 콘텐츠는 발행 주체를 저자로 둔다 */
+  authorIsOrganization?: boolean;
   noindex?: boolean;
   /** Google only: keep indexing while other bots use `noindex` (e.g. Naver Yeti). */
   googlebotIndex?: boolean;
@@ -33,6 +35,7 @@ const {
   tags = [],
   breadcrumbs,
   faqSchema,
+  authorIsOrganization = false,
   noindex = false,
   googlebotIndex = false,
 } = Astro.props;
@@ -87,17 +90,32 @@ const orgLd = isHome ? JSON.stringify({
 
 const effectiveModifiedDate = modifiedDate ?? publishedDate;
 
+/** 사이트 자체를 발행 주체로 표기할 때 쓴다 (창립자 자격은 유지) */
+const publisherOrg = {
+  '@type': 'Organization',
+  name: siteName,
+  url: Astro.site?.href,
+  logo: { '@type': 'ImageObject', url: siteLogoUrl },
+  founder: authorPerson,
+};
+
 const jsonLd = type === 'article' ? JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: title,
   description,
   image: ogImage,
-  author: authorPerson,
-  publisher: {
-    '@type': 'Organization',
+  inLanguage: 'ko',
+  author: authorIsOrganization ? publisherOrg : authorPerson,
+  publisher: publisherOrg,
+  isPartOf: {
+    '@type': 'WebSite',
     name: siteName,
-    logo: { '@type': 'ImageObject', url: siteLogoUrl },
+    url: Astro.site?.href,
+  },
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '[data-speakable]'],
   },
   url: canonicalURL.href,
   datePublished: publishedDate?.toISOString(),

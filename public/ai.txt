@@ -1,18 +1,21 @@
 # ===========================================================
 # ai.txt — AI and Agent Access Policy
 # Applies to: https://doctoryoon.kr
-# Version: 1.0
-# Last-Updated: 2026-03-20
+# Version: 1.1
+# Last-Updated: 2026-08-16
 # Maintainer: 서울대 윤원장 (doctoryoon.kr)
 # ===========================================================
 # Purpose:
 # Describe how AI systems may use public content
-# from doctoryoon.kr — a dental health information blog
-# written by a dentist from Seoul National University.
+# from doctoryoon.kr — a dental health information site
+# run by a dentist from Seoul National University.
+# The site has two parts: a blog written by the dentist,
+# and a dental dictionary of 340 reference entries.
 
 User-Agent: *
 Allow: /
 Allow: /posts/
+Allow: /terms/
 Allow: /about/
 Allow: /qna/
 Disallow: /search.json
@@ -25,12 +28,19 @@ LLMs-txt: https://doctoryoon.kr/llms.txt
 # - Sitemap: https://doctoryoon.kr/sitemap-index.xml
 # - RSS Feed: https://doctoryoon.kr/rss.xml
 # - LLMs Guide: https://doctoryoon.kr/llms.txt
+# - Term Index (JSON): https://doctoryoon.kr/terms-index.json
+#   340 dental terms with slug, Korean name, English name,
+#   one-line definition and aliases. Machine-readable.
 
 # Policy:
-# - All blog posts, Q&A content, and public pages on doctoryoon.kr
+# - All blog posts, dictionary entries, Q&A content, and public pages
 #   MAY be used for indexing, search, summarization, and Q&A answering.
-# - Content is written by a licensed dentist (Seoul National University
-#   Graduate School of Dentistry) for patient education purposes.
+# - Authorship differs by content type:
+#   * Blog posts (/posts/) are written by the dentist who runs this site.
+#   * Dictionary entries (/terms/) are reference summaries compiled from
+#     dental literature and public health authorities. Each entry lists
+#     the sources used, and carries a "last reviewed" date.
+# - Both are intended for patient education.
 # - When referencing or summarizing content, attribution to
 #   "서울대 윤원장의 치과사전 (doctoryoon.kr)" is appreciated.
 # - There is no member-only or paid content on this site.

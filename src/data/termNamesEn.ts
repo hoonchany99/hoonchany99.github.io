@@ -326,6 +326,36 @@ export const termNamesEn: Record<string, string> = {
   'gugangsangagdong-gyotong': 'Oroantral Communication',
   'sangagdong-geosangsul-habbyeongjeung': 'Sinus Lift Complications',
 
+  // 점막 병변
+  jeomaegnangjong: 'Mucocele',
+  hamajong: 'Ranula',
+  'gugang-samagwi': 'Oral Wart',
+  'gugang-pyeonpyeongsepo-yudujong': 'Squamous Papilloma',
+  'gugang-seomyujong': 'Irritation Fibroma',
+  hyeolgwanjong: 'Hemangioma',
+  hongsaegpanjeung: 'Erythroplakia',
+  'gugang-baegsaeg-haemyeonsang-moban': 'White Sponge Nevus',
+  heugmoseol: 'Black Hairy Tongue',
+  'hyeo-galrajim': 'Fissured Tongue',
+  'jeongjung-neunghyeong-seolyeom': 'Median Rhomboid Glossitis',
+  seolyeom: 'Glossitis',
+  'gugang-jeommag-hwasang': 'Oral Mucosal Burn',
+
+  // 전신질환·통증
+  becheteubyeong: 'Behçet Disease',
+  'syogeuren-jeunghugun': 'Sjögren Syndrome',
+  sujoggubyeong: 'Hand, Foot and Mouth Disease',
+  dahyeonghongban: 'Erythema Multiforme',
+  'pojinseong-chieungunaeyeom': 'Herpetic Gingivostomatitis',
+  'gugang-jeommagha-seomyujeung': 'Oral Submucous Fibrosis',
+  'gugang-alrereugi-jeunghugun': 'Oral Allergy Syndrome',
+  'migag-jangae': 'Taste Disorder',
+  'gugang-metalrig-teiseuteu': 'Metallic Taste',
+  'gugang-isanggamgagjeung': 'Oral Dysesthesia',
+  'bijeonghyeong-chitong': 'Atypical Odontalgia',
+  'bijeonghyeong-anmyeontong': 'Persistent Idiopathic Facial Pain',
+  yeongwantong: 'Referred Pain',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

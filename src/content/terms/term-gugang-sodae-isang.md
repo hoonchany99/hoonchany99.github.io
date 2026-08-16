@@ -26,10 +26,10 @@ faqs:
   - question: "처치가 복잡한가요?"
     answer: "대개 국소마취 후 짧게 끝나는 간단한 처치입니다. 아이라면 협조 정도에 따라 방법을 정해요. 이후 혀 운동을 함께 안내받는 경우가 많습니다."
 relatedTerms:
+  - gugang-isanggamgagjeung
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
   - gugang-dansunpojin
-  - gugang-kandidajeung
-  - gugangaganmyeon-goljeol
-  - gugangam
 relatedPosts:
   []
 ---

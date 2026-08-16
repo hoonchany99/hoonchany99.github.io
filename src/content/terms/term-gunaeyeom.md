@@ -27,9 +27,9 @@ faqs:
     answer: "제품마다 사용 기간과 방법이 정해져 있습니다. 특히 스테로이드가 든 제품은 오래 쓰면 곰팡이 감염 같은 문제가 생길 수 있어요. 안내대로 쓰시고, 낫지 않으면 확인받으세요."
 relatedTerms:
   - jaebalseong-apeuta-gunaeyeom
+  - pojinseong-chieungunaeyeom
   - cavity
   - root-canal
-  - implant
 relatedPosts:
   []
 ---

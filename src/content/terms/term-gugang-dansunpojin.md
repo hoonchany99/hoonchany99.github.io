@@ -27,9 +27,9 @@ faqs:
     answer: "물집이 활발한 시기에는 급하지 않은 치료를 미루는 편이 좋습니다. 자극으로 번질 수 있고 전염 위험도 있어요. 증상을 미리 알려 주시면 일정을 조정합니다."
 relatedTerms:
   - dansun-balchi
-  - gugang-kandidajeung
-  - gugang-sodae-isang
-  - gugangaganmyeon-goljeol
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
+  - gugang-isanggamgagjeung
 relatedPosts:
   []
 ---

@@ -29,7 +29,7 @@ relatedTerms:
   - geubseong-goesaseong-gweyangseong-chieunyeom
   - imsinseong-chieunyeom
   - gingivitis
-  - yagmulseong-chieun-jeungsig
+  - pojinseong-chieungunaeyeom
 relatedPosts:
   []
 ---

@@ -26,10 +26,10 @@ faqs:
   - question: "어떻게 예방하나요?"
     answer: "얼음이나 뼈처럼 단단한 것을 씹지 마세요. 이갈이가 있으면 장치를 쓰는 것이 도움이 됩니다. 오래된 큰 수복물이 있는 치아는 정기적으로 확인하세요."
 relatedTerms:
+  - gugang-alrereugi-jeunghugun
+  - syogeuren-jeunghugun
   - chia-chagsaeg
   - chia-gujo
-  - chia-jaesigsul
-  - chia-maengchul-jiyeon
 relatedPosts:
   []
 ---

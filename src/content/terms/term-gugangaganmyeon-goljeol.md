@@ -26,10 +26,10 @@ faqs:
   - question: "치아도 함께 다쳤으면요?"
     answer: "골절 치료와 함께 계획합니다. 빠진 치아나 흔들리는 치아 처치가 함께 필요해요. 물림을 원래대로 되돌리는 것이 공통 목표입니다."
 relatedTerms:
+  - bijeonghyeong-anmyeontong
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
   - gugang-dansunpojin
-  - gugang-kandidajeung
-  - gugang-sodae-isang
-  - gugangam
 relatedPosts:
   []
 ---

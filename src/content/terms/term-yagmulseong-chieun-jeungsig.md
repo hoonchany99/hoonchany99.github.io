@@ -29,7 +29,7 @@ relatedTerms:
   - bagriseong-chieunyeom
   - geubseong-goesaseong-gweyangseong-chieunyeom
   - imsinseong-chieunyeom
-  - buchagchieun
+  - pojinseong-chieungunaeyeom
 relatedPosts:
   []
 ---

@@ -27,10 +27,10 @@ faqs:
   - question: "포스트&코어 비용은?"
     answer: "포스트 종류·코어·크라운까지 포함해 범위에 따라 달라져요. 치료 계획과 함께 확인해 드립니다."
 relatedTerms:
+  - gugang-metalrig-teiseuteu
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

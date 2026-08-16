@@ -29,7 +29,7 @@ relatedTerms:
   - chiseong-sangagdongyeom
   - sangagdong-geosangsul-habbyeongjeung
   - sinus-lift
-  - gugang-dansunpojin
+  - gugang-alrereugi-jeunghugun
 relatedPosts:
   []
 ---

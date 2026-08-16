@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - guganggeonjojeung
   - geongangboheom-jeogyong-teulni
-  - gugang-dansunpojin
-  - gugang-kandidajeung
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
 relatedPosts:
   []
 ---

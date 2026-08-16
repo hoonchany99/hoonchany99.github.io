@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - chia-gujo
   - dental-checkup
-  - gugang-dansunpojin
-  - gugang-kandidajeung
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
 relatedPosts:
   []
 ---

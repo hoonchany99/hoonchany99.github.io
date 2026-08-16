@@ -26,10 +26,10 @@ faqs:
   - question: "옮나요?"
     answer: "일반적으로 사람 사이에 옮는 감염으로 보지 않습니다. 원래 있던 균이 늘어난 상태예요. 다만 면역이 매우 약한 사람과는 식기 공유 등을 주의하기도 합니다."
 relatedTerms:
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
   - gugang-dansunpojin
-  - gugang-sodae-isang
-  - gugangaganmyeon-goljeol
-  - gugangam
+  - gugang-isanggamgagjeung
 relatedPosts:
   []
 ---

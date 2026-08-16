@@ -26,10 +26,10 @@ faqs:
   - question: "집에서 도울 수 있는 게 있나요?"
     answer: "식사 자세를 바로 하고, 한 번에 조금씩 천천히 드시게 하세요. 식후 입안에 남은 음식을 제거하는 것도 중요합니다. 구체적인 방법은 평가 후 안내받으시면 좋아요."
 relatedTerms:
+  - migag-jangae
   - noin-bburi-usig
   - noin-chigwa-jinjeong
   - noin-uichi-jeogeung
-  - teoggwanjeol-jangae-jaga-jindan
 relatedPosts:
   []
 ---

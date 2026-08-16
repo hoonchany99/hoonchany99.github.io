@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - chieun-nongyang
   - chiju-nongyang
+  - gugang-jeommagha-seomyujeung
   - cavity
-  - root-canal
 relatedPosts:
   []
 ---

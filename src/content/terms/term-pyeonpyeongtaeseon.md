@@ -26,10 +26,10 @@ faqs:
   - question: "무엇을 피하면 좋나요?"
     answer: "맵고 뜨겁고 산성인 음식이 증상을 악화시킵니다. 자극이 강한 치약이나 알코올 가글도 피하시는 게 좋아요. 스트레스 관리도 도움이 되는 경우가 많습니다."
 relatedTerms:
+  - gugang-pyeonpyeongsepo-yudujong
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

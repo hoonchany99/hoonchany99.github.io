@@ -25,6 +25,10 @@ faqs:
     answer: "다릅니다. 임시치아는 재료가 달라 색과 광택이 최종 보철물과 차이가 나요. 다만 모양과 길이는 최종 결과를 미리 보는 참고가 되니, 어색한 점이 있으면 말씀해 주세요."
   - question: "치실을 써도 되나요?"
     answer: "쓰셔야 합니다. 다만 위로 빼내면 임시치아가 함께 빠질 수 있어요. 넣은 뒤 옆으로 미끄러뜨려 빼는 방식이 안전합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - chia-chagsaeg
   - chia-gujo

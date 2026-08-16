@@ -25,6 +25,10 @@ faqs:
     answer: "헤르페스가 원인이면 재발하는 경우가 있습니다. 방아쇠를 파악하고 관리하면 빈도를 줄일 수 있어요."
   - question: "어느 과에서 보나요?"
     answer: "피부과나 내과가 중심입니다. 구강 증상이 두드러지면 치과에서 먼저 발견되기도 해요. 원인 파악과 전신 치료가 필요합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dermatologic-disorders/hypersensitivity-and-inflammatory-skin-disorders/erythema-multiforme"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK470259/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

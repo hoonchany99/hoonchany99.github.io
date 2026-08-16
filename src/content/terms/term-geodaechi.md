@@ -25,6 +25,10 @@ faqs:
     answer: "다릅니다. 융합치는 두 치아가 붙어 가운데 홈이 있고 개수가 부족해요. 거대치는 형태가 정상인데 크기만 큽니다."
   - question: "유전인가요?"
     answer: "치아 크기는 유전의 영향을 받는 것으로 알려져 있습니다. 다만 거대치 자체가 반드시 유전되지는 않아요. 가족 중에 비슷한 경우가 있기도 합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - jidaechi
   - cavity

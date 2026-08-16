@@ -25,6 +25,10 @@ faqs:
     answer: "그 부위는 점막이 얇아져 자극에 민감합니다. 맵고 신 음식, 뜨거운 것, 탄산을 줄이시면 도움이 돼요. 증상이 심하면 완화하는 처치를 고려하기도 합니다."
   - question: "없앨 수 있나요?"
     answer: "완전히 없애는 치료는 없습니다. 다만 해롭지 않은 상태이고 증상도 대개 가벼워요. 나빠지는 병이 아니라는 점을 알고 지내시면 됩니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/tongue-discoloration-and-other-changes"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554466/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

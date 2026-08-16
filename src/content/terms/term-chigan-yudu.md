@@ -25,6 +25,10 @@ faqs:
     answer: "올바르게 쓰면 오히려 잇몸을 지킵니다. 톱질하듯 세게 밀어 넣으면 상처를 줄 수 있어요. 치아 옆면을 감싸듯 부드럽게 넣었다 빼는 방식이 좋습니다."
   - question: "교정 후에 틈이 생겼어요."
     answer: "치아가 이동하면서 접촉 모양이 달라져 생길 수 있습니다. 잇몸이 얇거나 이전에 염증이 있었다면 더 그래요. 교정 담당 선생님과 함께 마무리 조정을 상의해 보세요."
+sources:
+  - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
+  - "https://pocketdentistry.com/1-anatomy-of-the-periodontium-2/"
+updated: "2026-08-16"
 relatedTerms:
   - chigan-igae
   - gonggan-yuji-jangchi

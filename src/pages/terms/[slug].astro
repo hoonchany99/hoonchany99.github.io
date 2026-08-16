@@ -42,11 +42,14 @@ const definedTermLd = JSON.stringify({
     name: '윤원장의 치과사전',
     url: new URL('/terms/', Astro.site).href,
   },
+  ...(term.data.sources.length ? { citation: term.data.sources } : {}),
+  ...(term.data.updated ? { dateModified: term.data.updated } : {}),
 });
 ---
 
 <BaseLayout
-  title={`${term.data.name} — 치과사전`}
+  title={term.data.en ? `${term.data.name} (${term.data.en})` : term.data.name}
+  modifiedDate={term.data.updated ? new Date(term.data.updated) : undefined}
   description={description}
   type="article"
   tags={[term.data.name, ...synonymList]}
@@ -224,9 +227,30 @@ const definedTermLd = JSON.stringify({
         </div>
       </section>
 
-      <footer class="mt-10 pt-6 border-t border-gray-100 text-xs text-gray-400 leading-relaxed">
+      <footer class="mt-10 pt-6 border-t border-gray-100 text-xs text-gray-400 leading-relaxed space-y-3">
+        {term.data.sources.length > 0 && (
+          <div>
+            <span class="font-medium text-gray-500">참고 자료</span>
+            <ul class="mt-1.5 space-y-1">
+              {term.data.sources.map((url) => (
+                <li>
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    class="hover:text-brand transition-colors break-all"
+                  >
+                    {new URL(url).hostname.replace(/^www\./, '')}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         <p>
           이 페이지는 치과 용어 참고 자료입니다. {doctorWVoiceGuide.disclaimer}
+          {term.data.updated && <> 내용 최종 정리 {term.data.updated.replace(/-/g, '. ')}.</>}
         </p>
       </footer>
     </div>

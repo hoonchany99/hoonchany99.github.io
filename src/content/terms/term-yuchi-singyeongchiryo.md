@@ -25,6 +25,10 @@ faqs:
     answer: "나이와 성향에 따라 다릅니다. 설명과 연습으로 진행되는 경우가 많아요. 어렵다면 진정치료를 고려할 수 있습니다. 미리 상담해서 방법을 정하시면 됩니다."
   - question: "나중에 영구치가 나올 때 방해되지 않나요?"
     answer: "유치 뿌리가 녹는 과정을 방해하지 않는 재료를 씁니다. 대개 정상적으로 빠지고 영구치가 나와요. 정기 검진에서 경과를 확인합니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - root-canal
   - root-canal-re

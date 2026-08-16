@@ -25,6 +25,10 @@ faqs:
     answer: "잇몸 상태만을 위해 호르몬 치료를 하지는 않습니다. 세균막 관리가 실질적인 방법이에요. 호르몬 치료는 다른 목적으로 판단합니다."
   - question: "피임약도 영향이 있나요?"
     answer: "잇몸 반응에 영향을 준다는 보고가 있습니다. 복용 중이라면 알려 주세요. 관리 계획에 참고가 됩니다."
+sources:
+  - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+updated: "2026-08-16"
 relatedTerms:
   - imsin-jung-chigwachiryo
   - cheos-chigwa-bangmun

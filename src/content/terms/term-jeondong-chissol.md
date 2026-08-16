@@ -25,6 +25,10 @@ faqs:
     answer: "쓸 수 있습니다. 다만 브라켓 주변에 전용 모나 치간칫솔을 함께 쓰셔야 해요. 전동 칫솔만으로 장치 주변이 다 닦이지는 않습니다."
   - question: "칫솔 머리는 언제 바꾸나요?"
     answer: "손 칫솔과 마찬가지로 3개월 안팎, 모가 벌어지면 그 전에 바꾸세요. 진동이 있어도 모가 상하면 효율이 떨어집니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/home-care"
+updated: "2026-08-16"
 relatedTerms:
   - chissol-seontaeg
   - chissoljil

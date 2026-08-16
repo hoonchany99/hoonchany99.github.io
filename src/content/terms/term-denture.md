@@ -26,6 +26,7 @@ faqs:
     answer: "뼈·잇몸 상태·비용·수술 가능 여부·기대 기능에 따라 달라져요. 임플란트 틀니(오버덴처)처럼 병행하는 경우도 있습니다."
   - question: "틀니 관리는 어떻게 하나요?"
     answer: "매일 세척, 전용 세정제·솔 사용, 정기 내원 조정·검진이 중요해요. 뜨거운 물·세탁기 등은 변형을 일으킬 수 있습니다."
+updated: "2026-08-16"
 relatedTerms:
   - geongangboheom-jeogyong-teulni
   - teulni-gwanribeob

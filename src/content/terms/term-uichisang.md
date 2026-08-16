@@ -25,6 +25,10 @@ faqs:
     answer: "수리가 가능한 경우가 많습니다. 조각을 모두 가져와 주세요. 다만 반복해서 깨진다면 맞지 않아 힘이 몰리는 것일 수 있어 원인을 함께 봅니다."
   - question: "색이 변했어요."
     answer: "아크릴은 시간이 지나며 착색되고 냄새가 배기도 합니다. 전용 세정제로 관리하면 늦출 수 있어요. 심하면 표면을 다듬거나 교체를 검토합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dentures"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - eotaechimeonteu-uichi
   - noin-uichi-jeogeung

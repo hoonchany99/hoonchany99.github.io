@@ -25,6 +25,10 @@ faqs:
     answer: "케이스에 따라 다릅니다. 술식이 까다로워 조정에 시간이 더 걸리기도 해요. 다만 이동 자체의 원리는 같아서 기간 차이가 크지 않은 경우도 많습니다."
   - question: "양치가 어렵다던데요?"
     answer: "안쪽은 눈으로 보이지 않아 확인이 어렵습니다. 거울과 치간칫솔을 적극적으로 쓰셔야 해요. 이 부담이 크다면 다른 방식을 고려하는 게 나을 수 있습니다."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/orthodontics"
+updated: "2026-08-16"
 relatedTerms:
   - aggyojeong-susul
   - gineungjeog-gyojeong-jangchi

@@ -25,6 +25,10 @@ faqs:
     answer: "아연이 부족한 경우라면 도움이 됩니다. 다만 확인 없이 드시기보다 검사로 부족한지 보고 결정하시는 게 좋아요."
   - question: "회복되나요?"
     answer: "원인이 교정 가능하면 좋아지는 경우가 많습니다. 신경 손상이면 회복이 더디거나 일부 남을 수 있어요. 시간을 두고 경과를 봅니다."
+sources:
+  - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/approach-to-the-patient-with-nasal-and-pharyngeal-symptoms/taste-disorders"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554643/"
+updated: "2026-08-16"
 relatedTerms:
   - noin-yeonhajangae
   - teoggwanjeol-jangae-jaga-jindan

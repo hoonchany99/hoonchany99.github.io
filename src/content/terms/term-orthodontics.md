@@ -26,6 +26,7 @@ faqs:
     answer: "네, 리테이너 착용이 필수예요. 치아는 원래 위치로 돌아가려는 경향이 있어요. 지시하지 않으면 재발할 수 있습니다."
   - question: "교정 중 발치해야 하나요?"
     answer: "공간 부족·돌출 등에 따라 발치가 필요한 경우가 있어요. 모든 분에게 해당되지는 않아요. 진단·X-ray 후 결정합니다."
+updated: "2026-08-16"
 relatedTerms:
   - gyojeong-balchi
   - extraction

@@ -25,6 +25,10 @@ faqs:
     answer: "임시로는 도움이 되지만 근본 해결은 아닙니다. 잇몸뼈가 줄어 안 맞는 것이라 안쪽을 덧대는 조정이 필요해요. 접착제에만 의존하면 잇몸이 더 상할 수 있습니다."
   - question: "아파서 못 끼겠어요."
     answer: "눌리는 부위가 있을 수 있습니다. 억지로 참고 끼면 궤양이 생겨요. 다만 조정하려면 며칠 끼고 오셔야 눌린 자국이 보입니다. 방문 전에 안내받으시면 좋습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dentures"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - chiju-susul-hu-gwanri
   - chiju-yujigwanri

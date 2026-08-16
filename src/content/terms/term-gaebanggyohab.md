@@ -25,6 +25,10 @@ faqs:
     answer: "비교적 재발이 잦은 유형으로 알려져 있습니다. 원인이 된 습관이 남아 있으면 특히 그래요. 유지장치를 오래 쓰는 것이 중요합니다."
   - question: "발음에도 영향을 주나요?"
     answer: "앞니 사이로 공기가 새어 특정 발음이 새는 소리로 들릴 수 있습니다. 치료 후 개선되는 경우가 많지만, 필요하면 언어 평가를 함께 봅니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab

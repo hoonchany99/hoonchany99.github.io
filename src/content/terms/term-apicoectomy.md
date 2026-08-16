@@ -25,6 +25,7 @@ faqs:
     answer: "성공하면 치아를 보존할 수 있어요. 균열·뼈 손실이 크면 발치·임플란트 전환을 함께 논의할 수 있습니다."
   - question: "치근단절제술 비용은?"
     answer: "치아 위치·난이도·마취·봉합 등에 따라 달라져요. 대부분 비급여인 경우가 많습니다. 수술 전 범위와 예상 비용을 확인하시면 좋아요."
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - chieun-jeoljesul

@@ -24,6 +24,7 @@ faqs:
     answer: "재충치·크랙·교합·신경 문제 등으로 불편이 생길 수 있어요. 정기 검진으로 조기에 확인하는 게 좋습니다."
   - question: "보존치료 비용은?"
     answer: "범위·방법(레진~크라운·신경치료)에 따라 달라져요. 치료 전 범위와 예상 비용을 같이 확인해 드려요."
+updated: "2026-08-16"
 relatedTerms:
   - chijogol-bojonsul
   - hangamchiryo-hwanja-chigwa

@@ -25,6 +25,7 @@ faqs:
     answer: "치석·염증 정도에 따라 불편함이 있을 수 있어요. 마취가글·국소마취 등으로 줄일 수 있는 경우도 있습니다. 참고 내원하시면 좋아요."
   - question: "스케일링만으로 치주염이 낫나요?"
     answer: "치은염·초기 치주염에는 도움이 되는 경우가 많아요. 진행된 치주염은 치근활택술·수술 등 추가 치료가 필요할 수 있습니다."
+updated: "2026-08-16"
 relatedTerms:
   - seukeilring-geongangboheom
   - cavity

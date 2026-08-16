@@ -25,6 +25,10 @@ faqs:
     answer: "재활의학과나 이비인후과에서 삼킴 검사를 합니다. 원인 질환이 있으면 그 과와 함께 봐요. 치과는 구강 위생과 씹는 기능을 담당합니다."
   - question: "집에서 도울 수 있는 게 있나요?"
     answer: "식사 자세를 바로 하고, 한 번에 조금씩 천천히 드시게 하세요. 식후 입안에 남은 음식을 제거하는 것도 중요합니다. 구체적인 방법은 평가 후 안내받으시면 좋아요."
+sources:
+  - "https://www.msdmanuals.com/professional/gastrointestinal-disorders/symptoms-of-gastrointestinal-disorders/dysphagia"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK559174/"
+updated: "2026-08-16"
 relatedTerms:
   - migag-jangae
   - noin-bburi-usig

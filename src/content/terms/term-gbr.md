@@ -26,6 +26,7 @@ faqs:
     answer: "출혈·붓기·통증 관리, 흡연·강한 가글·딱딱한 음식 피하기, 처방·식이 지침 따르기가 중요합니다."
   - question: "GBR 없이 임플란트 가능한가요?"
     answer: "뼈가 충분하면 가능해요. CT로 높이·두께·밀도를 확인한 뒤 GBR 필요 여부를 결정합니다."
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

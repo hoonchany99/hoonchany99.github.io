@@ -25,6 +25,10 @@ faqs:
     answer: "잇몸 출혈이 예상되는 처치가 해당됩니다. 스케일링도 포함될 수 있어요. 다만 해당 상태에 있는 분에 한해서입니다."
   - question: "그냥 먹으면 안 되나요?"
     answer: "불필요한 항생제는 내성과 부작용 위험을 키웁니다. 해당되지 않는 분께는 권하지 않아요. 필요한 경우를 정확히 가려서 쓰는 것이 원칙입니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK431128/"
+updated: "2026-08-16"
 relatedTerms:
   - eorini-chungchi-yebang
   - cavity

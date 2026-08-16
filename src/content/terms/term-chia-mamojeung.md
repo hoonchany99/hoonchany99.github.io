@@ -25,6 +25,10 @@ faqs:
     answer: "있습니다. 위산이 올라오면 치아 안쪽 면부터 녹아요. 원인 모를 부식이 보이면 이 가능성을 확인합니다. 내과 치료가 함께 필요할 수 있어요."
   - question: "많이 닳았는데 치료해야 하나요?"
     answer: "시리거나 씹기 불편하거나 계속 진행하면 치료를 고려합니다. 레진으로 메우거나 범위가 넓으면 보철로 덮어요. 원인 관리가 함께 가야 합니다."
+sources:
+  - "https://decisionsindentistry.com/article/treatment-strategies-noncarious-cervical-lesions/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/erosion"
+updated: "2026-08-16"
 relatedTerms:
   - chigyeongbu-mamojeung
   - chia-chagsaeg

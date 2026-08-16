@@ -25,6 +25,10 @@ faqs:
     answer: "임신 중 잇몸에 생기는 양성 종물일 수 있습니다. 대개 출산 후 줄어들어요. 다만 크기가 커서 씹기 불편하거나 자주 피가 나면 제거를 검토하기도 합니다. 확인을 받아 보세요."
   - question: "아기 치아에도 영향이 있나요?"
     answer: "엄마의 잇몸 상태가 아기 치아를 직접 상하게 하지는 않아요. 다만 출산 후 엄마 입안의 충치균이 아기에게 옮을 수 있어서, 임신 중부터 관리해 두시면 도움이 됩니다."
+sources:
+  - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - geubseong-goesaseong-gweyangseong-chieunyeom

@@ -25,6 +25,10 @@ faqs:
     answer: "완치보다 조절하며 지내는 경우가 많습니다. 증상이 좋아졌다 나빠졌다를 반복해요. 꾸준한 관리로 상태를 안정적으로 유지하는 것이 목표입니다."
   - question: "치과 치료를 받아도 되나요?"
     answer: "받으실 수 있습니다. 다만 복용 중인 약과 상태를 알려 주세요. 면역억제제를 쓰시면 감염 관리에 더 신경 씁니다."
+sources:
+  - "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/vasculitis/behcet-disease"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK470257/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

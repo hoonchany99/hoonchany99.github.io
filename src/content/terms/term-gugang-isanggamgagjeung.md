@@ -25,6 +25,10 @@ faqs:
     answer: "구강내과에서 시작하는 경우가 많습니다. 원인에 따라 신경과나 내과와 함께 봐요. 전신 원인을 배제하는 과정이 필요합니다."
   - question: "나을 수 있나요?"
     answer: "원인이 확인되면 다루면서 좋아집니다. 원인 불명이면 시간이 지나며 완화되기도 하고, 약물로 조절하기도 해요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/burning-mouth-syndrome"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK545282/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-sodae-isang
   - gugang-alrereugi-jeunghugun

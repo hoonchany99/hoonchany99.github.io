@@ -25,6 +25,10 @@ faqs:
     answer: "사람유두종바이러스 감염으로 생깁니다. 면역이 떨어진 상태에서 여러 개가 생기기도 해요. 원인을 특정하기 어려운 경우도 많습니다."
   - question: "제거하면 끝인가요?"
     answer: "바이러스가 남아 재발할 수 있습니다. 그래서 이후 경과를 확인해요. 새로 생기면 다시 처치합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-lesions"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563255/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban

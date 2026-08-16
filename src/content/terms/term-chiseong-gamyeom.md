@@ -25,6 +25,10 @@ faqs:
     answer: "상황에 따라 다릅니다. 감염이 진행 중일 때 온찜질은 번지는 것을 도울 수 있어요. 자가 판단보다 진료를 받고 안내받으시는 게 안전합니다."
   - question: "고름이 터졌는데 나은 건가요?"
     answer: "압력이 빠져 통증은 줄지만 원인은 그대로입니다. 다시 고이고 뼈는 계속 녹을 수 있어요. 통증이 없어져도 치료가 필요합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"
+updated: "2026-08-16"
 relatedTerms:
   - chiseong-sangagdongyeom
   - geunmaggangeug-gamyeom

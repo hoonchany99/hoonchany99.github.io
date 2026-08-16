@@ -25,6 +25,10 @@ faqs:
     answer: "어둡고 좁은 내부를 확대해 볼 수 있습니다. 숨은 관 입구를 찾거나 석회화된 부위를 조심스럽게 다루는 데 유리해요. 모든 경우에 필수는 아닙니다."
   - question: "치근관을 다 채우면 끝인가요?"
     answer: "치아 내부는 마무리되지만 겉을 보호해야 합니다. 신경치료한 치아는 부서지기 쉬워서 크라운을 씌우는 경우가 많아요. 이 단계를 미루면 갈라질 수 있습니다."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

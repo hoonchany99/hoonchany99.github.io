@@ -25,6 +25,10 @@ faqs:
     answer: "대부분은 방법이 있어요. 부족한 정도에 따라 뼈이식이나 상악동거상술을 함께 진행합니다. 다만 기간과 비용이 늘 수 있고, 이런 부가 시술은 비급여인 경우가 많아요."
   - question: "X-ray에서 뼈가 내려갔다는 게 무슨 뜻인가요?"
     answer: "치아를 감싸던 뼈의 높이가 낮아졌다는 뜻이에요. 치주염이 진행된 정도를 가늠하는 기준이 됩니다. 이전 사진과 비교하면 얼마나 빠르게 진행되는지도 볼 수 있어요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://pocketdentistry.com/1-anatomy-of-the-periodontium-2/"
+updated: "2026-08-16"
 relatedTerms:
   - chijogol-bojonsul
   - chijogol-bunrisul

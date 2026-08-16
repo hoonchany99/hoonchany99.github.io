@@ -25,6 +25,10 @@ faqs:
     answer: "차가운 자극을 주고 반응을 보는 검사, 전기 자극 검사, X-ray를 함께 봅니다. 한 가지 검사만으로 단정하지 않고 여러 결과를 맞춰 보는 편이에요."
   - question: "신경을 안 빼고 살리는 방법도 있나요?"
     answer: "있습니다. 치수가 아직 건강한 부분이 남아 있을 때 치수 복조술이나 치수절단술을 고려해요. 다만 염증 정도, 나이, 치아 상태에 따라 가능 여부가 달라집니다. 검사 후에 결정하는 경우가 많아요."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - chigeun

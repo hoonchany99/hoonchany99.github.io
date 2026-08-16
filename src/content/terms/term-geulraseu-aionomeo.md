@@ -25,6 +25,10 @@ faqs:
     answer: "유치 수복에 활용됩니다. 불소를 내어놓고 습기에 덜 예민해서, 협조가 어려운 아이에게 유리한 면이 있어요. 다만 상황에 따라 다른 재료를 쓰기도 합니다."
   - question: "불소가 계속 나오면 몸에 괜찮나요?"
     answer: "방출량이 매우 적어 문제가 되지 않습니다. 그 부위 치아 표면에 작용하는 정도예요. 오히려 이차 우식을 줄이는 데 도움이 될 수 있습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dental-restorations"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK576389/"
+updated: "2026-08-16"
 relatedTerms:
   - peurobaiotigseu
   - cavity

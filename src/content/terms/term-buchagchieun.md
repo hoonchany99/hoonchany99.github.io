@@ -25,6 +25,10 @@ faqs:
     answer: "모두 그런 건 아니에요. 다만 잇몸이 얇고 부착치은이 좁은 상태에서 치아를 바깥쪽으로 많이 옮기면 위험이 올라간다는 보고가 있습니다. 시작 전에 잇몸 상태를 함께 보는 게 좋아요."
   - question: "칫솔질이 아픈데 살살만 해야 하나요?"
     answer: "아프다고 피하면 염증이 생겨 더 나빠집니다. 부드러운 칫솔모로 힘을 빼고, 문지르기보다 잇몸 경계를 따라 짧게 진동시키듯 닦아 보세요. 그래도 계속 아프면 원인을 확인해야 합니다."
+sources:
+  - "https://pubmed.ncbi.nlm.nih.gov/31522163/"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - chieun

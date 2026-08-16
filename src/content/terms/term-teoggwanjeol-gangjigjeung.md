@@ -25,6 +25,10 @@ faqs:
     answer: "개선되는 경우가 많지만 재발 위험이 있습니다. 수술 후 다시 굳지 않도록 재활이 오래 이어져요. 이 과정이 결과를 크게 좌우합니다."
   - question: "식사는 어떻게 하나요?"
     answer: "입이 벌어지는 범위에 맞춰 부드럽고 작게 잘라 드셔야 합니다. 영양이 부족해지지 않도록 신경 쓰는 것도 중요해요. 상황에 맞는 식사 방법을 안내받으시면 좋습니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560644/"
+updated: "2026-08-16"
 relatedTerms:
   - manseong-dutonggwa-teoggwanjeol
   - teoggwanjeol-diseukeu-byeonwi

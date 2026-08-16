@@ -25,6 +25,10 @@ faqs:
     answer: "받습니다. 잇몸이 내려가 뿌리가 드러난 분, 침이 줄어든 분, 교정 중인 분에게 특히 도움이 돼요. 어린이 전용 처치가 아닙니다."
   - question: "불소 치약만으로는 부족한가요?"
     answer: "매일 쓰는 치약이 기본이고 가장 중요합니다. 도포는 주기적으로 강하게 보강하는 개념이에요. 위험도가 높지 않다면 치약과 관리만으로 충분한 경우도 많습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - bulsojeung
   - fluoride

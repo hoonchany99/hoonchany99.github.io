@@ -25,6 +25,10 @@ faqs:
     answer: "최소 24시간, 가능하면 며칠 더 참으시는 걸 권합니다. 빨아들이는 동작이 피떡을 떨어뜨리고 연기 성분이 회복을 늦춰요. 흡연자의 건조와 위험이 세 배 이상이라는 보고가 있습니다."
   - question: "지금 끊어도 늦지 않았을까요?"
     answer: "늦지 않았습니다. 금연 후 잇몸 치료 반응과 수술 예후가 좋아지는 것으로 보고돼요. 이미 녹은 뼈가 돌아오지는 않지만, 더 나빠지는 속도를 늦출 수 있습니다."
+sources:
+  - "https://www.dentistryiq.com/dental-hygiene/clinical-hygiene/article/16351244/smoking-and-periodontitis"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/smoking-and-tobacco-cessation"
+updated: "2026-08-16"
 relatedTerms:
   - guganggeonjojeung
   - geongangboheom-jeogyong-teulni

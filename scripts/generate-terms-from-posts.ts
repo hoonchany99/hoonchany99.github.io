@@ -50,6 +50,13 @@ const RELATED_TERM_COUNT = 4;
 const RELATED_POST_COUNT = 5;
 
 /**
+ * 사전 내용을 마지막으로 정리한 날짜.
+ * 자동 생성 때마다 오늘 날짜를 넣으면 실제로 바뀌지 않았는데도 최신인 척하게 된다.
+ * 그래서 내용을 실제로 손봤을 때만 이 값을 올린다.
+ */
+const CONTENT_UPDATED = '2026-08-16';
+
+/**
  * 관련 글로 붙이기 위한 최소 관련도.
  * 이 아래는 주제가 스치기만 한 글이라, 의료 정보 페이지에 '관련 글'로
  * 내보내면 링크 하나 얻고 신뢰를 잃는다. 없는 편이 낫다.
@@ -250,6 +257,10 @@ function renderTermFile(
       `  - question: ${yamlQuote(f.question)}`,
       `    answer: ${toYamlBlock(f.answer, 6)}`,
     ]),
+    ...(authoredBySlug[term.slug]?.sources?.length
+      ? ['sources:', ...authoredBySlug[term.slug].sources.map((u) => `  - ${yamlQuote(u)}`)]
+      : []),
+    `updated: ${yamlQuote(CONTENT_UPDATED)}`,
     'relatedTerms:',
     ...(relatedTerms.length ? relatedTerms.map((s) => `  - ${s}`) : ['  []']),
     'relatedPosts:',

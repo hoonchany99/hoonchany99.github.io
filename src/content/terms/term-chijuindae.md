@@ -25,6 +25,10 @@ faqs:
     answer: "아주 미세한 움직임은 정상 범위예요. 치주인대에 여유가 있기 때문입니다. 다만 눈에 보일 정도로 흔들리거나 점점 심해진다면 잇몸뼈가 녹고 있는 신호일 수 있어 확인이 필요해요."
   - question: "이가 뜬 느낌이 드는 건 왜 그런가요?"
     answer: "뿌리 끝에 염증이 생기면 치주인대 공간이 붓습니다. 그래서 치아가 살짝 솟은 것처럼 느껴지고 씹을 때 먼저 닿아요. 신경 문제일 수 있어서 검사를 받아 보시는 게 좋습니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://pocketdentistry.com/1-anatomy-of-the-periodontium-2/"
+updated: "2026-08-16"
 relatedTerms:
   - chiju-jaesaengsul
   - chiju-nongyang

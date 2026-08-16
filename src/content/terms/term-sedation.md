@@ -25,6 +25,7 @@ faqs:
     answer: "치과 공포·장시간 수술·구역 반사 등에 고려됩니다. 심장·호흡·약물·전신 상태는 사전 평가 후 적합 여부를 판단해요."
   - question: "진정 치료 전 금식해야 하나요?"
     answer: "진정 종류·범위에 따라 금식·금수 시간이 달라질 수 있어요. 처방·금식·귀가 지침을 꼭 따르세요."
+updated: "2026-08-16"
 relatedTerms:
   - noin-chigwa-jinjeong
   - cheos-chigwa-bangmun

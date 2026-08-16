@@ -25,6 +25,10 @@ faqs:
     answer: "범위가 작으면 레진으로 충분합니다. 다만 충치가 크거나 신경치료를 한 경우에는 레진이 깨지거나 빠지는 일이 많아요. 다시 치료할 확률을 줄이려면 크라운이 유리합니다."
   - question: "아프거나 불편해하지 않나요?"
     answer: "마취 후 진행하며 처음 며칠은 잇몸이 얼얼할 수 있어요. 대개 금방 적응합니다. 계속 아파하거나 씹기 싫어하면 높이를 확인해 봐야 합니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+updated: "2026-08-16"
 relatedTerms:
   - crown
   - pediatric-dentistry

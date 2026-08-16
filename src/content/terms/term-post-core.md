@@ -26,6 +26,7 @@ faqs:
     answer: "균열·재파절 가능성은 있습니다. 크라운으로 감싸 보호하고, 이갈이·단단한 음식 주의가 도움이 될 수 있어요."
   - question: "포스트&코어 비용은?"
     answer: "포스트 종류·코어·크라운까지 포함해 범위에 따라 달라져요. 치료 계획과 함께 확인해 드립니다."
+updated: "2026-08-16"
 relatedTerms:
   - gugang-metalrig-teiseuteu
   - cavity

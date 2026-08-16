@@ -25,6 +25,10 @@ faqs:
     answer: "씹을 때 심해지고 턱 근육을 누르면 아프면 치과에서 먼저 봐도 좋습니다. 두통이 심하거나 시야 변화·구토 같은 다른 증상이 있으면 신경과 진료가 필요해요."
   - question: "집에서 할 수 있는 게 있나요?"
     answer: "평소 위아래 치아를 붙이지 않는 연습, 관자놀이·볼 근육 온찜질과 부드러운 마사지가 도움이 됩니다. 질긴 음식과 껌을 줄이는 것도 효과가 있어요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353764/"
+updated: "2026-08-16"
 relatedTerms:
   - teoggwanjeol-diseukeu-byeonwi
   - teoggwanjeol-gangjigjeung

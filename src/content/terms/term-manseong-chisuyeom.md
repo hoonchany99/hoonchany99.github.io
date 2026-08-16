@@ -25,6 +25,10 @@ faqs:
     answer: "차가운 자극 검사, 전기 검사, 두드려 보는 검사와 X-ray를 함께 봅니다. 한 가지로 단정하지 않고 여러 결과를 맞춰 보며 판단해요."
   - question: "치료하지 않고 지켜봐도 되나요?"
     answer: "원인이 뚜렷하고 치수가 아직 건강해 보이면 원인을 제거한 뒤 경과를 보기도 합니다. 다만 정해진 간격으로 다시 확인하는 게 전제예요. 그냥 두는 것과는 다릅니다."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - geubseong-chisuyeom
   - bigayeogjeog-chisuyeom

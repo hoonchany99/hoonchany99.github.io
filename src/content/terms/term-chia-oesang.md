@@ -25,6 +25,10 @@ faqs:
     answer: "넣지 마세요. 아래 영구치 싹을 손상시킬 수 있습니다. 유치는 다시 심지 않는 것이 원칙이에요. 영구치와 반대라는 점을 꼭 기억해 주세요."
   - question: "언제까지 지켜봐야 하나요?"
     answer: "외상 종류에 따라 다르지만 최소 몇 달에서 1년 이상 확인합니다. 변색, 통증, 뿌리 흡수 여부를 X-ray로 봐요. 증상이 없어도 예정된 시점에 오시는 게 중요합니다."
+sources:
+  - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK539876/"
+updated: "2026-08-16"
 relatedTerms:
   - chia-chagsaeg
   - chia-gujo

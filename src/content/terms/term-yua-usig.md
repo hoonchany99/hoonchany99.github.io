@@ -25,6 +25,10 @@ faqs:
     answer: "돌 무렵부터 전환을 권하는 경우가 많습니다. 젖병을 오래 쓸수록 앞니에 당분이 머무는 시간이 길어져요. 빨대컵도 계속 홀짝이면 비슷한 문제가 생깁니다."
   - question: "치약은 언제부터 쓰나요?"
     answer: "첫 치아가 나오면 시작합니다. 만 3세 미만은 쌀알 크기가 기준이에요. 삼켜도 문제없는 양이고, 불소가 있어야 예방 효과가 있습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/early-childhood-caries"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - caries
   - icha-usig

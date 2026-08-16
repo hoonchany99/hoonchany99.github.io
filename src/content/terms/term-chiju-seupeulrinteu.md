@@ -25,6 +25,10 @@ faqs:
     answer: "연락 주세요. 떨어진 채로 두면 그 치아에 힘이 몰립니다. 다시 붙이거나 방법을 바꾸기도 해요."
   - question: "이걸 하면 이를 안 뽑아도 되나요?"
     answer: "남은 뼈가 어느 정도 있어야 의미가 있습니다. 이미 많이 녹았으면 유지가 어려워요. 상태를 보고 발치와 비교해 판단합니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - splint
   - chiju-jaesaengsul

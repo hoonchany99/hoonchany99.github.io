@@ -25,6 +25,10 @@ faqs:
     answer: "남은 벽이 얇고 약하면 크라운을 검토합니다. 넓은 부분을 메우기만 하면 치아가 갈라질 위험이 있어요. 남은 구조를 보고 판단합니다."
   - question: "충치를 다 제거했는지 어떻게 아나요?"
     answer: "색과 단단함을 확인하며 제거합니다. 우식 부위를 염색해 보는 방법을 쓰기도 해요. 다만 치수에 아주 가까우면 일부를 남기고 덮는 방법을 선택하기도 합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dental-restorations"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

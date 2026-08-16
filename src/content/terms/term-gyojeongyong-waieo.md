@@ -25,6 +25,10 @@ faqs:
     answer: "단계마다 필요한 힘이 다르기 때문이에요. 처음에는 부드럽게 배열하고, 나중에는 단단한 와이어로 세밀하게 조정합니다. 순서를 건너뛰면 원치 않는 이동이 생길 수 있어요."
   - question: "투명교정에는 와이어가 없나요?"
     answer: "없습니다. 투명 장치 자체가 힘을 주는 구조예요. 대신 단계마다 새 장치로 교체합니다. 케이스에 따라 부분적으로 장치를 함께 쓰기도 해요."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/orthodontics"
+updated: "2026-08-16"
 relatedTerms:
   - gyojeongyong-miniseukeuryu
   - aggyojeong-susul

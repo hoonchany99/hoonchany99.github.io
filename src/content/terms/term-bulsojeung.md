@@ -25,6 +25,10 @@ faqs:
     answer: "가벼우면 미백이나 표면을 다듬는 처치로 개선되는 경우가 있습니다. 범위가 넓거나 깊으면 레진이나 라미네이트를 고려해요."
   - question: "지금 불소 도포를 받아도 되나요?"
     answer: "치아가 이미 만들어진 뒤라면 불소증과 무관합니다. 오히려 충치 예방에 도움이 돼요. 걱정 없이 받으셔도 됩니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/fluorosis"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - bulso-dopo
   - fluoride

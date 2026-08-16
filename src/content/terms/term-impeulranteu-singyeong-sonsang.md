@@ -25,6 +25,10 @@ faqs:
     answer: "드문 합병증입니다. 다만 생기면 일상에 영향이 커서 미리 설명드리고 예방에 신경 씁니다. 위치와 뼈 높이에 따라 위험도가 달라져요."
   - question: "저리면 임플란트를 빼야 하나요?"
     answer: "경우에 따라 다릅니다. 픽스처가 신경을 직접 누르고 있다면 제거하거나 짧은 것으로 교체를 검토해요. 상태를 확인한 뒤 판단합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - hachijosingyeong-sonsang
   - immediate-implant

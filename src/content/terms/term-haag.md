@@ -25,6 +25,10 @@ faqs:
     answer: "대부분은 뼈보다 턱관절이나 근육 문제입니다. 씹을 때 아프고 관절 부위를 누르면 아프면 그쪽을 먼저 봐요. 원인 구분이 필요합니다."
   - question: "아래턱이 부러지기도 하나요?"
     answer: "외상으로 골절이 생길 수 있습니다. 부딪힌 뒤 물림이 달라졌거나 입이 잘 안 벌어지면 확인이 필요해요. 이 경우 구강악안면외과 진료가 필요합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

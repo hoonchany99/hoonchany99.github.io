@@ -25,6 +25,10 @@ faqs:
     answer: "대개 필요 없습니다. 턱뼈 위치가 크게 어긋나지 않은 상태라 치아 이동으로 해결되는 경우가 많아요."
   - question: "치료 기간은 얼마나 걸리나요?"
     answer: "겹침 정도와 이동 거리에 따라 다릅니다. 단순 배열이면 짧고, 발치 후 공간을 닫아야 하면 길어져요. 진단 후에 예상 기간을 안내받으시면 됩니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - 2geub-bujeonggyohab
   - 3geub-bujeonggyohab

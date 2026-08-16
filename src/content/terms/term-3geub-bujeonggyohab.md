@@ -25,6 +25,10 @@ faqs:
     answer: "차이가 크지 않으면 가능합니다. 다만 무리하게 맞추면 앞니가 과하게 기울고 잇몸이 내려갈 수 있어요. 결과도 불안정할 수 있습니다."
   - question: "유전인가요?"
     answer: "가족력이 있는 경우가 흔합니다. 다만 유전만으로 정해지지는 않아요. 성장 패턴과 습관도 영향을 줍니다. 가족력이 있다면 일찍 확인해 보시는 게 좋습니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab

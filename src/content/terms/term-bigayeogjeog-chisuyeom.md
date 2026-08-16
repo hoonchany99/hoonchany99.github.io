@@ -25,6 +25,10 @@ faqs:
     answer: "치아와 염증 상태에 따라 다릅니다. 한 번에 끝나는 경우도 있고, 여러 번 나눠 진행하기도 해요. 뿌리 개수가 많거나 염증이 심하면 횟수가 늘어나는 편입니다."
   - question: "치료 중에 많이 아픈가요?"
     answer: "국소마취를 하고 진행하므로 치료 중 통증은 대부분 조절됩니다. 다만 염증이 심하면 마취가 잘 안 듣는 경우가 있어서, 마취 방법을 조정하기도 해요. 불편하시면 중간에 말씀해 주시면 됩니다."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
+  - "https://ostrowonline.usc.edu/odontotest-irreversible-pulpitis/"
+updated: "2026-08-16"
 relatedTerms:
   - gayeogjeog-chisuyeom
   - geubseong-chisuyeom

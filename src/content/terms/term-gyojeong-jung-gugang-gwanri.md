@@ -25,6 +25,10 @@ faqs:
     answer: "끈적한 것(엿, 캐러멜)과 단단한 것(얼음, 견과류, 뼈)은 피해 주세요. 브라켓이 떨어지거나 와이어가 휠 수 있습니다. 사과 같은 것은 잘라서 드시면 됩니다."
   - question: "잇몸이 부었는데 정상인가요?"
     answer: "교정 중에는 세균막이 쌓여 잇몸이 붓는 경우가 흔합니다. 다만 방치하면 나빠져요. 그 부위를 더 신경 써서 닦고, 좋아지지 않으면 스케일링을 받으시는 게 좋습니다."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/orthodontics"
+updated: "2026-08-16"
 relatedTerms:
   - imsanbu-gugang-gwanri
   - aggyojeong-susul

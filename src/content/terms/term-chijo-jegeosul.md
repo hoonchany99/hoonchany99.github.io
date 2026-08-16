@@ -25,6 +25,10 @@ faqs:
     answer: "뼈가 아물고 형태가 자리 잡은 뒤가 좋습니다. 너무 일찍 만들면 아무는 과정에서 변형되어 다시 조정하게 돼요."
   - question: "많이 아픈가요?"
     answer: "마취 후 진행하고 대개 발치와 함께 합니다. 이후 며칠 불편할 수 있지만 처방약으로 조절되는 정도예요."
+sources:
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dentures"
+updated: "2026-08-16"
 relatedTerms:
   - chijogol
   - chijogol-bojonsul

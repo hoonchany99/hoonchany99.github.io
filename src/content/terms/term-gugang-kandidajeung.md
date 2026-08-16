@@ -25,6 +25,10 @@ faqs:
     answer: "틀니 아래는 침이 닿지 않아 곰팡이가 자라기 좋습니다. 밤에는 빼서 세척해 보관해 주세요. 틀니 자체도 함께 소독하지 않으면 재발하기 쉽습니다."
   - question: "옮나요?"
     answer: "일반적으로 사람 사이에 옮는 감염으로 보지 않습니다. 원래 있던 균이 늘어난 상태예요. 다만 면역이 매우 약한 사람과는 식기 공유 등을 주의하기도 합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-candidiasis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560624/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban

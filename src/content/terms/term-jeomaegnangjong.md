@@ -25,6 +25,10 @@ faqs:
     answer: "있습니다. 반복적인 자극으로 침샘 관이 손상되면 생기기 쉬워요. 습관을 줄이는 것이 재발 예방에 도움이 됩니다."
   - question: "암은 아닌가요?"
     answer: "점액낭종은 양성입니다. 다만 겉모습이 비슷한 다른 병변도 있어서, 제거한 조직을 확인하는 경우가 있어요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-lesions"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560855/"
+updated: "2026-08-16"
 relatedTerms:
   - chigeundan-nangjong
   - cavity

@@ -25,6 +25,10 @@ faqs:
     answer: "잇몸 아래 남은 시멘트가 세균이 붙는 자리가 되어 임플란트 주위염을 일으킬 수 있습니다. 알려진 위험이라 장착 시 꼼꼼히 제거하고, 이후 불편감이 있으면 확인합니다."
   - question: "나중에 방식을 바꿀 수 있나요?"
     answer: "보철물을 다시 만들면 가능한 경우가 있습니다. 다만 임플란트를 심은 각도가 제약이 돼요. 그래서 수술 계획 단계에서 어떤 방식으로 갈지 함께 고려합니다."
+sources:
+  - "https://link.springer.com/article/10.1186/s12903-022-02493-8"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+updated: "2026-08-16"
 relatedTerms:
   - immediate-implant
   - impeulranteu-1cha-susul

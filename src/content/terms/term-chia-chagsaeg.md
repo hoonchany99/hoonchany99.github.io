@@ -25,6 +25,10 @@ faqs:
     answer: "클로르헥시딘 성분 가글에서 나타날 수 있는 착색입니다. 사용을 중단하고 스케일링이나 연마로 제거하면 대개 해결돼요. 이 성분은 장기간 쓰는 제품이 아닙니다."
   - question: "보철물에도 착색이 생기나요?"
     answer: "재료에 따라 표면에 색소가 붙을 수 있습니다. 다만 보철물은 미백으로 색이 변하지 않아요. 착색이면 연마로, 변색이 심하면 교체를 검토합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/whitening"
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/tooth-discoloration"
+updated: "2026-08-16"
 relatedTerms:
   - chia-gujo
   - chia-gyunyeol-jeunghugun

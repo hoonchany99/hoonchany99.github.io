@@ -25,6 +25,10 @@ faqs:
     answer: "브라켓 주변 탈회에서 흔한 결과입니다. 장치를 떼면 드러나요. 불소를 집중적으로 쓰고, 심미가 문제면 표면 처치나 미백을 검토합니다."
   - question: "예방할 수 있나요?"
     answer: "교정 중이라면 장치 주변을 꼼꼼히 닦고 불소를 쓰는 것이 핵심입니다. 치간칫솔로 와이어 아래를 지나가게 하는 것이 큰 차이를 만들어요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - laminate
   - cavity

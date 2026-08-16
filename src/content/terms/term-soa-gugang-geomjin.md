@@ -25,6 +25,10 @@ faqs:
     answer: "필요할 때만 찍습니다. 치아 사이 충치나 뼈 속 영구치 상태는 눈으로 안 보여서 확인이 필요한 경우가 있어요. 어린이용으로 선량을 낮춰 촬영합니다."
   - question: "아이가 무서워하는데 어떻게 하나요?"
     answer: "첫 방문에서 치료를 하지 않고 익숙해지는 시간을 갖는 것이 좋습니다. 집에서 치과를 무서운 곳으로 표현하지 않는 것도 도움이 돼요."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dental-visits"
+updated: "2026-08-16"
 relatedTerms:
   - chia-gujo
   - dental-checkup

@@ -25,6 +25,10 @@ faqs:
     answer: "이미 만들어진 치아를 단단하게 만들지는 못합니다. 다만 잇몸뼈 건강에는 도움이 될 수 있어요. 복용은 내과·정형외과 처방에 따르시는 게 좋습니다."
   - question: "발치를 미루는 게 나을까요?"
     answer: "오히려 반대인 경우가 많아요. 문제 있는 치아를 두면 염증이 커져서 나중에 더 어려운 상황이 됩니다. 약을 시작하기 전이라면 미리 정리해 두는 쪽을 권합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/osteoporosis-medications"
+  - "https://www.merckmanuals.com/professional/dental-disorders/dental-emergencies/medication-related-osteonecrosis-of-the-jaw-mronj"
+updated: "2026-08-16"
 relatedTerms:
   - dangnyo-hwanja-chigwa
   - hangamchiryo-hwanja-chigwa

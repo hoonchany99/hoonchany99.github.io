@@ -25,6 +25,10 @@ faqs:
     answer: "재식 후 나타날 수 있는 변화입니다. 뿌리 표면이 흡수되어 점차 짧아져요. 진행 속도는 경우마다 달라서, X-ray로 정기적으로 확인합니다."
   - question: "의도적 재식술은 어떤 경우에 하나요?"
     answer: "근관이 막혀 안에서 접근이 어렵거나, 뿌리 끝 수술이 곤란한 위치일 때 고려합니다. 뽑아서 밖에서 처치한 뒤 바로 다시 넣어요. 선택지가 제한적일 때 쓰는 방법입니다."
+sources:
+  - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK539876/"
+updated: "2026-08-16"
 relatedTerms:
   - chia-chagsaeg
   - chia-gujo

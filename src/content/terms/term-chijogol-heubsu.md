@@ -25,6 +25,10 @@ faqs:
     answer: "틀니는 잇몸 위에 얹히는 구조라 뼈에 직접 자극이 가지 않습니다. 시간이 지나며 뼈가 줄어 틀니가 헐거워지는 경우가 많아요."
   - question: "어떻게 막나요?"
     answer: "잇몸병을 초기에 잡는 것이 가장 중요합니다. 치아를 뽑았다면 자리를 너무 오래 비워 두지 마세요. 발치와 동시에 보존술을 고려하기도 합니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK534881/"
+updated: "2026-08-16"
 relatedTerms:
   - chijogol
   - chijogol-bojonsul

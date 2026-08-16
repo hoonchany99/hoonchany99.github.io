@@ -25,6 +25,10 @@ faqs:
     answer: "함께 나타나는 경우가 있습니다. 둘 다 흔한 정상 변이라 걱정하지 않으셔도 돼요."
   - question: "언제 확인이 필요한가요?"
     answer: "통증이 지속되거나, 갑자기 생겼거나, 홈 안쪽이 헐어 낫지 않으면 다른 원인을 확인해 봅니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/tongue-discoloration-and-other-changes"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554466/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

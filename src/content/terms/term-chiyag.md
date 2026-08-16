@@ -25,6 +25,10 @@ faqs:
     answer: "불소 함량과 사용량이 다릅니다. 만 3세 미만은 쌀알 크기가 기준이에요. 삼켜도 문제없는 양이고, 불소가 있어야 예방 효과가 있습니다."
   - question: "천연 치약이 더 좋나요?"
     answer: "불소가 없는 제품이 많습니다. 그러면 충치 예방 효과를 기대하기 어려워요. 성분표에서 불소 유무를 꼭 확인해 보세요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/toothpastes"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements"
+updated: "2026-08-16"
 relatedTerms:
   - fluoride
   - chiyag-seongbun

@@ -25,6 +25,11 @@ faqs:
     answer: "흔들리는 부위가 어디인지에 따라 달라요. 위 보철이나 나사가 풀린 거라면 조이거나 다시 만들어 해결되는 경우가 많습니다. 임플란트 몸체 자체가 흔들린다면 골유착이 깨진 상태라 제거를 검토해요."
   - question: "오래 쓰려면 뭘 해야 하나요?"
     answer: "칫솔질과 치간 관리, 정기 검진이 기본입니다. 임플란트 주변은 치실이나 치간칫솔로 따로 챙겨 주세요. 이갈이가 있으면 장치를 고려하고, 흡연과 혈당 관리도 함께 보는 게 좋아요."
+sources:
+  - "https://www.sciencedirect.com/science/article/abs/pii/S0300571219300491"
+  - "https://link.springer.com/article/10.1186/s12903-022-02493-8"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.24-0154"
+updated: "2026-08-16"
 relatedTerms:
   - immediate-implant
   - impeulranteu-1cha-susul

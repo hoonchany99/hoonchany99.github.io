@@ -25,6 +25,10 @@ faqs:
     answer: "유치에서 더 흔하지만 영구치에도 나타날 수 있습니다. 유치에 있었다면 아래 영구치 상태를 X-ray로 확인해 보는 것이 좋아요."
   - question: "배열에 영향을 주나요?"
     answer: "치아가 넓적해 자리를 더 차지하면 배열이 밀릴 수 있습니다. 반대로 공간이 남기도 해요. 교정이 필요한지는 전체 배열을 보고 판단합니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

@@ -25,6 +25,10 @@ faqs:
     answer: "치은 절제술은 잇몸만 다듬습니다. 치관 연장술은 필요하면 잇몸 아래 뼈까지 함께 정리해요. 뼈 높이를 고려하지 않으면 결과가 불안정할 수 있어 상황에 맞게 선택합니다."
   - question: "보험이 되나요?"
     answer: "치료 목적으로 필요한 경우와 심미 목적인 경우의 적용이 다를 수 있어요. 진단명과 시술 범위에 따라 달라지므로, 계획 단계에서 확인해 드리는 게 정확합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK538518/"
+  - "https://pocketdentistry.com/1-anatomy-of-the-periodontium-2/"
+updated: "2026-08-16"
 relatedTerms:
   - apicoectomy
   - soa-seolsodae-jeoljesul

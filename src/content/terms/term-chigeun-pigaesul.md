@@ -25,6 +25,10 @@ faqs:
     answer: "원인이 남아 있으면 그럴 수 있습니다. 세게 문지르는 칫솔질을 고치지 않으면 특히 그래요. 수술과 함께 습관을 다루는 것이 중요합니다."
   - question: "수술 후 관리는요?"
     answer: "수술 부위는 한동안 칫솔로 건드리지 않습니다. 처방된 가글로 관리해요. 이 시기 자극이 결과를 크게 좌우합니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://pubmed.ncbi.nlm.nih.gov/31522163/"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

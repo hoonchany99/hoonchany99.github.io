@@ -25,6 +25,10 @@ faqs:
     answer: "입 크기에 맞는 작은 머리와 부드러운 모를 고르세요. 손잡이는 아이 손에 쥐기 편한 두께가 좋습니다. 아이가 좋아하는 디자인이면 습관 들이기에 도움이 돼요."
   - question: "칫솔은 어떻게 보관하나요?"
     answer: "물기를 털고 세워서 통풍이 되게 두세요. 밀폐된 뚜껑을 씌우면 잘 마르지 않습니다. 다른 사람 칫솔과 모가 닿지 않게 두시는 게 좋아요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/home-care"
+updated: "2026-08-16"
 relatedTerms:
   - bocheol-saegjo-seontaeg
   - chissoljil

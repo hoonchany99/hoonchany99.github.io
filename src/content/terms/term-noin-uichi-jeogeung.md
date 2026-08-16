@@ -25,6 +25,10 @@ faqs:
     answer: "위턱 틀니 뒤쪽이 닿아 생기는 경우가 많습니다. 경계를 조금 다듬으면 나아질 수 있어요. 천천히 코로 숨 쉬며 적응하는 연습도 도움이 됩니다."
   - question: "밤에도 끼고 자야 적응이 빠른가요?"
     answer: "아닙니다. 밤에는 빼서 잇몸을 쉬게 하는 것이 권장돼요. 끼고 자면 곰팡이 감염과 잇몸 자극 위험이 올라갑니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dentures"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - eotaechimeonteu-uichi
   - noin-bburi-usig

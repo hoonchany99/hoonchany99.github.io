@@ -25,6 +25,10 @@ faqs:
     answer: "오래 지속되면 앞니가 벌어지거나 위턱이 좁아질 수 있습니다. 대개 자연스럽게 그만두지만, 영구치가 나올 시기까지 이어지면 개입을 고려해요."
   - question: "지금 안 하면 나중에 더 어려워지나요?"
     answer: "경우에 따라 그렇습니다. 이소 맹출처럼 옆 치아를 손상시키는 상황은 시기를 놓치면 복잡해져요. 반면 단순 배열 문제는 나중에 해도 결과가 비슷합니다."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - orthodontics
   - aggyojeong-susul

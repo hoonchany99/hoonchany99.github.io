@@ -25,6 +25,10 @@ faqs:
     answer: "맵고 짜고 뜨거운 음식, 탄산과 산성 음료를 피해 주세요. 자극이 적은 치약으로 바꾸는 것도 도움이 됩니다."
   - question: "연고를 발라야 하나요?"
     answer: "대개 필요 없습니다. 통증이 심하면 덮어 주는 제품이나 가글을 쓰기도 해요. 범위가 넓거나 오래가면 확인받으세요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/stomatitis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560855/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-jeommag-melranin-saegsochimchag
   - gugang-jeommagha-seomyujeung

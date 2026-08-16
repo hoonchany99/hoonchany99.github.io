@@ -25,6 +25,10 @@ faqs:
     answer: "아래 앞니에서 흔히 보이는 모습이에요. 유치가 저절로 빠지면 대개 제자리를 찾아갑니다. 다만 유치가 흔들리지 않고 버티면 뽑아 주기도 해요. 확인을 받아 보세요."
   - question: "이 나는 시기에 뭘 해 주면 되나요?"
     answer: "깨끗한 거즈나 실리콘 칫솔로 잇몸을 닦아 주세요. 차가운 치발기가 도움이 되기도 합니다. 첫 치아가 나오면 그때부터 불소 치약을 쌀알 크기로 쓰기 시작합니다."
+sources:
+  - "https://www.adafoundation.org/-/media/project/ada-organization/ada/ada-org/files/resources/public-programs/give-kids-a-smile/ada_primary_permanent_toothdev_eng.pdf"
+  - "https://www.dentalcare.com/en-us/ce-courses/ce651/primary-permanent-dentition-eruption-sequences"
+updated: "2026-08-16"
 relatedTerms:
   - chia-maengchul-jiyeon
   - chia-maengchul-sunseo

@@ -25,6 +25,10 @@ faqs:
     answer: "호르몬 변화로 흔한 일입니다. 그렇다고 안 닦으면 더 나빠져요. 부드럽게라도 꾸준히 닦고 검진을 받아 보세요."
   - question: "아기 치아에 영향이 있나요?"
     answer: "엄마 잇몸 상태가 아기 치아를 직접 상하게 하지는 않습니다. 다만 출산 후 충치균이 옮을 수 있어 미리 관리해 두시면 도움이 돼요."
+sources:
+  - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy"
+updated: "2026-08-16"
 relatedTerms:
   - gyojeong-jung-gugang-gwanri
   - chiju-susul-hu-gwanri

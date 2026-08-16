@@ -25,6 +25,10 @@ faqs:
     answer: "영구치 앞니가 나올 때 벌어져 보이는 건 흔한 과정이에요. 옆 치아와 송곳니가 나오면서 좁혀지는 경우가 많습니다. 다만 틈이 크거나 그대로 유지되면 확인해 보세요."
   - question: "사랑니는 언제 나오나요?"
     answer: "대개 10대 후반에서 20대 초반입니다. 아예 나오지 않거나 뼈 안에 묻힌 채로 있는 경우도 많아요. X-ray로 위치와 방향을 확인해 뽑을지 판단합니다."
+sources:
+  - "https://www.adafoundation.org/-/media/project/ada-organization/ada/ada-org/files/resources/public-programs/give-kids-a-smile/ada_primary_permanent_toothdev_eng.pdf"
+  - "https://www.dentalcare.com/en-us/ce-courses/ce651/primary-permanent-dentition-eruption-sequences"
+updated: "2026-08-16"
 relatedTerms:
   - chia-maengchul-jiyeon
   - chia-chagsaeg

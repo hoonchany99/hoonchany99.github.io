@@ -25,6 +25,10 @@ faqs:
     answer: "파노라마는 평면에 펼쳐 담아 겹침과 왜곡이 있습니다. CT는 입체로 보여 정확한 위치와 두께를 알 수 있어요. 다만 선량이 더 많아 필요한 경우에만 씁니다."
   - question: "찍을 때 움직이면 어떻게 되나요?"
     answer: "상이 흐려지거나 왜곡됩니다. 다시 찍어야 할 수 있어요. 촬영 중에는 안내에 따라 자세를 유지하고 침을 삼키지 않는 것이 좋습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

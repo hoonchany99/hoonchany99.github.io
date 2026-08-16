@@ -25,6 +25,10 @@ faqs:
     answer: "출혈이 멎지 않거나, 치아가 크게 흔들리거나 위치가 틀어졌거나, 잇몸·입술이 심하게 찢어진 경우입니다. 머리를 부딪히고 의식이 흐리면 먼저 응급실로 가세요."
   - question: "영구치에 문제가 생길 수도 있나요?"
     answer: "가능성이 있습니다. 변색, 법랑질 형성 이상, 맹출 방향 변화 등이 보고돼요. 그래서 다친 뒤에는 영구치가 나올 때까지 정기적으로 확인하는 게 좋습니다."
+sources:
+  - "https://www.aapd.org/globalassets/media/policies_guidelines/e_iadt-avulsion25.pdf"
+  - "https://publications.aap.org/pediatrics/article/133/2/e466/30896/Management-of-Dental-Trauma-in-a-Primary-Care"
+updated: "2026-08-16"
 relatedTerms:
   - chia-oesang
   - gyohab-oesang

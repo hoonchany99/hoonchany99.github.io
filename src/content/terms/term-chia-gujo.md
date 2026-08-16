@@ -25,6 +25,10 @@ faqs:
     answer: "대개 상아질이 드러났을 때 생깁니다. 상아질에는 아주 가는 관이 치수까지 이어져 있어서, 찬 자극이 그 길로 전달돼요. 법랑질이 닳았거나 잇몸이 내려가 뿌리가 드러난 경우가 흔합니다."
   - question: "X-ray로는 어디까지 볼 수 있나요?"
     answer: "치관·치근의 형태, 뿌리 개수, 잇몸뼈 높이, 치수강의 크기까지 확인할 수 있어요. 다만 초기 충치나 잇몸 상태는 사진만으로 판단하기 어려워서, 직접 보는 검사와 함께 판단합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - chia-chagsaeg
   - chia-gyunyeol-jeunghugun

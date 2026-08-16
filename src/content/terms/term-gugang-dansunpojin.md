@@ -25,6 +25,10 @@ faqs:
     answer: "항바이러스제는 증상이 시작될 때 빨리 쓸수록 효과를 기대할 수 있습니다. 이미 많이 진행된 뒤에는 효과가 제한적이에요. 따끔한 전조가 있을 때 시작하시면 좋습니다."
   - question: "치과 치료를 받아도 되나요?"
     answer: "물집이 활발한 시기에는 급하지 않은 치료를 미루는 편이 좋습니다. 자극으로 번질 수 있고 전염 위험도 있어요. 증상을 미리 알려 주시면 일정을 조정합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/stomatitis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK559147/"
+updated: "2026-08-16"
 relatedTerms:
   - dansun-balchi
   - gugang-alrereugi-jeunghugun

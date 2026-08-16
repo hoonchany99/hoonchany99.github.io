@@ -25,6 +25,10 @@ faqs:
     answer: "대개 통증이 없어 X-ray에서 우연히 발견됩니다. 그래서 외상 이력이 있으면 정기적으로 확인하는 것이 좋아요."
   - question: "치아를 잃게 되나요?"
     answer: "많이 진행하면 그럴 수 있습니다. 다만 초기에 원인을 없애면 유지하는 경우가 많아요. 진행 속도를 보며 판단합니다."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

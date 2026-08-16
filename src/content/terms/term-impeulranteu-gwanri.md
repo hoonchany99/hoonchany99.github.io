@@ -25,6 +25,10 @@ faqs:
     answer: "쓰셔도 됩니다. 물 세척기는 보조 수단으로 도움이 될 수 있어요. 다만 칫솔질과 치간 관리를 대신하지는 못합니다."
   - question: "단단한 걸 씹어도 되나요?"
     answer: "가능하지만 조심하시는 게 좋습니다. 임플란트는 완충 역할을 하는 치주인대가 없어 힘이 그대로 전달돼요. 얼음이나 뼈처럼 단단한 것은 피하시길 권합니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.24-0154"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+updated: "2026-08-16"
 relatedTerms:
   - immediate-implant
   - impeulranteu-1cha-susul

@@ -25,6 +25,7 @@ faqs:
     answer: "네, 제3대구치(사랑니)도 어금니에 속해요. 맨 뒤에 나는 어금니입니다."
   - question: "어금니 관리 팁은?"
     answer: "교두 사이 칫솔·치간 칫솔, 정기 검진·실란트(어린이), 단단한 음식·이갈이 주의가 도움이 될 수 있어요."
+updated: "2026-08-16"
 relatedTerms:
   - gold-inlay
   - permanent-tooth

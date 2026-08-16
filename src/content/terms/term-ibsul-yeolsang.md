@@ -25,6 +25,10 @@ faqs:
     answer: "깨끗한 거즈로 눌러 지혈하고 얼음찜질을 하세요. 흙이 묻었으면 흐르는 물로 헹구고 병원으로 가시면 됩니다. 소독약을 상처 안에 붓지는 마세요."
   - question: "실밥은 언제 빼나요?"
     answer: "부위에 따라 다르지만 얼굴은 비교적 이른 시점에 제거합니다. 오래 두면 자국이 남을 수 있어요. 정확한 시점은 안내받으시면 됩니다."
+sources:
+  - "https://www.msdmanuals.com/professional/injuries-poisoning/facial-trauma"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK526114/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

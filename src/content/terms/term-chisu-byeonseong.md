@@ -25,6 +25,10 @@ faqs:
     answer: "신경치료 후 치아 안쪽에서 미백하는 방법이 있습니다. 겉면 미백과는 다르고, 변색 정도에 따라 결과가 달라져요."
   - question: "얼마나 자주 확인하나요?"
     answer: "외상 이력이 있으면 정해진 시점에 검사와 X-ray로 확인합니다. 초기에는 짧은 간격으로, 안정되면 간격을 늘려요."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - chisu

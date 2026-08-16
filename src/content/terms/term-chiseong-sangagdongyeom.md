@@ -25,6 +25,10 @@ faqs:
     answer: "한쪽만 반복되고 치아 증상이 함께 있으면 치과에서 먼저 확인해 보세요. 양쪽이거나 감기 뒤에 시작됐다면 이비인후과가 먼저일 수 있습니다."
   - question: "임플란트 때문에 생기기도 하나요?"
     answer: "상악동거상술이나 임플란트가 상악동을 자극해 생기는 경우가 보고됩니다. 수술 후 한쪽 코막힘이나 콧물이 이어지면 알려 주세요."
+sources:
+  - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/nose-and-paranasal-sinus-disorders/sinusitis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK547716/"
+updated: "2026-08-16"
 relatedTerms:
   - gugangsangagdong-gyotong
   - sangagdong-geosangsul-habbyeongjeung

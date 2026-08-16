@@ -25,6 +25,10 @@ faqs:
     answer: "편평태선이 잇몸에 나타난 경우일 수 있습니다. 이 경우 치석 제거만으로는 낫지 않아요. 원인을 감별해야 치료 방향이 잡힙니다."
   - question: "무엇을 피하면 좋나요?"
     answer: "맵고 뜨겁고 산성인 음식이 증상을 악화시킵니다. 자극이 강한 치약이나 알코올 가글도 피하시는 게 좋아요. 스트레스 관리도 도움이 되는 경우가 많습니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9322493/"
+  - "https://www.nature.com/articles/6401349"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-pyeonpyeongsepo-yudujong
   - cavity

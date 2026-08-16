@@ -25,6 +25,10 @@ faqs:
     answer: "칫솔모를 잇몸 경계에 45도로 대고 짧게 진동시키듯 닦아 주세요. 치아 사이는 칫솔이 못 들어가니 치실이나 치간칫솔이 필요합니다. 세게 문지르는 것보다 경계에 정확히 대는 게 중요해요."
   - question: "잇몸 검사는 얼마나 자주 받아야 하나요?"
     answer: "보통 정기 검진 때 함께 확인합니다. 잇몸 상태가 좋지 않거나 치주 치료를 받으셨다면 더 자주 볼 수 있어요. 숫자 변화를 기록해 두면 좋아지고 있는지 판단하기 쉽습니다."
+sources:
+  - "https://www.precisioninperio.com/periodontology-anatomy-gingival-sulcus/"
+  - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - buchagchieun

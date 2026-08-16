@@ -25,6 +25,10 @@ faqs:
     answer: "위쪽은 잇몸에 놓는 침윤마취로 충분한 경우가 많습니다. 아래턱처럼 신경 줄기를 마취하지 않아서 범위가 좁아요. 그래서 마취도 빨리 풀립니다."
   - question: "위턱도 움직이나요?"
     answer: "움직이지 않습니다. 머리뼈에 붙어 고정되어 있어요. 씹을 때 움직이는 건 아래턱입니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - sinus-lift
   - chiseong-sangagdongyeom

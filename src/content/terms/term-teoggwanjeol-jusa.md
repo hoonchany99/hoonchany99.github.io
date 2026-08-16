@@ -25,6 +25,10 @@ faqs:
     answer: "주사 부위 통증이나 일시적 부기가 있을 수 있습니다. 약물 종류에 따라 주의점이 달라요. 반복 사용 시 고려할 점도 있어서, 미리 설명을 듣고 결정하시는 게 좋습니다."
   - question: "주사 대신 다른 방법은 없나요?"
     answer: "보존적 치료가 먼저입니다. 자가 운동, 습관 조정, 안정형 장치, 약물로 상당수가 호전돼요. 주사는 그걸로 충분하지 않을 때 다음 단계로 고려합니다."
+sources:
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353764/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - manseong-dutonggwa-teoggwanjeol
   - teoggwanjeol-diseukeu-byeonwi

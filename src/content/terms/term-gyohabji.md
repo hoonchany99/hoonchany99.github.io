@@ -25,6 +25,10 @@ faqs:
     answer: "감각이 둔해 판단이 어렵습니다. 그래서 마취가 풀린 뒤 다시 확인하는 경우가 있어요. 며칠 써 보고 조정하기도 합니다."
   - question: "집에서 높게 느껴지면요?"
     answer: "참지 마시고 연락 주세요. 그대로 두면 그 치아가 아프거나 보철물이 깨질 수 있습니다. 조정은 간단히 끝나는 경우가 많아요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab

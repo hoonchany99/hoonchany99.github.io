@@ -24,6 +24,7 @@ faqs:
     answer: "초기 1~2주는 붓기·불편이 있을 수 있어요. 뼈 형성·임플란트까지 전체 기간은 개인·이식 범위에 따라 달라질 수 있습니다."
   - question: "상악동거상술 비용은 얼마나 드나요?"
     answer: "이식 범위·재료·동시 식립 여부에 따라 달라져요. CT·검진 후 계획과 함께 견적을 안내해 드려요."
+updated: "2026-08-16"
 relatedTerms:
   - sangag
   - sangagdong-geosangsul-habbyeongjeung

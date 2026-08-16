@@ -25,6 +25,10 @@ faqs:
     answer: "통증은 대개 크게 줄어듭니다. 다만 원인 치아를 치료하지 않으면 재발해요. 배농은 급한 불을 끄는 단계입니다."
   - question: "응급인가요?"
     answer: "통증이 심하면 빨리 오시는 게 좋습니다. 다만 입이 안 벌어지거나 삼키기 어렵거나 열이 나면 더 깊이 번진 상태일 수 있어 응급 진료가 필요해요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"
+updated: "2026-08-16"
 relatedTerms:
   - chieun-nongyang
   - chiju-nongyang

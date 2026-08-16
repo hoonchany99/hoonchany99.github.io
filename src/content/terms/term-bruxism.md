@@ -24,6 +24,7 @@ faqs:
     answer: "이갈이·턱관절 문제의 신호일 수 있어요. 파트너가 밤에 소리를 듣는 경우도 흔합니다. 검진으로 확인해 보세요."
   - question: "이갈이 치료 비용은?"
     answer: "나이트가드·교합 조정·손상 치아 수복 등 범위에 따라 달라져요. 보험 적용은 제한적인 경우가 많습니다. 검진 후 안내해 드려요."
+updated: "2026-08-16"
 relatedTerms:
   - igali-botogseu
   - igali-jeungsang

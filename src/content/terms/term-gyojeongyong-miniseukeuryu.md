@@ -25,6 +25,10 @@ faqs:
     answer: "주로 잇몸 위쪽 뼈나 어금니 사이 뼈에 심습니다. 치아 뿌리와 신경을 피해야 해서 X-ray로 위치를 정해요. 목적에 따라 심는 자리가 달라집니다."
   - question: "관리는 어떻게 하나요?"
     answer: "주변에 음식물이 끼면 염증이 생기기 쉽습니다. 부드러운 칫솔로 그 부위를 살살 닦아 주세요. 붓거나 고름이 나오면 바로 알려 주셔야 합니다."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+updated: "2026-08-16"
 relatedTerms:
   - gyojeongyong-waieo
   - impeulranteu-simenteu-vs-seukeuryu

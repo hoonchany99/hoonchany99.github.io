@@ -25,6 +25,7 @@ faqs:
     answer: "감염·흡연·당뇨·관리 부족·과도한 힘이 위험 요인이 될 수 있어요. 처방·식이·구강 위생 지침을 따르는 게 중요합니다."
   - question: "즉시임플란트 후 회복 기간은?"
     answer: "골유착까지 수주~수개월이 필요해요. 초기 붓기·통증은 흔할 수 있으며, 정기 검진으로 진행을 확인합니다."
+updated: "2026-08-16"
 relatedTerms:
   - impeulranteu-1cha-susul
   - impeulranteu-2cha-susul

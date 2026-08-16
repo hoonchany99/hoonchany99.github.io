@@ -25,6 +25,10 @@ faqs:
     answer: "역할이 달라 함께 쓰는 경우가 많습니다. 파노라마에서 이상해 보이는 부위를 치근단으로 자세히 확인하는 흐름이에요. 불필요하게 중복해서 찍지는 않습니다."
   - question: "아이도 찍을 수 있나요?"
     answer: "찍습니다. 어린이용으로 선량을 낮추고 작은 센서를 써요. 치아 사이 충치나 뼈 속 영구치 상태는 눈으로 안 보여서 필요한 경우가 있습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

@@ -23,6 +23,7 @@ faqs:
     answer: "정기 검진·스케일링, 칫솔·치간 관리, 흡연·당뇨 관리가 도움이 될 수 있어요. 임플란트 아래·연결부도 꼼꼼히 닦아 주세요."
   - question: "임플란트를 다시 심을 수 있나요?"
     answer: "제거 후 뼈 재건·치유 기간을 거쳐 재식립을 검토할 수 있어요. 케이스·뼈 상태·원인 관리에 따라 달라질 수 있습니다."
+updated: "2026-08-16"
 relatedTerms:
   - impeulranteu-juwi-jeommagyeom
   - immediate-implant

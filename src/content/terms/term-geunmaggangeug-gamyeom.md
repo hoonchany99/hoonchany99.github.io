@@ -25,6 +25,10 @@ faqs:
     answer: "감염을 조절하면서 함께 다룹니다. 상태에 따라 급성기에 발치하기도 하고, 가라앉은 뒤로 미루기도 해요. 원인을 남기면 재발합니다."
   - question: "어떻게 예방하나요?"
     answer: "치통이나 잇몸 부기를 방치하지 않는 것이 최선입니다. 대부분은 초기에 치료했다면 훨씬 간단히 끝났을 상황이에요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
+updated: "2026-08-16"
 relatedTerms:
   - chiseong-gamyeom
   - cavity

@@ -25,6 +25,10 @@ faqs:
     answer: "감각이 둔해 생기는 일입니다. 식사할 때 천천히 드시고 뜨거운 것에 데지 않도록 주의하세요. 회복될 때까지 조심하셔야 합니다."
   - question: "언제 알려야 하나요?"
     answer: "마취가 풀릴 시간이 지났는데도 저림이 이어지면 바로 알려 주세요. 시점에 따라 할 수 있는 대응이 달라집니다."
+sources:
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+updated: "2026-08-16"
 relatedTerms:
   - hachijosingyeong-sonsang
   - impeulranteu-singyeong-sonsang

@@ -25,6 +25,10 @@ faqs:
     answer: "색소를 제거하는 처치가 있습니다. 다만 시간이 지나며 다시 나타나는 경우가 있어요. 건강 문제가 아니라 심미적 선택이라는 점을 고려해 결정하시면 됩니다."
   - question: "어떤 경우에 검사를 받아야 하나요?"
     answer: "한 부위만 검고 점점 커지거나, 경계가 불규칙하거나, 표면이 솟아오른 경우입니다. 이런 변화는 다른 원인을 확인해 봐야 합니다."
+sources:
+  - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-jeommag-melranin-saegsochimchag
   - gum-graft

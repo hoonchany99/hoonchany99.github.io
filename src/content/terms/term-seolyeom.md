@@ -25,6 +25,10 @@ faqs:
     answer: "맵고 짜고 뜨거운 음식, 탄산과 산성 음료를 줄여 주세요. 부드럽고 미지근한 음식이 편합니다. 부드러운 칫솔을 쓰는 것도 도움이 돼요."
   - question: "나을 수 있나요?"
     answer: "원인이 확인되고 교정되면 대개 좋아집니다. 영양 결핍이면 보충 후 몇 주에 걸쳐 회복돼요. 원인을 못 찾으면 증상 조절로 접근합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/glossitis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560627/"
+updated: "2026-08-16"
 relatedTerms:
   - jeongjung-neunghyeong-seolyeom
   - cavity

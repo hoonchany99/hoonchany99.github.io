@@ -25,6 +25,10 @@ faqs:
     answer: "조직이 자라는 데 시간이 걸려 대개 몇 달 뒤 X-ray로 확인합니다. 깊이 측정도 함께 봐요. 한 번에 판단하지 않고 경과를 추적합니다."
   - question: "실패하면 어떻게 되나요?"
     answer: "기대한 만큼 재생되지 않아도 염증은 정리된 상태가 됩니다. 이후 일반적인 유지관리로 이어가요. 상황에 따라 다른 방법을 다시 검토합니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK534881/"
+updated: "2026-08-16"
 relatedTerms:
   - chiju-nongyang
   - chiju-seupeulrinteu

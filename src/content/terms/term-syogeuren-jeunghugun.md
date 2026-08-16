@@ -25,6 +25,10 @@ faqs:
     answer: "받으실 수 있습니다. 다만 입이 마르면 보철물 적응과 상처 회복이 어려울 수 있어요. 복용 약과 상태를 알려 주시면 계획에 반영합니다."
   - question: "침샘이 부었어요."
     answer: "쇼그렌에서 나타날 수 있는 소견입니다. 다만 침샘염이나 결석일 수도 있어요. 반복되거나 통증이 있으면 확인이 필요합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/autoimmune-rheumatic-disorders/sjogren-syndrome"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/xerostomia"
+updated: "2026-08-16"
 relatedTerms:
   - chia-gyunyeol-jeunghugun
   - gugang-alrereugi-jeunghugun

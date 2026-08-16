@@ -25,6 +25,10 @@ faqs:
     answer: "시멘트가 남았거나 세균막이 쌓였을 수 있습니다. 형태가 청소하기 어려운 구조여도 그럴 수 있어요. 확인해서 원인을 찾으면 대개 해결됩니다."
   - question: "힐링 어버트먼트는 뭔가요?"
     answer: "잇몸이 아물 모양을 잡아 주는 임시 부품이에요. 수술 후 일정 기간 끼워 두었다가 최종 부품으로 바꿉니다. 이 시기에는 그 부위를 부드럽게 닦아 주세요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://link.springer.com/article/10.1186/s12903-022-02493-8"
+updated: "2026-08-16"
 relatedTerms:
   - hilring-eobeoteumeonteu
   - immediate-implant

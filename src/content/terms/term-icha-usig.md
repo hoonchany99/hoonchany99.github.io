@@ -25,6 +25,10 @@ faqs:
     answer: "치실과 치간칫솔로 경계선을 닦는 것이 핵심입니다. 칫솔만으로는 그 자리가 닦이지 않아요. 불소 사용과 정기 검진도 함께 가면 좋습니다."
   - question: "오래된 보철물은 미리 바꾸는 게 나을까요?"
     answer: "문제가 없으면 굳이 바꾸지 않습니다. 다시 할 때마다 치아를 조금씩 더 깎게 되기 때문이에요. 상태를 보며 필요할 때 결정하는 편이 좋습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dental-restorations"
+  - "https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - caries
   - noin-bburi-usig

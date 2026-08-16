@@ -25,6 +25,11 @@ faqs:
     answer: "잇몸이 내려가면서 치아 사이를 채우던 부분이 줄어 생깁니다. 한번 사라진 치간 유두는 되살리기 어려운 편이에요. 상태에 따라 레진이나 보철로 틈을 줄이는 방법을 검토합니다."
   - question: "더 내려가지 않게 하려면 뭘 해야 하나요?"
     answer: "부드러운 칫솔모로 힘을 빼고, 문지르기보다 경계를 따라 짧게 닦아 주세요. 잇몸 염증이 있으면 먼저 치료해야 합니다. 이갈이가 있다면 그것도 함께 살펴보는 게 좋아요."
+sources:
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC4134852/"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://pubmed.ncbi.nlm.nih.gov/12731692/"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - buchagchieun

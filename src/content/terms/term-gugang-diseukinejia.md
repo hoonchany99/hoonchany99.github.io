@@ -25,6 +25,10 @@ faqs:
     answer: "반복해서 씹혀 상처가 생길 수 있습니다. 날카로운 치아나 보철물을 다듬고, 보호 장치를 고려하기도 해요."
   - question: "어느 과에서 보나요?"
     answer: "신경과나 처방하신 과에서 원인 약물을 다룹니다. 치과는 구강 내 손상 예방과 틀니 조정을 담당해요."
+sources:
+  - "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/tardive-dyskinesia"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK448207/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban

@@ -25,6 +25,10 @@ faqs:
     answer: "신경과나 통증 클리닉이 중심입니다. 치성 원인을 배제하는 과정이 필요해 치과에서 먼저 확인하기도 해요."
   - question: "나을 수 있나요?"
     answer: "완전히 없애기보다 조절하며 지내는 경우가 많습니다. 약물로 통증 강도를 낮추면 일상이 크게 나아질 수 있어요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554486/"
+  - "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/facial-pain"
+updated: "2026-08-16"
 relatedTerms:
   - bijeonghyeong-chitong
   - anmyeon-bidaeching

@@ -25,6 +25,10 @@ faqs:
     answer: "염증이 심하면 마취 효과가 떨어질 수 있어요. 이럴 때는 마취 방법이나 부위를 바꿔 보완합니다. 치료 중 아프시면 참지 마시고 바로 말씀해 주세요."
   - question: "신경치료를 하면 바로 안 아픈가요?"
     answer: "염증이 있는 치수를 제거하면 대개 통증이 크게 줄어요. 다만 며칠은 씹을 때 불편할 수 있습니다. 치료 후 통증이 점점 심해진다면 다시 확인이 필요해요."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - manseong-chisuyeom
   - bigayeogjeog-chisuyeom

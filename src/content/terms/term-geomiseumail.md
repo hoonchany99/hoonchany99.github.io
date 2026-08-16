@@ -25,6 +25,10 @@ faqs:
     answer: "윗입술이 과하게 올라가는 것이 원인이면 일시적으로 개선될 수 있습니다. 다만 효과가 영구적이지 않고 원인이 다르면 소용없어요."
   - question: "수술까지 해야 하나요?"
     answer: "위턱뼈가 세로로 긴 골격 원인이면 검토합니다. 다만 다른 방법으로 충분한 경우가 많아요. 원인을 정확히 나눈 뒤 판단합니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

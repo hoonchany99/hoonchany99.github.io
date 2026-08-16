@@ -25,6 +25,10 @@ faqs:
     answer: "알코올이 들어간 가글은 오히려 건조를 키울 수 있어요. 무알코올 제품이나 인공 타액 제품을 고려해 보세요. 무설탕 껌을 씹어 침샘을 자극하는 것도 도움이 됩니다."
   - question: "나이가 들면 원래 입이 마르나요?"
     answer: "나이 자체보다 복용 약이 늘어난 영향이 큰 것으로 봅니다. 노화만으로 설명하고 넘기면 원인을 놓칠 수 있어요. 전신질환이나 약을 함께 확인해 보는 게 좋습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/xerostomia"
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/dry-mouth"
+updated: "2026-08-16"
 relatedTerms:
   - heubyeongwa-gugang-geongang
   - dry-socket

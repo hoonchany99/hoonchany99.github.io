@@ -25,6 +25,10 @@ faqs:
     answer: "골격 차이가 크고 기능에 영향이 크면 검토합니다. 차이가 작으면 교정만으로 개선되기도 해요. 진단 자료로 판단합니다."
   - question: "턱관절과 관련이 있나요?"
     answer: "한쪽 관절에 문제가 있으면 비대칭으로 이어질 수 있습니다. 반대로 비대칭이 관절에 부담을 주기도 해요. 함께 평가합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - bijeonghyeong-anmyeontong
   - chieun-bidae

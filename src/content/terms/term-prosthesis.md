@@ -24,6 +24,7 @@ faqs:
     answer: "종류·재료·관리·교합·이갈이에 따라 달라져요. 정기 검진으로 조기 문제를 잡는 게 중요합니다."
   - question: "보철 치료 기간은?"
     answer: "크라운·브릿지는 보통 2~3주, 임플란트는 수개월, 틀니는 상대적으로 짧을 수 있어요. 치료 종류·케이스에 따라 달라집니다."
+updated: "2026-08-16"
 relatedTerms:
   - tooth-gem
   - bocheol-gyohab-jojeong

@@ -24,6 +24,10 @@ faqs:
     answer: "건강보험 가입자는 30%를 부담합니다. 의료급여 수급자는 이보다 낮게 적용돼요. 다만 뼈이식 같은 부가 시술이 필요하면 그 부분은 따로 계산될 수 있습니다."
   - question: "뼈가 부족하다는데 그래도 보험이 되나요?"
     answer: "임플란트 식립 자체는 조건을 충족하면 적용될 수 있어요. 다만 뼈이식이나 상악동거상술은 별도 항목으로, 비급여가 되는 경우가 있습니다. 계획 단계에서 예상 비용을 함께 확인하시는 게 좋아요."
+sources:
+  - "https://www.100ssd.co.kr/news/articleView.html?idxno=78331"
+  - "https://www.nhis.or.kr/"
+updated: "2026-08-16"
 relatedTerms:
   - geongangboheom-jeogyong-teulni
   - immediate-implant

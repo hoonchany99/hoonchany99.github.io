@@ -25,6 +25,10 @@ faqs:
     answer: "처음 며칠은 어색해합니다. 대개 금방 적응해요. 다만 끈적한 음식은 피하고, 장치 주변을 잘 닦아 주셔야 합니다. 빠지거나 흔들리면 바로 오세요."
   - question: "이미 공간이 좁아졌으면요?"
     answer: "정도에 따라 공간을 다시 넓히는 장치를 쓰기도 합니다. 많이 좁아졌다면 교정 계획으로 이어질 수 있어요. 빨리 확인할수록 선택지가 많습니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - chijo-jegeosul
   - chijogol

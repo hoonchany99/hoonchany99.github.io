@@ -25,6 +25,10 @@ faqs:
     answer: "잇몸 표면은 보통 1~2주면 덮입니다. 뼈가 채워지는 데는 몇 달이 걸려요. 그동안 음식이 낄 수 있으니 조심스럽게 헹궈 주시면 됩니다."
   - question: "뽑고 나서 바로 임플란트를 할 수 있나요?"
     answer: "조건이 맞으면 동시에 진행하기도 합니다. 염증이 심하거나 뼈가 부족하면 아물기를 기다려요. 계획이 있으시면 발치 전에 미리 상의하시는 게 좋습니다."
+sources:
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - balchi-hu-chulhyeol
   - balchi-hu-juuisahang

@@ -25,6 +25,10 @@ faqs:
     answer: "가볍고 나올 수 있는 상태라면 방향을 유도할 수 있습니다. 심하게 꺾였으면 이동이 어렵고 뿌리에 부담이 커요. 정도를 보고 판단합니다."
   - question: "뽑아야 하나요?"
     answer: "위치가 나쁘고 끌어내기 어려우면 발치를 검토합니다. 다만 앞니라면 최대한 살리는 방향으로 접근해요. 대체 방법까지 함께 계획합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+  - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

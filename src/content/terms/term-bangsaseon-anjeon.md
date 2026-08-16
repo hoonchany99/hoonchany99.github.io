@@ -25,6 +25,10 @@ faqs:
     answer: "정해진 횟수보다 필요성에 따라 정합니다. 충치 위험이 높으면 더 자주 확인하기도 해요. 어린이용으로 선량을 낮춰 촬영합니다."
   - question: "다른 병원에서 찍은 사진을 쓸 수 있나요?"
     answer: "가능합니다. 최근에 찍은 것이라면 가져오시면 중복 촬영을 줄일 수 있어요. 파일이나 CD로 발급받아 오시면 됩니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays"
+  - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
+updated: "2026-08-16"
 relatedTerms:
   - chigeundan-bangsaseon
   - cavity

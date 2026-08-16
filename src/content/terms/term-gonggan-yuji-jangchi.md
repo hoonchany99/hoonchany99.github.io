@@ -25,6 +25,10 @@ faqs:
     answer: "바로 연락 주세요. 그대로 두면 며칠 사이에도 공간이 줄어듭니다. 다시 붙이거나 새로 만들어야 할 수 있어요."
   - question: "이미 공간이 좁아졌으면요?"
     answer: "정도에 따라 공간을 다시 넓히는 장치를 씁니다. 많이 좁아졌다면 교정 계획으로 이어질 수 있어요. 빨리 확인할수록 선택지가 많습니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - retainer
   - chigan-yudu

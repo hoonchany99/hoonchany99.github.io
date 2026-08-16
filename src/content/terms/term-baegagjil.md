@@ -25,6 +25,10 @@ faqs:
     answer: "뿌리 끝 쪽에서는 평생에 걸쳐 아주 천천히 두꺼워집니다. 다만 닳아 없어진 부위가 원래대로 채워지는 의미의 재생은 기대하기 어려워요. 치주 치료로 부착을 회복시키는 접근을 고려하는 경우가 있습니다."
   - question: "법랑질과 백악질은 뭐가 다른가요?"
     answer: "위치와 단단함이 달라요. 법랑질은 잇몸 위 치관을 덮고, 우리 몸에서 가장 단단한 조직입니다. 백악질은 잇몸 아래 뿌리를 덮고, 훨씬 얇고 무른 대신 치주인대가 붙을 자리를 내어 줍니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK531502/"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

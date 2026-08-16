@@ -25,6 +25,10 @@ faqs:
     answer: "충전 후 비교적 이른 시점에 진행합니다. 임시로 막아 둔 채 오래 두면 침이 스며들어 다시 오염돼요. 미루지 않는 것이 좋습니다."
   - question: "나중에 다시 해야 할 수도 있나요?"
     answer: "찾지 못한 관이 있거나 밀봉이 새면 재신경치료가 필요할 수 있습니다. 씹을 때 깊은 통증이나 잇몸 부종이 나타나면 확인해요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - chigeungwan
   - chijugeungwan-boghab-byeongso

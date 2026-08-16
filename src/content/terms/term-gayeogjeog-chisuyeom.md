@@ -25,6 +25,10 @@ faqs:
     answer: "자극이 있을 때만 잠깐 아프고 금방 가라앉는다면 가역적 단계일 가능성이 있어요. 다만 시림의 원인은 충치, 크랙, 잇몸 퇴축 등 여러 가지입니다. 원인을 확인해야 대응이 정확해져요."
   - question: "가역적 치수염을 방치하면 어떻게 되나요?"
     answer: "원인이 남아 있으면 염증이 더 깊어질 수 있어요. 비가역적 치수염이나 치수 괴사로 진행하면 신경치료가 필요해집니다. 초기에 원인을 정리하는 쪽이 부담이 적은 경우가 많아요."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - geubseong-chisuyeom

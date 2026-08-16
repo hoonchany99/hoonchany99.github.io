@@ -25,6 +25,10 @@ faqs:
     answer: "대부분 자연스러운 변화예요. 다만 외상을 받은 치아가 빠르게 좁아지면서 색이 변한다면 치수 변성을 의심해 볼 수 있습니다. 경과 관찰이 필요한 경우가 있어요."
   - question: "치수강이 노출되면 무조건 신경을 빼나요?"
     answer: "꼭 그렇지는 않아요. 노출 범위가 작고 치수가 건강하면 치수 복조술로 덮어 살리기도 합니다. 나이, 염증 정도, 노출 크기를 함께 보고 결정해요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - chisu

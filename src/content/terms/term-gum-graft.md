@@ -25,6 +25,7 @@ faqs:
     answer: "뿌리가 덮이면 시림이 줄어드는 경우가 많아요. 다만 원인·범위에 따라 효과가 달라질 수 있습니다."
   - question: "잇몸이식 비용은?"
     answer: "범위·이식 방식·치아 개수에 따라 달라져요. 대부분 비급여인 경우가 많습니다. 수술 전 상담해 드려요."
+updated: "2026-08-16"
 relatedTerms:
   - bone-graft
   - golisigjae

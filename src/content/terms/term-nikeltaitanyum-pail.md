@@ -25,6 +25,10 @@ faqs:
     answer: "도움이 되지만 그것만으로 정해지지는 않습니다. 세척과 밀봉, 이후 크라운까지가 결과를 좌우해요. 기구는 과정을 안전하게 만드는 역할입니다."
   - question: "금속 알레르기가 있으면요?"
     answer: "기구는 치료 중에만 쓰고 남기지 않습니다. 니켈 알레르기가 있으시면 미리 알려 주세요. 상황에 따라 다른 방법을 고려합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - pail-pajeol
   - cavity

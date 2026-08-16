@@ -25,6 +25,10 @@ faqs:
     answer: "부기가 눈이나 목 쪽으로 번지거나, 입이 잘 안 벌어지거나, 삼키기 어렵거나, 숨쉬기 불편하면 바로 진료가 필요합니다. 열이 함께 나면 더 급해요."
   - question: "집에서 짜내도 되나요?"
     answer: "절대 하지 마세요. 감염이 더 깊은 공간으로 퍼질 수 있습니다. 온찜질도 상황에 따라 좋지 않을 수 있어요. 자가 처치보다 진료를 받으시는 게 안전합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

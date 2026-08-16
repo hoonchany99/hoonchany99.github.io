@@ -25,6 +25,10 @@ faqs:
     answer: "자는 동안 이를 갈거나 악무는 습관과 관련될 수 있습니다. 아침에 증상이 심한 패턴이 그 신호예요. 스트레스나 수면 상태와 함께 살펴봅니다."
   - question: "언제 병원에 가야 하나요?"
     answer: "통증이 2주 이상 이어지거나, 입이 갑자기 안 벌어지거나, 벌리다 걸리거나, 일상에 지장이 있을 때예요. 소리만 나고 아프지 않다면 급하지 않습니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353764/"
+updated: "2026-08-16"
 relatedTerms:
   - tmd
   - teoggwanjeol-jagaundong

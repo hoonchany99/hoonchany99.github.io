@@ -25,6 +25,10 @@ faqs:
     answer: "성장이 끝난 뒤에 합니다. 성장 중에 심으면 주변 치아는 계속 자라는데 임플란트만 그대로 있어 단차가 생겨요. 대개 10대 후반 이후를 봅니다."
   - question: "유전인가요?"
     answer: "가족 중에 같은 경우가 있는 사례가 흔합니다. 다만 가족력이 없어도 생길 수 있어요. 형제자매가 있다면 함께 확인해 보시는 것도 방법입니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

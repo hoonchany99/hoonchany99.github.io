@@ -25,6 +25,10 @@ faqs:
     answer: "있습니다. 흡입 후 입안에 약이 남으면 곰팡이가 늘기 쉬워요. 사용 후 물로 헹구고 뱉으시면 도움이 됩니다."
   - question: "옮나요?"
     answer: "사람 사이에 옮는 상태로 보지 않습니다. 원래 있던 곰팡이가 조건이 맞아 늘어난 경우예요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-candidiasis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560624/"
+updated: "2026-08-16"
 relatedTerms:
   - gyojeong-jung-gugang-gwanri
   - seolyeom

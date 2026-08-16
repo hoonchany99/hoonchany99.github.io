@@ -25,6 +25,10 @@ faqs:
     answer: "경우에 따라 다릅니다. 잘 붙어 오래 쓰기도 하고, 시간이 지나 뿌리가 녹아 빠지기도 해요. 대개 이후 신경치료가 필요하고 정기 관찰이 이어집니다."
   - question: "유치도 다시 심나요?"
     answer: "유치는 다시 심지 않습니다. 아래 영구치 싹을 손상시킬 수 있기 때문이에요. 영구치와 처치가 정반대인 지점입니다."
+sources:
+  - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
+  - "https://www.aapd.org/media/policies_guidelines/e_avulsion.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - chia-chagsaeg
   - chia-gujo

@@ -25,6 +25,10 @@ faqs:
     answer: "뿌리 끝 염증이 잇몸 쪽으로 길을 낸 것일 수도, 깊은 치주낭에서 나오는 것일 수도 있습니다. 통로를 따라가 원인을 확인하는 검사를 하기도 해요."
   - question: "치아를 살릴 수 있나요?"
     answer: "원인과 남은 잇몸뼈 양에 달려 있습니다. 치수가 원인이고 뼈가 남아 있으면 살리는 경우가 많아요. 치주 파괴가 심하면 발치를 검토합니다."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - chigeundan-byeongso
   - chigeungwan

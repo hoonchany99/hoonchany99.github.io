@@ -25,6 +25,11 @@ faqs:
     answer: "권장됩니다. 시작 전에 검진을 받아 발치가 필요한 치아나 잇몸 염증을 미리 정리해 두는 게 좋아요. 나중에 뼈를 건드리는 치료를 할 상황을 줄이는 것이 핵심입니다."
   - question: "임플란트는 아예 못 하나요?"
     answer: "용도와 용량, 복용 기간에 따라 달라요. 골다공증 목적의 경구약이라면 가능한 경우가 있습니다. 암 치료 목적 고용량이라면 신중하게 접근해요. 개별 상담이 꼭 필요한 영역입니다."
+sources:
+  - "https://www.merckmanuals.com/professional/dental-disorders/dental-emergencies/medication-related-osteonecrosis-of-the-jaw-mronj"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/osteoporosis-medications"
+  - "https://www.sciencedirect.com/science/article/pii/S2212440318311933"
+updated: "2026-08-16"
 relatedTerms:
   - chisu-goesa
   - geubseong-goesaseong-gweyangseong-chieunyeom

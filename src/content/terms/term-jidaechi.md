@@ -25,6 +25,10 @@ faqs:
     answer: "한쪽에만 기둥이 있는 형태도 있지만 부담이 커서 신중히 판단합니다. 빠진 치아 개수, 위치, 잇몸뼈 상태를 함께 봐요. 무리한 설계는 수명을 짧게 만듭니다."
   - question: "브릿지와 임플란트 중 뭐가 나을까요?"
     answer: "옆 치아 상태가 관건이에요. 옆 치아가 이미 크게 치료된 상태라면 브릿지가 합리적일 수 있습니다. 반대로 건강하다면 그 치아를 지키는 임플란트를 고려해요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/bridges"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - geodaechi
   - cavity

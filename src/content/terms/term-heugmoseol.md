@@ -25,6 +25,10 @@ faqs:
     answer: "돌기 사이에 세균과 찌꺼기가 쌓여 냄새의 원인이 될 수 있습니다. 혀 관리가 도움이 되는 이유예요."
   - question: "병원에 가야 하나요?"
     answer: "대개 관리로 좋아집니다. 다만 오래 지속되거나 통증이 있거나 다른 부위에도 변화가 있으면 확인해 보시는 게 좋아요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/tongue-discoloration-and-other-changes"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554466/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

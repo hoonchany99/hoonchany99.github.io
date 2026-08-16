@@ -25,6 +25,10 @@ faqs:
     answer: "잇몸이 아무는 며칠은 예민할 수 있습니다. 대개 금방 좋아져요. 피가 계속 나거나 부어오르면 확인이 필요합니다."
   - question: "유치를 일찍 잃으면 문제가 되나요?"
     answer: "됩니다. 특히 어금니 유치가 일찍 빠지면 양옆 치아가 기울어 공간이 좁아져요. 영구치가 나올 자리가 부족해질 수 있어 공간유지장치를 고려합니다."
+sources:
+  - "https://www.adafoundation.org/-/media/project/ada-organization/ada/ada-org/files/resources/public-programs/give-kids-a-smile/ada_primary_permanent_toothdev_eng.pdf"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

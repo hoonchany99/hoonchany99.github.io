@@ -25,6 +25,10 @@ faqs:
     answer: "보통 2~3일째 가장 붓고 이후 줄어듭니다. 첫 24시간은 얼음찜질, 이후에는 온찜질이 도움이 될 수 있어요. 계속 커지면 확인이 필요합니다."
   - question: "담배는 언제부터 피워도 되나요?"
     answer: "가능한 한 오래 참으시는 게 좋습니다. 흡연은 잇몸 수술 회복을 눈에 띄게 늦춰요. 최소한 실밥을 제거할 때까지는 피하시길 권합니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://www.dentistryiq.com/dental-hygiene/clinical-hygiene/article/16351244/smoking-and-periodontitis"
+updated: "2026-08-16"
 relatedTerms:
   - chiju-yujigwanri
   - aggyojeong-susul

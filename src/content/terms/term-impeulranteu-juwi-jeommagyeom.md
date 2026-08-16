@@ -25,6 +25,10 @@ faqs:
     answer: "임플란트 주변은 치실이나 치간칫솔로 따로 챙기셔야 합니다. 자연치와 붙어 있는 부분, 보철물 아래쪽이 특히 중요해요. 물 분사 기구가 보조로 도움이 되기도 합니다."
   - question: "얼마나 자주 검진을 받아야 하나요?"
     answer: "대개 3~6개월 간격을 권합니다. 잇몸병 병력이 있거나 흡연을 하시면 더 자주 보기도 해요. 임플란트는 스스로 이상을 느끼기 어려워 정기 확인이 핵심입니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.24-0154"
+  - "https://link.springer.com/article/10.1186/s12903-022-02493-8"
+updated: "2026-08-16"
 relatedTerms:
   - peri-implantitis
   - immediate-implant

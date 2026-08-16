@@ -25,6 +25,10 @@ faqs:
     answer: "세균 감염이 확인되거나 의심되면 씁니다. 다만 원인이 막힘이라면 항생제만으로는 반복돼요. 원인을 함께 다뤄야 합니다."
   - question: "수술이 필요한 경우도 있나요?"
     answer: "결석이 크거나 깊은 위치에 있으면 제거 처치를 검토합니다. 반복해서 심하게 재발하는 경우 침샘 자체를 다루기도 해요. 대부분은 그 전에 해결됩니다."
+sources:
+  - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/oral-and-pharyngeal-disorders/sialadenitis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK562211/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

@@ -25,6 +25,10 @@ faqs:
     answer: "작은 틈이면 비교적 간단히 해결됩니다. 다만 앞니는 힘을 받는 자리라 떨어지거나 변색될 수 있어요. 원인이 남아 있으면 다시 벌어지기도 합니다."
   - question: "음식이 자꾸 끼는데 어떻게 하나요?"
     answer: "치간칫솔 크기를 맞춰 쓰시면 관리가 쉬워집니다. 틈 자체를 줄이려면 레진이나 교정을 검토해요. 다만 잇몸 원인이 있다면 그것부터 다뤄야 합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/orthodontics"
+updated: "2026-08-16"
 relatedTerms:
   - chigan-yudu
   - cavity

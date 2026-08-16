@@ -25,6 +25,10 @@ faqs:
     answer: "입원 치료가 필요합니다. 기도 확보와 정맥 항생제, 수술적 배농이 필요해서 병원으로 가셔야 해요. 원인 치아 처치는 상태를 보며 함께 계획합니다."
   - question: "어떻게 예방하나요?"
     answer: "치통과 잇몸 부기를 방치하지 않는 것입니다. 특히 사랑니 주변이 반복해서 붓는다면 미루지 말고 확인하세요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK482354/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

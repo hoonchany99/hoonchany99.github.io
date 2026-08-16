@@ -25,6 +25,10 @@ faqs:
     answer: "있습니다. 한 치아만 잇몸을 내리면 높이가 어색해져요. 그래서 옆 치아 잇몸 라인을 함께 고려해 계획합니다."
   - question: "모든 경우에 가능한가요?"
     answer: "남은 뿌리 길이가 충분해야 합니다. 뼈를 내리면 그만큼 지지가 약해져요. 무리하면 예후가 나빠져서, 발치를 검토하는 편이 나은 경우도 있습니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+updated: "2026-08-16"
 relatedTerms:
   - chigwan
   - chigwan-pajeol

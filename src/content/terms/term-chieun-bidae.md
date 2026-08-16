@@ -25,6 +25,10 @@ faqs:
     answer: "원인이 남아 있으면 재발합니다. 약을 계속 드시거나 관리가 안 되면 특히 그래요. 절제 후에도 관리 계획이 필요합니다."
   - question: "임신 중에 잇몸이 커졌어요."
     answer: "호르몬 변화로 세균 자극에 민감해져 나타날 수 있습니다. 대개 출산 후 줄어들어요. 이 시기 관리가 특히 중요합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK538518/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - anmyeon-bidaeching
   - bagriseong-chieunyeom

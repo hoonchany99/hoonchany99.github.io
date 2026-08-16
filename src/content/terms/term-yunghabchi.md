@@ -25,6 +25,10 @@ faqs:
     answer: "뿌리 구조가 복잡해 자연스럽게 빠지지 않는 경우가 있습니다. 영구치가 나올 시기가 되었는데 버티면 뽑아 주기도 해요."
   - question: "모양을 바꿀 수 있나요?"
     answer: "앞니라면 레진으로 형태를 다듬어 자연스럽게 보이게 하기도 합니다. 다만 신경 위치와 배열을 함께 봐야 해서 상태에 따라 달라요."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+updated: "2026-08-16"
 relatedTerms:
   - honhabchiyeolgi-munje
   - cavity

@@ -25,6 +25,10 @@ faqs:
     answer: "짧게 잡으면 세균이 남아 재발 위험이 올라가고, 길게 잡으면 뿌리 밖 조직을 자극해 통증이 생길 수 있습니다. 그래서 여러 방법으로 확인합니다."
   - question: "심장 박동기가 있어도 되나요?"
     answer: "해당되시면 미리 알려 주세요. 전기를 쓰는 장비라 사용 여부를 확인하고 결정합니다. 필요하면 다른 방법으로 대체할 수 있어요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - chigeungwan
   - chijugeungwan-boghab-byeongso

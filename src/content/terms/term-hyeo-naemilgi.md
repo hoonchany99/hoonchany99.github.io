@@ -25,6 +25,10 @@ faqs:
     answer: "앞니 사이로 공기가 새어 특정 발음이 새는 소리로 들릴 수 있습니다. 언어 평가를 함께 하기도 해요."
   - question: "코가 막힌 것과 관련이 있나요?"
     answer: "함께 오는 경우가 있습니다. 입으로 숨 쉬면 혀 위치가 아래로 내려가요. 코 문제가 있으면 그것부터 다루는 것이 순서입니다."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

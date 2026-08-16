@@ -25,6 +25,7 @@ faqs:
     answer: "치아가 다시 어긋날 수 있어요. 재교정이 필요해지면 시간·비용이 더 들 수 있습니다."
   - question: "유지장치가 헐거워졌어요"
     answer: "조기 내원해 조정·재제작을 검토해요. 깨짐·분실 시에도 빨리 연락해 주세요."
+updated: "2026-08-16"
 relatedTerms:
   - gonggan-yuji-jangchi
   - chiju-yujigwanri

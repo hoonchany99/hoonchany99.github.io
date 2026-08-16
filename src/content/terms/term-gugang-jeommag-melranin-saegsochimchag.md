@@ -25,6 +25,10 @@ faqs:
     answer: "심미 목적으로 제거하는 처치가 있습니다. 다만 시간이 지나며 다시 나타날 수 있어요. 흡연을 지속하면 특히 그렇습니다."
   - question: "언제 검사를 받아야 하나요?"
     answer: "한 부위만 진하고 커지거나, 경계가 불규칙하거나, 표면이 솟아오른 경우입니다. 이런 변화는 확인이 필요해요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-pigmentation"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560855/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-jeommag-hwasang
   - gugang-jeommagha-seomyujeung

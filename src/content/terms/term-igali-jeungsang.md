@@ -25,6 +25,10 @@ faqs:
     answer: "있습니다. 이갈이가 있으면 세라믹이 깨지거나 나사가 풀리기 쉬워요. 다시 만들기 전에 이 부분을 다루지 않으면 반복됩니다."
   - question: "아이도 이갈이를 하나요?"
     answer: "흔합니다. 유치에서 영구치로 바뀌는 시기에 나타났다 사라지는 경우가 많아요. 대개 지켜보지만, 마모가 심하거나 통증이 있으면 확인합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/bruxism"
+updated: "2026-08-16"
 relatedTerms:
   - bruxism
   - igali-botogseu

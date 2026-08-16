@@ -25,6 +25,10 @@ faqs:
     answer: "먼저 치료하고 진행합니다. 염증이 있는 상태에서 하면 감염 위험이 올라가요. 이비인후과와 함께 보는 경우도 있습니다."
   - question: "실패하면 어떻게 되나요?"
     answer: "이식재가 자리 잡지 못하면 제거하고 아문 뒤 다시 시도합니다. 시간이 더 걸리지만 다시 할 수 있는 경우가 많아요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK534881/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+updated: "2026-08-16"
 relatedTerms:
   - sinus-lift
   - chiseong-sangagdongyeom

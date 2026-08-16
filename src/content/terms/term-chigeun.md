@@ -25,6 +25,10 @@ faqs:
     answer: "난이도와 시간이 늘어나서 그런 경향이 있어요. 앞니는 뿌리가 하나지만 큰어금니는 셋인 경우가 많습니다. 신경치료 자체는 대체로 건강보험이 적용되고, 이후 크라운은 비급여인 경우가 많아요."
   - question: "뿌리만 남았는데 꼭 빼야 하나요?"
     answer: "남은 뿌리의 상태에 따라 달라요. 뿌리가 튼튼하고 염증이 없으면 신경치료 후 포스트와 크라운으로 살리는 경우가 있습니다. 갈라졌거나 잇몸뼈가 많이 녹았다면 발치를 검토해요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - chigeun-pajeol

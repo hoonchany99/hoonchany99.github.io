@@ -25,6 +25,10 @@ faqs:
     answer: "치아가 계속 바뀌므로 주기적으로 다시 만들어야 합니다. 잘 안 맞으면 보호 효과가 떨어져요. 정기 검진 때 확인합니다."
   - question: "이갈이 장치와 같은 건가요?"
     answer: "다릅니다. 스포츠용은 충격 흡수가 목적이고 두껍습니다. 이갈이 장치는 씹는 힘 분산이 목적이라 형태와 재료가 달라요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/mouthguards"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

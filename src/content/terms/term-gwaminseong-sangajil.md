@@ -25,6 +25,10 @@ faqs:
     answer: "흔한 반응입니다. 대개 며칠 안에 가라앉아요. 심하면 시술 간격을 늘리거나 완화 제품을 함께 씁니다. 미리 알려 드리는 부작용 중 하나입니다."
   - question: "어떻게 예방하나요?"
     answer: "부드러운 칫솔로 힘을 빼고 닦고, 산성 음료 뒤에 바로 세게 닦지 마세요. 이갈이가 있으면 장치를 고려합니다. 잇몸이 더 내려가지 않게 하는 것도 중요해요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/sensitive-teeth"
+  - "https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - chiseong-sangagdongyeom
   - cavity

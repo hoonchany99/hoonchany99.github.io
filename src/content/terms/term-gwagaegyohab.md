@@ -25,6 +25,10 @@ faqs:
     answer: "부담을 준다는 지적이 있습니다. 다만 과개교합이 있다고 모두 턱관절 문제가 생기지는 않아요. 증상이 있으면 함께 평가합니다."
   - question: "보철 치료할 때 문제가 되나요?"
     answer: "앞니 공간이 부족해 보철물을 만들 자리가 안 나오는 경우가 있습니다. 이럴 때 교정으로 공간을 먼저 만들기도 해요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab

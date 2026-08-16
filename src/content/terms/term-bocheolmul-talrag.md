@@ -25,6 +25,10 @@ faqs:
     answer: "반복된다면 원인이 따로 있는 경우가 많습니다. 남은 치아 높이가 부족하거나, 씹는 힘이 한쪽에 몰리거나, 이갈이가 있을 수 있어요. 교합과 잡는 면적을 함께 봐야 합니다."
   - question: "삼켰는데 괜찮을까요?"
     answer: "대부분 자연히 배출됩니다. 다만 사레들려 기도로 넘어간 느낌이 있거나 기침·호흡 불편이 있으면 바로 병원 진료가 필요해요. 삼킨 사실은 치과에도 알려 주세요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
+updated: "2026-08-16"
 relatedTerms:
   - bocheolmul-pajeol
   - bocheol-gyohab-jojeong

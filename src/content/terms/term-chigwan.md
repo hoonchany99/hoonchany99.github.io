@@ -25,6 +25,10 @@ faqs:
     answer: "남은 치아 벽의 높이와 두께에 따라 달라요. 잡을 자리가 부족하면 치관 연장술이나 포스트를 함께 고려합니다. 뿌리까지 갈라졌다면 발치를 검토해야 할 수도 있어요."
   - question: "앞니 치관과 어금니 치관은 뭐가 다른가요?"
     answer: "역할에 맞게 모양이 달라요. 앞니는 자르기 좋게 끌처럼 납작하고, 어금니는 갈기 좋게 넓은 면에 교두와 열구가 있습니다. 그래서 충치가 잘 생기는 자리도 서로 달라요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
+updated: "2026-08-16"
 relatedTerms:
   - chigwan-pajeol
   - chigwan-yeonjangsul

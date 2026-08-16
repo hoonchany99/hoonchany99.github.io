@@ -25,6 +25,10 @@ faqs:
     answer: "치석 제거는 연 1회 급여가 적용됩니다. 치주 치료 항목은 별도 기준이 있어요. 상태와 시행 내용에 따라 달라지므로 방문 시 확인하시면 됩니다."
   - question: "집에서 뭐가 제일 중요한가요?"
     answer: "치아 사이 관리입니다. 칫솔만으로는 닿지 않는 자리가 문제가 시작되는 곳이에요. 자기 입에 맞는 치간칫솔 크기를 찾는 것이 큰 차이를 만듭니다."
+sources:
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - chiju-susul-hu-gwanri
   - chiju-jaesaengsul

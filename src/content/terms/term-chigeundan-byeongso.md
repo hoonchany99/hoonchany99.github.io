@@ -25,6 +25,10 @@ faqs:
     answer: "치유에 시간이 걸리므로 바로 판단하지 않습니다. 다만 줄지 않거나 커지면 찾지 못한 관이나 다른 원인을 봐요. 재신경치료나 수술을 검토합니다."
   - question: "항생제로 없앨 수 있나요?"
     answer: "원인이 뿌리 속에 있어 항생제만으로는 해결되지 않습니다. 급성 부기를 가라앉히는 데 보조로 쓰일 뿐이에요. 근본 치료는 뿌리 속 소독입니다."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

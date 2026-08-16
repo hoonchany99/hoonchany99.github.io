@@ -25,6 +25,10 @@ faqs:
     answer: "호르몬 변화로 잇몸이 세균 자극에 더 민감해져서 그렇습니다. 임신성 치은염이라고 해요. 부드럽게라도 꾸준히 닦아 주시고, 스케일링으로 원인을 줄이면 대체로 좋아집니다."
   - question: "약은 먹어도 되나요?"
     answer: "임신 중 쓸 수 있는 약과 피해야 할 약이 나뉩니다. 반드시 임신 사실을 알려 주시고, 필요하면 산부인과와 상의해 정합니다. 임의로 상비약을 드시는 건 권하지 않아요."
+sources:
+  - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy"
+updated: "2026-08-16"
 relatedTerms:
   - hangamchiryo-hwanja-chigwa
   - horeumongwa-chigwa

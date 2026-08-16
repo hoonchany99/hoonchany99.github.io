@@ -25,6 +25,10 @@ faqs:
     answer: "필요한 경우 알레르기내과에서 확인할 수 있습니다. 모든 분께 미리 검사하지는 않아요. 과거 반응 이력이 있거나 꼭 그 약을 써야 하는 상황에서 고려합니다."
   - question: "라텍스 알레르기도 말해야 하나요?"
     answer: "말씀해 주세요. 진료용 장갑이나 러버댐에 관련될 수 있습니다. 대체 재료로 준비하면 되므로, 미리 알면 문제없이 진행할 수 있어요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - hangeunggojewa-chigwa

@@ -25,6 +25,10 @@ faqs:
     answer: "오래 쓰면 비슷한 변화가 생길 수 있습니다. 다만 손가락보다 끊기 쉬운 편이에요. 시기를 정해 줄여 가시는 것이 좋습니다."
   - question: "장치를 하면 바로 멈추나요?"
     answer: "물리적으로 빨기 어렵게 만들어 도움이 됩니다. 다만 아이가 준비되지 않은 상태에서 강제하면 스트레스가 될 수 있어요. 시기와 방법을 함께 상의합니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/thumbsucking"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

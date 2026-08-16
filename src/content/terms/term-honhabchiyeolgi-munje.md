@@ -25,6 +25,10 @@ faqs:
     answer: "초기에는 정리되는 경우도 있습니다. 다만 공간이 크게 부족하거나 이소 맹출이면 기다릴수록 복잡해져요. 확인 후 판단합니다."
   - question: "유치가 안 빠져요."
     answer: "영구치가 나올 길을 막고 있으면 뽑아 주기도 합니다. X-ray로 아래 영구치 상태를 확인해서 판단해요."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - yunghabchi
   - cavity

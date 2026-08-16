@@ -25,6 +25,10 @@ faqs:
     answer: "경계가 잇몸 아래 깊은 경우, 연결된 큰 보철, 특별한 심미가 필요한 앞니 등입니다. 재료 선택도 기계 가공이 가능한 종류로 제한돼요. 상태를 보고 판단합니다."
   - question: "비용이 더 비싼가요?"
     answer: "장비와 재료에 따라 다릅니다. 내원 횟수가 줄어드는 점을 함께 보시면 좋아요. 정확한 비용은 보철 종류와 범위에 따라 달라지므로 상담에서 확인하시는 게 정확합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK576389/"
+updated: "2026-08-16"
 relatedTerms:
   - bocheol-gyohab-jojeong
   - bocheol-saegjo-seontaeg

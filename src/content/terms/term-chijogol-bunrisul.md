@@ -25,6 +25,10 @@ faqs:
     answer: "조건이 맞으면 동시에 진행합니다. 안정성이 부족하면 아물기를 기다린 뒤 심어요. 초기 고정이 얼마나 얻어지는지가 판단 기준입니다."
   - question: "위턱과 아래턱이 다른가요?"
     answer: "위턱 뼈가 상대적으로 무르고 벌리기 쉬운 편입니다. 아래턱은 단단해 적용이 제한되는 경우가 많아요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK534881/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+updated: "2026-08-16"
 relatedTerms:
   - chijogol
   - chijogol-bojonsul

@@ -25,6 +25,10 @@ faqs:
     answer: "혀 신경과 침샘관이 가까워 조심스럽게 접근합니다. 그래서 위치와 범위를 미리 확인해요. 재발을 막으려면 원인 침샘을 함께 제거해야 합니다."
   - question: "턱 아래까지 부었어요."
     answer: "아래로 파고든 형태일 수 있습니다. 다만 감염으로 부은 것과 구분이 필요해요. 열이 나거나 삼키기 어려우면 응급 진료를 받으셔야 합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560855/"
+  - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/oral-and-pharyngeal-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

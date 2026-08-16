@@ -25,6 +25,10 @@ faqs:
     answer: "몇 주 이상 꾸준히 써야 효과가 나타나는 경우가 많습니다. 며칠 쓰고 판단하기 어려워요. 시린 부위에 문질러 두면 더 낫습니다."
   - question: "치석 제거 치약으로 치석이 없어지나요?"
     answer: "이미 굳은 치석은 없어지지 않습니다. 새로 생기는 것을 늦추는 정도예요. 굳은 치석은 스케일링으로 제거해야 합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/toothpastes"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/sensitive-teeth"
+updated: "2026-08-16"
 relatedTerms:
   - chiyag
   - cavity

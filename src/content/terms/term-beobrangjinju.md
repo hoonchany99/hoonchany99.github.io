@@ -25,6 +25,11 @@ faqs:
     answer: "X-ray에서 뿌리 쪽에 작고 둥근 흰 덩어리로 보이는 경우가 많아요. 잇몸 아래를 기구로 확인하다가 만져지기도 합니다. 크기가 작거나 각도가 겹치면 잘 안 보일 수 있어요."
   - question: "법랑진주가 충치인가요?"
     answer: "아니에요. 충치는 치아가 녹아 없어지는 병이고, 법랑진주는 오히려 법랑질이 더 만들어져 붙어 있는 상태입니다. 성질이 완전히 다릅니다."
+sources:
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC3981278/"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC3917214/"
+  - "https://www.dentalcare.com/en-us/ce-courses/ce651/enamel-pearls"
+updated: "2026-08-16"
 relatedTerms:
   - beobrangjil-jeohyeongseongjeung
   - cavity

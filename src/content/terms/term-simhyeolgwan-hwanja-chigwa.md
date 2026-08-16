@@ -25,6 +25,10 @@ faqs:
     answer: "인공 판막이나 심내막염 병력 등 위험이 높은 특정 상태에 한합니다. 범위가 과거보다 좁아졌어요. 해당 여부는 심장 담당 선생님과 확인하세요."
   - question: "뭘 준비해 가면 되나요?"
     answer: "복용 중인 약 목록, 최근 시술이나 입원 이력, 담당 병원 정보를 알려 주세요. 필요하면 담당 선생님께 소견을 요청하기도 합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/cardiovascular-diseases"
+updated: "2026-08-16"
 relatedTerms:
   - dangnyo-hwanja-chigwa
   - goldagongjeung-hwanja-chigwa

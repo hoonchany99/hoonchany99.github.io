@@ -25,6 +25,7 @@ faqs:
     answer: "시기·시술 필요성·약물 선택을 종합해 판단해요. 산부인과·치과 상담 후 결정하는 경우가 많습니다."
   - question: "마취가 잘 안 풀리는 것 같아요"
     answer: "개인·주사 부위·마취 종류에 따라 시간 차이가 있어요. 몇 시간 지나도 이상한 감각·통증·부종이 있으면 연락해 주세요."
+updated: "2026-08-16"
 relatedTerms:
   - jeondalmachwi
   - pyomyeon-machwi

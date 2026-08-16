@@ -25,6 +25,10 @@ faqs:
     answer: "있습니다. 침이 줄면 뿌리 우식 위험이 크게 올라가요. 약을 임의로 끊지 마시고, 처방하신 선생님과 조정 가능한지 상의해 보세요."
   - question: "틀니를 쓰는데도 생기나요?"
     answer: "남은 자연치에 생깁니다. 특히 부분틀니 고리가 걸리는 치아 주변이 위험해요. 틀니를 뺀 뒤 그 치아들을 따로 닦아 주셔야 합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements"
+  - "https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - caries
   - icha-usig

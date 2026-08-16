@@ -25,6 +25,11 @@ faqs:
     answer: "약을 계속 복용하고 관리가 안 되면 재발할 수 있어요. 그래서 절제 후에도 세균막 관리가 핵심입니다. 정기적인 점검을 함께 계획하는 게 좋습니다."
   - question: "잇몸이 부은 것과 어떻게 구분하나요?"
     answer: "겉모습만으로는 헷갈릴 수 있어요. 복용 중인 약과 시작 시점, 잇몸이 자란 양상을 함께 봅니다. 그래서 진료 때 드시는 약을 알려 주시면 진단에 큰 도움이 됩니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK538518/"
+  - "https://www.mdpi.com/1422-0067/24/6/5448"
+  - "https://pubmed.ncbi.nlm.nih.gov/10052772/"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - geubseong-goesaseong-gweyangseong-chieunyeom

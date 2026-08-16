@@ -25,6 +25,10 @@ faqs:
     answer: "구강 잠재적 악성 질환으로 분류됩니다. 그래서 정기적으로 확인해야 해요. 변화가 보이면 조직검사를 합니다."
   - question: "치과 치료를 받을 수 있나요?"
     answer: "입이 잘 안 벌어지면 치료 자체가 어려워집니다. 그래서 진행되기 전에 필요한 치료를 해 두는 것이 좋아요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4119315/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK559163/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-jeommag-hwasang
   - gugang-jeommag-melranin-saegsochimchag

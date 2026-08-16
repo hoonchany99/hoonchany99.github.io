@@ -25,6 +25,10 @@ faqs:
     answer: "재발이 잦은 편이라 반복해서 절제하게 되는 경우가 많습니다. 세균막 관리를 철저히 하면 진행을 늦추는 데 도움이 돼요."
   - question: "조직검사를 하나요?"
     answer: "약물성 증식이나 다른 원인과 감별이 필요하면 합니다. 복용 약 확인과 함께 진단 과정에 들어가요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK538518/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-seomyujong
   - bagriseong-chieunyeom

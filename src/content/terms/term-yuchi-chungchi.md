@@ -25,6 +25,10 @@ faqs:
     answer: "잠든 채로 젖병을 물고 있으면 위 앞니가 상하기 쉽습니다. 먹인 뒤 물로 헹구거나 거즈로 닦아 주세요. 돌 무렵부터는 컵으로 전환하는 걸 권합니다."
   - question: "치료를 무서워하는데 어떻게 하나요?"
     answer: "작을 때 발견하면 간단히 끝나 아이 부담도 적습니다. 협조가 어려운 경우에는 진정치료를 고려하기도 해요. 미리 상담하시면 아이에 맞는 방법을 찾을 수 있습니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/early-childhood-caries"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - eorini-chungchi-yebang

@@ -26,6 +26,7 @@ faqs:
     answer: "파절 수복과 함께 이갈이 원인 관리(나이트가드·교합 조정)가 중요해요. 원인을 두면 재파절 위험이 있습니다."
   - question: "치아 파절 후 신경치료가 필요한가요?"
     answer: "신경까지 노출·통증·X-ray상 신경 주변 손상이 있으면 신경치료가 필요할 수 있어요. 검진 후 결정합니다."
+updated: "2026-08-16"
 relatedTerms:
   - primary-tooth
   - bocheolmul-pajeol

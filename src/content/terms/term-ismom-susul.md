@@ -25,6 +25,10 @@ faqs:
     answer: "완치보다 진행을 멈추고 관리 가능한 상태로 만드는 것이 목표입니다. 이후 유지관리를 하지 않으면 다시 진행해요. 수술은 관리의 시작점입니다."
   - question: "회복 중에 양치는 어떻게 하나요?"
     answer: "수술 부위는 실밥 제거 전까지 세게 닦지 마세요. 다른 부위는 평소대로 관리하시고, 처방된 가글로 보조합니다. 자세한 방법은 수술 후 안내받으시면 됩니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+updated: "2026-08-16"
 relatedTerms:
   - aggyojeong-susul
   - chiju-susul-hu-gwanri

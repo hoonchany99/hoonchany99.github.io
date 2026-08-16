@@ -25,6 +25,10 @@ faqs:
     answer: "붓기는 보통 2~3일째 정점을 지나 줄어듭니다. 계속 커지거나 열이 나면 감염을 의심해요. 자가 판단으로 기다리지 마시고 연락 주세요."
   - question: "진통제는 얼마나 먹어야 하나요?"
     answer: "처방된 대로 드시면 됩니다. 아프기 전에 미리 드시는 편이 조절에 유리해요. 약을 먹어도 통증이 잡히지 않으면 다른 원인을 확인해야 합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
+updated: "2026-08-16"
 relatedTerms:
   - implant
   - immediate-implant

@@ -25,6 +25,10 @@ faqs:
     answer: "걸릴 수 있습니다. 대개 아이보다 가볍게 지나가지만 통증이 심한 경우도 있어요. 아이를 돌보다 옮는 경우가 흔합니다."
   - question: "언제 병원에 가야 하나요?"
     answer: "열이 오래가거나, 물을 전혀 못 마시거나, 축 처지거나, 목이 뻣뻣하거나, 경련이 있으면 바로 가셔야 합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/infectious-diseases/enteroviruses/hand-foot-and-mouth-disease"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK431082/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

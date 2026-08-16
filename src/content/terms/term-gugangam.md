@@ -25,6 +25,10 @@ faqs:
     answer: "초기에는 통증이 없는 경우가 많습니다. 통증 유무로 판단하기 어려워요. 크기가 커지거나 모양이 변하는 쪽이 더 중요한 신호입니다."
   - question: "집에서 스스로 살펴볼 수 있나요?"
     answer: "거울 앞에서 혀를 내밀어 옆면과 아랫면, 입바닥, 볼 안쪽, 잇몸을 한 번씩 보시면 됩니다. 한쪽에만 있는 변화, 점점 커지는 것, 색이 다른 부위를 눈여겨보세요. 다만 자가 확인이 검진을 대신하지는 않습니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/tumors-of-the-oral-cavity-and-neck"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK565867/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban

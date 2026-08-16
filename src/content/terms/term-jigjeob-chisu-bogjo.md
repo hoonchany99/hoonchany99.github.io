@@ -25,6 +25,10 @@ faqs:
     answer: "보통 몇 달 간격으로 증상과 X-ray를 확인합니다. 초기에 문제가 없어도 시간이 지나 변화가 생길 수 있어서, 정해진 시점에 다시 보는 게 중요해요."
   - question: "어른도 할 수 있나요?"
     answer: "가능합니다. 다만 나이가 들수록 치수의 회복력이 떨어지는 편이라 조건을 더 신중히 봅니다. 노출 범위와 출혈 양상, 증상을 함께 확인하고 결정해요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - chisu

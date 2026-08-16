@@ -25,6 +25,10 @@ faqs:
     answer: "끝이 아니라 관리 단계로 넘어갑니다. 치주염은 재발하기 쉬워서 정기적인 유지관리가 이어져야 해요. 이 단계를 건너뛰면 다시 진행하는 경우가 많습니다."
   - question: "유전인가요?"
     answer: "감수성에 개인차가 있는 것으로 알려져 있습니다. 다만 원인은 세균막이에요. 가족력이 있다면 더 부지런히 관리하고 검진 간격을 짧게 가져가시는 게 좋습니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+updated: "2026-08-16"
 relatedTerms:
   - gonggyeogseong-chijuyeom
   - manseong-chisuyeom

@@ -25,6 +25,10 @@ faqs:
     answer: "녹은 부분은 회복되지 않습니다. 정도가 심하면 그 치아를 살리기 어려울 수 있어요. 그래서 조기 발견이 중요하다고 말씀드리는 겁니다."
   - question: "치료는 어떻게 하나요?"
     answer: "막고 있는 유치를 뽑거나, 공간을 만들어 주거나, 교정 장치로 방향을 유도합니다. 뼈 속 깊이 있으면 잇몸을 열어 장치를 붙이는 처치를 하기도 해요."
+sources:
+  - "https://www.dentalcare.com/en-us/ce-courses/ce651/primary-permanent-dentition-eruption-sequences"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - chia-maengchul-jiyeon
   - chia-maengchul-sunseo

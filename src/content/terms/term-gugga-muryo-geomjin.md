@@ -25,6 +25,10 @@ faqs:
     answer: "검진 기관으로 지정된 치과에서 받습니다. 건강보험공단에서 안내하는 대상 기관을 확인하시면 돼요."
   - question: "\"이상 없음\"이 나왔는데 안심해도 되나요?"
     answer: "눈으로 보이는 범위에서 이상이 없다는 뜻입니다. 초기 충치나 잇몸뼈 소실은 사진 없이 판단하기 어려워요. 증상이 있으면 별도로 확인하시는 게 좋습니다."
+sources:
+  - "https://www.nhis.or.kr/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dental-visits"
+updated: "2026-08-16"
 relatedTerms:
   - dental-checkup
   - soa-gugang-geomjin

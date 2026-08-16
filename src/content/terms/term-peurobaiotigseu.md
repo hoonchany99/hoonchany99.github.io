@@ -25,6 +25,10 @@ faqs:
     answer: "제품마다 균주와 권장량이 다릅니다. 표시된 대로 쓰시면 돼요. 다만 끊으면 효과도 사라지는 것으로 보고됩니다."
   - question: "누구나 써도 되나요?"
     answer: "대체로 안전한 것으로 봅니다. 다만 면역이 크게 떨어진 상태라면 사용 전에 담당 선생님과 상의하세요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK553134/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/home-care"
+updated: "2026-08-16"
 relatedTerms:
   - geulraseu-aionomeo
   - cavity

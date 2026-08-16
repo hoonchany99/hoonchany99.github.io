@@ -25,6 +25,10 @@ faqs:
     answer: "잇몸이 자리 잡을 때까지입니다. 보통 몇 주 정도예요. 이후 본을 떠서 최종 보철을 만듭니다."
   - question: "잇몸이 부었어요."
     answer: "주변에 세균막이 쌓였을 수 있습니다. 닦는 방법을 확인하고, 그래도 계속되면 오셔서 확인받으세요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://link.springer.com/article/10.1186/s12903-022-02493-8"
+updated: "2026-08-16"
 relatedTerms:
   - impeulranteu-eobeoteumeonteu
   - eotaechimeonteu-uichi

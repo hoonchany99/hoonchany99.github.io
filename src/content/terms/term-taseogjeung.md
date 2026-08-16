@@ -25,6 +25,10 @@ faqs:
     answer: "고인 침에 세균이 자라 침샘염이 생깁니다. 반복되면 침샘 기능이 떨어질 수 있어요. 증상이 반복되면 확인해 보세요."
   - question: "수술해야 하나요?"
     answer: "위치와 크기에 따라 다릅니다. 입구 가까이면 간단히 제거하고, 깊으면 다른 방법을 씁니다. 반복해서 심하면 침샘 자체를 다루기도 해요."
+sources:
+  - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/oral-and-pharyngeal-disorders/salivary-stones"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK562211/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

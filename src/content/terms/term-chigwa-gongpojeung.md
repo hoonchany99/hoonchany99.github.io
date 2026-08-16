@@ -25,6 +25,10 @@ faqs:
     answer: "표면마취제를 먼저 바르고 천천히 주입하면 훨씬 덜 느껴집니다. 가는 바늘을 쓰거나 속도를 조절하는 장비를 쓰기도 해요. 이 부분이 특히 걱정되면 미리 말씀해 주세요."
   - question: "몇 년째 안 갔는데 혼날까 봐 못 가겠어요."
     answer: "오래 미루신 분들이 자주 하시는 걱정이에요. 지난 일을 따지기보다 지금 상태에서 무엇부터 할지 정하는 게 진료의 목적입니다. 편한 것부터 순서를 잡아 나가면 됩니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK559287/"
+updated: "2026-08-16"
 relatedTerms:
   - cheos-chigwa-bangmun
   - chigwayong-simenteu

@@ -25,6 +25,10 @@ faqs:
     answer: "구강내과 영역입니다. 다만 원인이 전신적일 수 있어 내과 검사가 함께 필요한 경우가 있어요. 날카로운 치아나 보철물 자극이 원인이면 치과에서 해결합니다."
   - question: "나을 수 있나요?"
     answer: "원인이 확인되면 그것을 다루면서 좋아지는 경우가 많습니다. 원인을 못 찾는 경우에는 증상을 조절하며 지내는 쪽에 가까워요. 시간이 지나며 완화되기도 합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/burning-mouth-syndrome"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK545282/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

@@ -27,6 +27,10 @@ faqs:
     answer: "드러난 상아질이 자극에 반응하는 것입니다. 지각과민 완화 제품이나 덮어 주는 처치가 도움이 돼요. 원인도 함께 확인합니다."
   - question: "보철물 경계를 여기에 맞추나요?"
     answer: "위치를 정할 때 참고하는 기준 중 하나입니다. 잇몸 상태와 심미 요구에 따라 경계를 어디에 둘지 정해요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

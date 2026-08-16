@@ -25,6 +25,10 @@ faqs:
     answer: "해당됩니다. 저용량 아스피린도 알려 주셔야 해요. 다만 대개 중단하지 않고 지혈 준비를 강화해 진행합니다."
   - question: "임플란트도 가능한가요?"
     answer: "가능한 경우가 많습니다. 다만 수술 범위와 출혈 위험을 고려해 계획해요. 상황에 따라 처방하신 선생님과 상의가 필요할 수 있습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anticoagulant-and-antiplatelet-medications"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK534213/"
+updated: "2026-08-16"
 relatedTerms:
   - yagmul-alrereugiwa-chigwa
   - cheos-chigwa-bangmun

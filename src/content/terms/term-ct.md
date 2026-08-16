@@ -27,6 +27,10 @@ faqs:
     answer: "가능하면 미룹니다. 꼭 필요한 응급 상황이 아니라면 출산 후로 조정해요. 임신 사실을 반드시 미리 알려 주세요."
   - question: "찍은 자료를 받을 수 있나요?"
     answer: "요청하시면 발급받으실 수 있습니다. 다른 병원에서 진료를 이어 가실 때 중복 촬영을 피할 수 있어요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

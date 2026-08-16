@@ -25,6 +25,11 @@ faqs:
     answer: "원인에 따라 다릅니다. 많은 경우 완전히 없애기보다 증상을 가라앉히고 조절하며 지내는 쪽에 가까워요. 다만 잘 관리하면 통증 없이 지내는 기간을 늘릴 수 있습니다. 정기적인 경과 관찰이 중요해요."
   - question: "어느 과에서 봐야 하나요?"
     answer: "치과의 구강내과 진료가 출발점이 되는 경우가 많아요. 원인이 자가면역 수포성 질환으로 확인되면 피부과와 함께 보기도 합니다. 잇몸 관리 자체는 치과에서 병행해요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9322493/"
+  - "https://pubmed.ncbi.nlm.nih.gov/29678378/"
+  - "https://www.sciencedirect.com/topics/medicine-and-dentistry/desquamative-gingivitis"
+updated: "2026-08-16"
 relatedTerms:
   - geubseong-goesaseong-gweyangseong-chieunyeom
   - imsinseong-chieunyeom

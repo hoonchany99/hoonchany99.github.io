@@ -25,6 +25,10 @@ faqs:
     answer: "앞니가 계속 부딪혀 마모되거나 잇몸이 내려갈 수 있습니다. 골격 차이가 커지면 나중에 수술이 필요해질 수 있어요."
   - question: "어른도 치료되나요?"
     answer: "됩니다. 다만 성장을 이용할 수 없어 방법이 달라져요. 치아 이동으로 해결하거나, 골격 차이가 크면 수술을 함께 검토합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab

@@ -26,6 +26,7 @@ faqs:
     answer: "가벼운 형태·색 문제는 가능할 수 있어요. 근본적인 배열·교합 문제는 교정 검토가 필요할 수 있습니다."
   - question: "부정교합 치료 기간은?"
     answer: "난이도·발치 여부·장치 종류에 따라 6개월~2년 이상도 가능해요. 진단 후 예상 기간을 안내해 드려요."
+updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab

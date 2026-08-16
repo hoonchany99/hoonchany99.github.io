@@ -25,6 +25,10 @@ faqs:
     answer: "많은 경우 생활 조정과 운동으로 호전됩니다. 다만 통증이 심하거나 입이 잘 안 벌어지면 장치나 약물을 함께 쓰기도 해요. 상태에 따라 단계적으로 접근합니다."
   - question: "이악물기를 어떻게 줄이나요?"
     answer: "평소 위아래 치아가 닿지 않는 게 정상입니다. 닿아 있다는 걸 알아차릴 때마다 힘을 빼는 연습이 도움이 돼요. 눈에 띄는 곳에 메모를 붙여 두는 방법도 씁니다."
+sources:
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353764/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - teoggwanjeol-jangae-jaga-jindan
   - manseong-dutonggwa-teoggwanjeol

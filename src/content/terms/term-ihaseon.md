@@ -25,6 +25,10 @@ faqs:
     answer: "침샘 종양일 수도 있어 확인이 필요합니다. 대부분 양성이지만 검사로 구분해야 해요. 미루지 마시고 진료를 받으세요."
   - question: "수술이 어렵나요?"
     answer: "얼굴 신경이 지나가 조심스럽게 접근합니다. 표정 근육에 영향을 줄 수 있어서예요. 그래서 위치와 범위를 미리 정확히 파악합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/oral-and-pharyngeal-disorders"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK562211/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

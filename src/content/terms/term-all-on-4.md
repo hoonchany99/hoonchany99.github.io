@@ -25,6 +25,7 @@ faqs:
     answer: "정기 검진·스케aling·집에서 관리가 중요해요. 흡연·당뇨·교합 부담이 장기 예후에 영향을 줄 수 있습니다."
   - question: "All-on-4 비용은?"
     answer: "임플란트·보철·수술 범위에 따라 달라져요. 개인 계획에 맞게 상담해 드립니다."
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

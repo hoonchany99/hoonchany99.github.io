@@ -25,6 +25,10 @@ faqs:
     answer: "혈관이 많아 출혈 위험이 있습니다. 그래서 크기와 위치를 미리 확인하고 방법을 정해요. 경화 요법이나 레이저를 쓰기도 합니다."
   - question: "암은 아닌가요?"
     answer: "혈관종은 양성입니다. 다만 겉모습이 비슷한 다른 병변이 있어, 확실하지 않으면 추가 검사를 합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-lesions"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK538232/"
+updated: "2026-08-16"
 relatedTerms:
   - simhyeolgwan-hwanja-chigwa
   - cavity

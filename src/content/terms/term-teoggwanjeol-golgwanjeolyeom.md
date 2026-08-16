@@ -25,6 +25,10 @@ faqs:
     answer: "질기고 단단한 것, 오래 씹어야 하는 것을 줄여 주세요. 큰 덩어리를 크게 벌려 씹는 것도 부담이 됩니다. 작게 잘라 드시면 도움이 돼요."
   - question: "수술이 필요한 경우도 있나요?"
     answer: "드뭅니다. 보존적 치료로 대부분 조절돼요. 통증이 심하고 기능 제한이 크며 다른 방법이 듣지 않을 때 제한적으로 검토합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353764/"
+updated: "2026-08-16"
 relatedTerms:
   - manseong-dutonggwa-teoggwanjeol
   - teoggwanjeol-diseukeu-byeonwi

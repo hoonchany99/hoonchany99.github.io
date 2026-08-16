@@ -25,6 +25,10 @@ faqs:
     answer: "법랑질이 얇아 상아질이 가까워 시릴 수 있습니다. 불소 도포와 지각과민 완화 제품이 도움이 돼요. 파인 부분을 메우면 크게 좋아지기도 합니다."
   - question: "다른 치아에도 생기나요?"
     answer: "같은 시기에 만들어진 치아들에 함께 나타나는 경우가 많습니다. 그래서 특정 시기의 사건과 연결해 추정하기도 해요. 전체를 확인해 봅니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - beobrangjinju
   - cavity

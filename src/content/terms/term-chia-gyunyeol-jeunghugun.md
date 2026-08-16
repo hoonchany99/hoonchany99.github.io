@@ -25,6 +25,10 @@ faqs:
     answer: "금이 깊어져 치수까지 가거나 뿌리까지 갈라질 수 있습니다. 뿌리까지 가면 발치로 갑니다. 초기에 찾을수록 선택지가 많아요."
   - question: "어떻게 예방하나요?"
     answer: "얼음이나 뼈처럼 단단한 것을 씹지 마세요. 이갈이가 있으면 장치를 쓰는 것이 도움이 됩니다. 오래된 큰 수복물이 있는 치아는 정기적으로 확인하세요."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - syogeuren-jeunghugun

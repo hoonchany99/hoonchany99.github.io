@@ -25,6 +25,10 @@ faqs:
     answer: "신중하게 판단합니다. 감염된 자리에 이식재를 넣으면 실패 위험이 올라가요. 아물기를 기다린 뒤 따로 이식하기도 합니다."
   - question: "보험이 되나요?"
     answer: "골이식재는 비급여인 경우가 많습니다. 발치 자체와는 별도로 계산돼요. 계획 단계에서 예상 비용을 확인하시는 게 정확합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK534881/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+updated: "2026-08-16"
 relatedTerms:
   - chijogol
   - chijogol-bunrisul

@@ -25,6 +25,10 @@ faqs:
     answer: "부위와 이식량에 따라 다릅니다. 소량이면 임플란트와 동시에 진행하기도 하고, 많으면 몇 달을 기다린 뒤 심어요. 계획 단계에서 안내받으시면 됩니다."
   - question: "보험이 되나요?"
     answer: "뼈이식은 비급여인 경우가 많습니다. 만 65세 이상 급여 임플란트라도 부가 시술은 별도로 볼 수 있어요. 계획 단계에서 예상 비용을 함께 확인하시는 게 정확합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK534881/"
+updated: "2026-08-16"
 relatedTerms:
   - bone-graft
   - gum-graft

@@ -25,6 +25,10 @@ faqs:
     answer: "하지 마세요. 감염이 더 깊은 곳으로 퍼질 수 있습니다. 진료실에서 안전하게 배농하면 훨씬 빨리 편해집니다."
   - question: "반복해서 생겨요."
     answer: "같은 자리에 반복된다면 치주 상태나 치아 문제를 확인해야 합니다. 단순 이물질이 아니라 다른 원인이 있을 수 있어요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - buchagchieun

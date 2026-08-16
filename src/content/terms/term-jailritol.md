@@ -25,6 +25,10 @@ faqs:
     answer: "과하면 배가 아프거나 설사할 수 있습니다. 사람마다 반응이 달라요. 적당한 양으로 조절하시면 됩니다."
   - question: "제품마다 다른가요?"
     answer: "자일리톨 함량이 낮고 다른 당류가 함께 든 제품이 많습니다. 성분표에서 자일리톨이 앞쪽에 있는지 확인해 보세요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/xylitol"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/chewing-gum"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

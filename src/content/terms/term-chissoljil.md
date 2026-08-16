@@ -25,6 +25,10 @@ faqs:
     answer: "가글은 세균막을 물리적으로 제거하지 못합니다. 보조 수단이에요. 칫솔질과 치간 관리를 대신할 수 없습니다."
   - question: "치약은 얼마나 짜야 하나요?"
     answer: "성인은 칫솔모 길이 정도면 충분합니다. 많이 짠다고 더 닦이지 않아요. 거품이 많으면 오히려 다 닦은 것 같은 착각이 들 수 있습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/home-care"
+updated: "2026-08-16"
 relatedTerms:
   - chissol-seontaeg
   - jeondong-chissol

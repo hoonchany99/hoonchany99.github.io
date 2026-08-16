@@ -25,6 +25,10 @@ faqs:
     answer: "혀 아래, 입 바닥, 연구개에서 비교적 흔합니다. 자가 확인할 때 이 부위를 특히 살펴보시면 좋아요."
   - question: "금연하면 좋아지나요?"
     answer: "흡연과 음주가 위험 요인으로 언급됩니다. 끊는 것이 도움이 돼요. 다만 이미 생긴 병변은 확인과 처치가 먼저입니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4119315/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/tumors-of-the-oral-cavity-and-neck"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

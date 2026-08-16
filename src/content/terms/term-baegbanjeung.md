@@ -25,6 +25,10 @@ faqs:
     answer: "원인이 담배 자극이었다면 끊은 뒤 줄어들거나 사라지는 경우가 있습니다. 그래서 금연을 강하게 권해 드려요. 다만 사라지지 않으면 추가 처치를 검토합니다."
   - question: "제거하면 끝인가요?"
     answer: "제거해도 같은 자리나 다른 부위에 재발할 수 있습니다. 그래서 이후에도 정기적으로 입안 전체를 확인해요. 원인 자극을 함께 없애는 것이 재발을 줄이는 데 중요합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4119315/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/tumors-of-the-oral-cavity-and-neck"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

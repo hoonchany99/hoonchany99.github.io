@@ -25,6 +25,10 @@ faqs:
     answer: "딸깍 소리와 성격이 다릅니다. 관절면이 닳으면서 나는 마찰음일 수 있어요. 통증이나 기능 제한이 함께 있으면 관절 상태를 확인해 봅니다."
   - question: "소리를 줄이려면 뭘 하면 되나요?"
     answer: "턱을 크게 벌리는 동작을 줄이고, 단단하고 질긴 음식을 피해 주세요. 이악물기나 이갈이가 있으면 함께 다뤄야 합니다. 무리한 교정이나 보철 조정은 신중해야 해요."
+sources:
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353764/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

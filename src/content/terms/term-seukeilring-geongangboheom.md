@@ -24,6 +24,10 @@ faqs:
     answer: "받으셔도 됩니다. 다만 두 번째부터는 비급여로 진행돼요. 잇몸 염증이 잦거나 치석이 빨리 쌓이는 분은 6개월 주기를 권해 드리는 경우가 있습니다. 보험 횟수와 필요한 주기는 별개예요."
   - question: "잇몸 치료랑 스케일링은 다른 건가요?"
     answer: "다릅니다. 스케일링은 주로 잇몸 위쪽 치석을 제거하는 처치예요. 치석이 잇몸 아래 뿌리까지 붙어 있으면 치근활택술 같은 치주 치료로 넘어갑니다. 이 경우 보험 적용 방식과 내원 횟수가 달라져요."
+sources:
+  - "https://www.nhis.or.kr/static/alim/paper/oldpaper/202209/sub/06.html"
+  - "https://blog.naver.com/doctoryoon-kr"
+updated: "2026-08-16"
 relatedTerms:
   - geongangboheom-jeogyong-teulni
   - impeulranteu-geongangboheom

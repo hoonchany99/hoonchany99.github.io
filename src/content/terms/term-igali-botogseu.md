@@ -25,6 +25,10 @@ faqs:
     answer: "근육 부피가 줄어 그런 효과가 나타날 수 있습니다. 다만 치과에서는 기능적 목적이 우선이에요. 심미 목적이라면 그 점을 분명히 하고 상담합니다."
   - question: "장치와 어느 쪽이 나은가요?"
     answer: "장치가 먼저입니다. 되돌릴 수 있고 치아를 직접 보호해요. 장치로 충분하지 않거나 근육 통증이 심할 때 주사를 함께 고려합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/bruxism"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551597/"
+updated: "2026-08-16"
 relatedTerms:
   - bruxism
   - igali-jeungsang

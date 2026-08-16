@@ -25,6 +25,10 @@ faqs:
     answer: "맵고 짜고 뜨거운 음식, 탄산과 산성 음료를 피해 주세요. 국소 도포제나 가글이 통증을 줄이는 데 도움이 됩니다. 자극이 적은 치약으로 바꾸는 것도 방법이에요."
   - question: "연고를 계속 발라도 되나요?"
     answer: "제품마다 사용 기간과 방법이 정해져 있습니다. 특히 스테로이드가 든 제품은 오래 쓰면 곰팡이 감염 같은 문제가 생길 수 있어요. 안내대로 쓰시고, 낫지 않으면 확인받으세요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/stomatitis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK431059/"
+updated: "2026-08-16"
 relatedTerms:
   - jaebalseong-apeuta-gunaeyeom
   - pojinseong-chieungunaeyeom

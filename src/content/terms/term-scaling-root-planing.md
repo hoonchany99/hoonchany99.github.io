@@ -26,6 +26,7 @@ faqs:
     answer: "정기 유지 스케aling·검진, 양치·치실, 흡연·당뇨 관리가 중요해요. 재발 방지에 핵심입니다."
   - question: "치근활택술만으로 치주염이 낫나요?"
     answer: "진행을 멈추거나 늦추는 데 도움이 돼요. 심하면 잇몸 수술·약물 등 추가 치료가 필요할 수 있습니다."
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

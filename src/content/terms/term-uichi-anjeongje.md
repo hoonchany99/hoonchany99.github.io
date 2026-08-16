@@ -25,6 +25,10 @@ faqs:
     answer: "과다 사용 시 문제가 보고된 적이 있어 요즘은 아연 무첨가 제품이 많습니다. 성분을 확인하시고, 어느 제품이든 과하게 쓰지 않는 것이 중요해요."
   - question: "접착제 대신 임플란트를 쓰면 어떤가요?"
     answer: "임플란트 두세 개로 틀니를 고정하는 오버덴처를 고려할 수 있습니다. 유지력이 크게 좋아져요. 뼈 상태와 비용을 함께 보고 상담합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/denture-adhesives"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - eotaechimeonteu-uichi
   - noin-uichi-jeogeung

@@ -24,6 +24,10 @@ faqs:
     answer: "다릅니다. 실손보험은 급여 본인부담금 중심이에요. 치아보험은 크라운·임플란트·틀니처럼 비급여 보철에 정해진 금액을 지급하는 상품이 많습니다. 목적이 서로 달라요."
   - question: "넘어져서 앞니가 부러졌는데 보상되나요?"
     answer: "상해로 인정되면 관련 특약에서 보장될 여지가 있어요. 다만 상품과 약관에 따라 차이가 큽니다. 사고 경위를 기록해 두시고 보험사에 먼저 확인해 보시는 게 좋아요."
+sources:
+  - "https://www.dentalarirang.com/news/articleView.html?idxno=32327"
+  - "https://www.banksalad.com/articles/%EB%B9%84%EA%B8%89%EC%97%AC-%EC%8B%A4%EB%B9%84%EB%B3%B4%ED%97%98-%EB%B3%B4%EC%9E%A5-%ED%95%AD%EB%AA%A9"
+updated: "2026-08-16"
 relatedTerms:
   - geongangboheom-jeogyong-teulni
   - cheos-chigwa-bangmun

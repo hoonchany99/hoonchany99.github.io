@@ -25,6 +25,10 @@ faqs:
     answer: "완전히 제거하지 못하면 재발할 수 있습니다. 원인 치아의 신경치료가 제대로 되어 있어야 재발 위험이 낮아져요. 수술 후에도 경과를 확인합니다."
   - question: "치아를 빼야 하나요?"
     answer: "대개 치아를 살리는 방향으로 접근합니다. 신경치료와 치근단절제술로 해결되는 경우가 많아요. 뿌리가 심하게 손상됐다면 발치를 검토합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560481/"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

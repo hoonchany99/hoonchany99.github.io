@@ -25,6 +25,10 @@ faqs:
     answer: "임플란트에서는 시멘트가 남을 위험이 없다는 장점이 있어요. 반면 나사 구멍이 보일 수 있습니다. 위치와 각도, 심미 요구에 따라 선택이 달라집니다."
   - question: "떨어진 보철물을 순간접착제로 붙여도 되나요?"
     answer: "절대 권하지 않습니다. 제거가 어려워지고 안쪽 충치를 확인하지 못한 채 덮게 돼요. 치아나 보철물이 손상될 수도 있습니다. 그대로 가져와 주세요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK576389/"
+updated: "2026-08-16"
 relatedTerms:
   - impeulranteu-simenteu-vs-seukeuryu
   - cheos-chigwa-bangmun

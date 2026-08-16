@@ -25,6 +25,10 @@ faqs:
     answer: "기본은 같지만 항생제를 병용하는 경우가 있고, 이후 유지관리 간격을 훨씬 짧게 가져갑니다. 재발 위험이 높아 관찰을 촘촘히 합니다."
   - question: "치아를 잃게 되나요?"
     answer: "늦게 발견하면 그럴 위험이 있습니다. 다만 조기에 진단하고 꾸준히 관리하면 오래 유지하는 경우도 많아요. 정기 관찰이 결과를 크게 좌우합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+updated: "2026-08-16"
 relatedTerms:
   - manseong-chijuyeom
   - periodontitis

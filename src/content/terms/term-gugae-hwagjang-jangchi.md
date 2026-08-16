@@ -25,6 +25,10 @@ faqs:
     answer: "벌린 뒤에도 뼈가 채워질 때까지 유지합니다. 몇 달 걸려요. 일찍 빼면 다시 좁아질 수 있습니다."
   - question: "코 호흡에도 도움이 되나요?"
     answer: "위턱이 넓어지면 코 안쪽 공간에 영향을 준다는 보고가 있습니다. 다만 코 질환이 원인이면 이비인후과 진료가 함께 필요해요."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+updated: "2026-08-16"
 relatedTerms:
   - gineungjeog-gyojeong-jangchi
   - gonggan-yuji-jangchi

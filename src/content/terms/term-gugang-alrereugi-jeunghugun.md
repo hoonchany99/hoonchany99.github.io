@@ -25,6 +25,10 @@ faqs:
     answer: "알레르기 이력을 알려 주시는 것이 중요합니다. 라텍스나 특정 재료에 반응이 있을 수 있어요. 미리 알면 대체 재료로 준비합니다."
   - question: "어느 과에서 보나요?"
     answer: "알레르기내과에서 진단과 관리를 담당합니다. 어떤 음식에 반응하는지 확인하고 대처 방법을 안내받으시면 됩니다."
+sources:
+  - "https://www.msdmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/food-allergy"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK475975/"
+updated: "2026-08-16"
 relatedTerms:
   - yagmul-alrereugiwa-chigwa
   - chia-gyunyeol-jeunghugun

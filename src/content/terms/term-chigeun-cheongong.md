@@ -25,6 +25,10 @@ faqs:
     answer: "경과를 지켜봐야 합니다. 그 부위 잇몸과 뼈 상태를 정기적으로 확인해요. 염증이 이어지면 추가 처치나 발치를 검토합니다."
   - question: "현미경을 쓰면 예방되나요?"
     answer: "확대해서 보면 입구를 정확히 찾는 데 도움이 됩니다. 위험을 줄이는 요소예요. 다만 해부학적으로 어려운 경우에는 완전히 피하기 어렵습니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

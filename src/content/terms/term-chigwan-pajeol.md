@@ -25,6 +25,10 @@ faqs:
     answer: "될 수 있습니다. 외상 후 치수가 서서히 죽거나 색이 변하는 경우가 있어요. 당장 증상이 없어도 정기적으로 확인하는 것이 좋습니다."
   - question: "어떻게 치료하나요?"
     answer: "깊이에 따라 다릅니다. 얕으면 다듬거나 레진, 상아질까지면 덮어 주는 처치, 치수가 드러났으면 살리거나 신경치료로 갑니다."
+sources:
+  - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK539876/"
+updated: "2026-08-16"
 relatedTerms:
   - bocheolmul-pajeol
   - chigeun-pajeol

@@ -25,6 +25,10 @@ faqs:
     answer: "첫 방문에서 우는 건 흔합니다. 억지로 진행하지 않고 짧게 마치기도 해요. 몇 번 오가며 익숙해지는 과정으로 보시면 됩니다."
   - question: "부모가 옆에 있어도 되나요?"
     answer: "나이와 상황에 따라 다릅니다. 어릴 때는 함께 있는 것이 안정에 도움이 돼요. 다만 부모님이 긴장하면 아이에게 전달되니 편하게 계시는 것이 좋습니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dental-visits"
+updated: "2026-08-16"
 relatedTerms:
   - chigwa-gongpojeung
   - chigwayong-simenteu

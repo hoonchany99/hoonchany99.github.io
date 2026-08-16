@@ -25,6 +25,10 @@ faqs:
     answer: "마모되면 유지력이 떨어져 교체합니다. 정기 점검에서 상태를 확인해요. 부품 수급이 되는 제품인지도 처음에 확인해 두면 좋습니다."
   - question: "보험이 되나요?"
     answer: "정밀 부착 장치는 비급여인 경우가 많습니다. 일반 부분틀니는 만 65세 이상 급여 대상이에요. 계획 단계에서 비교해 보시는 게 정확합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/dentures"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - hilring-eobeoteumeonteu
   - impeulranteu-eobeoteumeonteu

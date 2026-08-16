@@ -25,6 +25,10 @@ faqs:
     answer: "일시적인 자극이면 며칠 안에 나아지기도 해요. 다만 반복되거나 한 치아 주변만 계속 부으면 그 아래에 원인이 있는 경우가 많습니다. 뿌리 끝 염증이나 깊은 치주낭일 수 있어 확인이 필요해요."
   - question: "잇몸약을 먹으면 좋아지나요?"
     answer: "증상이 잠시 줄 수는 있어요. 다만 원인인 치석과 세균막은 약으로 없어지지 않습니다. 스케일링과 잇몸 치료로 원인을 제거하는 게 먼저예요. 약은 보조로 생각하시는 게 정확합니다."
+sources:
+  - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
+  - "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/gingiva"
+updated: "2026-08-16"
 relatedTerms:
   - gingivitis
   - periodontitis

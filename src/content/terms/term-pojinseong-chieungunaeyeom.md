@@ -25,6 +25,10 @@ faqs:
     answer: "옮습니다. 물집이 있는 시기에 전염력이 있어요. 수건과 컵을 따로 쓰고, 손으로 만진 뒤 눈을 비비지 않도록 주의하세요."
   - question: "나으면 끝인가요?"
     answer: "바이러스는 몸에 남습니다. 이후 피곤하거나 열이 날 때 입술 물집으로 재발할 수 있어요. 다만 처음보다 훨씬 가볍게 지나갑니다."
+sources:
+  - "https://www.msdmanuals.com/professional/infectious-diseases/herpesviruses/herpes-simplex-virus-hsv-infections"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK559147/"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - geubseong-goesaseong-gweyangseong-chieunyeom

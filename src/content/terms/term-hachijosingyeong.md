@@ -25,6 +25,10 @@ faqs:
     answer: "전달마취는 원래 오래갑니다. 다만 예상 시간을 훨씬 넘겨 저림이 이어지면 알려 주세요. 주사 부위 신경 자극일 수 있고, 대개 시간이 지나며 회복됩니다."
   - question: "양쪽이 동시에 마비되나요?"
     answer: "한쪽씩 마취합니다. 양쪽을 동시에 하면 입술 감각이 전혀 없어 불편하고 다칠 위험이 커요. 그래서 나눠서 치료하는 경우가 많습니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+updated: "2026-08-16"
 relatedTerms:
   - hachijosingyeong-sonsang
   - chijo-jegeosul

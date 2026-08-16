@@ -25,6 +25,10 @@ faqs:
     answer: "첫 24시간은 얼음찜질이 붓기와 통증에 도움이 됩니다. 그 이후에는 온찜질로 바꾸시면 회복에 좋아요. 얼음을 피부에 직접 대지 마시고 천으로 감싸 주세요."
   - question: "열이 나는데 괜찮을까요?"
     answer: "미열은 있을 수 있지만 열이 오르거나 부기가 계속 커지면 감염을 의심합니다. 입이 잘 안 벌어지거나 삼키기 불편하면 바로 연락 주세요."
+sources:
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+  - "https://www.dartmouth-hitchcock.org/maxillofacial/tooth-extraction-post-operative-instructions"
+updated: "2026-08-16"
 relatedTerms:
   - balchi-hu-chulhyeol
   - balchi-hu-juuisahang

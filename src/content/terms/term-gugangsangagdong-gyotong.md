@@ -25,6 +25,10 @@ faqs:
     answer: "입안 세균이 상악동으로 들어가 감염이 생깁니다. 치성 상악동염으로 이어져 코막힘과 악취가 나는 콧물이 나타날 수 있어요."
   - question: "미리 알 수 있나요?"
     answer: "발치 전 X-ray로 뿌리와 상악동의 관계를 확인합니다. 가까우면 미리 설명드리고 조심해서 진행해요. 완전히 피하기 어려운 경우도 있습니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK547716/"
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+updated: "2026-08-16"
 relatedTerms:
   - chiseong-sangagdongyeom
   - sangagdong-geosangsul-habbyeongjeung

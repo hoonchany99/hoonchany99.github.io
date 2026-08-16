@@ -27,6 +27,10 @@ faqs:
     answer: "불소를 적극적으로 쓰고 실란트나 레진으로 덮어 보호합니다. 손상이 크면 기성 크라운으로 덮기도 해요. 일찍 시작할수록 결과가 좋습니다."
   - question: "마취가 잘 안 듣는다던데요?"
     answer: "그런 경향이 보고됩니다. 치료 중 아파하면 방법을 조정하거나 진정을 고려하기도 해요. 미리 말씀해 주시면 계획에 반영합니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

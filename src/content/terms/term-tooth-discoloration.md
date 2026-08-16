@@ -26,6 +26,7 @@ faqs:
     answer: "스케일링은 치석·착색 제거, 미백은 치아 본연색을 밝히는 시술이에요. 목적과 효과가 다릅니다."
   - question: "치아 변색 예방법은?"
     answer: "양치·가글, 착색 음식·흡연 줄이기, 정기 검진, 충치·잇몸 조기 치료가 도움이 될 수 있어요."
+updated: "2026-08-16"
 relatedTerms:
   - chia-chagsaeg
   - chia-gujo

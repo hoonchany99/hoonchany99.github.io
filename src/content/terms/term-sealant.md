@@ -25,6 +25,7 @@ faqs:
     answer: "보통 수년 전후인 경우가 많아요. 마모·탈락이 있으면 재도포할 수 있습니다. 정기 검진 때 상태를 확인해요."
   - question: "실란트 보험 적용되나요?"
     answer: "연령·치아·규정에 따라 건강보험 적용 여부가 달라질 수 있어요. 내원 시 조건을 확인해 드려요."
+updated: "2026-08-16"
 relatedTerms:
   - immediate-implant
   - impeulranteu-1cha-susul

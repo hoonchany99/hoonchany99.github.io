@@ -25,6 +25,10 @@ faqs:
     answer: "문질러도 지워지지 않으면 백반증 같은 다른 병변일 수 있습니다. 곰팡이는 벗겨지지만 백반증은 안 벗겨져요. 구분이 필요하니 확인받아 보세요."
   - question: "혀가 검게 보여요."
     answer: "흑모설이라고 부르는 상태일 수 있습니다. 돌기가 길어지고 색소가 착색된 것으로, 흡연·특정 가글·항생제 사용과 관련되기도 해요. 대개 해롭지 않지만 확인해 보시면 좋습니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/halitosis"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/halitosis"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

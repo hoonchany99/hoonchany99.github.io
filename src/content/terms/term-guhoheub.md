@@ -25,6 +25,10 @@ faqs:
     answer: "코가 막혀 있으면 이비인후과가 먼저입니다. 코가 뚫렸는데도 습관이 남으면 치과에서 훈련이나 장치를 고려해요."
   - question: "고칠 수 있나요?"
     answer: "원인을 해결하면 좋아지는 경우가 많습니다. 습관이 남으면 입술 다물기 훈련을 병행해요. 이미 생긴 배열 변화는 교정으로 다룹니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

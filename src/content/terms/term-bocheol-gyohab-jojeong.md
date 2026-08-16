@@ -25,6 +25,10 @@ faqs:
     answer: "높이 문제가 아닐 수 있어요. 안쪽 치아의 신경 상태나 금이 원인일 수 있습니다. 조정으로 나아지지 않으면 다른 원인을 확인해야 합니다."
   - question: "한쪽으로만 씹게 되는데 괜찮나요?"
     answer: "오래 지속되면 좋지 않아요. 반대쪽에 부담이 몰리고 턱관절에도 영향을 줄 수 있습니다. 불편해서 한쪽만 쓰고 계시다면 원인을 찾는 게 먼저입니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - occlusal-adjustment
   - 1geub-bujeonggyohab

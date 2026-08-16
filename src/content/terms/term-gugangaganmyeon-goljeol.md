@@ -25,6 +25,10 @@ faqs:
     answer: "어긋남이 적으면 고정만 하고 지켜보기도 합니다. 크게 어긋났거나 물림이 맞지 않으면 수술로 맞춰 고정해요. 상태에 따라 다릅니다."
   - question: "치아도 함께 다쳤으면요?"
     answer: "골절 치료와 함께 계획합니다. 빠진 치아나 흔들리는 치아 처치가 함께 필요해요. 물림을 원래대로 되돌리는 것이 공통 목표입니다."
+sources:
+  - "https://www.msdmanuals.com/professional/injuries-poisoning/facial-trauma"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK526114/"
+updated: "2026-08-16"
 relatedTerms:
   - anmyeon-bidaeching
   - bijeonghyeong-anmyeontong

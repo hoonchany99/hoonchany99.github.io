@@ -25,6 +25,10 @@ faqs:
     answer: "차가운 자극 검사, 두드려 보는 검사, X-ray를 함께 씁니다. 필요하면 부위별로 마취해 통증이 사라지는지 확인하기도 해요."
   - question: "엉뚱한 이를 치료할 수도 있나요?"
     answer: "위치만 믿고 진행하면 그럴 수 있습니다. 그래서 검사로 확인하는 과정이 중요해요. 치료 후에도 통증이 그대로면 다시 확인합니다."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554486/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

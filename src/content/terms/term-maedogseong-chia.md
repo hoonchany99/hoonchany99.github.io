@@ -25,6 +25,10 @@ faqs:
     answer: "치아 형태 이상 자체가 옮는 것은 아닙니다. 원인 질환의 감염 여부는 전신 진료에서 다뤄요. 치과에서는 형태와 기능을 담당합니다."
   - question: "비슷한 모양의 다른 원인도 있나요?"
     answer: "있습니다. 치아 형성기의 다른 문제로도 형태 이상이 생겨요. 그래서 모양만으로 단정하지 않고 병력과 전신 소견을 함께 봅니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+  - "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/congenital-syphilis"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - chia-chagsaeg

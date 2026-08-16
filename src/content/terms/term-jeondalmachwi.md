@@ -25,6 +25,10 @@ faqs:
     answer: "표면마취제를 먼저 발라 찌르는 느낌을 줄입니다. 천천히 주입하면 훨씬 덜 아파요. 이 부분이 특히 걱정되시면 미리 말씀해 주시면 더 신경 써서 진행합니다."
   - question: "마취 후에 저린 느낌이 계속돼요."
     answer: "드물게 주사 부위 신경이 자극받아 저림이 오래갈 수 있습니다. 대부분 시간이 지나며 회복돼요. 다만 며칠이 지나도 이어지면 알려 주셔야 합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+updated: "2026-08-16"
 relatedTerms:
   - local-anesthesia
   - pyomyeon-machwi

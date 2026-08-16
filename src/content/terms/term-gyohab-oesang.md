@@ -25,6 +25,10 @@ faqs:
     answer: "먼저 닿는 지점을 다듬어 힘을 고르게 나눕니다. 이갈이가 배경이면 장치를 고려해요. 치아가 빠져 힘이 몰린 상황이면 그 자리를 회복하는 계획도 함께 봅니다."
   - question: "흔들리던 치아가 다시 단단해지나요?"
     answer: "부담이 줄면 안정되는 경우가 많습니다. 다만 이미 잇몸뼈가 많이 녹았다면 한계가 있어요. 원인을 없애고 경과를 지켜보며 판단합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+  - "https://pocketdentistry.com/1-anatomy-of-the-periodontium-2/"
+updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab

@@ -25,6 +25,10 @@ faqs:
     answer: "잇몸 염증을 줄이면 혈당 조절에 도움이 된다는 보고가 있습니다. 다만 잇몸 치료가 당뇨 치료를 대신하지는 않아요. 내과 치료와 함께 가는 것으로 생각하시면 됩니다."
   - question: "발치 후에 잘 안 낫는다던데요?"
     answer: "혈당이 높으면 회복이 느리고 감염 위험이 올라갈 수 있어요. 그래서 발치 전 혈당 상태를 확인하고, 이후 관리 주의사항을 더 꼼꼼히 안내해 드립니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/diabetes"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - goldagongjeung-hwanja-chigwa
   - hangamchiryo-hwanja-chigwa

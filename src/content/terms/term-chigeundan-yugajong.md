@@ -25,6 +25,10 @@ faqs:
     answer: "만성 염증이라 통증 없이 진행하는 경우가 많습니다. 몸이 세균을 그 자리에 가두고 있는 상태예요. 그래서 검진에서 우연히 발견되곤 합니다."
   - question: "방치하면 어떻게 되나요?"
     answer: "뼈가 계속 녹고 범위가 넓어질 수 있습니다. 급성으로 바뀌면 크게 붓고 아파요. 낭종으로 진행하기도 합니다. 발견되면 치료를 권합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560481/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - apical-periodontitis
   - apicoectomy

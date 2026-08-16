@@ -25,6 +25,10 @@ faqs:
     answer: "미리 알려 주세요. 임의로 중단하면 다른 위험이 생길 수 있어 대개 그대로 두고 지혈 방법을 보완합니다. 필요하면 처방하신 선생님과 상의해 정합니다."
   - question: "지혈이 안 될 때 집에서 할 수 있는 게 있나요?"
     answer: "깨끗한 거즈를 접어 상처 위에 정확히 놓고 30분 이상 힘주어 물어 주세요. 말하거나 자꾸 확인하면 지혈이 늦어집니다. 얼음찜질도 도움이 될 수 있어요."
+sources:
+  - "https://www.dartmouth-hitchcock.org/maxillofacial/tooth-extraction-post-operative-instructions"
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+updated: "2026-08-16"
 relatedTerms:
   - balchi-hu-juuisahang
   - balchi-hu-tongjeung

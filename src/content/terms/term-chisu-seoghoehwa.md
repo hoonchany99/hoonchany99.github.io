@@ -25,6 +25,10 @@ faqs:
     answer: "한 번 확인해 보시는 걸 권합니다. 외상 뒤 석회화나 치수 괴사가 시간이 지나 나타나는 경우가 있어요. 증상이 없어도 사진과 검사로 상태를 볼 수 있습니다."
   - question: "진행을 막을 수 있나요?"
     answer: "한번 시작된 석회화를 되돌리기는 어렵습니다. 다만 새로운 자극을 줄이는 건 도움이 돼요. 충치를 제때 치료하고, 이갈이가 있으면 장치를 고려하는 정도입니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - chisu

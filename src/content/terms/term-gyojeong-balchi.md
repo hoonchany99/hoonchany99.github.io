@@ -25,6 +25,10 @@ faqs:
     answer: "앞니를 뒤로 많이 넣으면 입 주변 인상이 달라질 수 있어요. 그래서 진단할 때 옆모습을 함께 봅니다. 원하는 방향을 미리 말씀해 주시면 계획에 반영합니다."
   - question: "나중에 후회하면 되돌릴 수 있나요?"
     answer: "뺀 치아는 되돌릴 수 없습니다. 그래서 발치 여부는 진단 자료를 함께 보며 충분히 설명받고 결정하시는 게 좋아요. 판단이 어려우면 다른 의견을 들어 보셔도 됩니다."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+updated: "2026-08-16"
 relatedTerms:
   - extraction
   - orthodontics

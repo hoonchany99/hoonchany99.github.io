@@ -25,6 +25,10 @@ faqs:
     answer: "원인이 일시적이면 사라집니다. 약물이 원인이면 조정 후 좋아지기도 해요. 다만 임의로 약을 끊지 마시고 상의하세요."
   - question: "어느 과에서 보나요?"
     answer: "구강 원인이면 치과에서 다룹니다. 약물이나 전신 원인이 의심되면 처방하신 선생님이나 내과와 함께 봐요."
+sources:
+  - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/approach-to-the-patient-with-nasal-and-pharyngeal-symptoms/taste-disorders"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554643/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban

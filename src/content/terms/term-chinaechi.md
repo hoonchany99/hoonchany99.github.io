@@ -25,6 +25,10 @@ faqs:
     answer: "내부 형태가 복잡해 일반적인 경우보다 까다롭습니다. 뿌리가 아직 완성되지 않은 어린 나이라면 더 그래요. CT나 현미경이 도움이 됩니다."
   - question: "왜 생기나요?"
     answer: "치아가 만들어지는 시기에 표면이 안쪽으로 접혀 들어가 생깁니다. 원인이 명확히 밝혀져 있지는 않아요. 관리와는 관계가 없습니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

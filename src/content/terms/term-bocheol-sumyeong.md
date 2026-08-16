@@ -25,6 +25,10 @@ faqs:
     answer: "가격이 곧 수명은 아니에요. 재료마다 강한 점이 다르고, 치아 위치와 씹는 힘에 맞는 선택이 더 중요합니다. 관리 상태가 재료 차이보다 크게 작용하는 경우가 많아요."
   - question: "보증 기간이 지나면 어떻게 되나요?"
     answer: "보증은 병원마다 다르게 운영합니다. 다만 보증과 실제 수명은 다른 이야기예요. 기간과 무관하게 불편하거나 이상하면 바로 확인하시는 게 결과가 좋습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - bocheol-gyohab-jojeong
   - bocheol-saegjo-seontaeg

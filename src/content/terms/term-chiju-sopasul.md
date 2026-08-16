@@ -25,6 +25,10 @@ faqs:
     answer: "부위와 깊이에 따라 다릅니다. 입안을 몇 구역으로 나눠 진행하는 경우가 많아요. 한 번에 다 하면 마취 범위가 넓고 회복이 부담스러울 수 있습니다."
   - question: "치료하면 잇몸이 다시 붙나요?"
     answer: "염증이 가라앉으며 잇몸이 뿌리에 다시 붙는 회복이 일어납니다. 다만 이미 녹은 뼈가 채워지는 것은 아니에요. 더 진행하지 않게 유지하는 것이 목표입니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+  - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
+updated: "2026-08-16"
 relatedTerms:
   - chiju-jaesaengsul
   - chiju-nongyang

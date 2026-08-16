@@ -25,6 +25,7 @@ faqs:
     answer: "어금니 홈 메우기(실란트)·불소 도포 등 예방 처치를 함께 검토해요. 충치 예방에 도움이 될 수 있습니다."
   - question: "부모가 함께 해야 할 일은?"
     answer: "양치 도와주기·식습관·가글·정기 검진 동반 등이 중요해요. 집에서의 습관이 평생 구강 건강에 영향을 줍니다."
+updated: "2026-08-16"
 relatedTerms:
   - cheos-chigwa-bangmun
   - chigwa-gongpojeung

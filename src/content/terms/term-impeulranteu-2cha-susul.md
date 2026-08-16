@@ -25,6 +25,10 @@ faqs:
     answer: "연락 주세요. 그대로 두면 잇몸이 덮여 다시 열어야 할 수 있습니다. 통증이 없어도 빨리 오시는 게 좋아요."
   - question: "이 시기에 관리는 어떻게 하나요?"
     answer: "노출된 부품 주변에 음식물이 끼기 쉽습니다. 부드러운 칫솔로 살살 닦아 주세요. 붓거나 고름이 나오면 바로 알려 주셔야 합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - impeulranteu-1cha-susul
   - immediate-implant

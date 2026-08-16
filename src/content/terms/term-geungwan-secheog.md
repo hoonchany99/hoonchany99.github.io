@@ -25,6 +25,10 @@ faqs:
     answer: "침 속 세균이 들어가는 것을 막고, 약액과 기구를 삼키지 않게 합니다. 신경치료 결과에 영향을 주는 요소로 권장돼요. 답답하시면 미리 말씀해 주세요."
   - question: "한 번에 끝낼 수는 없나요?"
     answer: "가능한 경우도 있습니다. 다만 염증이 심하거나 관이 복잡하면 약을 넣고 기다리는 편이 나아요. 치아 상태를 보고 판단합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - chigeungwan
   - chijugeungwan-boghab-byeongso

@@ -25,6 +25,10 @@ faqs:
     answer: "성장이 끝나면 가운데 봉합선이 붙어 같은 방법이 어렵습니다. 수술적으로 접근하거나 다른 방법을 검토해요. 그래서 성장기에 시기를 보는 것이 중요합니다."
   - question: "입천장이 자꾸 헐어요."
     answer: "틀니가 눌러 생기는 경우가 흔합니다. 곰팡이 감염일 수도 있어요. 틀니를 끼고 자는 습관이 있으면 특히 그렇습니다. 원인을 확인해 보시는 게 좋아요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK546686/"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - gugae-hwagjang-jangchi
   - cavity

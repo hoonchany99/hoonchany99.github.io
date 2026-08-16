@@ -25,6 +25,10 @@ faqs:
     answer: "지침을 지키셔야 합니다. 위 내용물이 역류해 기도로 넘어가는 위험을 줄이기 위해서예요. 다만 드시던 약은 어떻게 할지 미리 확인받으세요."
   - question: "진정 없이 하는 방법은 없나요?"
     answer: "치료를 짧게 나누거나 국소마취만으로 진행하는 방법을 먼저 검토합니다. 진정은 필요할 때 쓰는 선택지예요. 상태와 치료 범위를 보고 정합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK559287/"
+updated: "2026-08-16"
 relatedTerms:
   - sedation
   - cheos-chigwa-bangmun

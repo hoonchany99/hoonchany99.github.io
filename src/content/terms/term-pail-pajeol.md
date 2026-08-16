@@ -25,6 +25,10 @@ faqs:
     answer: "염증이 생기거나 낫지 않으면 재신경치료나 치근단절제술을 검토합니다. 뿌리 끝을 잘라내며 조각을 함께 제거하기도 해요."
   - question: "몸에 해롭지 않나요?"
     answer: "치과용 금속이라 그 자체로 전신에 영향을 주지는 않습니다. 뿌리 속에 갇혀 있는 상태예요. 주변 조직 반응을 정기적으로 확인합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - bocheolmul-pajeol
   - chigeun-pajeol

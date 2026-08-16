@@ -25,6 +25,10 @@ faqs:
     answer: "임상에서 구분이 쉽지 않습니다. 조직검사로 확인해요. 다만 둘 다 양성이고 치료 방향이 비슷합니다."
   - question: "재발하나요?"
     answer: "자루 부분까지 완전히 제거하면 재발이 드문 편입니다. 남으면 다시 자랄 수 있어 절제 범위가 중요해요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563255/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/tumors-of-the-oral-cavity-and-neck"
+updated: "2026-08-16"
 relatedTerms:
   - chigan-yudu
   - gugang-alrereugi-jeunghugun

@@ -25,6 +25,10 @@ faqs:
     answer: "혀 움직임이 크게 제한되면 특정 발음이 어려울 수 있습니다. 다만 소대가 짧다고 모두 발음 문제가 생기지는 않아요. 언어 평가와 함께 판단합니다."
   - question: "처치가 복잡한가요?"
     answer: "대개 국소마취 후 짧게 끝나는 간단한 처치입니다. 아이라면 협조 정도에 따라 방법을 정해요. 이후 혀 운동을 함께 안내받는 경우가 많습니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK559294/"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-isanggamgagjeung
   - gugang-alrereugi-jeunghugun

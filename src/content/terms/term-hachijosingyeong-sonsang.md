@@ -25,6 +25,10 @@ faqs:
     answer: "수술 전 CT로 신경관 위치를 확인하고 안전 거리를 두는 것이 핵심입니다. 위치가 아주 가까우면 치아 윗부분만 제거하는 방법을 고려하기도 해요."
   - question: "일상생활에 문제가 되나요?"
     answer: "입술 감각이 둔하면 음식을 흘리거나 씹다가 깨무는 일이 생길 수 있습니다. 뜨거운 음식에 데지 않도록 주의하세요. 대부분 시간이 지나며 적응하거나 회복됩니다."
+sources:
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+updated: "2026-08-16"
 relatedTerms:
   - hachijosingyeong
   - impeulranteu-singyeong-sonsang

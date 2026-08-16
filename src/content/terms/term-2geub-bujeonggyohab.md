@@ -25,6 +25,10 @@ faqs:
     answer: "골격 차이가 크지 않으면 치아 이동으로 보완합니다. 차이가 크고 기능이나 외모에 영향이 크면 수술을 검토해요. 진단 자료로 한계를 판단합니다."
   - question: "앞니가 잘 부딪혀 깨져요."
     answer: "앞으로 나온 앞니는 외상 위험이 높습니다. 특히 활동적인 아이라면 그렇고요. 이 점이 조기 교정을 고려하는 이유 중 하나입니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+  - "https://www.aaoinfo.org/"
+updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab
   - 3geub-bujeonggyohab

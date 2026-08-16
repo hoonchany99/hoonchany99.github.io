@@ -25,6 +25,10 @@ faqs:
     answer: "적절히 쓰면 오히려 힘 조절에 도움이 될 수 있어요. 압력 감지 기능이 있는 제품이 도움이 되기도 합니다. 중요한 건 기구보다 세기와 방향이에요. 문지르듯 미는 동작을 줄이는 게 좋습니다."
   - question: "더 진행되는 걸 막으려면요?"
     answer: "부드러운 칫솔모로 힘을 빼고 닦아 주세요. 탄산·과일주스 같은 산성 음료 뒤에 바로 닦는 건 피하고, 물로 헹군 뒤 시간을 두는 게 좋습니다. 이갈이가 있다면 장치를 고려해 볼 수 있어요."
+sources:
+  - "https://decisionsindentistry.com/article/treatment-strategies-noncarious-cervical-lesions/"
+  - "https://www.speareducation.com/resources/spear-digest/non-carious-cervical-lesions-nccl-causes-and-contributing-factors/"
+updated: "2026-08-16"
 relatedTerms:
   - chia-mamojeung
   - cavity

@@ -25,6 +25,10 @@ faqs:
     answer: "작고 불편하지 않으면 지켜보기도 합니다. 자꾸 씹히거나 커지면 제거를 검토해요. 씹히면 더 커지는 악순환이 생깁니다."
   - question: "커지고 있어요."
     answer: "계속 자극받고 있을 가능성이 큽니다. 다만 빠르게 커지거나 색이 변하거나 헐면 다른 원인을 확인해야 해요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-lesions"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563255/"
+updated: "2026-08-16"
 relatedTerms:
   - chieun-seomyujongjeung
   - gugang-jeommagha-seomyujeung

@@ -25,6 +25,10 @@ faqs:
     answer: "어지럽거나 비틀거릴 수 있어 넘어지지 않게 지켜보셔야 합니다. 당일에는 활동을 줄이고 쉬게 하세요. 구토나 호흡이 이상하면 바로 연락 주세요."
   - question: "진정 없이 할 수는 없나요?"
     answer: "가능하면 그렇게 합니다. 치료를 짧게 나누거나 설명과 연습으로 접근해요. 다만 범위가 넓거나 협조가 어려우면 오히려 여러 번 힘든 경험을 만들 수 있습니다."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
+updated: "2026-08-16"
 relatedTerms:
   - conservative-dentistry
   - hangamchiryo-hwanja-chigwa

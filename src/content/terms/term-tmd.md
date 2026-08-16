@@ -26,6 +26,7 @@ faqs:
     answer: "이갈이·밤에 이를 악무는 경우에 권하는 경우가 많아요. 맞춤 제작이 효과·편안함에 도움이 될 수 있습니다."
   - question: "턱관절 수술이 필요한가요?"
     answer: "대부분은 비수술 치료로 관리해요. 심한 경우·구조적 문제가 있을 때만 수술을 검토합니다."
+updated: "2026-08-16"
 relatedTerms:
   - teoggwanjeol-jangae-jaga-jindan
   - manseong-dutonggwa-teoggwanjeol

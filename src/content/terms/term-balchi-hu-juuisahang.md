@@ -25,6 +25,10 @@ faqs:
     answer: "당일에도 다른 치아는 평소대로 닦으셔도 됩니다. 발치 부위만 피해 주세요. 세게 헹구는 건 24시간 이후부터가 안전합니다. 그 전에는 물을 머금었다 흘려 내는 정도가 좋아요."
   - question: "건조와는 어떤 느낌인가요?"
     answer: "통증이 점점 나아지다가 3~5일째 갑자기 심해지는 게 특징이에요. 귀나 관자놀이까지 뻗치는 둔한 통증이 많습니다. 진통제로도 잘 안 잡히면 방문해 주세요. 상처를 세척하고 약제를 넣어 주면 훨씬 편해집니다."
+sources:
+  - "https://www.dartmouth-hitchcock.org/maxillofacial/tooth-extraction-post-operative-instructions"
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+updated: "2026-08-16"
 relatedTerms:
   - balchi-hu-chulhyeol
   - balchi-hu-tongjeung

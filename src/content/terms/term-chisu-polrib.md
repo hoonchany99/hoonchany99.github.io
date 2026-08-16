@@ -25,6 +25,10 @@ faqs:
     answer: "치수의 혈류와 회복력이 좋아 죽지 않고 증식하는 반응이기 때문입니다. 어린이나 청소년의 큰어금니에서 비교적 흔해요."
   - question: "뽑아야 하나요?"
     answer: "남은 치아 구조가 충분하면 신경치료 후 보철로 살립니다. 치아가 많이 무너졌으면 발치를 검토해요. 상태를 보고 판단합니다."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - chisu

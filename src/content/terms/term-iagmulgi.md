@@ -25,6 +25,10 @@ faqs:
     answer: "관자놀이 근육이 과하게 쓰이면 그 부위가 아픕니다. 위치가 두통과 겹쳐 두통으로 느끼시는 경우가 있어요. 오후로 갈수록 심해지는 패턴이 단서입니다."
   - question: "치아에 어떤 영향이 있나요?"
     answer: "마모, 치아 목 부분 파임, 시림, 크랙, 보철물 파절과 관련될 수 있습니다. 힘이 특정 치아에 몰리면 그 치아만 문제가 반복되기도 해요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/bruxism"
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

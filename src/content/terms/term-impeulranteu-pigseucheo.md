@@ -25,6 +25,10 @@ faqs:
     answer: "티타늄은 자성이 거의 없어 대부분 촬영이 가능합니다. 다만 영상에 왜곡이 생길 수 있어요. 검사 전에 임플란트가 있다고 알려 주시면 됩니다."
   - question: "뼈가 얇으면 못 심나요?"
     answer: "방법이 있는 경우가 많습니다. 뼈이식으로 폭을 넓히거나, 짧고 가는 제품을 쓰거나, 위치를 조정합니다. 다만 기간과 비용이 늘 수 있어 미리 계획합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://www.sciencedirect.com/science/article/abs/pii/S0300571219300491"
+updated: "2026-08-16"
 relatedTerms:
   - immediate-implant
   - impeulranteu-1cha-susul

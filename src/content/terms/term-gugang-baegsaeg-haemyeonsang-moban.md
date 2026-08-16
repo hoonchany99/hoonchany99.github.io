@@ -25,6 +25,10 @@ faqs:
     answer: "악성으로 변하는 것으로 보고되지 않습니다. 이 점이 백반증과 결정적으로 다른 부분이에요."
   - question: "없앨 수 있나요?"
     answer: "없애는 치료는 없고 필요하지도 않습니다. 유전적 특성이라 그대로 지내시면 돼요. 진단만 확실히 해 두면 됩니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560855/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-lesions"
+updated: "2026-08-16"
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - gugang-dansunpojin

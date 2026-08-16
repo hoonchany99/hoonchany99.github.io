@@ -25,6 +25,10 @@ faqs:
     answer: "대개 국소마취 후 짧게 끝납니다. 어린 아기는 특히 간단해요. 이후 며칠 불편할 수 있지만 큰 통증은 드뭅니다."
   - question: "다시 붙지 않나요?"
     answer: "아무는 과정에서 다시 붙을 수 있습니다. 그래서 이후 혀 운동을 안내받아 하시는 것이 중요해요."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK559294/"
+updated: "2026-08-16"
 relatedTerms:
   - apicoectomy
   - chieun-jeoljesul

@@ -25,6 +25,10 @@ faqs:
     answer: "기능적 문제가 인정되는 경우 급여가 적용될 수 있습니다. 다만 진단 기준과 범위가 정해져 있어요. 심미 목적만으로는 적용이 어렵습니다. 계획 단계에서 확인이 필요합니다."
   - question: "수술 후 감각이 이상해진다던데요?"
     answer: "아랫입술과 턱 부위가 저린 느낌이 남을 수 있습니다. 대부분 시간이 지나며 회복되지만, 일부 남는 경우가 보고돼요. 수술 전에 이 위험을 함께 설명받으셔야 합니다."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+updated: "2026-08-16"
 relatedTerms:
   - chiju-susul-hu-gwanri
   - gineungjeog-gyojeong-jangchi

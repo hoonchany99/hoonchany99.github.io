@@ -25,6 +25,10 @@ faqs:
     answer: "아래턱이 큰 3급은 접근이 다릅니다. 위턱을 앞으로 끌어내는 장치를 쓰기도 하지만, 성장 방향에 따라 결과가 달라요. 성장이 끝난 뒤 수술이 필요한 경우도 있습니다."
   - question: "아프지는 않나요?"
     answer: "처음 며칠은 뻐근하고 말하기 불편할 수 있어요. 대개 적응합니다. 잇몸이 헐거나 특정 부위가 계속 아프면 장치를 조정해야 하니 알려 주세요."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+updated: "2026-08-16"
 relatedTerms:
   - aggyojeong-susul
   - gonggan-yuji-jangchi

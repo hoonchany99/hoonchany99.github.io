@@ -25,6 +25,10 @@ faqs:
     answer: "아래 사랑니는 하치조신경과 가까울 수 있습니다. 그래서 CT로 위치를 확인하고 계획해요. 위치가 아주 가까우면 윗부분만 제거하는 방법을 고려하기도 합니다."
   - question: "회복까지 얼마나 걸리나요?"
     answer: "일상생활은 대개 며칠 안에 가능합니다. 실밥은 1~2주 뒤 제거해요. 상처가 완전히 아무는 데는 더 걸리므로 그동안 그 부위를 조심해 주세요."
+sources:
+  - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - balchi-hu-chulhyeol
   - balchi-hu-juuisahang

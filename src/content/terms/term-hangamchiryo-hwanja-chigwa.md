@@ -25,6 +25,10 @@ faqs:
     answer: "침 감소는 흔한 부작용입니다. 충치가 빠르게 늘 수 있어 불소를 적극적으로 쓰고 검진 간격을 짧게 가져가요. 인공 타액 제품도 도움이 됩니다."
   - question: "방사선 치료를 받았는데 이를 뽑아도 되나요?"
     answer: "신중하게 접근합니다. 머리·목 부위 방사선 치료 후 발치는 골괴사와 연관될 수 있어요. 담당 선생님과 상의해 계획합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/cancer-head-and-neck"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK565813/"
+updated: "2026-08-16"
 relatedTerms:
   - dangnyo-hwanja-chigwa
   - goldagongjeung-hwanja-chigwa

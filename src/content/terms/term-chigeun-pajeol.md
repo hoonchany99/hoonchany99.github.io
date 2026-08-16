@@ -25,6 +25,10 @@ faqs:
     answer: "신경치료를 한 치아, 포스트를 세운 치아, 이갈이가 심한 분의 어금니에서 많습니다. 치아가 약해진 상태에서 반복적인 힘이 원인이 돼요."
   - question: "예방할 수 있나요?"
     answer: "신경치료 후 크라운으로 감싸는 것이 도움이 됩니다. 이갈이가 있으면 장치를 쓰고, 단단한 음식을 피하는 것도 방법이에요."
+sources:
+  - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - chigeun
   - apical-periodontitis

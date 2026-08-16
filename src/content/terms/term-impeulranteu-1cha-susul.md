@@ -25,6 +25,10 @@ faqs:
     answer: "위치와 상황에 따라 임시치아를 만들어 드리는 경우가 많습니다. 앞니처럼 보이는 부위는 특히 그래요. 다만 임시치아로 세게 씹으면 안 됩니다."
   - question: "실밥은 언제 빼나요?"
     answer: "보통 수술 후 1~2주 사이에 제거합니다. 그 전까지는 그 부위를 세게 닦지 마시고, 처방된 가글로 관리해 주세요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - impeulranteu-2cha-susul
   - immediate-implant

@@ -25,6 +25,10 @@ faqs:
     answer: "왜소치와 선천성 결손이 함께 나타나는 경우가 있습니다. 이때는 한쪽은 크기를 키우고 다른 쪽은 공간을 채우는 계획을 함께 세워요."
   - question: "씹는 데 문제가 되나요?"
     answer: "앞니 왜소치는 씹는 기능에 큰 영향이 없는 편입니다. 주로 심미적인 이유로 치료를 고려해요. 어금니라면 씹는 면적이 줄어 영향이 있을 수 있습니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

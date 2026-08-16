@@ -37,6 +37,10 @@ const terms = defineCollection({
         })
       )
       .default([]),
+    /** 내용 확인에 사용한 참고 자료 URL */
+    sources: z.array(z.string()).default([]),
+    /** 내용을 마지막으로 정리한 날짜 YYYY-MM-DD */
+    updated: z.string().optional(),
     relatedTerms: z.array(z.string()).default([]),
     relatedPosts: z
       .array(

@@ -25,6 +25,10 @@ faqs:
     answer: "약물 치료가 우선입니다. 반응이 좋은 경우가 많아요. 약으로 조절되지 않으면 신경외과적 시술을 검토하기도 합니다. 진단이 먼저입니다."
   - question: "왜 생기나요?"
     answer: "혈관이 신경을 압박하는 것이 흔한 원인으로 설명됩니다. 다른 원인이 있는 경우도 있어 영상 검사를 하기도 해요. 원인에 따라 접근이 달라집니다."
+sources:
+  - "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/trigeminal-neuralgia"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554486/"
+updated: "2026-08-16"
 relatedTerms:
   - hachijosingyeong
   - hachijosingyeong-sonsang

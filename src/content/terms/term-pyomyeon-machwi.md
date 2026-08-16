@@ -25,6 +25,10 @@ faqs:
     answer: "자주 씁니다. 첫 치과 경험에서 따끔한 기억을 줄이는 데 도움이 돼요. 아이가 무서워하면 이 과정을 충분히 설명하며 진행합니다."
   - question: "알레르기가 있으면 어떻게 하나요?"
     answer: "마취제 성분에 반응이 있었던 적이 있다면 미리 알려 주세요. 성분이 다른 제품으로 바꾸거나 다른 방법을 씁니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+updated: "2026-08-16"
 relatedTerms:
   - jeondalmachwi
   - local-anesthesia

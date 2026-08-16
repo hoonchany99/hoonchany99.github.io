@@ -25,6 +25,10 @@ faqs:
     answer: "증상과 입 벌어지는 정도, 소리 양상, 눌러 보는 검사로 판단합니다. 필요하면 MRI로 디스크 위치를 직접 확인해요. X-ray로는 디스크가 보이지 않습니다."
   - question: "교정을 하면 좋아지나요?"
     answer: "디스크 변위를 교정으로 해결한다고 보기는 어렵습니다. 교합이 원인으로 확인된 경우가 아니면 신중해야 해요. 되돌릴 수 없는 치료는 특히 조심스럽게 접근합니다."
+sources:
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353764/"
+  - "https://www.physio-pedia.com/TMJ_Disc_Displacements"
+updated: "2026-08-16"
 relatedTerms:
   - manseong-dutonggwa-teoggwanjeol
   - teoggwanjeol-gangjigjeung

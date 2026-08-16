@@ -25,6 +25,10 @@ faqs:
     answer: "진한 립스틱은 지우고 오시면 좋아요. 밝은 시간대 예약이 도움이 되기도 합니다. 원하는 느낌의 사진이 있으면 가져오셔도 좋습니다."
   - question: "완성됐는데 색이 마음에 안 들면요?"
     answer: "장착 전이라면 조정이나 재제작을 검토할 수 있어요. 붙이고 난 뒤에는 떼어내는 과정에서 손상 위험이 있어 어려워집니다. 그래서 장착 전 확인이 중요합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/whitening"
+updated: "2026-08-16"
 relatedTerms:
   - bocheol-gyohab-jojeong
   - bocheol-sumyeong

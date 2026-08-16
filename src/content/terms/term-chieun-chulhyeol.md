@@ -25,6 +25,10 @@ faqs:
     answer: "잇몸병은 아프지 않게 진행되는 경우가 많습니다. 통증이 없다고 안심하기 어려워요. 출혈이 오래 이어졌다면 잇몸뼈 상태까지 확인해 보시는 게 좋습니다."
   - question: "가만히 있어도 피가 나요."
     answer: "자극 없이 저절로 나는 출혈은 조금 다르게 봅니다. 심한 염증일 수도 있고, 복용 중인 약이나 전신적인 원인이 있을 수도 있어요. 이 경우 미루지 마시고 진료를 받아 보세요."
+sources:
+  - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
 relatedTerms:
   - bagriseong-chieunyeom
   - balchi-hu-chulhyeol

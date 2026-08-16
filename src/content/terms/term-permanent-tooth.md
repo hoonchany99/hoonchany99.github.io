@@ -25,6 +25,7 @@ faqs:
     answer: "양치·치실, 정기 검진, 충치·외상 조기 치료, 불소·실란트 등 예방이 중요해요."
   - question: "영구치가 흔들리면?"
     answer: "치주염·외상·교환기 등 원인이 다양해요. 검진으로 원인 확인 후 치료 방향을 정하는 게 좋습니다."
+updated: "2026-08-16"
 relatedTerms:
   - gold-inlay
   - molar

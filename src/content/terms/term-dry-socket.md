@@ -23,6 +23,7 @@ faqs:
     answer: "치과에서 소독·약재 봉합·통증 조절 등을 해요. 자연 치유까지 며칠~1주 정도 추가 관리가 필요할 수 있습니다."
   - question: "건조와면 다시 발치해야 하나요?"
     answer: "재발치는 필요 없어요. 혈병 형성·통증 관리·소독 등으로 치료합니다. 증상이 악화되면 바로 내원해 주세요."
+updated: "2026-08-16"
 relatedTerms:
   - guganggeonjojeung
   - cavity

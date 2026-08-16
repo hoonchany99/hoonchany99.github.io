@@ -24,6 +24,10 @@ faqs:
     answer: "남은 치아와 잇몸뼈 상태에 따라 달라요. 임플란트는 씹는 힘이 좋지만 뼈 조건과 비용 부담이 있습니다. 틀니는 범위가 넓어도 대응이 되는 편이에요. 두 가지를 결합한 오버덴처를 고려하기도 합니다."
   - question: "7년 안에 다시 만들어야 할 사정이 생기면요?"
     answer: "구강 상태가 크게 달라진 경우처럼 사유가 인정되면 기간 안에도 급여가 가능할 수 있어요. 다만 개별 심사 사항이라 미리 확인이 필요합니다. 치과에서 함께 확인해 드릴 수 있어요."
+sources:
+  - "https://www.100ssd.co.kr/news/articleView.html?idxno=78331"
+  - "https://www.nhis.or.kr/"
+updated: "2026-08-16"
 relatedTerms:
   - impeulranteu-geongangboheom
   - seukeilring-geongangboheom

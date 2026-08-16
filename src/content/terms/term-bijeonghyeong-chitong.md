@@ -25,6 +25,10 @@ faqs:
     answer: "통증 자체를 조절하는 약물 치료가 중심입니다. 신경과나 통증 클리닉과 함께 보기도 해요. 치아를 더 건드리지 않는 것이 중요합니다."
   - question: "이를 빼면 나아질까요?"
     answer: "오히려 통증이 남거나 심해질 수 있습니다. 발치 후에도 같은 부위가 계속 아픈 사례가 보고돼요. 발치는 신중해야 합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK554486/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
 relatedTerms:
   - bijeonghyeong-anmyeontong
   - cavity

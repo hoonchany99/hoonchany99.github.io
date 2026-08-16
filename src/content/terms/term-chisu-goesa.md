@@ -25,6 +25,10 @@ faqs:
     answer: "신경치료를 마친 뒤 치아 안쪽에서 미백하는 방법을 고려할 수 있어요. 일반적인 겉면 미백과는 다릅니다. 변색 정도와 원인에 따라 결과가 달라질 수 있어요."
   - question: "고름 주머니가 생겼다는데 무슨 뜻인가요?"
     answer: "죽은 치수의 세균이 뿌리 끝 밖으로 나가 염증을 만든 상태예요. 잇몸에 작은 구멍이 생겨 고름이 빠지기도 합니다. 통증이 덜하다고 방치하면 뼈가 계속 녹을 수 있어요."
+sources:
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
+updated: "2026-08-16"
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - chisu

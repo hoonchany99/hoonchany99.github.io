@@ -25,6 +25,10 @@ faqs:
     answer: "강도가 높은 편이지만 깨질 수 있어요. 특히 겉면에 도재를 덧입힌 형태에서는 그 층이 떨어질 수 있습니다. 이갈이가 심하면 재료 선택을 다시 상의하기도 해요."
   - question: "깨진 조각을 삼켰어요."
     answer: "대부분 자연히 배출됩니다. 다만 날카로운 조각이 목에 걸린 느낌이 있거나 기침·통증이 이어지면 병원 진료가 필요해요. 치과에도 상황을 알려 주세요."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
+  - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
+updated: "2026-08-16"
 relatedTerms:
   - bocheolmul-talrag
   - bocheol-gyohab-jojeong

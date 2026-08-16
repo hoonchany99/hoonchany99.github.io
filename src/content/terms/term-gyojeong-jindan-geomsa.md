@@ -25,6 +25,10 @@ faqs:
     answer: "대부분 진단 후에 결정합니다. 공간이 얼마나 부족한지, 앞니를 얼마나 움직여야 하는지, 옆모습을 어떻게 할지에 따라 달라져요. 검사 없이 미리 단정하기 어렵습니다."
   - question: "다른 곳과 계획이 다르면 어떻게 하나요?"
     answer: "같은 자료로도 접근이 달라질 수 있습니다. 왜 그 방법인지 근거를 들어 보시고 비교해 보세요. 판단이 어려우면 자료를 가지고 다른 의견을 들어 보는 것도 방법입니다."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+updated: "2026-08-16"
 relatedTerms:
   - aggyojeong-susul
   - gineungjeog-gyojeong-jangchi

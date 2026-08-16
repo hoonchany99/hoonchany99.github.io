@@ -26,6 +26,7 @@ faqs:
     answer: "부드러운 양치·소독 가글, 해당 부위 자극 줄이기가 도움이 될 수 있어요. 악화·삼키기·호흡 어려움은 바로 내원하세요."
   - question: "치관주위염 때 발치 바로 하나요?"
     answer: "급성 염증·부종이 심하면 먼저 소독·약물로 가라앉힌 뒤 발치하는 경우가 많아요. 상태에 따라 일정이 달라집니다."
+updated: "2026-08-16"
 relatedTerms:
   - wisdom-tooth
   - peri-implantitis

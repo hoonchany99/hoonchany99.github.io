@@ -25,6 +25,10 @@ faqs:
     answer: "치료 범위가 넓고 협조가 어려우면 그쪽이 나을 수 있습니다. 여러 번 힘든 경험을 반복하는 것보다 한 번에 끝내는 편이 나을 때가 있어요."
   - question: "언제 안 써도 되나요?"
     answer: "아이가 자라며 설명을 이해하고 협조하게 되면 필요 없어집니다. 그래서 첫 방문에서 익숙해지는 경험을 쌓는 것이 중요해요."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
+updated: "2026-08-16"
 relatedTerms:
   - pediatric-dentistry
   - soa-gugang-geomjin

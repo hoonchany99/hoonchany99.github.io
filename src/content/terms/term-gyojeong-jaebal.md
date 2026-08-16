@@ -25,6 +25,10 @@ faqs:
     answer: "고정식은 잊어버릴 걱정이 없지만 관리가 까다롭고 떨어질 수 있어요. 착탈식은 관리가 쉽지만 착용 시간에 결과가 달라집니다. 둘을 함께 쓰는 경우도 많습니다."
   - question: "유지장치를 잃어버렸어요."
     answer: "빨리 연락 주세요. 며칠만 지나도 치아가 움직여 새로 만든 장치가 안 맞을 수 있습니다. 시간이 지날수록 다시 맞추는 과정이 복잡해져요."
+sources:
+  - "https://www.aaoinfo.org/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
+updated: "2026-08-16"
 relatedTerms:
   - aggyojeong-susul
   - gineungjeog-gyojeong-jangchi

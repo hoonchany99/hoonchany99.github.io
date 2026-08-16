@@ -25,6 +25,10 @@ faqs:
     answer: "철이나 비타민B군이 부족한 경우라면 도움이 됩니다. 다만 확인 없이 무작정 드시기보다, 검사로 부족한지 보고 결정하시는 게 좋아요."
   - question: "옮나요?"
     answer: "일반적으로 사람 사이에 옮는 상태로 보지 않습니다. 원래 있던 균이 조건이 맞아 늘어난 경우가 많아요. 다만 수건 공유 등은 피하시는 게 좋습니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/lip-and-tongue-disorders"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560627/"
+updated: "2026-08-16"
 relatedTerms:
   - cavity
   - root-canal

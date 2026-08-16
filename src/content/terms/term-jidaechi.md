@@ -26,10 +26,10 @@ faqs:
   - question: "브릿지와 임플란트 중 뭐가 나을까요?"
     answer: "옆 치아 상태가 관건이에요. 옆 치아가 이미 크게 치료된 상태라면 브릿지가 합리적일 수 있습니다. 반대로 건강하다면 그 치아를 지키는 임플란트를 고려해요."
 relatedTerms:
+  - geodaechi
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

@@ -26,10 +26,10 @@ faqs:
   - question: "법랑진주가 충치인가요?"
     answer: "아니에요. 충치는 치아가 녹아 없어지는 병이고, 법랑진주는 오히려 법랑질이 더 만들어져 붙어 있는 상태입니다. 성질이 완전히 다릅니다."
 relatedTerms:
+  - beobrangjil-jeohyeongseongjeung
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

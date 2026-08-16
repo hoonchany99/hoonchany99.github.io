@@ -298,6 +298,20 @@ export const termNamesEn: Record<string, string> = {
   'jeojni-bbajineun-sigi': 'Exfoliation of Primary Teeth',
   'soa-jinjeongchiryo': 'Pediatric Sedation',
 
+  // 치아 발육 이상
+  'seoncheonseong-gyeolsonchi': 'Congenitally Missing Teeth',
+  yunghabchi: 'Fusion',
+  ssangsaengchi: 'Gemination',
+  geodaechi: 'Macrodontia',
+  waesochi: 'Microdontia',
+  chinaechi: 'Dens Invaginatus',
+  mangogchi: 'Dilaceration',
+  'beobrangjil-jeohyeongseongjeung': 'Enamel Hypoplasia',
+  mih: 'Molar Incisor Hypomineralisation',
+  bulsojeung: 'Dental Fluorosis',
+  'hwaiteu-seupas': 'White Spot Lesion',
+  'maedogseong-chia': 'Syphilitic Teeth',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

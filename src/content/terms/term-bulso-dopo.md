@@ -26,10 +26,10 @@ faqs:
   - question: "불소 치약만으로는 부족한가요?"
     answer: "매일 쓰는 치약이 기본이고 가장 중요합니다. 도포는 주기적으로 강하게 보강하는 개념이에요. 위험도가 높지 않다면 치약과 관리만으로 충분한 경우도 많습니다."
 relatedTerms:
+  - bulsojeung
   - fluoride
   - cavity
   - root-canal
-  - implant
 relatedPosts:
   []
 ---

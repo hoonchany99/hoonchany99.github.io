@@ -27,10 +27,10 @@ faqs:
   - question: "라미네이트가 떨어지면?"
     answer: "재부착이 가능한 경우도 있고, 재제작이 필요한 경우도 있어요. 이갈이·단단한 음식·교합 문제가 원인일 수 있습니다. 빠지면 바로 내원해 주세요."
 relatedTerms:
+  - hwaiteu-seupas
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   - slug: laminate-5427
     title: "라미네이트 색상, 어떻게 고를까? ‘티 안 나는 자연스러움’의 기준"

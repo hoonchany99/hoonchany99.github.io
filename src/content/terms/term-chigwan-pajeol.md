@@ -29,7 +29,7 @@ relatedTerms:
   - bocheolmul-pajeol
   - chigeun-pajeol
   - chigwan
-  - pail-pajeol
+  - chigwan-yeonjangsul
 relatedPosts:
   []
 ---

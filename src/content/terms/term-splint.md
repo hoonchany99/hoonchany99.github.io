@@ -26,10 +26,10 @@ faqs:
   - question: "스플린트 관리는 어떻게 하나요?"
     answer: "매일 세척·건조 보관, 뜨거운 물·직사광선 피하기, 정기 검진으로 마모·변형을 확인하세요. 깨지면 교체가 필요할 수 있어요."
 relatedTerms:
+  - chiju-seupeulrinteu
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

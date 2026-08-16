@@ -26,10 +26,10 @@ faqs:
   - question: "더 진행되는 걸 막으려면요?"
     answer: "부드러운 칫솔모로 힘을 빼고 닦아 주세요. 탄산·과일주스 같은 산성 음료 뒤에 바로 닦는 건 피하고, 물로 헹군 뒤 시간을 두는 게 좋습니다. 이갈이가 있다면 장치를 고려해 볼 수 있어요."
 relatedTerms:
+  - chia-mamojeung
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

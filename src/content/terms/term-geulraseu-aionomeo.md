@@ -26,10 +26,10 @@ faqs:
   - question: "불소가 계속 나오면 몸에 괜찮나요?"
     answer: "방출량이 매우 적어 문제가 되지 않습니다. 그 부위 치아 표면에 작용하는 정도예요. 오히려 이차 우식을 줄이는 데 도움이 될 수 있습니다."
 relatedTerms:
+  - peurobaiotigseu
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

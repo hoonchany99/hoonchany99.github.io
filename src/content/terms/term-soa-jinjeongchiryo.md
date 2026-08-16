@@ -27,9 +27,9 @@ faqs:
     answer: "가능하면 그렇게 합니다. 치료를 짧게 나누거나 설명과 연습으로 접근해요. 다만 범위가 넓거나 협조가 어려우면 오히려 여러 번 힘든 경험을 만들 수 있습니다."
 relatedTerms:
   - conservative-dentistry
+  - hangamchiryo-hwanja-chigwa
   - imsin-jung-chigwachiryo
   - noin-chigwa-jinjeong
-  - pediatric-dentistry
 relatedPosts:
   []
 ---

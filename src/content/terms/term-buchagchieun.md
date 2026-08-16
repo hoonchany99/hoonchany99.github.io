@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - bagriseong-chieunyeom
   - chieun
+  - chieun-bidae
   - chieun-chulhyeol
-  - chieun-jeoljesul
 relatedPosts:
   []
 ---

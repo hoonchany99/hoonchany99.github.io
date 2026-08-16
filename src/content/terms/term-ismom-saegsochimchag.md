@@ -26,10 +26,10 @@ faqs:
   - question: "어떤 경우에 검사를 받아야 하나요?"
     answer: "한 부위만 검고 점점 커지거나, 경계가 불규칙하거나, 표면이 솟아오른 경우입니다. 이런 변화는 다른 원인을 확인해 봐야 합니다."
 relatedTerms:
+  - gugang-jeommag-melranin-saegsochimchag
   - gum-graft
   - ismom-susul
   - cavity
-  - root-canal
 relatedPosts:
   []
 ---

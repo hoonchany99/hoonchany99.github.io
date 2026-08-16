@@ -29,7 +29,7 @@ relatedTerms:
   - chiju-susul-hu-gwanri
   - chiju-jaesaengsul
   - chiju-nongyang
-  - chiju-sopasul
+  - chiju-seupeulrinteu
 relatedPosts:
   []
 ---

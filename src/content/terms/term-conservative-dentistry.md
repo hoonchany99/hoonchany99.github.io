@@ -25,10 +25,10 @@ faqs:
   - question: "보존치료 비용은?"
     answer: "범위·방법(레진~크라운·신경치료)에 따라 달라져요. 치료 전 범위와 예상 비용을 같이 확인해 드려요."
 relatedTerms:
+  - chijogol-bojonsul
+  - hangamchiryo-hwanja-chigwa
   - imsin-jung-chigwachiryo
   - root-canal
-  - root-canal-re
-  - soa-jinjeongchiryo
 relatedPosts:
   - slug: tooth
     title: "자연치아살리기, 살리는게 정말 맞을까요?"

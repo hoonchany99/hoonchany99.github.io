@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - dangnyo-hwanja-chigwa
   - goldagongjeung-hwanja-chigwa
+  - hangamchiryo-hwanja-chigwa
   - cheos-chigwa-bangmun
-  - chigwa-gongpojeung
 relatedPosts:
   []
 ---

@@ -27,9 +27,9 @@ faqs:
     answer: "역할에 맞게 모양이 달라요. 앞니는 자르기 좋게 끌처럼 납작하고, 어금니는 갈기 좋게 넓은 면에 교두와 열구가 있습니다. 그래서 충치가 잘 생기는 자리도 서로 달라요."
 relatedTerms:
   - chigwan-pajeol
+  - chigwan-yeonjangsul
   - pericoronitis
   - cavity
-  - root-canal
 relatedPosts:
   []
 ---

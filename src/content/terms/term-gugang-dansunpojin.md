@@ -29,7 +29,7 @@ relatedTerms:
   - dansun-balchi
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban
-  - gugang-isanggamgagjeung
+  - gugang-diseukinejia
 relatedPosts:
   []
 ---

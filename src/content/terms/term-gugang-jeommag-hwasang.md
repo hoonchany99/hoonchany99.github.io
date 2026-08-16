@@ -26,10 +26,10 @@ faqs:
   - question: "연고를 발라야 하나요?"
     answer: "대개 필요 없습니다. 통증이 심하면 덮어 주는 제품이나 가글을 쓰기도 해요. 범위가 넓거나 오래가면 확인받으세요."
 relatedTerms:
+  - gugang-jeommag-melranin-saegsochimchag
   - gugang-jeommagha-seomyujeung
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban
-  - gugang-dansunpojin
 relatedPosts:
   []
 ---

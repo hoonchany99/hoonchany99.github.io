@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - bigayeogjeog-chisuyeom
   - chisu
+  - chisu-byeonseong
   - chisu-goesa
-  - chisu-seoghoehwa
 relatedPosts:
   []
 ---

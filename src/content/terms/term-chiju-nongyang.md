@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - chieun-nongyang
   - chiju-jaesaengsul
+  - chiju-seupeulrinteu
   - chiju-sopasul
-  - chiju-susul-hu-gwanri
 relatedPosts:
   []
 ---

@@ -26,10 +26,10 @@ faqs:
   - question: "입천장이 자꾸 헐어요."
     answer: "틀니가 눌러 생기는 경우가 흔합니다. 곰팡이 감염일 수도 있어요. 틀니를 끼고 자는 습관이 있으면 특히 그렇습니다. 원인을 확인해 보시는 게 좋아요."
 relatedTerms:
+  - gugae-hwagjang-jangchi
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

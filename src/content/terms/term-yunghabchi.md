@@ -26,10 +26,10 @@ faqs:
   - question: "모양을 바꿀 수 있나요?"
     answer: "앞니라면 레진으로 형태를 다듬어 자연스럽게 보이게 하기도 합니다. 다만 신경 위치와 배열을 함께 봐야 해서 상태에 따라 달라요."
 relatedTerms:
+  - honhabchiyeolgi-munje
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

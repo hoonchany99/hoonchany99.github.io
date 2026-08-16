@@ -29,7 +29,7 @@ relatedTerms:
   - apical-periodontitis
   - apicoectomy
   - chigeun
-  - chigeun-pajeol
+  - chigeun-heubsu
 relatedPosts:
   []
 ---

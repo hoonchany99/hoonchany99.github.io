@@ -27,9 +27,9 @@ faqs:
     answer: "치료 목적으로 필요한 경우와 심미 목적인 경우의 적용이 다를 수 있어요. 진단명과 시술 범위에 따라 달라지므로, 계획 단계에서 확인해 드리는 게 정확합니다."
 relatedTerms:
   - apicoectomy
+  - soa-seolsodae-jeoljesul
   - bagriseong-chieunyeom
   - buchagchieun
-  - chieun
 relatedPosts:
   []
 ---

@@ -26,10 +26,10 @@ faqs:
   - question: "커지고 있어요."
     answer: "계속 자극받고 있을 가능성이 큽니다. 다만 빠르게 커지거나 색이 변하거나 헐면 다른 원인을 확인해야 해요."
 relatedTerms:
+  - chieun-seomyujongjeung
   - gugang-jeommagha-seomyujeung
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban
-  - gugang-dansunpojin
 relatedPosts:
   []
 ---

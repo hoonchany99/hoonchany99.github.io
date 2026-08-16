@@ -29,7 +29,7 @@ relatedTerms:
   - hachijosingyeong
   - impeulranteu-singyeong-sonsang
   - seolsingyeong-sonsang
-  - chijogol
+  - chijo-jegeosul
 relatedPosts:
   []
 ---

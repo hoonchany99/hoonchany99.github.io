@@ -26,10 +26,10 @@ faqs:
   - question: "힐링 어버트먼트는 뭔가요?"
     answer: "잇몸이 아물 모양을 잡아 주는 임시 부품이에요. 수술 후 일정 기간 끼워 두었다가 최종 부품으로 바꿉니다. 이 시기에는 그 부위를 부드럽게 닦아 주세요."
 relatedTerms:
+  - hilring-eobeoteumeonteu
   - immediate-implant
   - impeulranteu-1cha-susul
   - impeulranteu-2cha-susul
-  - impeulranteu-geongangboheom
 relatedPosts:
   []
 ---

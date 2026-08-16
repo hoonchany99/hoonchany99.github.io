@@ -27,9 +27,9 @@ faqs:
     answer: "기대한 만큼 재생되지 않아도 염증은 정리된 상태가 됩니다. 이후 일반적인 유지관리로 이어가요. 상황에 따라 다른 방법을 다시 검토합니다."
 relatedTerms:
   - chiju-nongyang
+  - chiju-seupeulrinteu
   - chiju-sopasul
   - chiju-susul-hu-gwanri
-  - chiju-yujigwanri
 relatedPosts:
   []
 ---

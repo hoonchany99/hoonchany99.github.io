@@ -27,9 +27,9 @@ faqs:
     answer: "처음 며칠은 뻐근하고 말하기 불편할 수 있어요. 대개 적응합니다. 잇몸이 헐거나 특정 부위가 계속 아프면 장치를 조정해야 하니 알려 주세요."
 relatedTerms:
   - aggyojeong-susul
+  - gonggan-yuji-jangchi
+  - gugae-hwagjang-jangchi
   - gyojeong-balchi
-  - gyojeong-jaebal
-  - gyojeong-jindan-geomsa
 relatedPosts:
   []
 ---

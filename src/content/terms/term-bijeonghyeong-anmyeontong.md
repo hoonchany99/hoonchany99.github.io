@@ -27,9 +27,9 @@ faqs:
     answer: "완전히 없애기보다 조절하며 지내는 경우가 많습니다. 약물로 통증 강도를 낮추면 일상이 크게 나아질 수 있어요."
 relatedTerms:
   - bijeonghyeong-chitong
+  - anmyeon-bidaeching
   - gugangaganmyeon-goljeol
   - cavity
-  - root-canal
 relatedPosts:
   []
 ---

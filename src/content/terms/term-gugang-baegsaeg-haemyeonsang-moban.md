@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - gugang-alrereugi-jeunghugun
   - gugang-dansunpojin
+  - gugang-diseukinejia
   - gugang-isanggamgagjeung
-  - gugang-jeommag-hwasang
 relatedPosts:
   []
 ---

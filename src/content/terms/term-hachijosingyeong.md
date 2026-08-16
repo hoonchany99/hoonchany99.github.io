@@ -27,9 +27,9 @@ faqs:
     answer: "한쪽씩 마취합니다. 양쪽을 동시에 하면 입술 감각이 전혀 없어 불편하고 다칠 위험이 커요. 그래서 나눠서 치료하는 경우가 많습니다."
 relatedTerms:
   - hachijosingyeong-sonsang
+  - chijo-jegeosul
   - chijogol
-  - impeulranteu-singyeong-sonsang
-  - root-canal
+  - chijogol-bojonsul
 relatedPosts:
   []
 ---

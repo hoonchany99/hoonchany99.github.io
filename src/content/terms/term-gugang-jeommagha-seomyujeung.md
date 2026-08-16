@@ -27,9 +27,9 @@ faqs:
     answer: "입이 잘 안 벌어지면 치료 자체가 어려워집니다. 그래서 진행되기 전에 필요한 치료를 해 두는 것이 좋아요."
 relatedTerms:
   - gugang-jeommag-hwasang
+  - gugang-jeommag-melranin-saegsochimchag
   - gugang-seomyujong
-  - golmagha-nongyang
-  - gugang-alrereugi-jeunghugun
+  - chieun-seomyujongjeung
 relatedPosts:
   []
 ---

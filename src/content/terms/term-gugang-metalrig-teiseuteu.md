@@ -29,7 +29,7 @@ relatedTerms:
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban
   - gugang-dansunpojin
-  - gugang-isanggamgagjeung
+  - gugang-diseukinejia
 relatedPosts:
   []
 ---

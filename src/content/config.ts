@@ -25,7 +25,10 @@ const terms = defineCollection({
     termSlug: z.string(),
     /** 영문명 — 한국 제도 용어 등 대응어가 없으면 비운다 */
     en: z.string().optional(),
+    /** 검색 매칭용 키워드 — 블로그 태그에서 뽑아 화면에는 노출하지 않는다 */
     aliases: z.array(z.string()).optional(),
+    /** 진짜 동의어 — 화면 표시와 alternateName에 쓴다 */
+    synonyms: z.array(z.string()).default([]),
     definition: z.string(),
     detail: z.string(),
     tier: z.enum(['A', 'B']).optional(),

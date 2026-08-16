@@ -6,6 +6,7 @@ import { termDetailsBySlug } from '../../src/data/termDetails.ts';
 import { termFaqsBySlug } from '../../src/data/termFaqs.ts';
 import { authoredBySlug } from '../../src/data/termsAuthored.ts';
 import { termNamesEn } from '../../src/data/termNamesEn.ts';
+import { termSynonyms } from '../../src/data/termSynonyms.ts';
 import { compareTermNames } from '../../src/utils/korean.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -32,7 +33,10 @@ export function writeTermsIndex(): number {
       definition: truncateDefinition(
         authoredBySlug[term.slug]?.definition ?? term.definition
       ),
-      aliases: term.aliases.slice(0, 5),
+      // 검색 매칭용 — 화면에는 쓰지 않으므로 넉넉히 싣는다
+      aliases: term.aliases.slice(0, 10),
+      // 카드에 표시하는 진짜 동의어
+      synonyms: termSynonyms[term.slug] ?? [],
     }))
     .sort((a, b) => compareTermNames(a.name, b.name));
 

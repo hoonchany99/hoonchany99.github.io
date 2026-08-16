@@ -7,7 +7,10 @@ export interface TermItem {
   /** 영문명 — 한국 제도 용어 등 대응어가 없으면 없음 */
   en?: string;
   definition: string;
+  /** 검색 매칭용 키워드 — 화면에는 쓰지 않는다 */
   aliases: string[];
+  /** 카드에 표시하는 진짜 동의어 */
+  synonyms?: string[];
 }
 
 const PAGE_SIZE = 48;
@@ -72,7 +75,13 @@ export function TermsEncyclopedia() {
       if (chosung && term.chosungGroup !== chosung) return false;
       if (!q) return true;
       const haystack = normalizeQuery(
-        [term.name, term.en ?? '', term.definition, ...term.aliases].join(' ')
+        [
+          term.name,
+          term.en ?? '',
+          term.definition,
+          ...term.aliases,
+          ...(term.synonyms ?? []),
+        ].join(' ')
       );
       return haystack.includes(q);
     });
@@ -83,7 +92,7 @@ export function TermsEncyclopedia() {
   const hasMore = filtered.length > visibleCount;
 
   const synonyms = (term: TermItem) =>
-    term.aliases.filter((a) => a !== term.name).slice(0, 3);
+    (term.synonyms ?? []).filter((a) => a !== term.name).slice(0, 3);
 
   if (loading) {
     return (

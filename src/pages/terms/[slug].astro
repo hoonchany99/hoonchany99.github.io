@@ -15,7 +15,12 @@ export const getStaticPaths = (async () => {
 const { term } = Astro.props;
 const publicSlug = term.data.termSlug;
 
-const synonymList = (term.data.aliases ?? []).filter((a) => a !== term.data.name);
+/**
+ * aliases는 블로그 태그에서 뽑은 검색 키워드라 "레진가격" 같은 검색어와
+ * "충치 → 법랑질" 처럼 다른 개념까지 섞여 있다. 검색에만 쓰고,
+ * 화면과 alternateName에는 선별한 synonyms만 내보낸다.
+ */
+const synonymList = (term.data.synonyms ?? []).filter((a) => a !== term.data.name);
 const alternateNames = [term.data.en, ...synonymList].filter(Boolean);
 
 const relatedTermEntries = (

@@ -8,6 +8,7 @@ import { termDetailsBySlug } from '../src/data/termDetails.ts';
 import { authoredBySlug } from '../src/data/termsAuthored.ts';
 import { excludedSlugs } from '../src/data/termsExcluded.ts';
 import { termNamesEn } from '../src/data/termNamesEn.ts';
+import { termSynonyms } from '../src/data/termSynonyms.ts';
 import { writeTermsIndex } from './lib/writeTermsIndex.ts';
 
 /** 검색·트래픽 우선순위 (기존 md tier 유지용) */
@@ -250,6 +251,9 @@ function renderTermFile(
     `tier: ${tier}`,
     'aliases:',
     ...term.aliases.map((a) => `  - ${yamlQuote(a)}`),
+    ...(termSynonyms[term.slug]?.length
+      ? ['synonyms:', ...termSynonyms[term.slug].map((s) => `  - ${yamlQuote(s)}`)]
+      : []),
     `definition: ${toYamlBlock(resolveDefinition(term))}`,
     `detail: ${toYamlBlock(detail)}`,
     'faqs:',

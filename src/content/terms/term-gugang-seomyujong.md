@@ -1,0 +1,39 @@
+---
+name: "구강 섬유종"
+termSlug: gugang-seomyujong
+en: "Irritation Fibroma"
+tier: B
+aliases:
+  - "구강 섬유종"
+definition: "구강 섬유종은 반복된 자극으로 생긴 단단한 양성 혹이에요. 볼 안쪽 씹히는 자리에 흔합니다."
+detail: |
+  같은 자리를 반복해서 씹거나 자극하면 그 부위 조직이 두꺼워집니다. 이게 굳어 단단한 혹이 되는 것이 섬유종이에요. 진짜 종양이라기보다 반응성 증식에 가깝습니다.
+  
+  볼 안쪽 위아래 치아가 만나는 선, 혀 가장자리, 입술 안쪽에 잘 생깁니다. 색은 주변 점막과 비슷하고, 표면은 매끈하며 만지면 단단해요. 통증은 대개 없습니다.
+  
+  원인이 분명한 경우가 많습니다. 볼을 자주 씹는 습관, 날카로운 치아나 보철물, 맞지 않는 틀니예요. 그래서 원인을 함께 찾습니다.
+  
+  제거하면 대개 끝납니다. 다만 원인 자극이 남아 있으면 같은 자리에 다시 생겨요. 그래서 날카로운 부위를 다듬거나 틀니를 조정하는 것을 함께 합니다.
+faqs:
+  - question: "암은 아닌가요?"
+    answer: "양성 병변입니다. 반복 자극에 대한 반응으로 생겨요. 다만 확인을 위해 제거한 조직을 검사하는 경우가 있습니다."
+  - question: "왜 생겼나요?"
+    answer: "볼을 자주 씹거나, 날카로운 치아나 보철물, 맞지 않는 틀니가 같은 자리를 반복 자극한 결과인 경우가 많습니다."
+  - question: "제거하면 재발하나요?"
+    answer: "원인 자극이 남아 있으면 같은 자리에 다시 생깁니다. 그래서 날카로운 부위를 다듬거나 틀니를 조정하는 것을 함께 해요."
+  - question: "꼭 제거해야 하나요?"
+    answer: "작고 불편하지 않으면 지켜보기도 합니다. 자꾸 씹히거나 커지면 제거를 검토해요. 씹히면 더 커지는 악순환이 생깁니다."
+  - question: "커지고 있어요."
+    answer: "계속 자극받고 있을 가능성이 큽니다. 다만 빠르게 커지거나 색이 변하거나 헐면 다른 원인을 확인해야 해요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-lesions"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563255/"
+updated: "2026-08-16"
+relatedTerms:
+  - chieun-seomyujongjeung
+  - gugang-jeommagha-seomyujeung
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
+relatedPosts:
+  []
+---

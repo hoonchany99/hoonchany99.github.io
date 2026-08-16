@@ -1,0 +1,39 @@
+---
+name: "임플란트 신경 손상"
+termSlug: impeulranteu-singyeong-sonsang
+en: "Implant Nerve Injury"
+tier: B
+aliases:
+  - "임플란트 신경 손상"
+definition: "임플란트 신경 손상은 아래턱 신경이 자극받아 입술·턱에 저림이 남는 합병증이에요. 드물지만 미리 위치를 확인해 예방합니다."
+detail: |
+  아래턱 뼈 속에는 하치조신경이 지나갑니다. 아랫입술과 턱 피부 감각을 담당하는 신경이에요. 아래 어금니 부위에 임플란트를 심을 때 이 신경과의 거리가 중요합니다.
+  
+  그래서 수술 전에 CT로 위치를 확인합니다. 신경관까지의 거리를 재고 안전 여유를 두어 픽스처 길이와 위치를 정해요. 이 과정이 예방의 핵심입니다.
+  
+  증상은 마취가 풀린 뒤에도 저림이 이어지는 것으로 나타납니다. 입술이나 턱이 얼얼하거나, 감각이 둔하거나, 따끔거릴 수 있어요. 대부분 한쪽에만 생깁니다.
+  
+  경과는 원인에 따라 다릅니다. 부기나 압박에 의한 일시적 자극이면 시간이 지나며 회복되는 경우가 많아요. 직접 손상이면 회복이 더디거나 일부 남을 수 있습니다. 빨리 확인할수록 대응 선택지가 많으니 저림이 이어지면 바로 알려 주세요.
+faqs:
+  - question: "수술 후 입술이 저린데 언제까지 기다려야 하나요?"
+    answer: "마취가 풀릴 시간이 지났는데도 저림이 이어지면 기다리지 말고 알려 주세요. 원인에 따라 조기 대응이 결과를 바꿀 수 있습니다."
+  - question: "저절로 회복되나요?"
+    answer: "부기나 압박에 의한 일시적 자극이면 시간이 지나며 회복되는 경우가 많습니다. 다만 직접 손상이면 더디거나 일부 남을 수 있어요. 원인 확인이 먼저입니다."
+  - question: "예방할 수 있나요?"
+    answer: "수술 전 CT로 신경관 위치를 확인하고 안전 거리를 두는 것이 핵심입니다. 아래 어금니 부위라면 이 검사를 권해 드리는 이유예요."
+  - question: "얼마나 흔한가요?"
+    answer: "드문 합병증입니다. 다만 생기면 일상에 영향이 커서 미리 설명드리고 예방에 신경 씁니다. 위치와 뼈 높이에 따라 위험도가 달라져요."
+  - question: "저리면 임플란트를 빼야 하나요?"
+    answer: "경우에 따라 다릅니다. 픽스처가 신경을 직접 누르고 있다면 제거하거나 짧은 것으로 교체를 검토해요. 상태를 확인한 뒤 판단합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
+relatedTerms:
+  - hachijosingyeong-sonsang
+  - immediate-implant
+  - impeulranteu-1cha-susul
+  - impeulranteu-2cha-susul
+relatedPosts:
+  []
+---

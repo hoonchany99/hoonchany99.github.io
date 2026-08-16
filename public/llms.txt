@@ -1,14 +1,19 @@
 # 서울대 윤원장의 치과사전
 
-> 서울대 치의학대학원 출신 치과의사가 직접 작성하는 치과 건강 정보 블로그.
+> 서울대 치의학대학원 출신 치과의사가 운영하는 치과 건강 정보 사이트.
 > 진료실에서 미처 전하지 못한 치아 이야기를 정확하고 쉽게 전합니다.
-> 충치, 임플란트, 신경치료, 사랑니, 라미네이트, 스케일링 등 100편 이상의 치과 정보 글을 제공합니다.
+> 두 가지 축으로 구성됩니다 — 증상·케이스 중심의 블로그 글 120편 이상,
+> 그리고 용어 뜻과 자주 묻는 질문을 짧게 정리한 치과사전 340항목.
 
 이 사이트는 서울대학교 치의학대학원 출신 치과의사 윤원장이 운영하며,
 환자들이 진료실에서 자주 묻는 질문을 기반으로 치과 건강 정보를 알기 쉽게 정리합니다.
-모든 콘텐츠는 전문 치과의사가 직접 작성하며, 의학적 근거에 기반합니다.
 
-Last-Updated: 2026-03-20
+콘텐츠 유형별 작성 방식이 다릅니다.
+- 블로그 글: 치과의사 윤원장이 직접 작성
+- 치과사전: 치과 문헌과 공신력 있는 기관 자료를 근거로 정리한 참고 항목.
+  각 항목 하단에 확인에 사용한 참고 자료를 표기합니다.
+
+Last-Updated: 2026-08-16
 
 Important notes:
 - This llms.txt follows the llmstxt.org proposed format.
@@ -19,9 +24,46 @@ Important notes:
 ## 주요 페이지
 
 - [홈](https://doctoryoon.kr/): 최신 치과 건강 글 모아보기와 사이트 소개
+- [치과사전](https://doctoryoon.kr/terms/): 치과 용어 340개의 뜻과 자주 묻는 질문. 검색·초성으로 탐색
 - [블로그](https://doctoryoon.kr/posts/): 충치, 임플란트, 신경치료, 사랑니, 라미네이트, 스케일링 등 100편 이상의 치과 정보 글 목록
 - [Q&A](https://doctoryoon.kr/qna/): 치과 관련 자주 묻는 질문과 직접 질문을 남길 수 있는 페이지
 - [소개](https://doctoryoon.kr/about/): 서울대학교 치의학대학원 출신 윤원장의 소개와 블로그 운영 철학
+
+## 치과사전
+
+용어 340개를 한 줄 정의, 3~4단락 설명, 환자가 실제로 묻는 질문 5개로 정리했습니다.
+각 항목에는 영문명과 내용 확인에 사용한 참고 자료가 함께 표기되어 있습니다.
+
+- [치과사전 전체 목록](https://doctoryoon.kr/terms/): 340개 용어를 검색·초성으로 탐색
+- [용어 색인 JSON](https://doctoryoon.kr/terms-index.json): 340개 전체의 slug, 한글명, 영문명, 한 줄 정의, 별칭을 담은 기계 판독용 파일
+
+### 핵심 용어
+
+- [라미네이트](https://doctoryoon.kr/terms/laminate/): 라미네이트는 앞니에 얇은 세라믹 판을 붙여 모양·색을 바꾸는 심미 치료예요.
+- [매복치](https://doctoryoon.kr/terms/impacted-tooth/): 매복치는 턱뼈·잇몸 안에 갇혀 제대로 나오지 못한 치아예요.
+- [부정교합](https://doctoryoon.kr/terms/malocclusion/): 부정교합은 치아 배열·맞물림이 이상한 상태예요.
+- [사랑니](https://doctoryoon.kr/terms/wisdom-tooth/): 사랑니는 10대 후반~20대에 나는 어금니예요.
+- [세렉](https://doctoryoon.kr/terms/cerec/): 세렉(CEREC)은 구강 스캔·CAD/CAM으로 인레이·크라운 등을 당일 또는 단기간에 제작하는 디지털 보철 방식이에요.
+- [스케일링](https://doctoryoon.kr/terms/scaling/): 스케일링은 치석·치태를 제거하는 치료예요.
+- [신경치료](https://doctoryoon.kr/terms/root-canal/): 신경치료는 치아 신경에 염증이 생겼을 때 신경을 제거하고 소독·충전하는 치료예요.
+- [유치](https://doctoryoon.kr/terms/primary-tooth/): 유치는 어릴 때 나는 임시 치아예요.
+- [인레이](https://doctoryoon.kr/terms/inlay/): 인레이는 레진으로는 부족할 때, 맞춤 보철물을 끼워 넣는 치료예요.
+- [인비절라인](https://doctoryoon.kr/terms/invisalign/): 인비절라인은 투명한 맞춤 장치로 치아를 교정하는 방법이에요.
+- [임플란트](https://doctoryoon.kr/terms/implant/): 임플란트는 빠진 자리에 티타늄 기둥을 심고 인공치를 연결하는 치료예요.
+- [재신경치료](https://doctoryoon.kr/terms/root-canal-re/): 재신경치료는 신경치료 후에도 통증·염증이 남거나 다시 생겼을 때, 근관을 다시 열어 소독·충전하는 치료예요.
+- [정기검진](https://doctoryoon.kr/terms/dental-checkup/): 정기검진은 증상이 없어도 치아·잇몸 상태를 확인하는 검진이에요.
+- [즉시임플란트](https://doctoryoon.kr/terms/immediate-implant/): 즉시임플란트는 발치한 당일 같은 자리에 임플란트를 심는 방법이에요.
+- [충치](https://doctoryoon.kr/terms/cavity/): 충치는 세균이 만든 산으로 치아가 서서히 녹는 질환이에요.
+- [치관주위염](https://doctoryoon.kr/terms/pericoronitis/): 치관주위염은 부분적으로 난 치아(주로 사랑니) 주변 잇몸에 염증이 생기는 상태예요.
+- [치석](https://doctoryoon.kr/terms/calculus/): 치석은 입안 세균막(치태)이 굳어진 것이에요.
+- [치아 크랙](https://doctoryoon.kr/terms/cracked-tooth/): 치아 크랙은 치아에 생긴 미세한 금이나 균열이에요.
+- [치아미백](https://doctoryoon.kr/terms/whitening/): 치아미백은 약제로 치아 색을 밝게 하는 시술이에요.
+- [치주염](https://doctoryoon.kr/terms/periodontitis/): 치주염은 잇몸뿐 아니라 치아를 지지하는 뼈까지 염증이 진행된 질환이에요.
+- [크라운](https://doctoryoon.kr/terms/crown/): 크라운은 손상이 크거나 신경치료한 치아를 통째로 감싸 보호하는 씌우개예요.
+- [턱관절장애](https://doctoryoon.kr/terms/tmd/): 턱관절장애(TMD)는 턱관절·주변 근육에 통증·소리·개구 제한 등이 생기는 상태예요.
+- [틀니](https://doctoryoon.kr/terms/denture/): 틀니는 여러 치아를 한 번에 대체하는 탈착식 보철이에요.
+- [All-on-4](https://doctoryoon.kr/terms/all-on-4/): All-on-4는 임플란트 4개 정도로 턱 전체 치아를 고정하는 전체 임플란트 치료 개념이에요.
+- [GBR](https://doctoryoon.kr/terms/gbr/): GBR(골유도재생술)은 임플란트·발치 자리 등에서 뼈가 부족할 때, 뼈 이식재와 막으로 공간을 만들어 뼈를 키우는 술식이에요.
 
 ## 임플란트
 

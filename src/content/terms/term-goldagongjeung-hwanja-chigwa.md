@@ -1,0 +1,39 @@
+---
+name: "골다공증 환자 치과"
+termSlug: goldagongjeung-hwanja-chigwa
+en: "Osteoporosis and Dental Care"
+tier: B
+aliases:
+  - "골다공증 환자 치과"
+definition: "골다공증이 있어도 대부분의 치과 치료를 받으실 수 있어요. 다만 복용 중인 약에 따라 준비 과정이 달라집니다."
+detail: |
+  골다공증 자체보다 중요한 건 어떤 약을 쓰고 계신지예요. 뼈 흡수를 억제하는 약(비스포스포네이트, 데노수맙 등)은 드물게 턱뼈 괴사와 연관되는 것으로 보고됩니다. 그래서 약 이름과 복용 기간, 먹는 약인지 주사인지를 확인합니다.
+  
+  골다공증 목적의 일반적인 용량에서는 위험이 매우 낮은 것으로 알려져 있어요. 암 치료에 쓰는 고용량과는 위험도가 크게 다릅니다. 지나치게 걱정하실 필요는 없지만, 알려 주시는 건 꼭 필요해요.
+  
+  치료 순서를 조정하면 훨씬 안전해집니다. 약을 시작하기 전이라면 검진을 받아 문제 될 치아를 미리 정리해 두는 게 좋아요. 이미 복용 중이라면 뼈를 건드리는 치료를 최소화하는 방향으로 계획합니다.
+  
+  턱뼈가 줄어드는 것 자체는 골다공증보다 치아 상실과 잇몸병의 영향이 큽니다. 치아를 오래 유지하는 게 턱뼈를 지키는 방법이기도 해요. 정기 검진과 잇몸 관리가 그래서 중요합니다.
+faqs:
+  - question: "골다공증이 있으면 임플란트를 못 하나요?"
+    answer: "대부분 가능합니다. 골다공증이 곧 임플란트 금기는 아니에요. 다만 복용 중인 약과 기간에 따라 신중하게 접근하는 경우가 있어서, 처방전이나 약 이름을 가져오시면 도움이 됩니다."
+  - question: "치과에 갈 때 뭘 준비하면 되나요?"
+    answer: "드시는 약 이름과 시작 시점, 먹는 약인지 주사인지 알려 주세요. 최근 골밀도 검사 결과가 있으면 참고가 됩니다. 처방하신 선생님과 상의가 필요한 경우도 있어요."
+  - question: "골다공증 때문에 잇몸뼈도 녹나요?"
+    answer: "잇몸뼈 소실은 잇몸병과 치아 상실의 영향이 더 큽니다. 골다공증이 영향을 준다는 보고가 있지만, 직접적인 원인은 대개 치주 염증이에요. 잇몸 관리가 먼저입니다."
+  - question: "칼슘이나 비타민D를 먹으면 치아에도 좋나요?"
+    answer: "이미 만들어진 치아를 단단하게 만들지는 못합니다. 다만 잇몸뼈 건강에는 도움이 될 수 있어요. 복용은 내과·정형외과 처방에 따르시는 게 좋습니다."
+  - question: "발치를 미루는 게 나을까요?"
+    answer: "오히려 반대인 경우가 많아요. 문제 있는 치아를 두면 염증이 커져서 나중에 더 어려운 상황이 됩니다. 약을 시작하기 전이라면 미리 정리해 두는 쪽을 권합니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/osteoporosis-medications"
+  - "https://www.merckmanuals.com/professional/dental-disorders/dental-emergencies/medication-related-osteonecrosis-of-the-jaw-mronj"
+updated: "2026-08-16"
+relatedTerms:
+  - dangnyo-hwanja-chigwa
+  - hangamchiryo-hwanja-chigwa
+  - simhyeolgwan-hwanja-chigwa
+  - cheos-chigwa-bangmun
+relatedPosts:
+  []
+---

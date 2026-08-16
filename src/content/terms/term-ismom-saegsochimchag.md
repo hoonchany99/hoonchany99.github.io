@@ -1,0 +1,39 @@
+---
+name: "잇몸 색소침착"
+termSlug: ismom-saegsochimchag
+en: "Gingival Pigmentation"
+tier: B
+aliases:
+  - "잇몸 색소침착"
+definition: "잇몸 색소침착은 잇몸이 검거나 갈색으로 보이는 상태예요. 대부분 타고난 것이고 건강과는 무관합니다."
+detail: |
+  잇몸 색은 사람마다 다릅니다. 멜라닌 색소가 많으면 검거나 갈색을 띠어요. 이건 피부색이 다른 것과 같은 자연스러운 차이이고, 잇몸 건강과는 관계가 없습니다.
+  
+  다만 후천적으로 생기는 경우도 있어요. 흡연은 잇몸 색소침착과 관련이 있는 것으로 알려져 있습니다. 금속 보철물 주변이 회색으로 비쳐 보이는 것도 흔한데, 이건 색소가 아니라 금속이 비치는 현상이에요. 일부 약물에서도 나타납니다.
+  
+  구분해야 할 것이 있습니다. 원래부터 있던 색이 아니라 최근에 생겼거나, 한 부위만 검고 점점 커지거나, 경계가 불규칙하면 다르게 봅니다. 이런 경우 확인이 필요해요.
+  
+  심미적으로 신경 쓰이시면 색소를 제거하는 처치가 있습니다. 다만 시간이 지나며 다시 나타나는 경우가 있고, 흡연을 지속하면 특히 그래요. 건강 문제가 아니라 선택 사항이라는 점을 알고 결정하시면 됩니다.
+faqs:
+  - question: "잇몸이 검은데 병인가요?"
+    answer: "대부분 타고난 멜라닌 색소로 건강과 무관합니다. 피부색이 다른 것과 같은 차이예요. 다만 최근에 생겼거나 한 부위만 점점 커지면 확인이 필요합니다."
+  - question: "담배 때문일 수도 있나요?"
+    answer: "흡연은 잇몸 색소침착과 관련이 있는 것으로 알려져 있습니다. 금연 후 시간이 지나며 옅어지는 경우가 있어요."
+  - question: "보철물 주변이 회색으로 비쳐요."
+    answer: "색소침착이 아니라 안쪽 금속이 비치는 현상일 수 있습니다. 잇몸이 얇으면 더 잘 보여요. 신경 쓰이면 금속을 쓰지 않는 재료로 교체를 검토합니다."
+  - question: "없앨 수 있나요?"
+    answer: "색소를 제거하는 처치가 있습니다. 다만 시간이 지나며 다시 나타나는 경우가 있어요. 건강 문제가 아니라 심미적 선택이라는 점을 고려해 결정하시면 됩니다."
+  - question: "어떤 경우에 검사를 받아야 하나요?"
+    answer: "한 부위만 검고 점점 커지거나, 경계가 불규칙하거나, 표면이 솟아오른 경우입니다. 이런 변화는 다른 원인을 확인해 봐야 합니다."
+sources:
+  - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
+relatedTerms:
+  - gugang-jeommag-melranin-saegsochimchag
+  - gum-graft
+  - ismom-susul
+  - cavity
+relatedPosts:
+  []
+---

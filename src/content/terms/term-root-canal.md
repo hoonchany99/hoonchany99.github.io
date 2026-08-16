@@ -1,0 +1,58 @@
+---
+name: "신경치료"
+termSlug: root-canal
+en: "Root Canal Treatment"
+tier: A
+aliases:
+  - "신경치료"
+  - "재신경치료"
+  - "신경치료후통증"
+  - "근관"
+  - "치수염"
+  - "치근단"
+definition: "신경치료는 치아 신경에 염증이 생겼을 때 신경을 제거하고 소독·충전하는 치료예요. 치아를 살리는 마지막 단계 중 하나라고 보시면 됩니다."
+detail: |
+  신경치료는 충치·외상·균열 등으로 치아 신경(치수)에 염증이 생겼을 때, 신경을 제거하고 근관을 소독·충전하는 치료예요. "치아를 살리는" 마지막 단계 중 하나라고 생각하시면 됩니다.
+  
+  보통 1~3회 이상 나뉠 수 있어요. X-ray·근관 길이 측정·소독·충전 과정을 거칩니다. 신경을 제거한 치아는 약해질 수 있어요. 완료 후 크라운으로 감싸 보호하는 경우가 많습니다.
+  
+  재신경치료가 필요한 경우도 있어요. 씹을 때 깊은 통증, 잇몸 부종, 오래 지속되는 불편감이 있으면 다시 확인해 보는 게 좋아요.
+faqs:
+  - question: "신경치료는 몇 번 정도 내원하나요?"
+    answer: "염증 정도·치아 형태에 따라 1~3회 이상 나뉠 수 있어요. 소독·충전 단계를 거치며, 완료 후에는 크라운 등 보철로 보호하는 경우가 많습니다."
+  - question: "신경치료와 발치 중 뭐가 나을까요?"
+    answer: "치아 뿌리·주변 뼈 상태, 보철 가능 여부, 비용·기간 등을 종합해 결정해요. 살릴 수 있으면 신경치료+보철을, 예후가 불리하면 발치·임플란트·브릿지 등을 검토할 수 있습니다."
+  - question: "신경치료 비용과 보험 적용은 어떻게 되나요?"
+    answer: "기본 근관치료는 보험 급여가 적용되는 경우가 많아요. 재신경치료·특수 기구·크라운 등은 별도 비용이 발생할 수 있습니다. 치료 계획과 함께 확인해 드려요."
+  - question: "신경치료 후에도 아프면 재신경치료가 필요한가요?"
+    answer: "일시적 불편과 재감염·근단염은 다를 수 있어요. 씹을 때 깊은 통증, 잇몸 부종, 오래 지속되는 증상이 있으면 X-ray 등으로 다시 확인하는 게 좋습니다."
+  - question: "신경치료 후 꼭 크라운을 해야 하나요?"
+    answer: "신경을 제거한 치아는 약해질 수 있어요. 어금니처럼 씹는 힘이 큰 치아는 크라운을 권하는 경우가 많습니다. 앞니·손상 범위에 따라 다를 수 있어요."
+updated: "2026-08-16"
+relatedTerms:
+  - root-canal-re
+  - apical-periodontitis
+  - chigeun
+  - chisu
+relatedPosts:
+  - slug: root-canal-extraction
+    title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"
+    image: "/img/posts/root-canal-extraction/cover.png"
+    date: "2026-01-30"
+  - slug: root-canal-treatment-before
+    title: "신경치료 전에 꼭 해야 할 검사, 이것이 성공률을 좌우합니다"
+    image: "/img/posts/root-canal-treatment-before/cover.png"
+    date: "2026-03-12"
+  - slug: root-canal-root-canal
+    title: "한 번 신경치료했는데 또 아프다면? 재신경치료가 답일까요?"
+    image: "/img/posts/root-canal-root-canal/cover.png"
+    date: "2026-01-08"
+  - slug: root-canal-cost-insurance
+    title: "신경치료 비용은 얼마일까? 보험 적용 범위와 추가 비용까지 정리"
+    image: "/img/posts/root-canal-cost-insurance/cover.png"
+    date: "2026-04-05"
+  - slug: root-canal-pain
+    title: "신경치료 후 통증... 이럴 때는 바로 확인이 필요합니다"
+    image: "/img/posts/root-canal-pain/cover.png"
+    date: "2025-11-30"
+---

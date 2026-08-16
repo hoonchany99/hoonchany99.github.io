@@ -1,0 +1,39 @@
+---
+name: "매독성 치아"
+termSlug: maedogseong-chia
+en: "Syphilitic Teeth"
+tier: B
+aliases:
+  - "매독성 치아"
+definition: "매독성 치아는 선천 매독으로 치아 형성이 방해받아 생기는 특징적인 형태 이상이에요. 지금은 매우 드뭅니다."
+detail: |
+  임신 중 매독이 태아에게 전달되면 여러 장기와 함께 치아 형성에도 영향을 줍니다. 그 결과 특징적인 모양의 치아가 만들어져요.
+  
+  앞니는 끝이 좁아지고 가운데가 파여 반달처럼 들어간 형태로 나타납니다. 첫 번째 큰어금니는 씹는 면이 쪼그라들어 오디 열매 같은 모양이 되는 것으로 기술돼요. 이런 형태가 진단의 단서가 되기도 했습니다.
+  
+  지금은 매우 드뭅니다. 산전 검사와 치료가 자리 잡으면서 선천 매독 자체가 크게 줄었어요. 그래서 실제로 보기 어려운 소견입니다.
+  
+  치아 자체는 형태를 회복시킬 수 없습니다. 심미와 기능을 위해 레진이나 보철로 형태를 만들어 주는 접근을 해요. 다만 이 소견이 보이면 전신 상태 확인이 먼저입니다.
+faqs:
+  - question: "지금도 볼 수 있나요?"
+    answer: "매우 드뭅니다. 산전 검사와 치료가 자리 잡으면서 선천 매독 자체가 크게 줄었어요. 교과서적으로 기술되는 소견에 가깝습니다."
+  - question: "어떤 모양인가요?"
+    answer: "앞니는 끝이 좁아지고 가운데가 반달처럼 파인 형태로, 첫 번째 큰어금니는 씹는 면이 쪼그라든 모양으로 기술됩니다."
+  - question: "치료할 수 있나요?"
+    answer: "치아 형태 자체를 되돌릴 수는 없습니다. 레진이나 보철로 형태를 만들어 심미와 기능을 회복시켜요. 전신 상태 확인이 먼저입니다."
+  - question: "옮나요?"
+    answer: "치아 형태 이상 자체가 옮는 것은 아닙니다. 원인 질환의 감염 여부는 전신 진료에서 다뤄요. 치과에서는 형태와 기능을 담당합니다."
+  - question: "비슷한 모양의 다른 원인도 있나요?"
+    answer: "있습니다. 치아 형성기의 다른 문제로도 형태 이상이 생겨요. 그래서 모양만으로 단정하지 않고 병력과 전신 소견을 함께 봅니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK563220/"
+  - "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/congenital-syphilis"
+updated: "2026-08-16"
+relatedTerms:
+  - bagriseong-chieunyeom
+  - chia-chagsaeg
+  - chia-gujo
+  - chia-gyunyeol-jeunghugun
+relatedPosts:
+  []
+---

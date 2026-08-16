@@ -1,0 +1,39 @@
+---
+name: "구강 백색 해면상 모반"
+termSlug: gugang-baegsaeg-haemyeonsang-moban
+en: "White Sponge Nevus"
+tier: B
+aliases:
+  - "구강 백색 해면상 모반"
+definition: "구강 백색 해면상 모반은 볼 안쪽 점막이 하얗고 두툼하게 주름진 유전 질환이에요. 양성이며 치료가 필요 없습니다."
+detail: |
+  볼 안쪽 점막이 하얗고 스펀지처럼 두툼하며 주름진 모습으로 나타납니다. 대개 양쪽에 대칭으로 생겨요. 어릴 때부터 있는 경우가 많습니다.
+  
+  유전되는 상태입니다. 가족 중에 같은 소견이 있는 경우가 흔해요. 감염이나 생활 습관과는 관계가 없습니다.
+  
+  증상이 거의 없습니다. 통증이나 불편이 없고, 악성으로 변하지도 않아요. 그래서 치료가 필요하지 않습니다.
+  
+  중요한 것은 백반증과 구분하는 일입니다. 둘 다 하얗게 보이지만 백반증은 잠재적 악성 질환이에요. 백색 해면상 모반은 양쪽 대칭이고 어릴 때부터 있으며 가족력이 있다는 점이 단서가 됩니다. 확실하지 않으면 조직검사로 확인해요.
+faqs:
+  - question: "치료해야 하나요?"
+    answer: "필요 없습니다. 양성이고 악성으로 변하지 않아요. 증상도 거의 없습니다. 다만 진단이 확실한지 확인하는 것은 중요해요."
+  - question: "백반증과 어떻게 구분하나요?"
+    answer: "양쪽 대칭이고, 어릴 때부터 있고, 가족력이 있다는 점이 단서입니다. 확실하지 않으면 조직검사로 확인해요."
+  - question: "옮나요?"
+    answer: "옮지 않습니다. 유전되는 상태예요. 가족 중에 같은 소견이 있는 경우가 흔합니다."
+  - question: "나중에 암이 되나요?"
+    answer: "악성으로 변하는 것으로 보고되지 않습니다. 이 점이 백반증과 결정적으로 다른 부분이에요."
+  - question: "없앨 수 있나요?"
+    answer: "없애는 치료는 없고 필요하지도 않습니다. 유전적 특성이라 그대로 지내시면 돼요. 진단만 확실히 해 두면 됩니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560855/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-lesions"
+updated: "2026-08-16"
+relatedTerms:
+  - gugang-alrereugi-jeunghugun
+  - gugang-dansunpojin
+  - gugang-diseukinejia
+  - gugang-isanggamgagjeung
+relatedPosts:
+  []
+---

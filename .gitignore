@@ -26,5 +26,8 @@ _site/
 .jekyll-cache/
 .sass-cache/
 
-# Reference design (not needed for production)
-Professional Dental Information Site/
+# Script cache (term content generation progress)
+scripts/.cache/
+
+# Claude Code 로컬 설정
+.claude/

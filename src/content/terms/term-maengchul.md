@@ -1,0 +1,39 @@
+---
+name: "맹출"
+termSlug: maengchul
+en: "Tooth Eruption"
+tier: B
+aliases:
+  - "맹출"
+definition: "맹출은 치아가 잇몸을 뚫고 입안으로 나오는 과정이에요. 유치는 생후 6개월 무렵, 영구치는 만 6세 무렵 시작됩니다."
+detail: |
+  치아는 턱뼈 속에서 만들어진 뒤 서서히 위로 올라옵니다. 잇몸을 뚫고 모습을 드러내는 이 과정이 맹출이에요. 눈에 보이기 훨씬 전부터 뼈 안에서 준비가 진행됩니다.
+  
+  유치는 대개 생후 6개월 무렵 아래 앞니부터 시작해요. 두 돌에서 세 돌 사이에 20개가 모두 나옵니다. 시기는 아이마다 차이가 커서 몇 달 빠르거나 늦는 건 흔한 일이에요.
+  
+  영구치는 만 6세 무렵 시작됩니다. 이때 나오는 첫 번째 큰어금니가 중요해요. 유치가 빠지지 않고 가장 안쪽에 새로 나오기 때문에, 부모님이 모르고 지나치는 경우가 많습니다. 가장 오래 쓰는 치아인데 충치도 잘 생겨요.
+  
+  맹출 중에는 잇몸이 붓거나 근질거릴 수 있습니다. 아기가 보채거나 침을 많이 흘리기도 해요. 대개 지나가는 과정이지만, 열이 심하거나 오래 아파하면 다른 원인을 확인해 보는 게 좋습니다.
+faqs:
+  - question: "이가 늦게 나오는데 괜찮을까요?"
+    answer: "몇 달 차이는 흔합니다. 아이마다 편차가 커요. 다만 돌이 지나도 하나도 안 났거나, 또래보다 1년 이상 늦다면 한 번 확인해 보시는 게 좋습니다."
+  - question: "6세 어금니가 뭔가요?"
+    answer: "만 6세 무렵 가장 안쪽에 새로 나는 첫 번째 큰어금니예요. 유치가 빠지고 나는 게 아니라 없던 자리에 나옵니다. 그래서 모르고 지나치기 쉬운데, 평생 쓰는 중요한 치아입니다."
+  - question: "이가 나면서 열이 나요."
+    answer: "잇몸이 붓고 보채는 건 흔하지만, 높은 열은 맹출만으로 설명하기 어렵습니다. 다른 원인이 있을 수 있어요. 열이 심하거나 오래가면 소아과 진료를 받아 보세요."
+  - question: "영구치가 유치 뒤에서 나왔어요."
+    answer: "아래 앞니에서 흔히 보이는 모습이에요. 유치가 저절로 빠지면 대개 제자리를 찾아갑니다. 다만 유치가 흔들리지 않고 버티면 뽑아 주기도 해요. 확인을 받아 보세요."
+  - question: "이 나는 시기에 뭘 해 주면 되나요?"
+    answer: "깨끗한 거즈나 실리콘 칫솔로 잇몸을 닦아 주세요. 차가운 치발기가 도움이 되기도 합니다. 첫 치아가 나오면 그때부터 불소 치약을 쌀알 크기로 쓰기 시작합니다."
+sources:
+  - "https://www.adafoundation.org/-/media/project/ada-organization/ada/ada-org/files/resources/public-programs/give-kids-a-smile/ada_primary_permanent_toothdev_eng.pdf"
+  - "https://www.dentalcare.com/en-us/ce-courses/ce651/primary-permanent-dentition-eruption-sequences"
+updated: "2026-08-16"
+relatedTerms:
+  - chia-maengchul-jiyeon
+  - chia-maengchul-sunseo
+  - iso-maengchul
+  - cavity
+relatedPosts:
+  []
+---

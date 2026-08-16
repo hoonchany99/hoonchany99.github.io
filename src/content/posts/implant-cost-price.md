@@ -260,11 +260,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224160363171&amp;from=postView&amp;trackingCode=blog_bloghome_searchlisthttps://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224160363171&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-25ddf6b4-8134-4f82-99f4-33c250133daf&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224160363171&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlisthttps://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224160363171&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/implant/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-25ddf6b4-8134-4f82-99f4-33c250133daf&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224160363171&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlisthttps://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224160363171&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">뼈가 부족하면 임플란트 안 될까? 뼈 이식이 필요한 경우는?</strong>
 <p class="se-oglink-summary">임플란트 상담 중에 이 말을 들으면 마음이 덜컥 내려앉습니다 😰 “뼈가 좀 부족하네요.” “뼈 이식이 ...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>
@@ -276,11 +276,11 @@ image:
 <div class="se-component-content">
 <div class="se-section se-section-oglink se-l-text se-section-align-center">
 <div class="se-module se-module-oglink">
-<a href="https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;logNo=224094979885&amp;from=postView&amp;trackingCode=blog_bloghome_searchlist" class="se-oglink-info __se_link" target="_blank" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-1d11fea6-c6f2-433a-b638-3a8f1b6b3d35&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224094979885&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
+<a href="/posts/implant-surgery-3/" class="se-oglink-info __se_link" data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-1d11fea6-c6f2-433a-b638-3a8f1b6b3d35&quot;, &quot;link&quot;: &quot;https://blog.naver.com/doctoryoon-kr?Redirect=Log&amp;#38;logNo=224094979885&amp;#38;from=postView&amp;#38;trackingCode=blog_bloghome_searchlist&quot;}">
 <div class="se-oglink-info-container">
 <strong class="se-oglink-title">임플란트, 수술 과정은 어떻게 될까? 한눈에 보는 3단계 전체 흐름</strong>
 <p class="se-oglink-summary">임플란트가 필요하다는 말을 들으면 가장 먼저 드는 감정은 대부분 “두려움”입니다. “수술이라고 하니까...</p>
-<p class="se-oglink-url">blog.naver.com</p>
+<p class="se-oglink-url">doctoryoon.kr</p>
 </div>
 </a>
 </div>

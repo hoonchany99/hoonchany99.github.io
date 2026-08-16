@@ -1,0 +1,39 @@
+---
+name: "혈관종"
+termSlug: hyeolgwanjong
+en: "Hemangioma"
+tier: B
+aliases:
+  - "혈관종"
+definition: "혈관종은 혈관이 뭉쳐 생긴 붉거나 푸른 병변이에요. 누르면 색이 옅어지는 것이 특징입니다."
+detail: |
+  혈관이 비정상적으로 늘어나거나 뭉쳐 만들어집니다. 입술, 혀, 볼 점막에 나타날 수 있어요. 붉거나 자줏빛으로 보이고, 만지면 말랑합니다.
+  
+  누르면 색이 옅어졌다가 떼면 돌아오는 것이 특징입니다. 이 반응이 다른 병변과 구분하는 단서가 돼요.
+  
+  어린아이에게 생기는 혈관종은 자라다가 시간이 지나며 저절로 줄어드는 경우가 많습니다. 반면 어른에게 생기는 혈관 기형은 스스로 없어지지 않아요.
+  
+  치료는 위치와 크기에 따라 다릅니다. 작고 불편하지 않으면 지켜봐요. 자주 씹혀 피가 나거나 커지면 처치를 고려합니다. 혈관 병변이라 출혈 위험이 있어 함부로 절제하지 않고 계획을 세웁니다.
+faqs:
+  - question: "어떻게 구분하나요?"
+    answer: "누르면 색이 옅어졌다가 떼면 돌아오는 것이 특징입니다. 이 반응이 단서가 돼요. 다만 확인을 위해 영상 검사를 하기도 합니다."
+  - question: "저절로 없어지나요?"
+    answer: "어린아이의 혈관종은 시간이 지나며 줄어드는 경우가 많습니다. 어른에게 생긴 혈관 기형은 스스로 없어지지 않아요."
+  - question: "자꾸 씹혀서 피가 나요."
+    answer: "반복해서 출혈하면 처치를 고려합니다. 다만 혈관 병변이라 출혈 위험이 있어 계획을 세우고 접근해요. 직접 건드리지 마세요."
+  - question: "수술이 위험한가요?"
+    answer: "혈관이 많아 출혈 위험이 있습니다. 그래서 크기와 위치를 미리 확인하고 방법을 정해요. 경화 요법이나 레이저를 쓰기도 합니다."
+  - question: "암은 아닌가요?"
+    answer: "혈관종은 양성입니다. 다만 겉모습이 비슷한 다른 병변이 있어, 확실하지 않으면 추가 검사를 합니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-lesions"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK538232/"
+updated: "2026-08-16"
+relatedTerms:
+  - simhyeolgwan-hwanja-chigwa
+  - cavity
+  - root-canal
+  - implant
+relatedPosts:
+  []
+---

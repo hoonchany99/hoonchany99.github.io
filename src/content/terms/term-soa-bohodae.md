@@ -1,0 +1,39 @@
+---
+name: "소아 보호대"
+termSlug: soa-bohodae
+en: "Protective Stabilization"
+tier: B
+aliases:
+  - "소아 보호대"
+definition: "소아 보호대는 치료 중 아이가 갑자기 움직이는 것을 막아 안전을 확보하는 도구예요. 필요한 경우에만 씁니다."
+detail: |
+  아주 어리거나 협조가 어려운 아이는 치료 중 갑자기 움직일 수 있습니다. 회전하는 기구나 날카로운 도구를 쓰는 상황에서는 위험해요. 이때 몸을 감싸 안정시키는 도구를 쓰기도 합니다.
+  
+  목적은 벌이 아니라 안전입니다. 아이가 다치지 않게 하고 치료를 정확히 끝내기 위한 것이에요. 이 점을 보호자에게 설명하고 동의를 받은 뒤 사용합니다.
+  
+  먼저 시도할 것들이 있습니다. 설명과 연습으로 진행해 보고, 치료를 짧게 나누고, 보호자가 함께 있는 방법을 씁니다. 이런 방법으로 되면 굳이 쓰지 않아요.
+  
+  대안도 있습니다. 협조가 어려운 정도가 크면 진정치료나 전신마취를 고려합니다. 보호대를 오래 쓰기보다 그쪽이 나은 경우가 있어요. 아이 나이와 치료 범위, 성향을 함께 보고 정합니다.
+faqs:
+  - question: "꼭 써야 하나요?"
+    answer: "먼저 설명과 연습, 짧게 나누기를 시도합니다. 그래도 갑자기 움직여 위험할 때 안전을 위해 고려해요. 필요한 경우에만 씁니다."
+  - question: "아이에게 나쁜 기억이 되지 않을까요?"
+    answer: "충분한 설명 없이 쓰면 그럴 수 있습니다. 그래서 보호자 동의를 받고, 아이에게도 왜 필요한지 설명해요. 대안이 있으면 그쪽을 먼저 봅니다."
+  - question: "보호자가 함께 있을 수 있나요?"
+    answer: "상황에 따라 다릅니다. 함께 있는 것이 아이 안정에 도움이 되기도 해요. 다만 보호자가 긴장하면 아이에게 전달되니 미리 상의합니다."
+  - question: "진정치료가 나은가요?"
+    answer: "치료 범위가 넓고 협조가 어려우면 그쪽이 나을 수 있습니다. 여러 번 힘든 경험을 반복하는 것보다 한 번에 끝내는 편이 나을 때가 있어요."
+  - question: "언제 안 써도 되나요?"
+    answer: "아이가 자라며 설명을 이해하고 협조하게 되면 필요 없어집니다. 그래서 첫 방문에서 익숙해지는 경험을 쌓는 것이 중요해요."
+sources:
+  - "https://www.aapd.org/research/oral-health-policies--recommendations/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
+updated: "2026-08-16"
+relatedTerms:
+  - pediatric-dentistry
+  - soa-gugang-geomjin
+  - soa-gyojeong
+  - soa-jinjeongchiryo
+relatedPosts:
+  []
+---

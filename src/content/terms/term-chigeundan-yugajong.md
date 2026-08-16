@@ -1,0 +1,39 @@
+---
+name: "치근단 육아종"
+termSlug: chigeundan-yugajong
+en: "Periapical Granuloma"
+tier: B
+aliases:
+  - "치근단 육아종"
+definition: "치근단 육아종은 뿌리 끝 염증에 반응해 생긴 조직 덩어리예요. 낭종보다 흔하고 대개 신경치료로 좋아집니다."
+detail: |
+  뿌리 끝으로 세균이 나오면 몸이 방어 반응을 합니다. 염증 세포가 모이고 혈관이 자라 들어오며 조직 덩어리를 만들어요. 이게 육아종입니다.
+  
+  뼈가 녹은 자리를 이 조직이 채우고 있는 형태입니다. X-ray에서는 뿌리 끝 어두운 부분으로 보여요. 낭종과 모양이 비슷해 사진만으로는 구분이 어렵습니다.
+  
+  낭종보다 흔하고 예후가 좋은 편입니다. 원인인 뿌리 속 세균을 없애면 염증이 가라앉고 뼈가 다시 채워지는 경우가 많아요. 대개 신경치료로 접근합니다.
+  
+  경과 관찰이 필요합니다. 치유에는 몇 달에서 1년 이상 걸릴 수 있어요. 정해진 시점에 X-ray로 크기 변화를 확인합니다. 줄지 않거나 커지면 다른 접근을 검토해요.
+faqs:
+  - question: "낭종과 어떻게 구분하나요?"
+    answer: "X-ray만으로는 구분이 어렵습니다. 크기가 크면 낭종 가능성을 더 보지만 확실하지 않아요. 제거한 조직을 검사해야 확실히 구분됩니다."
+  - question: "신경치료만으로 없어지나요?"
+    answer: "육아종은 원인을 제거하면 좋아지는 경우가 많습니다. 뿌리 속 세균이 없어지면 염증이 가라앉고 뼈가 채워져요. 다만 시간이 걸립니다."
+  - question: "얼마나 지나야 알 수 있나요?"
+    answer: "몇 달에서 1년 이상 걸릴 수 있습니다. 그래서 정해진 시점에 X-ray로 크기를 비교해요. 한 번에 판단하지 않고 경과를 추적합니다."
+  - question: "통증이 없는데 왜 생기나요?"
+    answer: "만성 염증이라 통증 없이 진행하는 경우가 많습니다. 몸이 세균을 그 자리에 가두고 있는 상태예요. 그래서 검진에서 우연히 발견되곤 합니다."
+  - question: "방치하면 어떻게 되나요?"
+    answer: "뼈가 계속 녹고 범위가 넓어질 수 있습니다. 급성으로 바뀌면 크게 붓고 아파요. 낭종으로 진행하기도 합니다. 발견되면 치료를 권합니다."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560481/"
+  - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
+updated: "2026-08-16"
+relatedTerms:
+  - apical-periodontitis
+  - apicoectomy
+  - chigeundan-bangsaseon
+  - chigeundan-byeongso
+relatedPosts:
+  []
+---

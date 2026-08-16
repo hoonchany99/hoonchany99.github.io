@@ -1,0 +1,39 @@
+---
+name: "구강 이상감각증"
+termSlug: gugang-isanggamgagjeung
+en: "Oral Dysesthesia"
+tier: B
+aliases:
+  - "구강 이상감각증"
+definition: "구강 이상감각증은 입안에 이상한 느낌이 지속되는 상태예요. 겉으로 보이는 원인이 없는 경우가 많습니다."
+detail: |
+  저리거나, 따끔거리거나, 무언가 붙어 있는 것 같거나, 남의 살 같은 느낌이 이어집니다. 겉으로는 멀쩡한데 감각만 이상한 것이 특징이에요.
+  
+  원인이 확인되는 경우가 있습니다. 신경이 눌리거나 손상된 경우, 치과 시술 후, 대상포진 이후, 영양 결핍, 당뇨성 신경 변화 등이에요. 이때는 원인을 다룹니다.
+  
+  원인이 안 잡히는 경우도 적지 않습니다. 검사에서 이상이 없는데 증상만 이어지는 상태예요. 이 경우 신경병증성 통증이나 만성 통증의 범주로 접근합니다.
+  
+  중요한 것은 증상을 인정받는 것입니다. "아무 이상 없다"는 말만 듣고 여러 병원을 돌게 되는 경우가 많아요. 원인이 없다고 증상이 없는 것은 아닙니다. 확인이 끝났다면 증상을 조절하며 지내는 쪽으로 방향을 잡습니다.
+faqs:
+  - question: "검사는 정상인데 계속 이상해요."
+    answer: "드물지 않은 상황입니다. 원인이 확인되지 않아도 증상은 실재해요. 확인이 끝났다면 증상을 조절하는 쪽으로 방향을 잡습니다."
+  - question: "어떤 검사를 하나요?"
+    answer: "먼저 입안을 자세히 보고 신경 손상이나 감염을 확인합니다. 필요하면 혈액검사로 영양 상태와 혈당을 봐요. 영상 검사를 하기도 합니다."
+  - question: "치과 치료 후에 생겼어요."
+    answer: "시술 부위 신경 자극일 수 있습니다. 시점과 부위를 알려 주세요. 대부분 시간이 지나며 회복되지만 확인과 기록이 필요합니다."
+  - question: "어느 과에서 보나요?"
+    answer: "구강내과에서 시작하는 경우가 많습니다. 원인에 따라 신경과나 내과와 함께 봐요. 전신 원인을 배제하는 과정이 필요합니다."
+  - question: "나을 수 있나요?"
+    answer: "원인이 확인되면 다루면서 좋아집니다. 원인 불명이면 시간이 지나며 완화되기도 하고, 약물로 조절하기도 해요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/burning-mouth-syndrome"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK545282/"
+updated: "2026-08-16"
+relatedTerms:
+  - gugang-sodae-isang
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
+  - gugang-dansunpojin
+relatedPosts:
+  []
+---

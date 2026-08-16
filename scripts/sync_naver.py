@@ -462,6 +462,22 @@ image:
 
 # ──────────────────────────── 6. Git 커밋 & 푸시 ────────────────────────────
 
+def relink_naver_cards():
+    """새로 받은 글에 섞여 온 네이버 카드를 로컬 글로 다시 연결한다."""
+    log("본문 네이버 카드 정리 중...")
+    result = subprocess.run(
+        ["npx", "tsx", "scripts/relink-naver-cards.ts"],
+        cwd=BASE,
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode == 0:
+        log(f"  {result.stdout.strip()}")
+    else:
+        # 커밋 자체는 막지 않는다 — 배포 때 build 단계에서 다시 정리된다
+        log(f"  경고: 카드 정리 실패 — {result.stderr.strip()[:200]}")
+
+
 def git_push(new_count):
     os.chdir(BASE)
     subprocess.run(["git", "add", "-A"], check=True)
@@ -569,7 +585,9 @@ async def main():
             log(f"  생성 완료: {slug}")
 
     if created > 0:
-        log(f"\n{created}개 새 글 생성 완료. Git push 중...")
+        log(f"\n{created}개 새 글 생성 완료.")
+        relink_naver_cards()
+        log("Git push 중...")
         git_push(created)
     else:
         log("생성된 글 없음.")

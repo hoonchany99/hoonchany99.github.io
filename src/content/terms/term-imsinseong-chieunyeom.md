@@ -1,0 +1,39 @@
+---
+name: "임신성 치은염"
+termSlug: imsinseong-chieunyeom
+en: "Pregnancy Gingivitis"
+tier: B
+aliases:
+  - "임신성 치은염"
+definition: "임신성 치은염은 임신 중 호르몬 변화로 잇몸이 붓고 쉽게 피가 나는 상태예요. 대개 출산 후 호전되지만 관리가 필요합니다."
+detail: |
+  임신 중에는 호르몬이 달라지면서 잇몸 혈관이 늘어나고, 같은 양의 세균에도 반응이 커집니다. 그래서 평소와 똑같이 닦아도 잇몸이 붓고 피가 나기 쉬워요. 임신 중기 무렵부터 두드러지는 경우가 많습니다.
+  
+  원인이 호르몬이라고 해서 세균이 무관한 건 아니에요. 세균막이 있어야 염증이 생깁니다. 호르몬은 그 반응을 키우는 역할이에요. 그래서 관리를 잘하면 정도를 크게 줄일 수 있습니다.
+  
+  입덧으로 칫솔이 입에 들어가기 힘든 시기가 겹치면 더 나빠지기 쉬워요. 이럴 때는 칫솔 머리가 작은 제품을 쓰거나, 향이 약한 치약으로 바꾸는 것이 도움이 됩니다. 구토 직후에는 바로 닦기보다 물로 헹구고 시간을 두는 게 좋아요.
+  
+  대개 출산 후 호르몬이 돌아오면서 좋아집니다. 다만 방치해서 치석이 쌓이고 염증이 깊어지면 그대로 남을 수 있어요. 임신 중에도 검진과 스케일링은 받으실 수 있습니다.
+faqs:
+  - question: "출산하면 저절로 낫나요?"
+    answer: "호르몬이 돌아오면서 대체로 좋아집니다. 다만 그동안 치석이 쌓이고 염증이 깊어졌다면 그대로 남을 수 있어요. 임신 중에도 관리와 검진을 이어 가시는 게 좋습니다."
+  - question: "임신 중에 스케일링을 받아도 되나요?"
+    answer: "받으실 수 있어요. 안정기인 중기가 가장 편한 편입니다. 잇몸 염증을 줄이는 것이 임신 기간 전체의 부담을 줄여 줍니다. 임신 주수를 알려 주시면 자세를 조정해 드려요."
+  - question: "입덧 때문에 양치를 못 하겠어요."
+    answer: "머리가 작은 칫솔이나 향이 약한 치약으로 바꿔 보세요. 컨디션이 나은 시간대에 닦는 것도 방법입니다. 구토 직후에는 바로 닦기보다 물로 헹구고 조금 기다렸다 닦는 편이 치아에 좋아요."
+  - question: "잇몸에 혹처럼 볼록한 게 생겼어요."
+    answer: "임신 중 잇몸에 생기는 양성 종물일 수 있습니다. 대개 출산 후 줄어들어요. 다만 크기가 커서 씹기 불편하거나 자주 피가 나면 제거를 검토하기도 합니다. 확인을 받아 보세요."
+  - question: "아기 치아에도 영향이 있나요?"
+    answer: "엄마의 잇몸 상태가 아기 치아를 직접 상하게 하지는 않아요. 다만 출산 후 엄마 입안의 충치균이 아기에게 옮을 수 있어서, 임신 중부터 관리해 두시면 도움이 됩니다."
+sources:
+  - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy"
+updated: "2026-08-16"
+relatedTerms:
+  - bagriseong-chieunyeom
+  - geubseong-goesaseong-gweyangseong-chieunyeom
+  - gingivitis
+  - pojinseong-chieungunaeyeom
+relatedPosts:
+  []
+---

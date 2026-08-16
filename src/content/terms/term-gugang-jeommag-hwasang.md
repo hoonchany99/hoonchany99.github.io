@@ -1,0 +1,39 @@
+---
+name: "구강 점막 화상"
+termSlug: gugang-jeommag-hwasang
+en: "Oral Mucosal Burn"
+tier: B
+aliases:
+  - "구강 점막 화상"
+definition: "구강 점막 화상은 뜨거운 음식이나 화학 물질로 입안이 데거나 상한 상태예요. 대부분 며칠 안에 아뭅니다."
+detail: |
+  뜨거운 음식이나 음료에 데는 것이 가장 흔합니다. 입천장과 혀에 잘 생겨요. 처음에는 빨갛고 아프다가, 며칠 뒤 흰 막처럼 벗겨지기도 합니다.
+  
+  화학적 원인도 있습니다. 아스피린을 통증 부위 잇몸에 직접 물고 있거나, 강한 가글이나 표백 성분이 닿거나, 치과 재료가 점막에 닿았을 때예요. 이 경우 흰 막이 생기고 벗겨집니다.
+  
+  대부분 며칠에서 1~2주 안에 아뭅니다. 그동안 맵고 짜고 뜨거운 음식, 탄산과 산성 음료를 피하시면 편해요. 자극이 적은 치약으로 바꾸는 것도 도움이 됩니다.
+  
+  주의할 점이 있습니다. 아스피린을 아픈 이 옆 잇몸에 직접 물고 있는 방법은 화상을 만들 뿐 통증에 도움이 되지 않아요. 진통제는 삼켜야 작용합니다. 2주 넘게 낫지 않으면 다른 원인을 확인합니다.
+faqs:
+  - question: "뜨거운 걸 먹고 입천장이 벗겨져요."
+    answer: "화상 후 흔한 경과입니다. 며칠 뒤 흰 막처럼 벗겨지고 아뭅니다. 자극적인 음식을 피하시면 편해요."
+  - question: "아스피린을 잇몸에 물고 있어도 되나요?"
+    answer: "하지 마세요. 화학 화상을 만들 뿐 통증에 도움이 되지 않습니다. 진통제는 삼켜야 작용해요."
+  - question: "얼마나 지나면 낫나요?"
+    answer: "대개 며칠에서 1~2주 안에 아뭅니다. 2주가 넘어도 낫지 않으면 다른 원인을 확인해 보세요."
+  - question: "뭘 피해야 하나요?"
+    answer: "맵고 짜고 뜨거운 음식, 탄산과 산성 음료를 피해 주세요. 자극이 적은 치약으로 바꾸는 것도 도움이 됩니다."
+  - question: "연고를 발라야 하나요?"
+    answer: "대개 필요 없습니다. 통증이 심하면 덮어 주는 제품이나 가글을 쓰기도 해요. 범위가 넓거나 오래가면 확인받으세요."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/stomatitis"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560855/"
+updated: "2026-08-16"
+relatedTerms:
+  - gugang-jeommag-melranin-saegsochimchag
+  - gugang-jeommagha-seomyujeung
+  - gugang-alrereugi-jeunghugun
+  - gugang-baegsaeg-haemyeonsang-moban
+relatedPosts:
+  []
+---

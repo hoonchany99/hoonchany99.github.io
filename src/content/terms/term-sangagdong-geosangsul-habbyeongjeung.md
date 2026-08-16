@@ -1,0 +1,39 @@
+---
+name: "상악동 거상술 합병증"
+termSlug: sangagdong-geosangsul-habbyeongjeung
+en: "Sinus Lift Complications"
+tier: B
+aliases:
+  - "상악동 거상술 합병증"
+definition: "상악동거상술 합병증 중 가장 흔한 것은 점막이 찢어지는 것이에요. 대부분 그 자리에서 처치하고 진행합니다."
+detail: |
+  상악동 바닥 점막을 들어 올려 그 아래에 뼈를 채우는 수술입니다. 이 점막이 얇아서 들어 올리는 과정에서 찢어질 수 있어요. 가장 흔한 합병증입니다.
+  
+  작게 찢어지면 막으로 덮고 그대로 진행하는 경우가 많습니다. 크게 찢어지면 이식재가 상악동으로 흘러들 수 있어 수술을 중단하고 아문 뒤 다시 하기도 해요.
+  
+  그 밖에 출혈, 감염, 상악동염이 있습니다. 수술 후 코막힘이나 누런 콧물, 발열이 이어지면 확인이 필요해요. 원래 상악동염이 있던 분은 미리 치료하고 진행합니다.
+  
+  수술 후 주의사항이 중요합니다. 코를 세게 풀지 마시고, 재채기는 입을 벌린 채 하시고, 빨대와 흡연을 피하세요. 압력이 걸리면 들어 올린 점막과 이식재가 흐트러질 수 있습니다.
+faqs:
+  - question: "점막이 찢어지면 수술을 못 하나요?"
+    answer: "작게 찢어지면 막으로 덮고 그대로 진행하는 경우가 많습니다. 크면 중단하고 아문 뒤 다시 하기도 해요. 크기에 따라 판단합니다."
+  - question: "수술 후 뭘 조심하나요?"
+    answer: "코를 세게 풀지 마시고, 재채기는 입을 벌린 채 하세요. 빨대와 흡연, 비행기 탑승도 당분간 피하시는 게 좋습니다. 압력이 문제가 돼요."
+  - question: "코가 막히고 콧물이 나요."
+    answer: "수술 후 일시적으로 있을 수 있습니다. 다만 누런 콧물, 악취, 발열이 이어지면 상악동염을 의심해요. 알려 주시면 확인합니다."
+  - question: "축농증이 있으면 못 하나요?"
+    answer: "먼저 치료하고 진행합니다. 염증이 있는 상태에서 하면 감염 위험이 올라가요. 이비인후과와 함께 보는 경우도 있습니다."
+  - question: "실패하면 어떻게 되나요?"
+    answer: "이식재가 자리 잡지 못하면 제거하고 아문 뒤 다시 시도합니다. 시간이 더 걸리지만 다시 할 수 있는 경우가 많아요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK534881/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
+updated: "2026-08-16"
+relatedTerms:
+  - sinus-lift
+  - chiseong-sangagdongyeom
+  - gugangsangagdong-gyotong
+  - chijugeungwan-boghab-byeongso
+relatedPosts:
+  []
+---

@@ -1,0 +1,59 @@
+---
+name: "사랑니"
+termSlug: wisdom-tooth
+en: "Third Molar"
+tier: A
+aliases:
+  - "사랑니"
+  - "사랑니발치"
+  - "사랑니통증"
+  - "사랑니발치통증"
+  - "매복사랑니"
+  - "수평사랑니"
+  - "사랑니발치비용"
+definition: "사랑니는 10대 후반~20대에 나는 어금니예요. 공간이 부족하거나 매복되면 염증·충치·앞니 밀림의 원인이 될 수 있어요."
+detail: |
+  사랑니(제3대구치)는 보통 10대 후반~20대에 나는 어금니예요. 턱 공간이 부족하거나 누워·매복되면 옆 치아 충치, 잇몸 염증, 앞 치아 밀림의 원인이 될 수 있어요.
+  
+  발치 필요 여부는 X-ray·CT로 매복 각도·신경·상악동과의 거리·염증·충치 상태를 보고 결정합니다. 정상적으로 맞물리고 관리 가능하면 경과 관찴도 가능한 경우가 있어요.
+  
+  발치 후 붓기·통증·개구 제한은 흔해요. 난이도·봉합·개인 차이에 따라 회복 기간이 달라질 수 있습니다. 건조와·감염 예방을 위해 초기 주의사항을 지키는 게 중요해요.
+faqs:
+  - question: "사랑니는 꼭 빼야 하나요?"
+    answer: "정상적으로 맞물리고 관리 가능하면 경과 관찴도 가능한 경우가 있어요. 매복·염증·옆 치아 충치·밀림 등 문제가 있으면 발치를 권하는 경우가 많습니다."
+  - question: "사랑니 발치 후 며칠 아프나요?"
+    answer: "초기 2~3일이 가장 불편한 경우가 많아요. 난이도·봉합·개인 차이에 따라 회복 기간이 달라질 수 있습니다. 처방·주의사항을 따르시면 좋아요."
+  - question: "매복 사랑니 발치는 위험한가요?"
+    answer: "신경·상악동과의 거리 등에 따라 난이도가 달라져요. X-ray·CT로 확인 후 계획합니다. 경험 있는 치과에서 안전하게 진행하는 게 중요해요."
+  - question: "사랑니 발치 비용은?"
+    answer: "매복 정도·난이도·마취·봉합 등에 따라 달라져요. 보험 적용 여부도 케이스마다 다를 수 있습니다. 검진 후 견적을 안내해 드려요."
+  - question: "사랑니 때문에 앞니가 밀리나요?"
+    answer: "공간 부족·매복 각도에 따라 앞 치아 밀림의 원인이 될 수 있어요. 교정 계획과 함께 발치 시기를 정하는 경우도 많습니다."
+updated: "2026-08-16"
+relatedTerms:
+  - extraction
+  - molar
+  - pericoronitis
+  - cavity
+relatedPosts:
+  - slug: wisdom-tooth-molar-cavity
+    title: "사랑니 때문에 옆 어금니 충치 생길 수 있을까? 실제로 가능한 경우"
+    image: "/img/posts/wisdom-tooth-molar-cavity/cover.png"
+    date: "2026-03-24"
+  - slug: wisdom-tooth-recovery
+    title: "사랑니 뽑고 나서 뭘 먹어야 할까? 식사.술.운동 회복 가이드"
+    image: "/img/posts/wisdom-tooth-recovery/cover.png"
+    date: "2026-04-06"
+  - slug: wisdom-tooth-extraction-cost
+    title: "사랑니 발치 비용, 보험 적용되나요? 단순·매복별 가격 총정리"
+    image: "/img/posts/wisdom-tooth-extraction-cost/cover.png"
+    date: "2026-04-03"
+  - slug: wisdom-tooth-extraction-1571
+    title: "내 사랑니는 어려운 편일까? 발치 난이도 결정 요소 정리"
+    image: "/img/posts/wisdom-tooth-extraction-1571/cover.png"
+    date: "2025-12-16"
+  - slug: impacted-wisdom-tooth-pain
+    title: "매복 사랑니가 통증을 만드는 이유, 이런 경우 특히 조심하세요"
+    image: "/img/posts/impacted-wisdom-tooth-pain/cover.png"
+    date: "2026-01-07"
+---

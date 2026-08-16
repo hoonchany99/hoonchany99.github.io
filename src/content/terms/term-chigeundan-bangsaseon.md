@@ -1,0 +1,39 @@
+---
+name: "치근단 방사선"
+termSlug: chigeundan-bangsaseon
+en: "Periapical Radiograph"
+tier: B
+aliases:
+  - "치근단 방사선"
+definition: "치근단 방사선은 치아 한두 개를 뿌리 끝까지 자세히 보는 X-ray예요. 충치와 뿌리 끝 상태 확인에 씁니다."
+detail: |
+  작은 필름이나 센서를 입안에 넣고 찍습니다. 치아 머리부터 뿌리 끝, 그 주변 뼈까지 한 부위를 선명하게 담아요. 파노라마보다 훨씬 자세히 보입니다.
+  
+  주로 확인하는 것이 정해져 있습니다. 치아 사이의 충치, 뿌리 끝 염증, 신경치료 상태, 그 부위 잇몸뼈 높이예요. 신경치료 중에는 근관 길이를 확인하려고 여러 번 찍기도 합니다.
+  
+  파노라마와 역할이 다릅니다. 파노라마는 전체 지도, 치근단은 특정 지점의 확대 사진이라고 보시면 됩니다. 파노라마에서 이상하게 보이는 부위를 치근단으로 다시 확인하는 흐름이 흔해요.
+  
+  한 장의 방사선량은 아주 적습니다. 필요한 부위만 찍기 때문에 범위도 좁아요. 그래도 필요한 만큼만 찍는 것이 원칙이고, 임신 중이라면 미리 알려 주시면 됩니다.
+faqs:
+  - question: "왜 여러 장을 찍나요?"
+    answer: "한 장에 담기는 범위가 좁아 부위마다 따로 찍어야 합니다. 신경치료 중에는 근관 길이와 충전 상태를 확인하려고 단계마다 촬영하기도 해요."
+  - question: "입에 넣는 게 불편해요."
+    answer: "구역질이 나는 분이 있습니다. 미리 말씀해 주시면 자세와 방법을 조정하거나 센서 위치를 바꿔 볼 수 있어요. 숨을 코로 천천히 쉬면 도움이 됩니다."
+  - question: "충치가 X-ray에 다 보이나요?"
+    answer: "치아 사이 충치는 오히려 X-ray에서 잘 보입니다. 눈으로는 안 보이는 위치예요. 다만 아주 초기 단계는 확인이 어려울 수 있습니다."
+  - question: "파노라마를 찍었는데 또 찍어야 하나요?"
+    answer: "역할이 달라 함께 쓰는 경우가 많습니다. 파노라마에서 이상해 보이는 부위를 치근단으로 자세히 확인하는 흐름이에요. 불필요하게 중복해서 찍지는 않습니다."
+  - question: "아이도 찍을 수 있나요?"
+    answer: "찍습니다. 어린이용으로 선량을 낮추고 작은 센서를 써요. 치아 사이 충치나 뼈 속 영구치 상태는 눈으로 안 보여서 필요한 경우가 있습니다."
+sources:
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays"
+  - "https://www.msdmanuals.com/professional/dental-disorders"
+updated: "2026-08-16"
+relatedTerms:
+  - apical-periodontitis
+  - apicoectomy
+  - bangsaseon-anjeon
+  - chigeundan-byeongso
+relatedPosts:
+  []
+---

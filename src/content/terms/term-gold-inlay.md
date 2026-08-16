@@ -1,0 +1,51 @@
+---
+name: "금인레이"
+termSlug: gold-inlay
+en: "Gold Inlay"
+tier: B
+aliases:
+  - "금인레이"
+  - "골드인레이"
+  - "금"
+definition: "금인레이는 금 합금으로 만든 인레이예요. 강도·마모·생체 친화성이 좋은 편이라 어금니에 쓰이던 경우가 많습니다."
+detail: |
+  금인레이는 금 합금으로 만든 인레이 보철이에요. 조직 친화성·내구성·정밀한 맞물림으로 오래 쓰인 재료 중 하나입니다.
+  
+  색이 금색이라 앞니보다는 어금니 씹는 면 등 눈에 덜 띄는 부위에 쓰는 경우가 많아요. 비용은 세라믹·지르코니아와 비교해 상위권인 편입니다.
+  
+  이갈이·교합·관리 상태에 따라 수명이 달라져요. 경계부 관리와 정기 검진이 중요합니다.
+faqs:
+  - question: "금인레이 장점은?"
+    answer: "내구성·정밀한 맞물림·조직 친화성 면에서 오래 쓰인 재료예요. 씹는 면 복원에 적합한 경우가 많습니다."
+  - question: "금인레이 색이 신경 쓰여요"
+    answer: "금색이라 앞니보다 어금니 씹는 면 등 눈에 덜 띄는 부위에 쓰는 경우가 많아요. 심미가 중요하면 세라믹·지르코니아를 검토할 수 있습니다."
+  - question: "금인레이 vs 세라믹 인레이"
+    answer: "금은 강도·수명, 세라믹은 색·심미가 장점이에요. 범위·위치·예산에 맞게 선택합니다."
+  - question: "금인레이 비용은?"
+    answer: "금 가격·제작 방식에 따라 상위권인 편이에요. 치료 전 재료·비용을 함께 확인해 드려요."
+  - question: "금인레이가 빠지면?"
+    answer: "재부착·재제작을 검토해요. 틈새 관리 부족·이갈이·교합 문제가 원인일 수 있습니다. 빠지면 바로 내원해 주세요."
+updated: "2026-08-16"
+relatedTerms:
+  - inlay
+  - cerec
+  - molar
+  - permanent-tooth
+relatedPosts:
+  - slug: ceramic-inlay
+    title: "세라믹? 금? 인레이 재료별 장단점 정리해드립니다"
+    image: "/img/posts/ceramic-inlay/cover.png"
+    date: "2025-11-30"
+  - slug: first-molar
+    title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"
+    image: "/img/posts/first-molar/cover.png"
+    date: "2022-07-22"
+  - slug: inlay
+    title: "인레이, 가격은 어느 정도일까? 재료별 & 병원별 비교"
+    image: "/img/posts/inlay/cover.png"
+    date: "2026-01-15"
+  - slug: cerecinlay
+    title: "세렉인레이, 드디어 정체를 알려드립니다."
+    image: "/img/posts/cerecinlay/cover.png"
+    date: "2023-04-01"
+---

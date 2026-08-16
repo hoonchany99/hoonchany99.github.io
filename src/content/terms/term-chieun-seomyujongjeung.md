@@ -1,0 +1,39 @@
+---
+name: "치은 섬유종증"
+termSlug: chieun-seomyujongjeung
+en: "Gingival Fibromatosis"
+tier: B
+aliases:
+  - "치은 섬유종증"
+definition: "치은 섬유종증은 잇몸이 단단하고 광범위하게 자라는 드문 질환이에요. 유전인 경우가 많습니다."
+detail: |
+  잇몸 조직이 서서히 자라 치아를 덮어 갑니다. 약물성 증식과 달리 원인 약물이 없고, 대개 어린 시기부터 시작해요. 가족 중에 같은 경우가 있는 사례가 흔합니다.
+  
+  자란 잇몸이 단단하고 색이 정상에 가깝습니다. 염증으로 부은 것과 달리 붉거나 물렁하지 않아요. 위아래 양쪽에 광범위하게 나타나는 경우가 많습니다.
+  
+  문제가 여러 가지입니다. 치아가 덮여 나오지 못하거나, 씹기 어렵거나, 발음에 영향을 주거나, 심미적으로 부담이 됩니다. 덮인 부위는 닦기 어려워 충치와 잇몸병 위험도 올라가요.
+  
+  치료는 절제입니다. 다만 재발이 잦아 반복하게 되는 경우가 많아요. 성장기라면 치아가 나오는 시기에 맞춰 계획합니다. 약물성 증식과 감별하기 위해 복용 약을 확인하고, 필요하면 조직검사를 합니다.
+faqs:
+  - question: "약물성 증식과 어떻게 다른가요?"
+    answer: "원인 약물이 없고 대개 어린 시기부터 시작하며 가족력이 있습니다. 자란 조직이 단단하고 색이 정상에 가까운 것도 차이예요."
+  - question: "유전되나요?"
+    answer: "유전인 경우가 많습니다. 가족 중에 같은 소견이 있는 사례가 흔해요. 형제자매도 확인해 보시는 것이 도움이 됩니다."
+  - question: "치아가 안 나와요."
+    answer: "두꺼운 잇몸이 덮어 나오지 못하는 경우가 있습니다. 이때는 나올 시기에 맞춰 잇몸을 열어 주는 처치를 계획해요."
+  - question: "재발하나요?"
+    answer: "재발이 잦은 편이라 반복해서 절제하게 되는 경우가 많습니다. 세균막 관리를 철저히 하면 진행을 늦추는 데 도움이 돼요."
+  - question: "조직검사를 하나요?"
+    answer: "약물성 증식이나 다른 원인과 감별이 필요하면 합니다. 복용 약 확인과 함께 진단 과정에 들어가요."
+sources:
+  - "https://www.ncbi.nlm.nih.gov/books/NBK538518/"
+  - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+updated: "2026-08-16"
+relatedTerms:
+  - gugang-seomyujong
+  - bagriseong-chieunyeom
+  - buchagchieun
+  - chieun
+relatedPosts:
+  []
+---

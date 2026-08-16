@@ -1,0 +1,39 @@
+---
+name: "치아 마모증"
+termSlug: chia-mamojeung
+en: "Tooth Wear"
+tier: B
+aliases:
+  - "치아 마모증"
+definition: "치아 마모증은 치아가 닳아 없어지는 것을 통틀어 부르는 말이에요. 원인에 따라 마모·교모·부식으로 나뉩니다."
+detail: |
+  치아가 닳는 데는 여러 경로가 있습니다. 원인을 구분해야 대응이 달라져요.
+  
+  마모는 바깥 물체와의 마찰입니다. 세게 문지르는 칫솔질, 딱딱한 칫솔모, 연마제가 강한 치약이 대표적이에요. 주로 치아 목 부분이 파입니다. 교모는 치아끼리 부딪히는 마찰로, 이갈이나 이악물기가 원인이에요. 씹는 면과 앞니 끝이 평평하게 닳습니다.
+  
+  부식은 산에 녹는 것입니다. 탄산음료, 과일주스, 위산 역류, 잦은 구토가 원인이에요. 표면이 전반적으로 매끄럽게 녹고 광택이 사라집니다.
+  
+  세 가지가 겹치는 경우가 많습니다. 그래서 원인을 하나로 단정하지 않고 함께 봐요. 이미 닳은 부분은 돌아오지 않으니, 진행을 멈추는 것이 목표입니다.
+faqs:
+  - question: "닳은 이가 다시 자라나요?"
+    answer: "자라지 않습니다. 그래서 진행을 멈추는 것이 목표예요. 원인을 찾아 없애고, 필요하면 파인 부분을 메우거나 덮습니다."
+  - question: "원인을 어떻게 구분하나요?"
+    answer: "닳은 위치와 모양이 단서입니다. 목 부분이 파이면 마모, 씹는 면이 평평하면 교모, 표면이 전반적으로 매끄러우면 부식을 먼저 생각해요."
+  - question: "탄산음료를 마시면 안 되나요?"
+    answer: "자주 조금씩 마시는 것이 가장 나쁩니다. 입안이 산성으로 유지되는 시간이 길어져요. 마신 뒤 물로 헹구고, 바로 세게 닦지는 마세요."
+  - question: "역류성 식도염과 관련이 있나요?"
+    answer: "있습니다. 위산이 올라오면 치아 안쪽 면부터 녹아요. 원인 모를 부식이 보이면 이 가능성을 확인합니다. 내과 치료가 함께 필요할 수 있어요."
+  - question: "많이 닳았는데 치료해야 하나요?"
+    answer: "시리거나 씹기 불편하거나 계속 진행하면 치료를 고려합니다. 레진으로 메우거나 범위가 넓으면 보철로 덮어요. 원인 관리가 함께 가야 합니다."
+sources:
+  - "https://decisionsindentistry.com/article/treatment-strategies-noncarious-cervical-lesions/"
+  - "https://www.ada.org/resources/ada-library/oral-health-topics/erosion"
+updated: "2026-08-16"
+relatedTerms:
+  - chigyeongbu-mamojeung
+  - chia-chagsaeg
+  - chia-gujo
+  - chia-gyunyeol-jeunghugun
+relatedPosts:
+  []
+---

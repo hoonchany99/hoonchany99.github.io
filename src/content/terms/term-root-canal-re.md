@@ -1,0 +1,43 @@
+---
+name: "재신경치료"
+termSlug: root-canal-re
+en: "Endodontic Retreatment"
+tier: A
+aliases:
+  - "재신경치료"
+  - "근관재치료"
+  - "재근관치료"
+definition: "재신경치료는 신경치료 후에도 통증·염증이 남거나 다시 생겼을 때, 근관을 다시 열어 소독·충전하는 치료예요."
+detail: |
+  재신경치료는 한 번 신경치료를 했는데도 통증·염증·농양이 남거나 다시 생겼을 때, 근관을 다시 열어 소독·충전하는 치료예요. 처음 치료보다 난이도·내원 횟수가 늘 수 있습니다.
+  
+  원인은 근관 끝까지 충전이 부족했거나, 균열·2차 충치, 복잡한 근관 형태 등이 복합적으로 작용하는 경우가 많아요. X-ray·CT로 근관 상태·치근단 염증 범위를 확인합니다.
+  
+  치근단 절제술이나 발치·임플란트 전환을 함께 검토할 수도 있어요. 치아를 살릴 수 있으면 재신경치료를 시도하고, 예후가 불리하면 다른 선택지를 상담해 드립니다.
+faqs:
+  - question: "재신경치료는 왜 필요한가요?"
+    answer: "첫 신경치료 후에도 근단 염증·통증·농양이 남거나 재발했을 때 시도해요. 근관 충전 부족·2차 충치·균열 등이 원인일 수 있습니다."
+  - question: "재신경치료와 발치 중 뭐가 나을까요?"
+    answer: "치아·뼈 상태·균열·비용·기간을 종합해 결정해요. 살릴 수 있으면 재신경치료, 예후가 불리하면 발치·임플란트를 검토할 수 있습니다."
+  - question: "재신경치료는 몇 번 내원하나요?"
+    answer: "보통 첫 치료보다 횟수가 늘 수 있어요. 근관 개방·소독·충전 단계를 거치며, 완료 후 크라운 등 보철이 필요할 수 있습니다."
+  - question: "재신경치료 비용·보험은 어떻게 되나요?"
+    answer: "재신경치료는 대부분 비급여인 경우가 많아요. 특수 기구·크라운 등 추가 비용이 있을 수 있습니다. 치료 전에 계획과 함께 확인해 드려요."
+  - question: "재신경치료 후에도 아프면?"
+    answer: "일시적 불편과 재감염은 다를 수 있어요. 씹을 때 깊은 통증·잇몸 부종·농양이 있으면 X-ray 등으로 다시 확인하는 게 좋습니다."
+updated: "2026-08-16"
+relatedTerms:
+  - root-canal
+  - extraction
+  - yuchi-singyeongchiryo
+  - conservative-dentistry
+relatedPosts:
+  - slug: root-canal-root-canal
+    title: "한 번 신경치료했는데 또 아프다면? 재신경치료가 답일까요?"
+    image: "/img/posts/root-canal-root-canal/cover.png"
+    date: "2026-01-08"
+  - slug: root-canal-extraction
+    title: "살릴까 뺄까? 신경치료와 발치, 어떤 기준으로 결정할까?"
+    image: "/img/posts/root-canal-extraction/cover.png"
+    date: "2026-01-30"
+---

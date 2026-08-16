@@ -1,0 +1,39 @@
+---
+name: "턱관절 강직증"
+termSlug: teoggwanjeol-gangjigjeung
+en: "TMJ Ankylosis"
+tier: B
+aliases:
+  - "턱관절 강직증"
+definition: "턱관절 강직증은 관절이 굳어 입이 벌어지지 않는 상태예요. 근육 문제로 일시적으로 안 벌어지는 것과 구분해야 합니다."
+detail: |
+  입이 안 벌어지는 원인은 여러 가지입니다. 근육이 아파서 못 벌리는 경우, 디스크가 걸린 경우, 그리고 관절 자체가 굳어 버린 경우가 있어요. 마지막이 강직증입니다.
+  
+  관절 안이나 주변 조직이 유착되거나 뼈끼리 붙어 버린 상태예요. 원인으로는 외상, 관절 감염, 오래된 염증, 이전 수술 등이 언급됩니다. 어릴 때 생기면 턱뼈 성장에도 영향을 줄 수 있어요.
+  
+  근육 문제와 구분이 중요합니다. 근육이 원인이면 시간이 지나거나 이완되면서 조금씩 벌어지는데, 관절이 굳으면 그렇지 않아요. 진단에는 CT 같은 영상이 필요합니다.
+  
+  치료는 원인과 정도에 따라 달라집니다. 유착이 가벼우면 물리치료와 개구 훈련으로 접근하고, 뼈가 붙은 정도라면 수술적 처치를 검토해요. 수술 후에도 다시 굳지 않게 재활이 오래 이어집니다.
+faqs:
+  - question: "입이 안 벌어지면 다 강직증인가요?"
+    answer: "아닙니다. 근육이 아파서 못 벌리거나 디스크가 걸린 경우가 훨씬 흔해요. 강직증은 관절 자체가 굳은 상태로 상대적으로 드뭅니다. 구분에 영상이 필요합니다."
+  - question: "왜 생기나요?"
+    answer: "외상, 관절 감염, 오래된 염증, 이전 수술 등이 원인으로 언급됩니다. 어릴 때 생기면 턱뼈 성장에도 영향을 줄 수 있어 조기 발견이 중요해요."
+  - question: "운동으로 좋아지나요?"
+    answer: "유착이 가벼운 경우에는 물리치료와 개구 훈련이 도움이 됩니다. 뼈가 붙은 정도라면 운동만으로는 어려워요. 상태를 확인한 뒤 방향을 정합니다."
+  - question: "수술하면 완전히 회복되나요?"
+    answer: "개선되는 경우가 많지만 재발 위험이 있습니다. 수술 후 다시 굳지 않도록 재활이 오래 이어져요. 이 과정이 결과를 크게 좌우합니다."
+  - question: "식사는 어떻게 하나요?"
+    answer: "입이 벌어지는 범위에 맞춰 부드럽고 작게 잘라 드셔야 합니다. 영양이 부족해지지 않도록 신경 쓰는 것도 중요해요. 상황에 맞는 식사 방법을 안내받으시면 좋습니다."
+sources:
+  - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK560644/"
+updated: "2026-08-16"
+relatedTerms:
+  - manseong-dutonggwa-teoggwanjeol
+  - teoggwanjeol-diseukeu-byeonwi
+  - teoggwanjeol-golgwanjeolyeom
+  - teoggwanjeol-jagaundong
+relatedPosts:
+  []
+---

@@ -42,17 +42,24 @@ function urlToDistPath(loc) {
 }
 
 async function fetchPaths() {
-  const res = await fetch(SITEMAP_URL);
-  if (!res.ok) {
-    console.warn(`[personal-noindex] sitemap fetch failed (${res.status}), using fallback paths only`);
+  // 네트워크 실패로 스텁 생성을 통째로 건너뛰면 안 된다.
+  // 예전에는 fetch가 던지면 main()이 죽어 FALLBACK_LOCS까지 안 쓰였다.
+  try {
+    const res = await fetch(SITEMAP_URL, { signal: AbortSignal.timeout(15000) });
+    if (!res.ok) {
+      console.warn(`[personal-noindex] sitemap fetch failed (${res.status}), using fallback paths only`);
+      return [];
+    }
+    const xml = await res.text();
+    const paths = [];
+    for (const m of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+      paths.push(m[1]);
+    }
+    return paths;
+  } catch (err) {
+    console.warn(`[personal-noindex] sitemap fetch error (${err.message}), using fallback paths only`);
     return [];
   }
-  const xml = await res.text();
-  const paths = [];
-  for (const m of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
-    paths.push(m[1]);
-  }
-  return paths;
 }
 
 function writeStub(filePath) {

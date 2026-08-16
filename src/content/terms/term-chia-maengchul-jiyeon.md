@@ -29,7 +29,7 @@ relatedTerms:
   - chia-maengchul-sunseo
   - chia-chagsaeg
   - chia-gujo
-  - chia-jaesigsul
+  - chia-gyunyeol-jeunghugun
 relatedPosts:
   []
 ---

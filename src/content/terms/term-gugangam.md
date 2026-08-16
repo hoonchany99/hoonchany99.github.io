@@ -29,7 +29,7 @@ relatedTerms:
   - gugang-dansunpojin
   - gugang-kandidajeung
   - gugang-sodae-isang
-  - guganggeonjojeung
+  - gugangaganmyeon-goljeol
 relatedPosts:
   []
 ---

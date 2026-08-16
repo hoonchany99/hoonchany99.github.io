@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - sinus-lift
   - chiseong-sangagdongyeom
-  - cavity
-  - root-canal
+  - gugangsangagdong-gyotong
+  - sangagdong-geosangsul-habbyeongjeung
 relatedPosts:
   - slug: sinusimplant
     title: "상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다."

@@ -29,7 +29,7 @@ relatedTerms:
   - dansun-balchi
   - gugang-kandidajeung
   - gugang-sodae-isang
-  - gugangam
+  - gugangaganmyeon-goljeol
 relatedPosts:
   []
 ---

@@ -27,9 +27,9 @@ faqs:
     answer: "재료에 따라 표면에 색소가 붙을 수 있습니다. 다만 보철물은 미백으로 색이 변하지 않아요. 착색이면 연마로, 변색이 심하면 교체를 검토합니다."
 relatedTerms:
   - chia-gujo
+  - chia-gyunyeol-jeunghugun
   - chia-jaesigsul
   - chia-maengchul-jiyeon
-  - chia-maengchul-sunseo
 relatedPosts:
   []
 ---

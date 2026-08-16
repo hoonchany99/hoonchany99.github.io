@@ -312,6 +312,20 @@ export const termNamesEn: Record<string, string> = {
   'hwaiteu-seupas': 'White Spot Lesion',
   'maedogseong-chia': 'Syphilitic Teeth',
 
+  // 감염·외상
+  'chiseong-gamyeom': 'Odontogenic Infection',
+  'chieun-nongyang': 'Gingival Abscess',
+  'golmagha-nongyang': 'Subperiosteal Abscess',
+  'geunmaggangeug-gamyeom': 'Fascial Space Infection',
+  'rudeubihi-anggina': 'Ludwig Angina',
+  'gugangaganmyeon-goljeol': 'Maxillofacial Fracture',
+  'ibsul-yeolsang': 'Lip Laceration',
+  'chigwan-pajeol': 'Crown Fracture',
+  'chigeun-pajeol': 'Root Fracture',
+  'chia-gyunyeol-jeunghugun': 'Cracked Tooth Syndrome',
+  'gugangsangagdong-gyotong': 'Oroantral Communication',
+  'sangagdong-geosangsul-habbyeongjeung': 'Sinus Lift Complications',
+
   // 예방·소아
   fluoride: 'Fluoride',
   sealant: 'Pit and Fissure Sealant',

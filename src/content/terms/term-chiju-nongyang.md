@@ -26,10 +26,10 @@ faqs:
   - question: "그 치아를 살릴 수 있나요?"
     answer: "남은 잇몸뼈 양에 달려 있습니다. 뼈가 어느 정도 남아 있으면 치주 치료로 유지하는 경우가 많아요. 많이 녹았다면 발치를 검토합니다."
 relatedTerms:
+  - chieun-nongyang
   - chiju-jaesaengsul
   - chiju-sopasul
   - chiju-susul-hu-gwanri
-  - chiju-yujigwanri
 relatedPosts:
   []
 ---

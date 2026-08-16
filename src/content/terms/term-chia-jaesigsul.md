@@ -28,8 +28,8 @@ faqs:
 relatedTerms:
   - chia-chagsaeg
   - chia-gujo
+  - chia-gyunyeol-jeunghugun
   - chia-maengchul-jiyeon
-  - chia-maengchul-sunseo
 relatedPosts:
   []
 ---

@@ -26,10 +26,10 @@ faqs:
   - question: "임플란트 때문에 생기기도 하나요?"
     answer: "상악동거상술이나 임플란트가 상악동을 자극해 생기는 경우가 보고됩니다. 수술 후 한쪽 코막힘이나 콧물이 이어지면 알려 주세요."
 relatedTerms:
+  - gugangsangagdong-gyotong
+  - sangagdong-geosangsul-habbyeongjeung
   - sinus-lift
-  - gwaminseong-sangajil
-  - sangag
-  - cavity
+  - chiseong-gamyeom
 relatedPosts:
   []
 ---

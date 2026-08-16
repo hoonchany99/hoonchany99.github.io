@@ -27,9 +27,9 @@ faqs:
     answer: "치과용 금속이라 그 자체로 전신에 영향을 주지는 않습니다. 뿌리 속에 갇혀 있는 상태예요. 주변 조직 반응을 정기적으로 확인합니다."
 relatedTerms:
   - bocheolmul-pajeol
+  - chigeun-pajeol
+  - chigwan-pajeol
   - nikeltaitanyum-pail
-  - tooth-fracture
-  - cavity
 relatedPosts:
   []
 ---

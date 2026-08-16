@@ -29,7 +29,7 @@ relatedTerms:
   - bagriseong-chieunyeom
   - chia-chagsaeg
   - chia-gujo
-  - chia-jaesigsul
+  - chia-gyunyeol-jeunghugun
 relatedPosts:
   []
 ---

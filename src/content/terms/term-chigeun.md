@@ -27,9 +27,9 @@ faqs:
     answer: "남은 뿌리의 상태에 따라 달라요. 뿌리가 튼튼하고 염증이 없으면 신경치료 후 포스트와 크라운으로 살리는 경우가 있습니다. 갈라졌거나 잇몸뼈가 많이 녹았다면 발치를 검토해요."
 relatedTerms:
   - apical-periodontitis
+  - chigeun-pajeol
   - chisu
   - root-canal
-  - apicoectomy
 relatedPosts:
   - slug: root-canal-treatment-before
     title: "신경치료 전에 꼭 해야 할 검사, 이것이 성공률을 좌우합니다"

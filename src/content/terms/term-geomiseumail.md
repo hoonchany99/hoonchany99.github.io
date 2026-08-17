@@ -38,6 +38,7 @@ approach:
   - when: "입술 원인인데 반복 주사 대신 오래가는 방법을 원할 때"
     name: "입술 재위치술 (변형 전정성형술)"
     en: "Lip Repositioning (Modified Vestibuloplasty)"
+    slug: vestibuloplasty
     detail: "윗입술 안쪽 전정 점막을 띠 모양으로 떼어내고 낮은 위치에 봉합해 입술이 덜 올라가게 합니다. 1회 수술, 실밥 2주, 노출 3~5mm 감소."
   - when: "앞니가 아래로 처져 잇몸이 드러나는 경우"
     name: "미니스크류 함입 교정"

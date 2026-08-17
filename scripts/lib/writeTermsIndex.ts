@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { termsCanonical } from '../../src/data/termsCanonical.ts';
+import { termsExtra } from '../../src/data/termsExtra.ts';
 import { termDetailsBySlug } from '../../src/data/termDetails.ts';
 import { termFaqsBySlug } from '../../src/data/termFaqs.ts';
 import { authoredBySlug } from '../../src/data/termsAuthored.ts';
@@ -19,7 +20,7 @@ function truncateDefinition(def: string, max = 140): string {
 
 /** 클라이언트 치과사전 목록용 경량 JSON (public/terms-index.json) */
 export function writeTermsIndex(): number {
-  const items = termsCanonical
+  const items = [...termsCanonical, ...termsExtra]
     // 페이지가 있는 용어만 목록에 넣는다 (generate-terms-from-posts와 같은 기준)
     .filter(
       (term) =>

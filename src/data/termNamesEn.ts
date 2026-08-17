@@ -402,4 +402,5 @@ export const termNamesEn: Record<string, string> = {
   floss: 'Dental Floss',
   'dental-checkup': 'Dental Check-up',
   'pediatric-dentistry': 'Pediatric Dentistry',
+  vestibuloplasty: 'Vestibuloplasty',
 };

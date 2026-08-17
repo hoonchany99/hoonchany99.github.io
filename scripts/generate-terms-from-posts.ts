@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 import { termsCanonical } from '../src/data/termsCanonical.ts';
+import { termsExtra } from '../src/data/termsExtra.ts';
 import { termFaqsBySlug, FAQ_COUNT } from '../src/data/termFaqs.ts';
 import { termDetailsBySlug } from '../src/data/termDetails.ts';
 import { authoredBySlug } from '../src/data/termsAuthored.ts';
@@ -40,6 +41,12 @@ const termTier: Record<string, 'A' | 'B'> = {
   'immediate-implant': 'A',
   cerec: 'A',
 };
+
+/**
+ * bdbddc에서 긁어온 목록(termsCanonical)에 우리가 추가한 표제어(termsExtra)를 합친다.
+ * termsCanonical.ts는 자동 생성이라 직접 고치면 다음 동기화 때 지워진다.
+ */
+const allTerms = [...termsCanonical, ...termsExtra];
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const POSTS_DIR = path.resolve(__dirname, '../src/content/posts');
@@ -158,7 +165,7 @@ function resolveApproachSlug(name: string, selfSlug: string): string | null {
   const candidates = [name, ...name.split(/[+·/]/)].map(norm).filter(Boolean);
 
   for (const candidate of candidates) {
-    const hit = termsCanonical.find((t) => {
+    const hit = allTerms.find((t) => {
       if (t.slug === selfSlug || !hasVerifiedContent(t.slug)) return false;
       // 표제어뿐 아니라 선별된 동의어와도 맞춘다.
       // "교합안정장치 (스플린트)" 는 표제어가 「스플린트」라 동의어로만 걸린다.
@@ -193,13 +200,13 @@ function pickRelatedTerms(
     .join(' ')
     .replace(/\s/g, '');
   if (approachText) {
-    for (const t of termsCanonical) {
+    for (const t of allTerms) {
       if (t.slug === slug || !hasVerifiedContent(t.slug)) continue;
       if (approachText.includes(t.name.replace(/\s/g, ''))) fromApproach.push(t.slug);
     }
   }
 
-  const picked = termsCanonical
+  const picked = allTerms
     // 페이지가 있는 용어끼리만 연결한다 — 없는 슬러그를 걸면 링크가 통째로 사라진다
     .filter((t) => t.slug !== slug && hasVerifiedContent(t.slug))
     .map((t) => {
@@ -314,7 +321,8 @@ function renderTermFile(
       ? [
           'approach:',
           ...termApproaches[term.slug].flatMap((a) => {
-            const linked = resolveApproachSlug(a.name, term.slug);
+            // 수동 지정이 있으면 그것을 쓰고, 없을 때만 이름으로 찾는다
+            const linked = a.slug ?? resolveApproachSlug(a.name, term.slug);
             return [
               `  - when: ${yamlQuote(a.when)}`,
               `    name: ${yamlQuote(a.name)}`,
@@ -359,7 +367,7 @@ function main() {
 
   // 관련 글을 먼저 전부 계산한다 — 용어 간 연결(pickRelatedTerms)이 이 결과를 참조한다
   const relatedPostsByTerm = new Map<string, PostRecord[]>();
-  for (const term of termsCanonical) {
+  for (const term of allTerms) {
     const scored = posts
       .map((post) => ({ post, score: scorePost(post, term.aliases, term.name) }))
       .filter(({ score }) => score >= MIN_POST_SCORE)
@@ -377,13 +385,13 @@ function main() {
   const postSlugsByTerm = new Map(
     [...relatedPostsByTerm].map(([slug, ps]) => [slug, new Set(ps.map((p) => p.slug))])
   );
-  const gramsByTerm = new Map(termsCanonical.map((t) => [t.slug, bigrams(t.name)]));
+  const gramsByTerm = new Map(allTerms.map((t) => [t.slug, bigrams(t.name)]));
 
   let created = 0;
   let skipped = 0;
   let unwritten = 0;
 
-  for (const term of termsCanonical) {
+  for (const term of allTerms) {
     const fileId = termFileId(term.slug);
     const outPath = path.join(TERMS_DIR, `${fileId}.md`);
     const legacyPath = path.join(TERMS_DIR, `${term.slug}.md`);

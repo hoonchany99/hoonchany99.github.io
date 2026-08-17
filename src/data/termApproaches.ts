@@ -26,6 +26,12 @@ export interface TermApproach {
   name: string;
   /** 영문 술식명 */
   en?: string;
+  /**
+   * 연결할 사전 페이지 슬러그를 직접 지정한다.
+   * 보통은 술식명이 표제어와 정확히 같으면 자동으로 연결되지만,
+   * "입술 재위치술 (변형 전정성형술)"처럼 이름이 표제어와 어긋나면 여기에 적는다.
+   */
+  slug?: string;
   /** 무엇을 하는지 + 기간·횟수 */
   detail: string;
 }
@@ -48,6 +54,7 @@ export const termApproaches: Record<string, TermApproach[]> = {
       when: '입술 원인인데 반복 주사 대신 오래가는 방법을 원할 때',
       name: '입술 재위치술 (변형 전정성형술)',
       en: 'Lip Repositioning (Modified Vestibuloplasty)',
+      slug: 'vestibuloplasty',
       detail: '윗입술 안쪽 전정 점막을 띠 모양으로 떼어내고 낮은 위치에 봉합해 입술이 덜 올라가게 합니다. 1회 수술, 실밥 2주, 노출 3~5mm 감소.',
     },
     {
@@ -61,6 +68,33 @@ export const termApproaches: Record<string, TermApproach[]> = {
       name: '르포트 I 상악 골절단술',
       en: 'Le Fort I Osteotomy',
       detail: '위턱뼈를 수평으로 잘라 위로 올려 고정합니다. 전신마취 수술이고 교정을 함께해 전체 18~24개월.',
+    },
+  ],
+
+  vestibuloplasty: [
+    {
+      when: '전정이 얕아 아래 틀니가 자꾸 빠질 때 (가장 흔한 이유)',
+      name: '점막하 전정성형술',
+      en: 'Submucosal Vestibuloplasty',
+      detail: '점막은 남기고 그 아래 근육 부착만 아래로 옮깁니다. 상처가 겉으로 안 드러나 회복이 빠르고, 실밥 1~2주.',
+    },
+    {
+      when: '점막이 부족해 그냥 젖히면 다시 올라올 때',
+      name: '유리 이식 전정성형술',
+      en: 'Free Graft Vestibuloplasty',
+      detail: '입천장 점막이나 피부를 떼어 노출면에 이식해 고정합니다. 재발이 적은 대신 이식 부위가 2~3주 불편합니다.',
+    },
+    {
+      when: '임플란트 주위에 움직이지 않는 잇몸이 부족할 때',
+      name: '각화 치은 증대술',
+      en: 'Keratinized Tissue Augmentation',
+      detail: '임플란트 둘레에 단단한 잇몸을 2mm 이상 만들어 줍니다. 칫솔질이 쉬워져 주위염 위험이 줄어듭니다.',
+    },
+    {
+      when: '거미스마일에서 입술이 과하게 올라갈 때 (응용)',
+      name: '입술 재위치술',
+      en: 'Lip Repositioning',
+      detail: '같은 전정 접근으로 점막을 띠 모양으로 떼어내 낮게 봉합합니다. 잇몸 노출이 3~5mm 줄어듭니다.',
     },
   ],
 

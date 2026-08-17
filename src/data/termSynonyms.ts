@@ -69,4 +69,5 @@ export const termSynonyms: Record<string, string[]> = {
   'tooth-gem': ['치아보석'],
   whitening: ['미백'],
   'wisdom-tooth': ['지치', '제3대구치'],
+  vestibuloplasty: ['구강전정성형술', '전정확장술'],
 };

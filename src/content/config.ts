@@ -40,6 +40,8 @@ const terms = defineCollection({
         })
       )
       .default([]),
+    /** 앞 항목을 해야 다음이 성립하는 블록인지 (응급·단계형) */
+    approachOrdered: z.boolean().default(false),
     /** 원인별 치료·대응 — 원인 한 줄 → 치료명 → 기간·횟수 */
     approach: z
       .array(

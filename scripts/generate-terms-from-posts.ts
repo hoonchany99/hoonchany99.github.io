@@ -10,7 +10,7 @@ import { authoredBySlug } from '../src/data/termsAuthored.ts';
 import { excludedSlugs } from '../src/data/termsExcluded.ts';
 import { termNamesEn } from '../src/data/termNamesEn.ts';
 import { termSynonyms } from '../src/data/termSynonyms.ts';
-import { termApproaches } from '../src/data/termApproaches.ts';
+import { termApproaches, orderedApproachSlugs } from '../src/data/termApproaches.ts';
 import { writeTermsIndex } from './lib/writeTermsIndex.ts';
 
 /** 검색·트래픽 우선순위 (기존 md tier 유지용) */
@@ -317,6 +317,9 @@ function renderTermFile(
       `  - question: ${yamlQuote(f.question)}`,
       `    answer: ${toYamlBlock(f.answer, 6)}`,
     ]),
+    ...(termApproaches[term.slug]?.length && orderedApproachSlugs.has(term.slug)
+      ? ['approachOrdered: true']
+      : []),
     ...(termApproaches[term.slug]?.length
       ? [
           'approach:',

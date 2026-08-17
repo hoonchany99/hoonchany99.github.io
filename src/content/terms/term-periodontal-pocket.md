@@ -28,6 +28,7 @@ faqs:
     answer: "진행되면 뼈가 줄어 치아가 흔들릴 수 있어요. 조기 치주 치료·유지 관리가 중요합니다."
   - question: "치주낭 예방법은?"
     answer: "양치·치실, 정기 스케aling·검진, 흡연 줄이기, 당뇨 관리 등이 도움이 될 수 있어요."
+approachOrdered: true
 approach:
   - when: "4~5mm, 초기"
     name: "치근활택술"

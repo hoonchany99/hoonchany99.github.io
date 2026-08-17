@@ -126,11 +126,15 @@ const definedTermLd = JSON.stringify({
 
       {term.data.approach.length > 0 && (
         <section class="mb-10 md:mb-12 anim-fade-up anim-delay-2">
-          <h2 class="text-lg font-bold text-gray-900 mb-1">치료 방법 종류</h2>
-          <p class="text-xs text-gray-400 mb-4">
-            차례로 밟아가는 단계가 아니라, 원인에 따라 갈리는 선택지입니다.
-            흔히 하는 것부터 실었습니다.
-          </p>
+          <h2 class="text-lg font-bold text-gray-900 mb-1">치료 방법</h2>
+          <p class="text-xs text-gray-400 mb-4">이렇게 치료합니다.</p>
+
+          {term.data.approachOrdered && (
+            <p class="mb-4 inline-flex items-center gap-1.5 rounded-lg bg-brand/5 px-3 py-1.5 text-xs font-medium text-brand/80">
+              <span aria-hidden="true">↓</span>
+              순서대로 진행합니다
+            </p>
+          )}
 
           <ol class="space-y-3" data-speakable>
             {term.data.approach.map((item, i) => {

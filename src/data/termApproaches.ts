@@ -2689,3 +2689,32 @@ export const termApproaches: Record<string, TermApproach[]> = {
 export function hasApproach(slug: string): boolean {
   return Boolean(termApproaches[slug]?.length);
 }
+
+/**
+ * 순서대로 진행되는 블록.
+ *
+ * 대부분은 원인에 따라 갈리는 선택지라 번호가 빈도만 뜻한다.
+ * 그런데 응급 처치나 단계가 정해진 치료는 앞 항목을 해야 다음이 성립한다.
+ * (치아가 빠졌을 때 재식이 먼저고, 신경치료를 해야 크라운을 씌운다)
+ * 그런 것만 여기 적어 화면에 "순서대로 진행합니다"를 띄운다.
+ */
+export const orderedApproachSlugs = new Set<string>([
+  // 외상·응급 — 순서가 예후를 가른다
+  'chia-wanjeon-talgu',
+  'balchi-hu-chulhyeol',
+  'dry-socket',
+  // 급성 감염 — 배농이 먼저, 원인 처치가 그다음
+  'chiju-nongyang',
+  'chieun-nongyang',
+  'chiseong-gamyeom',
+  'geubseong-goesaseong-gweyangseong-chieunyeom',
+  // 통증 제거 → 본 치료 → 수복
+  'bigayeogjeog-chisuyeom',
+  // 단계가 정해진 치주 치료 (앞 단계 결과를 보고 다음을 정한다)
+  'periodontitis',
+  'manseong-chijuyeom',
+  'periodontal-pocket',
+  'peri-implantitis',
+  // 진단 순서 자체가 치료인 경우
+  'chijugeungwan-boghab-byeongso',
+]);

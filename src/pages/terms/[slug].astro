@@ -126,9 +126,10 @@ const definedTermLd = JSON.stringify({
 
       {term.data.approach.length > 0 && (
         <section class="mb-10 md:mb-12 anim-fade-up anim-delay-2">
-          <h2 class="text-lg font-bold text-gray-900 mb-1">원인별 치료 방법</h2>
+          <h2 class="text-lg font-bold text-gray-900 mb-1">치료 방법 종류</h2>
           <p class="text-xs text-gray-400 mb-4">
-            원인에 따라 방법이 다릅니다. 해당하는 줄을 찾아보세요.
+            차례로 밟아가는 단계가 아니라, 원인에 따라 갈리는 선택지입니다.
+            흔히 하는 것부터 실었습니다.
           </p>
 
           <ol class="space-y-3" data-speakable>
@@ -147,7 +148,8 @@ const definedTermLd = JSON.stringify({
                 <li>
                   <Card {...cardProps}>
                     <div class="flex items-start gap-3">
-                      <span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand/10 text-brand text-xs font-bold flex items-center justify-center mt-0.5">
+                      <!-- 단계 표시처럼 보이지 않게 원형 배지 대신 목록 번호로 둔다 -->
+                      <span class="flex-shrink-0 w-5 text-right text-sm font-bold text-gray-300 tabular-nums mt-px">
                         {i + 1}
                       </span>
                       <div class="min-w-0 flex-1">

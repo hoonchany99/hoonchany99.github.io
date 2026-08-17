@@ -1751,6 +1751,938 @@ export const termApproaches: Record<string, TermApproach[]> = {
       detail: '제1대구치를 뽑고 사랑니·제2대구치를 앞으로 당깁니다. 만 8~10세 시기가 중요합니다.',
     },
   ],
+
+  // ── 마모·파절 ────────────────────────────────────────────
+
+  'chia-mamojeung': [
+    {
+      when: '원인을 찾는 것이 먼저',
+      name: '원인 감별',
+      en: 'Etiologic Assessment',
+      detail: '이갈이·산 역류·과도한 칫솔질 중 무엇인지 나눕니다. 원인을 두면 때워도 다시 닳습니다.',
+    },
+    {
+      when: '이갈이·이악물기가 원인일 때',
+      name: '교합안정장치',
+      en: 'Occlusal Splint',
+      slug: 'splint',
+      detail: '자는 동안 끼워 마모를 막습니다. 제작 2~3회 방문.',
+    },
+    {
+      when: '위산 역류·산성 음료가 원인일 때',
+      name: '산 노출 관리',
+      en: 'Acid Control',
+      detail: '역류는 내과 치료를 함께합니다. 산성 음료 직후 30분은 칫솔질을 미루는 것이 낫습니다.',
+    },
+    {
+      when: '이미 닳아 시리거나 형태가 무너졌을 때',
+      name: '레진 · 크라운 수복',
+      en: 'Restoration',
+      detail: '얕으면 레진, 넓으면 크라운으로 높이를 되살립니다. 여러 개면 교합 높이를 함께 계획합니다.',
+    },
+  ],
+
+  'tooth-fracture': [
+    {
+      when: '법랑질만 깨져 날카로울 때',
+      name: '연마 또는 레진 수복',
+      en: 'Polishing or Composite',
+      detail: '모서리를 다듬거나 레진으로 모양을 살립니다. 1회 방문.',
+    },
+    {
+      when: '상아질까지 깨져 시릴 때',
+      name: '레진 수복',
+      en: 'Composite Restoration',
+      slug: 'resin',
+      detail: '노출된 상아질을 덮습니다. 빨리 덮을수록 신경을 지키기 좋습니다.',
+    },
+    {
+      when: '치수가 드러났을 때',
+      name: '치수 복조 또는 신경치료',
+      en: 'Pulp Capping or Root Canal',
+      detail: '노출이 작고 시간이 짧으면 덮어 살리고, 크면 신경치료로 갑니다.',
+    },
+    {
+      when: '잇몸 아래까지 깨졌을 때',
+      name: '치관 연장술 또는 교정적 정출',
+      en: 'Crown Lengthening or Extrusion',
+      slug: 'chigwan-yeonjangsul',
+      detail: '보철을 잡을 자리를 만듭니다. 정출은 6~10주 걸립니다.',
+    },
+    {
+      when: '뿌리까지 세로로 갈라졌을 때',
+      name: '발치',
+      en: 'Extraction',
+      slug: 'extraction',
+      detail: '수직 파절은 살릴 수 없습니다. 임플란트나 브릿지를 계획합니다.',
+    },
+  ],
+
+  'chia-gyunyeol-jeunghugun': [
+    {
+      when: '진단이 어려울 때, 먼저',
+      name: '교합 검사 (물림 검사)',
+      en: 'Bite Test',
+      detail: '치아별로 하나씩 물려 어느 치아인지 찾습니다. 방사선에는 안 나오는 경우가 많습니다.',
+    },
+    {
+      when: '증상이 가볍고 금이 얕을 때',
+      name: '교합 조정 + 관찰',
+      en: 'Occlusal Adjustment',
+      slug: 'occlusal-adjustment',
+      detail: '금 간 곳에 힘이 몰리지 않게 다듬습니다. 3~6개월 간격으로 봅니다.',
+    },
+    {
+      when: '씹을 때 통증이 뚜렷할 때',
+      name: '크라운 수복',
+      en: 'Full Coverage Crown',
+      slug: 'crown',
+      detail: '치아를 감싸 벌어지는 힘을 묶습니다. 크랙의 표준 처치입니다.',
+    },
+    {
+      when: '가만히 있어도 아플 때',
+      name: '신경치료 후 크라운',
+      en: 'Root Canal then Crown',
+      detail: '치수까지 염증이 갔다는 뜻입니다. 총 3~5회 방문.',
+    },
+  ],
+
+  'gwaminseong-sangajil': [
+    {
+      when: '가벼운 시림',
+      name: '지각과민 완화 치약',
+      en: 'Desensitizing Toothpaste',
+      detail: '질산칼륨·불화주석 치약을 2~4주 씁니다. 시린 부위에 문질러 두면 더 낫습니다.',
+    },
+    {
+      when: '특정 부위가 콕 집어 시릴 때',
+      name: '지각과민 처치제 도포',
+      en: 'Desensitizer Application',
+      detail: '드러난 상아세관을 약제로 막습니다. 1회 5~10분.',
+    },
+    {
+      when: '패임이 있을 때',
+      name: '치경부 레진 충전',
+      en: 'Cervical Restoration',
+      detail: '패인 곳을 메워 상아질을 덮습니다. 1회 방문.',
+    },
+    {
+      when: '치근이 드러났을 때',
+      name: '치근 피개술',
+      en: 'Root Coverage Graft',
+      slug: 'chigeun-pigaesul',
+      detail: '결합조직을 이식해 덮습니다. 안정까지 2~3개월.',
+    },
+  ],
+
+  // ── 치주 ─────────────────────────────────────────────────
+
+  'periodontal-pocket': [
+    {
+      when: '4~5mm, 초기',
+      name: '치근활택술',
+      en: 'Scaling and Root Planing',
+      slug: 'scaling-root-planing',
+      detail: '잇몸 속 치석과 오염층을 걷어냅니다. 2~4회, 4~6주 뒤 재평가.',
+    },
+    {
+      when: '6mm 이상 남았을 때',
+      name: '치주 판막 수술',
+      en: 'Periodontal Flap Surgery',
+      detail: '잇몸을 젖혀 직접 보면서 제거합니다. 부위당 1회.',
+    },
+    {
+      when: '깊은 골 결손이 있을 때',
+      name: '치주 조직 재생술',
+      en: 'Guided Tissue Regeneration',
+      slug: 'chiju-jaesaengsul',
+      detail: '골이식재와 차단막으로 뼈가 차오를 공간을 만듭니다. 판정까지 6~9개월.',
+    },
+    {
+      when: '치료 후 평생',
+      name: '치주 유지관리',
+      en: 'Periodontal Maintenance',
+      slug: 'chiju-yujigwanri',
+      detail: '3~4개월 간격 관리. 치주낭은 관리를 놓으면 다시 깊어집니다.',
+    },
+  ],
+
+  'chieun-nongyang': [
+    {
+      when: '잇몸 표면이 볼록하게 곪았을 때',
+      name: '절개 배농',
+      en: 'Incision and Drainage',
+      slug: 'jeolgae-baenong',
+      detail: '째서 고름을 빼면 통증이 즉시 줄어듭니다.',
+    },
+    {
+      when: '이물질(생선 가시, 음식물)이 원인일 때',
+      name: '이물 제거 + 세척',
+      en: 'Foreign Body Removal',
+      detail: '원인을 빼내면 대개 2~3일이면 가라앉습니다.',
+    },
+    {
+      when: '가라앉은 뒤',
+      name: '스케일링 · 국소 치주 처치',
+      en: 'Local Periodontal Therapy',
+      slug: 'scaling',
+      detail: '치은 농양은 치주 농양과 달리 잇몸 표면에 국한됩니다. 국소 처치로 끝나는 경우가 많습니다.',
+    },
+  ],
+
+  // ── 턱관절 ───────────────────────────────────────────────
+
+  'teoggwanjeol-diseukeu-byeonwi': [
+    {
+      when: '딸깍 소리는 나지만 입은 잘 벌어질 때 (정복성)',
+      name: '보존 관리 + 행동 요법',
+      en: 'Conservative Management',
+      detail: '딱딱한 음식과 큰 입 벌리기를 피합니다. 소리만 있고 아프지 않으면 치료하지 않기도 합니다.',
+    },
+    {
+      when: '통증이나 걸림이 반복될 때',
+      name: '교합안정장치',
+      en: 'Stabilization Splint',
+      slug: 'splint',
+      detail: '관절 부담을 덜어 줍니다. 착용 3~6개월 뒤 재평가.',
+    },
+    {
+      when: '갑자기 입이 2~3cm밖에 안 벌어질 때 (비정복성)',
+      name: '도수 정복술',
+      en: 'Manual Reduction',
+      detail: '손으로 디스크를 제자리로 밀어 넣습니다. 발생 초기일수록 성공률이 높습니다.',
+    },
+    {
+      when: '보존 치료에 반응하지 않을 때',
+      name: '관절강 세척술',
+      en: 'Arthrocentesis',
+      detail: '관절강을 씻어 유착과 염증물질을 제거합니다. 개구량이 늘어나는 경우가 많습니다.',
+    },
+  ],
+
+  // ── 법랑질 형성 이상 ─────────────────────────────────────
+
+  bulsojeung: [
+    {
+      when: '옅은 흰 줄무늬 정도',
+      name: '경과 관찰',
+      en: 'Observation',
+      detail: '치아 건강에는 문제가 없습니다. 불소 섭취원만 점검합니다.',
+    },
+    {
+      when: '표면에 국한된 흰 반점·갈색 얼룩',
+      name: '미세 연마',
+      en: 'Microabrasion',
+      detail: '표층을 아주 얇게 갈아냅니다. 1~2회로 상당히 옅어집니다.',
+    },
+    {
+      when: '연마로 부족할 때',
+      name: '레진 침윤술 또는 미백',
+      en: 'Resin Infiltration or Bleaching',
+      detail: '레진을 스며들게 하거나 전체 색을 맞춥니다. 1~2회 방문.',
+    },
+    {
+      when: '표면이 파이고 얼룩이 심할 때',
+      name: '라미네이트 · 크라운',
+      en: 'Veneer or Crown',
+      slug: 'laminate',
+      detail: '덮어서 색과 형태를 한 번에 맞춥니다. 2~3회 방문.',
+    },
+  ],
+
+  // ── 맹출 ─────────────────────────────────────────────────
+
+  'iso-maengchul': [
+    {
+      when: '가볍게 걸린 경우 (제1대구치가 유치에 걸림)',
+      name: '경과 관찰',
+      en: 'Observation',
+      detail: '만 7세 전후로는 저절로 빠져나오는 경우가 있습니다. 6개월 간격으로 봅니다.',
+    },
+    {
+      when: '저절로 풀리지 않을 때',
+      name: '분리 장치 (세퍼레이터)',
+      en: 'Separator',
+      detail: '고무링이나 철사로 밀어 걸린 것을 풀어냅니다. 1~2주면 빠져나옵니다.',
+    },
+    {
+      when: '유치 뿌리가 많이 녹았을 때',
+      name: '유치 발치 + 공간 유지',
+      en: 'Extraction with Space Maintenance',
+      slug: 'gonggan-yuji-jangchi',
+      detail: '걸린 유치를 뽑고 자리가 좁아지지 않게 장치를 넣습니다.',
+    },
+  ],
+
+  'chia-maengchul-jiyeon': [
+    {
+      when: '또래보다 늦지만 방사선상 정상일 때',
+      name: '경과 관찰',
+      en: 'Observation',
+      detail: '개인차가 큽니다. 6~12개월 간격으로 봅니다.',
+    },
+    {
+      when: '잇몸이 두꺼워 못 나올 때',
+      name: '외과적 노출',
+      en: 'Surgical Exposure',
+      detail: '덮인 잇몸을 열어 길을 터 줍니다. 1회 처치.',
+    },
+    {
+      when: '과잉치나 낭종이 막고 있을 때',
+      name: '방해 요소 제거',
+      en: 'Removal of Obstruction',
+      detail: '과잉치를 뽑거나 낭종을 꺼냅니다. 일찍 치우면 저절로 나오는 경우가 많습니다.',
+    },
+    {
+      when: '길을 터 줘도 안 나올 때',
+      name: '교정적 견인',
+      en: 'Orthodontic Traction',
+      detail: '장치를 붙여 끌어냅니다. 12~24개월.',
+    },
+  ],
+
+  // ── 치아 형태 이상 ───────────────────────────────────────
+
+  'seoncheonseong-gyeolsonchi': [
+    {
+      when: '유치가 남아 잘 쓰고 있을 때',
+      name: '유치 유지',
+      en: 'Retention of Primary Tooth',
+      detail: '뿌리가 녹지 않았으면 성인이 될 때까지 쓰기도 합니다. 정기적으로 상태를 봅니다.',
+    },
+    {
+      when: '빈 공간을 닫아도 되는 배열일 때',
+      name: '교정으로 공간 폐쇄',
+      en: 'Orthodontic Space Closure',
+      detail: '옆 치아를 당겨 틈을 메웁니다. 보철을 평생 안 해도 됩니다. 18~30개월.',
+    },
+    {
+      when: '공간을 유지해 보철로 채울 때',
+      name: '임플란트',
+      en: 'Dental Implant',
+      slug: 'implant',
+      detail: '성장이 끝난 뒤(여성 18세·남성 20세 전후) 심습니다. 그전에는 임시 보철로 버팁니다.',
+    },
+    {
+      when: '임플란트가 어려운 경우',
+      name: '브릿지 · 접착성 보철',
+      en: 'Bridge or Resin-Bonded Prosthesis',
+      slug: 'bridge',
+      detail: '옆 치아를 이용해 채웁니다. 삭제를 최소화하는 방식도 있습니다.',
+    },
+  ],
+
+  yunghabchi: [
+    {
+      when: '유치이고 기능에 문제가 없을 때',
+      name: '경과 관찰 + 홈 관리',
+      en: 'Observation and Sealant',
+      detail: '붙은 골에 음식이 껴 잘 썩습니다. 실란트로 메우고 6개월마다 봅니다.',
+    },
+    {
+      when: '골이 깊어 충치가 생겼을 때',
+      name: '레진 충전',
+      en: 'Composite Restoration',
+      detail: '홈을 따라 썩기 쉬워 조기에 메웁니다.',
+    },
+    {
+      when: '영구치이고 심미가 문제일 때',
+      name: '치아 분리 또는 보철 수복',
+      en: 'Separation or Prosthetic Restoration',
+      detail: '뿌리가 나뉘어 있으면 분리를, 하나면 씌워서 형태를 맞춥니다.',
+    },
+    {
+      when: '뒤이어 나올 영구치 배열이 걱정될 때',
+      name: '교정 상담',
+      en: 'Orthodontic Consultation',
+      detail: '치아 수와 폭이 달라져 배열에 영향을 줍니다. 혼합치열기에 계획을 세웁니다.',
+    },
+  ],
+
+  // ── 구강 점막 (추가) ─────────────────────────────────────
+
+  jidoseol: [
+    {
+      when: '증상이 없을 때 (대부분)',
+      name: '치료하지 않음',
+      en: 'No Treatment',
+      detail: '양성이고 저절로 모양이 변합니다. 암과 무관하며 전염되지도 않습니다.',
+    },
+    {
+      when: '매운 음식에 쓰라릴 때',
+      name: '자극 회피 + 국소 처치',
+      en: 'Avoidance and Topical Care',
+      detail: '맵고 신 음식을 피합니다. 심하면 국소 스테로이드를 짧게 씁니다.',
+    },
+    {
+      when: '모양이 변하지 않고 한자리에 굳어 있을 때',
+      name: '재평가',
+      en: 'Reassessment',
+      detail: '지도설은 자리가 옮겨 다닙니다. 고정돼 있으면 다른 병을 감별합니다.',
+    },
+  ],
+
+  seoltong: [
+    {
+      when: '원인을 찾는 것이 먼저',
+      name: '혈액 검사 · 국소 원인 점검',
+      en: 'Workup',
+      detail: '철·엽산·비타민 B12 결핍, 빈혈, 칸디다, 구강건조를 확인합니다. 원인이 나오면 그것부터 치료합니다.',
+    },
+    {
+      when: '검사에서 이상이 없을 때 (원발성 설통)',
+      name: '국소 클로나제팜',
+      en: 'Topical Clonazepam',
+      detail: '입에 물고 있다가 뱉습니다. 상당수에서 통증이 줄어듭니다.',
+    },
+    {
+      when: '국소 요법으로 부족할 때',
+      name: '신경병증 통증 약물',
+      en: 'Neuropathic Pain Medication',
+      detail: '저용량 항우울제나 가바펜틴 계열을 씁니다. 효과까지 4~8주 걸립니다.',
+    },
+    {
+      when: '치료와 병행',
+      name: '인지행동 요법 · 구강건조 관리',
+      en: 'Behavioral Therapy',
+      detail: '불안이 통증을 키웁니다. 설통은 없애기보다 줄이며 지내는 병에 가깝습니다.',
+    },
+  ],
+
+  heugmoseol: [
+    {
+      when: '거의 모든 경우 1차',
+      name: '혀 클리닝',
+      en: 'Tongue Cleaning',
+      detail: '혀클리너로 하루 1~2회 부드럽게 훑습니다. 길어진 유두가 정리되며 2~4주면 좋아집니다.',
+    },
+    {
+      when: '유발 요인이 있을 때',
+      name: '원인 제거',
+      en: 'Removal of Trigger',
+      detail: '흡연, 커피·홍차, 항생제, 구강건조가 흔합니다. 색만 변한 것이고 해롭지는 않습니다.',
+    },
+    {
+      when: '칸디다가 함께 있을 때',
+      name: '항진균제',
+      en: 'Antifungal',
+      detail: '곰팡이가 겹치면 잘 안 없어집니다. 7~14일 씁니다.',
+    },
+  ],
+
+  gugagmiranjeung: [
+    {
+      when: '곰팡이가 원인일 때 (가장 흔함)',
+      name: '국소 항진균제',
+      en: 'Topical Antifungal',
+      detail: '입꼬리에 하루 2~3회 바릅니다. 1~2주면 아뭅니다.',
+    },
+    {
+      when: '세균 감염이 겹쳤을 때',
+      name: '항생 연고 병용',
+      en: 'Topical Antibiotic',
+      detail: '노랗게 딱지가 앉으면 함께 씁니다.',
+    },
+    {
+      when: '틀니가 낮아 입꼬리가 접힐 때',
+      name: '교합 높이 회복',
+      en: 'Restoration of Vertical Dimension',
+      detail: '침이 고이는 주름을 없애야 재발하지 않습니다. 틀니를 새로 만들거나 높입니다.',
+    },
+    {
+      when: '반복될 때',
+      name: '영양 상태 점검',
+      en: 'Nutritional Assessment',
+      detail: '철·비타민 B군 결핍, 당뇨를 확인합니다.',
+    },
+  ],
+
+  hongsaegpanjeung: [
+    {
+      when: '발견 즉시',
+      name: '조직검사',
+      en: 'Biopsy',
+      detail: '홍색판증은 백반증보다 위험합니다. 상당수에서 이형성이나 암이 나와, 지켜보지 않고 바로 확인합니다.',
+    },
+    {
+      when: '이형성이 확인됐을 때',
+      name: '외과적 절제',
+      en: 'Surgical Excision',
+      detail: '경계를 두고 잘라냅니다.',
+    },
+    {
+      when: '암으로 진단됐을 때',
+      name: '구강암 치료로 전환',
+      en: 'Oncologic Management',
+      slug: 'gugangam',
+      detail: '병기에 따라 수술·방사선·항암을 조합합니다.',
+    },
+    {
+      when: '치료 후 평생',
+      name: '정기 추적',
+      en: 'Long-term Surveillance',
+      detail: '3~6개월 간격으로 봅니다. 금연·금주가 재발을 크게 줄입니다.',
+    },
+  ],
+
+  // ── 노인·전신질환 ────────────────────────────────────────
+
+  'noin-bburi-usig': [
+    {
+      when: '초기, 아직 파이지 않았을 때',
+      name: '고농도 불소',
+      en: 'High-Fluoride Application',
+      detail: '5,000ppm 불소치약을 매일 쓰고 3~4개월마다 도포합니다. 뿌리 우식은 되돌릴 수 있는 단계가 있습니다.',
+    },
+    {
+      when: '진행을 멈춰야 하는데 치료가 어려울 때',
+      name: '불화디아민은(SDF)',
+      en: 'Silver Diamine Fluoride',
+      detail: '바르면 진행이 멈춥니다. 그 부위가 검게 변합니다.',
+    },
+    {
+      when: '구멍이 생겼을 때',
+      name: '글라스 아이오노머 충전',
+      en: 'Glass Ionomer Restoration',
+      slug: 'geulraseu-aionomeo',
+      detail: '불소가 나오고 습기에 강해 치경부에 유리합니다. 1회 방문.',
+    },
+    {
+      when: '무엇보다 배경 관리',
+      name: '구강건조 관리',
+      en: 'Dry Mouth Management',
+      slug: 'guganggeonjojeung',
+      detail: '침이 줄면 뿌리 우식이 급격히 늘어납니다. 복용 약을 함께 점검합니다.',
+    },
+  ],
+
+  'dangnyo-hwanja-chigwa': [
+    {
+      when: '치과 치료 전',
+      name: '혈당 조절 확인',
+      en: 'Glycemic Assessment',
+      detail: 'HbA1c와 최근 혈당을 확인합니다. 조절이 안 되면 상처가 잘 안 아물고 감염 위험이 큽니다.',
+    },
+    {
+      when: '예약 잡을 때',
+      name: '오전 예약 + 식사 유지',
+      en: 'Morning Appointment',
+      detail: '아침 식사와 약을 거르지 않고 오게 합니다. 저혈당이 진료 중 가장 흔한 사고입니다.',
+    },
+    {
+      when: '잇몸병이 있을 때',
+      name: '적극적 치주 치료',
+      en: 'Intensive Periodontal Therapy',
+      detail: '당뇨와 치주염은 서로를 악화시킵니다. 치주 치료가 혈당 조절에도 도움이 됩니다. 3개월 간격 관리.',
+    },
+    {
+      when: '수술이나 발치를 할 때',
+      name: '감염 관리 강화',
+      en: 'Infection Control',
+      detail: '조절이 잘 되는 당뇨는 특별한 예방적 항생제가 필요하지 않습니다. 조절이 나쁠 때만 검토합니다.',
+    },
+  ],
+
+  'hangeunggojewa-chigwa': [
+    {
+      when: '가장 중요한 원칙',
+      name: '약을 임의로 끊지 않음',
+      en: 'Continue Anticoagulation',
+      detail: '끊었을 때의 혈전 위험이 출혈 위험보다 큽니다. 처방의와 상의 없이 중단하지 않습니다.',
+    },
+    {
+      when: '발치 등 출혈이 예상될 때',
+      name: 'INR 확인',
+      en: 'INR Check',
+      detail: '와파린은 시술 24~72시간 안의 수치를 봅니다. 대개 INR 3.5 이하면 단순 발치가 가능합니다.',
+    },
+    {
+      when: '시술 중·후',
+      name: '국소 지혈 강화',
+      en: 'Local Hemostasis',
+      detail: '지혈제 삽입, 봉합, 트라넥삼산 함수를 함께 씁니다. 대부분 국소 조치로 해결됩니다.',
+    },
+    {
+      when: '출혈 위험이 매우 큰 큰 수술일 때',
+      name: '처방의와 협진',
+      en: 'Physician Consultation',
+      detail: '중단이나 대체가 필요한지는 처방의가 판단합니다. 치과가 단독으로 정하지 않습니다.',
+    },
+  ],
+
+  'goldagongjeung-hwanja-chigwa': [
+    {
+      when: '골흡수억제제를 시작하기 전',
+      name: '치과 검진 선행',
+      en: 'Pre-treatment Screening',
+      detail: '발치·임플란트 같은 뼈를 건드리는 처치를 먼저 끝냅니다. 시작한 뒤에는 선택지가 크게 줄어듭니다.',
+    },
+    {
+      when: '먹는 약을 4년 미만 쓰고 있을 때',
+      name: '일반적 처치 진행',
+      en: 'Routine Treatment',
+      detail: '턱뼈 괴사 위험이 매우 낮습니다. 대개 그대로 발치합니다.',
+    },
+    {
+      when: '4년 이상이거나 주사제·항암 목적일 때',
+      name: '처방의 협진 + 보존적 접근',
+      en: 'Physician Consultation',
+      detail: '가능하면 발치 대신 신경치료로 뿌리를 남깁니다. 뼈를 여는 처치를 줄이는 것이 원칙입니다.',
+    },
+    {
+      when: '불가피하게 발치할 때',
+      name: '최소 침습 발치 + 추적',
+      en: 'Atraumatic Extraction',
+      detail: '뼈를 최소한으로 건드리고 봉합합니다. 8주까지 아무는지 지켜봅니다.',
+    },
+  ],
+
+  'imsin-jung-chigwachiryo': [
+    {
+      when: '치료 시기를 고를 수 있을 때',
+      name: '임신 중기(4~6개월)에 시행',
+      en: 'Second Trimester',
+      detail: '초기는 유산 위험, 말기는 눕기 힘들어 중기가 가장 편합니다. 급한 치료는 시기와 무관하게 합니다.',
+    },
+    {
+      when: '잇몸이 붓고 피가 날 때',
+      name: '스케일링',
+      en: 'Scaling',
+      slug: 'scaling',
+      detail: '임신 중에도 안전합니다. 오히려 치주염을 두면 조산 위험이 올라갑니다.',
+    },
+    {
+      when: '마취가 필요할 때',
+      name: '리도카인 국소마취',
+      en: 'Local Anesthesia',
+      detail: '통상 용량은 안전합니다. 참고 치료하는 스트레스가 더 해롭습니다.',
+    },
+    {
+      when: '방사선이 필요할 때',
+      name: '납방어 하 촬영',
+      en: 'Shielded Radiography',
+      detail: '치과 방사선량은 매우 낮고 복부와 떨어져 있습니다. 필요하면 찍습니다.',
+    },
+    {
+      when: '약을 써야 할 때',
+      name: '안전한 약제 선택',
+      en: 'Safe Medication',
+      detail: '아세트아미노펜과 페니실린계는 쓸 수 있습니다. NSAIDs는 말기에 피합니다.',
+    },
+  ],
+
+  // ── 임플란트 문제 ────────────────────────────────────────
+
+  'impeulranteu-silpae': [
+    {
+      when: '초기 실패 (골유착 전, 수술 후 수개월 내)',
+      name: '제거 후 재식립',
+      en: 'Removal and Reimplantation',
+      detail: '흔들리는 픽스처를 빼냅니다. 뼈가 아물기를 2~3개월 기다린 뒤 다시 심습니다.',
+    },
+    {
+      when: '주위염으로 뼈가 녹은 후기 실패',
+      name: '주위염 치료 시도',
+      en: 'Peri-implantitis Therapy',
+      slug: 'peri-implantitis',
+      detail: '흔들리지 않으면 표면 정화와 골재생으로 살려 봅니다. 재평가 6~9개월.',
+    },
+    {
+      when: '제거 후 뼈가 많이 부족할 때',
+      name: '골유도재생술 (GBR)',
+      en: 'Guided Bone Regeneration',
+      slug: 'gbr',
+      detail: '뼈를 만들고 4~6개월 뒤 재식립합니다.',
+    },
+    {
+      when: '같은 실패를 반복하지 않으려면',
+      name: '실패 원인 교정',
+      en: 'Correction of Cause',
+      detail: '흡연, 조절 안 된 당뇨, 과도한 교합력, 관리 부족을 함께 다룹니다. 원인을 두면 다시 실패합니다.',
+    },
+  ],
+
+  'bocheolmul-pajeol': [
+    {
+      when: '도재만 조금 깨졌고 위치가 눈에 안 띌 때',
+      name: '연마 후 관찰',
+      en: 'Polishing',
+      detail: '날카로운 부분만 다듬습니다. 기능에 문제없으면 그대로 씁니다.',
+    },
+    {
+      when: '앞니처럼 보이는 자리가 깨졌을 때',
+      name: '구강 내 레진 수리',
+      en: 'Intraoral Repair',
+      detail: '전용 접착 시스템으로 레진을 붙입니다. 임시방편이라 수명이 짧습니다.',
+    },
+    {
+      when: '금속이 드러나거나 크게 깨졌을 때',
+      name: '재제작',
+      en: 'Remake',
+      detail: '떼어내고 새로 만듭니다. 2~3회 방문.',
+    },
+    {
+      when: '반복해서 깨질 때',
+      name: '교합 조정 + 야간 장치',
+      en: 'Occlusal Adjustment and Night Guard',
+      slug: 'occlusal-adjustment',
+      detail: '이갈이나 높은 교합이 원인인 경우가 많습니다. 원인을 두면 새로 해도 또 깨집니다.',
+    },
+  ],
+
+  // ── 치근 문제 ────────────────────────────────────────────
+
+  'chigeun-heubsu': [
+    {
+      when: '유치에서 영구치가 밀어 올려 생긴 경우',
+      name: '정상 과정, 처치 없음',
+      en: 'Physiologic Resorption',
+      detail: '유치가 빠지기 위한 자연스러운 과정입니다.',
+    },
+    {
+      when: '치아 안쪽에서 녹고 있을 때 (내흡수)',
+      name: '신경치료',
+      en: 'Root Canal Treatment',
+      slug: 'root-canal',
+      detail: '원인인 치수 조직을 제거하면 진행이 멈춥니다. 빨리 할수록 남는 치질이 많습니다.',
+    },
+    {
+      when: '바깥에서 녹고 있을 때 (외흡수)',
+      name: '원인 제거 + 수복',
+      en: 'Removal of Cause',
+      detail: '교정력, 매복치 압박, 외상 이력을 찾습니다. 녹은 부위는 노출시켜 메웁니다.',
+    },
+    {
+      when: '뿌리가 많이 녹아 흔들릴 때',
+      name: '발치',
+      en: 'Extraction',
+      detail: '지탱이 안 되면 뽑고 임플란트나 브릿지로 갑니다.',
+    },
+  ],
+
+  'chigeun-cheongong': [
+    {
+      when: '작고 발견 즉시일 때',
+      name: 'MTA 즉시 봉쇄',
+      en: 'Immediate MTA Repair',
+      detail: '뚫린 자리를 MTA로 막습니다. 오염되기 전에 막을수록 예후가 좋습니다.',
+    },
+    {
+      when: '위치가 잇몸 가까워 접근이 어려울 때',
+      name: '외과적 수복',
+      en: 'Surgical Repair',
+      detail: '잇몸을 열어 바깥에서 막습니다. 1회 수술, 실밥 1주.',
+    },
+    {
+      when: '천공 주위에 뼈가 녹았을 때',
+      name: '봉쇄 + 골재생',
+      en: 'Repair with Regeneration',
+      detail: '막으면서 골이식재를 함께 넣습니다. 6~9개월 경과를 봅니다.',
+    },
+    {
+      when: '치근 분지부처럼 예후가 나쁜 위치일 때',
+      name: '발치',
+      en: 'Extraction',
+      detail: '분지부 천공은 살리기 어렵습니다. 무리하기보다 임플란트를 계획하는 편이 낫습니다.',
+    },
+  ],
+
+  'chijugeungwan-boghab-byeongso': [
+    {
+      when: '거의 모든 경우, 먼저',
+      name: '신경치료 선행',
+      en: 'Endodontic Treatment First',
+      detail: '치수 쪽 감염을 먼저 없애야 잇몸 쪽이 반응합니다. 순서를 바꾸면 판단이 흐려집니다.',
+    },
+    {
+      when: '신경치료 후 2~3개월',
+      name: '재평가',
+      en: 'Reassessment',
+      detail: '치수가 원인이었다면 이 시점에 상당히 좋아집니다. 여기서 진짜 원인이 갈립니다.',
+    },
+    {
+      when: '재평가에서 치주 병소가 남았을 때',
+      name: '치주 치료',
+      en: 'Periodontal Therapy',
+      slug: 'scaling-root-planing',
+      detail: '치근활택술로 넘어가고, 깊으면 판막 수술이나 재생술을 검토합니다.',
+    },
+    {
+      when: '두 병소가 완전히 이어져 뼈가 없을 때',
+      name: '발치',
+      en: 'Extraction',
+      detail: '예후가 가장 나쁜 형태입니다. 살리기 어려우면 조기에 판단하는 편이 낫습니다.',
+    },
+  ],
+
+  // ── 통증 감별 ────────────────────────────────────────────
+
+  yeongwantong: [
+    {
+      when: '아픈 치아를 찾지 못할 때, 먼저',
+      name: '진단적 마취',
+      en: 'Diagnostic Anesthesia',
+      detail: '의심 부위를 마취해 통증이 사라지는지 봅니다. 사라지지 않으면 그 치아가 원인이 아닙니다.',
+    },
+    {
+      when: '원인이 다른 치아일 때',
+      name: '원인 치아 치료',
+      en: 'Treatment of Source Tooth',
+      detail: '위 어금니 통증이 아래로, 반대로도 옮겨 느껴집니다. 원인을 치료하면 함께 사라집니다.',
+    },
+    {
+      when: '근육이 원인일 때',
+      name: '근막통 치료',
+      en: 'Myofascial Therapy',
+      detail: '씹는 근육의 유발점이 치아 통증처럼 느껴집니다. 물리치료와 장치로 다룹니다.',
+    },
+    {
+      when: '치과적 원인이 없을 때',
+      name: '의과 의뢰',
+      en: 'Medical Referral',
+      detail: '부비동염, 삼차신경통, 드물게 심장 문제까지 감별합니다. 멀쩡한 치아를 치료하지 않는 것이 핵심입니다.',
+    },
+  ],
+
+  'bijeonghyeong-chitong': [
+    {
+      when: '진단에서 가장 중요한 것',
+      name: '불필요한 치과 처치 중단',
+      en: 'Avoid Irreversible Treatment',
+      detail: '원인 없는 치아에 신경치료나 발치를 반복하면 통증이 더 심해집니다. 이것을 막는 것이 첫 치료입니다.',
+    },
+    {
+      when: '진단이 내려진 뒤',
+      name: '신경병증 통증 약물',
+      en: 'Neuropathic Pain Medication',
+      detail: '저용량 삼환계 항우울제나 가바펜틴 계열을 씁니다. 효과까지 4~8주 걸립니다.',
+    },
+    {
+      when: '약물과 병행',
+      name: '인지행동 요법',
+      en: 'Cognitive Behavioral Therapy',
+      detail: '통증에 대한 불안이 통증을 키웁니다. 함께 다룰 때 결과가 좋습니다.',
+    },
+    {
+      when: '조절이 어려울 때',
+      name: '통증 클리닉 의뢰',
+      en: 'Pain Clinic Referral',
+      detail: '구강안면통증 전문 진료로 넘깁니다. 없애기보다 줄여 지내는 것을 목표로 합니다.',
+    },
+  ],
+
+  // ── 소대·연조직 ──────────────────────────────────────────
+
+  'gugang-sodae-isang': [
+    {
+      when: '아기가 젖을 제대로 못 물 때 (설소대)',
+      name: '설소대 절제술',
+      en: 'Frenotomy',
+      slug: 'soa-seolsodae-jeoljesul',
+      detail: '얇은 소대는 국소마취로 간단히 자릅니다. 수유가 바로 좋아지는 경우가 많습니다.',
+    },
+    {
+      when: '앞니 사이가 벌어진 채 유지될 때 (상순소대)',
+      name: '상순 소대 절제술',
+      en: 'Labial Frenectomy',
+      detail: '소대를 정리한 뒤 교정으로 모읍니다. 순서가 반대면 다시 벌어집니다.',
+    },
+    {
+      when: '소대가 잇몸을 당겨 내려가게 할 때',
+      name: '소대 절제 + 치은 이식',
+      en: 'Frenectomy with Graft',
+      slug: 'gum-graft',
+      detail: '당기는 힘을 없애고 움직이지 않는 잇몸을 만들어 줍니다.',
+    },
+    {
+      when: '기능에 문제가 없을 때',
+      name: '경과 관찰',
+      en: 'Observation',
+      detail: '모든 소대를 자를 필요는 없습니다. 성장하며 저절로 위치가 올라가기도 합니다.',
+    },
+  ],
+
+  hamajong: [
+    {
+      when: '작고 처음 생겼을 때',
+      name: '경과 관찰',
+      en: 'Observation',
+      detail: '저절로 줄어드는 경우가 있어 몇 주 지켜봅니다.',
+    },
+    {
+      when: '입안에만 있고 반복될 때',
+      name: '조대술 또는 적출',
+      en: 'Marsupialization or Excision',
+      detail: '주머니를 열어 두거나 통째로 꺼냅니다. 재발이 잦아 원인 침샘까지 함께 봅니다.',
+    },
+    {
+      when: '목까지 내려간 경우 (잠수형)',
+      name: '설하선 절제',
+      en: 'Sublingual Gland Excision',
+      detail: '원인 침샘을 제거해야 확실히 낫습니다. 전신마취 수술.',
+    },
+  ],
+
+  chimsaemyeom: [
+    {
+      when: '세균성으로 붓고 아플 때',
+      name: '항생제 + 수분·마사지',
+      en: 'Antibiotics and Hydration',
+      detail: '항생제를 7~10일 쓰고 물을 많이 마시며 침샘을 마사지합니다. 신 음식으로 침 흐름을 늘립니다.',
+    },
+    {
+      when: '침샘돌이 막고 있을 때',
+      name: '결석 제거',
+      en: 'Sialolith Removal',
+      slug: 'taseogjeung',
+      detail: '돌을 빼야 재발하지 않습니다. 도관을 열거나 내시경으로 꺼냅니다.',
+    },
+    {
+      when: '고름집이 잡혔을 때',
+      name: '절개 배농',
+      en: 'Incision and Drainage',
+      detail: '째서 빼냅니다. 얼굴 신경을 피해 조심스럽게 접근합니다.',
+    },
+    {
+      when: '반복되고 침샘이 망가졌을 때',
+      name: '침샘 절제',
+      en: 'Gland Excision',
+      detail: '기능을 잃은 경우의 마지막 선택입니다.',
+    },
+  ],
+
+  // ── 교합 외상 ────────────────────────────────────────────
+
+  'gyohab-oesang': [
+    {
+      when: '특정 치아에 힘이 몰릴 때',
+      name: '교합 조정',
+      en: 'Occlusal Adjustment',
+      slug: 'occlusal-adjustment',
+      detail: '높은 지점을 다듬어 힘을 고르게 나눕니다. 조금만 낮춰도 증상이 사라지는 경우가 많습니다.',
+    },
+    {
+      when: '이갈이가 배경일 때',
+      name: '교합안정장치',
+      en: 'Occlusal Splint',
+      slug: 'splint',
+      detail: '밤 동안의 힘을 막습니다. 조정만으로는 재발합니다.',
+    },
+    {
+      when: '치아가 흔들릴 때',
+      name: '치주 스플린트',
+      en: 'Splinting',
+      slug: 'chiju-seupeulrinteu',
+      detail: '옆 치아와 묶어 힘을 나눕니다. 잇몸 염증이 함께 있으면 치주 치료를 먼저 합니다.',
+    },
+    {
+      when: '배열 자체가 원인일 때',
+      name: '교정 치료',
+      en: 'Orthodontic Treatment',
+      slug: 'orthodontics',
+      detail: '힘의 방향을 근본적으로 바꿉니다. 18~30개월.',
+    },
+  ],
 };
 
 /** 치료 블록이 있는 용어인지 */

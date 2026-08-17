@@ -25,15 +25,30 @@ faqs:
     answer: "하지 마세요. 감염이 더 깊은 곳으로 퍼질 수 있습니다. 진료실에서 안전하게 배농하면 훨씬 빨리 편해집니다."
   - question: "반복해서 생겨요."
     answer: "같은 자리에 반복된다면 치주 상태나 치아 문제를 확인해야 합니다. 단순 이물질이 아니라 다른 원인이 있을 수 있어요."
+approach:
+  - when: "잇몸 표면이 볼록하게 곪았을 때"
+    name: "절개 배농"
+    en: "Incision and Drainage"
+    slug: jeolgae-baenong
+    detail: "째서 고름을 빼면 통증이 즉시 줄어듭니다."
+  - when: "이물질(생선 가시, 음식물)이 원인일 때"
+    name: "이물 제거 + 세척"
+    en: "Foreign Body Removal"
+    detail: "원인을 빼내면 대개 2~3일이면 가라앉습니다."
+  - when: "가라앉은 뒤"
+    name: "스케일링 · 국소 치주 처치"
+    en: "Local Periodontal Therapy"
+    slug: scaling
+    detail: "치은 농양은 치주 농양과 달리 잇몸 표면에 국한됩니다. 국소 처치로 끝나는 경우가 많습니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
   - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"
 updated: "2026-08-16"
 relatedTerms:
+  - scaling
+  - jeolgae-baenong
   - bagriseong-chieunyeom
   - buchagchieun
-  - chieun
-  - chieun-bidae
 relatedPosts:
   []
 ---

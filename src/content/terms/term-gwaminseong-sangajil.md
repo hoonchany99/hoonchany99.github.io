@@ -25,15 +25,33 @@ faqs:
     answer: "흔한 반응입니다. 대개 며칠 안에 가라앉아요. 심하면 시술 간격을 늘리거나 완화 제품을 함께 씁니다. 미리 알려 드리는 부작용 중 하나입니다."
   - question: "어떻게 예방하나요?"
     answer: "부드러운 칫솔로 힘을 빼고 닦고, 산성 음료 뒤에 바로 세게 닦지 마세요. 이갈이가 있으면 장치를 고려합니다. 잇몸이 더 내려가지 않게 하는 것도 중요해요."
+approach:
+  - when: "가벼운 시림"
+    name: "지각과민 완화 치약"
+    en: "Desensitizing Toothpaste"
+    detail: "질산칼륨·불화주석 치약을 2~4주 씁니다. 시린 부위에 문질러 두면 더 낫습니다."
+  - when: "특정 부위가 콕 집어 시릴 때"
+    name: "지각과민 처치제 도포"
+    en: "Desensitizer Application"
+    detail: "드러난 상아세관을 약제로 막습니다. 1회 5~10분."
+  - when: "패임이 있을 때"
+    name: "치경부 레진 충전"
+    en: "Cervical Restoration"
+    detail: "패인 곳을 메워 상아질을 덮습니다. 1회 방문."
+  - when: "치근이 드러났을 때"
+    name: "치근 피개술"
+    en: "Root Coverage Graft"
+    slug: chigeun-pigaesul
+    detail: "결합조직을 이식해 덮습니다. 안정까지 2~3개월."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/sensitive-teeth"
   - "https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders"
 updated: "2026-08-16"
 relatedTerms:
-  - chiseong-sangagdongyeom
-  - cavity
-  - root-canal
-  - implant
+  - resin
+  - chigeun
+  - chigeun-pigaesul
+  - chiyag
 relatedPosts:
   []
 ---

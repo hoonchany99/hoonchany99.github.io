@@ -25,15 +25,37 @@ faqs:
     answer: "호르몬 변화로 잇몸이 세균 자극에 더 민감해져서 그렇습니다. 임신성 치은염이라고 해요. 부드럽게라도 꾸준히 닦아 주시고, 스케일링으로 원인을 줄이면 대체로 좋아집니다."
   - question: "약은 먹어도 되나요?"
     answer: "임신 중 쓸 수 있는 약과 피해야 할 약이 나뉩니다. 반드시 임신 사실을 알려 주시고, 필요하면 산부인과와 상의해 정합니다. 임의로 상비약을 드시는 건 권하지 않아요."
+approach:
+  - when: "치료 시기를 고를 수 있을 때"
+    name: "임신 중기(4~6개월)에 시행"
+    en: "Second Trimester"
+    detail: "초기는 유산 위험, 말기는 눕기 힘들어 중기가 가장 편합니다. 급한 치료는 시기와 무관하게 합니다."
+  - when: "잇몸이 붓고 피가 날 때"
+    name: "스케일링"
+    en: "Scaling"
+    slug: scaling
+    detail: "임신 중에도 안전합니다. 오히려 치주염을 두면 조산 위험이 올라갑니다."
+  - when: "마취가 필요할 때"
+    name: "리도카인 국소마취"
+    en: "Local Anesthesia"
+    detail: "통상 용량은 안전합니다. 참고 치료하는 스트레스가 더 해롭습니다."
+  - when: "방사선이 필요할 때"
+    name: "납방어 하 촬영"
+    en: "Shielded Radiography"
+    detail: "치과 방사선량은 매우 낮고 복부와 떨어져 있습니다. 필요하면 찍습니다."
+  - when: "약을 써야 할 때"
+    name: "안전한 약제 선택"
+    en: "Safe Medication"
+    detail: "아세트아미노펜과 페니실린계는 쓸 수 있습니다. NSAIDs는 말기에 피합니다."
 sources:
   - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
   - "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy"
 updated: "2026-08-16"
 relatedTerms:
+  - local-anesthesia
+  - scaling
+  - periodontitis
   - hangamchiryo-hwanja-chigwa
-  - horeumongwa-chigwa
-  - cheos-chigwa-bangmun
-  - chigwa-gongpojeung
 relatedPosts:
   []
 ---

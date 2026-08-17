@@ -25,15 +25,34 @@ faqs:
     answer: "혀 움직임이 크게 제한되면 특정 발음이 어려울 수 있습니다. 다만 소대가 짧다고 모두 발음 문제가 생기지는 않아요. 언어 평가와 함께 판단합니다."
   - question: "처치가 복잡한가요?"
     answer: "대개 국소마취 후 짧게 끝나는 간단한 처치입니다. 아이라면 협조 정도에 따라 방법을 정해요. 이후 혀 운동을 함께 안내받는 경우가 많습니다."
+approach:
+  - when: "아기가 젖을 제대로 못 물 때 (설소대)"
+    name: "설소대 절제술"
+    en: "Frenotomy"
+    slug: soa-seolsodae-jeoljesul
+    detail: "얇은 소대는 국소마취로 간단히 자릅니다. 수유가 바로 좋아지는 경우가 많습니다."
+  - when: "앞니 사이가 벌어진 채 유지될 때 (상순소대)"
+    name: "상순 소대 절제술"
+    en: "Labial Frenectomy"
+    detail: "소대를 정리한 뒤 교정으로 모읍니다. 순서가 반대면 다시 벌어집니다."
+  - when: "소대가 잇몸을 당겨 내려가게 할 때"
+    name: "소대 절제 + 치은 이식"
+    en: "Frenectomy with Graft"
+    slug: gum-graft
+    detail: "당기는 힘을 없애고 움직이지 않는 잇몸을 만들어 줍니다."
+  - when: "기능에 문제가 없을 때"
+    name: "경과 관찰"
+    en: "Observation"
+    detail: "모든 소대를 자를 필요는 없습니다. 성장하며 저절로 위치가 올라가기도 합니다."
 sources:
   - "https://www.aapd.org/research/oral-health-policies--recommendations/"
   - "https://www.ncbi.nlm.nih.gov/books/NBK559294/"
 updated: "2026-08-16"
 relatedTerms:
+  - local-anesthesia
+  - chieun
   - gugang-isanggamgagjeung
   - gugang-alrereugi-jeunghugun
-  - gugang-baegsaeg-haemyeonsang-moban
-  - gugang-dansunpojin
 relatedPosts:
   []
 ---

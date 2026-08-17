@@ -25,15 +25,36 @@ faqs:
     answer: "먼저 닿는 지점을 다듬어 힘을 고르게 나눕니다. 이갈이가 배경이면 장치를 고려해요. 치아가 빠져 힘이 몰린 상황이면 그 자리를 회복하는 계획도 함께 봅니다."
   - question: "흔들리던 치아가 다시 단단해지나요?"
     answer: "부담이 줄면 안정되는 경우가 많습니다. 다만 이미 잇몸뼈가 많이 녹았다면 한계가 있어요. 원인을 없애고 경과를 지켜보며 판단합니다."
+approach:
+  - when: "특정 치아에 힘이 몰릴 때"
+    name: "교합 조정"
+    en: "Occlusal Adjustment"
+    slug: occlusal-adjustment
+    detail: "높은 지점을 다듬어 힘을 고르게 나눕니다. 조금만 낮춰도 증상이 사라지는 경우가 많습니다."
+  - when: "이갈이가 배경일 때"
+    name: "교합안정장치"
+    en: "Occlusal Splint"
+    slug: splint
+    detail: "밤 동안의 힘을 막습니다. 조정만으로는 재발합니다."
+  - when: "치아가 흔들릴 때"
+    name: "치주 스플린트"
+    en: "Splinting"
+    slug: chiju-seupeulrinteu
+    detail: "옆 치아와 묶어 힘을 나눕니다. 잇몸 염증이 함께 있으면 치주 치료를 먼저 합니다."
+  - when: "배열 자체가 원인일 때"
+    name: "교정 치료"
+    en: "Orthodontic Treatment"
+    slug: orthodontics
+    detail: "힘의 방향을 근본적으로 바꿉니다. 18~30개월."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
   - "https://pocketdentistry.com/1-anatomy-of-the-periodontium-2/"
 updated: "2026-08-16"
 relatedTerms:
+  - splint
+  - chiju-seupeulrinteu
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab
-  - 3geub-bujeonggyohab
-  - bandaegyohab
 relatedPosts:
   []
 ---

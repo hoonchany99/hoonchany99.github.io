@@ -25,15 +25,34 @@ faqs:
     answer: "있습니다. 위산이 올라오면 치아 안쪽 면부터 녹아요. 원인 모를 부식이 보이면 이 가능성을 확인합니다. 내과 치료가 함께 필요할 수 있어요."
   - question: "많이 닳았는데 치료해야 하나요?"
     answer: "시리거나 씹기 불편하거나 계속 진행하면 치료를 고려합니다. 레진으로 메우거나 범위가 넓으면 보철로 덮어요. 원인 관리가 함께 가야 합니다."
+approach:
+  - when: "원인을 찾는 것이 먼저"
+    name: "원인 감별"
+    en: "Etiologic Assessment"
+    detail: "이갈이·산 역류·과도한 칫솔질 중 무엇인지 나눕니다. 원인을 두면 때워도 다시 닳습니다."
+  - when: "이갈이·이악물기가 원인일 때"
+    name: "교합안정장치"
+    en: "Occlusal Splint"
+    slug: splint
+    detail: "자는 동안 끼워 마모를 막습니다. 제작 2~3회 방문."
+  - when: "위산 역류·산성 음료가 원인일 때"
+    name: "산 노출 관리"
+    en: "Acid Control"
+    detail: "역류는 내과 치료를 함께합니다. 산성 음료 직후 30분은 칫솔질을 미루는 것이 낫습니다."
+  - when: "이미 닳아 시리거나 형태가 무너졌을 때"
+    name: "레진 · 크라운 수복"
+    en: "Restoration"
+    slug: resin
+    detail: "얕으면 레진, 넓으면 크라운으로 높이를 되살립니다. 여러 개면 교합 높이를 함께 계획합니다."
 sources:
   - "https://decisionsindentistry.com/article/treatment-strategies-noncarious-cervical-lesions/"
   - "https://www.ada.org/resources/ada-library/oral-health-topics/erosion"
 updated: "2026-08-16"
 relatedTerms:
-  - chigyeongbu-mamojeung
-  - chia-chagsaeg
-  - chia-gujo
-  - chia-gyunyeol-jeunghugun
+  - resin
+  - bruxism
+  - chissoljil
+  - crown
 relatedPosts:
   []
 ---

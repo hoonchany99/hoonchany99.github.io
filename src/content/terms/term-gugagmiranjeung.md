@@ -25,15 +25,32 @@ faqs:
     answer: "철이나 비타민B군이 부족한 경우라면 도움이 됩니다. 다만 확인 없이 무작정 드시기보다, 검사로 부족한지 보고 결정하시는 게 좋아요."
   - question: "옮나요?"
     answer: "일반적으로 사람 사이에 옮는 상태로 보지 않습니다. 원래 있던 균이 조건이 맞아 늘어난 경우가 많아요. 다만 수건 공유 등은 피하시는 게 좋습니다."
+approach:
+  - when: "곰팡이가 원인일 때 (가장 흔함)"
+    name: "국소 항진균제"
+    en: "Topical Antifungal"
+    detail: "입꼬리에 하루 2~3회 바릅니다. 1~2주면 아뭅니다."
+  - when: "세균 감염이 겹쳤을 때"
+    name: "항생 연고 병용"
+    en: "Topical Antibiotic"
+    detail: "노랗게 딱지가 앉으면 함께 씁니다."
+  - when: "틀니가 낮아 입꼬리가 접힐 때"
+    name: "교합 높이 회복"
+    en: "Restoration of Vertical Dimension"
+    detail: "침이 고이는 주름을 없애야 재발하지 않습니다. 틀니를 새로 만들거나 높입니다."
+  - when: "반복될 때"
+    name: "영양 상태 점검"
+    en: "Nutritional Assessment"
+    detail: "철·비타민 B군 결핍, 당뇨를 확인합니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/lip-and-tongue-disorders"
   - "https://www.ncbi.nlm.nih.gov/books/NBK560627/"
 updated: "2026-08-16"
 relatedTerms:
+  - denture
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

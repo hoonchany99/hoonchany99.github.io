@@ -25,15 +25,32 @@ faqs:
     answer: "잇몸 염증을 줄이면 혈당 조절에 도움이 된다는 보고가 있습니다. 다만 잇몸 치료가 당뇨 치료를 대신하지는 않아요. 내과 치료와 함께 가는 것으로 생각하시면 됩니다."
   - question: "발치 후에 잘 안 낫는다던데요?"
     answer: "혈당이 높으면 회복이 느리고 감염 위험이 올라갈 수 있어요. 그래서 발치 전 혈당 상태를 확인하고, 이후 관리 주의사항을 더 꼼꼼히 안내해 드립니다."
+approach:
+  - when: "치과 치료 전"
+    name: "혈당 조절 확인"
+    en: "Glycemic Assessment"
+    detail: "HbA1c와 최근 혈당을 확인합니다. 조절이 안 되면 상처가 잘 안 아물고 감염 위험이 큽니다."
+  - when: "예약 잡을 때"
+    name: "오전 예약 + 식사 유지"
+    en: "Morning Appointment"
+    detail: "아침 식사와 약을 거르지 않고 오게 합니다. 저혈당이 진료 중 가장 흔한 사고입니다."
+  - when: "잇몸병이 있을 때"
+    name: "적극적 치주 치료"
+    en: "Intensive Periodontal Therapy"
+    detail: "당뇨와 치주염은 서로를 악화시킵니다. 치주 치료가 혈당 조절에도 도움이 됩니다. 3개월 간격 관리."
+  - when: "수술이나 발치를 할 때"
+    name: "감염 관리 강화"
+    en: "Infection Control"
+    detail: "조절이 잘 되는 당뇨는 특별한 예방적 항생제가 필요하지 않습니다. 조절이 나쁠 때만 검토합니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/diabetes"
   - "https://www.msdmanuals.com/professional/dental-disorders"
 updated: "2026-08-16"
 relatedTerms:
+  - yebangjeog-hangsaengje
+  - periodontitis
   - goldagongjeung-hwanja-chigwa
   - hangamchiryo-hwanja-chigwa
-  - simhyeolgwan-hwanja-chigwa
-  - cheos-chigwa-bangmun
 relatedPosts:
   []
 ---

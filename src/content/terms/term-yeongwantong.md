@@ -25,15 +25,32 @@ faqs:
     answer: "차가운 자극 검사, 두드려 보는 검사, X-ray를 함께 씁니다. 필요하면 부위별로 마취해 통증이 사라지는지 확인하기도 해요."
   - question: "엉뚱한 이를 치료할 수도 있나요?"
     answer: "위치만 믿고 진행하면 그럴 수 있습니다. 그래서 검사로 확인하는 과정이 중요해요. 치료 후에도 통증이 그대로면 다시 확인합니다."
+approach:
+  - when: "아픈 치아를 찾지 못할 때, 먼저"
+    name: "진단적 마취"
+    en: "Diagnostic Anesthesia"
+    detail: "의심 부위를 마취해 통증이 사라지는지 봅니다. 사라지지 않으면 그 치아가 원인이 아닙니다."
+  - when: "원인이 다른 치아일 때"
+    name: "원인 치아 치료"
+    en: "Treatment of Source Tooth"
+    detail: "위 어금니 통증이 아래로, 반대로도 옮겨 느껴집니다. 원인을 치료하면 함께 사라집니다."
+  - when: "근육이 원인일 때"
+    name: "근막통 치료"
+    en: "Myofascial Therapy"
+    detail: "씹는 근육의 유발점이 치아 통증처럼 느껴집니다. 물리치료와 장치로 다룹니다."
+  - when: "치과적 원인이 없을 때"
+    name: "의과 의뢰"
+    en: "Medical Referral"
+    detail: "부비동염, 삼차신경통, 드물게 심장 문제까지 감별합니다. 멀쩡한 치아를 치료하지 않는 것이 핵심입니다."
 sources:
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
   - "https://www.ncbi.nlm.nih.gov/books/NBK554486/"
 updated: "2026-08-16"
 relatedTerms:
+  - samchasingyeongtong
+  - molar
   - cavity
   - root-canal
-  - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

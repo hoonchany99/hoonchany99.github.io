@@ -25,15 +25,34 @@ faqs:
     answer: "있습니다. 침이 줄면 뿌리 우식 위험이 크게 올라가요. 약을 임의로 끊지 마시고, 처방하신 선생님과 조정 가능한지 상의해 보세요."
   - question: "틀니를 쓰는데도 생기나요?"
     answer: "남은 자연치에 생깁니다. 특히 부분틀니 고리가 걸리는 치아 주변이 위험해요. 틀니를 뺀 뒤 그 치아들을 따로 닦아 주셔야 합니다."
+approach:
+  - when: "초기, 아직 파이지 않았을 때"
+    name: "고농도 불소"
+    en: "High-Fluoride Application"
+    detail: "5,000ppm 불소치약을 매일 쓰고 3~4개월마다 도포합니다. 뿌리 우식은 되돌릴 수 있는 단계가 있습니다."
+  - when: "진행을 멈춰야 하는데 치료가 어려울 때"
+    name: "불화디아민은(SDF)"
+    en: "Silver Diamine Fluoride"
+    detail: "바르면 진행이 멈춥니다. 그 부위가 검게 변합니다."
+  - when: "구멍이 생겼을 때"
+    name: "글라스 아이오노머 충전"
+    en: "Glass Ionomer Restoration"
+    slug: geulraseu-aionomeo
+    detail: "불소가 나오고 습기에 강해 치경부에 유리합니다. 1회 방문."
+  - when: "무엇보다 배경 관리"
+    name: "구강건조 관리"
+    en: "Dry Mouth Management"
+    slug: guganggeonjojeung
+    detail: "침이 줄면 뿌리 우식이 급격히 늘어납니다. 복용 약을 함께 점검합니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements"
   - "https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders"
 updated: "2026-08-16"
 relatedTerms:
+  - geulraseu-aionomeo
+  - fluoride
+  - chiyag
   - caries
-  - icha-usig
-  - noin-chigwa-jinjeong
-  - noin-uichi-jeogeung
 relatedPosts:
   []
 ---

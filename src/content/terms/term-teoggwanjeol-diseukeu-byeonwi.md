@@ -25,15 +25,33 @@ faqs:
     answer: "증상과 입 벌어지는 정도, 소리 양상, 눌러 보는 검사로 판단합니다. 필요하면 MRI로 디스크 위치를 직접 확인해요. X-ray로는 디스크가 보이지 않습니다."
   - question: "교정을 하면 좋아지나요?"
     answer: "디스크 변위를 교정으로 해결한다고 보기는 어렵습니다. 교합이 원인으로 확인된 경우가 아니면 신중해야 해요. 되돌릴 수 없는 치료는 특히 조심스럽게 접근합니다."
+approach:
+  - when: "딸깍 소리는 나지만 입은 잘 벌어질 때 (정복성)"
+    name: "보존 관리 + 행동 요법"
+    en: "Conservative Management"
+    detail: "딱딱한 음식과 큰 입 벌리기를 피합니다. 소리만 있고 아프지 않으면 치료하지 않기도 합니다."
+  - when: "통증이나 걸림이 반복될 때"
+    name: "교합안정장치"
+    en: "Stabilization Splint"
+    slug: splint
+    detail: "관절 부담을 덜어 줍니다. 착용 3~6개월 뒤 재평가."
+  - when: "갑자기 입이 2~3cm밖에 안 벌어질 때 (비정복성)"
+    name: "도수 정복술"
+    en: "Manual Reduction"
+    detail: "손으로 디스크를 제자리로 밀어 넣습니다. 발생 초기일수록 성공률이 높습니다."
+  - when: "보존 치료에 반응하지 않을 때"
+    name: "관절강 세척술"
+    en: "Arthrocentesis"
+    detail: "관절강을 씻어 유착과 염증물질을 제거합니다. 개구량이 늘어나는 경우가 많습니다."
 sources:
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353764/"
   - "https://www.physio-pedia.com/TMJ_Disc_Displacements"
 updated: "2026-08-16"
 relatedTerms:
+  - chigwan
   - manseong-dutonggwa-teoggwanjeol
   - teoggwanjeol-gangjigjeung
   - teoggwanjeol-golgwanjeolyeom
-  - teoggwanjeol-jagaundong
 relatedPosts:
   []
 ---

@@ -25,15 +25,29 @@ faqs:
     answer: "녹은 부분은 회복되지 않습니다. 정도가 심하면 그 치아를 살리기 어려울 수 있어요. 그래서 조기 발견이 중요하다고 말씀드리는 겁니다."
   - question: "치료는 어떻게 하나요?"
     answer: "막고 있는 유치를 뽑거나, 공간을 만들어 주거나, 교정 장치로 방향을 유도합니다. 뼈 속 깊이 있으면 잇몸을 열어 장치를 붙이는 처치를 하기도 해요."
+approach:
+  - when: "가볍게 걸린 경우 (제1대구치가 유치에 걸림)"
+    name: "경과 관찰"
+    en: "Observation"
+    detail: "만 7세 전후로는 저절로 빠져나오는 경우가 있습니다. 6개월 간격으로 봅니다."
+  - when: "저절로 풀리지 않을 때"
+    name: "분리 장치 (세퍼레이터)"
+    en: "Separator"
+    detail: "고무링이나 철사로 밀어 걸린 것을 풀어냅니다. 1~2주면 빠져나옵니다."
+  - when: "유치 뿌리가 많이 녹았을 때"
+    name: "유치 발치 + 공간 유지"
+    en: "Extraction with Space Maintenance"
+    slug: gonggan-yuji-jangchi
+    detail: "걸린 유치를 뽑고 자리가 좁아지지 않게 장치를 넣습니다."
 sources:
   - "https://www.dentalcare.com/en-us/ce-courses/ce651/primary-permanent-dentition-eruption-sequences"
   - "https://www.msdmanuals.com/professional/dental-disorders"
 updated: "2026-08-16"
 relatedTerms:
+  - extraction
+  - primary-tooth
   - chia-maengchul-jiyeon
   - chia-maengchul-sunseo
-  - maengchul
-  - cavity
 relatedPosts:
   []
 ---

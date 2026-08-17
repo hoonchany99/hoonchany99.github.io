@@ -25,15 +25,34 @@ faqs:
     answer: "금이 깊어져 치수까지 가거나 뿌리까지 갈라질 수 있습니다. 뿌리까지 가면 발치로 갑니다. 초기에 찾을수록 선택지가 많아요."
   - question: "어떻게 예방하나요?"
     answer: "얼음이나 뼈처럼 단단한 것을 씹지 마세요. 이갈이가 있으면 장치를 쓰는 것이 도움이 됩니다. 오래된 큰 수복물이 있는 치아는 정기적으로 확인하세요."
+approach:
+  - when: "진단이 어려울 때, 먼저"
+    name: "교합 검사 (물림 검사)"
+    en: "Bite Test"
+    detail: "치아별로 하나씩 물려 어느 치아인지 찾습니다. 방사선에는 안 나오는 경우가 많습니다."
+  - when: "증상이 가볍고 금이 얕을 때"
+    name: "교합 조정 + 관찰"
+    en: "Occlusal Adjustment"
+    slug: occlusal-adjustment
+    detail: "금 간 곳에 힘이 몰리지 않게 다듬습니다. 3~6개월 간격으로 봅니다."
+  - when: "씹을 때 통증이 뚜렷할 때"
+    name: "크라운 수복"
+    en: "Full Coverage Crown"
+    slug: crown
+    detail: "치아를 감싸 벌어지는 힘을 묶습니다. 크랙의 표준 처치입니다."
+  - when: "가만히 있어도 아플 때"
+    name: "신경치료 후 크라운"
+    en: "Root Canal then Crown"
+    detail: "치수까지 염증이 갔다는 뜻입니다. 총 3~5회 방문."
 sources:
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
   - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
 updated: "2026-08-16"
 relatedTerms:
-  - gugang-alrereugi-jeunghugun
-  - syogeuren-jeunghugun
-  - chia-chagsaeg
-  - chia-gujo
+  - occlusal-adjustment
+  - root-canal
+  - chisu
+  - crown
 relatedPosts:
   []
 ---

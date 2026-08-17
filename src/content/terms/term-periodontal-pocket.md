@@ -28,12 +28,32 @@ faqs:
     answer: "진행되면 뼈가 줄어 치아가 흔들릴 수 있어요. 조기 치주 치료·유지 관리가 중요합니다."
   - question: "치주낭 예방법은?"
     answer: "양치·치실, 정기 스케aling·검진, 흡연 줄이기, 당뇨 관리 등이 도움이 될 수 있어요."
+approach:
+  - when: "4~5mm, 초기"
+    name: "치근활택술"
+    en: "Scaling and Root Planing"
+    slug: scaling-root-planing
+    detail: "잇몸 속 치석과 오염층을 걷어냅니다. 2~4회, 4~6주 뒤 재평가."
+  - when: "6mm 이상 남았을 때"
+    name: "치주 판막 수술"
+    en: "Periodontal Flap Surgery"
+    detail: "잇몸을 젖혀 직접 보면서 제거합니다. 부위당 1회."
+  - when: "깊은 골 결손이 있을 때"
+    name: "치주 조직 재생술"
+    en: "Guided Tissue Regeneration"
+    slug: chiju-jaesaengsul
+    detail: "골이식재와 차단막으로 뼈가 차오를 공간을 만듭니다. 판정까지 6~9개월."
+  - when: "치료 후 평생"
+    name: "치주 유지관리"
+    en: "Periodontal Maintenance"
+    slug: chiju-yujigwanri
+    detail: "3~4개월 간격 관리. 치주낭은 관리를 놓으면 다시 깊어집니다."
 updated: "2026-08-16"
 relatedTerms:
-  - chiju-jaesaengsul
-  - chiju-nongyang
-  - chiju-seupeulrinteu
-  - chiju-sopasul
+  - golisigjae
+  - chigeun
+  - scaling-root-planing
+  - calculus
 relatedPosts:
   []
 ---

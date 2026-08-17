@@ -25,15 +25,34 @@ faqs:
     answer: "뿌리 끝 염증이 잇몸 쪽으로 길을 낸 것일 수도, 깊은 치주낭에서 나오는 것일 수도 있습니다. 통로를 따라가 원인을 확인하는 검사를 하기도 해요."
   - question: "치아를 살릴 수 있나요?"
     answer: "원인과 남은 잇몸뼈 양에 달려 있습니다. 치수가 원인이고 뼈가 남아 있으면 살리는 경우가 많아요. 치주 파괴가 심하면 발치를 검토합니다."
+approach:
+  - when: "거의 모든 경우, 먼저"
+    name: "신경치료 선행"
+    en: "Endodontic Treatment First"
+    detail: "치수 쪽 감염을 먼저 없애야 잇몸 쪽이 반응합니다. 순서를 바꾸면 판단이 흐려집니다."
+  - when: "신경치료 후 2~3개월"
+    name: "재평가"
+    en: "Reassessment"
+    detail: "치수가 원인이었다면 이 시점에 상당히 좋아집니다. 여기서 진짜 원인이 갈립니다."
+  - when: "재평가에서 치주 병소가 남았을 때"
+    name: "치주 치료"
+    en: "Periodontal Therapy"
+    slug: scaling-root-planing
+    detail: "치근활택술로 넘어가고, 깊으면 판막 수술이나 재생술을 검토합니다."
+  - when: "두 병소가 완전히 이어져 뼈가 없을 때"
+    name: "발치"
+    en: "Extraction"
+    slug: extraction
+    detail: "예후가 가장 나쁜 형태입니다. 살리기 어려우면 조기에 판단하는 편이 낫습니다."
 sources:
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
 updated: "2026-08-16"
 relatedTerms:
-  - chigeundan-byeongso
-  - chigeungwan
-  - chiju-jaesaengsul
-  - chiju-nongyang
+  - extraction
+  - root-canal
+  - chigeun
+  - scaling-root-planing
 relatedPosts:
   []
 ---

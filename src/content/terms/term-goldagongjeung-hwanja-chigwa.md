@@ -25,15 +25,32 @@ faqs:
     answer: "이미 만들어진 치아를 단단하게 만들지는 못합니다. 다만 잇몸뼈 건강에는 도움이 될 수 있어요. 복용은 내과·정형외과 처방에 따르시는 게 좋습니다."
   - question: "발치를 미루는 게 나을까요?"
     answer: "오히려 반대인 경우가 많아요. 문제 있는 치아를 두면 염증이 커져서 나중에 더 어려운 상황이 됩니다. 약을 시작하기 전이라면 미리 정리해 두는 쪽을 권합니다."
+approach:
+  - when: "골흡수억제제를 시작하기 전"
+    name: "치과 검진 선행"
+    en: "Pre-treatment Screening"
+    detail: "발치·임플란트 같은 뼈를 건드리는 처치를 먼저 끝냅니다. 시작한 뒤에는 선택지가 크게 줄어듭니다."
+  - when: "먹는 약을 4년 미만 쓰고 있을 때"
+    name: "일반적 처치 진행"
+    en: "Routine Treatment"
+    detail: "턱뼈 괴사 위험이 매우 낮습니다. 대개 그대로 발치합니다."
+  - when: "4년 이상이거나 주사제·항암 목적일 때"
+    name: "처방의 협진 + 보존적 접근"
+    en: "Physician Consultation"
+    detail: "가능하면 발치 대신 신경치료로 뿌리를 남깁니다. 뼈를 여는 처치를 줄이는 것이 원칙입니다."
+  - when: "불가피하게 발치할 때"
+    name: "최소 침습 발치 + 추적"
+    en: "Atraumatic Extraction"
+    detail: "뼈를 최소한으로 건드리고 봉합합니다. 8주까지 아무는지 지켜봅니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/osteoporosis-medications"
   - "https://www.merckmanuals.com/professional/dental-disorders/dental-emergencies/medication-related-osteonecrosis-of-the-jaw-mronj"
 updated: "2026-08-16"
 relatedTerms:
+  - extraction
+  - root-canal
+  - implant
   - dangnyo-hwanja-chigwa
-  - hangamchiryo-hwanja-chigwa
-  - simhyeolgwan-hwanja-chigwa
-  - cheos-chigwa-bangmun
 relatedPosts:
   []
 ---

@@ -25,15 +25,32 @@ faqs:
     answer: "해당됩니다. 저용량 아스피린도 알려 주셔야 해요. 다만 대개 중단하지 않고 지혈 준비를 강화해 진행합니다."
   - question: "임플란트도 가능한가요?"
     answer: "가능한 경우가 많습니다. 다만 수술 범위와 출혈 위험을 고려해 계획해요. 상황에 따라 처방하신 선생님과 상의가 필요할 수 있습니다."
+approach:
+  - when: "가장 중요한 원칙"
+    name: "약을 임의로 끊지 않음"
+    en: "Continue Anticoagulation"
+    detail: "끊었을 때의 혈전 위험이 출혈 위험보다 큽니다. 처방의와 상의 없이 중단하지 않습니다."
+  - when: "발치 등 출혈이 예상될 때"
+    name: "INR 확인"
+    en: "INR Check"
+    detail: "와파린은 시술 24~72시간 안의 수치를 봅니다. 대개 INR 3.5 이하면 단순 발치가 가능합니다."
+  - when: "시술 중·후"
+    name: "국소 지혈 강화"
+    en: "Local Hemostasis"
+    detail: "지혈제 삽입, 봉합, 트라넥삼산 함수를 함께 씁니다. 대부분 국소 조치로 해결됩니다."
+  - when: "출혈 위험이 매우 큰 큰 수술일 때"
+    name: "처방의와 협진"
+    en: "Physician Consultation"
+    detail: "중단이나 대체가 필요한지는 처방의가 판단합니다. 치과가 단독으로 정하지 않습니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/anticoagulant-and-antiplatelet-medications"
   - "https://www.ncbi.nlm.nih.gov/books/NBK534213/"
 updated: "2026-08-16"
 relatedTerms:
+  - dansun-balchi
+  - extraction
   - yagmul-alrereugiwa-chigwa
   - cheos-chigwa-bangmun
-  - chigwa-gongpojeung
-  - chigwayong-simenteu
 relatedPosts:
   []
 ---

@@ -25,15 +25,32 @@ faqs:
     answer: "통증 자체를 조절하는 약물 치료가 중심입니다. 신경과나 통증 클리닉과 함께 보기도 해요. 치아를 더 건드리지 않는 것이 중요합니다."
   - question: "이를 빼면 나아질까요?"
     answer: "오히려 통증이 남거나 심해질 수 있습니다. 발치 후에도 같은 부위가 계속 아픈 사례가 보고돼요. 발치는 신중해야 합니다."
+approach:
+  - when: "진단에서 가장 중요한 것"
+    name: "불필요한 치과 처치 중단"
+    en: "Avoid Irreversible Treatment"
+    detail: "원인 없는 치아에 신경치료나 발치를 반복하면 통증이 더 심해집니다. 이것을 막는 것이 첫 치료입니다."
+  - when: "진단이 내려진 뒤"
+    name: "신경병증 통증 약물"
+    en: "Neuropathic Pain Medication"
+    detail: "저용량 삼환계 항우울제나 가바펜틴 계열을 씁니다. 효과까지 4~8주 걸립니다."
+  - when: "약물과 병행"
+    name: "인지행동 요법"
+    en: "Cognitive Behavioral Therapy"
+    detail: "통증에 대한 불안이 통증을 키웁니다. 함께 다룰 때 결과가 좋습니다."
+  - when: "조절이 어려울 때"
+    name: "통증 클리닉 의뢰"
+    en: "Pain Clinic Referral"
+    detail: "구강안면통증 전문 진료로 넘깁니다. 없애기보다 줄여 지내는 것을 목표로 합니다."
 sources:
   - "https://www.ncbi.nlm.nih.gov/books/NBK554486/"
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
 updated: "2026-08-16"
 relatedTerms:
+  - extraction
+  - root-canal
   - bijeonghyeong-anmyeontong
   - cavity
-  - root-canal
-  - implant
 relatedPosts:
   []
 ---

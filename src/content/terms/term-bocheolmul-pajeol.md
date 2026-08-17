@@ -25,15 +25,33 @@ faqs:
     answer: "강도가 높은 편이지만 깨질 수 있어요. 특히 겉면에 도재를 덧입힌 형태에서는 그 층이 떨어질 수 있습니다. 이갈이가 심하면 재료 선택을 다시 상의하기도 해요."
   - question: "깨진 조각을 삼켰어요."
     answer: "대부분 자연히 배출됩니다. 다만 날카로운 조각이 목에 걸린 느낌이 있거나 기침·통증이 이어지면 병원 진료가 필요해요. 치과에도 상황을 알려 주세요."
+approach:
+  - when: "도재만 조금 깨졌고 위치가 눈에 안 띌 때"
+    name: "연마 후 관찰"
+    en: "Polishing"
+    detail: "날카로운 부분만 다듬습니다. 기능에 문제없으면 그대로 씁니다."
+  - when: "앞니처럼 보이는 자리가 깨졌을 때"
+    name: "구강 내 레진 수리"
+    en: "Intraoral Repair"
+    detail: "전용 접착 시스템으로 레진을 붙입니다. 임시방편이라 수명이 짧습니다."
+  - when: "금속이 드러나거나 크게 깨졌을 때"
+    name: "재제작"
+    en: "Remake"
+    detail: "떼어내고 새로 만듭니다. 2~3회 방문."
+  - when: "반복해서 깨질 때"
+    name: "교합 조정 + 야간 장치"
+    en: "Occlusal Adjustment and Night Guard"
+    slug: occlusal-adjustment
+    detail: "이갈이나 높은 교합이 원인인 경우가 많습니다. 원인을 두면 새로 해도 또 깨집니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
   - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
 updated: "2026-08-16"
 relatedTerms:
+  - occlusal-adjustment
+  - resin
+  - bruxism
   - bocheolmul-talrag
-  - bocheol-gyohab-jojeong
-  - bocheol-saegjo-seontaeg
-  - bocheol-sumyeong
 relatedPosts:
   []
 ---

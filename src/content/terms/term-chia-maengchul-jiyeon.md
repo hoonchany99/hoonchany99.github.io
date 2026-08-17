@@ -25,15 +25,32 @@ faqs:
     answer: "원인이 없다면 대부분 시간이 지나 나옵니다. 다만 막고 있는 원인이 있다면 기다릴수록 방향이 틀어질 수 있어요. 확인 후 판단하는 게 안전합니다."
   - question: "치아가 아예 없을 수도 있나요?"
     answer: "선천적으로 치아 싹이 없는 경우가 있습니다. 옆 앞니나 작은어금니에서 비교적 흔해요. X-ray로 확인할 수 있고, 확인되면 공간 관리 계획을 세웁니다."
+approach:
+  - when: "또래보다 늦지만 방사선상 정상일 때"
+    name: "경과 관찰"
+    en: "Observation"
+    detail: "개인차가 큽니다. 6~12개월 간격으로 봅니다."
+  - when: "잇몸이 두꺼워 못 나올 때"
+    name: "외과적 노출"
+    en: "Surgical Exposure"
+    detail: "덮인 잇몸을 열어 길을 터 줍니다. 1회 처치."
+  - when: "과잉치나 낭종이 막고 있을 때"
+    name: "방해 요소 제거"
+    en: "Removal of Obstruction"
+    detail: "과잉치를 뽑거나 낭종을 꺼냅니다. 일찍 치우면 저절로 나오는 경우가 많습니다."
+  - when: "길을 터 줘도 안 나올 때"
+    name: "교정적 견인"
+    en: "Orthodontic Traction"
+    detail: "장치를 붙여 끌어냅니다. 12~24개월."
 sources:
   - "https://www.dentalcare.com/en-us/ce-courses/ce651/primary-permanent-dentition-eruption-sequences"
   - "https://www.msdmanuals.com/professional/dental-disorders"
 updated: "2026-08-16"
 relatedTerms:
+  - supernumerary
   - chia-maengchul-sunseo
   - chia-chagsaeg
   - chia-gujo
-  - chia-gyunyeol-jeunghugun
 relatedPosts:
   []
 ---

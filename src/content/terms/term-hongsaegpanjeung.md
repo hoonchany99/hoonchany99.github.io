@@ -25,15 +25,33 @@ faqs:
     answer: "혀 아래, 입 바닥, 연구개에서 비교적 흔합니다. 자가 확인할 때 이 부위를 특히 살펴보시면 좋아요."
   - question: "금연하면 좋아지나요?"
     answer: "흡연과 음주가 위험 요인으로 언급됩니다. 끊는 것이 도움이 돼요. 다만 이미 생긴 병변은 확인과 처치가 먼저입니다."
+approach:
+  - when: "발견 즉시"
+    name: "조직검사"
+    en: "Biopsy"
+    detail: "홍색판증은 백반증보다 위험합니다. 상당수에서 이형성이나 암이 나와, 지켜보지 않고 바로 확인합니다."
+  - when: "이형성이 확인됐을 때"
+    name: "외과적 절제"
+    en: "Surgical Excision"
+    detail: "경계를 두고 잘라냅니다."
+  - when: "암으로 진단됐을 때"
+    name: "구강암 치료로 전환"
+    en: "Oncologic Management"
+    slug: gugangam
+    detail: "병기에 따라 수술·방사선·항암을 조합합니다."
+  - when: "치료 후 평생"
+    name: "정기 추적"
+    en: "Long-term Surveillance"
+    detail: "3~6개월 간격으로 봅니다. 금연·금주가 재발을 크게 줄입니다."
 sources:
   - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4119315/"
   - "https://www.msdmanuals.com/professional/dental-disorders/tumors-of-the-oral-cavity-and-neck"
 updated: "2026-08-16"
 relatedTerms:
+  - gugangam
+  - baegbanjeung
   - cavity
   - root-canal
-  - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

@@ -25,15 +25,34 @@ faqs:
     answer: "대개 통증이 없어 X-ray에서 우연히 발견됩니다. 그래서 외상 이력이 있으면 정기적으로 확인하는 것이 좋아요."
   - question: "치아를 잃게 되나요?"
     answer: "많이 진행하면 그럴 수 있습니다. 다만 초기에 원인을 없애면 유지하는 경우가 많아요. 진행 속도를 보며 판단합니다."
+approach:
+  - when: "유치에서 영구치가 밀어 올려 생긴 경우"
+    name: "정상 과정, 처치 없음"
+    en: "Physiologic Resorption"
+    detail: "유치가 빠지기 위한 자연스러운 과정입니다."
+  - when: "치아 안쪽에서 녹고 있을 때 (내흡수)"
+    name: "신경치료"
+    en: "Root Canal Treatment"
+    slug: root-canal
+    detail: "원인인 치수 조직을 제거하면 진행이 멈춥니다. 빨리 할수록 남는 치질이 많습니다."
+  - when: "바깥에서 녹고 있을 때 (외흡수)"
+    name: "원인 제거 + 수복"
+    en: "Removal of Cause"
+    detail: "교정력, 매복치 압박, 외상 이력을 찾습니다. 녹은 부위는 노출시켜 메웁니다."
+  - when: "뿌리가 많이 녹아 흔들릴 때"
+    name: "발치"
+    en: "Extraction"
+    slug: extraction
+    detail: "지탱이 안 되면 뽑고 임플란트나 브릿지로 갑니다."
 sources:
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
   - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
 updated: "2026-08-16"
 relatedTerms:
-  - apical-periodontitis
-  - apicoectomy
-  - chigeun
-  - chigeun-cheongong
+  - impacted-tooth
+  - extraction
+  - bridge
+  - root-canal
 relatedPosts:
   []
 ---

@@ -25,15 +25,33 @@ faqs:
     answer: "가벼우면 미백이나 표면을 다듬는 처치로 개선되는 경우가 있습니다. 범위가 넓거나 깊으면 레진이나 라미네이트를 고려해요."
   - question: "지금 불소 도포를 받아도 되나요?"
     answer: "치아가 이미 만들어진 뒤라면 불소증과 무관합니다. 오히려 충치 예방에 도움이 돼요. 걱정 없이 받으셔도 됩니다."
+approach:
+  - when: "옅은 흰 줄무늬 정도"
+    name: "경과 관찰"
+    en: "Observation"
+    detail: "치아 건강에는 문제가 없습니다. 불소 섭취원만 점검합니다."
+  - when: "표면에 국한된 흰 반점·갈색 얼룩"
+    name: "미세 연마"
+    en: "Microabrasion"
+    detail: "표층을 아주 얇게 갈아냅니다. 1~2회로 상당히 옅어집니다."
+  - when: "연마로 부족할 때"
+    name: "레진 침윤술 또는 미백"
+    en: "Resin Infiltration or Bleaching"
+    detail: "레진을 스며들게 하거나 전체 색을 맞춥니다. 1~2회 방문."
+  - when: "표면이 파이고 얼룩이 심할 때"
+    name: "라미네이트 · 크라운"
+    en: "Veneer or Crown"
+    slug: laminate
+    detail: "덮어서 색과 형태를 한 번에 맞춥니다. 2~3회 방문."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/fluorosis"
   - "https://www.aapd.org/research/oral-health-policies--recommendations/"
 updated: "2026-08-16"
 relatedTerms:
+  - laminate
+  - resin
+  - crown
   - bulso-dopo
-  - fluoride
-  - cavity
-  - root-canal
 relatedPosts:
   []
 ---

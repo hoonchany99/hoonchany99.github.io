@@ -25,15 +25,33 @@ faqs:
     answer: "경과를 지켜봐야 합니다. 그 부위 잇몸과 뼈 상태를 정기적으로 확인해요. 염증이 이어지면 추가 처치나 발치를 검토합니다."
   - question: "현미경을 쓰면 예방되나요?"
     answer: "확대해서 보면 입구를 정확히 찾는 데 도움이 됩니다. 위험을 줄이는 요소예요. 다만 해부학적으로 어려운 경우에는 완전히 피하기 어렵습니다."
+approach:
+  - when: "작고 발견 즉시일 때"
+    name: "MTA 즉시 봉쇄"
+    en: "Immediate MTA Repair"
+    detail: "뚫린 자리를 MTA로 막습니다. 오염되기 전에 막을수록 예후가 좋습니다."
+  - when: "위치가 잇몸 가까워 접근이 어려울 때"
+    name: "외과적 수복"
+    en: "Surgical Repair"
+    detail: "잇몸을 열어 바깥에서 막습니다. 1회 수술, 실밥 1주."
+  - when: "천공 주위에 뼈가 녹았을 때"
+    name: "봉쇄 + 골재생"
+    en: "Repair with Regeneration"
+    detail: "막으면서 골이식재를 함께 넣습니다. 6~9개월 경과를 봅니다."
+  - when: "치근 분지부처럼 예후가 나쁜 위치일 때"
+    name: "발치"
+    en: "Extraction"
+    slug: extraction
+    detail: "분지부 천공은 살리기 어렵습니다. 무리하기보다 임플란트를 계획하는 편이 낫습니다."
 sources:
   - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
 updated: "2026-08-16"
 relatedTerms:
+  - golisigjae
+  - extraction
+  - implant
   - apical-periodontitis
-  - apicoectomy
-  - chigeun
-  - chigeun-heubsu
 relatedPosts:
   []
 ---

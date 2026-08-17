@@ -25,15 +25,34 @@ faqs:
     answer: "있습니다. 임플란트에는 치아 신경이 없어 시린 느낌이 없어요. 뼈가 녹고 있어도 통증이 늦게 나타납니다. 그래서 정기 검진과 X-ray 확인이 중요합니다."
   - question: "실패 위험을 줄이려면요?"
     answer: "칫솔질과 치간 관리, 정기 검진이 기본입니다. 흡연을 줄이고 혈당을 관리하는 것도 함께 봐야 해요. 이갈이가 있다면 장치를 고려합니다."
+approach:
+  - when: "초기 실패 (골유착 전, 수술 후 수개월 내)"
+    name: "제거 후 재식립"
+    en: "Removal and Reimplantation"
+    detail: "흔들리는 픽스처를 빼냅니다. 뼈가 아물기를 2~3개월 기다린 뒤 다시 심습니다."
+  - when: "주위염으로 뼈가 녹은 후기 실패"
+    name: "주위염 치료 시도"
+    en: "Peri-implantitis Therapy"
+    slug: peri-implantitis
+    detail: "흔들리지 않으면 표면 정화와 골재생으로 살려 봅니다. 재평가 6~9개월."
+  - when: "제거 후 뼈가 많이 부족할 때"
+    name: "골유도재생술 (GBR)"
+    en: "Guided Bone Regeneration"
+    slug: gbr
+    detail: "뼈를 만들고 4~6개월 뒤 재식립합니다."
+  - when: "같은 실패를 반복하지 않으려면"
+    name: "실패 원인 교정"
+    en: "Correction of Cause"
+    detail: "흡연, 조절 안 된 당뇨, 과도한 교합력, 관리 부족을 함께 다룹니다. 원인을 두면 다시 실패합니다."
 sources:
   - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.24-0154"
   - "https://www.sciencedirect.com/science/article/abs/pii/S0300571219300491"
 updated: "2026-08-16"
 relatedTerms:
+  - gbr
   - immediate-implant
   - impeulranteu-1cha-susul
   - impeulranteu-2cha-susul
-  - impeulranteu-eobeoteumeonteu
 relatedPosts:
   []
 ---

@@ -28,12 +28,13 @@ faqs:
     answer: "대부분은 비수술 치료로 관리해요. 심한 경우·구조적 문제가 있을 때만 수술을 검토합니다."
 approach:
   - when: "거의 모든 초기 턱관절장애"
-    name: "보존 치료"
+    name: "비수술적 보존 요법"
     en: "Conservative Therapy"
     detail: "딱딱하고 질긴 음식과 큰 입 벌리기를 피하고 온찜질을 합니다. 상당수가 2~4주 안에 좋아집니다."
   - when: "이갈이·이악물기가 겹칠 때"
     name: "교합안정장치 (스플린트)"
     en: "Occlusal Stabilization Splint"
+    slug: splint
     detail: "잘 때 끼워 관절과 근육 부담을 덜어냅니다. 제작 2~3회 방문, 착용 3~6개월 뒤 재평가."
   - when: "근육 통증이 주된 경우"
     name: "물리치료 + 자가운동"
@@ -49,10 +50,10 @@ approach:
     detail: "관절강을 씻어내 유착과 염증물질을 제거합니다. 수술은 마지막 선택이고 실제로 가는 경우는 드뭅니다."
 updated: "2026-08-16"
 relatedTerms:
-  - conservative-dentistry
   - splint
   - teoggwanjeol-jangae-jaga-jindan
   - manseong-dutonggwa-teoggwanjeol
+  - teoggwanjeol-diseukeu-byeonwi
 relatedPosts:
   []
 ---

@@ -394,7 +394,9 @@ export const termApproaches: Record<string, TermApproach[]> = {
   tmd: [
     {
       when: '거의 모든 초기 턱관절장애',
-      name: '보존 치료',
+      // 사전의 「보존치료」는 충치·신경치료 분야를 뜻해 글자가 같아도 다른 개념이다.
+      // 자동 링크가 그쪽으로 걸리지 않도록 이름을 구분해 둔다.
+      name: '비수술적 보존 요법',
       en: 'Conservative Therapy',
       detail: '딱딱하고 질긴 음식과 큰 입 벌리기를 피하고 온찜질을 합니다. 상당수가 2~4주 안에 좋아집니다.',
     },

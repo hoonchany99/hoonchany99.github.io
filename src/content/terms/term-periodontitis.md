@@ -31,6 +31,7 @@ approach:
   - when: "치주낭 4~5mm, 초기"
     name: "치근활택술 (SRP)"
     en: "Scaling and Root Planing"
+    slug: scaling-root-planing
     detail: "마취하고 잇몸 속 치근 표면의 치석과 오염층을 긁어냅니다. 보통 상하좌우 나눠 2~4회, 4~6주 뒤 재평가."
   - when: "SRP 후에도 치주낭 6mm 이상 남은 경우"
     name: "치주 판막 수술"
@@ -43,6 +44,7 @@ approach:
   - when: "치료를 마친 뒤 평생"
     name: "치주 유지관리"
     en: "Periodontal Maintenance"
+    slug: chiju-yujigwanri
     detail: "3~4개월 간격 정기 관리로 재발을 막습니다. 치주염은 완치가 아니라 관리하는 병입니다."
 updated: "2026-08-16"
 relatedTerms:

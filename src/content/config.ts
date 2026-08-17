@@ -47,6 +47,8 @@ const terms = defineCollection({
           when: z.string(),
           name: z.string(),
           en: z.string().optional(),
+          /** 그 시술의 사전 페이지 — 사전에 있는 용어일 때만 채워진다 */
+          slug: z.string().optional(),
           detail: z.string(),
         })
       )

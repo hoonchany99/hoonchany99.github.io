@@ -37,6 +37,7 @@ approach:
   - when: "이갈이·이악물기로 계속 재발할 때"
     name: "교합 조정 + 야간 장치"
     en: "Occlusal Adjustment and Night Guard"
+    slug: occlusal-adjustment
     detail: "치경부에 힘이 몰리는 교합을 다듬고 나이트가드를 씁니다. 원인을 두면 때워도 또 떨어집니다."
 sources:
   - "https://decisionsindentistry.com/article/treatment-strategies-noncarious-cervical-lesions/"

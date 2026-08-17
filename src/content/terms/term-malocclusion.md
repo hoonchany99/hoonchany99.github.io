@@ -38,14 +38,17 @@ approach:
   - when: "성장기 아동의 골격 부조화"
     name: "기능적 교정 장치 · 확장 장치"
     en: "Functional Appliance / Palatal Expander"
+    slug: gineungjeog-gyojeong-jangchi
     detail: "성장 방향을 유도합니다. 시기를 놓치면 못 하는 치료라 6~12세에 판단합니다."
   - when: "성인의 골격성 부정교합"
     name: "악교정 수술 + 교정"
     en: "Orthognathic Surgery"
+    slug: aggyojeong-susul
     detail: "턱뼈 위치를 옮깁니다. 수술 전후 교정을 포함해 18~30개월."
   - when: "치료를 마친 뒤"
     name: "유지장치"
     en: "Retainer"
+    slug: retainer
     detail: "첫 1년은 거의 종일, 이후 야간에만. 안 끼면 되돌아갑니다."
 updated: "2026-08-16"
 relatedTerms:

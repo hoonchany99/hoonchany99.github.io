@@ -27,6 +27,7 @@ approach:
   - when: "거의 모든 치은염의 1차 치료"
     name: "스케일링 + 잇몸 위 치석 제거"
     en: "Supragingival Scaling"
+    slug: scaling
     detail: "치석과 치태를 걷어냅니다. 1회 20~40분이면 끝나고, 잇몸 붉기와 출혈은 보통 1~2주 안에 가라앉습니다."
   - when: "칫솔질로 닿지 않는 부위가 반복해 붓는 경우"
     name: "구강위생 재교육 + 치간 관리"

@@ -23,6 +23,16 @@ const publicSlug = term.data.termSlug;
 const synonymList = (term.data.synonyms ?? []).filter((a) => a !== term.data.name);
 const alternateNames = [term.data.en, ...synonymList].filter(Boolean);
 
+/** 치료 블록이 가리키는 시술 페이지의 표제어 — CTA에 목적지 이름을 쓰기 위함 */
+const approachSlugs = term.data.approach.map((a) => a.slug).filter(Boolean) as string[];
+const approachNameBySlug = Object.fromEntries(
+  (
+    await Promise.all(approachSlugs.map((s) => getEntry('terms', `term-${s}`)))
+  )
+    .filter(Boolean)
+    .map((e) => [e!.data.termSlug, e!.data.name])
+);
+
 const relatedTermEntries = (
   await Promise.all(
     term.data.relatedTerms.map((slug) => getEntry('terms', `term-${slug}`))
@@ -122,27 +132,49 @@ const definedTermLd = JSON.stringify({
           </p>
 
           <ol class="space-y-3" data-speakable>
-            {term.data.approach.map((item, i) => (
-              <li class="rounded-2xl border border-gray-100 bg-white p-5 hover:border-brand/30 transition-colors">
-                <div class="flex items-start gap-3">
-                  <span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand/10 text-brand text-xs font-bold flex items-center justify-center mt-0.5">
-                    {i + 1}
-                  </span>
-                  <div class="min-w-0 flex-1">
-                    <p class="text-xs text-gray-500 leading-relaxed">{item.when}</p>
-                    <p class="mt-1.5 font-bold text-gray-900 leading-snug">
-                      {item.name}
-                      {item.en && (
-                        <span class="ml-2 text-xs font-medium text-brand/70 tracking-wide">
-                          {item.en}
-                        </span>
-                      )}
-                    </p>
-                    <p class="mt-1.5 text-[15px] text-gray-600 leading-relaxed">{item.detail}</p>
-                  </div>
-                </div>
-              </li>
-            ))}
+            {term.data.approach.map((item, i) => {
+              // 사전에 그 시술 페이지가 있을 때만 카드 전체를 링크로 만든다
+              const Card = item.slug ? 'a' : 'div';
+              const cardProps = item.slug
+                ? {
+                    href: `/terms/${item.slug}/`,
+                    class:
+                      'group block rounded-2xl border border-gray-100 bg-white p-5 hover:border-brand/40 hover:shadow-md transition-all',
+                  }
+                : { class: 'rounded-2xl border border-gray-100 bg-white p-5' };
+
+              return (
+                <li>
+                  <Card {...cardProps}>
+                    <div class="flex items-start gap-3">
+                      <span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand/10 text-brand text-xs font-bold flex items-center justify-center mt-0.5">
+                        {i + 1}
+                      </span>
+                      <div class="min-w-0 flex-1">
+                        <p class="text-xs text-gray-500 leading-relaxed">{item.when}</p>
+                        <p class="mt-1.5 font-bold text-gray-900 leading-snug">
+                          <span class={item.slug ? 'group-hover:text-brand transition-colors' : ''}>
+                            {item.name}
+                          </span>
+                          {item.en && (
+                            <span class="ml-2 text-xs font-medium text-brand/70 tracking-wide">
+                              {item.en}
+                            </span>
+                          )}
+                        </p>
+                        <p class="mt-1.5 text-[15px] text-gray-600 leading-relaxed">{item.detail}</p>
+                        {item.slug && approachNameBySlug[item.slug] && (
+                          <span class="mt-2.5 inline-flex items-center gap-1 text-xs font-medium text-gray-400 group-hover:text-brand transition-colors">
+                            {approachNameBySlug[item.slug]} 자세히 보기
+                            <span aria-hidden="true" class="transition-transform group-hover:translate-x-0.5">→</span>
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  </Card>
+                </li>
+              );
+            })}
           </ol>
         </section>
       )}

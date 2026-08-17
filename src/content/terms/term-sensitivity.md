@@ -43,10 +43,12 @@ approach:
   - when: "잇몸이 내려가 치근이 드러난 경우"
     name: "치근 피개술"
     en: "Root Coverage Graft"
+    slug: chigeun-pigaesul
     detail: "입천장에서 떼어낸 결합조직으로 드러난 치근을 덮습니다. 1회 수술, 안정까지 2~3개월."
   - when: "시림이 아니라 지속되는 통증으로 바뀐 경우"
     name: "신경치료"
     en: "Root Canal Treatment"
+    slug: root-canal
     detail: "치수 염증이 되돌릴 수 없는 단계면 시림 치료로 해결되지 않습니다. 2~4회 방문."
 updated: "2026-08-16"
 relatedTerms:

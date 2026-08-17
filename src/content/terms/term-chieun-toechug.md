@@ -33,6 +33,7 @@ approach:
   - when: "치근이 드러나 시리거나 보기 싫을 때"
     name: "치근 피개술"
     en: "Root Coverage Graft"
+    slug: chigeun-pigaesul
     detail: "입천장 결합조직을 이식해 덮습니다. 1회 수술, 성공하면 2~4mm 회복. 안정까지 2~3개월."
   - when: "치아 위치가 잇몸 바깥으로 밀려나 생긴 경우"
     name: "교정으로 치아 위치 이동"

@@ -29,6 +29,7 @@ approach:
   - when: "잇몸이 치아를 덮어 치아가 짧아 보이는 경우"
     name: "치관 연장술"
     en: "Crown Lengthening"
+    slug: chigwan-yeonjangsul
     detail: "잇몸과 필요하면 치조골까지 다듬어 치아를 2~4mm 더 드러냅니다. 수술은 1회, 잇몸이 자리 잡는 데 6~8주."
   - when: "앞니가 아래로 처져 잇몸이 드러나는 경우"
     name: "미니스크류 함입 교정"

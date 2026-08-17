@@ -35,6 +35,7 @@ approach:
   - when: "금이 법랑질에만 있고 증상이 없을 때"
     name: "경과 관찰 + 교합 조정"
     en: "Monitoring and Occlusal Adjustment"
+    slug: occlusal-adjustment
     detail: "금 간 곳에 힘이 몰리지 않게 교합을 다듬고 6개월마다 봅니다. 이갈이가 있으면 장치를 함께 씁니다."
   - when: "씹을 때 시큰하고 뗄 때 통증이 있을 때"
     name: "전장관 수복 (크라운)"
@@ -47,6 +48,7 @@ approach:
   - when: "금이 치근까지 세로로 내려간 경우"
     name: "발치"
     en: "Extraction"
+    slug: extraction
     detail: "치근 파절은 붙지 않습니다. 뽑고 임플란트나 브릿지로 갑니다. 이 경우만큼은 살리는 방법이 없습니다."
 updated: "2026-08-16"
 relatedTerms:

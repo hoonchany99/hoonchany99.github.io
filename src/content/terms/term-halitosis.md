@@ -36,6 +36,7 @@ approach:
   - when: "잇몸병이 있을 때"
     name: "스케일링 · 치주 치료"
     en: "Periodontal Therapy"
+    slug: scaling
     detail: "치주낭 속 세균이 휘발성 황화합물을 만듭니다. 잇몸을 잡으면 냄새가 함께 줄어듭니다."
   - when: "충치·틈새 보철이 있을 때"
     name: "우식 치료 · 보철 재제작"

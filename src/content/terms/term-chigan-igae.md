@@ -37,6 +37,7 @@ approach:
   - when: "치아 자체가 작아서 생긴 틈일 때"
     name: "라미네이트"
     en: "Laminate Veneer"
+    slug: laminate
     detail: "앞면을 얇게 덮어 폭을 넓힙니다. 2~3회 방문."
   - when: "윗입술 소대가 두꺼워 앞니 사이를 벌리는 경우"
     name: "상순 소대 절제술"

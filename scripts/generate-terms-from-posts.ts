@@ -143,6 +143,34 @@ function overlapCount(a: Set<string>, b: Set<string>): number {
 }
 
 /**
+ * 치료명 → 그 시술의 사전 페이지 슬러그.
+ *
+ * 사전에 실제로 있는 용어만 건다. 짐작으로 걸면 "르포트 I 상악 골절단술"이
+ * 해부 용어 "상악"으로 가는 식의 엉뚱한 링크가 생긴다.
+ * 그래서 부분 일치는 쓰지 않고 이름이 정확히 같을 때만 연결한다.
+ *   "치근활택술 (SRP)"        → 괄호를 떼고 "치근활택술"로 일치
+ *   "교합 조정"               → 공백을 떼고 "교합조정"으로 일치
+ *   "신경치료 후 크라운"       → 일치 없음 → 링크 없음
+ *   "스케일링 · 치주 치료"     → 구분자로 갈라 "스케일링"에 일치
+ */
+function resolveApproachSlug(name: string, selfSlug: string): string | null {
+  const norm = (s: string) => s.replace(/\([^)]*\)/g, '').replace(/\s/g, '').trim();
+  const candidates = [name, ...name.split(/[+·/]/)].map(norm).filter(Boolean);
+
+  for (const candidate of candidates) {
+    const hit = termsCanonical.find((t) => {
+      if (t.slug === selfSlug || !hasVerifiedContent(t.slug)) return false;
+      // 표제어뿐 아니라 선별된 동의어와도 맞춘다.
+      // "교합안정장치 (스플린트)" 는 표제어가 「스플린트」라 동의어로만 걸린다.
+      if (norm(t.name) === candidate) return true;
+      return (termSynonyms[t.slug] ?? []).some((s) => norm(s) === candidate);
+    });
+    if (hit) return hit.slug;
+  }
+  return null;
+}
+
+/**
  * 함께 보면 좋은 용어 — 같은 블로그 글로 매칭된 용어를 우선하고,
  * 부족하면 용어명이 겹치는 순으로 채운다. (기존 topicHub 분류 대체)
  */
@@ -285,12 +313,16 @@ function renderTermFile(
     ...(termApproaches[term.slug]?.length
       ? [
           'approach:',
-          ...termApproaches[term.slug].flatMap((a) => [
-            `  - when: ${yamlQuote(a.when)}`,
-            `    name: ${yamlQuote(a.name)}`,
-            ...(a.en ? [`    en: ${yamlQuote(a.en)}`] : []),
-            `    detail: ${toYamlBlock(a.detail, 6)}`,
-          ]),
+          ...termApproaches[term.slug].flatMap((a) => {
+            const linked = resolveApproachSlug(a.name, term.slug);
+            return [
+              `  - when: ${yamlQuote(a.when)}`,
+              `    name: ${yamlQuote(a.name)}`,
+              ...(a.en ? [`    en: ${yamlQuote(a.en)}`] : []),
+              ...(linked ? [`    slug: ${linked}`] : []),
+              `    detail: ${toYamlBlock(a.detail, 6)}`,
+            ];
+          }),
         ]
       : []),
     ...(authoredBySlug[term.slug]?.sources?.length

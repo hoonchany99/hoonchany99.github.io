@@ -34,6 +34,7 @@ approach:
   - when: "고름집이 잡혔을 때"
     name: "절개 배농"
     en: "Incision and Drainage"
+    slug: jeolgae-baenong
     detail: "째서 고름을 빼냅니다. 붓기와 통증이 즉시 줄어듭니다."
   - when: "가라앉은 뒤 근본 처치"
     name: "사랑니 발치"

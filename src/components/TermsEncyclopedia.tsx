@@ -19,11 +19,17 @@ function normalizeQuery(q: string): string {
   return q.trim().toLowerCase().replace(/\s+/g, '');
 }
 
+/** 홈 히어로 검색창이 /terms/?q= 로 넘겨준 검색어 */
+function initialQuery(): string {
+  if (typeof window === 'undefined') return '';
+  return new URLSearchParams(window.location.search).get('q') ?? '';
+}
+
 export function TermsEncyclopedia() {
   const [terms, setTerms] = useState<TermItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState(initialQuery);
   const [chosung, setChosung] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 

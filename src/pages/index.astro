@@ -11,6 +11,21 @@ const posts = (await getCollection('posts')).sort(
 );
 const latestPosts = posts.slice(0, 6);
 
+const terms = await getCollection('terms');
+const termCount = terms.length;
+
+/** 홈에서 먼저 보여줄 용어 — 사전에 없으면 조용히 빠진다 */
+const FEATURED_TERM_SLUGS = ['cavity', 'root-canal', 'implant', 'crown', 'scaling', 'wisdom-tooth'];
+const QUICK_TERM_SLUGS = ['cavity', 'implant', 'root-canal', 'scaling', 'wisdom-tooth', 'orthodontics'];
+
+const termBySlug = new Map(terms.map((t) => [t.data.termSlug, t]));
+const featuredTerms = FEATURED_TERM_SLUGS.map((slug) => termBySlug.get(slug)).filter(
+  (t): t is NonNullable<typeof t> => Boolean(t)
+);
+const quickTerms = QUICK_TERM_SLUGS.map((slug) => termBySlug.get(slug))
+  .filter((t): t is NonNullable<typeof t> => Boolean(t))
+  .map((t) => ({ slug: t.data.termSlug, name: t.data.name }));
+
 const hubCounts: Record<string, number> = {};
 for (const hub of topicHubs) {
   hubCounts[hub.slug] = posts.filter((post) => {
@@ -31,8 +46,48 @@ function getReadingTime(body: string): number {
 }
 ---
 
-<BaseLayout title="서울대 윤원장의 치과사전" description="충치, 신경치료, 임플란트, 사랑니 발치, 라미네이트, 크라운, 스케일링까지. 서울대 치의학대학원 출신 치과의사가 치과 치료가 막막할 때 기준이 되는 설명을 정확하고 쉽게 풀어드립니다. 100편 이상의 주제별 가이드를 확인하세요.">
-  <Hero />
+<BaseLayout title="서울대 윤원장의 치과사전" description={`충치, 신경치료, 임플란트, 사랑니 발치, 라미네이트, 크라운, 스케일링까지. 서울대 치의학대학원 출신 치과의사가 치과 용어 ${termCount}개를 정확하고 쉽게 풀어드립니다. 용어 검색과 주제별 가이드로 찾아보세요.`}>
+  <Hero termCount={termCount} quickTerms={quickTerms} />
+
+  <!-- 치과사전 -->
+  <section class="py-14 md:py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-8 md:mb-12 anim-fade-up">
+        <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mb-2 md:mb-4">치과사전</h2>
+        <p class="text-sm md:text-lg text-gray-600">
+          진료실에서 듣고 그냥 넘어갔던 말, 뜻부터 정확히 짚어드립니다
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+        {featuredTerms.map((term, i) => (
+          <a
+            href={`/terms/${term.data.termSlug}/`}
+            class={`anim-fade-up anim-delay-${Math.min(i + 1, 3)} group block bg-white border border-gray-100 rounded-2xl p-5 md:p-6 hover:border-brand/40 hover:shadow-lg hover:-translate-y-0.5 transition-all`}
+          >
+            <div class="flex items-baseline gap-2 mb-2">
+              <h3 class="text-base md:text-lg font-bold text-gray-900 group-hover:text-brand transition-colors">
+                {term.data.name}
+              </h3>
+              {term.data.en && (
+                <span class="text-[11px] md:text-xs font-medium text-brand/70 tracking-wide">{term.data.en}</span>
+              )}
+            </div>
+            <p class="text-xs md:text-sm text-gray-500 leading-relaxed line-clamp-2">{term.data.definition}</p>
+          </a>
+        ))}
+      </div>
+
+      <div class="text-center mt-8 md:mt-12 anim-fade-up">
+        <a
+          href="/terms/"
+          class="bg-brand text-white px-8 py-3.5 rounded-xl hover:bg-brand-dark transition-colors font-bold inline-flex items-center justify-center text-sm md:text-base min-h-[44px]"
+        >
+          치과사전 {termCount}개 용어 전체 보기
+        </a>
+      </div>
+    </div>
+  </section>
 
   <!-- 주제별 허브 -->
   <div class="anim-fade-up">
@@ -81,7 +136,7 @@ function getReadingTime(body: string): number {
       </div>
 
       <div class="text-center mt-8 md:mt-12 anim-fade-up">
-        <a href="/posts/" class="bg-brand text-white px-8 py-3.5 rounded-xl hover:bg-brand-dark transition-colors font-bold inline-block text-sm md:text-base min-h-[44px] flex items-center justify-center mx-auto w-fit">
+        <a href="/posts/" class="bg-white text-gray-700 border border-gray-200 px-8 py-3.5 rounded-xl hover:border-brand hover:text-brand transition-colors font-bold text-sm md:text-base min-h-[44px] inline-flex items-center justify-center mx-auto w-fit">
           전체 글 보기
         </a>
       </div>

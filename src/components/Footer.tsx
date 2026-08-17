@@ -10,6 +10,7 @@ const topicLinks = [
 export function Footer() {
   const navLinks = [
     { label: "홈", href: "/" },
+    { label: "치과사전", href: "/terms/" },
     { label: "주제별", href: "/topics/" },
     { label: "블로그", href: "/posts/" },
     { label: "Q&A", href: "/qna/" },

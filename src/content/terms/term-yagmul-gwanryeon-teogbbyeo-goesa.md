@@ -1,10 +1,11 @@
 ---
-name: "약물 관련 턱뼈 괴사"
+name: "약물 관련 턱뼈 괴사 (MRONJ)"
 termSlug: yagmul-gwanryeon-teogbbyeo-goesa
 en: "Medication-Related Osteonecrosis of the Jaw"
 tier: B
 aliases:
   - "약물 관련 턱뼈 괴사"
+  - "MRONJ"
 definition: "약물 관련 턱뼈 괴사는 골다공증이나 암 치료에 쓰는 일부 약을 쓰는 중에 턱뼈가 노출되고 낫지 않는 상태예요. 드물지만 알고 대비할 필요가 있습니다."
 detail: |
   뼈 흡수를 억제하는 약(비스포스포네이트, 데노수맙 등)과 일부 항암 표적치료제에서 보고됩니다. 예전에는 비스포스포네이트만 언급했지만, 관련 약제가 늘면서 지금은 "약물 관련"이라는 표현을 씁니다.

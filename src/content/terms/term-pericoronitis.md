@@ -26,12 +26,29 @@ faqs:
     answer: "부드러운 양치·소독 가글, 해당 부위 자극 줄이기가 도움이 될 수 있어요. 악화·삼키기·호흡 어려움은 바로 내원하세요."
   - question: "치관주위염 때 발치 바로 하나요?"
     answer: "급성 염증·부종이 심하면 먼저 소독·약물로 가라앉힌 뒤 발치하는 경우가 많아요. 상태에 따라 일정이 달라집니다."
+approach:
+  - when: "급성으로 붓고 아플 때"
+    name: "세척 + 항생제"
+    en: "Irrigation and Antibiotics"
+    detail: "잇몸 덮개 아래를 씻어내고 감염이 퍼졌으면 항생제를 씁니다. 급성기는 3~5일이면 가라앉습니다."
+  - when: "고름집이 잡혔을 때"
+    name: "절개 배농"
+    en: "Incision and Drainage"
+    detail: "째서 고름을 빼냅니다. 붓기와 통증이 즉시 줄어듭니다."
+  - when: "가라앉은 뒤 근본 처치"
+    name: "사랑니 발치"
+    en: "Wisdom Tooth Extraction"
+    detail: "덮개가 남아 있으면 반복됩니다. 급성기를 넘긴 1~2주 뒤에 뽑는 것이 표준입니다."
+  - when: "사랑니를 살려야 하는 드문 경우"
+    name: "치은판 절제술"
+    en: "Operculectomy"
+    detail: "덮인 잇몸만 잘라냅니다. 다시 덮이는 경우가 있어 발치보다 재발이 잦습니다."
 updated: "2026-08-16"
 relatedTerms:
+  - extraction
+  - jeolgae-baenong
+  - chieun
   - wisdom-tooth
-  - peri-implantitis
-  - chigwan
-  - chigwan-pajeol
 relatedPosts:
   - slug: wisdom-tooth-gum
     title: "사랑니 주변 잇몸이 붓고 고름이 보인다면? 염증 신호일 수 있어요"

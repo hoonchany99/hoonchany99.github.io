@@ -9,6 +9,7 @@ import { authoredBySlug } from '../src/data/termsAuthored.ts';
 import { excludedSlugs } from '../src/data/termsExcluded.ts';
 import { termNamesEn } from '../src/data/termNamesEn.ts';
 import { termSynonyms } from '../src/data/termSynonyms.ts';
+import { termApproaches } from '../src/data/termApproaches.ts';
 import { writeTermsIndex } from './lib/writeTermsIndex.ts';
 
 /** 검색·트래픽 우선순위 (기존 md tier 유지용) */
@@ -153,6 +154,23 @@ function pickRelatedTerms(
   const mine = postSlugsByTerm.get(slug) ?? new Set<string>();
   const myGrams = gramsByTerm.get(slug) ?? new Set<string>();
 
+  /**
+   * 치료 블록에 실제로 등장하는 술식은 가장 확실한 관련 용어다.
+   * 거미스마일은 다른 용어와 글자가 하나도 안 겹쳐 폴백으로 빠지는데,
+   * 치료 블록에 "치관 연장술"이 적혀 있으면 그게 곧 정답이다.
+   */
+  const fromApproach: string[] = [];
+  const approachText = (termApproaches[slug] ?? [])
+    .map((a) => `${a.name} ${a.detail}`)
+    .join(' ')
+    .replace(/\s/g, '');
+  if (approachText) {
+    for (const t of termsCanonical) {
+      if (t.slug === slug || !hasVerifiedContent(t.slug)) continue;
+      if (approachText.includes(t.name.replace(/\s/g, ''))) fromApproach.push(t.slug);
+    }
+  }
+
   const picked = termsCanonical
     // 페이지가 있는 용어끼리만 연결한다 — 없는 슬러그를 걸면 링크가 통째로 사라진다
     .filter((t) => t.slug !== slug && hasVerifiedContent(t.slug))
@@ -163,8 +181,11 @@ function pickRelatedTerms(
     })
     .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score || a.slug.localeCompare(b.slug))
-    .slice(0, RELATED_TERM_COUNT)
     .map((t) => t.slug);
+
+  // 치료 블록에서 뽑은 술식을 앞에 세운다
+  picked.unshift(...fromApproach.filter((s) => !picked.includes(s)));
+  picked.length = Math.min(picked.length, RELATED_TERM_COUNT);
 
   // 겹치는 신호가 없는 용어는 링크가 하나도 안 남는다 — 핵심 용어로 채운다
   if (picked.length < RELATED_TERM_COUNT) {
@@ -261,6 +282,17 @@ function renderTermFile(
       `  - question: ${yamlQuote(f.question)}`,
       `    answer: ${toYamlBlock(f.answer, 6)}`,
     ]),
+    ...(termApproaches[term.slug]?.length
+      ? [
+          'approach:',
+          ...termApproaches[term.slug].flatMap((a) => [
+            `  - when: ${yamlQuote(a.when)}`,
+            `    name: ${yamlQuote(a.name)}`,
+            ...(a.en ? [`    en: ${yamlQuote(a.en)}`] : []),
+            `    detail: ${toYamlBlock(a.detail, 6)}`,
+          ]),
+        ]
+      : []),
     ...(authoredBySlug[term.slug]?.sources?.length
       ? ['sources:', ...authoredBySlug[term.slug].sources.map((u) => `  - ${yamlQuote(u)}`)]
       : []),

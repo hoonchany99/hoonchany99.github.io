@@ -23,12 +23,25 @@ faqs:
     answer: "스케일링 후 며칠~2주 내 호전되는 경우가 많아요. 습관 교정·정기 관리가 함께 필요합니다."
   - question: "치은염과 입냄새 관련 있나요?"
     answer: "잇몸 염증·치태가 입냄새 원인이 될 수 있어요. 스케일링·올바른 구강 위생으로 개선되는 경우가 많습니다."
+approach:
+  - when: "거의 모든 치은염의 1차 치료"
+    name: "스케일링 + 잇몸 위 치석 제거"
+    en: "Supragingival Scaling"
+    detail: "치석과 치태를 걷어냅니다. 1회 20~40분이면 끝나고, 잇몸 붉기와 출혈은 보통 1~2주 안에 가라앉습니다."
+  - when: "칫솔질로 닿지 않는 부위가 반복해 붓는 경우"
+    name: "구강위생 재교육 + 치간 관리"
+    en: "Oral Hygiene Instruction"
+    detail: "바스법 칫솔질에 치실이나 치간칫솔을 더합니다. 치은염은 치태만 걷히면 원래 잇몸으로 돌아옵니다."
+  - when: "보철물이나 충전물 가장자리가 원인인 경우"
+    name: "보철물 변연 수정 또는 재제작"
+    en: "Margin Correction"
+    detail: "치태가 끼는 턱을 없앱니다. 다듬어 되는 경우도 있고 다시 만들어야 하는 경우도 있습니다."
 updated: "2026-08-16"
 relatedTerms:
-  - chieun
-  - periodontitis
-  - bagriseong-chieunyeom
-  - geubseong-goesaseong-gweyangseong-chieunyeom
+  - prosthesis
+  - scaling
+  - calculus
+  - floss
 relatedPosts:
   - slug: gum-brushing-reason
     title: "양치할 때 잇몸에서 피가 나는 이유, 단순 자극일까 잇몸병일까?"

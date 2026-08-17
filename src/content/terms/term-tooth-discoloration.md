@@ -30,12 +30,29 @@ faqs:
     answer: "스케일링은 치석·착색 제거, 미백은 치아 본연색을 밝히는 시술이에요. 목적과 효과가 다릅니다."
   - question: "치아 변색 예방법은?"
     answer: "양치·가글, 착색 음식·흡연 줄이기, 정기 검진, 충치·잇몸 조기 치료가 도움이 될 수 있어요."
+approach:
+  - when: "커피·담배 등 표면 착색"
+    name: "스케일링 + 치면 연마"
+    en: "Scaling and Polishing"
+    detail: "겉에 붙은 색소를 걷어냅니다. 1회 방문으로 상당 부분 돌아옵니다."
+  - when: "치아 속까지 누렇게 변한 경우"
+    name: "치아 미백"
+    en: "Tooth Whitening"
+    detail: "전문가 미백은 1~3회, 자가 미백은 하루 1~2시간씩 2~4주. 둘을 병행하면 유지가 좋습니다."
+  - when: "신경치료한 치아 하나만 어두울 때"
+    name: "실활치 미백"
+    en: "Internal Bleaching"
+    detail: "치아 안쪽에 약제를 넣고 1주 간격으로 2~4회 교체합니다. 겉에서 하는 미백으로는 잘 안 밝아집니다."
+  - when: "테트라사이클린 착색이나 법랑질 형성 이상"
+    name: "라미네이트 · 크라운"
+    en: "Veneer or Crown"
+    detail: "미백으로 한계가 있는 색은 덮습니다. 2~3회 방문."
 updated: "2026-08-16"
 relatedTerms:
+  - laminate
+  - scaling
+  - crown
   - chia-chagsaeg
-  - chia-gujo
-  - chia-gyunyeol-jeunghugun
-  - chia-jaesigsul
 relatedPosts:
   []
 ---

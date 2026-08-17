@@ -31,12 +31,29 @@ faqs:
     answer: "치료 직후 일시적 시림·불편은 흔할 수 있어요. 통증이 심하거나 오래가면 깊이·신경·교합 문제를 다시 확인해야 합니다."
   - question: "크랙을 예방하려면?"
     answer: "이갈이 관리, 단단한 음식·얼음 깨물기 피하기, 충치 조기 치료, 보철·교합 점검이 도움이 될 수 있어요."
+approach:
+  - when: "금이 법랑질에만 있고 증상이 없을 때"
+    name: "경과 관찰 + 교합 조정"
+    en: "Monitoring and Occlusal Adjustment"
+    detail: "금 간 곳에 힘이 몰리지 않게 교합을 다듬고 6개월마다 봅니다. 이갈이가 있으면 장치를 함께 씁니다."
+  - when: "씹을 때 시큰하고 뗄 때 통증이 있을 때"
+    name: "전장관 수복 (크라운)"
+    en: "Full Coverage Crown"
+    detail: "치아를 감싸 벌어지는 힘을 묶습니다. 크랙 치아의 표준 처치이고 2~3회 방문."
+  - when: "금이 치수까지 닿아 가만히 있어도 아플 때"
+    name: "신경치료 후 크라운"
+    en: "Root Canal Treatment then Crown"
+    detail: "신경치료로 통증을 없앤 뒤 반드시 크라운으로 덮습니다. 총 3~5회 방문."
+  - when: "금이 치근까지 세로로 내려간 경우"
+    name: "발치"
+    en: "Extraction"
+    detail: "치근 파절은 붙지 않습니다. 뽑고 임플란트나 브릿지로 갑니다. 이 경우만큼은 살리는 방법이 없습니다."
 updated: "2026-08-16"
 relatedTerms:
-  - zirconia
-  - chia-chagsaeg
-  - chia-gujo
-  - chia-gyunyeol-jeunghugun
+  - occlusal-adjustment
+  - extraction
+  - bridge
+  - root-canal
 relatedPosts:
   - slug: root-canal-tooth-crown
     title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"

@@ -27,12 +27,33 @@ faqs:
     answer: "충치, 잇몸 퇴축·치아 노출, 크랙, 레진·크라운 문제, 과도한 미백, 교정 후, 이갈이 등 다양해요. 원인에 따라 치료·관리법이 달라질 수 있습니다."
   - question: "시린이 치료는 어떻게 하나요?"
     answer: "시린이 치약·불소·민감 완화제, 충치·잇몸 치료 등 원인에 맞게 진행해요. 씹을 때 통증이 동반되면 꼭 검진해 보세요."
+approach:
+  - when: "가벼운 시림, 원인이 뚜렷하지 않을 때"
+    name: "지각과민 완화 치약"
+    en: "Desensitizing Toothpaste"
+    detail: "질산칼륨이나 불화주석이 든 치약을 2~4주 꾸준히 씁니다. 헹군 뒤 소량을 시린 부위에 문질러두면 더 낫습니다."
+  - when: "특정 치아가 콕 집어 시릴 때"
+    name: "지각과민 처치제 도포"
+    en: "Desensitizer Application"
+    detail: "노출된 상아세관을 약제로 막습니다. 1회 5~10분, 효과는 수개월 가고 필요하면 반복합니다."
+  - when: "치경부가 V자로 패인 경우"
+    name: "치경부 레진 충전"
+    en: "Cervical Composite Restoration"
+    detail: "패인 곳을 레진으로 메워 상아질을 덮습니다. 1회 방문, 마취는 대개 필요 없습니다."
+  - when: "잇몸이 내려가 치근이 드러난 경우"
+    name: "치근 피개술"
+    en: "Root Coverage Graft"
+    detail: "입천장에서 떼어낸 결합조직으로 드러난 치근을 덮습니다. 1회 수술, 안정까지 2~3개월."
+  - when: "시림이 아니라 지속되는 통증으로 바뀐 경우"
+    name: "신경치료"
+    en: "Root Canal Treatment"
+    detail: "치수 염증이 되돌릴 수 없는 단계면 시림 치료로 해결되지 않습니다. 2~4회 방문."
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - crown
-  - whitening
+  - resin
   - root-canal
+  - chigeun
+  - chigeun-pigaesul
 relatedPosts:
   - slug: cavity-sensitivity
     title: "충치 이시림, 그냥 두면 결국 뽑아야 됩니다."

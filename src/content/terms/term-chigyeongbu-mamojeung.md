@@ -25,15 +25,28 @@ faqs:
     answer: "적절히 쓰면 오히려 힘 조절에 도움이 될 수 있어요. 압력 감지 기능이 있는 제품이 도움이 되기도 합니다. 중요한 건 기구보다 세기와 방향이에요. 문지르듯 미는 동작을 줄이는 게 좋습니다."
   - question: "더 진행되는 걸 막으려면요?"
     answer: "부드러운 칫솔모로 힘을 빼고 닦아 주세요. 탄산·과일주스 같은 산성 음료 뒤에 바로 닦는 건 피하고, 물로 헹군 뒤 시간을 두는 게 좋습니다. 이갈이가 있다면 장치를 고려해 볼 수 있어요."
+approach:
+  - when: "패임이 얕고 시리지 않을 때"
+    name: "원인 제거 + 관찰"
+    en: "Cause Control"
+    detail: "옆으로 세게 문지르는 칫솔질을 바스법으로 바꾸고 단단한 칫솔모를 부드러운 것으로 바꿉니다."
+  - when: "시리거나 패임이 깊어질 때"
+    name: "치경부 레진 충전"
+    en: "Cervical Composite Restoration"
+    detail: "패인 부위를 레진으로 메웁니다. 1회 방문, 20~30분."
+  - when: "이갈이·이악물기로 계속 재발할 때"
+    name: "교합 조정 + 야간 장치"
+    en: "Occlusal Adjustment and Night Guard"
+    detail: "치경부에 힘이 몰리는 교합을 다듬고 나이트가드를 씁니다. 원인을 두면 때워도 또 떨어집니다."
 sources:
   - "https://decisionsindentistry.com/article/treatment-strategies-noncarious-cervical-lesions/"
   - "https://www.speareducation.com/resources/spear-digest/non-carious-cervical-lesions-nccl-causes-and-contributing-factors/"
 updated: "2026-08-16"
 relatedTerms:
+  - occlusal-adjustment
+  - resin
+  - chissoljil
   - chia-mamojeung
-  - cavity
-  - root-canal
-  - implant
 relatedPosts:
   []
 ---

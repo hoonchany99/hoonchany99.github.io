@@ -25,15 +25,32 @@ faqs:
     answer: "작은 틈이면 비교적 간단히 해결됩니다. 다만 앞니는 힘을 받는 자리라 떨어지거나 변색될 수 있어요. 원인이 남아 있으면 다시 벌어지기도 합니다."
   - question: "음식이 자꾸 끼는데 어떻게 하나요?"
     answer: "치간칫솔 크기를 맞춰 쓰시면 관리가 쉬워집니다. 틈 자체를 줄이려면 레진이나 교정을 검토해요. 다만 잇몸 원인이 있다면 그것부터 다뤄야 합니다."
+approach:
+  - when: "벌어진 틈이 좁고 치아 크기는 정상일 때"
+    name: "레진 수복"
+    en: "Composite Bonding"
+    detail: "양쪽 치아 옆면에 레진을 덧대 틈을 메웁니다. 1회 방문, 삭제가 거의 없습니다."
+  - when: "틈이 넓거나 여러 군데일 때"
+    name: "교정 치료"
+    en: "Orthodontic Closure"
+    detail: "치아를 실제로 모읍니다. 부분 교정은 6~12개월, 전체 교정은 18~30개월."
+  - when: "치아 자체가 작아서 생긴 틈일 때"
+    name: "라미네이트"
+    en: "Laminate Veneer"
+    detail: "앞면을 얇게 덮어 폭을 넓힙니다. 2~3회 방문."
+  - when: "윗입술 소대가 두꺼워 앞니 사이를 벌리는 경우"
+    name: "상순 소대 절제술"
+    en: "Labial Frenectomy"
+    detail: "소대를 정리한 뒤 교정으로 모읍니다. 소대를 두면 모아도 다시 벌어집니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
   - "https://www.ada.org/resources/ada-library/oral-health-topics/orthodontics"
 updated: "2026-08-16"
 relatedTerms:
+  - laminate
+  - resin
   - chigan-yudu
   - cavity
-  - root-canal
-  - implant
 relatedPosts:
   []
 ---

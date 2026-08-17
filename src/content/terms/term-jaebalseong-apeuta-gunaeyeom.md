@@ -25,15 +25,32 @@ faqs:
     answer: "통증을 줄이고 자극을 피하는 게 기본이에요. 맵고 짜고 뜨거운 음식, 탄산과 산성 음료는 피해 주세요. 국소 도포제나 가글이 통증을 줄이는 데 도움이 될 수 있습니다."
   - question: "병원에 가야 하는 경우는 언제인가요?"
     answer: "3주 넘게 낫지 않거나, 궤양이 유난히 크고 깊거나, 한 번에 여러 개가 계속 생길 때예요. 눈이나 생식기에도 궤양이 함께 생긴다면 다른 전신 질환을 확인할 필요가 있습니다."
+approach:
+  - when: "작은 궤양이 한두 개일 때"
+    name: "국소 스테로이드 연고"
+    en: "Topical Corticosteroid"
+    detail: "트리암시놀론 구강용 연고를 하루 2~3회 바릅니다. 통증이 빨리 줄고 7~10일이면 아뭅니다."
+  - when: "통증으로 먹기 힘들 때"
+    name: "국소 마취 가글 · 점막 보호제"
+    en: "Topical Anesthetic Rinse"
+    detail: "식사 직전에 헹궈 통증을 줄입니다. 치료가 아니라 버티게 해주는 처치입니다."
+  - when: "크기 1cm 이상이거나 6주 넘게 안 아물 때"
+    name: "조직검사"
+    en: "Biopsy"
+    detail: "아프타는 2주 안에 아뭅니다. 그보다 오래가면 다른 병을 감별해야 합니다."
+  - when: "자주 반복될 때"
+    name: "유발 요인 점검"
+    en: "Trigger Assessment"
+    detail: "철·엽산·비타민 B12 부족, 베체트병, SLS 함유 치약을 확인합니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/recurrent-aphthous-stomatitis"
   - "https://www.ncbi.nlm.nih.gov/books/NBK431059/"
 updated: "2026-08-16"
 relatedTerms:
-  - gunaeyeom
-  - pojinseong-chieungunaeyeom
-  - gyojeong-jaebal
-  - cavity
+  - local-anesthesia
+  - becheteubyeong
+  - primary-tooth
+  - chiyag
 relatedPosts:
   []
 ---

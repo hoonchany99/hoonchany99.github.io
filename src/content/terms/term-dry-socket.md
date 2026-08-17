@@ -23,6 +23,19 @@ faqs:
     answer: "치과에서 소독·약재 봉합·통증 조절 등을 해요. 자연 치유까지 며칠~1주 정도 추가 관리가 필요할 수 있습니다."
   - question: "건조와면 다시 발치해야 하나요?"
     answer: "재발치는 필요 없어요. 혈병 형성·통증 관리·소독 등으로 치료합니다. 증상이 악화되면 바로 내원해 주세요."
+approach:
+  - when: "발치 후 3~5일에 통증이 다시 심해질 때"
+    name: "소켓 세척 + 진통 드레싱"
+    en: "Socket Irrigation and Medicated Dressing"
+    detail: "식염수로 씻어내고 유지놀 거즈를 채웁니다. 넣는 즉시 통증이 크게 줄고, 1~3일 간격으로 2~4회 교체합니다."
+  - when: "드레싱 기간 중"
+    name: "진통제 병용"
+    en: "Analgesics"
+    detail: "이부프로펜 계열을 함께 씁니다. 항생제는 감염이 확인된 경우가 아니면 쓰지 않습니다."
+  - when: "치유 경과"
+    name: "자연 치유 대기"
+    en: "Secondary Healing"
+    detail: "새 육아조직이 차오르며 7~10일이면 통증이 사라집니다. 뼈가 상하는 것은 아닙니다."
 updated: "2026-08-16"
 relatedTerms:
   - guganggeonjojeung

@@ -25,15 +25,32 @@ faqs:
     answer: "맵고 짜고 뜨거운 음식, 탄산과 산성 음료를 피해 주세요. 국소 도포제나 가글이 통증을 줄이는 데 도움이 됩니다. 자극이 적은 치약으로 바꾸는 것도 방법이에요."
   - question: "연고를 계속 발라도 되나요?"
     answer: "제품마다 사용 기간과 방법이 정해져 있습니다. 특히 스테로이드가 든 제품은 오래 쓰면 곰팡이 감염 같은 문제가 생길 수 있어요. 안내대로 쓰시고, 낫지 않으면 확인받으세요."
+approach:
+  - when: "바이러스성(단순포진 등)일 때"
+    name: "항바이러스제 + 대증 치료"
+    en: "Antiviral Therapy"
+    detail: "증상 시작 72시간 안에 쓰면 효과가 큽니다. 보통 7~14일이면 낫습니다."
+  - when: "곰팡이(칸디다)일 때"
+    name: "항진균제"
+    en: "Antifungal Therapy"
+    detail: "나이스타틴 현탁액이나 플루코나졸을 씁니다. 틀니를 쓰면 틀니도 같이 소독합니다."
+  - when: "외상·보철물 자극일 때"
+    name: "자극 원인 제거"
+    en: "Removal of Irritant"
+    detail: "날카로운 보철 가장자리를 다듬습니다. 원인을 없애면 1~2주에 아뭅니다."
+  - when: "2주 넘게 낫지 않을 때"
+    name: "조직검사"
+    en: "Biopsy"
+    detail: "구내염은 대부분 2주 안에 아뭅니다. 그 이상이면 반드시 감별합니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/stomatitis"
   - "https://www.ncbi.nlm.nih.gov/books/NBK431059/"
 updated: "2026-08-16"
 relatedTerms:
+  - prosthesis
+  - denture
   - jaebalseong-apeuta-gunaeyeom
   - pojinseong-chieungunaeyeom
-  - cavity
-  - root-canal
 relatedPosts:
   []
 ---

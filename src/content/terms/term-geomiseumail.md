@@ -25,15 +25,32 @@ faqs:
     answer: "윗입술이 과하게 올라가는 것이 원인이면 일시적으로 개선될 수 있습니다. 다만 효과가 영구적이지 않고 원인이 다르면 소용없어요."
   - question: "수술까지 해야 하나요?"
     answer: "위턱뼈가 세로로 긴 골격 원인이면 검토합니다. 다만 다른 방법으로 충분한 경우가 많아요. 원인을 정확히 나눈 뒤 판단합니다."
+approach:
+  - when: "잇몸이 치아를 덮어 치아가 짧아 보이는 경우"
+    name: "치관 연장술"
+    en: "Crown Lengthening"
+    detail: "잇몸과 필요하면 치조골까지 다듬어 치아를 2~4mm 더 드러냅니다. 수술은 1회, 잇몸이 자리 잡는 데 6~8주."
+  - when: "앞니가 아래로 처져 잇몸이 드러나는 경우"
+    name: "미니스크류 함입 교정"
+    en: "Miniscrew Intrusion"
+    detail: "잇몸뼈에 심은 미니스크류를 지지대로 앞니를 2~3mm 밀어 넣습니다. 6~12개월."
+  - when: "위턱뼈가 세로로 길어 생긴 골격성"
+    name: "르포트 I 상악 골절단술"
+    en: "Le Fort I Osteotomy"
+    detail: "위턱뼈를 수평으로 잘라 위로 올려 고정합니다. 전신마취 수술이고 교정을 함께해 전체 18~24개월."
+  - when: "윗입술이 과하게 올라가는 경우"
+    name: "보툴리눔 톡신 / 입술 재위치술"
+    en: "Botulinum Toxin / Lip Repositioning"
+    detail: "톡신은 윗입술 올림근을 약화시키며 3~4개월마다 반복합니다. 지속을 원하면 입술 재위치술을 검토합니다."
 sources:
   - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
   - "https://www.aaoinfo.org/"
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - root-canal
-  - implant
-  - wisdom-tooth
+  - sangag
+  - chigwan
+  - chigwan-yeonjangsul
+  - chijogol
 relatedPosts:
   []
 ---

@@ -25,12 +25,29 @@ faqs:
     answer: "정기 검진·스케일링, 칫솔·치간 관리, 흡연·당뇨 관리가 도움이 될 수 있어요. 임플란트 아래·연결부도 꼼꼼히 닦아 주세요."
   - question: "임플란트를 다시 심을 수 있나요?"
     answer: "제거 후 뼈 재건·치유 기간을 거쳐 재식립을 검토할 수 있어요. 케이스·뼈 상태·원인 관리에 따라 달라질 수 있습니다."
+approach:
+  - when: "잇몸만 붉고 뼈는 아직 녹지 않았을 때 (주위 점막염)"
+    name: "비수술적 청결 처치"
+    en: "Non-surgical Debridement"
+    detail: "티타늄에 상처를 내지 않는 기구와 세척으로 오염을 걷어냅니다. 이 단계면 되돌릴 수 있습니다."
+  - when: "뼈가 녹기 시작했을 때"
+    name: "판막 수술 + 임플란트 표면 정화"
+    en: "Flap Surgery with Implant Surface Decontamination"
+    detail: "잇몸을 젖혀 나사산에 붙은 오염을 직접 제거합니다. 1회 수술, 회복 2~4주."
+  - when: "결손이 깊고 임플란트가 아직 흔들리지 않을 때"
+    name: "골재생술 병행"
+    en: "Regenerative Therapy"
+    detail: "골이식재와 차단막으로 뼈를 되살립니다. 재평가까지 6~9개월."
+  - when: "임플란트가 흔들릴 때"
+    name: "임플란트 제거"
+    en: "Implant Removal"
+    detail: "골유착이 깨지면 살릴 수 없습니다. 제거 후 뼈를 만들고 3~6개월 뒤 재식립을 검토합니다."
 updated: "2026-08-16"
 relatedTerms:
+  - osseointegration
+  - golisigjae
   - impeulranteu-juwi-jeommagyeom
   - immediate-implant
-  - impeulranteu-1cha-susul
-  - impeulranteu-2cha-susul
 relatedPosts:
   []
 ---

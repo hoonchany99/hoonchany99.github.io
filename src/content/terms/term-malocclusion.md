@@ -26,12 +26,33 @@ faqs:
     answer: "가벼운 형태·색 문제는 가능할 수 있어요. 근본적인 배열·교합 문제는 교정 검토가 필요할 수 있습니다."
   - question: "부정교합 치료 기간은?"
     answer: "난이도·발치 여부·장치 종류에 따라 6개월~2년 이상도 가능해요. 진단 후 예상 기간을 안내해 드려요."
+approach:
+  - when: "치아 배열만 문제인 경우"
+    name: "고정식 교정 (브라켓)"
+    en: "Fixed Orthodontic Appliance"
+    detail: "치아에 브라켓을 붙여 배열과 교합을 맞춥니다. 18~30개월."
+  - when: "움직일 공간이 부족한 경우"
+    name: "발치 교정"
+    en: "Extraction Orthodontics"
+    detail: "작은어금니를 뽑아 공간을 만든 뒤 배열합니다. 24~30개월."
+  - when: "성장기 아동의 골격 부조화"
+    name: "기능적 교정 장치 · 확장 장치"
+    en: "Functional Appliance / Palatal Expander"
+    detail: "성장 방향을 유도합니다. 시기를 놓치면 못 하는 치료라 6~12세에 판단합니다."
+  - when: "성인의 골격성 부정교합"
+    name: "악교정 수술 + 교정"
+    en: "Orthognathic Surgery"
+    detail: "턱뼈 위치를 옮깁니다. 수술 전후 교정을 포함해 18~30개월."
+  - when: "치료를 마친 뒤"
+    name: "유지장치"
+    en: "Retainer"
+    detail: "첫 1년은 거의 종일, 이후 야간에만. 안 끼면 되돌아갑니다."
 updated: "2026-08-16"
 relatedTerms:
-  - 1geub-bujeonggyohab
-  - 2geub-bujeonggyohab
-  - 3geub-bujeonggyohab
-  - bandaegyohab
+  - gineungjeog-gyojeong-jangchi
+  - extraction
+  - aggyojeong-susul
+  - molar
 relatedPosts:
   []
 ---

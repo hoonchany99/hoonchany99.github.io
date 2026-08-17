@@ -27,12 +27,29 @@ faqs:
     answer: "잇몸 주머니·치석·염증이 입냄새 원인이 될 수 있어요. 치주 치료·스케일링·구강 관리로 개선되는 경우가 많습니다."
   - question: "치주염 예방법은?"
     answer: "올바른 칫솔질·치간 관리, 정기 스케일링·검진, 금연·당뇨 관리가 도움이 될 수 있어요. 잇몸 출혈을 \"약해서\" 넘기지 마세요."
+approach:
+  - when: "치주낭 4~5mm, 초기"
+    name: "치근활택술 (SRP)"
+    en: "Scaling and Root Planing"
+    detail: "마취하고 잇몸 속 치근 표면의 치석과 오염층을 긁어냅니다. 보통 상하좌우 나눠 2~4회, 4~6주 뒤 재평가."
+  - when: "SRP 후에도 치주낭 6mm 이상 남은 경우"
+    name: "치주 판막 수술"
+    en: "Periodontal Flap Surgery"
+    detail: "잇몸을 젖혀 직접 보면서 염증 조직과 치석을 제거하고 봉합합니다. 부위당 1회, 실밥은 1~2주 뒤."
+  - when: "골 결손이 국소적으로 깊게 파인 경우"
+    name: "치주 조직 재생술"
+    en: "Guided Tissue Regeneration"
+    detail: "골이식재와 차단막으로 없어진 뼈가 다시 차오를 공간을 만듭니다. 재생 판정까지 6~9개월."
+  - when: "치료를 마친 뒤 평생"
+    name: "치주 유지관리"
+    en: "Periodontal Maintenance"
+    detail: "3~4개월 간격 정기 관리로 재발을 막습니다. 치주염은 완치가 아니라 관리하는 병입니다."
 updated: "2026-08-16"
 relatedTerms:
-  - bone-graft
-  - chieun
-  - gingivitis
-  - gonggyeogseong-chijuyeom
+  - golisigjae
+  - chigeun
+  - scaling-root-planing
+  - calculus
 relatedPosts:
   - slug: gum-brushing-reason
     title: "양치할 때 잇몸에서 피가 나는 이유, 단순 자극일까 잇몸병일까?"

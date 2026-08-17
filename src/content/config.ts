@@ -40,6 +40,17 @@ const terms = defineCollection({
         })
       )
       .default([]),
+    /** 원인별 치료·대응 — 원인 한 줄 → 치료명 → 기간·횟수 */
+    approach: z
+      .array(
+        z.object({
+          when: z.string(),
+          name: z.string(),
+          en: z.string().optional(),
+          detail: z.string(),
+        })
+      )
+      .default([]),
     /** 내용 확인에 사용한 참고 자료 URL */
     sources: z.array(z.string()).default([]),
     /** 내용을 마지막으로 정리한 날짜 YYYY-MM-DD */

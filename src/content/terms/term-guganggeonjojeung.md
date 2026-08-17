@@ -25,15 +25,32 @@ faqs:
     answer: "알코올이 들어간 가글은 오히려 건조를 키울 수 있어요. 무알코올 제품이나 인공 타액 제품을 고려해 보세요. 무설탕 껌을 씹어 침샘을 자극하는 것도 도움이 됩니다."
   - question: "나이가 들면 원래 입이 마르나요?"
     answer: "나이 자체보다 복용 약이 늘어난 영향이 큰 것으로 봅니다. 노화만으로 설명하고 넘기면 원인을 놓칠 수 있어요. 전신질환이나 약을 함께 확인해 보는 게 좋습니다."
+approach:
+  - when: "먹는 약이 원인일 때"
+    name: "처방 조정 상담"
+    en: "Medication Review"
+    detail: "항히스타민·항우울제·이뇨제가 흔한 원인입니다. 처방의와 대체 약을 상의합니다. 임의 중단은 안 됩니다."
+  - when: "침샘 기능이 남아 있을 때"
+    name: "타액 분비 촉진제"
+    en: "Sialogogues"
+    detail: "필로카르핀이나 세비멜린을 씁니다. 무설탕 껌을 하루 4~6회 씹는 것도 실제로 도움이 됩니다."
+  - when: "분비 자체가 어려울 때"
+    name: "인공 타액 · 보습제"
+    en: "Saliva Substitutes"
+    detail: "겔이나 스프레이로 점막을 덮습니다. 특히 자기 전에 씁니다."
+  - when: "구강건조가 오래된 모든 환자"
+    name: "고농도 불소 도포"
+    en: "High-Fluoride Application"
+    detail: "침이 줄면 뿌리 우식이 빠르게 옵니다. 5,000ppm 불소치약과 3~4개월 간격 검진을 함께합니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/xerostomia"
   - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/dry-mouth"
 updated: "2026-08-16"
 relatedTerms:
-  - heubyeongwa-gugang-geongang
-  - dry-socket
-  - gugang-alrereugi-jeunghugun
-  - gugang-baegsaeg-haemyeonsang-moban
+  - fluoride
+  - bulso-dopo
+  - caries
+  - chiyag
 relatedPosts:
   []
 ---

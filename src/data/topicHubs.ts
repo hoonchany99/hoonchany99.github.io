@@ -52,7 +52,7 @@ export const topicHubs: TopicHub[] = [
     slug: 'wisdom-tooth',
     name: '사랑니 · 발치',
     description: '꼭 빼야 할까? 발치 기준부터 회복까지 총정리',
-    icon: '🪥',
+    icon: '🩻',
     tagKeywords: ['사랑니', '발치', '매복', '건조와', '수평사랑니', '치관주위염'],
     guideFaq: [
       '안 아픈 사랑니도 뽑으라는데, 진짜 빼야 하나요?',
@@ -78,7 +78,7 @@ export const topicHubs: TopicHub[] = [
     slug: 'gum-prevention',
     name: '잇몸 · 스케일링 · 예방',
     description: '치석 제거, 잇몸 관리, 올바른 양치법으로 치아 건강 지키기',
-    icon: '🛡️',
+    icon: '🪥',
     tagKeywords: ['스케일링', '잇몸', '치주', '치은', '불소', '양치', '치약', '치석', '바스법', '실란트'],
     guideFaq: [
       '양치할 때 피가 나는데, 세게 닦아서 그런 건가요?',

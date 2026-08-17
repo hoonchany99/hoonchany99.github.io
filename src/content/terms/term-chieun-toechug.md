@@ -25,16 +25,29 @@ faqs:
     answer: "잇몸이 내려가면서 치아 사이를 채우던 부분이 줄어 생깁니다. 한번 사라진 치간 유두는 되살리기 어려운 편이에요. 상태에 따라 레진이나 보철로 틈을 줄이는 방법을 검토합니다."
   - question: "더 내려가지 않게 하려면 뭘 해야 하나요?"
     answer: "부드러운 칫솔모로 힘을 빼고, 문지르기보다 경계를 따라 짧게 닦아 주세요. 잇몸 염증이 있으면 먼저 치료해야 합니다. 이갈이가 있다면 그것도 함께 살펴보는 게 좋아요."
+approach:
+  - when: "내려간 정도가 작고 시림도 없을 때"
+    name: "칫솔질 교정 + 경과 관찰"
+    en: "Brushing Modification"
+    detail: "과도한 압력과 옆쓸기 칫솔질을 바꿉니다. 이미 내려간 잇몸은 저절로 올라오지 않지만 더 내려가는 것은 막습니다."
+  - when: "치근이 드러나 시리거나 보기 싫을 때"
+    name: "치근 피개술"
+    en: "Root Coverage Graft"
+    detail: "입천장 결합조직을 이식해 덮습니다. 1회 수술, 성공하면 2~4mm 회복. 안정까지 2~3개월."
+  - when: "치아 위치가 잇몸 바깥으로 밀려나 생긴 경우"
+    name: "교정으로 치아 위치 이동"
+    en: "Orthodontic Repositioning"
+    detail: "치아를 잇몸뼈 안쪽으로 되돌린 뒤 필요하면 이식을 더합니다. 순서가 반대면 재발합니다."
 sources:
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC4134852/"
   - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
   - "https://pubmed.ncbi.nlm.nih.gov/12731692/"
 updated: "2026-08-16"
 relatedTerms:
+  - chigeun
+  - chigeun-pigaesul
+  - chissoljil
   - bagriseong-chieunyeom
-  - buchagchieun
-  - chieun
-  - chieun-bidae
 relatedPosts:
   []
 ---

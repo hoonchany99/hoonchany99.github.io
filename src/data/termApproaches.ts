@@ -11,6 +11,12 @@
  *   en     검색·인용용 영문 술식명. 대응어가 없으면 비운다
  *   detail 무엇을 하는지 + 기간이나 횟수. 숫자 없이 끝내지 않는다
  *
+ * 순서는 실제로 흔한 순이다. 화면에 1·2·3으로 번호가 붙으므로
+ * 배열 순서가 곧 "얼마나 자주 하는 치료인가"로 읽힌다.
+ * 드문 술식을 위에 두면 환자가 자기 경우를 과대평가한다.
+ * 예) 거미스마일에서 골절단술·함입교정은 톡신·입술재위치술보다 훨씬 드물다.
+ * 단계가 정해진 치료(치주염의 SRP→판막→재생)는 진행 순서가 곧 빈도 순이다.
+ *
  * 해부·구조 용어(백악질, 치근관…)에는 넣지 않는다. 치료 대상이 아니다.
  */
 export interface TermApproach {
@@ -33,22 +39,28 @@ export const termApproaches: Record<string, TermApproach[]> = {
       detail: '잇몸과 필요하면 치조골까지 다듬어 치아를 2~4mm 더 드러냅니다. 수술은 1회, 잇몸이 자리 잡는 데 6~8주.',
     },
     {
+      when: '윗입술이 과하게 올라가는 경우, 우선 시도',
+      name: '보툴리눔 톡신',
+      en: 'Botulinum Toxin',
+      detail: '윗입술 올림근에 소량 주사해 올라가는 정도를 줄입니다. 시술 5~10분, 2주쯤 뒤 효과가 나오고 3~4개월마다 반복합니다.',
+    },
+    {
+      when: '입술 원인인데 반복 주사 대신 오래가는 방법을 원할 때',
+      name: '입술 재위치술 (변형 전정성형술)',
+      en: 'Lip Repositioning (Modified Vestibuloplasty)',
+      detail: '윗입술 안쪽 전정 점막을 띠 모양으로 떼어내고 낮은 위치에 봉합해 입술이 덜 올라가게 합니다. 1회 수술, 실밥 2주, 노출 3~5mm 감소.',
+    },
+    {
       when: '앞니가 아래로 처져 잇몸이 드러나는 경우',
       name: '미니스크류 함입 교정',
       en: 'Miniscrew Intrusion',
       detail: '잇몸뼈에 심은 미니스크류를 지지대로 앞니를 2~3mm 밀어 넣습니다. 6~12개월.',
     },
     {
-      when: '위턱뼈가 세로로 길어 생긴 골격성',
+      when: '위턱뼈가 세로로 길어 생긴 골격성 (가장 드묾)',
       name: '르포트 I 상악 골절단술',
       en: 'Le Fort I Osteotomy',
       detail: '위턱뼈를 수평으로 잘라 위로 올려 고정합니다. 전신마취 수술이고 교정을 함께해 전체 18~24개월.',
-    },
-    {
-      when: '윗입술이 과하게 올라가는 경우',
-      name: '보툴리눔 톡신 / 입술 재위치술',
-      en: 'Botulinum Toxin / Lip Repositioning',
-      detail: '톡신은 윗입술 올림근을 약화시키며 3~4개월마다 반복합니다. 지속을 원하면 입술 재위치술을 검토합니다.',
     },
   ],
 
@@ -258,22 +270,22 @@ export const termApproaches: Record<string, TermApproach[]> = {
       detail: '항히스타민·항우울제·이뇨제가 흔한 원인입니다. 처방의와 대체 약을 상의합니다. 임의 중단은 안 됩니다.',
     },
     {
-      when: '침샘 기능이 남아 있을 때',
-      name: '타액 분비 촉진제',
-      en: 'Sialogogues',
-      detail: '필로카르핀이나 세비멜린을 씁니다. 무설탕 껌을 하루 4~6회 씹는 것도 실제로 도움이 됩니다.',
-    },
-    {
-      when: '분비 자체가 어려울 때',
+      when: '증상을 바로 덜고 싶을 때',
       name: '인공 타액 · 보습제',
       en: 'Saliva Substitutes',
-      detail: '겔이나 스프레이로 점막을 덮습니다. 특히 자기 전에 씁니다.',
+      detail: '겔이나 스프레이로 점막을 덮습니다. 특히 자기 전에 쓰고, 무설탕 껌을 하루 4~6회 씹는 것도 도움이 됩니다.',
     },
     {
       when: '구강건조가 오래된 모든 환자',
       name: '고농도 불소 도포',
       en: 'High-Fluoride Application',
       detail: '침이 줄면 뿌리 우식이 빠르게 옵니다. 5,000ppm 불소치약과 3~4개월 간격 검진을 함께합니다.',
+    },
+    {
+      when: '위 방법으로 부족하고 침샘 기능이 남아 있을 때',
+      name: '타액 분비 촉진제',
+      en: 'Sialogogues',
+      detail: '필로카르핀이나 세비멜린을 처방합니다. 땀·홍조 같은 부작용이 있어 흔히 쓰지는 않습니다.',
     },
   ],
 
@@ -291,16 +303,16 @@ export const termApproaches: Record<string, TermApproach[]> = {
       detail: '식사 직전에 헹궈 통증을 줄입니다. 치료가 아니라 버티게 해주는 처치입니다.',
     },
     {
-      when: '크기 1cm 이상이거나 6주 넘게 안 아물 때',
-      name: '조직검사',
-      en: 'Biopsy',
-      detail: '아프타는 2주 안에 아뭅니다. 그보다 오래가면 다른 병을 감별해야 합니다.',
-    },
-    {
       when: '자주 반복될 때',
       name: '유발 요인 점검',
       en: 'Trigger Assessment',
       detail: '철·엽산·비타민 B12 부족, 베체트병, SLS 함유 치약을 확인합니다.',
+    },
+    {
+      when: '크기 1cm 이상이거나 6주 넘게 안 아물 때 (드묾)',
+      name: '조직검사',
+      en: 'Biopsy',
+      detail: '아프타는 2주 안에 아뭅니다. 그보다 오래가면 다른 병을 감별해야 합니다.',
     },
   ],
 
@@ -312,16 +324,16 @@ export const termApproaches: Record<string, TermApproach[]> = {
       detail: '잇몸 덮개 아래를 씻어내고 감염이 퍼졌으면 항생제를 씁니다. 급성기는 3~5일이면 가라앉습니다.',
     },
     {
-      when: '고름집이 잡혔을 때',
-      name: '절개 배농',
-      en: 'Incision and Drainage',
-      detail: '째서 고름을 빼냅니다. 붓기와 통증이 즉시 줄어듭니다.',
-    },
-    {
       when: '가라앉은 뒤 근본 처치',
       name: '사랑니 발치',
       en: 'Wisdom Tooth Extraction',
       detail: '덮개가 남아 있으면 반복됩니다. 급성기를 넘긴 1~2주 뒤에 뽑는 것이 표준입니다.',
+    },
+    {
+      when: '고름집이 잡혔을 때',
+      name: '절개 배농',
+      en: 'Incision and Drainage',
+      detail: '째서 고름을 빼냅니다. 붓기와 통증이 즉시 줄어듭니다.',
     },
     {
       when: '사랑니를 살려야 하는 드문 경우',
@@ -407,19 +419,19 @@ export const termApproaches: Record<string, TermApproach[]> = {
       detail: '잘 때 끼워 관절과 근육 부담을 덜어냅니다. 제작 2~3회 방문, 착용 3~6개월 뒤 재평가.',
     },
     {
-      when: '근육 통증이 주된 경우',
-      name: '물리치료 + 자가운동',
-      en: 'Physical Therapy',
-      detail: '개구 훈련과 근육 이완을 병행합니다. 하루 2~3회, 4주 이상 해야 효과가 나옵니다.',
-    },
-    {
       when: '통증이 심하거나 급성일 때',
       name: '약물 치료',
       en: 'Pharmacotherapy',
       detail: 'NSAIDs와 근이완제를 단기간 씁니다. 오래 쓰는 약이 아닙니다.',
     },
     {
-      when: '보존 치료에 반응하지 않는 관절 내 문제',
+      when: '근육 통증이 주된 경우',
+      name: '물리치료 + 자가운동',
+      en: 'Physical Therapy',
+      detail: '개구 훈련과 근육 이완을 병행합니다. 하루 2~3회, 4주 이상 해야 효과가 나옵니다.',
+    },
+    {
+      when: '보존 치료에 반응하지 않는 관절 내 문제 (드묾)',
       name: '관절강 세척술 · 관절경',
       en: 'Arthrocentesis / Arthroscopy',
       detail: '관절강을 씻어내 유착과 염증물질을 제거합니다. 수술은 마지막 선택이고 실제로 가는 경우는 드뭅니다.',
@@ -488,6 +500,12 @@ export const termApproaches: Record<string, TermApproach[]> = {
 
   gunaeyeom: [
     {
+      when: '깨물었거나 보철물이 쓸려서 생긴 경우 (가장 흔함)',
+      name: '자극 원인 제거',
+      en: 'Removal of Irritant',
+      detail: '날카로운 보철 가장자리나 치아 모서리를 다듬습니다. 원인을 없애면 1~2주에 아뭅니다.',
+    },
+    {
       when: '바이러스성(단순포진 등)일 때',
       name: '항바이러스제 + 대증 치료',
       en: 'Antiviral Therapy',
@@ -498,12 +516,6 @@ export const termApproaches: Record<string, TermApproach[]> = {
       name: '항진균제',
       en: 'Antifungal Therapy',
       detail: '나이스타틴 현탁액이나 플루코나졸을 씁니다. 틀니를 쓰면 틀니도 같이 소독합니다.',
-    },
-    {
-      when: '외상·보철물 자극일 때',
-      name: '자극 원인 제거',
-      en: 'Removal of Irritant',
-      detail: '날카로운 보철 가장자리를 다듬습니다. 원인을 없애면 1~2주에 아뭅니다.',
     },
     {
       when: '2주 넘게 낫지 않을 때',

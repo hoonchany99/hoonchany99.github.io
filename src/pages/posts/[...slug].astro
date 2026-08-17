@@ -114,7 +114,7 @@ const postDesc = post.data.description ?? '';
 const faqSchema = postTitle.includes('?') ? [{ question: postTitle, answer: postDesc }] : undefined;
 
 const topicHub = findTopicHub(myTags);
-const topicHubData = topicHub ? { slug: topicHub.slug, name: topicHub.name, icon: topicHub.icon } : null;
+const topicHubData = topicHub ? { slug: topicHub.slug, name: topicHub.name } : null;
 ---
 
 <PostLayout

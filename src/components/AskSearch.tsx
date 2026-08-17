@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { topicHubs } from '../data/topicHubs';
+import { TopicIcon } from './TopicIcon';
 import type { AskResult } from '../utils/summarizeInBrowser';
 
 type Phase = 'idle' | 'searching' | 'results' | 'no-results';
@@ -267,7 +268,7 @@ export function AskSearch({ compact = false }: Props) {
                   href={`/topics/${hub.slug}/`}
                   className="flex items-center gap-2.5 px-4 py-3 rounded-xl border border-gray-100 bg-white hover:border-brand/20 hover:shadow-sm transition-all group"
                 >
-                  <span className="text-lg">{hub.icon}</span>
+                  <TopicIcon slug={hub.slug} className="w-5 h-5 shrink-0 text-brand" />
                   <span className="text-xs font-medium text-gray-700 group-hover:text-brand transition-colors">
                     {hub.name}
                   </span>
@@ -353,7 +354,7 @@ export function AskSearch({ compact = false }: Props) {
               href={`/topics/${relatedHub.slug}/`}
               className="flex items-center gap-3 bg-white rounded-xl border border-gray-100 p-4 hover:border-brand/20 hover:shadow-sm transition-all group"
             >
-              <span className="text-2xl">{relatedHub.icon}</span>
+              <TopicIcon slug={relatedHub.slug} className="w-7 h-7 shrink-0 text-brand" />
               <div className="min-w-0">
                 <p className="text-[11px] text-gray-400 mb-0.5">관련 주제 가이드</p>
                 <p className="text-sm font-bold text-gray-900 group-hover:text-brand transition-colors">

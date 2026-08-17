@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { TopicIcon } from '../components/TopicIcon';
 
 interface RelatedPost {
   slug: string;
@@ -19,7 +20,6 @@ interface NavPost {
 interface TopicHubRef {
   slug: string;
   name: string;
-  icon: string;
 }
 
 interface Props {
@@ -139,7 +139,9 @@ const { title, description, date, modifiedDate, image, tags = [], relatedPosts =
                 href={`/topics/${topicHub.slug}/`}
                 class="flex-1 flex items-center gap-3 p-4 rounded-xl border border-brand/20 bg-brand/5 hover:bg-brand/10 hover:border-brand/40 transition-all group"
               >
-                <span class="text-2xl">{topicHub.icon}</span>
+                <span class="text-brand shrink-0">
+                  <TopicIcon slug={topicHub.slug} className="w-7 h-7" />
+                </span>
                 <div class="min-w-0">
                   <p class="text-xs text-gray-500 mb-0.5">{topicHub.name} 가이드 전체 보기</p>
                   <p class="text-sm font-bold text-gray-900 group-hover:text-brand transition-colors">주제별 가이드 보기 →</p>

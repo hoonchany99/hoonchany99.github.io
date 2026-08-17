@@ -25,15 +25,33 @@ faqs:
     answer: "앞니가 계속 부딪혀 마모되거나 잇몸이 내려갈 수 있습니다. 골격 차이가 커지면 나중에 수술이 필요해질 수 있어요."
   - question: "어른도 치료되나요?"
     answer: "됩니다. 다만 성장을 이용할 수 없어 방법이 달라져요. 치아 이동으로 해결하거나, 골격 차이가 크면 수술을 함께 검토합니다."
+approach:
+  - when: "유치열·혼합치열기 아동, 앞니만 반대일 때"
+    name: "가철식 장치 또는 고정식 교정"
+    en: "Removable or Fixed Appliance"
+    detail: "앞니를 앞으로 밀어 정상 관계로 바꿉니다. 3~6개월이면 되는 경우가 많습니다."
+  - when: "위턱이 작아서 생긴 경우 (성장기)"
+    name: "상악 확장 + 전방 견인"
+    en: "Expansion and Facemask"
+    detail: "위턱을 넓히고 앞으로 끌어냅니다. 만 8~10세가 효과가 가장 좋아 시기를 놓치면 어려워집니다."
+  - when: "어금니까지 반대이거나 성장이 끝난 경우"
+    name: "전체 교정"
+    en: "Comprehensive Orthodontics"
+    detail: "치아 배열 전체를 다시 잡습니다. 18~30개월."
+  - when: "아래턱이 크게 나온 골격성 (성인)"
+    name: "악교정 수술 + 교정"
+    en: "Orthognathic Surgery"
+    slug: aggyojeong-susul
+    detail: "턱뼈 위치를 옮깁니다. 수술 전후 교정 포함 18~30개월."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
   - "https://www.aapd.org/research/oral-health-policies--recommendations/"
 updated: "2026-08-16"
 relatedTerms:
+  - sangag
+  - aggyojeong-susul
   - 1geub-bujeonggyohab
   - 2geub-bujeonggyohab
-  - 3geub-bujeonggyohab
-  - bocheol-gyohab-jojeong
 relatedPosts:
   []
 ---

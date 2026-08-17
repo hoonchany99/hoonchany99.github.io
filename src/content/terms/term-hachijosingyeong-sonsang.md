@@ -25,15 +25,32 @@ faqs:
     answer: "수술 전 CT로 신경관 위치를 확인하고 안전 거리를 두는 것이 핵심입니다. 위치가 아주 가까우면 치아 윗부분만 제거하는 방법을 고려하기도 해요."
   - question: "일상생활에 문제가 되나요?"
     answer: "입술 감각이 둔하면 음식을 흘리거나 씹다가 깨무는 일이 생길 수 있습니다. 뜨거운 음식에 데지 않도록 주의하세요. 대부분 시간이 지나며 적응하거나 회복됩니다."
+approach:
+  - when: "손상 직후 확인된 경우"
+    name: "원인 제거 · 감압"
+    en: "Decompression"
+    detail: "신경을 누르는 임플란트나 충전재를 빼거나 위치를 바꿉니다. 빠를수록 회복 가능성이 높습니다."
+  - when: "초기 몇 주"
+    name: "약물 치료"
+    en: "Pharmacotherapy"
+    detail: "스테로이드와 비타민 B군을 씁니다. 신경병증 통증이 있으면 가바펜틴 계열을 더합니다."
+  - when: "회복 경과를 보는 동안"
+    name: "정기 감각 검사"
+    en: "Serial Sensory Testing"
+    detail: "범위를 지도처럼 기록해 비교합니다. 대부분 3~6개월에 걸쳐 서서히 돌아옵니다."
+  - when: "6~12개월이 지나도 회복이 없을 때"
+    name: "미세신경 수술 의뢰"
+    en: "Microneurosurgery Referral"
+    detail: "끊어진 신경을 잇는 수술을 검토합니다. 시기를 놓치면 성공률이 떨어집니다."
 sources:
   - "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
   - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
 updated: "2026-08-16"
 relatedTerms:
+  - implant
   - hachijosingyeong
   - impeulranteu-singyeong-sonsang
   - seolsingyeong-sonsang
-  - chijo-jegeosul
 relatedPosts:
   []
 ---

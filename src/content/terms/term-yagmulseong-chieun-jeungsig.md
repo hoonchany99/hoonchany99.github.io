@@ -25,16 +25,30 @@ faqs:
     answer: "약을 계속 복용하고 관리가 안 되면 재발할 수 있어요. 그래서 절제 후에도 세균막 관리가 핵심입니다. 정기적인 점검을 함께 계획하는 게 좋습니다."
   - question: "잇몸이 부은 것과 어떻게 구분하나요?"
     answer: "겉모습만으로는 헷갈릴 수 있어요. 복용 중인 약과 시작 시점, 잇몸이 자란 양상을 함께 봅니다. 그래서 진료 때 드시는 약을 알려 주시면 진단에 큰 도움이 됩니다."
+approach:
+  - when: "거의 모든 경우의 1차 대응"
+    name: "철저한 치태 관리"
+    en: "Plaque Control"
+    detail: "치태가 있으면 증식이 훨씬 심해집니다. 스케일링과 칫솔질 교육만으로도 상당히 줄어듭니다."
+  - when: "원인 약을 바꿀 수 있을 때"
+    name: "처방 변경 상담"
+    en: "Medication Substitution"
+    detail: "페니토인·사이클로스포린·니페디핀이 대표적입니다. 처방의와 상의하고 임의로 끊지 않습니다."
+  - when: "잇몸이 치아를 덮어 씹기·닦기 어려울 때"
+    name: "치은 절제술"
+    en: "Gingivectomy"
+    slug: chieun-jeoljesul
+    detail: "덮인 잇몸을 잘라냅니다. 약을 계속 쓰면 1~2년 뒤 재발할 수 있습니다."
 sources:
   - "https://www.ncbi.nlm.nih.gov/books/NBK538518/"
   - "https://www.mdpi.com/1422-0067/24/6/5448"
   - "https://pubmed.ncbi.nlm.nih.gov/10052772/"
 updated: "2026-08-16"
 relatedTerms:
+  - scaling
+  - chissoljil
   - bagriseong-chieunyeom
   - geubseong-goesaseong-gweyangseong-chieunyeom
-  - imsinseong-chieunyeom
-  - pojinseong-chieungunaeyeom
 relatedPosts:
   []
 ---

@@ -25,15 +25,34 @@ faqs:
     answer: "치아와 염증 상태에 따라 다릅니다. 한 번에 끝나는 경우도 있고, 여러 번 나눠 진행하기도 해요. 뿌리 개수가 많거나 염증이 심하면 횟수가 늘어나는 편입니다."
   - question: "치료 중에 많이 아픈가요?"
     answer: "국소마취를 하고 진행하므로 치료 중 통증은 대부분 조절됩니다. 다만 염증이 심하면 마취가 잘 안 듣는 경우가 있어서, 마취 방법을 조정하기도 해요. 불편하시면 중간에 말씀해 주시면 됩니다."
+approach:
+  - when: "가만히 있어도 욱신거리고 밤에 심할 때, 응급"
+    name: "치수 절제 (응급 개방)"
+    en: "Emergency Pulpectomy"
+    detail: "염증이 찬 치수를 제거해 압력을 빼면 통증이 그 자리에서 크게 줄어듭니다. 30~60분."
+  - when: "통증이 잡힌 뒤 본 치료"
+    name: "신경치료"
+    en: "Root Canal Treatment"
+    slug: root-canal
+    detail: "근관을 넓혀 소독하고 충전합니다. 2~4회 방문."
+  - when: "신경치료를 마친 뒤"
+    name: "크라운 수복"
+    en: "Crown Restoration"
+    detail: "신경을 뺀 치아는 잘 깨집니다. 어금니는 씌우는 것이 원칙이고 2~3회 방문."
+  - when: "뿌리가 심하게 상해 살리기 어려울 때"
+    name: "발치"
+    en: "Extraction"
+    slug: extraction
+    detail: "치아를 살릴 수 없다고 판단되면 뽑고 임플란트나 브릿지를 계획합니다."
 sources:
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
   - "https://ostrowonline.usc.edu/odontotest-irreversible-pulpitis/"
 updated: "2026-08-16"
 relatedTerms:
-  - gayeogjeog-chisuyeom
-  - geubseong-chisuyeom
-  - manseong-chisuyeom
-  - chisu
+  - extraction
+  - bridge
+  - root-canal
+  - molar
 relatedPosts:
   []
 ---

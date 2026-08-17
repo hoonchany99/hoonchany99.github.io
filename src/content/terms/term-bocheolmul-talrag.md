@@ -25,15 +25,29 @@ faqs:
     answer: "반복된다면 원인이 따로 있는 경우가 많습니다. 남은 치아 높이가 부족하거나, 씹는 힘이 한쪽에 몰리거나, 이갈이가 있을 수 있어요. 교합과 잡는 면적을 함께 봐야 합니다."
   - question: "삼켰는데 괜찮을까요?"
     answer: "대부분 자연히 배출됩니다. 다만 사레들려 기도로 넘어간 느낌이 있거나 기침·호흡 불편이 있으면 바로 병원 진료가 필요해요. 삼킨 사실은 치과에도 알려 주세요."
+approach:
+  - when: "떨어진 보철물이 온전하고 안쪽에 충치가 없을 때"
+    name: "재접착"
+    en: "Recementation"
+    detail: "안쪽과 치아를 정리해 다시 붙입니다. 1회 방문 20~30분."
+  - when: "안쪽에 충치가 생겼을 때"
+    name: "우식 제거 후 재제작"
+    en: "Caries Removal and Remake"
+    detail: "썩은 부분을 걷어내면 모양이 달라져 그대로 못 씁니다. 새로 만듭니다. 2~3회 방문."
+  - when: "남은 치아가 짧아 자꾸 빠질 때"
+    name: "포스트·코어 또는 치관 연장술"
+    en: "Post and Core / Crown Lengthening"
+    slug: post-core
+    detail: "기둥을 세우거나 잇몸을 내려 잡을 자리를 늘립니다. 원인을 두면 다시 붙여도 또 빠집니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/crowns"
   - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
 updated: "2026-08-16"
 relatedTerms:
-  - bocheolmul-pajeol
-  - bocheol-gyohab-jojeong
-  - bocheol-saegjo-seontaeg
-  - bocheol-sumyeong
+  - caries
+  - chigwan
+  - chigwan-yeonjangsul
+  - post-core
 relatedPosts:
   []
 ---

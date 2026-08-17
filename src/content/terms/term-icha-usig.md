@@ -25,15 +25,29 @@ faqs:
     answer: "치실과 치간칫솔로 경계선을 닦는 것이 핵심입니다. 칫솔만으로는 그 자리가 닦이지 않아요. 불소 사용과 정기 검진도 함께 가면 좋습니다."
   - question: "오래된 보철물은 미리 바꾸는 게 나을까요?"
     answer: "문제가 없으면 굳이 바꾸지 않습니다. 다시 할 때마다 치아를 조금씩 더 깎게 되기 때문이에요. 상태를 보며 필요할 때 결정하는 편이 좋습니다."
+approach:
+  - when: "보철물 가장자리에 생긴 작은 우식"
+    name: "변연부 국소 수복"
+    en: "Marginal Repair"
+    detail: "보철물을 살리고 썩은 가장자리만 레진으로 메웁니다. 범위가 좁을 때만 가능합니다."
+  - when: "우식이 보철물 아래로 퍼졌을 때"
+    name: "보철물 제거 후 재제작"
+    en: "Removal and Remake"
+    detail: "씌운 것을 떼어내고 우식을 걷은 뒤 새로 만듭니다. 2~3회 방문."
+  - when: "재발을 막기 위해"
+    name: "변연 적합도 개선 + 불소"
+    en: "Margin Adaptation and Fluoride"
+    slug: fluoride
+    detail: "보철 경계가 뜨면 그 자리에 또 생깁니다. 정기검진 간격을 3~6개월로 좁힙니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/dental-restorations"
   - "https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders"
 updated: "2026-08-16"
 relatedTerms:
-  - caries
-  - noin-bburi-usig
-  - yua-usig
-  - cavity
+  - resin
+  - prosthesis
+  - fluoride
+  - dental-checkup
 relatedPosts:
   []
 ---

@@ -25,15 +25,29 @@ faqs:
     answer: "임신 중 잇몸에 생기는 양성 종물일 수 있습니다. 대개 출산 후 줄어들어요. 다만 크기가 커서 씹기 불편하거나 자주 피가 나면 제거를 검토하기도 합니다. 확인을 받아 보세요."
   - question: "아기 치아에도 영향이 있나요?"
     answer: "엄마의 잇몸 상태가 아기 치아를 직접 상하게 하지는 않아요. 다만 출산 후 엄마 입안의 충치균이 아기에게 옮을 수 있어서, 임신 중부터 관리해 두시면 도움이 됩니다."
+approach:
+  - when: "임신 중 잇몸이 붓고 피가 날 때"
+    name: "스케일링 + 구강위생 관리"
+    en: "Scaling and Oral Hygiene"
+    slug: scaling
+    detail: "치태를 걷으면 대부분 좋아집니다. 임신 4~6개월(2삼분기)이 가장 편하게 받을 수 있는 시기입니다."
+  - when: "잇몸 한 곳이 혹처럼 부풀었을 때 (임신성 육아종)"
+    name: "경과 관찰 후 절제"
+    en: "Observation then Excision"
+    detail: "출산 뒤 저절로 줄어드는 경우가 많아 기다립니다. 피가 계속 나거나 씹기 어려우면 그전에 잘라냅니다."
+  - when: "출산 후"
+    name: "재평가"
+    en: "Reassessment"
+    detail: "호르몬이 돌아오면 대개 가라앉습니다. 남아 있으면 원래 있던 잇몸병이라 치주 치료로 넘어갑니다."
 sources:
   - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
   - "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy"
 updated: "2026-08-16"
 relatedTerms:
+  - scaling
   - bagriseong-chieunyeom
   - geubseong-goesaseong-gweyangseong-chieunyeom
   - gingivitis
-  - pojinseong-chieungunaeyeom
 relatedPosts:
   []
 ---

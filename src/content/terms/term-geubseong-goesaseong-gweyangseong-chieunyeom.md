@@ -25,15 +25,32 @@ faqs:
     answer: "급성기에는 진료실에서 조심스럽게 세정하고, 집에서는 소독 가글로 보조하는 경우가 많습니다. 통증이 줄면 부드러운 칫솔로 다시 시작해요. 자가 판단으로 방치하지는 마세요."
   - question: "나으면 잇몸이 원래대로 돌아오나요?"
     answer: "염증은 가라앉지만 파였던 잇몸 형태가 남는 경우가 있어요. 음식이 끼거나 관리가 어려워지면 추가 치료를 검토합니다. 재발을 막는 관리가 그만큼 중요합니다."
+approach:
+  - when: "치간 유두가 헐고 심한 통증·악취가 있을 때"
+    name: "초음파 소독 (debridement)"
+    en: "Ultrasonic Debridement"
+    detail: "괴사 조직과 치태를 조심스럽게 걷어냅니다. 통증이 24~48시간 안에 극적으로 줄어듭니다."
+  - when: "처치와 함께"
+    name: "클로르헥시딘 함수"
+    en: "Chlorhexidine Rinse"
+    detail: "아파서 칫솔질을 못 하는 동안 치태를 눌러 줍니다. 하루 2회, 1~2주."
+  - when: "열이 나거나 림프절이 부었을 때"
+    name: "메트로니다졸"
+    en: "Metronidazole"
+    detail: "전신 증상이 있을 때 씁니다. 복용 중 음주는 금물입니다."
+  - when: "급성기가 지난 뒤"
+    name: "치주 치료 + 유발 요인 교정"
+    en: "Periodontal Therapy"
+    detail: "흡연·스트레스·수면 부족이 배경인 경우가 많아 함께 다룹니다. 헐어 파인 치은 모양은 남을 수 있습니다."
 sources:
   - "https://www.merckmanuals.com/professional/dental-disorders/periodontal-disorders/acute-necrotizing-ulcerative-gingivitis-anug"
   - "https://www.ncbi.nlm.nih.gov/books/NBK562243/"
 updated: "2026-08-16"
 relatedTerms:
+  - chissoljil
   - bagriseong-chieunyeom
   - imsinseong-chieunyeom
   - geubseong-chisuyeom
-  - gingivitis
 relatedPosts:
   []
 ---

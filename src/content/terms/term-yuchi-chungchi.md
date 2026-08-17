@@ -25,15 +25,35 @@ faqs:
     answer: "잠든 채로 젖병을 물고 있으면 위 앞니가 상하기 쉽습니다. 먹인 뒤 물로 헹구거나 거즈로 닦아 주세요. 돌 무렵부터는 컵으로 전환하는 걸 권합니다."
   - question: "치료를 무서워하는데 어떻게 하나요?"
     answer: "작을 때 발견하면 간단히 끝나 아이 부담도 적습니다. 협조가 어려운 경우에는 진정치료를 고려하기도 해요. 미리 상담하시면 아이에 맞는 방법을 찾을 수 있습니다."
+approach:
+  - when: "작고 협조가 되는 경우"
+    name: "레진 충전"
+    en: "Composite Restoration"
+    detail: "유치도 영구치와 같은 방식으로 메웁니다. 1회 방문."
+  - when: "여러 면이 썩었거나 범위가 넓을 때"
+    name: "기성 금속관 (스테인리스 스틸 크라운)"
+    en: "Stainless Steel Crown"
+    slug: soa-seuteinriseu-seutil-keuraun
+    detail: "미리 만들어진 금속관을 씌웁니다. 유치는 빠질 때까지만 버티면 되므로 튼튼한 쪽을 택합니다."
+  - when: "신경까지 닿았지만 뿌리는 건강할 때"
+    name: "치수 절단술"
+    en: "Pulpotomy"
+    slug: pulpotomy
+    detail: "치관 쪽 치수만 걷어내고 약제로 덮습니다. 1회 처치 후 대개 금속관을 씌웁니다."
+  - when: "뿌리 끝까지 염증이 번졌을 때"
+    name: "유치 신경치료 또는 발치"
+    en: "Pulpectomy or Extraction"
+    slug: yuchi-singyeongchiryo
+    detail: "영구치싹이 다치지 않게 판단합니다. 뽑으면 공간 유지 장치를 함께 계획합니다."
 sources:
   - "https://www.aapd.org/research/oral-health-policies--recommendations/"
   - "https://www.ada.org/resources/ada-library/oral-health-topics/early-childhood-caries"
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - eorini-chungchi-yebang
-  - primary-tooth
-  - yuchi-jogi-sangsil
+  - gonggan-yuji-jangchi
+  - resin
+  - extraction
+  - root-canal
 relatedPosts:
   []
 ---

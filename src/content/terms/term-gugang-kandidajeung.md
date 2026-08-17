@@ -25,15 +25,32 @@ faqs:
     answer: "틀니 아래는 침이 닿지 않아 곰팡이가 자라기 좋습니다. 밤에는 빼서 세척해 보관해 주세요. 틀니 자체도 함께 소독하지 않으면 재발하기 쉽습니다."
   - question: "옮나요?"
     answer: "일반적으로 사람 사이에 옮는 감염으로 보지 않습니다. 원래 있던 균이 늘어난 상태예요. 다만 면역이 매우 약한 사람과는 식기 공유 등을 주의하기도 합니다."
+approach:
+  - when: "입천장·혀에 하얗게 끼고 닦으면 벗겨질 때"
+    name: "국소 항진균제"
+    en: "Topical Antifungal"
+    detail: "나이스타틴 현탁액을 하루 4회, 7~14일 씁니다. 증상이 사라져도 며칠 더 씁니다."
+  - when: "틀니를 쓰는 경우"
+    name: "틀니 소독 병행"
+    en: "Denture Disinfection"
+    detail: "틀니에 곰팡이가 남아 재감염됩니다. 밤에는 빼서 소독액에 담급니다."
+  - when: "국소 치료에 반응이 없거나 범위가 넓을 때"
+    name: "전신 항진균제"
+    en: "Systemic Antifungal"
+    detail: "플루코나졸을 7~14일 복용합니다. 다른 약과 상호작용이 있어 복용 중인 약을 알려야 합니다."
+  - when: "자주 재발할 때"
+    name: "유발 요인 점검"
+    en: "Predisposing Factor Review"
+    detail: "당뇨, 흡입형 스테로이드, 구강건조, 면역 저하를 확인합니다. 배경을 두면 반복됩니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/oral-candidiasis"
   - "https://www.ncbi.nlm.nih.gov/books/NBK560624/"
 updated: "2026-08-16"
 relatedTerms:
+  - denture
   - gugang-alrereugi-jeunghugun
   - gugang-baegsaeg-haemyeonsang-moban
   - gugang-dansunpojin
-  - gugang-diseukinejia
 relatedPosts:
   []
 ---

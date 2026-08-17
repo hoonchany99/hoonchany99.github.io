@@ -25,15 +25,33 @@ faqs:
     answer: "한쪽만 반복되고 치아 증상이 함께 있으면 치과에서 먼저 확인해 보세요. 양쪽이거나 감기 뒤에 시작됐다면 이비인후과가 먼저일 수 있습니다."
   - question: "임플란트 때문에 생기기도 하나요?"
     answer: "상악동거상술이나 임플란트가 상악동을 자극해 생기는 경우가 보고됩니다. 수술 후 한쪽 코막힘이나 콧물이 이어지면 알려 주세요."
+approach:
+  - when: "원인이 윗어금니일 때, 핵심"
+    name: "원인 치아 처치"
+    en: "Treatment of Source Tooth"
+    detail: "신경치료나 발치로 감염원을 없앱니다. 코만 치료하면 낫지 않습니다."
+  - when: "급성기"
+    name: "항생제 + 비강 스프레이"
+    en: "Antibiotics and Nasal Decongestant"
+    detail: "아목시클라불란산을 10~14일 쓰고 배출을 돕습니다."
+  - when: "발치하다 상악동이 뚫렸을 때"
+    name: "구강-상악동 교통 폐쇄술"
+    en: "Closure of Oroantral Communication"
+    slug: gugangsangagdong-gyotong
+    detail: "잇몸 판막으로 구멍을 덮습니다. 코를 세게 풀지 않는 것이 중요합니다."
+  - when: "치아를 처치해도 낫지 않을 때"
+    name: "이비인후과 내시경 수술"
+    en: "Functional Endoscopic Sinus Surgery"
+    detail: "상악동 배출로를 넓혀 줍니다. 치과와 이비인후과가 함께 봅니다."
 sources:
   - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/nose-and-paranasal-sinus-disorders/sinusitis"
   - "https://www.ncbi.nlm.nih.gov/books/NBK547716/"
 updated: "2026-08-16"
 relatedTerms:
+  - extraction
+  - root-canal
   - gugangsangagdong-gyotong
   - sangagdong-geosangsul-habbyeongjeung
-  - sinus-lift
-  - chiseong-gamyeom
 relatedPosts:
   []
 ---

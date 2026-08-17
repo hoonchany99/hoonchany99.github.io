@@ -25,15 +25,32 @@ faqs:
     answer: "원인이 담배 자극이었다면 끊은 뒤 줄어들거나 사라지는 경우가 있습니다. 그래서 금연을 강하게 권해 드려요. 다만 사라지지 않으면 추가 처치를 검토합니다."
   - question: "제거하면 끝인가요?"
     answer: "제거해도 같은 자리나 다른 부위에 재발할 수 있습니다. 그래서 이후에도 정기적으로 입안 전체를 확인해요. 원인 자극을 함께 없애는 것이 재발을 줄이는 데 중요합니다."
+approach:
+  - when: "병소를 발견한 모든 경우, 가장 먼저"
+    name: "원인 제거"
+    en: "Removal of Cause"
+    detail: "금연과 금주가 핵심입니다. 날카로운 보철이 닿으면 그것도 다듬습니다. 2~4주 뒤 다시 봅니다."
+  - when: "원인을 없애도 남아 있을 때"
+    name: "조직검사"
+    en: "Biopsy"
+    detail: "백반증은 임상 진단만으로 안심할 수 없습니다. 이형성 여부를 확인해야 방향이 정해집니다."
+  - when: "이형성이 확인되거나 범위가 좁을 때"
+    name: "외과적 절제"
+    en: "Surgical Excision"
+    detail: "메스나 레이저로 잘라냅니다. 잘라도 다른 자리에 생길 수 있어 추적이 필요합니다."
+  - when: "절제 후에도 평생"
+    name: "정기 추적"
+    en: "Long-term Follow-up"
+    detail: "3~6개월 간격으로 봅니다. 백반증은 구강암으로 갈 수 있는 전암 병소입니다."
 sources:
   - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4119315/"
   - "https://www.msdmanuals.com/professional/dental-disorders/tumors-of-the-oral-cavity-and-neck"
 updated: "2026-08-16"
 relatedTerms:
+  - gugangam
+  - prosthesis
   - cavity
   - root-canal
-  - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

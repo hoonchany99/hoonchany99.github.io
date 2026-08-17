@@ -29,12 +29,38 @@ faqs:
     answer: "충치일 수 있지만, 잇몸 노출·크랙·보철 문제 등 다른 원인도 있어요. 증상이 반복되거나 한쪽 치아에만 집중되면 검진으로 원인을 확인하는 게 좋습니다."
   - question: "충치 치료 후 레진·인레이·크라운 중 뭘 선택하나요?"
     answer: "충치 범위와 씹는 힘·심미 요구에 따라 결정해요. 범위가 작으면 레진, 중간이면 인레이·온레이, 손실이 크거나 신경치료 후에는 크라운을 고려하는 경우가 많습니다."
+approach:
+  - when: "법랑질에만 있고 아직 구멍이 안 뚫렸을 때"
+    name: "불소 도포 + 관찰"
+    en: "Fluoride Application"
+    slug: bulso-dopo
+    detail: "초기 우식은 다시 단단해질 수 있습니다. 3~6개월 간격으로 불소를 바르며 진행을 봅니다."
+  - when: "구멍이 뚫렸고 범위가 작을 때"
+    name: "레진 충전"
+    en: "Composite Restoration"
+    slug: resin
+    detail: "썩은 부분만 걷어내고 레진으로 메웁니다. 1회 방문, 치아당 20~40분."
+  - when: "어금니 씹는 면이 넓게 파였을 때"
+    name: "인레이 · 온레이"
+    en: "Inlay / Onlay"
+    slug: inlay
+    detail: "본을 떠 만든 조각을 끼웁니다. 2회 방문, 레진보다 마모와 변색에 강합니다."
+  - when: "남은 치아가 얼마 없을 때"
+    name: "크라운"
+    en: "Crown"
+    slug: crown
+    detail: "치아 전체를 씌워 깨지는 것을 막습니다. 2~3회 방문."
+  - when: "충치가 신경까지 닿았을 때"
+    name: "신경치료 후 크라운"
+    en: "Root Canal Treatment then Crown"
+    slug: root-canal
+    detail: "치수를 제거하고 충전한 뒤 씌웁니다. 총 3~5회 방문."
 updated: "2026-08-16"
 relatedTerms:
-  - resin
-  - sensitivity
-  - eorini-chungchi-yebang
-  - yuchi-chungchi
+  - fluoride
+  - bulso-dopo
+  - root-canal
+  - onlay
 relatedPosts:
   - slug: crown-inlay-cavity
     title: "충치 치료, 비용은 얼마나 들까? 레진, 인레이, 크라운 단계별 가격 정리"

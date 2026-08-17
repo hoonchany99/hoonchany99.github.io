@@ -25,15 +25,33 @@ faqs:
     answer: "기본은 같지만 항생제를 병용하는 경우가 있고, 이후 유지관리 간격을 훨씬 짧게 가져갑니다. 재발 위험이 높아 관찰을 촘촘히 합니다."
   - question: "치아를 잃게 되나요?"
     answer: "늦게 발견하면 그럴 위험이 있습니다. 다만 조기에 진단하고 꾸준히 관리하면 오래 유지하는 경우도 많아요. 정기 관찰이 결과를 크게 좌우합니다."
+approach:
+  - when: "진단 즉시"
+    name: "치근활택술 + 전신 항생제"
+    en: "SRP with Systemic Antibiotics"
+    slug: scaling-root-planing
+    detail: "일반 치주염과 달리 항생제를 함께 씁니다. 아목시실린+메트로니다졸 병용이 표준입니다."
+  - when: "기계적 치료로 부족할 때"
+    name: "치주 수술 + 재생술"
+    en: "Surgery with Regeneration"
+    detail: "젊은 나이에 뼈가 깊게 파이는 경우가 많아 재생을 함께 시도합니다. 재평가까지 6~9개월."
+  - when: "가족 중에 같은 병이 있을 때"
+    name: "가족 검진"
+    en: "Family Screening"
+    detail: "유전 경향이 뚜렷합니다. 형제·자녀를 함께 봐야 조기에 잡습니다."
+  - when: "치료 후"
+    name: "짧은 간격 유지관리"
+    en: "Frequent Maintenance"
+    detail: "2~3개월 간격으로 봅니다. 일반 치주염보다 더 자주 봐야 합니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
   - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
 updated: "2026-08-16"
 relatedTerms:
+  - chigeun
+  - scaling-root-planing
   - manseong-chijuyeom
   - periodontitis
-  - bagriseong-chieunyeom
-  - chiju-jaesaengsul
 relatedPosts:
   []
 ---

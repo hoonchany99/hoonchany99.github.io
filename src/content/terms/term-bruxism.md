@@ -26,12 +26,31 @@ faqs:
     answer: "이갈이·턱관절 문제의 신호일 수 있어요. 파트너가 밤에 소리를 듣는 경우도 흔합니다. 검진으로 확인해 보세요."
   - question: "이갈이 치료 비용은?"
     answer: "나이트가드·교합 조정·손상 치아 수복 등 범위에 따라 달라져요. 보험 적용은 제한적인 경우가 많습니다. 검진 후 안내해 드려요."
+approach:
+  - when: "거의 모든 이갈이의 기본 처치"
+    name: "교합안정장치 (나이트가드)"
+    en: "Occlusal Splint"
+    slug: splint
+    detail: "자는 동안 끼워 치아 마모와 턱 부담을 막습니다. 제작 2~3회 방문, 6개월마다 점검."
+  - when: "스트레스·수면 문제가 배경일 때"
+    name: "유발 요인 관리"
+    en: "Trigger Management"
+    detail: "카페인·음주·수면 부족을 줄입니다. 이갈이는 없애기보다 줄이고 피해를 막는 쪽으로 봅니다."
+  - when: "씹는 근육이 두꺼워지고 아플 때"
+    name: "이갈이 보톡스"
+    en: "Botulinum Toxin"
+    slug: igali-botogseu
+    detail: "교근에 주사해 힘을 줄입니다. 3~6개월마다 반복합니다."
+  - when: "이미 치아가 닳아 시리거나 깨졌을 때"
+    name: "마모면 수복"
+    en: "Restoration of Worn Teeth"
+    detail: "레진이나 크라운으로 형태를 되살립니다. 장치를 같이 쓰지 않으면 새로 한 것도 또 닳습니다."
 updated: "2026-08-16"
 relatedTerms:
+  - resin
+  - crown
   - igali-botogseu
   - igali-jeungsang
-  - cavity
-  - root-canal
 relatedPosts:
   []
 ---

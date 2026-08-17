@@ -25,15 +25,32 @@ faqs:
     answer: "고인 침에 세균이 자라 침샘염이 생깁니다. 반복되면 침샘 기능이 떨어질 수 있어요. 증상이 반복되면 확인해 보세요."
   - question: "수술해야 하나요?"
     answer: "위치와 크기에 따라 다릅니다. 입구 가까이면 간단히 제거하고, 깊으면 다른 방법을 씁니다. 반복해서 심하면 침샘 자체를 다루기도 해요."
+approach:
+  - when: "돌이 작고 입구 가까이 있을 때"
+    name: "보존적 배출 유도"
+    en: "Conservative Management"
+    detail: "신 음식으로 침 분비를 늘리고 침샘을 마사지해 밀어냅니다. 수분 섭취를 늘립니다."
+  - when: "입구 가까이 만져지는 돌"
+    name: "관내 절석술"
+    en: "Intraoral Sialolithotomy"
+    detail: "도관을 열어 돌을 꺼냅니다. 국소마취로 하고 대개 1회로 끝납니다."
+  - when: "돌이 깊거나 여러 개일 때"
+    name: "타액선 내시경"
+    en: "Sialendoscopy"
+    detail: "가는 내시경을 도관에 넣어 돌을 꺼내거나 부숩니다. 침샘을 살리는 방법입니다."
+  - when: "침샘이 반복 감염으로 망가졌을 때"
+    name: "침샘 절제"
+    en: "Gland Excision"
+    detail: "기능을 잃은 침샘을 제거합니다. 마지막 선택입니다."
 sources:
   - "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/oral-and-pharyngeal-disorders/salivary-stones"
   - "https://www.ncbi.nlm.nih.gov/books/NBK562211/"
 updated: "2026-08-16"
 relatedTerms:
+  - local-anesthesia
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   []
 ---

@@ -25,15 +25,33 @@ faqs:
     answer: "상황에 따라 다릅니다. 감염이 진행 중일 때 온찜질은 번지는 것을 도울 수 있어요. 자가 판단보다 진료를 받고 안내받으시는 게 안전합니다."
   - question: "고름이 터졌는데 나은 건가요?"
     answer: "압력이 빠져 통증은 줄지만 원인은 그대로입니다. 다시 고이고 뼈는 계속 녹을 수 있어요. 통증이 없어져도 치료가 필요합니다."
+approach:
+  - when: "고름이 잡혔을 때, 가장 먼저"
+    name: "절개 배농"
+    en: "Incision and Drainage"
+    slug: jeolgae-baenong
+    detail: "고름을 빼는 것이 항생제보다 우선입니다. 빼는 즉시 통증과 붓기가 줄어듭니다."
+  - when: "배농과 함께"
+    name: "원인 치아 처치"
+    en: "Treatment of Source Tooth"
+    detail: "신경치료로 살리거나 뽑습니다. 원인을 두면 항생제를 끊는 순간 재발합니다."
+  - when: "열이 나거나 부기가 번질 때"
+    name: "항생제"
+    en: "Antibiotics"
+    detail: "아목시실린 계열을 5~7일 씁니다. 배농 없이 항생제만 쓰면 안으로 곪습니다."
+  - when: "눈 밑·목으로 번지거나 숨쉬기·삼키기 힘들 때"
+    name: "응급 입원 치료"
+    en: "Emergency Admission"
+    detail: "기도를 막을 수 있어 응급입니다. 즉시 큰 병원으로 가야 합니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
   - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"
 updated: "2026-08-16"
 relatedTerms:
+  - root-canal
+  - jeolgae-baenong
   - chiseong-sangagdongyeom
   - geunmaggangeug-gamyeom
-  - cavity
-  - root-canal
 relatedPosts:
   []
 ---

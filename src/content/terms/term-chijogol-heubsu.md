@@ -25,15 +25,35 @@ faqs:
     answer: "틀니는 잇몸 위에 얹히는 구조라 뼈에 직접 자극이 가지 않습니다. 시간이 지나며 뼈가 줄어 틀니가 헐거워지는 경우가 많아요."
   - question: "어떻게 막나요?"
     answer: "잇몸병을 초기에 잡는 것이 가장 중요합니다. 치아를 뽑았다면 자리를 너무 오래 비워 두지 마세요. 발치와 동시에 보존술을 고려하기도 합니다."
+approach:
+  - when: "치주염이 원인일 때"
+    name: "치주 치료로 진행 정지"
+    en: "Periodontal Therapy"
+    detail: "녹은 뼈를 되돌리기보다 더 녹지 않게 막는 것이 목표입니다. 3~4개월 유지관리를 붙입니다."
+  - when: "결손이 좁고 깊게 파였을 때"
+    name: "치주 조직 재생술"
+    en: "Guided Tissue Regeneration"
+    slug: chiju-jaesaengsul
+    detail: "골이식재와 차단막으로 뼈가 차오를 공간을 만듭니다. 판정까지 6~9개월."
+  - when: "발치 예정이고 나중에 임플란트를 할 때"
+    name: "치조골 보존술"
+    en: "Ridge Preservation"
+    slug: chijogol-bojonsul
+    detail: "뽑은 자리에 바로 골이식재를 채워 뼈가 꺼지는 것을 줄입니다. 3~6개월 뒤 식립."
+  - when: "이미 뼈가 많이 없어진 상태에서 임플란트가 필요할 때"
+    name: "골유도재생술 (GBR)"
+    en: "Guided Bone Regeneration"
+    slug: gbr
+    detail: "차단막과 골이식재로 뼈를 만들어 냅니다. 4~6개월 뒤 임플란트를 심습니다."
 sources:
   - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
   - "https://www.ncbi.nlm.nih.gov/books/NBK534881/"
 updated: "2026-08-16"
 relatedTerms:
+  - golisigjae
+  - implant
+  - gbr
   - chijogol
-  - chijogol-bojonsul
-  - chijogol-bunrisul
-  - chigeun-heubsu
 relatedPosts:
   []
 ---

@@ -25,15 +25,35 @@ faqs:
     answer: "끝이 아니라 관리 단계로 넘어갑니다. 치주염은 재발하기 쉬워서 정기적인 유지관리가 이어져야 해요. 이 단계를 건너뛰면 다시 진행하는 경우가 많습니다."
   - question: "유전인가요?"
     answer: "감수성에 개인차가 있는 것으로 알려져 있습니다. 다만 원인은 세균막이에요. 가족력이 있다면 더 부지런히 관리하고 검진 간격을 짧게 가져가시는 게 좋습니다."
+approach:
+  - when: "치주낭 4~5mm, 대부분의 시작점"
+    name: "치근활택술 (SRP)"
+    en: "Scaling and Root Planing"
+    slug: scaling-root-planing
+    detail: "잇몸 속 치석과 오염층을 걷어냅니다. 2~4회로 나눠 하고 4~6주 뒤 재평가합니다."
+  - when: "SRP 후에도 6mm 이상 남았을 때"
+    name: "치주 판막 수술"
+    en: "Periodontal Flap Surgery"
+    detail: "잇몸을 젖혀 직접 보면서 제거합니다. 부위당 1회, 실밥 1~2주."
+  - when: "치아가 흔들려 씹기 불편할 때"
+    name: "치주 스플린트"
+    en: "Periodontal Splinting"
+    slug: chiju-seupeulrinteu
+    detail: "흔들리는 치아를 옆 치아와 묶어 힘을 나눕니다. 뼈가 늘지는 않지만 쓰기 편해집니다."
+  - when: "치료를 마친 뒤 평생"
+    name: "치주 유지관리"
+    en: "Periodontal Maintenance"
+    slug: chiju-yujigwanri
+    detail: "3~4개월 간격 관리로 재발을 막습니다. 관리를 놓으면 몇 년 안에 되돌아갑니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
   - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
 updated: "2026-08-16"
 relatedTerms:
-  - gonggyeogseong-chijuyeom
-  - manseong-chisuyeom
-  - periodontitis
-  - bagriseong-chieunyeom
+  - splint
+  - chigeun
+  - scaling-root-planing
+  - calculus
 relatedPosts:
   []
 ---

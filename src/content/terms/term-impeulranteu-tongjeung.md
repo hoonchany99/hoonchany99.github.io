@@ -25,15 +25,33 @@ faqs:
     answer: "붓기는 보통 2~3일째 정점을 지나 줄어듭니다. 계속 커지거나 열이 나면 감염을 의심해요. 자가 판단으로 기다리지 마시고 연락 주세요."
   - question: "진통제는 얼마나 먹어야 하나요?"
     answer: "처방된 대로 드시면 됩니다. 아프기 전에 미리 드시는 편이 조절에 유리해요. 약을 먹어도 통증이 잡히지 않으면 다른 원인을 확인해야 합니다."
+approach:
+  - when: "수술 후 3~7일, 점점 줄어드는 통증"
+    name: "진통제 + 냉찜질"
+    en: "Analgesics and Cold Compress"
+    detail: "정상 경과입니다. 첫 48시간은 냉찜질, 이후 온찜질로 바꿉니다."
+  - when: "2주가 지나도 아프거나 다시 심해질 때"
+    name: "감염 여부 확인"
+    en: "Infection Assessment"
+    detail: "방사선과 임상 검사로 초기 감염이나 골유착 실패를 봅니다. 조기에 잡으면 재식립이 쉽습니다."
+  - when: "입술·턱이 저리거나 감각이 둔할 때"
+    name: "즉시 재평가"
+    en: "Urgent Nerve Assessment"
+    detail: "신경에 눌렸을 수 있어 시간을 다툽니다. 필요하면 픽스처를 빼거나 짧은 것으로 바꿉니다."
+  - when: "보철을 끼운 뒤 씹을 때만 아플 때"
+    name: "교합 조정"
+    en: "Occlusal Adjustment"
+    slug: occlusal-adjustment
+    detail: "임플란트는 치주인대가 없어 힘을 완충하지 못합니다. 높이를 조금만 낮춰도 통증이 사라집니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/implants"
   - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
 updated: "2026-08-16"
 relatedTerms:
+  - osseointegration
+  - occlusal-adjustment
+  - chijuindae
   - implant
-  - immediate-implant
-  - impeulranteu-1cha-susul
-  - impeulranteu-2cha-susul
 relatedPosts:
   - slug: implant-pain-recovery
     title: "임플란트 수술 후 통증, 며칠까지가 정상일까? 단계별 회복 기준"

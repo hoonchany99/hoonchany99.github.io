@@ -25,15 +25,33 @@ faqs:
     answer: "고름이 갇힌 공간에는 약이 충분히 도달하기 어렵습니다. 빼내는 처치가 먼저예요. 항생제는 보조로 쓰이고 그것만으로는 재발합니다."
   - question: "그 치아를 살릴 수 있나요?"
     answer: "남은 잇몸뼈 양에 달려 있습니다. 뼈가 어느 정도 남아 있으면 치주 치료로 유지하는 경우가 많아요. 많이 녹았다면 발치를 검토합니다."
+approach:
+  - when: "잇몸이 볼록하게 붓고 욱신거릴 때, 응급"
+    name: "배농"
+    en: "Drainage"
+    detail: "치주낭을 통하거나 절개해 고름을 뺍니다. 빼는 즉시 통증이 크게 줄어듭니다."
+  - when: "배농 직후 같은 자리"
+    name: "치근활택술"
+    en: "Scaling and Root Planing"
+    slug: scaling-root-planing
+    detail: "원인인 치석과 오염층을 걷어냅니다. 이것을 안 하면 며칠 뒤 다시 붓습니다."
+  - when: "열이 나거나 얼굴까지 부었을 때"
+    name: "항생제"
+    en: "Antibiotics"
+    detail: "전신 증상이 있을 때만 씁니다. 배농 없이 항생제만 쓰면 잠시 가라앉았다 재발합니다."
+  - when: "가라앉은 뒤 뼈 손실이 심할 때"
+    name: "치주 수술 또는 발치"
+    en: "Periodontal Surgery or Extraction"
+    detail: "남은 뼈로 치아를 지탱할 수 있는지 보고 판단합니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
   - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"
 updated: "2026-08-16"
 relatedTerms:
-  - chieun-nongyang
-  - chiju-jaesaengsul
-  - chiju-seupeulrinteu
-  - chiju-sopasul
+  - extraction
+  - chigeun
+  - scaling-root-planing
+  - calculus
 relatedPosts:
   []
 ---

@@ -26,12 +26,31 @@ faqs:
     answer: "CT로 거리·각도를 확인해요. 필요하면 분할 발치·외과적 접근 등으로 위험을 줄이려 합니다. 시술 전 설명을 받으세요."
   - question: "안 아픈 매복치도 빼야 하나요?"
     answer: "당장 문제가 없어도 미래 충치·염증·낭종 위험을 고려해 발치를 권할 수 있어요. 경과 관찴도 가능한 케이스가 있습니다."
+approach:
+  - when: "증상이 없고 주변에 손상도 없을 때"
+    name: "경과 관찰"
+    en: "Observation"
+    detail: "1~2년 간격으로 방사선을 찍어 봅니다. 매복치를 모두 뽑아야 하는 것은 아닙니다."
+  - when: "반복해 붓거나 옆 치아를 망가뜨릴 때"
+    name: "발치"
+    en: "Surgical Extraction"
+    slug: bogjab-balchi
+    detail: "잇몸을 열고 필요하면 치아를 나눠 꺼냅니다. 30~60분, 붓기는 3~5일."
+  - when: "교정으로 살려 쓸 수 있는 앞니·송곳니일 때"
+    name: "외과적 노출 + 교정적 견인"
+    en: "Surgical Exposure and Traction"
+    detail: "잇몸을 열어 장치를 붙이고 제자리로 끌어냅니다. 12~24개월."
+  - when: "주위에 낭종이 생겼을 때"
+    name: "발치 + 낭종 적출"
+    en: "Extraction with Enucleation"
+    slug: extraction
+    detail: "치아와 낭종을 함께 제거합니다. 꺼낸 조직은 조직검사로 확인합니다."
 updated: "2026-08-16"
 relatedTerms:
+  - extraction
   - cavity
   - root-canal
   - implant
-  - wisdom-tooth
 relatedPosts:
   - slug: wisdom-tooth-4202
     title: "사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우"

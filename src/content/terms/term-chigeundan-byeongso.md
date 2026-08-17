@@ -25,15 +25,36 @@ faqs:
     answer: "치유에 시간이 걸리므로 바로 판단하지 않습니다. 다만 줄지 않거나 커지면 찾지 못한 관이나 다른 원인을 봐요. 재신경치료나 수술을 검토합니다."
   - question: "항생제로 없앨 수 있나요?"
     answer: "원인이 뿌리 속에 있어 항생제만으로는 해결되지 않습니다. 급성 부기를 가라앉히는 데 보조로 쓰일 뿐이에요. 근본 치료는 뿌리 속 소독입니다."
+approach:
+  - when: "처음 생긴 병소, 대부분"
+    name: "신경치료"
+    en: "Root Canal Treatment"
+    slug: root-canal
+    detail: "원인인 근관 속 세균을 없애면 뼈가 다시 찹니다. 6~12개월에 걸쳐 방사선상으로 줄어듭니다."
+  - when: "이미 신경치료한 치아에서 다시 생겼을 때"
+    name: "재신경치료"
+    en: "Root Canal Retreatment"
+    slug: root-canal-re
+    detail: "기존 충전재를 제거하고 다시 소독해 충전합니다. 2~4회 방문."
+  - when: "재신경치료로도 낫지 않거나 접근이 어려울 때"
+    name: "치근단 절제술"
+    en: "Apicoectomy"
+    slug: apicoectomy
+    detail: "잇몸을 열어 뿌리 끝 3mm를 잘라내고 역충전합니다. 1회 수술, 실밥 1주."
+  - when: "병소가 크고 치아를 살릴 수 없을 때"
+    name: "발치 + 소파"
+    en: "Extraction with Curettage"
+    slug: extraction
+    detail: "뽑으면서 병소 조직을 함께 긁어냅니다."
 sources:
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
   - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"
 updated: "2026-08-16"
 relatedTerms:
+  - extraction
+  - root-canal
+  - root-canal-re
   - apical-periodontitis
-  - apicoectomy
-  - chigeundan-bangsaseon
-  - chigeundan-nangjong
 relatedPosts:
   []
 ---

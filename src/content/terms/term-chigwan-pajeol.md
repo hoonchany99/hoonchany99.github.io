@@ -25,15 +25,36 @@ faqs:
     answer: "될 수 있습니다. 외상 후 치수가 서서히 죽거나 색이 변하는 경우가 있어요. 당장 증상이 없어도 정기적으로 확인하는 것이 좋습니다."
   - question: "어떻게 치료하나요?"
     answer: "깊이에 따라 다릅니다. 얕으면 다듬거나 레진, 상아질까지면 덮어 주는 처치, 치수가 드러났으면 살리거나 신경치료로 갑니다."
+approach:
+  - when: "법랑질만 살짝 깨졌을 때"
+    name: "연마 또는 레진 수복"
+    en: "Polishing or Composite Restoration"
+    detail: "날카로운 모서리를 다듬거나 레진으로 모양을 살립니다. 1회 방문, 마취도 대개 필요 없습니다."
+  - when: "상아질이 드러나 시릴 때"
+    name: "이장 후 레진 수복"
+    en: "Liner and Composite Restoration"
+    detail: "노출된 상아질을 약제로 덮고 레진을 올립니다. 24시간 안에 덮을수록 치수를 지키기 좋습니다."
+  - when: "치수가 점처럼 드러났고 손상 24시간 이내일 때"
+    name: "치수 복조술"
+    en: "Direct Pulp Capping"
+    detail: "MTA나 수산화칼슘으로 노출면을 덮어 신경을 살립니다. 1회 처치 후 3~6개월 경과를 봅니다."
+  - when: "치수 노출이 크거나 시간이 지났을 때 (미성숙 영구치)"
+    name: "부분 치수 절제술 (Cvek)"
+    en: "Partial Pulpotomy"
+    detail: "오염된 치수만 2~3mm 걷어내고 나머지를 살립니다. 뿌리가 계속 자라게 하려는 처치입니다."
+  - when: "치수 전체가 오염됐거나 뿌리가 다 자란 경우"
+    name: "신경치료 후 수복"
+    en: "Root Canal Treatment"
+    detail: "치수를 제거하고 충전한 뒤 레진이나 크라운으로 덮습니다. 총 3~5회 방문."
 sources:
   - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
   - "https://www.ncbi.nlm.nih.gov/books/NBK539876/"
 updated: "2026-08-16"
 relatedTerms:
-  - bocheolmul-pajeol
-  - chigeun-pajeol
-  - chigwan
-  - chigwan-yeonjangsul
+  - resin
+  - root-canal
+  - chisu
+  - crown
 relatedPosts:
   []
 ---

@@ -25,15 +25,29 @@ faqs:
     answer: "잇몸병은 아프지 않게 진행되는 경우가 많습니다. 통증이 없다고 안심하기 어려워요. 출혈이 오래 이어졌다면 잇몸뼈 상태까지 확인해 보시는 게 좋습니다."
   - question: "가만히 있어도 피가 나요."
     answer: "자극 없이 저절로 나는 출혈은 조금 다르게 봅니다. 심한 염증일 수도 있고, 복용 중인 약이나 전신적인 원인이 있을 수도 있어요. 이 경우 미루지 마시고 진료를 받아 보세요."
+approach:
+  - when: "칫솔질할 때 피가 나는 대부분의 경우"
+    name: "스케일링 + 칫솔질 교정"
+    en: "Scaling and Brushing Instruction"
+    slug: scaling
+    detail: "치태·치석이 원인입니다. 걷어내면 1~2주 안에 멎습니다. 피가 난다고 안 닦으면 더 심해집니다."
+  - when: "스케일링 후에도 계속될 때"
+    name: "치주 치료"
+    en: "Periodontal Therapy"
+    detail: "잇몸 속까지 염증이 내려간 것이라 치근활택술로 넘어갑니다."
+  - when: "잇몸은 깨끗한데 피가 잘 멎지 않을 때"
+    name: "전신 원인 검사"
+    en: "Systemic Workup"
+    detail: "혈액질환, 항응고제, 비타민 결핍을 확인합니다. 드물지만 놓치면 안 됩니다."
 sources:
   - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
 updated: "2026-08-16"
 relatedTerms:
-  - bagriseong-chieunyeom
-  - balchi-hu-chulhyeol
-  - buchagchieun
-  - chieun
+  - scaling
+  - chigeun
+  - scaling-root-planing
+  - calculus
 relatedPosts:
   []
 ---

@@ -25,16 +25,33 @@ faqs:
     answer: "권장됩니다. 시작 전에 검진을 받아 발치가 필요한 치아나 잇몸 염증을 미리 정리해 두는 게 좋아요. 나중에 뼈를 건드리는 치료를 할 상황을 줄이는 것이 핵심입니다."
   - question: "임플란트는 아예 못 하나요?"
     answer: "용도와 용량, 복용 기간에 따라 달라요. 골다공증 목적의 경구약이라면 가능한 경우가 있습니다. 암 치료 목적 고용량이라면 신중하게 접근해요. 개별 상담이 꼭 필요한 영역입니다."
+approach:
+  - when: "무엇보다 예방이 우선"
+    name: "투약 전 치과 검진"
+    en: "Pre-treatment Dental Screening"
+    detail: "골흡수억제제를 시작하기 전에 발치·수술을 끝내 둡니다. 시작 후에는 선택지가 크게 줄어듭니다."
+  - when: "뼈가 드러났지만 증상이 가벼울 때"
+    name: "보존적 관리"
+    en: "Conservative Management"
+    detail: "클로르헥시딘 함수와 감염 조절로 유지합니다. 무리한 수술이 오히려 범위를 넓힙니다."
+  - when: "감염이 동반될 때"
+    name: "항생제"
+    en: "Antibiotics"
+    detail: "증상 조절을 목표로 장기간 쓰기도 합니다."
+  - when: "뼈가 죽어 떨어져 나오고 범위가 뚜렷할 때"
+    name: "부골 제거술"
+    en: "Sequestrectomy"
+    detail: "죽은 뼈만 조심스럽게 제거합니다. 정상 뼈까지 건드리면 악화됩니다."
 sources:
   - "https://www.merckmanuals.com/professional/dental-disorders/dental-emergencies/medication-related-osteonecrosis-of-the-jaw-mronj"
   - "https://www.ada.org/resources/ada-library/oral-health-topics/osteoporosis-medications"
   - "https://www.sciencedirect.com/science/article/pii/S2212440318311933"
 updated: "2026-08-16"
 relatedTerms:
+  - extraction
   - chisu-goesa
   - geubseong-goesaseong-gweyangseong-chieunyeom
   - yagmul-alrereugiwa-chigwa
-  - yagmulseong-chieun-jeungsig
 relatedPosts:
   []
 ---

@@ -25,15 +25,34 @@ faqs:
     answer: "신경치료를 한 치아, 포스트를 세운 치아, 이갈이가 심한 분의 어금니에서 많습니다. 치아가 약해진 상태에서 반복적인 힘이 원인이 돼요."
   - question: "예방할 수 있나요?"
     answer: "신경치료 후 크라운으로 감싸는 것이 도움이 됩니다. 이갈이가 있으면 장치를 쓰고, 단단한 음식을 피하는 것도 방법이에요."
+approach:
+  - when: "뿌리 끝 1/3이 부러졌을 때 (예후 가장 좋음)"
+    name: "정복 + 고정"
+    en: "Repositioning and Splinting"
+    detail: "위치를 맞추고 4주 고정합니다. 부러진 면이 단단한 조직으로 이어붙는 경우가 많습니다."
+  - when: "뿌리 가운데가 부러졌을 때"
+    name: "장기 고정 + 경과 관찰"
+    en: "Extended Splinting"
+    detail: "최대 4개월까지 고정하며 지켜봅니다. 신경이 죽으면 부러진 윗조각만 신경치료합니다."
+  - when: "치경부 가까이 부러져 조각이 흔들릴 때"
+    name: "교정적 정출 또는 치관 연장술"
+    en: "Orthodontic Extrusion / Crown Lengthening"
+    slug: chigwan-yeonjangsul
+    detail: "남은 뿌리를 끌어올리거나 잇몸을 내려 보철을 잡을 자리를 만듭니다. 정출은 6~10주 걸립니다."
+  - when: "세로로 뿌리 전체가 갈라졌을 때"
+    name: "발치"
+    en: "Extraction"
+    slug: extraction
+    detail: "수직 치근 파절은 붙지 않습니다. 뽑고 임플란트나 브릿지로 갑니다."
 sources:
   - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf"
 updated: "2026-08-16"
 relatedTerms:
-  - chigeun
-  - apical-periodontitis
-  - apicoectomy
-  - bocheolmul-pajeol
+  - extraction
+  - prosthesis
+  - bridge
+  - root-canal
 relatedPosts:
   - slug: tooth-3739
     title: "딱딱한 거 씹다 치아가 깨졌다면? 꼭 확인해야 할 손상 범위"

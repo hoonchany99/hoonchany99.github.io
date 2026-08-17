@@ -25,15 +25,35 @@ faqs:
     answer: "비교적 재발이 잦은 유형으로 알려져 있습니다. 원인이 된 습관이 남아 있으면 특히 그래요. 유지장치를 오래 쓰는 것이 중요합니다."
   - question: "발음에도 영향을 주나요?"
     answer: "앞니 사이로 공기가 새어 특정 발음이 새는 소리로 들릴 수 있습니다. 치료 후 개선되는 경우가 많지만, 필요하면 언어 평가를 함께 봅니다."
+approach:
+  - when: "손가락 빨기·혀 내밀기가 원인인 아동"
+    name: "습관 차단 장치"
+    en: "Habit-Breaking Appliance"
+    detail: "원인을 없애면 어린 나이일수록 저절로 닫힙니다. 6~12개월 착용."
+  - when: "치아 위치 문제만 있는 경우"
+    name: "교정 (어금니 함입)"
+    en: "Molar Intrusion"
+    slug: orthodontics
+    detail: "미니스크류로 어금니를 눌러 앞니가 닿게 만듭니다. 12~24개월."
+  - when: "골격성으로 심한 경우"
+    name: "악교정 수술 + 교정"
+    en: "Orthognathic Surgery"
+    slug: aggyojeong-susul
+    detail: "위턱 뒤쪽을 올려 회전시킵니다. 교정 포함 18~30개월."
+  - when: "치료를 마친 뒤"
+    name: "유지장치 + 혀 습관 관리"
+    en: "Retention"
+    slug: retainer
+    detail: "개방교합은 재발이 잦습니다. 혀 습관이 남아 있으면 특히 그렇습니다."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
   - "https://www.aaoinfo.org/"
 updated: "2026-08-16"
 relatedTerms:
+  - aggyojeong-susul
+  - molar
+  - retainer
   - 1geub-bujeonggyohab
-  - 2geub-bujeonggyohab
-  - 3geub-bujeonggyohab
-  - bandaegyohab
 relatedPosts:
   []
 ---

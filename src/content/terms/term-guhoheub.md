@@ -25,15 +25,34 @@ faqs:
     answer: "코가 막혀 있으면 이비인후과가 먼저입니다. 코가 뚫렸는데도 습관이 남으면 치과에서 훈련이나 장치를 고려해요."
   - question: "고칠 수 있나요?"
     answer: "원인을 해결하면 좋아지는 경우가 많습니다. 습관이 남으면 입술 다물기 훈련을 병행해요. 이미 생긴 배열 변화는 교정으로 다룹니다."
+approach:
+  - when: "코가 막혀 어쩔 수 없이 입으로 쉴 때"
+    name: "이비인후과 진료"
+    en: "ENT Referral"
+    detail: "비염·아데노이드·편도 비대를 먼저 해결합니다. 원인을 두고 입만 다물게 할 수는 없습니다."
+  - when: "코 문제가 해결된 뒤에도 습관이 남을 때"
+    name: "구순 폐쇄 훈련 · 근기능 요법"
+    en: "Myofunctional Therapy"
+    detail: "입술과 혀 위치를 다시 익힙니다. 하루 10~15분, 6개월 이상 해야 자리 잡습니다."
+  - when: "위턱이 좁아졌을 때 (성장기)"
+    name: "상악 확장 장치"
+    en: "Palatal Expander"
+    slug: gugae-hwagjang-jangchi
+    detail: "좁아진 위턱을 넓혀 코로 숨쉬기 쉽게 만듭니다. 3~6개월 확장 후 유지."
+  - when: "잇몸이 늘 말라 붓고 피가 날 때"
+    name: "치은염 관리"
+    en: "Gingivitis Care"
+    slug: gingivitis
+    detail: "입으로 숨쉬면 앞니 잇몸이 마르며 붓습니다. 스케일링과 보습을 함께합니다."
 sources:
   - "https://www.aapd.org/research/oral-health-policies--recommendations/"
   - "https://www.aaoinfo.org/"
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - root-canal
-  - implant
-  - wisdom-tooth
+  - sangag
+  - scaling
+  - chieun
+  - gingivitis
 relatedPosts:
   []
 ---

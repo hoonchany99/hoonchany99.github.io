@@ -25,15 +25,37 @@ faqs:
     answer: "경우에 따라 다릅니다. 잘 붙어 오래 쓰기도 하고, 시간이 지나 뿌리가 녹아 빠지기도 해요. 대개 이후 신경치료가 필요하고 정기 관찰이 이어집니다."
   - question: "유치도 다시 심나요?"
     answer: "유치는 다시 심지 않습니다. 아래 영구치 싹을 손상시킬 수 있기 때문이에요. 영구치와 처치가 정반대인 지점입니다."
+approach:
+  - when: "영구치가 통째로 빠진 직후, 그 자리에서"
+    name: "즉시 재식"
+    en: "Immediate Replantation"
+    detail: "치아 머리만 잡고 뿌리는 만지지 않은 채 제자리에 도로 밀어 넣습니다. 30분 안에 넣을수록 살 확률이 높습니다."
+  - when: "바로 넣기 어려울 때, 병원 가는 동안"
+    name: "보관액에 담가 이동"
+    en: "Storage Medium Transport"
+    detail: "우유나 생리식염수에 담급니다. 물이나 휴지는 안 됩니다 — 뿌리 표면 세포가 죽습니다. 60분 안에 도착이 목표입니다."
+  - when: "치과 도착 후"
+    name: "정복 + 유연 고정"
+    en: "Repositioning and Flexible Splinting"
+    detail: "위치를 맞추고 옆 치아에 묶어 2주 고정합니다. 단단히 묶으면 오히려 뿌리가 뼈에 유착됩니다."
+  - when: "재식한 영구치의 후속 처치"
+    name: "신경치료"
+    en: "Root Canal Treatment"
+    slug: root-canal
+    detail: "뿌리가 다 자란 치아는 신경이 살아남지 못합니다. 재식 7~10일 뒤 시작해 뿌리가 녹는 것을 막습니다."
+  - when: "빠진 것이 유치일 때"
+    name: "재식하지 않음"
+    en: "No Replantation"
+    detail: "유치를 도로 넣으면 그 위에서 자라는 영구치싹을 다칩니다. 넣지 말고 공간 관리만 합니다."
 sources:
   - "https://onlinelibrary.wiley.com/doi/10.1111/edt.12573"
   - "https://www.aapd.org/media/policies_guidelines/e_avulsion.pdf"
 updated: "2026-08-16"
 relatedTerms:
+  - root-canal
+  - permanent-tooth
+  - primary-tooth
   - chia-chagsaeg
-  - chia-gujo
-  - chia-gyunyeol-jeunghugun
-  - chia-jaesigsul
 relatedPosts:
   []
 ---

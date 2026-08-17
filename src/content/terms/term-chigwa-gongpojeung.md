@@ -25,15 +25,34 @@ faqs:
     answer: "표면마취제를 먼저 바르고 천천히 주입하면 훨씬 덜 느껴집니다. 가는 바늘을 쓰거나 속도를 조절하는 장비를 쓰기도 해요. 이 부분이 특히 걱정되면 미리 말씀해 주세요."
   - question: "몇 년째 안 갔는데 혼날까 봐 못 가겠어요."
     answer: "오래 미루신 분들이 자주 하시는 걱정이에요. 지난 일을 따지기보다 지금 상태에서 무엇부터 할지 정하는 게 진료의 목적입니다. 편한 것부터 순서를 잡아 나가면 됩니다."
+approach:
+  - when: "어느 정도 참을 수 있는 불안"
+    name: "행동 조절 · 단계적 노출"
+    en: "Behavioral Management"
+    detail: "짧고 쉬운 진료부터 시작해 익숙해지게 합니다. 손을 들면 멈추는 신호를 정해 두면 통제감이 생깁니다."
+  - when: "주사·소리에 대한 불안이 클 때"
+    name: "표면 마취 + 무통 마취"
+    en: "Topical and Slow Anesthesia"
+    slug: pyomyeon-machwi
+    detail: "바르는 마취로 찌르는 느낌을 줄이고 천천히 주입합니다. 통증 경험이 줄면 불안도 함께 줄어듭니다."
+  - when: "진료 자체가 어려울 정도일 때"
+    name: "의식하 진정 (수면치과)"
+    en: "Conscious Sedation"
+    slug: sedation
+    detail: "약으로 긴장을 낮춰 진료를 받게 합니다. 의식은 있고 기억은 흐릿하게 남습니다."
+  - when: "진정으로도 어렵거나 처치량이 많을 때"
+    name: "전신마취 하 치료"
+    en: "General Anesthesia"
+    detail: "한 번에 모두 끝냅니다. 마취 전문의가 함께하는 시설에서 합니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation"
   - "https://www.ncbi.nlm.nih.gov/books/NBK559287/"
 updated: "2026-08-16"
 relatedTerms:
+  - pyomyeon-machwi
   - cheos-chigwa-bangmun
   - chigwayong-simenteu
   - dangnyo-hwanja-chigwa
-  - goldagongjeung-hwanja-chigwa
 relatedPosts:
   []
 ---

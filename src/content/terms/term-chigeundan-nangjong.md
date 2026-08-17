@@ -25,15 +25,29 @@ faqs:
     answer: "완전히 제거하지 못하면 재발할 수 있습니다. 원인 치아의 신경치료가 제대로 되어 있어야 재발 위험이 낮아져요. 수술 후에도 경과를 확인합니다."
   - question: "치아를 빼야 하나요?"
     answer: "대개 치아를 살리는 방향으로 접근합니다. 신경치료와 치근단절제술로 해결되는 경우가 많아요. 뿌리가 심하게 손상됐다면 발치를 검토합니다."
+approach:
+  - when: "작고 신경치료로 반응할 때"
+    name: "신경치료 후 경과 관찰"
+    en: "Root Canal Treatment"
+    detail: "원인 치아를 치료하면 작은 낭종은 줄어듭니다. 6~12개월 방사선으로 확인합니다."
+  - when: "신경치료 후에도 남아 있을 때"
+    name: "치근단 절제술 + 낭종 적출"
+    en: "Apicoectomy with Enucleation"
+    slug: apicoectomy
+    detail: "뿌리 끝을 자르면서 낭종 주머니를 통째로 꺼냅니다. 꺼낸 조직은 조직검사로 확인합니다."
+  - when: "낭종이 커서 한 번에 꺼내면 위험할 때"
+    name: "조대술"
+    en: "Marsupialization"
+    detail: "주머니를 열어 크기를 줄인 뒤 나중에 적출합니다. 감압 기간 3~12개월."
 sources:
   - "https://www.ncbi.nlm.nih.gov/books/NBK560481/"
   - "https://www.msdmanuals.com/professional/dental-disorders"
 updated: "2026-08-16"
 relatedTerms:
+  - root-canal
   - apical-periodontitis
   - apicoectomy
   - chigeundan-bangsaseon
-  - chigeundan-byeongso
 relatedPosts:
   []
 ---

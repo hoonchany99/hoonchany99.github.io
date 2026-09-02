@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>닥터지우 고객센터</title>
+<meta name="description" content="닥터지우(CPX 실전 연습 앱) 고객센터 및 자주 묻는 질문">
+<meta name="robots" content="index,follow">
+<title>닥터지우 고객센터</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;800;900&display=swap">
+<style>
+  :root {
+    --bg: #F4F2F8;
+    --surface: #FFFFFF;
+    --ink: #221F2A;
+    --muted: rgba(34,31,42,0.62);
+    --faint: rgba(34,31,42,0.42);
+    --divider: rgba(34,31,42,0.12);
+    --accent: #5B3FBF;
+    --accent-soft: #EBE7F3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17151D;
+      --surface: #201D28;
+      --ink: #F2F0F7;
+      --muted: rgba(242,240,247,0.66);
+      --faint: rgba(242,240,247,0.44);
+      --divider: rgba(242,240,247,0.14);
+      --accent: #B9A7E8;
+      --accent-soft: #2A2634;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17151D;
+    --surface: #201D28;
+    --ink: #F2F0F7;
+    --muted: rgba(242,240,247,0.66);
+    --faint: rgba(242,240,247,0.44);
+    --divider: rgba(242,240,247,0.14);
+    --accent: #B9A7E8;
+    --accent-soft: #2A2634;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Gothic A1", -apple-system, sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2 { font-family: "Gothic A1", -apple-system, sans-serif; font-weight: 800; letter-spacing: -0.02em; text-wrap: balance; color: var(--ink); }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .page { max-width: 680px; margin: 0 auto; padding: 56px 24px 96px; }
+
+  .masthead {
+    display: flex; flex-direction: column; gap: 10px;
+    padding-bottom: 32px; margin-bottom: 40px;
+    border-bottom: 1px solid var(--divider);
+  }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  h1 { font-size: clamp(28px, 5vw, 36px); font-weight: 800; margin: 0; }
+  .meta { font-size: 13px; color: var(--faint); }
+
+  .contact-card {
+    background: var(--surface);
+    border: 1px solid var(--divider);
+    border-radius: 4px;
+    padding: 22px 24px;
+    margin-bottom: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .contact-card .label { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); margin-bottom: 4px; }
+  .contact-card .value { font-size: 17px; font-weight: 700; }
+  .contact-card a.button {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  :root[data-theme="dark"] .contact-card a.button,
+  :root:not([data-theme="light"]) .contact-card a.button {
+    color: #17151D;
+  }
+
+  h2.section-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin: 0 0 18px;
+    font-family: "Gothic A1", sans-serif;
+  }
+
+  details.faq {
+    border-bottom: 1px solid var(--divider);
+    padding: 18px 0;
+  }
+  details.faq summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15.5px;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  details.faq summary::-webkit-details-marker { display: none; }
+  details.faq summary::before {
+    content: "Q";
+    font-family: "Noto Serif KR", serif;
+    color: var(--accent);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  details.faq p {
+    margin: 10px 0 0 20px;
+    color: var(--muted);
+    font-size: 14.5px;
+  }
+  details.faq p a { color: var(--accent); }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 1px solid var(--divider);
+    font-size: 13px;
+    color: var(--faint);
+  }
+</style>
+</head>
+<body>
+
+
+<div class="page">
+  <div class="masthead">
+    <span class="eyebrow">Support</span>
+    <h1>닥터지우 고객센터</h1>
+    <span class="meta">이용 중 궁금한 점이나 문제가 있다면 아래에서 확인해 주세요.</span>
+  </div>
+
+  <div class="contact-card">
+    <div>
+      <div class="label">문의 이메일</div>
+      <div class="value">hoonchany99@gmail.com</div>
+    </div>
+    <a class="button" href="mailto:hoonchany99@gmail.com">이메일 보내기</a>
+  </div>
+
+  <h2 class="section-title">자주 묻는 질문</h2>
+
+  <details class="faq">
+    <summary>로그인이 안 돼요</summary>
+    <p>닥터지우는 Google 또는 Apple 계정으로만 로그인합니다. 기기의 인터넷 연결을 확인하고, 그래도 안 되면 앱을 완전히 종료했다가 다시 실행해 보세요. 계속 안 되면 문의 이메일로 사용 중인 기기 기종과 iOS 버전을 알려주세요.</p>
+  </details>
+
+  <details class="faq">
+    <summary>연습이 끝났는데 채점이 안 나와요</summary>
+    <p>채점은 대화 내용을 서버로 보내 분석하는 방식이라 네트워크 상태에 따라 몇 초에서 1분 정도 걸릴 수 있습니다. 결과 화면에서 "다시 채점하기"를 눌러 재시도할 수 있고, 대화 기록 자체는 사라지지 않으니 나중에 다시 시도해도 됩니다.</p>
+  </details>
+
+  <details class="faq">
+    <summary>화자(의사/환자) 구분이 잘못돼요</summary>
+    <p>화자 분리는 AI가 대화 내용만으로 추정하는 방식이라 완벽하지 않을 수 있습니다. 채점 자체는 화자 표시와 무관하게 실제 대화 내용을 기준으로 이루어지니 점수에는 영향이 없습니다.</p>
+  </details>
+
+  <details class="faq">
+    <summary>연습 기록만 지우고 계정은 유지하고 싶어요</summary>
+    <p>설정 → 연습 기록 초기화를 이용하면 계정은 그대로 두고 점수·대화 기록만 삭제됩니다.</p>
+  </details>
+
+  <details class="faq">
+    <summary>계정을 완전히 삭제하고 싶어요</summary>
+    <p>설정 → 계정 삭제에서 즉시 처리할 수 있습니다. 계정, 연습 기록, 스터디룸 활동이 모두 영구적으로 삭제되며 되돌릴 수 없습니다. 자세한 내용은 <a href="https://claude.ai/code/artifact/a1dbbbd6-aca8-435a-81f7-0ca8feaf40b7">개인정보처리방침</a>을 참고하세요.</p>
+  </details>
+
+  <details class="faq">
+    <summary>스터디룸 초대 코드는 어디서 확인하나요</summary>
+    <p>설정 → 스터디룸 관리에서 현재 방의 초대 코드를 확인하고 공유할 수 있습니다.</p>
+  </details>
+
+  <footer>
+    © 2026 닥터지우 · 문의 hoonchany99@gmail.com
+  </footer>
+</div>
+
+</body>
+</html>

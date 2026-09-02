@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>닥터지우</title>
+<meta name="description" content="닥터지우 — CPX 실전 연습 앱 안내 페이지">
+<meta name="robots" content="index,follow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;800;900&display=swap">
+<style>
+  :root {
+    --bg: #F4F2F8;
+    --surface: #FFFFFF;
+    --ink: #221F2A;
+    --muted: rgba(34,31,42,0.62);
+    --faint: rgba(34,31,42,0.42);
+    --divider: rgba(34,31,42,0.12);
+    --accent: #5B3FBF;
+    --accent-soft: #EBE7F3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17151D;
+      --surface: #201D28;
+      --ink: #F2F0F7;
+      --muted: rgba(242,240,247,0.66);
+      --faint: rgba(242,240,247,0.44);
+      --divider: rgba(242,240,247,0.14);
+      --accent: #B9A7E8;
+      --accent-soft: #2A2634;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Gothic A1", -apple-system, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 560px; margin: 0 auto; padding: 96px 24px; }
+  h1 { font-size: clamp(28px, 5vw, 36px); font-weight: 800; letter-spacing: -0.02em; margin: 0 0 12px; }
+  p.lead { color: var(--muted); margin: 0 0 40px; }
+  a.card {
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--divider);
+    border-radius: 8px;
+    padding: 20px 22px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: var(--ink);
+    font-weight: 700;
+  }
+  a.card span { display: block; font-weight: 400; font-size: 13px; color: var(--faint); margin-top: 4px; }
+  a.card:hover { border-color: var(--accent); }
+  footer { margin-top: 48px; font-size: 13px; color: var(--faint); }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>닥터지우</h1>
+  <p class="lead">CPX 실전 연습 앱 — 관련 문서 안내</p>
+  <a class="card" href="/doctorjiwoo/privacy/">개인정보처리방침<span>Privacy Policy</span></a>
+  <a class="card" href="/doctorjiwoo/support/">고객센터<span>Support &amp; FAQ</span></a>
+  <footer>© 2026 닥터지우 · hoonchany99@gmail.com</footer>
+</div>
+</body>
+</html>

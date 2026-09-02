@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>닥터지우 개인정보처리방침</title>
+<meta name="description" content="닥터지우(CPX 실전 연습 앱) 개인정보처리방침">
+<meta name="robots" content="index,follow">
+<title>닥터지우 개인정보처리방침</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;800;900&display=swap">
+<style>
+  :root {
+    --bg: #F4F2F8;
+    --surface: #FFFFFF;
+    --ink: #221F2A;
+    --muted: rgba(34,31,42,0.62);
+    --faint: rgba(34,31,42,0.42);
+    --divider: rgba(34,31,42,0.12);
+    --accent: #5B3FBF;
+    --accent-soft: #EBE7F3;
+    --code-bg: #EBE7F3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17151D;
+      --surface: #201D28;
+      --ink: #F2F0F7;
+      --muted: rgba(242,240,247,0.66);
+      --faint: rgba(242,240,247,0.44);
+      --divider: rgba(242,240,247,0.14);
+      --accent: #B9A7E8;
+      --accent-soft: #2A2634;
+      --code-bg: #2A2634;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17151D;
+    --surface: #201D28;
+    --ink: #F2F0F7;
+    --muted: rgba(242,240,247,0.66);
+    --faint: rgba(242,240,247,0.44);
+    --divider: rgba(242,240,247,0.14);
+    --accent: #B9A7E8;
+    --accent-soft: #2A2634;
+    --code-bg: #2A2634;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Gothic A1", -apple-system, sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2 {
+    font-family: "Gothic A1", -apple-system, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+
+  .masthead {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 32px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--divider);
+  }
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  h1 {
+    font-size: clamp(28px, 5vw, 36px);
+    font-weight: 800;
+    margin: 0;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    font-size: 13px;
+    color: var(--faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--divider);
+    border-radius: 4px;
+    padding: 20px 24px;
+    margin-bottom: 48px;
+  }
+  nav.toc .toc-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-bottom: 10px;
+    display: block;
+  }
+  nav.toc ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    columns: 2;
+    column-gap: 24px;
+  }
+  nav.toc li { break-inside: avoid; margin-bottom: 6px; }
+  nav.toc a { color: var(--ink); font-size: 14px; text-decoration: none; }
+  nav.toc a:hover { color: var(--accent); }
+  nav.toc .num { color: var(--faint); font-variant-numeric: tabular-nums; margin-right: 6px; }
+
+  section.clause { scroll-margin-top: 24px; margin-bottom: 44px; }
+  section.clause h2 {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 16px;
+  }
+  section.clause h2 .num {
+    font-family: "Gothic A1", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  section.clause p { margin: 0 0 12px; color: var(--ink); }
+  section.clause p.note { color: var(--muted); font-size: 14px; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--divider);
+    border-radius: 4px;
+    padding: 18px 20px;
+    margin: 14px 0;
+  }
+  .card h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    color: var(--muted);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.5px;
+    margin: 14px 0;
+  }
+  .table-wrap { overflow-x: auto; }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--divider);
+    vertical-align: top;
+  }
+  th {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--faint);
+    white-space: nowrap;
+  }
+
+  ul.plain { margin: 0 0 12px; padding-left: 20px; }
+  ul.plain li { margin-bottom: 6px; }
+
+  .highlight {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 4px 4px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 14.5px;
+  }
+  code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 6px;
+    font-size: 0.92em;
+    font-family: ui-monospace, "SF Mono", monospace;
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 1px solid var(--divider);
+    font-size: 13px;
+    color: var(--faint);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .back-to-top { font-size: 13px; }
+</style>
+</head>
+<body>
+
+
+<div class="page" id="top">
+  <div class="masthead">
+    <span class="eyebrow">Privacy Policy</span>
+    <h1>닥터지우 개인정보처리방침</h1>
+    <div class="meta">
+      <span>시행일 2026년 9월 2일</span>
+      <span>운영자 윤훈찬</span>
+      <span>문의 hoonchany99@gmail.com</span>
+    </div>
+  </div>
+
+  <nav class="toc" aria-label="목차">
+    <span class="toc-label">목차</span>
+    <ol>
+      <li><a href="#s1"><span class="num">1</span>수집하는 개인정보 항목</a></li>
+      <li><a href="#s2"><span class="num">2</span>수집 및 이용 목적</a></li>
+      <li><a href="#s3"><span class="num">3</span>제3자 제공 및 위탁</a></li>
+      <li><a href="#s4"><span class="num">4</span>보유 및 이용 기간</a></li>
+      <li><a href="#s5"><span class="num">5</span>이용자 권리와 계정 삭제</a></li>
+      <li><a href="#s6"><span class="num">6</span>안전성 확보조치</a></li>
+      <li><a href="#s7"><span class="num">7</span>아동의 개인정보</a></li>
+      <li><a href="#s8"><span class="num">8</span>방침 변경 안내</a></li>
+      <li><a href="#s9"><span class="num">9</span>문의처</a></li>
+    </ol>
+  </nav>
+
+  <p>닥터지우(이하 "서비스")는 이용자의 개인정보를 소중히 다루며, 「개인정보 보호법」 등 관련 법령을 준수합니다. 본 방침은 서비스가 어떤 정보를 수집하고, 어떻게 이용·보관하며, 이용자가 어떤 권리를 행사할 수 있는지 설명합니다.</p>
+
+  <section class="clause" id="s1">
+    <h2><span class="num">1</span>수집하는 개인정보 항목</h2>
+    <p>서비스는 다음의 개인정보를 수집합니다.</p>
+
+    <div class="card">
+      <h3>계정 정보</h3>
+      <p>Google 또는 Apple 계정으로 로그인 시 식별자, 이름, 이메일 주소(Apple 로그인의 경우 비공개 릴레이 이메일일 수 있음)를 전달받습니다.</p>
+    </div>
+    <div class="card">
+      <h3>프로필 정보</h3>
+      <p>이용자가 직접 입력하는 이름, 학년(본과 연차), 시험일, 알림 설정.</p>
+    </div>
+    <div class="card">
+      <h3>연습 기록</h3>
+      <p>연습 중 음성을 텍스트로 변환한 대화 기록, 채점 결과 및 점수, 연습 소요 시간.</p>
+    </div>
+    <div class="card">
+      <h3>스터디룸 활동 정보</h3>
+      <p>스터디룸 이름·초대코드, 방 참여 현황, 응원·댓글·팁 등 이용자가 작성한 콘텐츠.</p>
+    </div>
+    <div class="card">
+      <h3>기기 정보</h3>
+      <p>푸시 알림 발송을 위한 기기 푸시 토큰.</p>
+    </div>
+
+    <p class="note">마이크·음성 인식 권한은 연습 중 대화를 문자로 변환하는 용도로만 기기에서 사용되며, 원본 음성은 서버에 저장되지 않습니다.</p>
+  </section>
+
+  <section class="clause" id="s2">
+    <h2><span class="num">2</span>수집 및 이용 목적</h2>
+    <ul class="plain">
+      <li>회원 식별 및 서비스 이용 계약의 이행</li>
+      <li>연습 대화 채점 및 피드백 제공</li>
+      <li>스터디룸, 응원, 댓글 등 이용자 간 소셜 기능 제공</li>
+      <li>연습 알림 등 푸시 알림 발송</li>
+      <li>서비스 개선 및 오류 대응</li>
+    </ul>
+  </section>
+
+  <section class="clause" id="s3">
+    <h2><span class="num">3</span>제3자 제공 및 위탁</h2>
+    <p>서비스는 아래의 범위에서만 개인정보 처리를 위탁하거나 정보를 전달하며, 그 외의 목적으로 제3자에게 제공하지 않습니다.</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>전달 대상</th><th>전달 항목</th><th>목적</th></tr>
+        <tr><td>OpenAI, L.L.C.</td><td>연습 대화 텍스트, 증례명</td><td>화자 분리 및 채점 처리 — 이름·이메일 등 식별정보는 전달하지 않음</td></tr>
+        <tr><td>Apple Inc. (APNs)</td><td>기기 푸시 토큰, 알림 내용</td><td>푸시 알림 발송</td></tr>
+        <tr><td>Supabase, Inc.</td><td>1항의 전체 항목</td><td>데이터베이스·인증 등 서비스 인프라 운영(국외 이전 포함)</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="clause" id="s4">
+    <h2><span class="num">4</span>보유 및 이용 기간</h2>
+    <p>개인정보는 원칙적으로 이용자가 계정을 삭제하는 즉시 지체 없이 파기합니다. 다만 관계 법령에서 별도로 보존 기간을 정한 경우에는 해당 기간 동안 분리 보관 후 파기합니다.</p>
+  </section>
+
+  <section class="clause" id="s5">
+    <h2><span class="num">5</span>이용자 권리와 계정 삭제</h2>
+    <p>이용자는 언제든지 앱 내 <strong>설정 → 계정 삭제</strong>를 통해 계정과 모든 관련 정보(프로필, 연습 기록, 스터디룸 활동, 기기 토큰 포함)를 즉시 영구 삭제할 수 있습니다.</p>
+    <div class="highlight">계정 삭제는 되돌릴 수 없으며, 삭제 요청과 동시에 서버에 저장된 모든 관련 데이터가 함께 삭제됩니다.</div>
+    <p>연습 기록만 지우고 계정은 유지하고 싶다면 <strong>설정 → 연습 기록 초기화</strong>를 이용하세요.</p>
+  </section>
+
+  <section class="clause" id="s6">
+    <h2><span class="num">6</span>안전성 확보조치</h2>
+    <p>서비스는 모든 통신 구간에 표준 HTTPS(TLS) 암호화를 적용하고, 인증 토큰은 기기의 보안 저장소(Keychain)에 보관합니다. 별도의 자체 암호화 방식은 사용하지 않으며, 운영체제 및 통신 표준이 제공하는 암호화만 사용합니다.</p>
+  </section>
+
+  <section class="clause" id="s7">
+    <h2><span class="num">7</span>아동의 개인정보</h2>
+    <p>서비스는 의과대학 학생을 대상으로 하며, 만 14세 미만 아동으로부터 개인정보를 의도적으로 수집하지 않습니다.</p>
+  </section>
+
+  <section class="clause" id="s8">
+    <h2><span class="num">8</span>방침 변경 안내</h2>
+    <p>본 방침이 변경되는 경우 시행일자를 상단에 표시하고, 중요한 변경 사항은 앱 내 공지를 통해 안내합니다.</p>
+  </section>
+
+  <section class="clause" id="s9">
+    <h2><span class="num">9</span>문의처</h2>
+    <p>개인정보 관련 문의, 열람·정정·삭제 요청은 아래로 연락해 주세요.</p>
+    <p><code>hoonchany99@gmail.com</code></p>
+  </section>
+
+  <footer>
+    <span>© 2026 닥터지우</span>
+    <a class="back-to-top" href="#top">맨 위로</a>
+  </footer>
+</div>
+
+</body>
+</html>

@@ -127,7 +127,13 @@
     text-decoration: none;
   }
   :root[data-theme="dark"] .btn-primary, :root:not([data-theme="light"]) .btn-primary { color: #14121F; }
-  .btn-note { font-size: 12.5px; color: var(--faint); font-weight: 600; }
+  .launch-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 13px; font-weight: 700; color: var(--muted);
+    border: 1px solid var(--divider);
+    padding: 9px 16px; border-radius: 100px;
+  }
+  .launch-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--mint); }
 
   .hero-visual {
     position: relative;
@@ -237,7 +243,10 @@
   section.cta .sub { color: rgba(255,255,255,0.6); font-size: 13.5px; margin-top: 8px; }
   :root[data-theme="dark"] section.cta .sub, :root:not([data-theme="light"]) section.cta .sub { color: rgba(20,18,31,0.6); }
   :root[data-theme="dark"] section.cta h2, :root:not([data-theme="light"]) section.cta h2 { color: var(--bg); }
-  section.cta .btn-primary { background: var(--accent); color: var(--accent-ink); }
+  .launch-badge.dark { border-color: rgba(255,255,255,0.22); color: rgba(255,255,255,0.75); }
+  :root[data-theme="dark"] .launch-badge.dark, :root:not([data-theme="light"]) .launch-badge.dark {
+    border-color: rgba(20,18,31,0.22); color: rgba(20,18,31,0.7);
+  }
 
   footer.site {
     max-width: 1080px; margin: 64px auto 0; padding: 32px 24px 56px;
@@ -269,10 +278,7 @@
       항목으로 시험 전까지 꾸준히 연습하세요.
     </p>
     <div class="hero-ctas">
-      <a class="btn-primary" href="mailto:hoonchany99@gmail.com?subject=닥터지우 출시 소식 받고 싶어요">
-        출시 소식 받기 ↗
-      </a>
-      <span class="btn-note">iOS · 출시 준비 중</span>
+      <span class="launch-badge"><span class="dot"></span>iOS · 출시 준비 중</span>
     </div>
   </div>
   <div class="hero-visual">
@@ -335,9 +341,9 @@
 <section class="cta wrap">
   <div>
     <h2>시험 전까지, 닥터지우와 함께</h2>
-    <div class="sub">출시 소식을 가장 먼저 받아보고 싶다면 이메일로 알려주세요.</div>
+    <div class="sub">55개 증례와 2,000개 체크리스트, 이미 준비돼 있습니다.</div>
   </div>
-  <a class="btn-primary" href="mailto:hoonchany99@gmail.com?subject=닥터지우 출시 소식 받고 싶어요">출시 소식 받기 ↗</a>
+  <span class="launch-badge dark"><span class="dot"></span>iOS · 출시 준비 중</span>
 </section>
 
 <footer class="site">

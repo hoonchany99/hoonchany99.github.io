@@ -8,7 +8,39 @@
 <link rel="apple-touch-icon" href="/doctorjiwoo/assets/app-icon.png">
 <meta name="description" content="말하고, 채점받고, 성장하는 CPX 실전 연습 앱 닥터지우.">
 <meta name="robots" content="index,follow">
+
+<!-- Open Graph / 카카오톡·인스타 링크 미리보기 -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://doctoryoon.kr/doctorjiwoo/">
+<meta property="og:site_name" content="닥터지우">
+<meta property="og:title" content="닥터지우 — CPX 실전 연습">
+<meta property="og:description" content="말하고, 채점받고, 성장하는 CPX 실전 연습 앱. 55개 증례, 2,000개가 넘는 체크리스트 항목으로 시험 전까지 꾸준히 연습하세요.">
+<!-- TODO: 1200x630 전용 소셜 카드 이미지로 교체 권장. 지금은 앱 아이콘(240x240)으로 임시 대체. -->
+<meta property="og:image" content="https://doctoryoon.kr/doctorjiwoo/assets/app-icon.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="닥터지우 — CPX 실전 연습">
+<meta name="twitter:description" content="말하고, 채점받고, 성장하는 CPX 실전 연습 앱 닥터지우.">
+<meta name="twitter:image" content="https://doctoryoon.kr/doctorjiwoo/assets/app-icon.png">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&display=swap">
+
+<!-- Meta Pixel -->
+<!-- TODO: PIXEL_ID_HERE를 Meta 비즈니스 관리자에서 발급받은 실제 픽셀 ID로 교체 -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'PIXEL_ID_HERE');
+fbq('track', 'PageView');
+
+// App Store 버튼 클릭 = 전환 이벤트. SKAdNetwork 세팅 전까지 이 랜딩페이지가
+// 유일하게 확인 가능한 전환 신호라 표준 이벤트(Lead)로 잡아둔다.
+function trackAppStoreClick(){
+  if (typeof fbq === 'function') { fbq('track', 'Lead'); }
+}
+</script>
 <style>
 :root{
   color-scheme: light;
@@ -136,15 +168,20 @@ section.features{ max-width:1080px; margin:96px auto 0; padding:0 24px }
 section.gallery{ margin-top:0 }
 section.gallery .section-head{ max-width:1080px; margin:0 auto 30px; padding:0 24px }
 .gallery-scroll{
-  display:flex; gap:1px; background:var(--divider-faint);
+  display:flex; gap:20px; align-items:flex-start;
   overflow-x:auto; -webkit-overflow-scrolling:touch;
-  scroll-snap-type:x mandatory;
+  scroll-snap-type:x mandatory; scroll-padding-left:24px;
+  padding-bottom:6px;
 }
 .gallery-scroll::-webkit-scrollbar{ display:none }
 .gallery-scroll{ scrollbar-width:none }
-.gallery-scroll .shot{ flex:0 0 auto; width:210px; scroll-snap-align:start; background:var(--bg) }
-.gallery-scroll .shot img{ width:100% }
+.gallery-scroll .shot{
+  flex:0 0 auto; width:260px; scroll-snap-align:start;
+  border:1px solid var(--divider-faint); overflow:hidden;
+}
+.gallery-scroll .shot img{ width:100%; display:block }
 .gallery-scroll .pad{ flex:0 0 24px }
+@media (max-width:560px){ .gallery-scroll .shot{ width:224px } }
 
 /* ---------- Footer CTA ---------- */
 section.cta{
@@ -176,7 +213,7 @@ footer.site a:hover{ color:var(--ink) }
     <a href="#features">기능</a>
     <a href="#screens">스크린샷</a>
     <a href="/doctorjiwoo/support/">고객센터</a>
-    <a href="https://apps.apple.com/kr/app/닥터지우/id6807282338" target="_blank" rel="noopener">다운로드</a>
+    <a href="https://apps.apple.com/kr/app/닥터지우/id6807282338" target="_blank" rel="noopener" onclick="trackAppStoreClick()">다운로드</a>
   </div>
 </nav>
 
@@ -189,7 +226,7 @@ footer.site a:hover{ color:var(--ink) }
       체크리스트 항목별로 무엇을 놓쳤는지 콕 집어드려요. 55개 증례, 2,000개가 넘는
       항목으로 시험 전까지 꾸준히 연습하세요.
     </p>
-    <a class="store-btn" href="https://apps.apple.com/kr/app/닥터지우/id6807282338" target="_blank" rel="noopener">
+    <a class="store-btn" href="https://apps.apple.com/kr/app/닥터지우/id6807282338" target="_blank" rel="noopener" onclick="trackAppStoreClick()">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.536c-.02-2.11 1.72-3.13 1.8-3.18-1-1.46-2.53-1.66-3.08-1.68-1.31-.13-2.56.77-3.23.77-.66 0-1.7-.75-2.79-.73-1.44.02-2.77.84-3.5 2.13-1.5 2.6-.38 6.44 1.08 8.55.71 1.03 1.56 2.18 2.68 2.14 1.08-.04 1.48-.7 2.79-.7 1.3 0 1.67.7 2.8.68 1.16-.02 1.89-1.05 2.6-2.08.83-1.19 1.16-2.35 1.18-2.41-.03-.01-2.26-.87-2.28-3.45zM14.86 5.9c.59-.72 1-1.71.89-2.71-.86.04-1.9.58-2.51 1.29-.55.63-1.03 1.65-.9 2.62.95.08 1.92-.49 2.52-1.2z"/></svg>
       App Store에서 다운로드
     </a>
@@ -260,7 +297,7 @@ footer.site a:hover{ color:var(--ink) }
     <h2>시험 전까지, 닥터지우와 함께</h2>
     <div class="sub">55개 증례와 2,000개 체크리스트, 이미 준비돼 있습니다.</div>
   </div>
-  <a class="store-btn on-dark" href="https://apps.apple.com/kr/app/닥터지우/id6807282338" target="_blank" rel="noopener">
+  <a class="store-btn on-dark" href="https://apps.apple.com/kr/app/닥터지우/id6807282338" target="_blank" rel="noopener" onclick="trackAppStoreClick()">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.536c-.02-2.11 1.72-3.13 1.8-3.18-1-1.46-2.53-1.66-3.08-1.68-1.31-.13-2.56.77-3.23.77-.66 0-1.7-.75-2.79-.73-1.44.02-2.77.84-3.5 2.13-1.5 2.6-.38 6.44 1.08 8.55.71 1.03 1.56 2.18 2.68 2.14 1.08-.04 1.48-.7 2.79-.7 1.3 0 1.67.7 2.8.68 1.16-.02 1.89-1.05 2.6-2.08.83-1.19 1.16-2.35 1.18-2.41-.03-.01-2.26-.87-2.28-3.45zM14.86 5.9c.59-.72 1-1.71.89-2.71-.86.04-1.9.58-2.51 1.29-.55.63-1.03 1.65-.9 2.62.95.08 1.92-.49 2.52-1.2z"/></svg>
     App Store에서 다운로드
   </a>

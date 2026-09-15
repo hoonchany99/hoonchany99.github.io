@@ -1,6 +1,7 @@
 ---
 name: "왜소치"
 termSlug: waesochi
+seoTitle: "왜소치란? — 어떤 상태이고 어떻게 치료하나"
 en: "Microdontia"
 tier: B
 aliases:

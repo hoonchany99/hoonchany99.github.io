@@ -1,6 +1,7 @@
 ---
 name: "구강 단순포진"
 termSlug: gugang-dansunpojin
+seoTitle: "구강 단순포진이란? — 왜 생기고 어떻게 치료하나"
 en: "Oral Herpes Simplex"
 tier: B
 aliases:

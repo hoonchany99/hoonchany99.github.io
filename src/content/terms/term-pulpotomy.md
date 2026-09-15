@@ -1,6 +1,7 @@
 ---
 name: "치수절단술"
 termSlug: pulpotomy
+seoTitle: "치수절단술이란? — 언제 하고 어떻게 진행되나"
 en: "Pulpotomy"
 tier: B
 aliases:

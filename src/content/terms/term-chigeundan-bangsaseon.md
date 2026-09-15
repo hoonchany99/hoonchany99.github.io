@@ -1,6 +1,7 @@
 ---
 name: "치근단 방사선"
 termSlug: chigeundan-bangsaseon
+seoTitle: "치근단 방사선이란? — 무엇을 보고 언제 찍나"
 en: "Periapical Radiograph"
 tier: B
 aliases:

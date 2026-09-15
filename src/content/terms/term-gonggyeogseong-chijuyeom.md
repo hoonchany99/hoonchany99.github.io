@@ -1,6 +1,7 @@
 ---
 name: "공격성 치주염"
 termSlug: gonggyeogseong-chijuyeom
+seoTitle: "공격성 치주염이란? — 어떤 특징이 있고 어떻게 치료하나"
 en: "Aggressive Periodontitis"
 tier: B
 aliases:

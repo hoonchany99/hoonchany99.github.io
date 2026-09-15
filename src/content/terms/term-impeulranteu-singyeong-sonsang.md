@@ -1,6 +1,7 @@
 ---
 name: "임플란트 신경 손상"
 termSlug: impeulranteu-singyeong-sonsang
+seoTitle: "임플란트 신경 손상 — 왜 생기고 회복되나"
 en: "Implant Nerve Injury"
 tier: B
 aliases:

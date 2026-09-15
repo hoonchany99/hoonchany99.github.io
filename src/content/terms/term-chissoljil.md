@@ -1,6 +1,7 @@
 ---
 name: "칫솔질"
 termSlug: chissoljil
+seoTitle: "칫솔질 — 어떻게, 얼마나 해야 하나"
 en: "Toothbrushing"
 tier: B
 aliases:

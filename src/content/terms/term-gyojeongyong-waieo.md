@@ -1,6 +1,7 @@
 ---
 name: "교정용 와이어"
 termSlug: gyojeongyong-waieo
+seoTitle: "교정용 와이어란? — 어떤 역할을 하고 왜 바꾸나"
 en: "Orthodontic Archwire"
 tier: B
 aliases:

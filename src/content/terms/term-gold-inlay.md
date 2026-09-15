@@ -1,6 +1,7 @@
 ---
 name: "금인레이"
 termSlug: gold-inlay
+seoTitle: "금인레이란? — 어떤 재료이고 어떤 장단점이 있나"
 en: "Gold Inlay"
 tier: B
 aliases:

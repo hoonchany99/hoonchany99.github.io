@@ -1,6 +1,7 @@
 ---
 name: "골막하 농양"
 termSlug: golmagha-nongyang
+seoTitle: "골막하 농양이란? — 왜 아프고 어떻게 치료하나"
 en: "Subperiosteal Abscess"
 tier: B
 aliases:

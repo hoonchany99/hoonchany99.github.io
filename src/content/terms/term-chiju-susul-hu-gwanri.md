@@ -1,6 +1,7 @@
 ---
 name: "치주 수술 후 관리"
 termSlug: chiju-susul-hu-gwanri
+seoTitle: "치주 수술 후 관리 — 무엇을 조심하고 언제부터 괜찮나"
 en: "Post-Periodontal Surgery Care"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "이갈이 증상"
 termSlug: igali-jeungsang
+seoTitle: "이갈이 증상 — 어떻게 알아채고 어떻게 치료하나"
 en: "Sleep Bruxism"
 tier: B
 aliases:

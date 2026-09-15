@@ -1,6 +1,7 @@
 ---
 name: "잇몸 수술"
 termSlug: ismom-susul
+seoTitle: "잇몸 수술이란? — 언제 필요하고 회복은 어떤가"
 en: "Periodontal Flap Surgery"
 tier: B
 aliases:

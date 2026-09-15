@@ -1,6 +1,7 @@
 ---
 name: "실란트"
 termSlug: sealant
+seoTitle: "실란트란? — 왜 하고 언제 받나"
 en: "Pit and Fissure Sealant"
 tier: B
 aliases:

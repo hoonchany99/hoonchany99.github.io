@@ -1,6 +1,7 @@
 ---
 name: "임플란트 관리"
 termSlug: impeulranteu-gwanri
+seoTitle: "임플란트 관리 — 어떻게 닦고 얼마나 자주 검진받나"
 en: "Implant Maintenance"
 tier: B
 aliases:

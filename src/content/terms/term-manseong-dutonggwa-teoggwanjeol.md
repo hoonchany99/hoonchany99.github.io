@@ -1,6 +1,7 @@
 ---
 name: "만성 두통과 턱관절"
 termSlug: manseong-dutonggwa-teoggwanjeol
+seoTitle: "만성 두통과 턱관절 — 어떤 관련이 있고 어떻게 관리하나"
 en: "Headache and TMD"
 tier: B
 aliases:

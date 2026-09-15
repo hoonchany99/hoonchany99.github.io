@@ -1,6 +1,7 @@
 ---
 name: "근관 충전"
 termSlug: geungwan-chungjeon
+seoTitle: "근관 충전이란? — 신경치료에서 어떤 단계인가"
 en: "Root Canal Obturation"
 tier: B
 aliases:

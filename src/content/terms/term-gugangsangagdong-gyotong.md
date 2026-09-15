@@ -1,6 +1,7 @@
 ---
 name: "구강-상악동 교통"
 termSlug: gugangsangagdong-gyotong
+seoTitle: "구강-상악동 교통이란? — 왜 생기고 어떻게 치료하나"
 en: "Oroantral Communication"
 tier: B
 aliases:

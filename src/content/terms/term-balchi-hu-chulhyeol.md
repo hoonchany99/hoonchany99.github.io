@@ -1,6 +1,7 @@
 ---
 name: "발치 후 출혈"
 termSlug: balchi-hu-chulhyeol
+seoTitle: "발치 후 출혈 — 언제까지 정상이고 어떻게 멈추나"
 en: "Post-Extraction Bleeding"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "임플란트"
 termSlug: implant
+seoTitle: "임플란트란? — 어떤 치료이고 어떻게 진행되나"
 en: "Dental Implant"
 tier: A
 aliases:

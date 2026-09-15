@@ -1,6 +1,7 @@
 ---
 name: "근관 세척"
 termSlug: geungwan-secheog
+seoTitle: "근관 세척이란? — 왜 하고 어떻게 진행되나"
 en: "Root Canal Irrigation"
 tier: B
 aliases:

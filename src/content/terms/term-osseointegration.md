@@ -1,6 +1,7 @@
 ---
 name: "골유착"
 termSlug: osseointegration
+seoTitle: "골유착이란? — 어떤 과정이고 얼마나 걸리나"
 en: "Osseointegration"
 tier: B
 aliases:

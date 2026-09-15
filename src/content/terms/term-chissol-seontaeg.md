@@ -1,6 +1,7 @@
 ---
 name: "칫솔 선택"
 termSlug: chissol-seontaeg
+seoTitle: "칫솔 선택 — 무엇을 보고 고르고 언제 바꾸나"
 en: "Choosing a Toothbrush"
 tier: B
 aliases:

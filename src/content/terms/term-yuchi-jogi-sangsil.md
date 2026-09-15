@@ -1,6 +1,7 @@
 ---
 name: "유치 조기 상실"
 termSlug: yuchi-jogi-sangsil
+seoTitle: "유치 조기 상실이란? — 무슨 문제가 생기고 어떻게 대처하나"
 en: "Premature Loss of Primary Tooth"
 tier: B
 aliases:

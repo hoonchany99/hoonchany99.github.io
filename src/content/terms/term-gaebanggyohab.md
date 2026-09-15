@@ -1,6 +1,7 @@
 ---
 name: "개방교합"
 termSlug: gaebanggyohab
+seoTitle: "개방교합이란? — 왜 생기고 어떻게 치료하나"
 en: "Open Bite"
 tier: B
 aliases:

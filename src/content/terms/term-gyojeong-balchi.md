@@ -1,6 +1,7 @@
 ---
 name: "교정 발치"
 termSlug: gyojeong-balchi
+seoTitle: "교정 발치란? — 왜 하고 어떤 이를 빼나"
 en: "Extraction for Orthodontics"
 tier: B
 aliases:

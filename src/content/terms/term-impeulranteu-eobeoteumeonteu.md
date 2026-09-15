@@ -1,6 +1,7 @@
 ---
 name: "임플란트 어버트먼트"
 termSlug: impeulranteu-eobeoteumeonteu
+seoTitle: "임플란트 어버트먼트란? — 어떤 부품이고 왜 필요한가"
 en: "Implant Abutment"
 tier: B
 aliases:

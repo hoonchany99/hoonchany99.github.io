@@ -1,6 +1,7 @@
 ---
 name: "치은 비대"
 termSlug: chieun-bidae
+seoTitle: "치은 비대란? — 왜 생기고 어떻게 치료하나"
 en: "Gingival Enlargement"
 tier: B
 aliases:

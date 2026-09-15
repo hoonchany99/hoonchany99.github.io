@@ -1,6 +1,7 @@
 ---
 name: "영구치"
 termSlug: permanent-tooth
+seoTitle: "영구치란? — 언제 나고 어떻게 관리하나"
 en: "Permanent Tooth"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "치아 파절"
 termSlug: tooth-fracture
+seoTitle: "치아 파절이란? — 어떻게 대처하고 어떻게 치료하나"
 en: "Tooth Fracture"
 tier: B
 aliases:

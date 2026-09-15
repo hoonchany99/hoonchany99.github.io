@@ -1,6 +1,7 @@
 ---
 name: "치약"
 termSlug: chiyag
+seoTitle: "치약 — 무엇을 보고 골라야 하나"
 en: "Toothpaste"
 tier: B
 aliases:

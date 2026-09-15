@@ -1,6 +1,7 @@
 ---
 name: "와동"
 termSlug: wadong
+seoTitle: "와동이란? — 무엇을 말하고 왜 중요한가"
 en: "Cavity Preparation"
 tier: B
 aliases:

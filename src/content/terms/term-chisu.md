@@ -1,6 +1,7 @@
 ---
 name: "치수"
 termSlug: chisu
+seoTitle: "치수란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Dental Pulp"
 tier: B
 aliases:

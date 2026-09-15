@@ -1,6 +1,7 @@
 ---
 name: "혈관종"
 termSlug: hyeolgwanjong
+seoTitle: "혈관종이란? — 어떻게 알아보고 어떻게 치료하나"
 en: "Hemangioma"
 tier: B
 aliases:

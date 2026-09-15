@@ -1,6 +1,7 @@
 ---
 name: "치조골"
 termSlug: chijogol
+seoTitle: "치조골이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Alveolar Bone"
 tier: B
 aliases:

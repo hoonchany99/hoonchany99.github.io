@@ -1,6 +1,7 @@
 ---
 name: "약물성 치은 증식"
 termSlug: yagmulseong-chieun-jeungsig
+seoTitle: "약물성 치은 증식이란? — 왜 생기고 어떻게 치료하나"
 en: "Drug-Induced Gingival Overgrowth"
 tier: B
 aliases:

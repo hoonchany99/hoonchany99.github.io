@@ -1,6 +1,7 @@
 ---
 name: "치조골 분리술"
 termSlug: chijogol-bunrisul
+seoTitle: "치조골 분리술이란? — 언제 필요하고 어떻게 진행되나"
 en: "Ridge Splitting"
 tier: B
 aliases:

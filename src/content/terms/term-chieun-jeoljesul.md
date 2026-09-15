@@ -1,6 +1,7 @@
 ---
 name: "치은 절제술"
 termSlug: chieun-jeoljesul
+seoTitle: "치은 절제술이란? — 언제 필요하고 회복은 어떤가"
 en: "Gingivectomy"
 tier: B
 aliases:

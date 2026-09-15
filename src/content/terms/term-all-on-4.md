@@ -1,6 +1,7 @@
 ---
 name: "All-on-4"
 termSlug: all-on-4
+seoTitle: "All-on-4란? — 누구에게 맞고 어떻게 진행되나"
 tier: A
 aliases:
   - "All-on-4"

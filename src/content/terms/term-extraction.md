@@ -1,6 +1,7 @@
 ---
 name: "발치"
 termSlug: extraction
+seoTitle: "발치란? — 언제 하고 회복은 어떤가"
 en: "Tooth Extraction"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "치은 농양"
 termSlug: chieun-nongyang
+seoTitle: "치은 농양이란? — 왜 생기고 어떻게 치료하나"
 en: "Gingival Abscess"
 tier: B
 aliases:

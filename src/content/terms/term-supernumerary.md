@@ -1,6 +1,7 @@
 ---
 name: "과잉치"
 termSlug: supernumerary
+seoTitle: "과잉치란? — 왜 생기고 꼭 빼야 하나"
 en: "Supernumerary Tooth"
 tier: B
 aliases:

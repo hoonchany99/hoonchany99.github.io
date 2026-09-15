@@ -1,6 +1,7 @@
 ---
 name: "복잡 발치"
 termSlug: bogjab-balchi
+seoTitle: "복잡 발치란? — 왜 하고 회복은 어떤가"
 en: "Surgical Extraction"
 tier: B
 aliases:

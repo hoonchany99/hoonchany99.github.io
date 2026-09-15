@@ -1,6 +1,7 @@
 ---
 name: "치근단 낭종"
 termSlug: chigeundan-nangjong
+seoTitle: "치근단 낭종이란? — 어떤 상태이고 수술이 필요한가"
 en: "Radicular Cyst"
 tier: B
 aliases:

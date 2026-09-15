@@ -1,6 +1,7 @@
 ---
 name: "치근"
 termSlug: chigeun
+seoTitle: "치근이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Tooth Root"
 tier: B
 aliases:

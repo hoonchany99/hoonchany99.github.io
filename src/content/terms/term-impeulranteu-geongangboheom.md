@@ -1,6 +1,7 @@
 ---
 name: "임플란트 건강보험"
 termSlug: impeulranteu-geongangboheom
+seoTitle: "임플란트 건강보험 — 누가, 어디까지 적용되나"
 tier: B
 aliases:
   - "임플란트 건강보험"

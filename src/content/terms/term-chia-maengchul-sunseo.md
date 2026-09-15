@@ -1,6 +1,7 @@
 ---
 name: "치아 맹출 순서"
 termSlug: chia-maengchul-sunseo
+seoTitle: "치아 맹출 순서 — 언제, 어떤 순서로 나오나"
 en: "Eruption Sequence"
 tier: B
 aliases:

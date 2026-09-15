@@ -1,6 +1,7 @@
 ---
 name: "국가 무료 검진"
 termSlug: gugga-muryo-geomjin
+seoTitle: "국가 구강검진 — 무엇을 보고 이것만으로 충분한가"
 en: "National Oral Health Screening"
 tier: B
 aliases:

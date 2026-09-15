@@ -1,6 +1,7 @@
 ---
 name: "재발성 아프타 구내염"
 termSlug: jaebalseong-apeuta-gunaeyeom
+seoTitle: "재발성 아프타 구내염이란? — 왜 반복되고 어떻게 관리하나"
 en: "Recurrent Aphthous Stomatitis"
 tier: B
 aliases:

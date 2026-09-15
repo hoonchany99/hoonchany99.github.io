@@ -1,6 +1,7 @@
 ---
 name: "치근단절제술"
 termSlug: apicoectomy
+seoTitle: "치근단절제술이란? — 언제 필요하고 어떻게 진행되나"
 en: "Apicoectomy"
 tier: B
 aliases:

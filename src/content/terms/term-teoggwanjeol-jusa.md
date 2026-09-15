@@ -1,6 +1,7 @@
 ---
 name: "턱관절 주사"
 termSlug: teoggwanjeol-jusa
+seoTitle: "턱관절 주사 — 언제 맞고 어떤 효과가 있나"
 en: "TMJ Injection"
 tier: B
 aliases:

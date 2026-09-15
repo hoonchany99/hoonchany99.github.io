@@ -1,6 +1,7 @@
 ---
 name: "정중 능형 설염"
 termSlug: jeongjung-neunghyeong-seolyeom
+seoTitle: "정중 능형 설염이란? — 왜 생기고 치료가 필요한가"
 en: "Median Rhomboid Glossitis"
 tier: B
 aliases:

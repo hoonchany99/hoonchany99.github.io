@@ -1,6 +1,7 @@
 ---
 name: "러버댐"
 termSlug: rubber-dam
+seoTitle: "러버댐이란? — 무엇이고 왜 쓰나"
 en: "Rubber Dam"
 tier: B
 aliases:

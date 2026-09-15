@@ -1,6 +1,7 @@
 ---
 name: "백악질"
 termSlug: baegagjil
+seoTitle: "백악질이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Cementum"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "뼈이식"
 termSlug: bone-graft
+seoTitle: "뼈이식이란? — 언제 필요하고 어떻게 진행되나"
 en: "Bone Graft"
 tier: B
 aliases:

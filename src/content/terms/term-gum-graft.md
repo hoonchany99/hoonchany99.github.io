@@ -1,6 +1,7 @@
 ---
 name: "잇몸이식"
 termSlug: gum-graft
+seoTitle: "잇몸이식이란? — 언제 필요하고 회복은 어떤가"
 en: "Gingival Graft"
 tier: B
 aliases:

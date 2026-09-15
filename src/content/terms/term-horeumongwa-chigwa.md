@@ -1,6 +1,7 @@
 ---
 name: "호르몬과 치과"
 termSlug: horeumongwa-chigwa
+seoTitle: "호르몬과 치과 — 잇몸에 어떤 영향을 주나"
 en: "Hormones and Oral Health"
 tier: B
 aliases:

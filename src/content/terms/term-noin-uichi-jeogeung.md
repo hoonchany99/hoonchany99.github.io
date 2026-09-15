@@ -1,6 +1,7 @@
 ---
 name: "노인 의치 적응"
 termSlug: noin-uichi-jeogeung
+seoTitle: "새 틀니 적응 — 얼마나 걸리고 어떻게 익숙해지나"
 en: "Adapting to New Dentures"
 tier: B
 aliases:

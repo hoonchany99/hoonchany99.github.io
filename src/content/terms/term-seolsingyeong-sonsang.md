@@ -1,6 +1,7 @@
 ---
 name: "설신경 손상"
 termSlug: seolsingyeong-sonsang
+seoTitle: "설신경 손상이란? — 왜 생기고 회복되나"
 en: "Lingual Nerve Injury"
 tier: B
 aliases:

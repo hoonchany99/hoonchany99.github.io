@@ -1,6 +1,7 @@
 ---
 name: "치주낭"
 termSlug: periodontal-pocket
+seoTitle: "치주낭이란? — 무엇을 뜻하고 어떻게 치료하나"
 en: "Periodontal Pocket"
 tier: B
 aliases:

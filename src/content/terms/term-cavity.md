@@ -1,6 +1,7 @@
 ---
 name: "충치"
 termSlug: cavity
+seoTitle: "충치란? — 왜 생기고 어떻게 치료하나"
 en: "Tooth Decay"
 tier: A
 aliases:

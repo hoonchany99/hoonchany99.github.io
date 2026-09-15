@@ -1,6 +1,7 @@
 ---
 name: "신경치료"
 termSlug: root-canal
+seoTitle: "신경치료란? — 언제 필요하고 어떻게 진행되나"
 en: "Root Canal Treatment"
 tier: A
 aliases:

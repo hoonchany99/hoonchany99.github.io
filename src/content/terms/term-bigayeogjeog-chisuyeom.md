@@ -1,6 +1,7 @@
 ---
 name: "비가역적 치수염"
 termSlug: bigayeogjeog-chisuyeom
+seoTitle: "비가역적 치수염이란? — 어떤 상태이고 어떻게 치료하나"
 en: "Irreversible Pulpitis"
 tier: B
 aliases:

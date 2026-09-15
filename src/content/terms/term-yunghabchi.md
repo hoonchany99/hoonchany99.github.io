@@ -1,6 +1,7 @@
 ---
 name: "융합치"
 termSlug: yunghabchi
+seoTitle: "융합치란? — 어떤 치아이고 치료가 필요한가"
 en: "Fusion"
 tier: B
 aliases:

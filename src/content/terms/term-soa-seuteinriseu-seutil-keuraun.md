@@ -1,6 +1,7 @@
 ---
 name: "소아 스테인리스 스틸 크라운"
 termSlug: soa-seuteinriseu-seutil-keuraun
+seoTitle: "소아 스테인리스 스틸 크라운이란? — 왜 쓰고 괜찮은가"
 en: "Stainless Steel Crown"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "노인 연하장애"
 termSlug: noin-yeonhajangae
+seoTitle: "노인 연하장애 — 구강 관리와 어떤 관련이 있나"
 en: "Dysphagia in Older Adults"
 tier: B
 aliases:

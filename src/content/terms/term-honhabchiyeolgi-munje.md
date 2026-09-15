@@ -1,6 +1,7 @@
 ---
 name: "혼합치열기 문제"
 termSlug: honhabchiyeolgi-munje
+seoTitle: "혼합치열기 — 어떤 시기이고 무엇을 확인해야 하나"
 en: "Mixed Dentition"
 tier: B
 aliases:

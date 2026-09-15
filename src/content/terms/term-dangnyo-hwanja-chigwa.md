@@ -1,6 +1,7 @@
 ---
 name: "당뇨 환자 치과"
 termSlug: dangnyo-hwanja-chigwa
+seoTitle: "당뇨 환자 치과 치료 — 무엇을 확인하고 조심하나"
 en: "Diabetes and Dental Care"
 tier: B
 aliases:

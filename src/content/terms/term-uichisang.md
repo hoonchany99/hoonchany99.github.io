@@ -1,6 +1,7 @@
 ---
 name: "의치상"
 termSlug: uichisang
+seoTitle: "의치상이란? — 틀니의 어느 부분이고 무슨 문제가 생기나"
 en: "Denture Base"
 tier: B
 aliases:

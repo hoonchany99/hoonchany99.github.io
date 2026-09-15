@@ -1,6 +1,7 @@
 ---
 name: "전정성형술"
 termSlug: vestibuloplasty
+seoTitle: "전정성형술이란? — 언제 필요하고 회복은 어떤가"
 en: "Vestibuloplasty"
 tier: B
 aliases:

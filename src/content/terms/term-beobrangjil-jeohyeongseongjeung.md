@@ -1,6 +1,7 @@
 ---
 name: "법랑질 저형성증"
 termSlug: beobrangjil-jeohyeongseongjeung
+seoTitle: "법랑질 저형성증이란? — 왜 생기고 어떻게 치료하나"
 en: "Enamel Hypoplasia"
 tier: B
 aliases:

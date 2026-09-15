@@ -1,6 +1,7 @@
 ---
 name: "유치 외상"
 termSlug: yuchi-oesang
+seoTitle: "유치 외상 — 어떻게 대처하고 언제 병원에 가나"
 en: "Primary Tooth Trauma"
 tier: B
 aliases:

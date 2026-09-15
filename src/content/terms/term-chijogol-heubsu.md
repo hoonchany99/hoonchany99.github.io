@@ -1,6 +1,7 @@
 ---
 name: "치조골 흡수"
 termSlug: chijogol-heubsu
+seoTitle: "치조골 흡수란? — 왜 생기고 어떻게 막나"
 en: "Alveolar Bone Resorption"
 tier: B
 aliases:

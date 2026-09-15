@@ -1,6 +1,7 @@
 ---
 name: "교합조정"
 termSlug: occlusal-adjustment
+seoTitle: "교합조정이란? — 왜 하고 치아에 괜찮은가"
 en: "Occlusal Adjustment"
 tier: B
 aliases:

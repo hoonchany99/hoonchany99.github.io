@@ -1,6 +1,7 @@
 ---
 name: "턱에서 소리"
 termSlug: teogeseo-sori
+seoTitle: "턱에서 소리가 날 때 — 왜 나고 치료가 필요한가"
 en: "TMJ Sounds"
 tier: B
 aliases:

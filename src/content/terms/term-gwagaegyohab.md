@@ -1,6 +1,7 @@
 ---
 name: "과개교합"
 termSlug: gwagaegyohab
+seoTitle: "과개교합이란? — 어떤 상태이고 어떻게 치료하나"
 en: "Deep Bite"
 tier: B
 aliases:

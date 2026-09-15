@@ -1,6 +1,7 @@
 ---
 name: "투스젬"
 termSlug: tooth-gem
+seoTitle: "투스젬이란? — 어떤 시술이고 치아에 괜찮은가"
 en: "Tooth Gem"
 tier: B
 aliases:

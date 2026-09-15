@@ -1,6 +1,7 @@
 ---
 name: "치성 상악동염"
 termSlug: chiseong-sangagdongyeom
+seoTitle: "치성 상악동염이란? — 왜 생기고 어떻게 치료하나"
 en: "Odontogenic Sinusitis"
 tier: B
 aliases:

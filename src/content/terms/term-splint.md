@@ -1,6 +1,7 @@
 ---
 name: "스플린트"
 termSlug: splint
+seoTitle: "스플린트란? — 어떤 장치이고 어떻게 쓰나"
 en: "Occlusal Splint"
 tier: B
 aliases:

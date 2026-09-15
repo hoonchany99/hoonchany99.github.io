@@ -1,6 +1,7 @@
 ---
 name: "전동 칫솔"
 termSlug: jeondong-chissol
+seoTitle: "전동 칫솔 — 무엇이 좋고 어떻게 쓰나"
 en: "Electric Toothbrush"
 tier: B
 aliases:

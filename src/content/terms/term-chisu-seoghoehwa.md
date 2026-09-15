@@ -1,6 +1,7 @@
 ---
 name: "치수 석회화"
 termSlug: chisu-seoghoehwa
+seoTitle: "치수 석회화란? — 어떤 변화이고 치료가 필요한가"
 en: "Pulp Canal Calcification"
 tier: B
 aliases:

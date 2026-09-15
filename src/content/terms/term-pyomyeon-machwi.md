@@ -1,6 +1,7 @@
 ---
 name: "표면 마취"
 termSlug: pyomyeon-machwi
+seoTitle: "표면 마취란? — 어떤 마취이고 언제 쓰나"
 en: "Topical Anesthesia"
 tier: B
 aliases:

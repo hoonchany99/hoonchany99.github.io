@@ -1,6 +1,7 @@
 ---
 name: "세렉"
 termSlug: cerec
+seoTitle: "세렉(CEREC)이란? — 어떤 방식이고 어떤 장단점이 있나"
 en: "CEREC"
 tier: A
 aliases:

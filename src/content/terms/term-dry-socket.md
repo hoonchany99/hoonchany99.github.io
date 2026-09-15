@@ -1,6 +1,7 @@
 ---
 name: "건조와"
 termSlug: dry-socket
+seoTitle: "건조와란? — 왜 생기고 어떻게 치료하나"
 en: "Alveolar Osteitis"
 tier: B
 aliases:

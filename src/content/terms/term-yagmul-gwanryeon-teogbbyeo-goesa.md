@@ -1,6 +1,7 @@
 ---
 name: "약물 관련 턱뼈 괴사 (MRONJ)"
 termSlug: yagmul-gwanryeon-teogbbyeo-goesa
+seoTitle: "MRONJ(약물 관련 턱뼈 괴사)란? — 왜 생기고 어떻게 예방하나"
 en: "Medication-Related Osteonecrosis of the Jaw"
 tier: B
 aliases:

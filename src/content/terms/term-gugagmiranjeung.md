@@ -1,6 +1,7 @@
 ---
 name: "구각미란증"
 termSlug: gugagmiranjeung
+seoTitle: "구각미란증이란? — 왜 생기고 어떻게 치료하나"
 en: "Angular Cheilitis"
 tier: B
 aliases:

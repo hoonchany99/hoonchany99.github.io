@@ -1,6 +1,7 @@
 ---
 name: "교정 진단 검사"
 termSlug: gyojeong-jindan-geomsa
+seoTitle: "교정 진단 검사란? — 무엇을 보고 어떻게 진행되나"
 en: "Orthodontic Diagnostic Records"
 tier: B
 aliases:

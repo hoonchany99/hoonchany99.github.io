@@ -1,6 +1,7 @@
 ---
 name: "보철 색조 선택"
 termSlug: bocheol-saegjo-seontaeg
+seoTitle: "보철 색조 선택 — 어떻게 정하고 무엇을 준비하나"
 en: "Shade Selection"
 tier: B
 aliases:

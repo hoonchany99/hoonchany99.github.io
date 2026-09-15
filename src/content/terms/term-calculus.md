@@ -1,6 +1,7 @@
 ---
 name: "치석"
 termSlug: calculus
+seoTitle: "치석이란? — 왜 생기고 어떻게 없애나"
 en: "Dental Calculus"
 tier: A
 aliases:

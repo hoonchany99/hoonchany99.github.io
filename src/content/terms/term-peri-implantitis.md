@@ -1,6 +1,7 @@
 ---
 name: "임플란트 주위염"
 termSlug: peri-implantitis
+seoTitle: "임플란트 주위염이란? — 왜 생기고 어떻게 치료하나"
 en: "Peri-implantitis"
 tier: B
 aliases:

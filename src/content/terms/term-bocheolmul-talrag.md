@@ -1,6 +1,7 @@
 ---
 name: "보철물 탈락"
 termSlug: bocheolmul-talrag
+seoTitle: "보철물 탈락 — 왜 빠지고 어떻게 대처하나"
 en: "Restoration Debonding"
 tier: B
 aliases:

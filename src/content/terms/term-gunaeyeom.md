@@ -1,6 +1,7 @@
 ---
 name: "구내염"
 termSlug: gunaeyeom
+seoTitle: "구내염이란? — 왜 생기고 어떻게 관리하나"
 en: "Stomatitis"
 tier: B
 aliases:

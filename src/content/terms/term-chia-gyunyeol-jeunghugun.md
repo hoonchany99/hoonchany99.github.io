@@ -1,6 +1,7 @@
 ---
 name: "치아 균열 증후군"
 termSlug: chia-gyunyeol-jeunghugun
+seoTitle: "치아 균열 증후군이란? — 어떤 증상이고 어떻게 치료하나"
 en: "Cracked Tooth Syndrome"
 tier: B
 aliases:

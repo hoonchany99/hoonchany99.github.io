@@ -1,6 +1,7 @@
 ---
 name: "교정용 미니스크류"
 termSlug: gyojeongyong-miniseukeuryu
+seoTitle: "교정용 미니스크류란? — 왜 쓰고 어떻게 관리하나"
 en: "Orthodontic Mini-Screw"
 tier: B
 aliases:

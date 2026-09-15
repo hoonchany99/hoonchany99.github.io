@@ -1,6 +1,7 @@
 ---
 name: "치아미백"
 termSlug: whitening
+seoTitle: "치아미백이란? — 어떻게 하고 얼마나 가나"
 en: "Tooth Whitening"
 tier: A
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "만성 치수염"
 termSlug: manseong-chisuyeom
+seoTitle: "만성 치수염이란? — 어떤 상태이고 치료가 필요한가"
 en: "Chronic Pulpitis"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "치주 소파술"
 termSlug: chiju-sopasul
+seoTitle: "치주 소파술이란? — 어떤 치료이고 회복은 어떤가"
 en: "Periodontal Curettage"
 tier: B
 aliases:

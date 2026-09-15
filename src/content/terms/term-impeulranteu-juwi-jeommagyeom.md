@@ -1,6 +1,7 @@
 ---
 name: "임플란트 주위 점막염"
 termSlug: impeulranteu-juwi-jeommagyeom
+seoTitle: "임플란트 주위 점막염이란? — 어떤 상태이고 어떻게 치료하나"
 en: "Peri-implant Mucositis"
 tier: B
 aliases:

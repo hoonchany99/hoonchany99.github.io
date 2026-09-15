@@ -1,6 +1,7 @@
 ---
 name: "치관주위염"
 termSlug: pericoronitis
+seoTitle: "치관주위염이란? — 왜 생기고 어떻게 치료하나"
 en: "Pericoronitis"
 tier: A
 aliases:

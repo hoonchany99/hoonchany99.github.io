@@ -1,6 +1,7 @@
 ---
 name: "치아 맹출 지연"
 termSlug: chia-maengchul-jiyeon
+seoTitle: "치아 맹출 지연이란? — 왜 늦고 언제 확인해야 하나"
 en: "Delayed Eruption"
 tier: B
 aliases:

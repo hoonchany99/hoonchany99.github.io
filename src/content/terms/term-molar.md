@@ -1,6 +1,7 @@
 ---
 name: "어금니"
 termSlug: molar
+seoTitle: "어금니란? — 어떤 치아이고 무슨 문제가 잘 생기나"
 en: "Molar"
 tier: B
 aliases:

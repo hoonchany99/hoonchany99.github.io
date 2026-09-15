@@ -1,6 +1,7 @@
 ---
 name: "수족구병"
 termSlug: sujoggubyeong
+seoTitle: "수족구병이란? — 입안에 어떤 증상이 생기고 어떻게 관리하나"
 en: "Hand, Foot and Mouth Disease"
 tier: B
 aliases:

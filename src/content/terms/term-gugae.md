@@ -1,6 +1,7 @@
 ---
 name: "구개"
 termSlug: gugae
+seoTitle: "구개란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Palate"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "구강 백색 해면상 모반"
 termSlug: gugang-baegsaeg-haemyeonsang-moban
+seoTitle: "구강 백색 해면상 모반이란? — 어떤 질환이고 치료가 필요한가"
 en: "White Sponge Nevus"
 tier: B
 aliases:

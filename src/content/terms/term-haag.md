@@ -1,6 +1,7 @@
 ---
 name: "하악"
 termSlug: haag
+seoTitle: "하악이란? — 어디를 말하고 치료할 때 왜 중요한가"
 en: "Mandible"
 tier: B
 aliases:

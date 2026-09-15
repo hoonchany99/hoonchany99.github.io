@@ -1,6 +1,7 @@
 ---
 name: "치은 출혈"
 termSlug: chieun-chulhyeol
+seoTitle: "치은 출혈이란? — 왜 피가 나고 어떻게 치료하나"
 en: "Gingival Bleeding"
 tier: B
 aliases:

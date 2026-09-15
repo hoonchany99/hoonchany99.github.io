@@ -1,6 +1,7 @@
 ---
 name: "흑모설"
 termSlug: heugmoseol
+seoTitle: "흑모설이란? — 왜 생기고 어떻게 없애나"
 en: "Black Hairy Tongue"
 tier: B
 aliases:

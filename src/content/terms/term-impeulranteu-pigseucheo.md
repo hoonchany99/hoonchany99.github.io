@@ -1,6 +1,7 @@
 ---
 name: "임플란트 픽스처"
 termSlug: impeulranteu-pigseucheo
+seoTitle: "임플란트 픽스처란? — 어떤 부품이고 무엇이 중요한가"
 en: "Implant Fixture"
 tier: B
 aliases:

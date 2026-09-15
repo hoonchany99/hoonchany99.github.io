@@ -1,6 +1,7 @@
 ---
 name: "이소 맹출"
 termSlug: iso-maengchul
+seoTitle: "이소 맹출이란? — 왜 생기고 어떻게 치료하나"
 en: "Ectopic Eruption"
 tier: B
 aliases:

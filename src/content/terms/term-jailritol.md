@@ -1,6 +1,7 @@
 ---
 name: "자일리톨"
 termSlug: jailritol
+seoTitle: "자일리톨 — 충치 예방에 어떤 도움이 되나"
 en: "Xylitol"
 tier: B
 aliases:

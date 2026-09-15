@@ -1,6 +1,7 @@
 ---
 name: "보철물 파절"
 termSlug: bocheolmul-pajeol
+seoTitle: "보철물 파절이란? — 왜 깨지고 어떻게 치료하나"
 en: "Restoration Fracture"
 tier: B
 aliases:

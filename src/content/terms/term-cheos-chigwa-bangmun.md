@@ -1,6 +1,7 @@
 ---
 name: "첫 치과 방문"
 termSlug: cheos-chigwa-bangmun
+seoTitle: "아이 첫 치과 방문 — 언제 가고 무엇을 준비하나"
 en: "First Dental Visit"
 tier: B
 aliases:

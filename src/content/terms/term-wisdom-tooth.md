@@ -1,6 +1,7 @@
 ---
 name: "사랑니"
 termSlug: wisdom-tooth
+seoTitle: "사랑니 — 왜 문제가 되고 꼭 빼야 하나"
 en: "Third Molar"
 tier: A
 aliases:

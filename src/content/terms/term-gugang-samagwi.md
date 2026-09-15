@@ -1,6 +1,7 @@
 ---
 name: "구강 사마귀"
 termSlug: gugang-samagwi
+seoTitle: "구강 사마귀란? — 왜 생기고 어떻게 치료하나"
 en: "Oral Wart"
 tier: B
 aliases:

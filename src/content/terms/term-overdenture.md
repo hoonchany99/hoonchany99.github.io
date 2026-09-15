@@ -1,6 +1,7 @@
 ---
 name: "오버덴처"
 termSlug: overdenture
+seoTitle: "오버덴처란? — 어떤 틀니이고 어떤 장단점이 있나"
 en: "Overdenture"
 tier: B
 aliases:

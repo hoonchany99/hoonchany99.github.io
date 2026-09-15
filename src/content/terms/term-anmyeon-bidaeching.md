@@ -1,6 +1,7 @@
 ---
 name: "안면 비대칭"
 termSlug: anmyeon-bidaeching
+seoTitle: "안면 비대칭이란? — 왜 생기고 치료가 필요한가"
 en: "Facial Asymmetry"
 tier: B
 aliases:

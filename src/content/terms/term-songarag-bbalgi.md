@@ -1,6 +1,7 @@
 ---
 name: "손가락 빨기"
 termSlug: songarag-bbalgi
+seoTitle: "손가락 빨기 — 치아에 어떤 영향을 주고 언제 고치나"
 en: "Thumb Sucking"
 tier: B
 aliases:

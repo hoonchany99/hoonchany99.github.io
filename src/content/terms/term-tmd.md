@@ -1,6 +1,7 @@
 ---
 name: "턱관절장애"
 termSlug: tmd
+seoTitle: "턱관절장애(TMD)란? — 왜 생기고 어떻게 치료하나"
 en: "Temporomandibular Disorder"
 tier: A
 aliases:

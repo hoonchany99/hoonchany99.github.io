@@ -1,6 +1,7 @@
 ---
 name: "치근 파절"
 termSlug: chigeun-pajeol
+seoTitle: "치근 파절이란? — 어떤 상태이고 치아를 살릴 수 있나"
 en: "Root Fracture"
 tier: B
 aliases:

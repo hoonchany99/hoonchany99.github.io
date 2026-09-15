@@ -1,6 +1,7 @@
 ---
 name: "보철"
 termSlug: prosthesis
+seoTitle: "보철이란? — 어떤 종류가 있고 어떻게 고르나"
 en: "Dental Prosthesis"
 tier: B
 aliases:

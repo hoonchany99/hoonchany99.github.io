@@ -1,6 +1,7 @@
 ---
 name: "스케일링 건강보험"
 termSlug: seukeilring-geongangboheom
+seoTitle: "스케일링 건강보험 — 누가, 얼마나 적용되나"
 tier: B
 aliases:
   - "스케일링 건강보험"

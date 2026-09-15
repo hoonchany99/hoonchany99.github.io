@@ -1,6 +1,7 @@
 ---
 name: "홍색판증"
 termSlug: hongsaegpanjeung
+seoTitle: "홍색판증이란? — 얼마나 위험하고 어떻게 치료하나"
 en: "Erythroplakia"
 tier: B
 aliases:

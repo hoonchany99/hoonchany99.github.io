@@ -1,6 +1,7 @@
 ---
 name: "치주인대"
 termSlug: chijuindae
+seoTitle: "치주인대란? — 어디를 말하고 어떤 역할을 하나"
 en: "Periodontal Ligament"
 tier: B
 aliases:

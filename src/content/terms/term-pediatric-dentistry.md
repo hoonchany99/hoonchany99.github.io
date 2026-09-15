@@ -1,6 +1,7 @@
 ---
 name: "소아치과"
 termSlug: pediatric-dentistry
+seoTitle: "소아치과란? — 무엇을 하고 언제부터 가나"
 en: "Pediatric Dentistry"
 tier: B
 aliases:

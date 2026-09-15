@@ -1,6 +1,7 @@
 ---
 name: "인레이"
 termSlug: inlay
+seoTitle: "인레이란? — 어떤 치료이고 언제 선택하나"
 en: "Inlay"
 tier: A
 aliases:

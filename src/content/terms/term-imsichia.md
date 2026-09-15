@@ -1,6 +1,7 @@
 ---
 name: "임시치아"
 termSlug: imsichia
+seoTitle: "임시치아란? — 왜 쓰고 무엇을 조심하나"
 en: "Temporary Restoration"
 tier: B
 aliases:

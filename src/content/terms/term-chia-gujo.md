@@ -1,6 +1,7 @@
 ---
 name: "치아 구조"
 termSlug: chia-gujo
+seoTitle: "치아 구조 — 어떻게 이루어져 있고 어디가 문제가 되나"
 en: "Tooth Anatomy"
 tier: B
 aliases:

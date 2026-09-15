@@ -1,6 +1,7 @@
 ---
 name: "소아 진정치료"
 termSlug: soa-jinjeongchiryo
+seoTitle: "소아 진정치료란? — 어떤 방법이고 안전한가"
 en: "Pediatric Sedation"
 tier: B
 aliases:

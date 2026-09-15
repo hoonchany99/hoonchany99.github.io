@@ -1,6 +1,7 @@
 ---
 name: "예방적 항생제"
 termSlug: yebangjeog-hangsaengje
+seoTitle: "예방적 항생제 — 누가, 언제 먹어야 하나"
 en: "Antibiotic Prophylaxis"
 tier: B
 aliases:

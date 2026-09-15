@@ -1,6 +1,7 @@
 ---
 name: "쌍생치"
 termSlug: ssangsaengchi
+seoTitle: "쌍생치란? — 어떤 치아이고 치료가 필요한가"
 en: "Gemination"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "인비절라인"
 termSlug: invisalign
+seoTitle: "인비절라인이란? — 어떤 교정이고 어떤 장단점이 있나"
 en: "Invisalign"
 tier: A
 aliases:

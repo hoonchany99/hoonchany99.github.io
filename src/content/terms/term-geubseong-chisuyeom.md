@@ -1,6 +1,7 @@
 ---
 name: "급성 치수염"
 termSlug: geubseong-chisuyeom
+seoTitle: "급성 치수염이란? — 왜 아프고 어떻게 치료하나"
 en: "Acute Pulpitis"
 tier: B
 aliases:

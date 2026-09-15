@@ -1,6 +1,7 @@
 ---
 name: "거대치"
 termSlug: geodaechi
+seoTitle: "거대치란? — 어떤 상태이고 치료가 필요한가"
 en: "Macrodontia"
 tier: B
 aliases:

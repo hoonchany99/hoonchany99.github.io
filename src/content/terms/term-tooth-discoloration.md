@@ -1,6 +1,7 @@
 ---
 name: "치아 변색"
 termSlug: tooth-discoloration
+seoTitle: "치아 변색이란? — 왜 생기고 어떻게 되돌리나"
 en: "Tooth Discoloration"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "하치조신경"
 termSlug: hachijosingyeong
+seoTitle: "하치조신경이란? — 어디를 지나고 왜 중요한가"
 en: "Inferior Alveolar Nerve"
 tier: B
 aliases:

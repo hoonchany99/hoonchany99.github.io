@@ -1,6 +1,7 @@
 ---
 name: "삼차신경통"
 termSlug: samchasingyeongtong
+seoTitle: "삼차신경통이란? — 어떤 통증이고 어떻게 치료하나"
 en: "Trigeminal Neuralgia"
 tier: B
 aliases:

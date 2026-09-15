@@ -1,6 +1,7 @@
 ---
 name: "구강 메탈릭 테이스트"
 termSlug: gugang-metalrig-teiseuteu
+seoTitle: "입에서 쇠 맛이 날 때 — 왜 그렇고 무엇을 확인하나"
 en: "Metallic Taste"
 tier: B
 aliases:

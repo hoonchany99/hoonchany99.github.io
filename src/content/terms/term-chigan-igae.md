@@ -1,6 +1,7 @@
 ---
 name: "치간 이개"
 termSlug: chigan-igae
+seoTitle: "치간 이개란? — 왜 벌어지고 어떻게 치료하나"
 en: "Diastema"
 tier: B
 aliases:

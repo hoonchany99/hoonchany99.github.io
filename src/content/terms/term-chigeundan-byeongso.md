@@ -1,6 +1,7 @@
 ---
 name: "치근단 병소"
 termSlug: chigeundan-byeongso
+seoTitle: "치근단 병소란? — 왜 생기고 어떻게 치료하나"
 en: "Periapical Lesion"
 tier: B
 aliases:

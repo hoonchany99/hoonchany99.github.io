@@ -1,6 +1,7 @@
 ---
 name: "기능적 교정 장치"
 termSlug: gineungjeog-gyojeong-jangchi
+seoTitle: "기능적 교정 장치란? — 어떤 장치이고 언제 쓰나"
 en: "Functional Appliance"
 tier: B
 aliases:

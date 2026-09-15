@@ -1,6 +1,7 @@
 ---
 name: "구강암"
 termSlug: gugangam
+seoTitle: "구강암이란? — 어떤 신호가 있고 어떻게 확인하나"
 en: "Oral Cancer"
 tier: B
 aliases:

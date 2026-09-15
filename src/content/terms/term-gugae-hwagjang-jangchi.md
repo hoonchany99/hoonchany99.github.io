@@ -1,6 +1,7 @@
 ---
 name: "구개 확장 장치"
 termSlug: gugae-hwagjang-jangchi
+seoTitle: "구개 확장 장치란? — 어떤 장치이고 언제 쓰나"
 en: "Palatal Expander"
 tier: B
 aliases:

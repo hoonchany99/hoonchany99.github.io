@@ -1,6 +1,7 @@
 ---
 name: "글라스 아이오노머"
 termSlug: geulraseu-aionomeo
+seoTitle: "글라스 아이오노머란? — 어떤 재료이고 언제 쓰나"
 en: "Glass Ionomer"
 tier: B
 aliases:

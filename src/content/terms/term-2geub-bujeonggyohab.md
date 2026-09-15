@@ -1,6 +1,7 @@
 ---
 name: "2급 부정교합"
 termSlug: 2geub-bujeonggyohab
+seoTitle: "2급 부정교합이란? — 어떤 상태이고 언제 치료하나"
 en: "Class II Malocclusion"
 tier: B
 aliases:

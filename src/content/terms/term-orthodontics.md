@@ -1,6 +1,7 @@
 ---
 name: "치아교정"
 termSlug: orthodontics
+seoTitle: "치아교정이란? — 어떤 방법이 있고 얼마나 걸리나"
 en: "Orthodontic Treatment"
 tier: B
 aliases:

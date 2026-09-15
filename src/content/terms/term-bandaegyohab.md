@@ -1,6 +1,7 @@
 ---
 name: "반대교합"
 termSlug: bandaegyohab
+seoTitle: "반대교합이란? — 왜 생기고 언제 치료하나"
 en: "Anterior Crossbite"
 tier: B
 aliases:

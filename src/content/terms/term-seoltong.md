@@ -1,6 +1,7 @@
 ---
 name: "설통"
 termSlug: seoltong
+seoTitle: "설통이란? — 왜 아프고 어떻게 치료하나"
 en: "Glossodynia"
 tier: B
 aliases:

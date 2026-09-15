@@ -1,6 +1,7 @@
 ---
 name: "라미네이트"
 termSlug: laminate
+seoTitle: "라미네이트란? — 어떤 치료이고 어떤 장단점이 있나"
 en: "Laminate Veneer"
 tier: A
 aliases:

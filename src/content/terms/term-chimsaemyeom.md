@@ -1,6 +1,7 @@
 ---
 name: "침샘염"
 termSlug: chimsaemyeom
+seoTitle: "침샘염이란? — 왜 생기고 어떻게 치료하나"
 en: "Sialadenitis"
 tier: B
 aliases:

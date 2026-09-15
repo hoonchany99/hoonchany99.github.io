@@ -1,6 +1,7 @@
 ---
 name: "치근단염"
 termSlug: apical-periodontitis
+seoTitle: "치근단염이란? — 왜 생기고 어떻게 치료하나"
 en: "Apical Periodontitis"
 tier: B
 aliases:

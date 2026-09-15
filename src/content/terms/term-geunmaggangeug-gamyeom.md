@@ -1,6 +1,7 @@
 ---
 name: "근막간극 감염"
 termSlug: geunmaggangeug-gamyeom
+seoTitle: "근막간극 감염이란? — 왜 번지고 언제 응급인가"
 en: "Fascial Space Infection"
 tier: B
 aliases:

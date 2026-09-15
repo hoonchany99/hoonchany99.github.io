@@ -1,6 +1,7 @@
 ---
 name: "치관 연장술"
 termSlug: chigwan-yeonjangsul
+seoTitle: "치관 연장술이란? — 왜 하고 어떻게 진행되나"
 en: "Crown Lengthening"
 tier: B
 aliases:

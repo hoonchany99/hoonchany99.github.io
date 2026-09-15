@@ -1,6 +1,7 @@
 ---
 name: "쇼그렌 증후군"
 termSlug: syogeuren-jeunghugun
+seoTitle: "쇼그렌 증후군이란? — 입에 어떤 문제가 생기고 어떻게 관리하나"
 en: "Sjögren Syndrome"
 tier: B
 aliases:

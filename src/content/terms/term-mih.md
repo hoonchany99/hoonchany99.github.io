@@ -1,6 +1,7 @@
 ---
 name: "MIH"
 termSlug: mih
+seoTitle: "MIH란? — 어떤 상태이고 어떻게 치료하나"
 en: "Molar Incisor Hypomineralisation"
 tier: B
 aliases:

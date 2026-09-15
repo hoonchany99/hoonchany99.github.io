@@ -1,6 +1,7 @@
 ---
 name: "틀니 관리법"
 termSlug: teulni-gwanribeob
+seoTitle: "틀니 관리법 — 어떻게 닦고 보관하나"
 en: "Denture Care"
 tier: B
 aliases:

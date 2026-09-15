@@ -1,6 +1,7 @@
 ---
 name: "공간 유지 장치"
 termSlug: gonggan-yuji-jangchi
+seoTitle: "공간 유지 장치란? — 왜 필요하고 얼마나 쓰나"
 en: "Space Maintainer"
 tier: B
 aliases:

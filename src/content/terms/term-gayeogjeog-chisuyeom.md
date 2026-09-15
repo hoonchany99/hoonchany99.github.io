@@ -1,6 +1,7 @@
 ---
 name: "가역적 치수염"
 termSlug: gayeogjeog-chisuyeom
+seoTitle: "가역적 치수염이란? — 어떤 상태이고 신경을 살릴 수 있나"
 en: "Reversible Pulpitis"
 tier: B
 aliases:

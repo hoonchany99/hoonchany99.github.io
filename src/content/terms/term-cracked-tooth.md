@@ -1,6 +1,7 @@
 ---
 name: "치아 크랙"
 termSlug: cracked-tooth
+seoTitle: "치아 크랙이란? — 왜 생기고 어떻게 치료하나"
 en: "Cracked Tooth Syndrome"
 tier: A
 aliases:

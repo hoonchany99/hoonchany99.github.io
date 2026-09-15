@@ -1,6 +1,7 @@
 ---
 name: "3급 부정교합"
 termSlug: 3geub-bujeonggyohab
+seoTitle: "3급 부정교합이란? — 왜 생기고 어떻게 치료하나"
 en: "Class III Malocclusion"
 tier: B
 aliases:

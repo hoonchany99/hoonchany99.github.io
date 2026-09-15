@@ -1,6 +1,7 @@
 ---
 name: "스포츠 마우스가드"
 termSlug: seupocheu-mauseugadeu
+seoTitle: "스포츠 마우스가드 — 왜 필요하고 어떻게 고르나"
 en: "Sports Mouthguard"
 tier: B
 aliases:

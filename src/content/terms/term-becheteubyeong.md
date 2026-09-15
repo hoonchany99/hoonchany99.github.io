@@ -1,6 +1,7 @@
 ---
 name: "베체트병"
 termSlug: becheteubyeong
+seoTitle: "베체트병이란? — 어떤 증상이고 어떻게 관리하나"
 en: "Behçet Disease"
 tier: B
 aliases:

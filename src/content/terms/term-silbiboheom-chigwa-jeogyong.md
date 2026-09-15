@@ -1,6 +1,7 @@
 ---
 name: "실비보험 치과 적용"
 termSlug: silbiboheom-chigwa-jeogyong
+seoTitle: "치과 실비보험 — 어떤 치료가 청구되나"
 tier: B
 aliases:
   - "실비보험 치과 적용"

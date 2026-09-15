@@ -1,6 +1,7 @@
 ---
 name: "턱관절 장애 자가 진단"
 termSlug: teoggwanjeol-jangae-jaga-jindan
+seoTitle: "턱관절 장애 자가 진단 — 무엇을 확인하고 언제 병원에 가나"
 en: "TMD Self-Assessment"
 tier: B
 aliases:

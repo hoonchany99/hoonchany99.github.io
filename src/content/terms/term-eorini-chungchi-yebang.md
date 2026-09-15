@@ -1,6 +1,7 @@
 ---
 name: "어린이 충치 예방"
 termSlug: eorini-chungchi-yebang
+seoTitle: "어린이 충치 예방 — 언제부터 무엇을 해야 하나"
 en: "Caries Prevention in Children"
 tier: B
 aliases:

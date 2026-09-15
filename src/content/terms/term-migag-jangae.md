@@ -1,6 +1,7 @@
 ---
 name: "미각 장애"
 termSlug: migag-jangae
+seoTitle: "미각 장애란? — 왜 생기고 회복되나"
 en: "Taste Disorder"
 tier: B
 aliases:

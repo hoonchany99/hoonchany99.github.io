@@ -1,6 +1,7 @@
 ---
 name: "1급 부정교합"
 termSlug: 1geub-bujeonggyohab
+seoTitle: "1급 부정교합이란? — 어떤 상태이고 어떻게 치료하나"
 en: "Class I Malocclusion"
 tier: B
 aliases:

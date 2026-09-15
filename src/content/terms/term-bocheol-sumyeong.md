@@ -1,6 +1,7 @@
 ---
 name: "보철 수명"
 termSlug: bocheol-sumyeong
+seoTitle: "보철물 수명 — 얼마나 쓰고 어떻게 오래 쓰나"
 en: "Prosthesis Longevity"
 tier: B
 aliases:

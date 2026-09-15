@@ -1,6 +1,7 @@
 ---
 name: "치관"
 termSlug: chigwan
+seoTitle: "치관이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Anatomical Crown"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "CT"
 termSlug: ct
+seoTitle: "치과 CT란? — 언제 찍고 얼마나 안전한가"
 en: "Cone Beam CT"
 tier: B
 aliases:

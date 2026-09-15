@@ -1,6 +1,7 @@
 ---
 name: "치수 폴립"
 termSlug: chisu-polrib
+seoTitle: "치수 폴립이란? — 왜 생기고 어떻게 치료하나"
 en: "Pulp Polyp"
 tier: B
 aliases:

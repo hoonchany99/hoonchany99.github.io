@@ -1,6 +1,7 @@
 ---
 name: "구강 점막하 섬유증"
 termSlug: gugang-jeommagha-seomyujeung
+seoTitle: "구강 점막하 섬유증이란? — 왜 생기고 어떻게 치료하나"
 en: "Oral Submucous Fibrosis"
 tier: B
 aliases:

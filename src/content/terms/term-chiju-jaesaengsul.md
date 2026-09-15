@@ -1,6 +1,7 @@
 ---
 name: "치주 재생술"
 termSlug: chiju-jaesaengsul
+seoTitle: "치주 재생술이란? — 언제 가능하고 어떻게 진행되나"
 en: "Periodontal Regeneration"
 tier: B
 aliases:

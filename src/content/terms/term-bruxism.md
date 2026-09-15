@@ -1,6 +1,7 @@
 ---
 name: "이갈이"
 termSlug: bruxism
+seoTitle: "이갈이란? — 왜 생기고 어떻게 치료하나"
 en: "Bruxism"
 tier: B
 aliases:

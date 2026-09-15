@@ -1,6 +1,7 @@
 ---
 name: "즉시임플란트"
 termSlug: immediate-implant
+seoTitle: "즉시임플란트란? — 누구에게 가능하고 어떤 장단점이 있나"
 en: "Immediate Implant Placement"
 tier: A
 aliases:

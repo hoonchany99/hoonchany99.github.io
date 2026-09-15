@@ -1,6 +1,7 @@
 ---
 name: "화이트 스팟"
 termSlug: hwaiteu-seupas
+seoTitle: "화이트 스팟이란? — 왜 생기고 어떻게 치료하나"
 en: "White Spot Lesion"
 tier: B
 aliases:

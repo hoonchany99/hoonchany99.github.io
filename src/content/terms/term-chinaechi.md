@@ -1,6 +1,7 @@
 ---
 name: "치내치"
 termSlug: chinaechi
+seoTitle: "치내치란? — 어떤 형태이고 무슨 문제가 생기나"
 en: "Dens Invaginatus"
 tier: B
 aliases:

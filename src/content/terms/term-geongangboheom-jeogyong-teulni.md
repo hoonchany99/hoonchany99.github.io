@@ -1,6 +1,7 @@
 ---
 name: "건강보험 적용 틀니"
 termSlug: geongangboheom-jeogyong-teulni
+seoTitle: "틀니 건강보험 — 누가, 어디까지 적용되나"
 tier: B
 aliases:
   - "건강보험 적용 틀니"

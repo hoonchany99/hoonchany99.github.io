@@ -1,6 +1,7 @@
 ---
 name: "임플란트 실패"
 termSlug: impeulranteu-silpae
+seoTitle: "임플란트 실패 — 왜 생기고 다시 심을 수 있나"
 en: "Implant Failure"
 tier: B
 aliases:

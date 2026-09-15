@@ -1,6 +1,7 @@
 ---
 name: "소아 구강 검진"
 termSlug: soa-gugang-geomjin
+seoTitle: "소아 구강 검진 — 무엇을 보고 언제 받나"
 en: "Children's Dental Check-up"
 tier: B
 aliases:

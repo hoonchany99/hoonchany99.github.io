@@ -1,6 +1,7 @@
 ---
 name: "턱관절 디스크 변위"
 termSlug: teoggwanjeol-diseukeu-byeonwi
+seoTitle: "턱관절 디스크 변위란? — 어떤 상태이고 어떻게 치료하나"
 en: "TMJ Disc Displacement"
 tier: B
 aliases:

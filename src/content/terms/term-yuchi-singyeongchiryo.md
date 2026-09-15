@@ -1,6 +1,7 @@
 ---
 name: "유치 신경치료"
 termSlug: yuchi-singyeongchiryo
+seoTitle: "유치 신경치료 — 왜 하고 어떻게 진행되나"
 en: "Pulp Therapy in Primary Teeth"
 tier: B
 aliases:

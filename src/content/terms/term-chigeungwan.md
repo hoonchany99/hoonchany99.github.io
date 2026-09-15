@@ -1,6 +1,7 @@
 ---
 name: "치근관"
 termSlug: chigeungwan
+seoTitle: "치근관이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Root Canal (Anatomy)"
 tier: B
 aliases:

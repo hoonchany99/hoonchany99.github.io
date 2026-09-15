@@ -1,6 +1,7 @@
 ---
 name: "상악동거상술"
 termSlug: sinus-lift
+seoTitle: "상악동거상술이란? — 언제 필요하고 어떻게 진행되나"
 en: "Maxillary Sinus Lift"
 tier: B
 aliases:

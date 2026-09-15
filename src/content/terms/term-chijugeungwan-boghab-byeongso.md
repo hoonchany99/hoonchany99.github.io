@@ -1,6 +1,7 @@
 ---
 name: "치주-근관 복합 병소"
 termSlug: chijugeungwan-boghab-byeongso
+seoTitle: "치주-근관 복합 병소란? — 어떤 상태이고 어떻게 치료하나"
 en: "Endo-Perio Lesion"
 tier: B
 aliases:

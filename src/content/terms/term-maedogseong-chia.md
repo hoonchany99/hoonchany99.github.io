@@ -1,6 +1,7 @@
 ---
 name: "매독성 치아"
 termSlug: maedogseong-chia
+seoTitle: "매독성 치아란? — 어떤 모양이고 치료할 수 있나"
 en: "Syphilitic Teeth"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "GBR"
 termSlug: gbr
+seoTitle: "GBR이란? — 언제 필요하고 어떻게 진행되나"
 en: "Guided Bone Regeneration"
 tier: A
 aliases:

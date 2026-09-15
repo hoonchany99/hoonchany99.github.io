@@ -1,6 +1,7 @@
 ---
 name: "루드비히 앙기나"
 termSlug: rudeubihi-anggina
+seoTitle: "루드비히 앙기나란? — 왜 위험하고 어떻게 치료하나"
 en: "Ludwig Angina"
 tier: B
 aliases:

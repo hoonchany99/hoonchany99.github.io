@@ -1,6 +1,7 @@
 ---
 name: "구강 알레르기 증후군"
 termSlug: gugang-alrereugi-jeunghugun
+seoTitle: "구강 알레르기 증후군이란? — 왜 생기고 위험한가"
 en: "Oral Allergy Syndrome"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "젖니 빠지는 시기"
 termSlug: jeojni-bbajineun-sigi
+seoTitle: "젖니 빠지는 시기 — 언제 빠지고 무엇을 봐야 하나"
 en: "Exfoliation of Primary Teeth"
 tier: B
 aliases:

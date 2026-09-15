@@ -1,6 +1,7 @@
 ---
 name: "임플란트 수명"
 termSlug: impeulranteu-sumyeong
+seoTitle: "임플란트 수명 — 얼마나 쓰고 어떻게 오래 쓰나"
 en: "Implant Longevity"
 tier: B
 aliases:

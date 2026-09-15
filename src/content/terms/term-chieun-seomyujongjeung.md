@@ -1,6 +1,7 @@
 ---
 name: "치은 섬유종증"
 termSlug: chieun-seomyujongjeung
+seoTitle: "치은 섬유종증이란? — 어떤 질환이고 어떻게 치료하나"
 en: "Gingival Fibromatosis"
 tier: B
 aliases:

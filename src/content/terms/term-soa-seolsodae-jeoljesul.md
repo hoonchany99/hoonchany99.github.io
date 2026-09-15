@@ -1,6 +1,7 @@
 ---
 name: "소아 설소대 절제술"
 termSlug: soa-seolsodae-jeoljesul
+seoTitle: "소아 설소대 절제술이란? — 언제 필요하고 어떻게 하나"
 en: "Frenectomy in Children"
 tier: B
 aliases:

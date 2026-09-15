@@ -1,6 +1,7 @@
 ---
 name: "상악동 거상술 합병증"
 termSlug: sangagdong-geosangsul-habbyeongjeung
+seoTitle: "상악동거상술 합병증 — 어떤 문제가 생기고 어떻게 대처하나"
 en: "Sinus Lift Complications"
 tier: B
 aliases:

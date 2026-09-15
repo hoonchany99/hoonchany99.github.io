@@ -1,6 +1,7 @@
 ---
 name: "항암치료 환자 치과"
 termSlug: hangamchiryo-hwanja-chigwa
+seoTitle: "항암치료 환자 치과 — 언제 가고 무엇을 조심하나"
 en: "Dental Care in Cancer Patients"
 tier: B
 aliases:

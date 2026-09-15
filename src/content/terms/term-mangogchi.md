@@ -1,6 +1,7 @@
 ---
 name: "만곡치"
 termSlug: mangogchi
+seoTitle: "만곡치란? — 왜 생기고 어떻게 치료하나"
 en: "Dilaceration"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "치수강"
 termSlug: chisugang
+seoTitle: "치수강이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Pulp Chamber"
 tier: B
 aliases:

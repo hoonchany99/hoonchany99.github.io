@@ -1,6 +1,7 @@
 ---
 name: "치은열구"
 termSlug: chieunyeolgu
+seoTitle: "치은열구란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Gingival Sulcus"
 tier: B
 aliases:

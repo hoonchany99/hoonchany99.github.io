@@ -1,6 +1,7 @@
 ---
 name: "설측 교정"
 termSlug: seolcheug-gyojeong
+seoTitle: "설측 교정이란? — 어떤 교정이고 어떤 장단점이 있나"
 en: "Lingual Orthodontics"
 tier: B
 aliases:

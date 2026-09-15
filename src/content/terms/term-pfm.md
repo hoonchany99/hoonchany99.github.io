@@ -1,6 +1,7 @@
 ---
 name: "PFM"
 termSlug: pfm
+seoTitle: "PFM 크라운이란? — 어떤 재료이고 어떤 장단점이 있나"
 en: "Porcelain-Fused-to-Metal"
 tier: B
 aliases:

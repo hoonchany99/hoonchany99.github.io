@@ -1,6 +1,7 @@
 ---
 name: "유아 우식"
 termSlug: yua-usig
+seoTitle: "유아 우식이란? — 왜 생기고 어떻게 막나"
 en: "Early Childhood Caries"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "임신성 치은염"
 termSlug: imsinseong-chieunyeom
+seoTitle: "임신성 치은염이란? — 왜 생기고 어떻게 관리하나"
 en: "Pregnancy Gingivitis"
 tier: B
 aliases:

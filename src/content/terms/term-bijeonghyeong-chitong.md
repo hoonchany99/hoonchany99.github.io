@@ -1,6 +1,7 @@
 ---
 name: "비정형 치통"
 termSlug: bijeonghyeong-chitong
+seoTitle: "비정형 치통이란? — 왜 아프고 무엇을 조심하나"
 en: "Atypical Odontalgia"
 tier: B
 aliases:

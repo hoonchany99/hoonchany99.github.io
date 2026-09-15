@@ -1,6 +1,7 @@
 ---
 name: "브릿지"
 termSlug: bridge
+seoTitle: "브릿지란? — 어떤 치료이고 어떤 장단점이 있나"
 en: "Dental Bridge"
 tier: B
 aliases:

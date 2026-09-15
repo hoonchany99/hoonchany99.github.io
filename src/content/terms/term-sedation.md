@@ -1,6 +1,7 @@
 ---
 name: "수면치과·의식하진정"
 termSlug: sedation
+seoTitle: "수면치과(의식하진정)란? — 어떤 방법이고 안전한가"
 en: "Conscious Sedation"
 tier: B
 aliases:

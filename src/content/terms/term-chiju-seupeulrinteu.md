@@ -1,6 +1,7 @@
 ---
 name: "치주 스플린트"
 termSlug: chiju-seupeulrinteu
+seoTitle: "치주 스플린트란? — 왜 하고 어떻게 관리하나"
 en: "Periodontal Splinting"
 tier: B
 aliases:

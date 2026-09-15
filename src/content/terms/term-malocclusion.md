@@ -1,6 +1,7 @@
 ---
 name: "부정교합"
 termSlug: malocclusion
+seoTitle: "부정교합이란? — 어떤 종류가 있고 어떻게 치료하나"
 en: "Malocclusion"
 tier: A
 aliases:

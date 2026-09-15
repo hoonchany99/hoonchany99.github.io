@@ -1,6 +1,7 @@
 ---
 name: "만성 치주염"
 termSlug: manseong-chijuyeom
+seoTitle: "만성 치주염이란? — 왜 진행되고 어떻게 치료하나"
 en: "Chronic Periodontitis"
 tier: B
 aliases:

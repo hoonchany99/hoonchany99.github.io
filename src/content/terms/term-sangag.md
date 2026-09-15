@@ -1,6 +1,7 @@
 ---
 name: "상악"
 termSlug: sangag
+seoTitle: "상악이란? — 어디를 말하고 치료할 때 왜 중요한가"
 en: "Maxilla"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "구강건조증"
 termSlug: guganggeonjojeung
+seoTitle: "구강건조증이란? — 왜 생기고 어떻게 관리하나"
 en: "Xerostomia"
 tier: B
 aliases:

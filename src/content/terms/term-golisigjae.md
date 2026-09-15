@@ -1,6 +1,7 @@
 ---
 name: "골이식재"
 termSlug: golisigjae
+seoTitle: "골이식재란? — 어떤 종류가 있고 안전한가"
 en: "Bone Graft Material"
 tier: B
 aliases:

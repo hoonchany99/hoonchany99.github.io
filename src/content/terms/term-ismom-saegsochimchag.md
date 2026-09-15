@@ -1,6 +1,7 @@
 ---
 name: "잇몸 색소침착"
 termSlug: ismom-saegsochimchag
+seoTitle: "잇몸 색소침착 — 왜 검고 치료가 필요한가"
 en: "Gingival Pigmentation"
 tier: B
 aliases:

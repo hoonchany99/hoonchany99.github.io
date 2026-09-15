@@ -1,6 +1,7 @@
 ---
 name: "치아 마모증"
 termSlug: chia-mamojeung
+seoTitle: "치아 마모증이란? — 왜 닳고 어떻게 치료하나"
 en: "Tooth Wear"
 tier: B
 aliases:

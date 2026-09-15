@@ -1,6 +1,7 @@
 ---
 name: "치주 유지관리"
 termSlug: chiju-yujigwanri
+seoTitle: "치주 유지관리란? — 왜 필요하고 얼마나 자주 받나"
 en: "Periodontal Maintenance"
 tier: B
 aliases:

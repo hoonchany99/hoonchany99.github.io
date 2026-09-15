@@ -1,6 +1,7 @@
 ---
 name: "노인 뿌리 우식"
 termSlug: noin-bburi-usig
+seoTitle: "노인 뿌리 우식이란? — 왜 생기고 어떻게 막나"
 en: "Root Caries"
 tier: B
 aliases:

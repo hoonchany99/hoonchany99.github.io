@@ -1,6 +1,7 @@
 ---
 name: "국소마취"
 termSlug: local-anesthesia
+seoTitle: "국소마취란? — 어떻게 작용하고 무엇을 조심하나"
 en: "Local Anesthesia"
 tier: B
 aliases:

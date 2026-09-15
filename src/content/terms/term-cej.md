@@ -1,6 +1,7 @@
 ---
 name: "CEJ"
 termSlug: cej
+seoTitle: "CEJ란? — 어디를 말하고 왜 중요한가"
 en: "Cementoenamel Junction"
 tier: B
 aliases:

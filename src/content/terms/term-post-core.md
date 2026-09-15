@@ -1,6 +1,7 @@
 ---
 name: "포스트"
 termSlug: post-core
+seoTitle: "포스트 코어란? — 왜 필요하고 어떤 종류가 있나"
 en: "Post and Core"
 tier: B
 aliases:

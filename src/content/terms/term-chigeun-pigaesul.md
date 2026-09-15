@@ -1,6 +1,7 @@
 ---
 name: "치근 피개술"
 termSlug: chigeun-pigaesul
+seoTitle: "치근 피개술이란? — 언제 필요하고 회복은 어떤가"
 en: "Root Coverage"
 tier: B
 aliases:

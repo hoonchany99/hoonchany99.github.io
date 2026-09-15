@@ -1,6 +1,7 @@
 ---
 name: "편평태선"
 termSlug: pyeonpyeongtaeseon
+seoTitle: "구강 편평태선이란? — 어떤 질환이고 어떻게 관리하나"
 en: "Oral Lichen Planus"
 tier: B
 aliases:

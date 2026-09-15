@@ -1,6 +1,7 @@
 ---
 name: "치근활택술"
 termSlug: scaling-root-planing
+seoTitle: "치근활택술이란? — 어떤 치료이고 어떻게 진행되나"
 en: "Root Planing"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "치과용 시멘트"
 termSlug: chigwayong-simenteu
+seoTitle: "치과용 시멘트란? — 어떤 재료이고 언제 쓰나"
 en: "Dental Cement"
 tier: B
 aliases:

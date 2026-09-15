@@ -1,6 +1,7 @@
 ---
 name: "맹출"
 termSlug: maengchul
+seoTitle: "맹출이란? — 이는 언제 어떻게 나오나"
 en: "Tooth Eruption"
 tier: B
 aliases:

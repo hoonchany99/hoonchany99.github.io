@@ -1,6 +1,7 @@
 ---
 name: "니켈타이타늄 파일"
 termSlug: nikeltaitanyum-pail
+seoTitle: "니켈타이타늄 파일이란? — 어떤 기구이고 왜 쓰나"
 en: "Nickel-Titanium File"
 tier: B
 aliases:

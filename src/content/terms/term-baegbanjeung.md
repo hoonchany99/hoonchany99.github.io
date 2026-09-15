@@ -1,6 +1,7 @@
 ---
 name: "백반증"
 termSlug: baegbanjeung
+seoTitle: "구강 백반증이란? — 위험한가, 어떻게 관리하나"
 en: "Oral Leukoplakia"
 tier: B
 aliases:

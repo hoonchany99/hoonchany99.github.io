@@ -1,6 +1,7 @@
 ---
 name: "구강 이상감각증"
 termSlug: gugang-isanggamgagjeung
+seoTitle: "구강 이상감각증이란? — 왜 생기고 어떻게 관리하나"
 en: "Oral Dysesthesia"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "발치 후 주의사항"
 termSlug: balchi-hu-juuisahang
+seoTitle: "발치 후 주의사항 — 무엇을 조심하고 언제부터 괜찮나"
 en: "Post-Extraction Care"
 tier: B
 aliases:

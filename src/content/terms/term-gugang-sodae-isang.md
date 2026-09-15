@@ -1,6 +1,7 @@
 ---
 name: "구강 소대 이상"
 termSlug: gugang-sodae-isang
+seoTitle: "구강 소대 이상이란? — 어떤 문제가 생기고 언제 치료하나"
 en: "Frenum Abnormality"
 tier: B
 aliases:

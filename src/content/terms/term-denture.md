@@ -1,6 +1,7 @@
 ---
 name: "틀니"
 termSlug: denture
+seoTitle: "틀니란? — 어떤 치료이고 어떻게 관리하나"
 en: "Denture"
 tier: A
 aliases:

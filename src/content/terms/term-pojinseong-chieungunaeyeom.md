@@ -1,6 +1,7 @@
 ---
 name: "포진성 치은구내염"
 termSlug: pojinseong-chieungunaeyeom
+seoTitle: "포진성 치은구내염이란? — 왜 생기고 어떻게 관리하나"
 en: "Herpetic Gingivostomatitis"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "이악물기"
 termSlug: iagmulgi
+seoTitle: "이악물기란? — 왜 하고 어떻게 고치나"
 en: "Awake Clenching"
 tier: B
 aliases:

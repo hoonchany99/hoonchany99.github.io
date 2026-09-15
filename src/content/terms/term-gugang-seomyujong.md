@@ -1,6 +1,7 @@
 ---
 name: "구강 섬유종"
 termSlug: gugang-seomyujong
+seoTitle: "구강 섬유종이란? — 왜 생기고 제거해야 하나"
 en: "Irritation Fibroma"
 tier: B
 aliases:

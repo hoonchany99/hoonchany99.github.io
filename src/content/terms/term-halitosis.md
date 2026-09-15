@@ -1,6 +1,7 @@
 ---
 name: "구취·입냄새"
 termSlug: halitosis
+seoTitle: "입냄새(구취) — 왜 나고 어떻게 없애나"
 en: "Halitosis"
 tier: B
 aliases:

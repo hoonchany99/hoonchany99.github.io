@@ -1,6 +1,7 @@
 ---
 name: "온레이"
 termSlug: onlay
+seoTitle: "온레이란? — 어떤 치료이고 언제 선택하나"
 en: "Onlay"
 tier: B
 aliases:

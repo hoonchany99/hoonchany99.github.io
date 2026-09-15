@@ -1,6 +1,7 @@
 ---
 name: "교정 중 구강 관리"
 termSlug: gyojeong-jung-gugang-gwanri
+seoTitle: "교정 중 구강 관리 — 무엇을 조심하고 어떻게 닦나"
 en: "Oral Hygiene During Orthodontics"
 tier: B
 aliases:

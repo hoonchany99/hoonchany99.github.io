@@ -1,6 +1,7 @@
 ---
 name: "불소"
 termSlug: fluoride
+seoTitle: "불소란? — 어떤 역할을 하고 어떻게 쓰나"
 en: "Fluoride"
 tier: B
 aliases:

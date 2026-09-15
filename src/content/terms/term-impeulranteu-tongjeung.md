@@ -1,6 +1,7 @@
 ---
 name: "임플란트 통증"
 termSlug: impeulranteu-tongjeung
+seoTitle: "임플란트 통증 — 언제까지 정상이고 언제 병원에 가나"
 en: "Implant Pain"
 tier: B
 aliases:

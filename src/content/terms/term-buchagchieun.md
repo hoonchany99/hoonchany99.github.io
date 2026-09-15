@@ -1,6 +1,7 @@
 ---
 name: "부착치은"
 termSlug: buchagchieun
+seoTitle: "부착치은이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Attached Gingiva"
 tier: B
 aliases:

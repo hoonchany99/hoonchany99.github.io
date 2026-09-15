@@ -1,6 +1,7 @@
 ---
 name: "직접 치수 복조"
 termSlug: jigjeob-chisu-bogjo
+seoTitle: "직접 치수 복조란? — 언제 하고 신경을 살릴 수 있나"
 en: "Direct Pulp Capping"
 tier: B
 aliases:

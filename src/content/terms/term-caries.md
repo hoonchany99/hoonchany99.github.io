@@ -1,6 +1,7 @@
 ---
 name: "우식"
 termSlug: caries
+seoTitle: "우식이란? — 무엇을 말하고 어떻게 치료하나"
 en: "Dental Caries"
 tier: B
 aliases:

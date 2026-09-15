@@ -1,6 +1,7 @@
 ---
 name: "치경부 마모증"
 termSlug: chigyeongbu-mamojeung
+seoTitle: "치경부 마모증이란? — 왜 파이고 어떻게 치료하나"
 en: "Non-Carious Cervical Lesion"
 tier: B
 aliases:

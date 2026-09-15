@@ -1,6 +1,7 @@
 ---
 name: "혀 갈라짐"
 termSlug: hyeo-galrajim
+seoTitle: "혀 갈라짐 — 왜 생기고 치료가 필요한가"
 en: "Fissured Tongue"
 tier: B
 aliases:

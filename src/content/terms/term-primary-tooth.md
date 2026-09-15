@@ -1,6 +1,7 @@
 ---
 name: "유치"
 termSlug: primary-tooth
+seoTitle: "유치란? — 어떤 역할을 하고 왜 관리해야 하나"
 en: "Primary Tooth"
 tier: A
 aliases:

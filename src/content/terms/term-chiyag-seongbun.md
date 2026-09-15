@@ -1,6 +1,7 @@
 ---
 name: "치약 성분"
 termSlug: chiyag-seongbun
+seoTitle: "치약 성분 — 무엇이 들어 있고 어떤 역할을 하나"
 en: "Toothpaste Ingredients"
 tier: B
 aliases:

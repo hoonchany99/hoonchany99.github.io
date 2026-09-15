@@ -1,6 +1,7 @@
 ---
 name: "프로바이오틱스"
 termSlug: peurobaiotigseu
+seoTitle: "구강 프로바이오틱스 — 어떤 효과가 있고 누가 쓰나"
 en: "Oral Probiotics"
 tier: B
 aliases:

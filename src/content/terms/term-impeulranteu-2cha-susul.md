@@ -1,6 +1,7 @@
 ---
 name: "임플란트 2차 수술"
 termSlug: impeulranteu-2cha-susul
+seoTitle: "임플란트 2차 수술이란? — 왜 하고 어떻게 진행되나"
 en: "Second-Stage Implant Surgery"
 tier: B
 aliases:

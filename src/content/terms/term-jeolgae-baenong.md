@@ -1,6 +1,7 @@
 ---
 name: "절개 배농"
 termSlug: jeolgae-baenong
+seoTitle: "절개 배농이란? — 왜 하고 언제 필요한가"
 en: "Incision and Drainage"
 tier: B
 aliases:

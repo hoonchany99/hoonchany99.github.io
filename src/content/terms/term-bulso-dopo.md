@@ -1,6 +1,7 @@
 ---
 name: "불소 도포"
 termSlug: bulso-dopo
+seoTitle: "불소 도포란? — 왜 하고 얼마나 자주 받나"
 en: "Fluoride Application"
 tier: B
 aliases:

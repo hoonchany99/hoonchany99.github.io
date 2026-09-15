@@ -1,6 +1,7 @@
 ---
 name: "타석증"
 termSlug: taseogjeung
+seoTitle: "타석증이란? — 왜 생기고 어떻게 치료하나"
 en: "Sialolithiasis"
 tier: B
 aliases:

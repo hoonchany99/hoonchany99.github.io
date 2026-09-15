@@ -1,6 +1,7 @@
 ---
 name: "치성 감염"
 termSlug: chiseong-gamyeom
+seoTitle: "치성 감염이란? — 왜 번지고 언제 응급인가"
 en: "Odontogenic Infection"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "보철 교합 조정"
 termSlug: bocheol-gyohab-jojeong
+seoTitle: "보철 교합 조정이란? — 왜 하고 어떻게 진행되나"
 en: "Occlusal Adjustment of Prosthesis"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "약물 알레르기와 치과"
 termSlug: yagmul-alrereugiwa-chigwa
+seoTitle: "약물 알레르기와 치과 — 무엇을 알리고 조심해야 하나"
 en: "Drug Allergy in Dentistry"
 tier: B
 aliases:

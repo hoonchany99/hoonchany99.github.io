@@ -1,6 +1,7 @@
 ---
 name: "치은 퇴축"
 termSlug: chieun-toechug
+seoTitle: "치은 퇴축이란? — 왜 내려가고 어떻게 치료하나"
 en: "Gingival Recession"
 tier: B
 aliases:

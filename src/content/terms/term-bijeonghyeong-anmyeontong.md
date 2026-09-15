@@ -1,6 +1,7 @@
 ---
 name: "비정형 안면통"
 termSlug: bijeonghyeong-anmyeontong
+seoTitle: "비정형 안면통이란? — 왜 아프고 어떻게 관리하나"
 en: "Persistent Idiopathic Facial Pain"
 tier: B
 aliases:

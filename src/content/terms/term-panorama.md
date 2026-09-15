@@ -1,6 +1,7 @@
 ---
 name: "파노라마"
 termSlug: panorama
+seoTitle: "파노라마란? — 무엇을 보고 언제 찍나"
 en: "Panoramic Radiograph"
 tier: B
 aliases:

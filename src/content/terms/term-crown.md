@@ -1,6 +1,7 @@
 ---
 name: "크라운"
 termSlug: crown
+seoTitle: "크라운이란? — 언제 필요하고 어떤 재료가 있나"
 en: "Dental Crown"
 tier: A
 aliases:

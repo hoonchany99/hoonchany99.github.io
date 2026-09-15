@@ -1,6 +1,7 @@
 ---
 name: "치아 완전 탈구"
 termSlug: chia-wanjeon-talgu
+seoTitle: "치아 완전 탈구 — 빠진 이를 살리려면 어떻게 하나"
 en: "Tooth Avulsion"
 tier: B
 aliases:

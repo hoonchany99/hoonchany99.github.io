@@ -1,6 +1,7 @@
 ---
 name: "치수 변성"
 termSlug: chisu-byeonseong
+seoTitle: "치수 변성이란? — 어떤 변화이고 치료가 필요한가"
 en: "Pulp Degeneration"
 tier: B
 aliases:

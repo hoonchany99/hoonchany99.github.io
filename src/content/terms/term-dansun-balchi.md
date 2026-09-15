@@ -1,6 +1,7 @@
 ---
 name: "단순 발치"
 termSlug: dansun-balchi
+seoTitle: "단순 발치란? — 어떻게 진행되고 회복은 어떤가"
 en: "Simple Extraction"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "구강 점막 멜라닌 색소침착"
 termSlug: gugang-jeommag-melranin-saegsochimchag
+seoTitle: "구강 멜라닌 색소침착이란? — 왜 생기고 치료가 필요한가"
 en: "Oral Melanin Pigmentation"
 tier: B
 aliases:

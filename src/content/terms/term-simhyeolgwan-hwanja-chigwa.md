@@ -1,6 +1,7 @@
 ---
 name: "심혈관 환자 치과"
 termSlug: simhyeolgwan-hwanja-chigwa
+seoTitle: "심혈관 환자 치과 치료 — 무엇을 확인하고 조심하나"
 en: "Cardiovascular Disease and Dental Care"
 tier: B
 aliases:

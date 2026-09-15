@@ -1,6 +1,7 @@
 ---
 name: "파일 파절"
 termSlug: pail-pajeol
+seoTitle: "파일 파절이란? — 왜 생기고 위험한가"
 en: "Separated Instrument"
 tier: B
 aliases:

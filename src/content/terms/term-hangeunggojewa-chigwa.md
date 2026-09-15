@@ -1,6 +1,7 @@
 ---
 name: "항응고제와 치과"
 termSlug: hangeunggojewa-chigwa
+seoTitle: "항응고제와 치과 치료 — 약을 끊어야 하나, 무엇을 조심하나"
 en: "Anticoagulants and Dental Care"
 tier: B
 aliases:

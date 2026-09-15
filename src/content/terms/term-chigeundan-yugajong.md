@@ -1,6 +1,7 @@
 ---
 name: "치근단 육아종"
 termSlug: chigeundan-yugajong
+seoTitle: "치근단 육아종이란? — 어떤 상태이고 어떻게 치료하나"
 en: "Periapical Granuloma"
 tier: B
 aliases:

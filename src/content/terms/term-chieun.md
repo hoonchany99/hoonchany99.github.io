@@ -1,6 +1,7 @@
 ---
 name: "치은"
 termSlug: chieun
+seoTitle: "치은이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Gingiva"
 tier: B
 aliases:

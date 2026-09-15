@@ -1,6 +1,7 @@
 ---
 name: "레진"
 termSlug: resin
+seoTitle: "레진이란? — 어떤 치료이고 얼마나 가나"
 en: "Composite Resin"
 tier: B
 aliases:

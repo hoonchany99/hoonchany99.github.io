@@ -1,6 +1,7 @@
 ---
 name: "치조 제거술"
 termSlug: chijo-jegeosul
+seoTitle: "치조 제거술이란? — 언제 필요하고 어떻게 진행되나"
 en: "Alveoloplasty"
 tier: B
 aliases:

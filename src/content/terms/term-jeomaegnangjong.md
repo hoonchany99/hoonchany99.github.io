@@ -1,6 +1,7 @@
 ---
 name: "점액낭종"
 termSlug: jeomaegnangjong
+seoTitle: "점액낭종이란? — 왜 생기고 어떻게 치료하나"
 en: "Mucocele"
 tier: B
 aliases:

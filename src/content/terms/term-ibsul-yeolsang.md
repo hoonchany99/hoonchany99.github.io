@@ -1,6 +1,7 @@
 ---
 name: "입술 열상"
 termSlug: ibsul-yeolsang
+seoTitle: "입술 열상 — 어떻게 처치하고 언제 꿰매나"
 en: "Lip Laceration"
 tier: B
 aliases:

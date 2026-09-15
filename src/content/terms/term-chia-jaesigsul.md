@@ -1,6 +1,7 @@
 ---
 name: "치아 재식술"
 termSlug: chia-jaesigsul
+seoTitle: "치아 재식술이란? — 언제 하고 얼마나 쓸 수 있나"
 en: "Tooth Replantation"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "지르코니아"
 termSlug: zirconia
+seoTitle: "지르코니아란? — 어떤 재료이고 어떤 장단점이 있나"
 en: "Zirconia"
 tier: B
 aliases:

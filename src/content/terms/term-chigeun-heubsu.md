@@ -1,6 +1,7 @@
 ---
 name: "치근 흡수"
 termSlug: chigeun-heubsu
+seoTitle: "치근 흡수란? — 왜 생기고 어떻게 치료하나"
 en: "Root Resorption"
 tier: B
 aliases:

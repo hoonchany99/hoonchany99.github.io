@@ -1,6 +1,7 @@
 ---
 name: "구강 칸디다증"
 termSlug: gugang-kandidajeung
+seoTitle: "구강 칸디다증이란? — 왜 생기고 어떻게 치료하나"
 en: "Oral Candidiasis"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "힐링 어버트먼트"
 termSlug: hilring-eobeoteumeonteu
+seoTitle: "힐링 어버트먼트란? — 어떤 부품이고 어떻게 관리하나"
 en: "Healing Abutment"
 tier: B
 aliases:

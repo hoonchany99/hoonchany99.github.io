@@ -1,6 +1,7 @@
 ---
 name: "매복치"
 termSlug: impacted-tooth
+seoTitle: "매복치란? — 왜 생기고 꼭 빼야 하나"
 en: "Impacted Tooth"
 tier: A
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "구강 편평세포 유두종"
 termSlug: gugang-pyeonpyeongsepo-yudujong
+seoTitle: "구강 편평세포 유두종이란? — 위험한가, 제거해야 하나"
 en: "Squamous Papilloma"
 tier: B
 aliases:

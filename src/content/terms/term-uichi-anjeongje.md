@@ -1,6 +1,7 @@
 ---
 name: "의치 안정제"
 termSlug: uichi-anjeongje
+seoTitle: "의치 안정제 — 언제 쓰고 무엇을 조심하나"
 en: "Denture Adhesive"
 tier: B
 aliases:

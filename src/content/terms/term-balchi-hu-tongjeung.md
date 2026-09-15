@@ -1,6 +1,7 @@
 ---
 name: "발치 후 통증"
 termSlug: balchi-hu-tongjeung
+seoTitle: "발치 후 통증 — 언제까지 정상이고 언제 병원에 가나"
 en: "Post-Extraction Pain"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "임신 중 치과치료"
 termSlug: imsin-jung-chigwachiryo
+seoTitle: "임신 중 치과치료 — 받아도 되나, 언제가 좋나"
 en: "Dental Care During Pregnancy"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "구강 점막 화상"
 termSlug: gugang-jeommag-hwasang
+seoTitle: "구강 점막 화상 — 얼마나 가고 어떻게 관리하나"
 en: "Oral Mucosal Burn"
 tier: B
 aliases:

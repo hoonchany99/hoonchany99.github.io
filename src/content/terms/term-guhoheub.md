@@ -1,6 +1,7 @@
 ---
 name: "구호흡"
 termSlug: guhoheub
+seoTitle: "구호흡이란? — 왜 생기고 무슨 문제가 생기나"
 en: "Mouth Breathing"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "구강 디스키네지아"
 termSlug: gugang-diseukinejia
+seoTitle: "구강 디스키네지아란? — 왜 생기고 어떻게 관리하나"
 en: "Oral Dyskinesia"
 tier: B
 aliases:

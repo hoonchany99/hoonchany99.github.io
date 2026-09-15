@@ -1,6 +1,7 @@
 ---
 name: "하마종"
 termSlug: hamajong
+seoTitle: "하마종이란? — 왜 생기고 어떻게 치료하나"
 en: "Ranula"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "혀 내밀기"
 termSlug: hyeo-naemilgi
+seoTitle: "혀 내밀기 — 어떤 습관이고 치아에 어떤 영향을 주나"
 en: "Tongue Thrust"
 tier: B
 aliases:

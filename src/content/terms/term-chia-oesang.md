@@ -1,6 +1,7 @@
 ---
 name: "치아 외상"
 termSlug: chia-oesang
+seoTitle: "치아 외상 — 어떻게 대처하고 언제 병원에 가나"
 en: "Dental Trauma"
 tier: B
 aliases:

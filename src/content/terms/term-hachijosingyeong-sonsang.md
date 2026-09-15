@@ -1,6 +1,7 @@
 ---
 name: "하치조신경 손상"
 termSlug: hachijosingyeong-sonsang
+seoTitle: "하치조신경 손상이란? — 왜 생기고 회복되나"
 en: "Inferior Alveolar Nerve Injury"
 tier: B
 aliases:

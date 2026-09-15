@@ -1,6 +1,7 @@
 ---
 name: "턱관절 강직증"
 termSlug: teoggwanjeol-gangjigjeung
+seoTitle: "턱관절 강직증이란? — 왜 생기고 어떻게 치료하나"
 en: "TMJ Ankylosis"
 tier: B
 aliases:

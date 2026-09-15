@@ -1,6 +1,7 @@
 ---
 name: "치간 유두"
 termSlug: chigan-yudu
+seoTitle: "치간 유두란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Interdental Papilla"
 tier: B
 aliases:

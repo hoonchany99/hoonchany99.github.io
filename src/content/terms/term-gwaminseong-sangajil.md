@@ -1,6 +1,7 @@
 ---
 name: "과민성 상아질"
 termSlug: gwaminseong-sangajil
+seoTitle: "과민성 상아질이란? — 왜 시리고 어떻게 치료하나"
 en: "Dentin Hypersensitivity"
 tier: B
 aliases:

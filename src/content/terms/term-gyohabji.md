@@ -1,6 +1,7 @@
 ---
 name: "교합지"
 termSlug: gyohabji
+seoTitle: "교합지란? — 무엇이고 왜 쓰나"
 en: "Articulating Paper"
 tier: B
 aliases:

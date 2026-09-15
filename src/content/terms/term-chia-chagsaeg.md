@@ -1,6 +1,7 @@
 ---
 name: "치아 착색"
 termSlug: chia-chagsaeg
+seoTitle: "치아 착색이란? — 왜 생기고 어떻게 없애나"
 en: "Extrinsic Tooth Stain"
 tier: B
 aliases:

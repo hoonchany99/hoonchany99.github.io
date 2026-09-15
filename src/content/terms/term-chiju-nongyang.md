@@ -1,6 +1,7 @@
 ---
 name: "치주 농양"
 termSlug: chiju-nongyang
+seoTitle: "치주 농양이란? — 왜 생기고 어떻게 치료하나"
 en: "Periodontal Abscess"
 tier: B
 aliases:

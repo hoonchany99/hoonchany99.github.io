@@ -1,6 +1,7 @@
 ---
 name: "CAD/CAM 당일 보철"
 termSlug: cadcam-dangil-bocheol
+seoTitle: "CAD/CAM 당일 보철이란? — 어떻게 만들고 어떤 장단점이 있나"
 en: "CAD/CAM Same-Day Restoration"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "불소증"
 termSlug: bulsojeung
+seoTitle: "불소증이란? — 왜 생기고 치료가 필요한가"
 en: "Dental Fluorosis"
 tier: B
 aliases:

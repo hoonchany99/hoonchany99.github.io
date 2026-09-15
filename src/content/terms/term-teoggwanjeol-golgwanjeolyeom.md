@@ -1,6 +1,7 @@
 ---
 name: "턱관절 골관절염"
 termSlug: teoggwanjeol-golgwanjeolyeom
+seoTitle: "턱관절 골관절염이란? — 어떤 증상이고 어떻게 관리하나"
 en: "TMJ Osteoarthritis"
 tier: B
 aliases:

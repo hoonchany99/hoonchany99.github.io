@@ -1,6 +1,7 @@
 ---
 name: "치실"
 termSlug: floss
+seoTitle: "치실이란? — 왜 필요하고 어떻게 쓰나"
 en: "Dental Floss"
 tier: B
 aliases:

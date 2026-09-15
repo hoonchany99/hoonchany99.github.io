@@ -1,6 +1,7 @@
 ---
 name: "보존치료"
 termSlug: conservative-dentistry
+seoTitle: "보존치료란? — 어떤 치료가 있고 언제 하나"
 en: "Conservative Dentistry"
 tier: B
 aliases:

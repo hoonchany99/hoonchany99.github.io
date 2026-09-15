@@ -1,6 +1,7 @@
 ---
 name: "흡연과 구강 건강"
 termSlug: heubyeongwa-gugang-geongang
+seoTitle: "흡연과 구강 건강 — 입안에 어떤 영향을 주나"
 en: "Smoking and Oral Health"
 tier: B
 aliases:

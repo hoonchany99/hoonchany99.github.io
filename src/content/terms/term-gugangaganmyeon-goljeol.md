@@ -1,6 +1,7 @@
 ---
 name: "구강악안면 골절"
 termSlug: gugangaganmyeon-goljeol
+seoTitle: "구강악안면 골절이란? — 어떻게 알아보고 어떻게 치료하나"
 en: "Maxillofacial Fracture"
 tier: B
 aliases:

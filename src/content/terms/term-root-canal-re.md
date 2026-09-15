@@ -1,6 +1,7 @@
 ---
 name: "재신경치료"
 termSlug: root-canal-re
+seoTitle: "재신경치료란? — 왜 필요하고 어떻게 진행되나"
 en: "Endodontic Retreatment"
 tier: A
 aliases:

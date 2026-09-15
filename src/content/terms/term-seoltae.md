@@ -1,6 +1,7 @@
 ---
 name: "설태"
 termSlug: seoltae
+seoTitle: "설태란? — 왜 생기고 어떻게 관리하나"
 en: "Tongue Coating"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "치주염"
 termSlug: periodontitis
+seoTitle: "치주염이란? — 왜 생기고 어떻게 치료하나"
 en: "Periodontitis"
 tier: A
 aliases:

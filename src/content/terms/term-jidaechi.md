@@ -1,6 +1,7 @@
 ---
 name: "지대치"
 termSlug: jidaechi
+seoTitle: "지대치란? — 어떤 치아이고 왜 중요한가"
 en: "Abutment Tooth"
 tier: B
 aliases:

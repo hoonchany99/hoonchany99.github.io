@@ -1,6 +1,7 @@
 ---
 name: "법랑진주"
 termSlug: beobrangjinju
+seoTitle: "법랑진주란? — 무엇이고 치료가 필요한가"
 en: "Enamel Pearl"
 tier: B
 aliases:

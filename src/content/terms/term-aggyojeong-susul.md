@@ -1,6 +1,7 @@
 ---
 name: "악교정 수술"
 termSlug: aggyojeong-susul
+seoTitle: "악교정 수술이란? — 언제 필요하고 어떻게 진행되나"
 en: "Orthognathic Surgery"
 tier: B
 aliases:

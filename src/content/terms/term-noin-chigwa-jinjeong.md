@@ -1,6 +1,7 @@
 ---
 name: "노인 치과 진정"
 termSlug: noin-chigwa-jinjeong
+seoTitle: "노인 치과 진정 — 안전한가, 무엇을 준비하나"
 en: "Sedation in Older Adults"
 tier: B
 aliases:

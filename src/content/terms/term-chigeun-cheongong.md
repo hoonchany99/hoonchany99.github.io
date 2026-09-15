@@ -1,6 +1,7 @@
 ---
 name: "치근 천공"
 termSlug: chigeun-cheongong
+seoTitle: "치근 천공이란? — 왜 생기고 치아를 살릴 수 있나"
 en: "Root Perforation"
 tier: B
 aliases:

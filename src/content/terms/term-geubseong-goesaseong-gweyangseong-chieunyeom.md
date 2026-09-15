@@ -1,6 +1,7 @@
 ---
 name: "급성 괴사성 궤양성 치은염"
 termSlug: geubseong-goesaseong-gweyangseong-chieunyeom
+seoTitle: "급성 괴사성 궤양성 치은염이란? — 왜 생기고 어떻게 치료하나"
 en: "Necrotizing Ulcerative Gingivitis"
 tier: B
 aliases:

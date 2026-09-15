@@ -1,6 +1,7 @@
 ---
 name: "전달마취"
 termSlug: jeondalmachwi
+seoTitle: "전달마취란? — 어떤 마취이고 무엇을 조심하나"
 en: "Nerve Block Anesthesia"
 tier: B
 aliases:

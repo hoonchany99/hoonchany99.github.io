@@ -1,6 +1,7 @@
 ---
 name: "골다공증 환자 치과"
 termSlug: goldagongjeung-hwanja-chigwa
+seoTitle: "골다공증 환자 치과 치료 — 무엇을 확인하고 조심하나"
 en: "Osteoporosis and Dental Care"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "연관통"
 termSlug: yeongwantong
+seoTitle: "연관통이란? — 왜 생기고 어떻게 원인을 찾나"
 en: "Referred Pain"
 tier: B
 aliases:

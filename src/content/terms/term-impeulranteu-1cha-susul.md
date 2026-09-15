@@ -1,6 +1,7 @@
 ---
 name: "임플란트 1차 수술"
 termSlug: impeulranteu-1cha-susul
+seoTitle: "임플란트 1차 수술이란? — 어떻게 진행되고 회복은 어떤가"
 en: "Implant Placement Surgery"
 tier: B
 aliases:

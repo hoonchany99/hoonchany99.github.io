@@ -1,6 +1,7 @@
 ---
 name: "유치 충치"
 termSlug: yuchi-chungchi
+seoTitle: "유치 충치 — 왜 치료해야 하고 어떻게 하나"
 en: "Caries in Primary Teeth"
 tier: B
 aliases:

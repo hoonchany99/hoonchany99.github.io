@@ -1,6 +1,7 @@
 ---
 name: "박리성 치은염"
 termSlug: bagriseong-chieunyeom
+seoTitle: "박리성 치은염이란? — 왜 생기고 어떻게 치료하나"
 en: "Desquamative Gingivitis"
 tier: B
 aliases:

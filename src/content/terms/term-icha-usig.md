@@ -1,6 +1,7 @@
 ---
 name: "이차 우식"
 termSlug: icha-usig
+seoTitle: "이차 우식이란? — 왜 생기고 어떻게 막나"
 en: "Secondary Caries"
 tier: B
 aliases:

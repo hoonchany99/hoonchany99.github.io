@@ -1,6 +1,7 @@
 ---
 name: "치관 파절"
 termSlug: chigwan-pajeol
+seoTitle: "치관 파절이란? — 어떤 상태이고 어떻게 치료하나"
 en: "Crown Fracture"
 tier: B
 aliases:

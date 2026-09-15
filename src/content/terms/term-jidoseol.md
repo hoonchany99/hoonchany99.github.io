@@ -1,6 +1,7 @@
 ---
 name: "지도설"
 termSlug: jidoseol
+seoTitle: "지도설이란? — 왜 생기고 치료가 필요한가"
 en: "Geographic Tongue"
 tier: B
 aliases:

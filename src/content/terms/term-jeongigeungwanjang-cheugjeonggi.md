@@ -1,6 +1,7 @@
 ---
 name: "전기근관장 측정기"
 termSlug: jeongigeungwanjang-cheugjeonggi
+seoTitle: "전기근관장 측정기란? — 무엇을 재고 왜 쓰나"
 en: "Electronic Apex Locator"
 tier: B
 aliases:

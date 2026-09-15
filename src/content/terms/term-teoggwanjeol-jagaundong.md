@@ -1,6 +1,7 @@
 ---
 name: "턱관절 자가운동"
 termSlug: teoggwanjeol-jagaundong
+seoTitle: "턱관절 자가운동 — 왜 하고 어떻게 하나"
 en: "TMJ Self-Exercise"
 tier: B
 aliases:

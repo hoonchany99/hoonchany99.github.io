@@ -1,6 +1,7 @@
 ---
 name: "임산부 구강 관리"
 termSlug: imsanbu-gugang-gwanri
+seoTitle: "임산부 구강 관리 — 무엇을 조심하고 어떻게 관리하나"
 en: "Oral Care in Pregnancy"
 tier: B
 aliases:

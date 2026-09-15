@@ -1,6 +1,7 @@
 ---
 name: "유지장치"
 termSlug: retainer
+seoTitle: "유지장치란? — 왜 쓰고 얼마나 오래 쓰나"
 en: "Orthodontic Retainer"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "교합 외상"
 termSlug: gyohab-oesang
+seoTitle: "교합 외상이란? — 왜 생기고 어떻게 치료하나"
 en: "Occlusal Trauma"
 tier: B
 aliases:

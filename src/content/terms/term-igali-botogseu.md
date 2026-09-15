@@ -1,6 +1,7 @@
 ---
 name: "이갈이 보톡스"
 termSlug: igali-botogseu
+seoTitle: "이갈이 보톡스 — 어떤 효과가 있고 얼마나 가나"
 en: "Botulinum Toxin for Bruxism"
 tier: B
 aliases:

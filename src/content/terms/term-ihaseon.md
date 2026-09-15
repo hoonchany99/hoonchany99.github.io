@@ -1,6 +1,7 @@
 ---
 name: "이하선"
 termSlug: ihaseon
+seoTitle: "이하선이란? — 어디를 말하고 무슨 문제가 생기나"
 en: "Parotid Gland"
 tier: B
 aliases:

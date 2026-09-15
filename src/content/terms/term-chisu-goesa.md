@@ -1,6 +1,7 @@
 ---
 name: "치수 괴사"
 termSlug: chisu-goesa
+seoTitle: "치수 괴사란? — 어떤 상태이고 어떻게 치료하나"
 en: "Pulp Necrosis"
 tier: B
 aliases:

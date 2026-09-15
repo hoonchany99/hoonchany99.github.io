@@ -1,6 +1,7 @@
 ---
 name: "교정 재발"
 termSlug: gyojeong-jaebal
+seoTitle: "교정 재발이란? — 왜 생기고 어떻게 막나"
 en: "Orthodontic Relapse"
 tier: B
 aliases:

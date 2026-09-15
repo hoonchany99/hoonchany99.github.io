@@ -1,6 +1,7 @@
 ---
 name: "웃음가스"
 termSlug: nitrous-oxide
+seoTitle: "웃음가스란? — 어떤 방법이고 안전한가"
 en: "Nitrous Oxide"
 tier: B
 aliases:

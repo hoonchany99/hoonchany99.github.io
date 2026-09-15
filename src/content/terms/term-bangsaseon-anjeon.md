@@ -1,6 +1,7 @@
 ---
 name: "방사선 안전"
 termSlug: bangsaseon-anjeon
+seoTitle: "치과 X-ray 방사선 — 얼마나 안전하고 무엇을 조심하나"
 en: "Radiation Safety"
 tier: B
 aliases:

@@ -66,7 +66,7 @@ const definedTermLd = JSON.stringify({
 ---
 
 <BaseLayout
-  title={term.data.en ? `${term.data.name} (${term.data.en})` : term.data.name}
+  title={term.data.seoTitle ?? (term.data.en ? `${term.data.name} (${term.data.en})` : term.data.name)}
   modifiedDate={term.data.updated ? new Date(term.data.updated) : undefined}
   authorIsOrganization={true}
   description={description}

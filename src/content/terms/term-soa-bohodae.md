@@ -1,6 +1,7 @@
 ---
 name: "소아 보호대"
 termSlug: soa-bohodae
+seoTitle: "소아 보호대 — 왜 쓰고 언제 필요한가"
 en: "Protective Stabilization"
 tier: B
 aliases:

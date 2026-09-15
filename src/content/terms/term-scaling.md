@@ -1,6 +1,7 @@
 ---
 name: "스케일링"
 termSlug: scaling
+seoTitle: "스케일링이란? — 왜 받고 얼마나 자주 받나"
 en: "Dental Scaling"
 tier: A
 aliases:

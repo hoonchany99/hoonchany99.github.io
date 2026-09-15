@@ -1,6 +1,7 @@
 ---
 name: "선천성 결손치"
 termSlug: seoncheonseong-gyeolsonchi
+seoTitle: "선천성 결손치란? — 왜 생기고 어떻게 치료하나"
 en: "Congenitally Missing Teeth"
 tier: B
 aliases:

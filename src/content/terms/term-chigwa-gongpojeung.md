@@ -1,6 +1,7 @@
 ---
 name: "치과 공포증"
 termSlug: chigwa-gongpojeung
+seoTitle: "치과 공포증 — 왜 생기고 어떻게 도움받을 수 있나"
 en: "Dental Anxiety"
 tier: B
 aliases:

@@ -1,6 +1,7 @@
 ---
 name: "소아 교정"
 termSlug: soa-gyojeong
+seoTitle: "소아 교정 — 언제 상담하고 누구에게 필요한가"
 en: "Interceptive Orthodontics"
 tier: B
 aliases:

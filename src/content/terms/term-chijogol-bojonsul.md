@@ -1,6 +1,7 @@
 ---
 name: "치조골 보존술"
 termSlug: chijogol-bojonsul
+seoTitle: "치조골 보존술이란? — 왜 하고 언제 필요한가"
 en: "Socket Preservation"
 tier: B
 aliases:

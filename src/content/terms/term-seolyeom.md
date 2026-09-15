@@ -1,6 +1,7 @@
 ---
 name: "설염"
 termSlug: seolyeom
+seoTitle: "설염이란? — 왜 생기고 어떻게 치료하나"
 en: "Glossitis"
 tier: B
 aliases:

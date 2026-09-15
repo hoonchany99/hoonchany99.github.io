@@ -1,6 +1,7 @@
 ---
 name: "정기검진"
 termSlug: dental-checkup
+seoTitle: "치과 정기검진 — 무엇을 보고 얼마나 자주 받나"
 en: "Dental Check-up"
 tier: A
 aliases:

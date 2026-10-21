@@ -33,12 +33,11 @@ interface Props {
   readingTime?: number;
   prevPost?: NavPost | null;
   nextPost?: NavPost | null;
-  faqSchema?: { question: string; answer: string }[];
   tldr?: string;
   topicHub?: TopicHubRef | null;
 }
 
-const { title, description, date, modifiedDate, image, tags = [], relatedPosts = [], readingTime, prevPost, nextPost, faqSchema, tldr, topicHub } = Astro.props;
+const { title, description, date, modifiedDate, image, tags = [], relatedPosts = [], readingTime, prevPost, nextPost, tldr, topicHub } = Astro.props;
 ---
 
 <BaseLayout
@@ -56,7 +55,6 @@ const { title, description, date, modifiedDate, image, tags = [], relatedPosts =
     { name: '블로그', url: '/posts/' },
     { name: title, url: Astro.url.pathname },
   ]}
-  faqSchema={faqSchema}
 >
   <!-- 읽기 진행률 바 -->
   <div id="reading-progress" class="fixed top-0 left-0 h-[3px] bg-brand z-50 transition-none" style="width:0%"></div>

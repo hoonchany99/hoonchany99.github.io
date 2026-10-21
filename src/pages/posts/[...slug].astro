@@ -109,10 +109,6 @@ const currentIdx = sorted.findIndex((p: any) => p.slug === post.slug);
 const prevPost = currentIdx > 0 ? { slug: sorted[currentIdx - 1].slug, title: sorted[currentIdx - 1].data.title } : null;
 const nextPost = currentIdx < sorted.length - 1 ? { slug: sorted[currentIdx + 1].slug, title: sorted[currentIdx + 1].data.title } : null;
 
-const postTitle = post.data.title ?? '';
-const postDesc = post.data.description ?? '';
-const faqSchema = postTitle.includes('?') ? [{ question: postTitle, answer: postDesc }] : undefined;
-
 const topicHub = findTopicHub(myTags);
 const topicHubData = topicHub ? { slug: topicHub.slug, name: topicHub.name } : null;
 ---
@@ -128,7 +124,6 @@ const topicHubData = topicHub ? { slug: topicHub.slug, name: topicHub.name } : n
   readingTime={readingTime}
   prevPost={prevPost}
   nextPost={nextPost}
-  faqSchema={faqSchema}
   tldr={post.data.tldr}
   topicHub={topicHubData}
 >

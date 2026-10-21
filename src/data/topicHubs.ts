@@ -35,7 +35,7 @@ export const topicHubs: TopicHub[] = [
   {
     slug: 'crown-inlay',
     name: '크라운 · 인레이',
-    description: '재료 선택부터 수명 관리까지, 보철 치료 완벽 가이드',
+    description: '재료 선택부터 수명 관리까지, 보철 치료 가이드',
     tagKeywords: ['크라운', '인레이', '온레이', '세렉', '보철', '골드크라운', '지르코니아', '세라믹'],
     guideFaq: [
       '지르코니아랑 세라믹 중에 뭐가 더 오래가나요?',

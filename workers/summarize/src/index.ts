@@ -1,5 +1,7 @@
 export interface Env {
   OPENAI_API_KEY: string;
+  /** Chat model for the summary. Rollback: set to "gpt-4o-mini" in wrangler.toml [vars]. */
+  SUMMARY_MODEL?: string;
 }
 
 const EMBEDDINGS_URL = 'https://doctoryoon.kr/ask-embeddings.json';
@@ -26,6 +28,35 @@ const SYSTEM_PROMPT = `당신은 치과 정보 블로그 '윤원장의 치과사
 - 마지막에 "다만, 실제 상황은 검사 결과에 따라 달라질 수 있어요." 류의 안내를 자연스럽게 포함하세요.`;
 
 const EMBEDDING_MODEL = 'text-embedding-3-small';
+
+// ─── Summary Request ───
+
+// gpt-4o-mini is removed from the API on 2027-01-14; OpenAI names gpt-6-luna as the replacement.
+export const DEFAULT_SUMMARY_MODEL = 'gpt-6-luna';
+const SUMMARY_MAX_TOKENS = 400;
+const SUMMARY_TEMPERATURE = 0.3;
+
+/**
+ * Chat Completions body for the summary.
+ * - GPT-6 models reason by default; `reasoning_effort: "none"` keeps short summaries fast
+ *   and is what makes `temperature` allowed (OpenAI: remove temperature when effort is not none).
+ * - GPT-4 family models reject `reasoning_effort`, so it is omitted for them (rollback path).
+ * - `max_completion_tokens` replaces the deprecated `max_tokens` and works on both families.
+ */
+export function buildSummaryRequest(env: Pick<Env, 'SUMMARY_MODEL'>, userPrompt: string) {
+  const model = env.SUMMARY_MODEL?.trim() || DEFAULT_SUMMARY_MODEL;
+  const isGpt4Family = model.startsWith('gpt-4');
+  return {
+    model,
+    messages: [
+      { role: 'system', content: SYSTEM_PROMPT },
+      { role: 'user', content: userPrompt },
+    ],
+    max_completion_tokens: SUMMARY_MAX_TOKENS,
+    temperature: SUMMARY_TEMPERATURE,
+    ...(isGpt4Family ? {} : { reasoning_effort: 'none' }),
+  };
+}
 const EMBEDDING_DIMENSIONS = 256;
 
 interface ChunkData {
@@ -211,22 +242,14 @@ export default {
 
       const userPrompt = `질문: ${query}\n\n참고할 블로그 글:\n${context}`;
 
-      // 6. Summarize with gpt-4o-mini
+      // 6. Summarize (model from SUMMARY_MODEL, default gpt-6-luna)
       const chatRes = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${env.OPENAI_API_KEY}`,
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          model: 'gpt-4o-mini',
-          messages: [
-            { role: 'system', content: SYSTEM_PROMPT },
-            { role: 'user', content: userPrompt },
-          ],
-          max_tokens: 400,
-          temperature: 0.3,
-        }),
+        body: JSON.stringify(buildSummaryRequest(env, userPrompt)),
       });
 
       let summary: string | null = null;

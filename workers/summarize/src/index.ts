@@ -30,10 +30,24 @@ const SYSTEM_PROMPT = `당신은 치과 정보 블로그 '윤원장의 치과사
 const EMBEDDING_MODEL = 'text-embedding-3-small';
 const EMBEDDING_DIMENSIONS = 256;
 
+// ─── Well-formed Text ───
+
+/**
+ * Replaces lone UTF-16 surrogates with U+FFFD. Some chunks in ask-embeddings.json end or start with
+ * half an emoji (cut at a chunk boundary); JSON.stringify then emits a `\udXXX` escape that OpenAI
+ * rejects with HTTP 400 `invalid_json`, and the summary is lost. For well-formed text this is the
+ * identity, so normal requests stay byte-identical.
+ */
+export function wellFormed(text: string): string {
+  return text.toWellFormed();
+}
+
 // ─── Summary Request ───
 
 // gpt-4o-mini is removed from the API on 2027-01-14; OpenAI names gpt-6-luna as the replacement.
-export const DEFAULT_SUMMARY_MODEL = 'gpt-6-luna';
+// Not exported: workerd treats every named export of the main module as an entrypoint and refuses
+// to start on a non-function one (test/workerd-startup.test.mjs guards this).
+const DEFAULT_SUMMARY_MODEL = 'gpt-6-luna';
 const SUMMARY_MAX_TOKENS = 400;
 const SUMMARY_TEMPERATURE = 0.3;
 
@@ -56,7 +70,7 @@ export function buildSummaryRequest(env: Pick<Env, 'SUMMARY_MODEL'>, userPrompt:
   const model = env.SUMMARY_MODEL?.trim() || DEFAULT_SUMMARY_MODEL;
   const messages = [
     { role: 'system', content: SYSTEM_PROMPT },
-    { role: 'user', content: userPrompt },
+    { role: 'user', content: wellFormed(userPrompt) },
   ];
   if (GPT4_FAMILY.test(model)) {
     return { model, messages, max_tokens: SUMMARY_MAX_TOKENS, temperature: SUMMARY_TEMPERATURE };
@@ -192,7 +206,8 @@ export default {
         });
       }
 
-      const query = body.query.trim();
+      // The question goes to the embeddings API too, so it must be well-formed before that call.
+      const query = wellFormed(body.query.trim());
 
       // 1. Load embeddings
       const chunks = await loadEmbeddings();

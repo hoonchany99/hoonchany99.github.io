@@ -2,7 +2,7 @@
 // and asserts the outgoing Chat Completions body. `node --test` (Node >= 22.18 strips TS types).
 import { test, beforeEach, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
-import worker, { buildSummaryRequest, DEFAULT_SUMMARY_MODEL } from '../src/index.ts';
+import worker, { buildSummaryRequest } from '../src/index.ts';
 
 const realFetch = globalThis.fetch;
 let chatBodies;
@@ -48,7 +48,7 @@ test('default model is gpt-6-luna with reasoning_effort none', async () => {
   assert.equal(json.summary, '요약');
   assert.equal(chatBodies.length, 1);
   const body = chatBodies[0];
-  assert.equal(DEFAULT_SUMMARY_MODEL, 'gpt-6-luna');
+  assert.equal(buildSummaryRequest({}, 'q').model, 'gpt-6-luna');
   assert.equal(body.model, 'gpt-6-luna');
   assert.equal(body.reasoning_effort, 'none');
   assert.equal(body.max_completion_tokens, 400);

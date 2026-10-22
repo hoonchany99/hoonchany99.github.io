@@ -1,5 +1,7 @@
 export interface Env {
   OPENAI_API_KEY: string;
+  /** Chat model for the summary. Rollback: set to "gpt-4o-mini" in wrangler.toml [vars]. */
+  SUMMARY_MODEL?: string;
 }
 
 const EMBEDDINGS_URL = 'https://doctoryoon.kr/ask-embeddings.json';
@@ -27,6 +29,49 @@ const SYSTEM_PROMPT = `당신은 치과 정보 블로그 '윤원장의 치과사
 
 const EMBEDDING_MODEL = 'text-embedding-3-small';
 const EMBEDDING_DIMENSIONS = 256;
+
+// ─── Summary Request ───
+
+// gpt-4o-mini is removed from the API on 2027-01-14; OpenAI names gpt-6-luna as the replacement.
+export const DEFAULT_SUMMARY_MODEL = 'gpt-6-luna';
+const SUMMARY_MAX_TOKENS = 400;
+const SUMMARY_TEMPERATURE = 0.3;
+
+const GPT4_FAMILY = /^gpt-4/i;
+// Models whose `reasoning_effort: "none"` support is confirmed by OpenAI's latest-model guide
+// ("GPT-6 Sol and GPT-6 Luna support `none`"). Astra and 6.1 Sol do not.
+const NONE_EFFORT_MODELS = /^gpt-6-(luna|sol)$/i;
+
+/**
+ * Chat Completions body for the summary, chosen by model family:
+ * - gpt-4 family (rollback): exactly the pre-migration request (max_tokens, no reasoning_effort),
+ *   so rolling back sends a byte-identical body.
+ * - gpt-6-luna / gpt-6-sol: reasoning_effort "none" for fast short summaries. OpenAI allows
+ *   temperature only when effort is none; max_tokens is deprecated for max_completion_tokens.
+ * - any other model: support for "none" is unconfirmed, so reasoning_effort is not sent and the
+ *   model runs at its default effort. Temperature is dropped too, because OpenAI says to remove it
+ *   whenever effort is not none.
+ */
+export function buildSummaryRequest(env: Pick<Env, 'SUMMARY_MODEL'>, userPrompt: string) {
+  const model = env.SUMMARY_MODEL?.trim() || DEFAULT_SUMMARY_MODEL;
+  const messages = [
+    { role: 'system', content: SYSTEM_PROMPT },
+    { role: 'user', content: userPrompt },
+  ];
+  if (GPT4_FAMILY.test(model)) {
+    return { model, messages, max_tokens: SUMMARY_MAX_TOKENS, temperature: SUMMARY_TEMPERATURE };
+  }
+  if (NONE_EFFORT_MODELS.test(model)) {
+    return {
+      model,
+      messages,
+      max_completion_tokens: SUMMARY_MAX_TOKENS,
+      temperature: SUMMARY_TEMPERATURE,
+      reasoning_effort: 'none',
+    };
+  }
+  return { model, messages, max_completion_tokens: SUMMARY_MAX_TOKENS };
+}
 
 interface ChunkData {
   slug: string;
@@ -211,22 +256,14 @@ export default {
 
       const userPrompt = `질문: ${query}\n\n참고할 블로그 글:\n${context}`;
 
-      // 6. Summarize with gpt-4o-mini
+      // 6. Summarize (model from SUMMARY_MODEL, default gpt-6-luna)
       const chatRes = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${env.OPENAI_API_KEY}`,
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          model: 'gpt-4o-mini',
-          messages: [
-            { role: 'system', content: SYSTEM_PROMPT },
-            { role: 'user', content: userPrompt },
-          ],
-          max_tokens: 400,
-          temperature: 0.3,
-        }),
+        body: JSON.stringify(buildSummaryRequest(env, userPrompt)),
       });
 
       let summary: string | null = null;

@@ -4,3 +4,7 @@ compatibility_date = "2024-12-01"
 
 [observability]
 enabled = true
+
+[vars]
+# Rollback: "gpt-4o-mini" (removed from the API on 2027-01-14). No code change needed.
+SUMMARY_MODEL = "gpt-6-luna"

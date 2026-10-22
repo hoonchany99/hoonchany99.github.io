@@ -45,7 +45,9 @@ export function wellFormed(text: string): string {
 // ─── Summary Request ───
 
 // gpt-4o-mini is removed from the API on 2027-01-14; OpenAI names gpt-6-luna as the replacement.
-export const DEFAULT_SUMMARY_MODEL = 'gpt-6-luna';
+// Not exported: workerd treats every named export of the main module as an entrypoint and refuses
+// to start on a non-function one (test/workerd-startup.test.mjs guards this).
+const DEFAULT_SUMMARY_MODEL = 'gpt-6-luna';
 const SUMMARY_MAX_TOKENS = 400;
 const SUMMARY_TEMPERATURE = 0.3;
 

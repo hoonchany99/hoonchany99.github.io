@@ -46,10 +46,12 @@ body {
   }
 }
 
-/* 스크롤 트리거 애니메이션 - 기본 상태 (숨김) */
-.anim-fade-up,
-.anim-fade-in,
-.anim-scale-in {
+/* 스크롤 트리거 애니메이션 - 기본 상태 (숨김)
+   JS가 돌 때만 숨겨요(html.js는 BaseLayout <head>의 인라인 스크립트가 붙임).
+   JS가 없으면 글이 그대로 보여요. */
+html.js .anim-fade-up,
+html.js .anim-fade-in,
+html.js .anim-scale-in {
   opacity: 0;
 }
 

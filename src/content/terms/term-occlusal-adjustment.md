@@ -39,6 +39,8 @@ faqs:
 sources:
   - url: "https://europepmc.org/article/MED/39282765"
     title: "코크란(2024): 턱관절 장애에 교합 치료 효과는 근거 부족(초록)"
+compare: {"title":"헷갈리는 말과 차이","columns":["교합조정","치아교정"],"rows":[{"label":"무엇을 바꾸나","cells":["치아나 보철물이 닿는 면의 모양","치아의 위치"]},{"label":"방법","cells":["높게 닿는 부분을 조금씩 연마","장치로 치아를 천천히 옮김"]},{"label":"흔한 경우","cells":["크라운·인레이를 넣은 뒤 한쪽만 높을 때","치아 배열이나 맞물림을 바꿀 때"]}]}
+askCards: [{"question":"턱관절이 아픈데, 교합조정을 하면 나아지나요?","explanation":"맞물림을 바꾸는 치료가 턱관절 장애에 효과가 있는지는 아직 결론을 낼 만큼 근거가 없어요. 턱 통증은 따로 원인을 진단받는 게 먼저예요.","sourceLabel":"코크란(2024): 턱관절 장애에 대한 교합 치료 효과(초록)","sourceUrl":"https://europepmc.org/article/MED/39282765"},{"question":"어느 치아를 얼마나 다듬는지 먼저 알 수 있을까요?","explanation":"치아를 깎아 맞물림을 바꾸는 것은 되돌리기 어려운 치료로 분류돼요. 그래서 하기 전에 얻는 것과 위험, 다른 방법을 먼저 설명받는 게 좋아요.","sourceLabel":"미국 국립치과두개안면연구소(NIDCR): 턱관절 장애 치료 안내","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmd"}]
 updated: "2026-08-16"
 relatedTerms:
   - crown

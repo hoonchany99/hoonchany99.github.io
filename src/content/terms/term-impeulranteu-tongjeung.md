@@ -57,6 +57,8 @@ sources:
     title: "J Prosthodont(2025): 치주인대가 없어 과도한 교합이 뼈 소실과 관련됨"
   - url: "https://synapse.koreamed.org/articles/1516080079"
     title: "대한구강악안면외과학회지(2022): 임플란트 뒤 신경 손상이 생기는 원리와 조기 평가"
+compare: {"title":"헷갈리는 말과 차이","columns":["수술 뒤 통증","임플란트 주위염"],"rows":[{"label":"언제","cells":["수술 직후 며칠","보철을 쓰는 동안 언제든"]},{"label":"주된 증상","cells":["욱신거림과 붓기가 점점 줄어듦","임플란트 둘레 잇몸이 붉고 붓거나, 양치할 때 피가 남"]},{"label":"원인","cells":["수술한 자리의 회복 과정","임플란트 둘레에 쌓인 세균으로 생긴 염증"]},{"label":"진료","cells":["처방약으로 조절되면 경과를 지켜봐요","잇몸에만 머문 초기에는 되돌릴 수 있고, 뼈까지 번지면 수술 치료가 필요한 경우가 많아요"]}]}
+askCards: [{"question":"씹을 때만 아픈데, 맞물림(교합)도 같이 확인해 볼 수 있을까요?","explanation":"임플란트에는 씹는 힘을 받아 주는 치주인대가 없어요. 그래서 맞물림이 너무 세게 닿으면 둘레 뼈가 줄어드는 것과 관련이 있다는 보고가 있어요.","sourceLabel":"J Prosthodont(2025): 교합 과부하와 임플란트 둘레 뼈 소실","sourceUrl":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12541295/"},{"question":"임플란트 둘레 잇몸에서 피가 나는데, 주위염인지 검사로 알 수 있나요?","explanation":"임플란트 둘레 잇몸이 붉어지거나 양치할 때 피가 나는 것은 주위 질환의 신호일 수 있어요. 일찍 찾으면 잇몸 단계에서 되돌릴 수 있어서, 정기 검진에서 확인하는 게 중요해요.","sourceLabel":"미국치주학회(AAP): 임플란트 주위 질환의 신호와 관리","sourceUrl":"https://www.perio.org/for-patients/gum-disease-information/peri-implant-diseases/"}]
 updated: "2026-08-16"
 relatedTerms:
   - osseointegration

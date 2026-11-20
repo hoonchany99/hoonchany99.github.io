@@ -43,6 +43,8 @@ sources:
     title: "GMS 성형재건외과 학술지(2016): 합병증(점막 천공·상악동염), 수술 뒤 주의"
   - url: "https://europepmc.org/article/PMC/PMC5797725"
     title: "점막 천공 처치 연구(PMC5797725): 크기별 처치와 임플란트 생존율"
+compare: {"title":"헷갈리는 말과 차이","columns":["상악동 점막 천공","수술 뒤 상악동염"],"rows":[{"label":"언제","cells":["수술하는 도중","수술 뒤 며칠에서 1주쯤"]},{"label":"무슨 일이 생겼나","cells":["상악동 바닥 점막이 찢어짐(가장 흔한 합병증)","상악동 안에 염증이 생김"]},{"label":"알아차리는 법","cells":["수술 중에 확인해요","코막힘, 두통, 수술한 쪽 얼굴 통증, 열"]},{"label":"대처","cells":["작으면 막으로 덮고 수술을 이어 가요","진찰해 원인을 찾고 치료해요. 이비인후과와 함께 보기도 해요"]}]}
+askCards: [{"question":"평소 축농증이나 코막힘이 있는데, 수술 전에 이비인후과 진료를 받아야 하나요?","explanation":"수술 뒤 상악동염은 원래 상악동 질환이 있거나, 코 안 구조로 막힘이 있거나, 점막이 찢어진 경우에 더 많았어요. 위험 요인이 있으면 수술 전에 이비인후과에서 미리 보는 것이 결과를 좋게 할 수 있어요.","sourceLabel":"Ochsner Journal(2023): 상악동 거상술 뒤 비부비동염과 수술 전 평가","sourceUrl":"https://europepmc.org/article/PMC/PMC10262945"},{"question":"수술 뒤 어떤 증상이면 바로 연락해야 하나요?","explanation":"코가 막히면서 두통이나 열이 나고, 수술한 쪽 얼굴이 넓게 아프거나 붉어지면 상악동염일 수 있어요. 이럴 땐 다음 예약을 기다리지 말고 연락해 주세요.","sourceLabel":"GMS 성형재건외과 학술지(2016): 수술 뒤 상악동염 증상","sourceUrl":"https://europepmc.org/article/PMC/PMC4776049"}]
 updated: "2026-08-16"
 relatedTerms:
   - sinus-lift

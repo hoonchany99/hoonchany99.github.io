@@ -40,6 +40,8 @@ sources:
     title: "PLoS One(2023): 혀 쪽 잇몸을 젖히면 잠시 다칠 위험이 커짐"
   - url: "https://www.nhs.uk/conditions/wisdom-tooth-removal/"
     title: "영국 국민보건서비스(NHS): 신경 손상으로 생긴 저림은 대개 좋아지지만 몇 주~몇 달 갈 수 있음"
+compare: {"title":"헷갈리는 말과 차이","columns":["설신경 손상","하치조신경 손상"],"rows":[{"label":"감각이 달라지는 곳","cells":["혀 한쪽, 맛","아랫입술과 턱"]},{"label":"신경이 지나는 곳","cells":["아래 어금니 안쪽 잇몸 아래 연조직","아래턱뼈 속 신경관"]},{"label":"흔한 원인","cells":["사랑니 발치 때 혀 쪽 조직을 다룰 때, 드물게 전달마취 주사","사랑니 뿌리나 임플란트가 신경관에 가까울 때"]},{"label":"처음 할 일","cells":["저림이 이어지면 바로 알리기","저림이 이어지면 바로 알리기"]}]}
+askCards: [{"question":"사랑니를 뺄 때 혀 쪽 잇몸도 젖히게 되나요?","explanation":"혀 쪽 잇몸을 젖혀 두는 방법은 잠깐 생기는 설신경 손상 위험이 더 높았다는 분석이 있어요. 오래 남는 손상을 줄여 주는지는 아직 근거가 부족해서, 수술 방법은 치아 위치를 보고 정해요.","sourceLabel":"PLoS One(2023): 혀 쪽 잇몸 젖힘과 설신경 손상(메타분석)","sourceUrl":"https://europepmc.org/article/PMC/PMC9970109"},{"question":"혀 저림이 생기면 언제까지 기다려 봐도 되나요?","explanation":"신경 손상으로 생긴 저림은 대개 좋아지지만, 몇 주에서 몇 달까지 갈 수 있어요. 마취가 풀린 뒤에도 저림이 이어지면 다음 예약까지 기다리지 말고 알려 주세요.","sourceLabel":"영국 국민보건서비스(NHS): 사랑니 발치 뒤 신경 손상과 회복","sourceUrl":"https://www.nhs.uk/conditions/wisdom-tooth-removal/"}]
 updated: "2026-08-16"
 relatedTerms:
   - hachijosingyeong-sonsang

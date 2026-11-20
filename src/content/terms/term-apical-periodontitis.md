@@ -53,6 +53,8 @@ sources:
     title: "MSD 매뉴얼 전문가판: 치통과 감염: 치근단 치주염과 농양 구별"
   - url: "https://www.msdmanuals.com/home/mouth-and-dental-disorders/tooth-disorders/periapical-abscess"
     title: "MSD 매뉴얼 일반인판: 농양은 발치·근관치료, 항생제는 보조"
+compare: {"title":"헷갈리는 말과 차이","columns":["치근단염","치근단 농양","치주염"],"rows":[{"label":"시작하는 곳","cells":["죽거나 감염된 치아 신경에서 뿌리 끝으로","치근단염이 진행해 뿌리 끝에 고름이 고임","잇몸과 치아를 받치는 뼈"]},{"label":"주된 증상","cells":["씹거나 두드리면 아픔, 뿌리 위 붓기는 없음","같은 통증이 더 심하고 잇몸·볼이 부음","잇몸 염증, 깊은 잇몸 주머니, 치아가 흔들림"]},{"label":"흔한 원인","cells":["치료하지 않은 충치, 외상","치근단염·치수염을 그대로 둠","치태·치석 아래 세균, 치료하지 않은 치은염"]},{"label":"치료","cells":["근관치료(신경치료)","고름 빼기와 근관치료 또는 발치, 항생제는 보조","치석 제거와 치근 활택 같은 잇몸 치료"]}]}
+askCards: [{"question":"이 치아는 신경치료로 살릴 수 있나요, 빼야 하나요?","explanation":"뿌리 끝 감염은 병든 치수(신경)를 없애고 고름을 빼내는 처치가 가장 중요해요. 근관치료로 치아를 남길지, 발치할지는 치아 상태를 보고 정해요.","sourceLabel":"MSD 매뉴얼 일반인판: 치근단 농양은 근관치료 또는 발치","sourceUrl":"https://www.msdmanuals.com/home/mouth-and-dental-disorders/tooth-disorders/periapical-abscess"},{"question":"이제 안 아픈데, 그래도 치료가 필요한가요?","explanation":"치아 신경이 죽으면 아프던 게 몇 시간에서 몇 주까지 잠잠해지기도 해요. 그 뒤에 뿌리 끝 염증이나 농양이 생길 수 있어서, 통증이 멎었는지만으로 판단하지 않아요.","sourceLabel":"MSD 매뉴얼 전문가판: 신경이 죽은 뒤 통증과 치근단염","sourceUrl":"https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/toothache-and-infection"}]
 updated: "2026-08-16"
 relatedTerms:
   - chigeun

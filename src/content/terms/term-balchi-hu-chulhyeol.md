@@ -43,7 +43,7 @@ approach:
   - when: "발치 당일, 피가 배어 나올 때"
     name: "거즈 압박"
     en: "Gauze Pressure"
-    detail: "거즈를 접어 물고 20~30분 동안 꾹 누릅니다. 자주 확인하려 뱉으면 굳던 피가 다시 터집니다."
+    detail: "거즈를 접어 물고 20~30분 동안 꾹 누릅니다. 자주 빼서 확인하거나 뱉으면 혈병이 떨어져 다시 출혈이 생길 수 있어요."
   - when: "압박해도 계속 새어 나올 때"
     name: "지혈제 거즈 · 봉합"
     en: "Hemostatic Dressing and Suturing"
@@ -51,7 +51,7 @@ approach:
   - when: "항응고제를 먹고 있는 경우"
     name: "국소 지혈 강화"
     en: "Local Hemostasis"
-    detail: "트라넥삼산 함수와 지혈제를 함께 씁니다. 약은 임의로 끊지 않습니다 — 끊는 위험이 더 큽니다."
+    detail: "필요하면 트라넥삼산 함수처럼 국소 지혈을 돕는 방법을 쓰기도 해요. 혈액을 묽게 하는 약은 임의로 끊지 말고 처방한 선생님과 상의해요."
 sources:
   - url: "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
     title: "맥길대학교 구강악안면외과: 발치 뒤 1~2일 피가 스미는 건 정상, 출혈이 많은지 보는 기준"
@@ -59,6 +59,8 @@ sources:
     title: "영국 국민보건서비스(NHS): 혈병이 상처를 덮어 아물도록 도움"
   - url: "https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/clinical-practice-advice/"
     title: "스코틀랜드 치과 임상 효과 프로그램(SDCEP): 항응고제·항혈소판제는 서면 지시 없이는 끊지 않음"
+compare: {"title":"헷갈리는 말과 차이","columns":["발치 후 출혈","드라이 소켓(건성 발치와)"],"rows":[{"label":"언제","cells":["발치 직후부터 1~2일","발치 3~6일째"]},{"label":"주된 증상","cells":["피가 스미거나 침에 섞여 나옴","진통제로 잘 가라앉지 않는 턱 통증이 오히려 심해짐"]},{"label":"무슨 일이 생겼나","cells":["혈병이 자리 잡는 중이에요","혈병이 떨어져 뼈와 신경 끝이 드러났어요"]},{"label":"어떻게 하나","cells":["거즈를 20~30분 물어 누르고, 안 멎으면 연락","치과에 연락해 처치를 받아요"]}]}
+askCards: [{"question":"집에서 피가 다시 나면 거즈를 어떻게 물면 되나요?","explanation":"깨끗한 거즈를 작게 접어 발치한 자리에 바로 대고 20~30분 꾹 물어 주세요. 거즈를 떼자마자 피가 다시 고이면 치과에 연락하는 게 좋아요.","sourceLabel":"맥길대학교 구강악안면외과: 발치 뒤 거즈 압박과 출혈이 많을 때 기준","sourceUrl":"https://www.mcgill.ca/omfs/patient-info/teeth-extractions"},{"question":"혈액을 묽게 하는 약을 먹고 있는데, 발치 전에 끊어야 하나요?","explanation":"보통은 끊지 않고, 치과에서 지혈 방법을 더 꼼꼼히 준비해요. 처방한 선생님의 지시 없이 스스로 끊으면 다른 위험이 생길 수 있어요.","sourceLabel":"스코틀랜드 치과 임상 효과 프로그램(SDCEP): 항응고제·항혈소판제 복용자 진료 원칙","sourceUrl":"https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/clinical-practice-advice/"}]
 updated: "2026-08-16"
 relatedTerms:
   - balchi-hu-juuisahang

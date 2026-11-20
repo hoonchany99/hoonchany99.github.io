@@ -48,6 +48,8 @@ sources:
     title: "미국심장협회(AHA, 2021): 일시적 균혈증, 2007년 대상 축소, 항생제 내성"
   - url: "https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis"
     title: "미국치과의사협회: 예방적 항생제 대상, 해당 처치, 인공 관절 기준"
+compare: {"title":"헷갈리는 말과 차이","columns":["예방적 항생제","치료용 항생제"],"rows":[{"label":"목적","cells":["감염이 생기기 전에 위험을 낮춤","이미 생긴 감염을 다스림"]},{"label":"언제 먹나","cells":["해당하는 치과 처치 직전","감염이 있을 때, 처방받은 기간 동안"]},{"label":"누가","cells":["감염성 심내막염 위험이 가장 높은 심장 질환 등 일부","감염이 있는 사람"]},{"label":"함께 하는 것","cells":["해당하는 처치인지 먼저 확인","고름 빼기 같은 원인 처치가 우선, 항생제는 보조"]}]}
+askCards: [{"question":"제 심장 상태가 예방적 항생제를 먹어야 하는 경우에 해당하나요?","explanation":"치과 치료 전 예방적 항생제는 감염성 심내막염이 생기면 결과가 가장 나쁜 심장 질환이 있는 분에게만 권해요. 진단명과 수술 이력을 알려 주시면 해당하는지 확인할 수 있어요.","sourceLabel":"미국치과의사협회(ADA): 예방적 항생제 대상 환자","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis"},{"question":"항생제 알레르기가 있으면 어떻게 하나요?","explanation":"알레르기가 있으면 다른 약으로 바꿔 처방해요. 예전에 대신 쓰던 약 가운데 부작용이 잦아 이제는 권하지 않는 것도 있어서, 알레르기와 예전에 겪은 반응을 꼭 알려 주세요.","sourceLabel":"미국치과의사협회(ADA): 알레르기가 있을 때의 대체 약 권고","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis"}]
 updated: "2026-08-16"
 relatedTerms:
   - eorini-chungchi-yebang

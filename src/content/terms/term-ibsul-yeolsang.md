@@ -37,6 +37,8 @@ faqs:
 sources:
   - url: "https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations"
     title: "MSD 매뉴얼 전문가판: 피부 열상: 직접 압박 지혈, 세척, 흉터 변화"
+compare: {"title":"헷갈리는 말과 차이","columns":["입술 열상","구각염(입꼬리 갈라짐)"],"rows":[{"label":"어디에","cells":["입술 어디든, 입술 안쪽까지","입꼬리"]},{"label":"왜 생기나","cells":["넘어지거나 부딪혀 다친 상처","틀니·닳은 치아로 입꼬리가 접히거나, 곰팡이(칸디다)·세균 감염, 비타민 B2·철 부족"]},{"label":"모양","cells":["갑자기 찢어지고 피가 남","붉어지고 갈라지며 딱지가 앉음"]},{"label":"진료","cells":["지혈과 세척, 필요하면 봉합","원인을 찾아 고치고, 감염이면 바르는 약"]}]}
+askCards: [{"question":"파상풍 예방주사를 맞아야 하는 상처인가요?","explanation":"상처를 치료할 때는 파상풍 예방접종이 필요한지도 함께 확인해요. 마지막으로 맞은 때를 기억해 두시면 판단이 빨라요.","sourceLabel":"MSD 매뉴얼 전문가판: 피부 열상 치료와 파상풍 예방","sourceUrl":"https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations"},{"question":"꿰맨 뒤 어떤 변화가 있으면 다시 와야 하나요?","explanation":"봉합한 뒤 반나절 넘게 지나서 통증이 점점 심해지면 감염의 첫 신호일 수 있어요. 상처 둘레가 넓게 붉어지거나 붓고 뜨거워지거나, 열이 나고 고름이 보여도 바로 진료를 받으세요.","sourceLabel":"MSD 매뉴얼 전문가판: 봉합 뒤 상처 감염 신호","sourceUrl":"https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations"}]
 updated: "2026-08-16"
 relatedTerms:
   - cavity

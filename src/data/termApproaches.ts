@@ -660,7 +660,7 @@ export const termApproaches: Record<string, TermApproach[]> = {
       when: '발치 당일, 피가 배어 나올 때',
       name: '거즈 압박',
       en: 'Gauze Pressure',
-      detail: '거즈를 접어 물고 20~30분 동안 꾹 누릅니다. 자주 확인하려 뱉으면 굳던 피가 다시 터집니다.',
+      detail: '거즈를 접어 물고 20~30분 동안 꾹 누릅니다. 자주 빼서 확인하거나 뱉으면 혈병이 떨어져 다시 출혈이 생길 수 있어요.',
     },
     {
       when: '압박해도 계속 새어 나올 때',
@@ -672,7 +672,7 @@ export const termApproaches: Record<string, TermApproach[]> = {
       when: '항응고제를 먹고 있는 경우',
       name: '국소 지혈 강화',
       en: 'Local Hemostasis',
-      detail: '트라넥삼산 함수와 지혈제를 함께 씁니다. 약은 임의로 끊지 않습니다 — 끊는 위험이 더 큽니다.',
+      detail: '필요하면 트라넥삼산 함수처럼 국소 지혈을 돕는 방법을 쓰기도 해요. 혈액을 묽게 하는 약은 임의로 끊지 말고 처방한 선생님과 상의해요.',
     },
   ],
 

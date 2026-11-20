@@ -49,6 +49,8 @@ sources:
     title: "영국 국민보건서비스(NHS): 국소마취 뒤 발치, 흡연·음주 피하기, 심해지는 통증"
   - url: "https://www.mcgill.ca/omfs/patient-info/teeth-extractions"
     title: "맥길대학교 구강악안면외과: 첫 24시간 주의사항, 연락이 필요한 감염 신호"
+compare: {"title":"헷갈리는 말과 차이","columns":["발치","신경치료(근관치료)"],"rows":[{"label":"무엇을 하나","cells":["살리기 어려운 치아를 빼요","치아 속 감염된 치수를 없애고 속을 채워 막아요"]},{"label":"치아는","cells":["빠지고, 빈자리를 채울 방법을 따로 정해요","남아요. 많이 상했으면 크라운을 씌우기도 해요"]},{"label":"치료 횟수","cells":["보통 한 번","보통 두 번 이상"]},{"label":"치료 뒤","cells":["첫날은 혈병이 자리 잡도록 조심해요","둘레가 붓고 아플 수 있지만 2주쯤 안에 좋아져요"]}]}
+askCards: [{"question":"이 치아를 빼야 하는 이유와, 살리는 방법은 없는지 알 수 있을까요?","explanation":"발치는 보통 감염이 심하거나 너무 흔들려서 살리기 어려운 치아에 해요. 감염된 치아는 신경치료로 남길 수 있는 경우도 있어서, 두 가지를 함께 놓고 설명을 들어 보세요.","sourceLabel":"MSD 매뉴얼 전문가판: 발치 대상은 살릴 수 없는 치아","sourceUrl":"https://www.msdmanuals.com/professional/dental-disorders/how-to-do-dental-procedures/how-to-do-an-emergency-tooth-extraction"},{"question":"발치 며칠 뒤 다시 아파지면 드라이 소켓인가요?","explanation":"발치 3~6일쯤 뒤에 진통제로 가라앉지 않는 턱 통증이 커지면 드라이 소켓일 수 있어요. 혈병이 떨어져 뼈가 드러난 상태라, 이럴 땐 치과에 연락해 주세요.","sourceLabel":"맥길대학교 구강악안면외과: 드라이 소켓 신호와 예방","sourceUrl":"https://www.mcgill.ca/omfs/patient-info/teeth-extractions"}]
 updated: "2026-08-16"
 relatedTerms:
   - wisdom-tooth

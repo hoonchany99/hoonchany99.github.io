@@ -1,0 +1,70 @@
+name: PR check
+
+# Runs on every pull request so a merge can wait for a green check:
+# the site must build (same steps as the deploy) and the AI search Worker
+# must typecheck and pass its tests. Nothing is deployed from here.
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Built pages are there
+        run: |
+          test -f dist/index.html
+          test -f dist/terms/index.html
+          test -f dist/404.html
+          test -f dist/sitemap-index.xml
+          test -f dist/robots.txt
+          pages=$(find dist -name '*.html' | wc -l)
+          echo "built pages: $pages"
+          test "$pages" -ge 400
+
+  worker:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: workers/summarize
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: workers/summarize/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test

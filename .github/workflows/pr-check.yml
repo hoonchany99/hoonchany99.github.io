@@ -52,6 +52,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # One test compares against an earlier commit (git show <sha>:...),
+          # so the job needs the whole history, not just the tip.
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4

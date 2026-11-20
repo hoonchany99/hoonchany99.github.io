@@ -226,8 +226,8 @@ image:
 </a>
 <a href="/posts/why-dental-scaling-matters/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-abbe5404-dee6-4e8d-b46e-a3a77c9a6ec8&quot;, &quot;link&quot;: &quot;/posts/why-dental-scaling-matters/&quot;}">
 <div class="se-oglink-info-container">
-<strong class="se-oglink-title">스케일링 하는 이유, 안하면 9000만원 손해</strong>
-<p class="se-oglink-summary">축하드립니다. 여러분이 이 글을 그냥 지나치셨다면 아마 9000만원의 손해를 입으셨을 겁니다. 왜냐구요? ...</p>
+<strong class="se-oglink-title">스케일링 하는 이유, 안받으시면 정말 손해입니다</strong>
+<p class="se-oglink-summary">축하드립니다. 스케일링을 받지 않아 치주질환이 진행되면 치료 비용이 크게 늘어날 수 있습니다. 왜냐구요? ...</p>
 <p class="se-oglink-url">blog.naver.com</p>
 </div>
 </a>

@@ -38,7 +38,7 @@ relatedPosts:
     image: "/img/posts/dentalgeneral-anesthesia/cover.png"
     date: "2022-08-24"
   - slug: painlessanesthesiadental
-    title: "무통마취치과, 아직도 모르셨나요?"
+    title: "무통마취(진동 마취), 어떤 방법일까요?"
     image: "/img/posts/painlessanesthesiadental/cover.png"
     date: "2023-04-03"
 ---

@@ -922,7 +922,7 @@ export const termApproaches: Record<string, TermApproach[]> = {
 
   'impeulranteu-tongjeung': [
     {
-      when: '수술 후 3~7일, 점점 줄어드는 통증',
+      when: '수술 후 며칠, 점점 줄어드는 통증',
       name: '진통제 + 냉찜질',
       en: 'Analgesics and Cold Compress',
       detail: '정상 경과입니다. 첫 48시간은 냉찜질, 이후 온찜질로 바꿉니다.',

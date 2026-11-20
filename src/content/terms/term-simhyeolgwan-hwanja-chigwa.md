@@ -48,6 +48,7 @@ sources:
 compare: {"title":"헷갈리는 말과 차이","columns":["항혈소판제","항응고제"],"rows":[{"label":"대표 약","cells":["아스피린, 클로피도그렐","와파린, 아픽사반·리바록사반 같은 약"]},{"label":"하는 일","cells":["혈소판이 뭉치지 않게 해요","피가 굳는 과정을 늦춰요"]},{"label":"치과 치료 전","cells":["보통 끊지 않고 지혈을 더 꼼꼼히 준비해요","와파린은 INR(피 굳는 정도) 검사 시기를, 다른 약은 먹는 시간 조정을 미리 안내받기도 해요"]},{"label":"끊어도 되나","cells":["처방한 선생님의 서면 지시 없이 끊지 않아요","처방한 선생님의 서면 지시 없이 끊지 않아요"]}]}
 askCards: [{"question":"스텐트 시술을 받은 지 얼마 안 됐는데, 지금 치과 치료를 받아도 되나요?","explanation":"급하지 않은 치료는 시술 뒤 한동안 미루는 경우가 많아요. 그 사이 꼭 치료할 증상이 생기면 심장내과 선생님과 상의한 뒤에 진행해요.","sourceLabel":"MSD 매뉴얼 전문가판(캐나다판): 심근경색·스텐트 뒤 치과 치료 시기","sourceUrl":"https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth","citeAfter":2},{"question":"마취제에 든 혈관수축제가 제 심장에 괜찮을까요?","explanation":"혈관수축제(에피네프린)는 적은 양이면 대체로 안전하다고 봐요. 다만 불안정 협심증, 최근의 심근경색·뇌졸중, 약으로도 조절되지 않는 부정맥이 있으면 쓰지 않으니 지금 상태를 꼭 알려 주세요.","sourceLabel":"MSD 매뉴얼 전문가판(캐나다판): 혈관수축제를 쓰면 안 되는 경우","sourceUrl":"https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth","citeAfter":1}]
 updated: "2026-08-16"
+reviewed: "2026-11-21"
 relatedTerms:
   - dangnyo-hwanja-chigwa
   - goldagongjeung-hwanja-chigwa

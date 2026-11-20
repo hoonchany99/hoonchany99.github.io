@@ -49,4 +49,10 @@ for (const [slug, b] of Object.entries(raw)) {
 }
 
 /** 감수일 (머지하는 날 채움). 지금은 모두 비어 있어요. */
-export const termReviewedBySlug: Record<string, string> = {};
+export const termReviewedBySlug: Record<string, string> = {
+  extraction: '2026-11-21',
+  'occlusal-adjustment': '2026-11-21',
+  'yebangjeog-hangsaengje': '2026-11-21',
+  'sangagdong-geosangsul-habbyeongjeung': '2026-11-21',
+  'simhyeolgwan-hwanja-chigwa': '2026-11-21',
+};

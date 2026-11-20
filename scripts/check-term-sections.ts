@@ -6,7 +6,8 @@
  *    - 소제목은 20자 이하이고, 용어 안에서 겹치지 않고, FAQ 질문과 같지 않다
  *    - 구역마다 문단이 하나 이상 있다
  *    - 「[근거](…)」 줄은 `[근거](https://… "기관: 내용")` 모양이고, 그 주소가 참고 자료 목록에 있다
- *      (화면에서는 이 줄이 각주 번호가 되어 참고 자료 N번으로 이어져요. 번호는 템플릿이 첫 등장 순서로 매겨요)
+ *      (문장 바로 뒤에 쓴 표시가 화면에서 각주 번호가 되어 참고 자료 N번으로 이어져요. 번호는 템플릿이 첫 등장 순서로 매겨요)
+ *    - 각주 바로 앞 문장이 공감·안내 문장(많이 걱정되셨죠, 긴장되실 수, 자주 듣는, 불안하실 수 …)이 아니다
  *    - 질문 카드는 질문·설명·출처 주소·출처 이름이 모두 있다
  * 2. 기존 문장 검사 (scripts/term-sections-baseline.json에 올라간 용어)
  *    - baseline: 소제목을 넣기 전 사이트 글(본문·FAQ·치료 방법)을 그대로 얼려 둔 것
@@ -19,7 +20,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
-import { parseDetail, sourceUrl } from '../src/lib/termSections.ts';
+import { parseDetail, sourceUrl, splitSentences, isEmpathy } from '../src/lib/termSections.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const TERMS_DIR = path.resolve(__dirname, '../src/content/terms');
@@ -57,20 +58,28 @@ for (const file of fs.readdirSync(TERMS_DIR).filter((f) => f.endsWith('.md'))) {
     if (faqQuestions.has(norm(h)) || faqQuestions.has(norm(h + '?')))
       fail(slug, `소제목이 FAQ 질문과 같아요: "${h}"`);
     if (sec.paragraphs.length === 0) fail(slug, `내용이 없는 구역: "${h}"`);
-    if (sec.source && !sourceUrls.has(sec.source.url))
-      fail(slug, `「${h}」의 근거 주소가 참고 자료 목록에 없어요: ${sec.source.url}`);
+    for (const c of sec.cites) {
+      if (!sourceUrls.has(c.url)) fail(slug, `「${h}」의 근거 주소가 참고 자료 목록에 없어요: ${c.url}`);
+      if (isEmpathy(c.after)) fail(slug, `「${h}」: 공감·안내 문장 뒤에 각주를 뒀어요: ${c.after}`);
+    }
   }
 
   // 질문 카드: 질문·설명·출처(주소와 이름)가 모두 있어야 각주로 이어져요
-  for (const card of (data.askCards ?? []) as { question?: string; explanation?: string; sourceUrl?: string; sourceLabel?: string }[]) {
+  for (const card of (data.askCards ?? []) as { question?: string; explanation?: string; sourceUrl?: string; sourceLabel?: string; citeAfter?: number }[]) {
     if (!card.question || !card.explanation || !card.sourceUrl || !card.sourceLabel)
       fail(slug, `질문 카드에 빠진 칸이 있어요: ${card.question ?? '(질문 없음)'}`);
+    else {
+      const sentences = splitSentences(card.explanation);
+      const k = (card as { citeAfter?: number }).citeAfter ?? sentences.length;
+      if (k < 1 || k > sentences.length) fail(slug, `질문 카드 citeAfter가 범위를 벗어났어요: ${card.question}`);
+      else if (isEmpathy(sentences[k - 1])) fail(slug, `질문 카드: 공감·안내 문장 뒤에 각주를 뒀어요: ${sentences[k - 1]}`);
+    }
   }
 
   // 근거 줄 모양이 틀려 문단으로 읽힌 경우를 잡는다
   for (const sec of parsed.sections)
     for (const p of sec.paragraphs)
-      if (p.startsWith('[근거]')) fail(slug, `근거 줄 모양이 틀려요(소제목 「${sec.heading}」): ${p.slice(0, 40)}`);
+      if (p.includes('[근거]')) fail(slug, `근거 줄 모양이 틀려요(소제목 「${sec.heading}」): ${p.slice(0, 40)}`);
 
   const entry = ledger[slug];
   if (entry) {

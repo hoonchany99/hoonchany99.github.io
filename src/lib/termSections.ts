@@ -7,9 +7,15 @@
  *   ## !소제목                        ← 「!」를 붙이면 주황 안내 상자(「이럴 땐 미루지 마세요」 자리)로 그려요
  *   문장 문장 문장.                   ← 빈 줄로 문단을 나눠요
  *
- *   [근거](https://… "기관: 내용")    ← 구역 끝에 한 줄. 화면에 「근거: 기관: 내용 →」로 나와요
+ * 각주(근거) 표시: 출처가 받쳐 주는 문장 바로 뒤에 같은 줄에서 이렇게 써요.
  *
- * 근거 줄은 구역마다 최대 하나이고, 줄 전체가 이 모양일 때만 근거로 읽어요.
+ *   발치 후 첫날은 혈병이 자리 잡는 중요한 시기예요. [근거](https://… "기관: 내용") 다음 문장…
+ *
+ * 화면에서는 이 표시가 문장 끝 작은 위첨자 번호가 되고, 맨 아래 「참고 자료」 N번으로 이어져요.
+ * 번호는 템플릿이 처음 나온 순서대로 매기고, 같은 주소는 같은 번호를 써요.
+ * - 출처가 문장 여러 개를 받치면 그 가운데 마지막 사실 문장 뒤에 두어요.
+ * - 공감·안내 문장(「많이 긴장되실 수 있어요」 같은) 뒤에는 두지 않아요(check-terms가 잡아요).
+ * - 표시만 따로 한 줄에 쓰면(예전 방식) 그 문단 맨 끝에 붙어요.
  */
 
 export interface TermSectionSource {
@@ -17,12 +23,28 @@ export interface TermSectionSource {
   label: string;
 }
 
+/** 문장 바로 뒤에 붙는 각주 표시 */
+export interface TermCite extends TermSectionSource {
+  /** 이 각주 바로 앞 문장 */
+  after: string;
+}
+
+/** 문단 조각: 글 하나와, 그 글 바로 뒤에 붙는 각주(있으면) */
+export interface TermPiece {
+  text: string;
+  cite?: TermCite;
+}
+
 export interface TermSection {
   heading: string;
   /** 소제목 앞에 「!」가 있으면 true: 주황 안내 상자로 보여 줘요 */
   callout: boolean;
+  /** 각주 표시를 뺀 문단 글 */
   paragraphs: string[];
-  source?: TermSectionSource;
+  /** 문단마다 글 조각과 각주 */
+  pieces: TermPiece[][];
+  /** 이 구역의 모든 각주 (화면에 나오는 차례) */
+  cites: TermCite[];
 }
 
 export interface ParsedDetail {
@@ -35,6 +57,24 @@ export interface ParsedDetail {
 
 const HEADING = /^##\s+(.+?)\s*$/;
 const SOURCE_LINE = /^\[근거\]\((\S+)\s+"([^"]+)"\)\s*$/;
+const INLINE_CITE = /\s*\[근거\]\((\S+)\s+"([^"]+)"\)/g;
+
+/** 문단 하나를 글 조각과 각주로 나눈다 */
+function splitPieces(text: string): TermPiece[] {
+  const pieces: TermPiece[] = [];
+  let acc = '';
+  let last = 0;
+  for (const m of text.matchAll(INLINE_CITE)) {
+    const chunk = text.slice(last, m.index);
+    acc += chunk;
+    const sentence = splitSentences(acc).at(-1) ?? acc;
+    pieces.push({ text: chunk, cite: { url: m[1], label: m[2], after: sentence } });
+    last = (m.index ?? 0) + m[0].length;
+  }
+  const rest = text.slice(last);
+  if (rest || pieces.length === 0) pieces.push({ text: rest });
+  return pieces;
+}
 
 export function parseDetail(detail: string): ParsedDetail {
   const lines = detail.split('\n');
@@ -48,8 +88,14 @@ export function parseDetail(detail: string): ParsedDetail {
     const text = buffer.join(' ').trim();
     buffer = [];
     if (!text) return;
-    if (current) current.paragraphs.push(text);
-    else preambleLines.push(text);
+    if (!current) {
+      preambleLines.push(text);
+      return;
+    }
+    const pieces = splitPieces(text);
+    current.pieces.push(pieces);
+    current.paragraphs.push(pieces.map((p) => p.text).join(''));
+    for (const p of pieces) if (p.cite) current.cites.push(p.cite);
   };
 
   for (const raw of lines) {
@@ -58,14 +104,18 @@ export function parseDetail(detail: string): ParsedDetail {
     if (heading) {
       flush();
       const callout = heading[1].startsWith('!');
-      current = { heading: callout ? heading[1].slice(1).trim() : heading[1], callout, paragraphs: [] };
+      current = { heading: callout ? heading[1].slice(1).trim() : heading[1], callout, paragraphs: [], pieces: [], cites: [] };
       sections.push(current);
       continue;
     }
     const source = line.match(SOURCE_LINE);
-    if (source && current) {
-      flush();
-      current.source = { url: source[1], label: source[2] };
+    if (source && current && buffer.length === 0 && current.pieces.length > 0) {
+      // 예전 방식: 표시만 한 줄 → 바로 앞 문단 맨 끝에 붙인다
+      const last = current.pieces[current.pieces.length - 1];
+      const sentence = splitSentences(current.paragraphs[current.paragraphs.length - 1]).at(-1) ?? '';
+      const cite = { url: source[1], label: source[2], after: sentence };
+      last[last.length - 1].cite = cite;
+      current.cites.push(cite);
       continue;
     }
     if (line === '') {
@@ -119,4 +169,36 @@ export interface TermAskCard {
   explanation: string;
   sourceLabel: string;
   sourceUrl: string;
+  /** 각주 번호를 둘 문장 번호(1부터). 없으면 설명의 마지막 문장 */
+  citeAfter?: number;
 }
+
+/**
+ * 안내 상자 글머리표용: 문단 조각을 문장으로 나누고, 각주를 그 앞 문장에 붙인다.
+ * (각주는 글 속 위치가 그 문장 끝 이전이면 그 문장에 붙어요)
+ */
+export function sentenceBullets(pieces: TermPiece[]): { sentence: string; cites: TermCite[] }[] {
+  const clean = pieces.map((p) => p.text).join('');
+  const sentences = splitSentences(clean);
+  const ends: number[] = [];
+  let cursor = 0;
+  for (const s of sentences) {
+    const i = clean.indexOf(s, cursor);
+    cursor = i + s.length;
+    ends.push(cursor);
+  }
+  const out = sentences.map((sentence) => ({ sentence, cites: [] as TermCite[] }));
+  let offset = 0;
+  for (const p of pieces) {
+    offset += p.text.length;
+    if (!p.cite) continue;
+    let idx = ends.findIndex((e) => e >= offset);
+    if (idx < 0) idx = out.length - 1;
+    out[idx].cites.push(p.cite);
+  }
+  return out;
+}
+
+/** 공감·안내 문장 뒤에는 각주를 두지 않는다 (check-terms가 쓰는 짧은 목록) */
+export const EMPATHY_PHRASES = ['많이 걱정되셨죠', '긴장되실 수', '자주 듣는', '불안하실 수', '많이 놀라', '놀라셨죠'];
+export const isEmpathy = (sentence: string) => EMPATHY_PHRASES.some((p) => sentence.includes(p));

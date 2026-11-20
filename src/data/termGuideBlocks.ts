@@ -13,7 +13,7 @@ import pilotNewBlocks from './pilotNewBlocks.json' with { type: 'json' };
 interface RawBlocks {
   category?: string;
   compare?: { title?: string; headers?: string[]; rows?: unknown[] };
-  clinicQuestions?: { q: string; a: string; source?: { url: string; title: string } }[];
+  clinicQuestions?: { q: string; a: string; citeAfter?: number; source?: { url: string; title: string } }[];
 }
 const raw = pilotNewBlocks as Record<string, RawBlocks>;
 
@@ -43,7 +43,7 @@ for (const [slug, b] of Object.entries(raw)) {
   if (compare) termCompareBySlug[slug] = compare;
   const cards = (b.clinicQuestions ?? [])
     .filter((q) => q.source?.url)
-    .map((q) => ({ question: q.q, explanation: q.a, sourceLabel: q.source!.title, sourceUrl: q.source!.url }));
+    .map((q) => ({ question: q.q, explanation: q.a, sourceLabel: q.source!.title, sourceUrl: q.source!.url, citeAfter: q.citeAfter }));
   if (cards.length) termAskCardsBySlug[slug] = cards;
   if (b.category) termCategoryOverrideBySlug[slug] = b.category;
 }

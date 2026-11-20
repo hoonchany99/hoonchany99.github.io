@@ -3,7 +3,8 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { doctorWVoiceGuide } from '../../data/doctorWVoice';
-import { parseDetail, splitSentences, sourceUrl, sourceTitle, sourceHost } from '../../lib/termSections';
+import { parseDetail, splitSentences, sentenceBullets, sourceUrl, sourceTitle, sourceHost } from '../../lib/termSections';
+import type { TermCite } from '../../lib/termSections';
 import CiteMark from '../../components/CiteMark.astro';
 import { termCategoryBySlug } from '../../data/termCategories';
 import { termCategoryOverrideBySlug } from '../../data/termGuideBlocks';
@@ -80,8 +81,8 @@ const refTitleByUrl = new Map<string, string>(
 );
 const citeOrder: string[] = [];
 const citeCount = new Map<string, number>();
-function plan(url: string | undefined) {
-  if (!hasSections || !url) return undefined;
+function plan(url: string, label: string) {
+  if (!refTitleByUrl.has(url)) refTitleByUrl.set(url, label);
   let idx = citeOrder.indexOf(url);
   if (idx < 0) {
     citeOrder.push(url);
@@ -89,16 +90,35 @@ function plan(url: string | undefined) {
   }
   const k = (citeCount.get(url) ?? 0) + 1;
   citeCount.set(url, k);
-  return { n: idx + 1, k };
+  return { n: idx + 1, k, url };
 }
-const sectionCite = new Map<number, { n: number; k: number }>();
-for (const { sec, n } of [...plainSections, ...calloutSections]) {
-  const c = plan(sec.source?.url);
-  if (c) sectionCite.set(n, c);
+const mk = (c: TermCite) => plan(c.url, c.label);
+type Mark = ReturnType<typeof plan>;
+const sectionRender = new Map<
+  number,
+  {
+    paras: { text: string; cite?: Mark }[][];
+    bullets: { sentence: string; cites: Mark[] }[];
+  }
+>();
+if (hasSections) {
+  for (const { sec, n } of [...plainSections, ...calloutSections]) {
+    sectionRender.set(n, {
+      paras: sec.callout ? [] : sec.pieces.map((ps) => ps.map((p) => ({ text: p.text, cite: p.cite ? mk(p.cite) : undefined }))),
+      bullets: sec.callout
+        ? sec.pieces.flatMap((ps) => sentenceBullets(ps)).map((b) => ({ sentence: b.sentence, cites: b.cites.map(mk) }))
+        : [],
+    });
+  }
 }
-const askCite = askCards.map((card) => {
-  if (card.sourceUrl && !refTitleByUrl.has(card.sourceUrl)) refTitleByUrl.set(card.sourceUrl, card.sourceLabel);
-  return plan(card.sourceUrl);
+const askRender = askCards.map((card) => {
+  const sentences = splitSentences(card.explanation);
+  const k = Math.min(Math.max(card.citeAfter ?? sentences.length, 1), sentences.length);
+  return {
+    before: sentences.slice(0, k).join(' '),
+    after: sentences.slice(k).join(' '),
+    cite: card.sourceUrl ? plan(card.sourceUrl, card.sourceLabel) : undefined,
+  };
 });
 const refList = hasSections
   ? [
@@ -270,8 +290,8 @@ const definedTermLd = JSON.stringify({
           <section aria-labelledby={`sec-${n}`} class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
             <h2 id={`sec-${n}`} class="scroll-mt-20 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">{sec.heading}</h2>
             <div class="space-y-4 text-gray-800 text-base leading-[1.75]">
-              {sec.paragraphs.map((paragraph, pi) => (
-                <p>{paragraph}{pi === sec.paragraphs.length - 1 && sectionCite.get(n) && <CiteMark n={sectionCite.get(n)!.n} k={sectionCite.get(n)!.k} name={refName(sec.source!.url)} />}</p>
+              {sectionRender.get(n)!.paras.map((para) => (
+                <p>{para.map((piece) => (<>{piece.text}{piece.cite && <CiteMark n={piece.cite.n} k={piece.cite.k} name={refName(piece.cite.url)} />}</>))}</p>
               ))}
             </div>
           </section>
@@ -371,8 +391,8 @@ const definedTermLd = JSON.stringify({
           <div class="rounded-[14px] border border-orange-200 bg-orange-50 px-3.5 py-3.5">
             <h2 id={`sec-${n}`} class="scroll-mt-20 text-[15px] font-bold leading-snug text-orange-800 mb-2">{sec.heading}</h2>
             <ul class="list-disc space-y-1 pl-5 text-[14.5px] leading-[1.6] text-orange-950 marker:text-orange-400">
-              {sec.paragraphs.flatMap((paragraph) => splitSentences(paragraph)).map((sentence, si, all) => (
-                <li>{sentence}{si === all.length - 1 && sectionCite.get(n) && <CiteMark n={sectionCite.get(n)!.n} k={sectionCite.get(n)!.k} name={refName(sec.source!.url)} />}</li>
+              {sectionRender.get(n)!.bullets.map((b) => (
+                <li>{b.sentence}{b.cites.map((c) => <CiteMark n={c.n} k={c.k} name={refName(c.url)} />)}</li>
               ))}
             </ul>
           </div>
@@ -390,7 +410,7 @@ const definedTermLd = JSON.stringify({
               <h3 class="mt-1 mb-2.5 text-base font-bold leading-snug text-gray-900">{card.question}</h3>
               <div class="rounded-xl bg-brand-bg px-3.5 py-3">
                 <p class="mb-1 text-[11.5px] font-bold text-brand-dark">설명</p>
-                <p class="text-sm leading-[1.65] text-gray-700">{card.explanation}{askCite[i] && <CiteMark n={askCite[i]!.n} k={askCite[i]!.k} name={refName(card.sourceUrl)} />}</p>
+                <p class="text-sm leading-[1.65] text-gray-700">{askRender[i].before}{askRender[i].cite && <CiteMark n={askRender[i].cite!.n} k={askRender[i].cite!.k} name={refName(askRender[i].cite!.url)} />}{askRender[i].after && <>{' '}{askRender[i].after}</>}</p>
               </div>
             </div>
           ))}

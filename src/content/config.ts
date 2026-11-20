@@ -73,6 +73,7 @@ const terms = defineCollection({
           explanation: z.string(),
           sourceLabel: z.string(),
           sourceUrl: z.string(),
+          citeAfter: z.number().optional(),
         })
       )
       .default([]),

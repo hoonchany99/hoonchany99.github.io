@@ -37,7 +37,8 @@
     "source": {
      "url": "https://www.msdmanuals.com/professional/dental-disorders/how-to-do-dental-procedures/how-to-do-an-emergency-tooth-extraction",
      "title": "MSD 매뉴얼 전문가판: 발치 대상은 살릴 수 없는 치아"
-    }
+    },
+    "citeAfter": 1
    },
    {
     "q": "발치 며칠 뒤 다시 아파지면 드라이 소켓인가요?",
@@ -45,7 +46,8 @@
     "source": {
      "url": "https://www.mcgill.ca/omfs/patient-info/teeth-extractions",
      "title": "맥길대학교 구강악안면외과: 드라이 소켓 신호와 예방"
-    }
+    },
+    "citeAfter": 1
    }
   ]
  },
@@ -82,7 +84,8 @@
     "source": {
      "url": "https://europepmc.org/article/MED/39282765",
      "title": "코크란(2024): 턱관절 장애에 대한 교합 치료 효과(초록)"
-    }
+    },
+    "citeAfter": 1
    },
    {
     "q": "어느 치아를 얼마나 다듬는지 먼저 알 수 있을까요?",
@@ -90,7 +93,8 @@
     "source": {
      "url": "https://www.nidcr.nih.gov/health-info/tmd",
      "title": "미국 국립치과두개안면연구소(NIDCR): 턱관절 장애 치료 안내"
-    }
+    },
+    "citeAfter": 1
    }
   ]
  },
@@ -132,7 +136,8 @@
     "source": {
      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis",
      "title": "미국치과의사협회(ADA): 예방적 항생제 대상 환자"
-    }
+    },
+    "citeAfter": 1
    },
    {
     "q": "항생제 알레르기가 있으면 어떻게 하나요?",
@@ -140,7 +145,8 @@
     "source": {
      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis",
      "title": "미국치과의사협회(ADA): 알레르기가 있을 때의 대체 약 권고"
-    }
+    },
+    "citeAfter": 1
    }
   ]
  },
@@ -182,7 +188,8 @@
     "source": {
      "url": "https://europepmc.org/article/PMC/PMC10262945",
      "title": "Ochsner Journal(2023): 상악동 거상술 뒤 비부비동염과 수술 전 평가"
-    }
+    },
+    "citeAfter": 1
    },
    {
     "q": "수술 뒤 어떤 증상이면 바로 연락해야 하나요?",
@@ -190,7 +197,8 @@
     "source": {
      "url": "https://europepmc.org/article/PMC/PMC4776049",
      "title": "GMS 성형재건외과 학술지(2016): 수술 뒤 상악동염 증상"
-    }
+    },
+    "citeAfter": 1
    }
   ]
  },
@@ -232,7 +240,8 @@
     "source": {
      "url": "https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth",
      "title": "MSD 매뉴얼 전문가판(캐나다판): 심근경색·스텐트 뒤 치과 치료 시기"
-    }
+    },
+    "citeAfter": 2
    },
    {
     "q": "마취제에 든 혈관수축제가 제 심장에 괜찮을까요?",
@@ -240,7 +249,8 @@
     "source": {
      "url": "https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth",
      "title": "MSD 매뉴얼 전문가판(캐나다판): 혈관수축제를 쓰면 안 되는 경우"
-    }
+    },
+    "citeAfter": 1
    }
   ]
  }

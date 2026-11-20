@@ -9,6 +9,7 @@ import { termDetailsBySlug } from '../src/data/termDetails.ts';
 import { authoredBySlug } from '../src/data/termsAuthored.ts';
 import { excludedSlugs } from '../src/data/termsExcluded.ts';
 import { termNamesEn } from '../src/data/termNamesEn.ts';
+import { termCompareBySlug, termAskCardsBySlug, termReviewedBySlug } from '../src/data/termGuideBlocks.ts';
 import { termSourcesExtra } from '../src/data/termSourcesExtra.ts';
 import { termSynonyms } from '../src/data/termSynonyms.ts';
 import { termApproaches, orderedApproachSlugs } from '../src/data/termApproaches.ts';
@@ -353,7 +354,12 @@ function renderTermFile(
           ),
         ]
       : []),
+    ...(termCompareBySlug[term.slug] ? [`compare: ${JSON.stringify(termCompareBySlug[term.slug])}`] : []),
+    ...(termAskCardsBySlug[term.slug]?.length
+      ? [`askCards: ${JSON.stringify(termAskCardsBySlug[term.slug])}`]
+      : []),
     `updated: ${yamlQuote(CONTENT_UPDATED)}`,
+    ...(termReviewedBySlug[term.slug] ? [`reviewed: ${yamlQuote(termReviewedBySlug[term.slug])}`] : []),
     'relatedTerms:',
     ...(relatedTerms.length ? relatedTerms.map((s) => `  - ${s}`) : ['  []']),
     'relatedPosts:',

@@ -4,6 +4,7 @@
  * detail 문자열 형식 (소제목이 하나도 없으면 지금처럼 한 덩어리 본문이에요)
  *
  *   ## 소제목                         ← 줄 맨 앞 「## 」가 구역 시작. 첫 줄은 반드시 소제목
+ *   ## !소제목                        ← 「!」를 붙이면 주황 안내 상자(「이럴 땐 미루지 마세요」 자리)로 그려요
  *   문장 문장 문장.                   ← 빈 줄로 문단을 나눠요
  *
  *   [근거](https://… "기관: 내용")    ← 구역 끝에 한 줄. 화면에 「근거: 기관: 내용 →」로 나와요
@@ -18,6 +19,8 @@ export interface TermSectionSource {
 
 export interface TermSection {
   heading: string;
+  /** 소제목 앞에 「!」가 있으면 true: 주황 안내 상자로 보여 줘요 */
+  callout: boolean;
   paragraphs: string[];
   source?: TermSectionSource;
 }
@@ -54,7 +57,8 @@ export function parseDetail(detail: string): ParsedDetail {
     const heading = line.match(HEADING);
     if (heading) {
       flush();
-      current = { heading: heading[1], paragraphs: [] };
+      const callout = heading[1].startsWith('!');
+      current = { heading: callout ? heading[1].slice(1).trim() : heading[1], callout, paragraphs: [] };
       sections.push(current);
       continue;
     }
@@ -92,4 +96,27 @@ export function sourceTitle(s: TermSource): string | undefined {
 
 export function sourceHost(url: string): string {
   return new URL(url).hostname.replace(/^www\./, '');
+}
+
+/** 문단 하나를 문장 목록으로 나눈다 (안내 상자의 글머리표용). 마침표·물음표·느낌표 뒤 공백에서 나눠요 */
+export function splitSentences(paragraph: string): string[] {
+  return paragraph
+    .split(/(?<=[.!?])\s+/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+/** 용어 하나에 붙는 「헷갈리는 말과 차이」 표 (내용이 있을 때만 그려요) */
+export interface TermCompare {
+  title: string;
+  columns: string[];
+  rows: { label: string; cells: string[] }[];
+}
+
+/** 「진료실에서 물어볼 것」 질문 카드 (내용이 있을 때만 그려요) */
+export interface TermAskCard {
+  question: string;
+  explanation: string;
+  sourceLabel: string;
+  sourceUrl: string;
 }

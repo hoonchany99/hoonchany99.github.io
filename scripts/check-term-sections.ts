@@ -6,6 +6,8 @@
  *    - 소제목은 20자 이하이고, 용어 안에서 겹치지 않고, FAQ 질문과 같지 않다
  *    - 구역마다 문단이 하나 이상 있다
  *    - 「[근거](…)」 줄은 `[근거](https://… "기관: 내용")` 모양이고, 그 주소가 참고 자료 목록에 있다
+ *      (화면에서는 이 줄이 각주 번호가 되어 참고 자료 N번으로 이어져요. 번호는 템플릿이 첫 등장 순서로 매겨요)
+ *    - 질문 카드는 질문·설명·출처 주소·출처 이름이 모두 있다
  * 2. 기존 문장 검사 (scripts/term-sections-baseline.json에 올라간 용어)
  *    - baseline: 소제목을 넣기 전 사이트 글(본문·FAQ·치료 방법)을 그대로 얼려 둔 것
  *    - kept: [기존] 문장. baseline에 글자 그대로 있고, 지금 본문에도 그대로 있어야 한다
@@ -57,6 +59,12 @@ for (const file of fs.readdirSync(TERMS_DIR).filter((f) => f.endsWith('.md'))) {
     if (sec.paragraphs.length === 0) fail(slug, `내용이 없는 구역: "${h}"`);
     if (sec.source && !sourceUrls.has(sec.source.url))
       fail(slug, `「${h}」의 근거 주소가 참고 자료 목록에 없어요: ${sec.source.url}`);
+  }
+
+  // 질문 카드: 질문·설명·출처(주소와 이름)가 모두 있어야 각주로 이어져요
+  for (const card of (data.askCards ?? []) as { question?: string; explanation?: string; sourceUrl?: string; sourceLabel?: string }[]) {
+    if (!card.question || !card.explanation || !card.sourceUrl || !card.sourceLabel)
+      fail(slug, `질문 카드에 빠진 칸이 있어요: ${card.question ?? '(질문 없음)'}`);
   }
 
   // 근거 줄 모양이 틀려 문단으로 읽힌 경우를 잡는다

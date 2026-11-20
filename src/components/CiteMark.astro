@@ -1,0 +1,19 @@
+---
+/**
+ * 본문 끝 각주 번호 (위첨자). 맨 아래 「참고 자료」 N번 항목으로 이동해요.
+ * 탭 영역은 글줄 높이를 늘리지 않으면서 24px 이상이 되도록 가상 요소로 넓혔어요.
+ */
+interface Props {
+  n: number;
+  k: number;
+  /** 스크린리더용 기관 이름 */
+  name: string;
+}
+const { n, k, name } = Astro.props;
+---
+<sup class="ml-0.5 text-[0.7em] font-semibold leading-none scroll-mt-32"><a
+  href={`#ref-${n}`}
+  id={`cite-${n}-${k}`}
+  aria-label={`참고 자료 ${n}번: ${name}`}
+  class="relative scroll-mt-32 px-0.5 text-brand-dark no-underline hover:underline rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-dark after:absolute after:left-1/2 after:top-1/2 after:h-6 after:w-6 after:-translate-x-1/2 after:-translate-y-1/2 after:content-['']"
+>{n}</a></sup>

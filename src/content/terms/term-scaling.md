@@ -52,7 +52,7 @@ relatedPosts:
     image: "/img/posts/scaling-insurance/cover.png"
     date: "2025-11-30"
   - slug: scalingdental-5
-    title: "스케일링잘하는치과, 5가지만 보시면 됩니다."
+    title: "스케일링 받을 치과 고를 때 확인할 것"
     image: "/img/posts/scalingdental-5/cover.png"
     date: "2023-04-08"
 ---

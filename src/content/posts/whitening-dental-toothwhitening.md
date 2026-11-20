@@ -115,20 +115,7 @@ image:
 </div>
 </div>
 
-</div>                <div class="se-component se-image se-l-default __se-component" id="SE-AE7B5DE7-A52C-40CC-BFDA-4DA1EDBD690A">
-<div class="se-component-content se-component-content-normal">
-<div class="se-section se-section-image se-l-default se-section-align-center" style="max-width:405px;">
-<div class="se-module se-module-image" style="">
-<a class="se-module-image-link __se_image_link __se_link" style="" onclick="return false;" data-linktype="img" data-linkdata="{&quot;id&quot; : &quot;SE-AE7B5DE7-A52C-40CC-BFDA-4DA1EDBD690A&quot;, &quot;src&quot; : &quot;/img/posts/whitening-dental-toothwhitening/img3.jpg&quot;, &quot;originalWidth&quot; : &quot;800&quot;, &quot;originalHeight&quot; : &quot;533&quot;, &quot;linkUse&quot; : &quot;false&quot;, &quot;link&quot; : &quot;&quot;, &quot;fileSize&quot;: &quot;31729&quot; }" area-hidden="true">
-<img src="/img/posts/whitening-dental-toothwhitening/img3.jpg" data-lazy-src="/img/posts/whitening-dental-toothwhitening/img3.jpg" data-width="405" data-height="269" alt="집에서 하는 미백, 효과는 있을까? 치과에서 보는 치아미백 차이 관련 이미지 5" class="se-image-resource egjs-visible" id="SE-AE7B5DE7-A52C-40CC-BFDA-4DA1EDBD690A_0">
-</a>
-</div>
-<div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align- " style="" id="SE-ed0d571f-c16a-447c-9f3a-900ca62da360"><span style="" class="se-fs- se-ff-   " id="SE-8c8223c5-977e-4f68-b4d2-18ae4d86bb93">치과미백(전문가미백)의 전후 예시 사진입니다. 아쉽게도 자가미백은 이정도 효과까지 기대할 수 없어요 (출처: </span><span style="" class="se-fs- se-ff-   " id="SE-16ab3a3b-a92f-4f52-9ab8-790db8a77097"><a href="https://www.valley.dental/" class="se-link __se_link" data-linktype="text" data-linkdata="{&quot;id&quot;: &quot;SE-16ab3a3b-a92f-4f52-9ab8-790db8a77097&quot;, &quot;link&quot;: &quot;https://www.valley.dental/&quot;}" target="_blank">https://www.valley.dental/</a></span><span style="" class="se-fs- se-ff-   " id="SE-dde1da29-33c9-4459-9d43-fc6bbc625fac">)</span></p></div>
-</div>
-</div>
-
-</div>
-<div class="se-component se-text se-l-default" id="SE-f7c7eb16-dcf4-42b4-a426-8d5e31de4fff">
+</div>                <div class="se-component se-text se-l-default" id="SE-f7c7eb16-dcf4-42b4-a426-8d5e31de4fff">
 <div class="se-component-content">
 <div class="se-section se-section-text se-l-default">
 <div class="se-module se-module-text">

@@ -279,7 +279,7 @@ image:
 <div class="se-module se-module-oglink">
 <a href="/posts/scalingdental-5/" class="se-oglink-info __se_link"  data-linktype="oglink" data-linkdata="{&quot;id&quot;: &quot;SE-6e8aaedf-8a18-4a18-88e7-beb50909014f&quot;, &quot;link&quot;: &quot;/posts/scalingdental-5/&quot;}">
 <div class="se-oglink-info-container">
-<strong class="se-oglink-title">스케일링잘하는치과, 5가지만 보시면 됩니다.</strong>
+<strong class="se-oglink-title">스케일링 받을 치과 고를 때 확인할 것</strong>
 <p class="se-oglink-summary">안녕하세요, 서울대학교 치의학대학원 출신 윤원장입니다. "스케일링 어디 안아프게 잘 하는 치과 없...</p>
 <p class="se-oglink-url">blog.naver.com</p>
 </div>

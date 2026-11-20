@@ -6,20 +6,6 @@ import type { TermSource } from '../lib/termSections.ts';
  * 제목을 붙이면 용어 페이지에 번호 목록(제목 → 기관 주소 ↗)으로 나와요.
  */
 export const termSourcesExtra: Record<string, TermSource[]> = {
-  'apical-periodontitis': [
-    {
-      url: 'https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders/pulpitis',
-      title: 'MSD 매뉴얼 전문가판: 치수염 원인(충치·외상)과 합병증',
-    },
-    {
-      url: 'https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/toothache-and-infection',
-      title: 'MSD 매뉴얼 전문가판: 치통과 감염: 치근단 치주염과 농양 구별',
-    },
-    {
-      url: 'https://www.msdmanuals.com/home/mouth-and-dental-disorders/tooth-disorders/periapical-abscess',
-      title: 'MSD 매뉴얼 일반인판: 농양은 발치·근관치료, 항생제는 보조',
-    },
-  ],
   'extraction': [
     {
       url: 'https://www.msdmanuals.com/professional/dental-disorders/how-to-do-dental-procedures/how-to-do-an-emergency-tooth-extraction',

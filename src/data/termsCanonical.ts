@@ -5308,6 +5308,7 @@ export const termsCanonical: CanonicalTerm[] = [
     name: "치근단염",
     aliases: [
     "치근단염증",
+    "치근단농양",
     "치근단",
     ],
     topicSlug: "cavity",

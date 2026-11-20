@@ -8,21 +8,13 @@ aliases:
   - "입술 열상"
 definition: "입술 열상은 입술이 찢어진 상처예요. 안쪽까지 관통했는지, 입술선이 어긋났는지를 확인해야 합니다."
 detail: |
-  ## 다쳤을 때 먼저 할 일
-  깨끗한 거즈나 천을 상처에 대고 꾹 눌러 지혈해 주세요. 흙이나 이물질이 묻었다면 흐르는 수돗물로 씻어 내세요. 소독약 원액을 상처 안에 붓지는 마세요. 많이 놀라셨죠. 피가 멎고 나면 상처를 차분히 살펴볼 수 있어요.
+  넘어지거나 부딪힐 때 치아에 눌려 찢어지는 경우가 많습니다. 아이들에게 흔해요. 겉보다 안쪽이 더 크게 찢어져 있기도 합니다.
   
-  [근거](https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations "MSD 매뉴얼 전문가판: 직접 눌러 지혈, 흐르는 물로 세척")
+  확인할 것이 몇 가지 있습니다. 상처가 입술을 관통했는지, 입술과 피부의 경계선이 어긋났는지, 안에 이물질이나 부러진 치아 조각이 박혀 있지 않은지예요.
   
-  ## 치과에서는 무엇을 확인하나요
-  넘어지거나 부딪힐 때 치아에 눌려 찢어지는 경우가 많습니다. 겉보다 안쪽이 더 크게 찢어져 있기도 합니다. 확인할 것이 몇 가지 있습니다. 상처가 입술을 관통했는지, 입술과 피부의 경계선이 어긋났는지, 안에 이물질이나 부러진 치아 조각이 박혀 있지 않은지예요. 입술이 찢어질 정도의 충격이면 치아가 흔들리거나 부러졌을 수 있어요.
-  
-  ## 입술 경계선은 왜 중요한가요
   경계선이 중요합니다. 이 선이 어긋난 채로 아물면 눈에 띄게 남아요. 그래서 봉합할 때 이 선을 정확히 맞추는 것이 결과를 크게 좌우합니다.
   
-  ## 아문 뒤 흉터는 어떻게 되나요
-  봉합한 자리는 보통 8주쯤 붉고 도드라져 보일 수 있어요. 그 뒤로 조금씩 얇아지고 붉은 기도 옅어져요. 다만 사람에 따라 흉이 두껍게 올라오는 경우도 있어요.
-  
-  [근거](https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations "MSD 매뉴얼 전문가판: 흉터는 8주쯤 붉다가 점점 옅어짐")
+  치아를 함께 다쳤는지도 봐야 합니다. 입술이 찢어질 정도의 충격이면 치아가 흔들리거나 부러졌을 수 있어요. 부러진 조각이 입술 안에 박혀 있는 경우가 있어 X-ray로 확인하기도 합니다.
 faqs:
   - question: "꿰매야 하나요?"
     answer: "깊거나 벌어져 있거나 입술 경계선이 어긋났으면 봉합합니다. 얕고 잘 붙어 있으면 안 할 수도 있어요. 위치와 깊이를 보고 판단합니다."
@@ -31,14 +23,12 @@ faqs:
   - question: "이도 함께 확인해야 하나요?"
     answer: "해야 합니다. 입술이 찢어질 정도의 충격이면 치아가 흔들리거나 부러졌을 수 있어요. 부러진 조각이 입술 안에 박혀 있는 경우도 있습니다."
   - question: "집에서 어떻게 하나요?"
-    answer: "깨끗한 거즈로 눌러 지혈하세요. 흙이 묻었으면 흐르는 물로 헹구고 병원으로 가시면 됩니다. 소독약을 상처 안에 붓지는 마세요."
+    answer: "깨끗한 거즈로 눌러 지혈하고 얼음찜질을 하세요. 흙이 묻었으면 흐르는 물로 헹구고 병원으로 가시면 됩니다. 소독약을 상처 안에 붓지는 마세요."
   - question: "실밥은 언제 빼나요?"
     answer: "부위에 따라 다르지만 얼굴은 비교적 이른 시점에 제거합니다. 오래 두면 자국이 남을 수 있어요. 정확한 시점은 안내받으시면 됩니다."
 sources:
-  - url: "https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations"
-    title: "MSD 매뉴얼 전문가판: 피부 열상: 직접 압박 지혈, 세척, 흉터 변화"
-compare: {"title":"헷갈리는 말과 차이","columns":["입술 열상","구각염(입꼬리 갈라짐)"],"rows":[{"label":"어디에","cells":["입술 어디든, 입술 안쪽까지","입꼬리"]},{"label":"왜 생기나","cells":["넘어지거나 부딪혀 다친 상처","틀니·닳은 치아로 입꼬리가 접히거나, 곰팡이(칸디다)·세균 감염, 비타민 B2·철 부족"]},{"label":"모양","cells":["갑자기 찢어지고 피가 남","붉어지고 갈라지며 딱지가 앉음"]},{"label":"진료","cells":["지혈과 세척, 필요하면 봉합","원인을 찾아 고치고, 감염이면 바르는 약"]}]}
-askCards: [{"question":"파상풍 예방주사를 맞아야 하는 상처인가요?","explanation":"상처를 치료할 때는 파상풍 예방접종이 필요한지도 함께 확인해요. 마지막으로 맞은 때를 기억해 두시면 판단이 빨라요.","sourceLabel":"MSD 매뉴얼 전문가판: 피부 열상 치료와 파상풍 예방","sourceUrl":"https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations"},{"question":"꿰맨 뒤 어떤 변화가 있으면 다시 와야 하나요?","explanation":"봉합한 뒤 반나절 넘게 지나서 통증이 점점 심해지면 감염의 첫 신호일 수 있어요. 상처 둘레가 넓게 붉어지거나 붓고 뜨거워지거나, 열이 나고 고름이 보여도 바로 진료를 받으세요.","sourceLabel":"MSD 매뉴얼 전문가판: 봉합 뒤 상처 감염 신호","sourceUrl":"https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations"}]
+  - "https://www.msdmanuals.com/professional/injuries-poisoning/facial-trauma"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK526114/"
 updated: "2026-08-16"
 relatedTerms:
   - cavity

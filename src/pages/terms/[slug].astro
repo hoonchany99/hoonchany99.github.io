@@ -124,20 +124,20 @@ const definedTermLd = JSON.stringify({
     </header>
 
     <div class="max-w-3xl lg:max-w-5xl mx-auto px-4 sm:px-6 pt-1 md:pt-4 pb-10 md:pb-12 lg:grid lg:grid-cols-[minmax(0,1fr)_13.5rem] lg:gap-x-12">
-      <!-- 목차: 모바일은 한 줄 답 바로 아래 세로 상자, 넓은 화면은 오른쪽에 붙어 따라오는 목록 -->
+      <!-- 목차: 모바일은 한 줄 답 바로 아래 두 줄짜리 상자(표시 없음), 넓은 화면은 오른쪽에 붙어 따라오며 읽는 곳을 표시 -->
       <nav
         aria-label="목차"
         data-toc
-        class="mb-8 lg:mb-0 lg:col-start-2 lg:row-start-1 lg:self-start lg:sticky lg:top-24 rounded-xl border border-brand/15 bg-brand-bg/80 p-1.5 text-[15px]"
+        class="mb-6 lg:mb-0 lg:col-start-2 lg:row-start-1 lg:self-start lg:sticky lg:top-24 rounded-xl border border-brand/15 bg-brand-bg/80 p-1.5 text-sm lg:text-[15px]"
       >
-        <p class="px-3 pt-2 pb-1 text-sm font-bold text-gray-900">목차</p>
-        <ol>
+        <p class="px-2.5 lg:px-3 pt-1.5 lg:pt-2 pb-0.5 lg:pb-1 text-sm font-bold text-gray-900">목차</p>
+        <ol class="grid grid-cols-2 gap-x-1 lg:block">
           {tocItems.map((item) => (
             <li>
               <a
                 href={`#${item.id}`}
                 data-toc-link={item.id}
-                class="flex items-center min-h-10 px-3 rounded-lg text-gray-600 transition-colors hover:text-gray-900 hover:bg-white/60 focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand-dark aria-[current=location]:bg-white aria-[current=location]:font-bold aria-[current=location]:text-gray-900 aria-[current=location]:shadow-[inset_3px_0_0_#3FB8D3]"
+                class="flex items-center min-h-10 px-2.5 lg:px-3 rounded-lg text-gray-600 transition-colors hover:text-gray-900 hover:bg-white/60 focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand-dark lg:aria-[current=location]:bg-white lg:aria-[current=location]:font-bold lg:aria-[current=location]:text-gray-900 lg:aria-[current=location]:shadow-[inset_3px_0_0_#3FB8D3]"
               >
                 {item.label}
               </a>
@@ -377,8 +377,10 @@ const definedTermLd = JSON.stringify({
   </article>
 
   <script>
-    // 지금 읽는 구역을 목차에 표시해요. 스크립트가 없으면 표시만 빠지고 링크는 그대로 움직여요.
+    // 넓은 화면(1024px 이상)의 오른쪽 목차에만 지금 읽는 구역을 표시해요.
+    // 모바일은 그냥 링크 목록이에요. 스크립트가 없으면 표시만 빠지고 링크는 그대로 움직여요.
     const toc = document.querySelector<HTMLElement>('[data-toc]');
+    const wide = window.matchMedia('(min-width: 1024px)');
     if (toc && 'IntersectionObserver' in window) {
       const links = Array.from(toc.querySelectorAll<HTMLAnchorElement>('[data-toc-link]'));
       const sections = links
@@ -394,6 +396,7 @@ const definedTermLd = JSON.stringify({
       };
 
       const update = () => {
+        if (!wide.matches) return setActive(undefined);
         const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4;
         if (atBottom) return setActive(sections[sections.length - 1]?.id);
         const first = sections.find((s) => visible.has(s.id));
@@ -409,10 +412,17 @@ const definedTermLd = JSON.stringify({
         // 화면 위쪽(머리글 아래 ~ 화면 절반 지점)에 걸친 구역을 「지금 읽는 곳」으로 봐요
         { rootMargin: '-72px 0px -50% 0px' }
       );
-      sections.forEach((s) => io.observe(s));
+      let observing = false;
+      const sync = () => {
+        if (wide.matches && !observing) { sections.forEach((s) => io.observe(s)); observing = true; }
+        else if (!wide.matches && observing) { io.disconnect(); visible.clear(); observing = false; }
+        update();
+      };
+      wide.addEventListener('change', sync);
+      sync();
       let ticking = false;
       window.addEventListener('scroll', () => {
-        if (ticking) return;
+        if (ticking || !wide.matches) return;
         ticking = true;
         requestAnimationFrame(() => { ticking = false; update(); });
       }, { passive: true });

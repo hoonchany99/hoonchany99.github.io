@@ -44,6 +44,16 @@ const description =
     ? term.data.definition.slice(0, 152).replace(/\s\S*$/, '') + '…'
     : term.data.definition;
 
+/** 목차: 화면에 실제로 나오는 구역만 */
+const tocItems = [
+  { id: 'definition', label: '뜻과 설명' },
+  ...(term.data.approach.length > 0 ? [{ id: 'approach', label: '치료 방법' }] : []),
+  ...(term.data.faqs.length > 0 ? [{ id: 'faq', label: '자주 묻는 질문' }] : []),
+  ...(relatedTermEntries.length > 0 ? [{ id: 'related-terms', label: '함께 보면 좋은 용어' }] : []),
+  ...(term.data.relatedPosts.length > 0 ? [{ id: 'related-posts', label: '관련 블로그 글' }] : []),
+  ...(term.data.sources.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
+];
+
 const askSearchUrl = `/ask/?q=${encodeURIComponent(term.data.name)}`;
 
 const definedTermLd = JSON.stringify({
@@ -108,7 +118,17 @@ const definedTermLd = JSON.stringify({
     </header>
 
     <div class="max-w-3xl mx-auto px-4 sm:px-6 pt-8 md:pt-10 pb-10 md:pb-12">
-      <section class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
+      <nav aria-label="목차" class="mb-8 rounded-xl border border-gray-100 bg-white px-5 py-4 text-sm anim-fade-up">
+        <p class="font-bold text-gray-900 mb-2">목차</p>
+        <ol class="flex flex-wrap gap-x-4 gap-y-1.5 text-gray-600">
+          {tocItems.map((item) => (
+            <li><a href={`#${item.id}`} class="hover:text-brand transition-colors">{item.label}</a></li>
+          ))}
+        </ol>
+      </nav>
+
+      <section id="definition" aria-labelledby="definition-heading" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-1">
+        <h2 id="definition-heading" class="sr-only">뜻과 설명</h2>
         <div class="rounded-2xl bg-gray-50/70 border border-gray-100/90 px-6 py-6 md:px-7 md:py-7">
           <div class="text-gray-700 leading-relaxed text-[15px] md:text-base">
             <p data-speakable class="text-xl md:text-2xl font-bold text-gray-900 leading-relaxed mb-8 md:mb-10">
@@ -126,7 +146,7 @@ const definedTermLd = JSON.stringify({
       </section>
 
       {term.data.approach.length > 0 && (
-        <section class="mb-10 md:mb-12 anim-fade-up anim-delay-2">
+        <section id="approach" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-2">
           <h2 class="text-lg font-bold text-gray-900 mb-1">치료 방법</h2>
           <p class="text-xs text-gray-400 mb-4">이렇게 치료합니다.</p>
 
@@ -187,7 +207,7 @@ const definedTermLd = JSON.stringify({
       )}
 
       {term.data.faqs.length > 0 && (
-        <section class="mb-10 anim-fade-up anim-delay-2">
+        <section id="faq" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-2">
           <h2 class="text-lg font-bold text-gray-900 mb-4">자주 묻는 질문</h2>
           <div class="space-y-3">
             {term.data.faqs.map((faq) => (
@@ -206,7 +226,7 @@ const definedTermLd = JSON.stringify({
       )}
 
       {relatedTermEntries.length > 0 && (
-        <section class="mb-10 anim-fade-up anim-delay-3">
+        <section id="related-terms" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
           <h2 class="text-lg font-bold text-gray-900 mb-3">함께 보면 좋은 용어</h2>
           <div class="grid sm:grid-cols-2 gap-3">
             {relatedTermEntries.map((related) => (
@@ -225,7 +245,7 @@ const definedTermLd = JSON.stringify({
       )}
 
       {term.data.relatedPosts.length > 0 && (
-        <section class="mb-10 anim-fade-up anim-delay-3">
+        <section id="related-posts" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
           <div class="flex items-baseline justify-between gap-3 mb-1">
             <h2 class="text-lg font-bold text-gray-900">관련 블로그 글</h2>
             <span class="text-xs text-gray-400 flex-shrink-0">윤원장이 직접 쓴 글</span>
@@ -316,8 +336,8 @@ const definedTermLd = JSON.stringify({
         </p>
 
         {term.data.sources.length > 0 && (
-          <div>
-            <span class="font-medium text-gray-500">참고 자료</span>
+          <div id="sources" class="scroll-mt-20">
+            <h2 class="font-medium text-gray-500 text-xs">참고 자료</h2>
             <ul class="mt-1.5 space-y-1">
               {term.data.sources.map((url) => (
                 <li>

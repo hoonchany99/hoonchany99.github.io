@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="서울대 윤원장 소개" description="서울대 치의학대학원 출신 치과의사 윤원장입니다. 치과 치료가 막막할 때 기준이 되는 설명을 직접 작성하고 있습니다. 충치, 임플란트, 사랑니, 신경치료, 크라운, 잇몸 관리까지 정확하고 쉬운 치과 정보와 과잉진료 없는 판단 기준을 전해드립니다.">
+<BaseLayout title="서울대 윤원장 소개" personPage={true} description="서울대 치의학대학원 출신 치과의사 윤원장입니다. 치과 치료가 막막할 때 기준이 되는 설명을 직접 작성하고 있습니다. 충치, 임플란트, 사랑니, 신경치료, 크라운, 잇몸 관리까지 정확하고 쉬운 치과 정보와 과잉진료 없는 판단 기준을 전해드립니다.">
 
   <section class="py-20 bg-white">
     <div class="max-w-2xl mx-auto px-4 sm:px-6">
@@ -15,6 +15,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           안녕하세요,<br />
           치과의사 <span class="text-brand">윤원장</span>입니다
         </h1>
+        <p class="mt-3 text-xs text-gray-400">치과의사 윤훈찬 · 면허 제36643호</p>
       </div>
 
       <div class="space-y-12 text-center">
@@ -85,9 +86,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
         <div class="anim-fade-up">
           <p class="text-lg text-gray-600 leading-relaxed">
-            진료할 때 손 감각을 많이 쓰는 편인데,<br />
-            환자분이 <span class="font-semibold text-gray-800">"하나도 안 아팠어요"</span> 하고 돌아가시는 날은<br />
-            일주일치 행복이 됩니다.
+            진료할 때 손 감각을 많이 쓰는 편이에요.<br />
+            그리고 진료 시간에 다 전하지 못한 치료 과정을<br />
+            <span class="font-semibold text-gray-800">글로 미리 정리해 두는 것</span>이 이 사전을 쓰는 이유입니다.
           </p>
         </div>
 

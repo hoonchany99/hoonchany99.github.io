@@ -59,8 +59,10 @@ const terms = defineCollection({
       .default([]),
     /** 내용 확인에 사용한 참고 자료 URL */
     sources: z.array(z.string()).default([]),
-    /** 내용을 마지막으로 정리한 날짜 YYYY-MM-DD */
+    /** 처음 정리한 날짜 YYYY-MM-DD (datePublished) */
     updated: z.string().optional(),
+    /** 치과의사가 실제로 다시 검토한 날짜 YYYY-MM-DD — 검토한 뒤에만 채운다 (dateModified·lastReviewed) */
+    reviewed: z.string().optional(),
     relatedTerms: z.array(z.string()).default([]),
     relatedPosts: z
       .array(

@@ -15,11 +15,15 @@ interface Props {
   type?: 'website' | 'article';
   publishedDate?: Date;
   modifiedDate?: Date;
+  /** 치과의사가 실제로 검토한 날짜. 있을 때만 reviewedBy·lastReviewed를 낸다 */
+  reviewedDate?: Date;
+  /** 의학 정보 페이지(사전 항목) — Article에 MedicalWebPage를 함께 단다 */
+  medicalWebPage?: boolean;
+  /** 저자 소개 페이지 — Person JSON-LD를 낸다 */
+  personPage?: boolean;
   tags?: string[];
   breadcrumbs?: BreadcrumbItem[];
   faqSchema?: { question: string; answer: string }[];
-  /** 사전 항목처럼 개인 저작이 아닌 편집 콘텐츠는 발행 주체를 저자로 둔다 */
-  authorIsOrganization?: boolean;
   noindex?: boolean;
   /** Google only: keep indexing while other bots use `noindex` (e.g. Naver Yeti). */
   googlebotIndex?: boolean;
@@ -32,10 +36,12 @@ const {
   type = 'website',
   publishedDate,
   modifiedDate,
+  reviewedDate,
+  medicalWebPage = false,
+  personPage = false,
   tags = [],
   breadcrumbs,
   faqSchema,
-  authorIsOrganization = false,
   noindex = false,
   googlebotIndex = false,
 } = Astro.props;
@@ -43,7 +49,7 @@ const {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site).href;
 const siteName = '서울대 윤원장의 치과사전';
-const authorName = '서울대 윤원장';
+const authorName = '윤훈찬';
 const aboutUrl = new URL('/about/', Astro.site).href;
 const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
 const pageTitle = isHome ? siteName : `${title} | ${siteName}`;
@@ -53,8 +59,14 @@ const siteLogoUrl = new URL('/img/윤원장의치과사전.png', Astro.site).hre
 const authorPerson = {
   '@type': 'Person',
   name: authorName,
+  alternateName: '윤원장',
   url: aboutUrl,
   jobTitle: '치과의사',
+  identifier: {
+    '@type': 'PropertyValue',
+    name: '치과의사 면허번호',
+    value: '36643',
+  },
   alumniOf: {
     '@type': 'EducationalOrganization',
     name: '서울대학교 치의학대학원',
@@ -64,6 +76,8 @@ const authorPerson = {
     'https://www.instagram.com/doctoryoon.kr/',
   ],
 };
+
+const personLd = personPage ? JSON.stringify({ '@context': 'https://schema.org', ...authorPerson }) : null;
 
 const websiteLd = isHome ? JSON.stringify({
   '@context': 'https://schema.org',
@@ -88,7 +102,7 @@ const orgLd = isHome ? JSON.stringify({
   ],
 }) : null;
 
-const effectiveModifiedDate = modifiedDate ?? publishedDate;
+const effectiveModifiedDate = reviewedDate ?? modifiedDate ?? publishedDate;
 
 /** 사이트 자체를 발행 주체로 표기할 때 쓴다 (창립자 자격은 유지) */
 const publisherOrg = {
@@ -101,12 +115,12 @@ const publisherOrg = {
 
 const jsonLd = type === 'article' ? JSON.stringify({
   '@context': 'https://schema.org',
-  '@type': 'Article',
+  '@type': medicalWebPage ? ['Article', 'MedicalWebPage'] : 'Article',
   headline: title,
   description,
   image: ogImage,
   inLanguage: 'ko',
-  author: authorIsOrganization ? publisherOrg : authorPerson,
+  author: authorPerson,
   publisher: publisherOrg,
   isPartOf: {
     '@type': 'WebSite',
@@ -120,6 +134,7 @@ const jsonLd = type === 'article' ? JSON.stringify({
   url: canonicalURL.href,
   datePublished: publishedDate?.toISOString(),
   dateModified: effectiveModifiedDate?.toISOString(),
+  ...(reviewedDate ? { reviewedBy: authorPerson, lastReviewed: reviewedDate.toISOString().slice(0, 10) } : {}),
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalURL.href },
   keywords: tags.join(', '),
 }) : null;
@@ -216,6 +231,7 @@ const faqLd = faqSchema?.length ? JSON.stringify({
 
   <!-- JSON-LD 구조화 데이터 -->
   {websiteLd && <script type="application/ld+json" set:html={websiteLd} />}
+  {personLd && <script type="application/ld+json" set:html={personLd} />}
   {orgLd && <script type="application/ld+json" set:html={orgLd} />}
   {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
   {breadcrumbLd && <script type="application/ld+json" set:html={breadcrumbLd} />}

@@ -243,7 +243,7 @@ export const termsRich: CanonicalTerm[] = [
   {
     slug: 'apical-periodontitis',
     name: '치근단염',
-    aliases: ['치근단염증', '치근단농양', '치근단'],
+    aliases: ['치근단염증', '치근단'],
     topicSlug: 'cavity',
     definition:
       '치근단염은 치아 뿌리 끝(치근단) 주변에 염증이 생긴 상태예요. 신경치료가 필요하거나, 이미 치료한 치아에서 재발할 수도 있습니다.',

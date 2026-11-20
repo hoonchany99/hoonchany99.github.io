@@ -660,7 +660,7 @@ export const termApproaches: Record<string, TermApproach[]> = {
       when: '발치 당일, 피가 배어 나올 때',
       name: '거즈 압박',
       en: 'Gauze Pressure',
-      detail: '거즈를 접어 물고 30~60분 세게 뭅니다. 자주 확인하려 뱉으면 굳던 피가 다시 터집니다.',
+      detail: '거즈를 접어 물고 20~30분 동안 꾹 누릅니다. 자주 확인하려 뱉으면 굳던 피가 다시 터집니다.',
     },
     {
       when: '압박해도 계속 새어 나올 때',

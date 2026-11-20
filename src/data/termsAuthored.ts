@@ -1,4 +1,5 @@
 import type { TermFaq } from './termFaqs.ts';
+import type { TermSource } from '../lib/termSections.ts';
 
 /**
  * 조사·검증을 거쳐 직접 작성한 용어 콘텐츠.
@@ -18,7 +19,8 @@ export interface AuthoredTerm {
   definition: string;
   detail: string;
   faqs: TermFaq[];
-  sources: string[];
+  /** URL 글자, 또는 제목을 붙인 {url, title} (시범 용어는 제목을 붙여 번호 목록으로 보여요) */
+  sources: TermSource[];
   reviewed: boolean;
 }
 
@@ -3553,13 +3555,21 @@ X-ray는 납 앞치마와 갑상선 보호대를 착용하면 안전한 것으�
     slug: 'impeulranteu-tongjeung',
     definition:
       '임플란트 통증은 수술 직후의 정상적인 불편과, 나중에 생기는 이상 신호를 구분해서 봐야 해요. 시기가 중요한 단서입니다.',
-    detail: `수술 후 며칠간의 통증과 붓기는 정상 범위입니다. 대개 2~3일째 가장 심하고 이후 줄어들어요. 처방약으로 조절되는 정도라면 경과를 지켜봅니다.
+    detail: `## 통증은 언제 가장 심한가요
+수술 후 며칠간의 통증과 붓기는 정상 범위입니다. 통증은 보통 처음 며칠이 가장 심하고, 그 뒤로 점점 줄어드는 경우가 많아요. 처방약으로 조절되는 정도라면 경과를 지켜봅니다.
 
-주의해야 할 건 방향입니다. 나아지다가 다시 심해지거나, 며칠이 지나도 줄지 않거나, 붓기가 커지면서 열이 나는 경우예요. 감염이나 다른 문제를 의심하고 확인이 필요합니다.
+## 통증이 줄지 않거나 심해지면
+주의해야 할 건 방향입니다. 나아지다가 다시 심해지거나, 며칠이 지나도 줄지 않거나, 붓기가 커지면서 열이 나는 경우예요. 감염이나 다른 문제가 있을 수 있어 확인이 필요합니다.
 
-시간이 한참 지난 뒤 생기는 통증은 성격이 다릅니다. 임플란트에는 치아 신경이 없어 시린 통증은 없어요. 씹을 때 아프다면 나사 풀림, 보철물 문제, 주변 염증, 과한 교합 등을 봅니다.
+## 오래 쓰다가 아프면 왜 그런가요
+임플란트 자체에는 치아 신경이 없어서 시린 통증은 생기지 않아요. 다만 주변 잇몸이나 뼈, 인접 치아, 신경에 문제가 생기면 아플 수 있어요. 씹을 때 아프다면 나사 풀림, 보철물 문제, 주변 염증, 과한 교합 등을 봅니다. 자연치아에는 씹는 힘을 받아 주는 치주인대가 있지만, 임플란트에는 없어요. 그래서 과도한 교합력은 주변 뼈 소실과 관련이 있다는 보고가 있어요.
 
-아랫입술이나 턱이 저린 느낌이 이어진다면 별도로 확인해야 해요. 아래턱 신경과 관련된 문제일 수 있습니다. 수술 직후 마취가 풀린 뒤에도 저림이 계속되면 바로 알려 주세요.`,
+[근거](https://pmc.ncbi.nlm.nih.gov/articles/PMC12541295/ "J Prosthodont(2025): 치주인대가 없어 과도한 교합이 뼈 소실과 관련됨")
+
+## 입술이나 턱이 저릴 때
+아랫입술이나 턱이 저린 느낌이 이어진다면 별도로 확인해야 해요. 아래턱 신경과 관련된 문제일 수 있습니다. 임플란트가 신경이 지나는 관 가까이에서 누르는 건지, 관을 직접 침범한 건지에 따라 대처가 달라져요. 수술 직후 마취가 풀린 뒤에도 저림이 계속되면 바로 알려 주세요.
+
+[근거](https://synapse.koreamed.org/articles/1516080079 "대한구강악안면외과학회지(2022): 임플란트 뒤 신경 손상이 생기는 원리와 조기 평가")`,
     faqs: [
       {
         question: '수술 후 며칠까지 아픈 게 정상인가요?',
@@ -3588,8 +3598,14 @@ X-ray는 납 앞치마와 갑상선 보호대를 착용하면 안전한 것으�
       },
     ],
     sources: [
-      'https://www.ada.org/resources/ada-library/oral-health-topics/implants',
-      'https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies',
+      {
+        url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12541295/',
+        title: 'J Prosthodont(2025): 치주인대가 없어 과도한 교합이 뼈 소실과 관련됨',
+      },
+      {
+        url: 'https://synapse.koreamed.org/articles/1516080079',
+        title: '대한구강악안면외과학회지(2022): 임플란트 뒤 신경 손상이 생기는 원리와 조기 평가',
+      },
     ],
     reviewed: false,
   },
@@ -3861,18 +3877,30 @@ X-ray는 납 앞치마와 갑상선 보호대를 착용하면 안전한 것으�
     slug: 'balchi-hu-chulhyeol',
     definition:
       '발치 후 출혈은 대개 거즈를 제대로 무는 것으로 멎어요. 침에 붉은 기가 도는 정도는 하루 이틀 이어질 수 있습니다.',
-    detail: `발치 직후에는 거즈를 30~45분 정도 꾹 물고 계세요. 살짝 무는 게 아니라 상처를 눌러 준다는 느낌으로 힘을 주셔야 합니다. 지혈이 안 되는 이유가 무는 힘이 약해서인 경우가 많아요.
+    detail: `## 발치 후 출혈, 언제까지 정상인가요
+하루 이틀은 피가 조금씩 스며 나오는 경우가 흔해요. 침에 피가 살짝 비치는 정도는 며칠 더 이어지기도 해요. 처음 보시면 많이 놀라실 수 있어요.
 
-침에 붉은 기가 섞여 나오는 건 정상 범위입니다. 하루 이틀 이어질 수 있어요. 피가 조금만 섞여도 침 전체가 붉게 보여서 실제보다 많아 보입니다.
+[근거](https://www.mcgill.ca/omfs/patient-info/teeth-extractions "맥길대학교 구강악안면외과: 발치 뒤 1~2일 피가 스미는 건 정상, 침에 비치는 피는 며칠 갈 수 있음")
 
-주의해야 할 건 선홍색 피가 뚝뚝 떨어지거나 입안에 금방 고이는 경우예요. 거즈를 새것으로 갈아 30분 더 물어 보시고, 그래도 멎지 않으면 치료받은 치과에 연락하세요. 첫 24시간에 헹구거나 뱉으면 피떡이 떨어져 다시 날 수 있습니다.
+## 혈병은 왜 중요한가요
+발치한 자리에는 혈병(피가 굳은 덩어리)이 생겨요. 이 혈병이 상처를 덮어 아물도록 도와요. 발치 직후에는 거즈를 접어 물고 20~30분 동안 꾹 눌러 주세요. 그동안에는 빼서 확인하지 마세요. 살짝 무는 게 아니라 상처를 눌러 준다는 느낌으로 힘을 주셔야 합니다. 거즈를 발치한 자리에 정확히 대고 눌러 주세요. 첫날은 세게 헹구거나 뱉지 마세요. 혈병이 떨어지면 다시 출혈이 생길 수 있어요.
 
-혈액을 묽게 하는 약을 드시는 분은 미리 알려 주셔야 해요. 임의로 중단하면 다른 위험이 생길 수 있어서, 대개 그대로 두고 지혈 방법을 보완합니다. 처방하신 선생님과의 상의가 필요한 경우도 있습니다.`,
+[근거](https://www.nhs.uk/conditions/wisdom-tooth-removal/ "영국 국민보건서비스(NHS): 혈병이 상처를 덮어 아물도록 도움")
+
+## 이 정도면 바로 연락하세요
+주의해야 할 건 선홍색 피가 뚝뚝 떨어지거나 입안에 금방 고이는 경우예요. 거즈를 뺀 뒤 15~20초 안에 피가 다시 고이거나 흘러내리면 출혈이 많은 것으로 봐요. 이럴 때는 새 거즈로 한 번 더 눌러 주세요. 그래도 피가 멎지 않으면 바로 치료받은 치과에 연락하세요. 연락이 닿지 않으면 응급 진료를 받으세요.
+
+[근거](https://www.mcgill.ca/omfs/patient-info/teeth-extractions "맥길대학교 구강악안면외과: 출혈이 많은지 보는 기준과 연락할 때")
+
+## 항응고제·항혈소판제를 드신다면
+혈액을 묽게 하는 약을 드시는 분은 미리 알려 주셔야 해요. 임의로 중단하면 다른 위험이 생길 수 있어서, 대개 그대로 두고 지혈 방법을 보완합니다. 처방하신 선생님과 상의해야 하는 경우도 있습니다. 혈액을 묽게 하는 약을 드시는 분은 조금 더 일찍 연락해 주세요.
+
+[근거](https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/clinical-practice-advice/ "스코틀랜드 치과 임상 효과 프로그램(SDCEP): 서면 지시 없이는 약을 끊지 않음")`,
     faqs: [
       {
         question: '거즈를 얼마나 물고 있어야 하나요?',
         answer:
-          '30~45분 정도 힘을 주어 물어 주세요. 살짝 무는 게 아니라 눌러 준다는 느낌이어야 합니다. 계속 배어 나오면 새 거즈로 갈아 다시 물어 주세요.',
+          '20~30분 동안 힘을 주어 물어 주세요. 살짝 무는 게 아니라 눌러 준다는 느낌이어야 합니다. 그동안에는 빼서 확인하지 마세요. 계속 배어 나오면 새 거즈로 갈아 한 번 더 물어 주세요.',
       },
       {
         question: '침에 피가 섞여 나오는데 정상인가요?',
@@ -3892,12 +3920,22 @@ X-ray는 납 앞치마와 갑상선 보호대를 착용하면 안전한 것으�
       {
         question: '지혈이 안 될 때 집에서 할 수 있는 게 있나요?',
         answer:
-          '깨끗한 거즈를 접어 상처 위에 정확히 놓고 30분 이상 힘주어 물어 주세요. 말하거나 자꾸 확인하면 지혈이 늦어집니다. 얼음찜질도 도움이 될 수 있어요.',
+          '깨끗한 거즈를 접어 상처 위에 정확히 놓고 20~30분 동안 힘주어 물어 주세요. 말하거나 자꾸 확인하면 지혈이 늦어집니다. 얼음찜질도 도움이 될 수 있어요.',
       },
     ],
     sources: [
-      'https://www.dartmouth-hitchcock.org/maxillofacial/tooth-extraction-post-operative-instructions',
-      'https://www.mcgill.ca/omfs/patient-info/teeth-extractions',
+      {
+        url: 'https://www.mcgill.ca/omfs/patient-info/teeth-extractions',
+        title: '맥길대학교 구강악안면외과: 발치 뒤 1~2일 피가 스미는 건 정상, 출혈이 많은지 보는 기준',
+      },
+      {
+        url: 'https://www.nhs.uk/conditions/wisdom-tooth-removal/',
+        title: '영국 국민보건서비스(NHS): 혈병이 상처를 덮어 아물도록 도움',
+      },
+      {
+        url: 'https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/clinical-practice-advice/',
+        title: '스코틀랜드 치과 임상 효과 프로그램(SDCEP): 항응고제·항혈소판제는 서면 지시 없이는 끊지 않음',
+      },
     ],
     reviewed: false,
   },
@@ -5401,13 +5439,30 @@ X-ray는 납 앞치마와 갑상선 보호대를 착용하면 안전한 것으�
     slug: 'yebangjeog-hangsaengje',
     definition:
       '예방적 항생제는 치과 치료 전에 미리 먹는 항생제예요. 특정 심장 질환 등 제한된 경우에만 권장됩니다.',
-    detail: `치과 치료 중에는 잇몸을 통해 세균이 잠시 혈류로 들어갈 수 있습니다. 대부분은 몸이 알아서 처리해요. 다만 일부 상태에서는 이 세균이 심장 내막에 자리 잡을 위험이 있어, 미리 항생제를 먹기도 합니다.
+    detail: `## 왜 치료 전에 미리 먹나요
+치과 치료 중에는 잇몸에서 세균이 잠시 혈류로 들어갈 수 있습니다. 이런 일은 양치하거나 음식을 씹을 때도 생겨요. 오히려 치과 치료 때보다 더 흔해요. 다만 일부 상태에서는 이 세균이 심장 내막에 자리 잡을 위험이 있어, 미리 항생제를 먹기도 합니다.
 
-권장 범위는 과거보다 크게 좁아졌습니다. 예전에는 여러 심장 질환에 폭넓게 권했지만, 근거가 정리되면서 인공 판막, 감염성 심내막염 병력, 일부 선천성 심장 질환, 심장 이식 후 판막 이상 등 위험이 특히 높은 경우로 제한되는 추세예요.
+[근거](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000969 "미국심장협회(AHA, 2021): 양치하거나 씹을 때도 일시적 균혈증이 생김")
 
-인공 관절에 대해서도 예전만큼 일률적으로 권하지 않습니다. 정형외과 담당 선생님의 판단이 필요한 영역이에요. 스스로 결정하기보다 주치의와 상의해야 합니다.
+## 어떤 심장 질환이 해당되나요
+먹어야 하는 대상은 예전보다 크게 줄었어요. 2007년에 위험이 가장 높은 경우로 좁혀졌고, 2021년 미국심장협회(AHA) 성명에서도 그대로 이어졌어요. 인공 판막(판막 수복용 인공 재료 포함), 감염성 심내막염 병력, 교정하지 않은 청색증형 선천성 심장병, 인공 패치나 기구를 넣은 자리에 결손이 남아 있는 선천성 심장병, 판막에 이상이 생긴 심장 이식 환자 등이에요.
 
-불필요한 항생제는 내성과 부작용 위험을 키웁니다. 그래서 "혹시 몰라서" 쓰는 것을 지양해요. 해당되는 상태가 있다면 진료 전에 미리 알려 주셔야 계획할 수 있습니다.`,
+[근거](https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis "미국치과의사협회: 예방적 항생제 대상은 고위험 심장 질환")
+
+## 어떤 치료 전에 먹나요
+해당하는 분이라면, 잇몸을 건드리거나 치아 뿌리 끝을 다루거나 입안 점막을 뚫는 처치 전에 먹도록 권해요. 약 이름과 양은 사람마다 달라서, 처방받은 대로 드시면 돼요.
+
+[근거](https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis "미국치과의사협회: 잇몸·뿌리 끝·점막을 다루는 처치가 대상")
+
+## 인공 관절이 있으면 먹나요
+인공 관절이 있다는 이유만으로는 보통 권하지 않습니다. 치료 시기나 예외적으로 항생제를 쓸지는 정형외과 선생님과 상의해서 정해요. 미국치과의사협회가 근거를 다시 살펴본 결과, 치과 치료와 인공 관절 감염 사이에 관련이 확인되지 않았어요.
+
+[근거](https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis "미국치과의사협회: 인공 관절은 보통 예방적 항생제 권하지 않음")
+
+## 혹시 몰라서 먹으면 안 되는 이유
+불필요한 항생제는 내성과 부작용 위험을 키웁니다. 그래서 "혹시 몰라서" 쓰는 것은 피해요. 해당되는 상태가 있다면 진료 전에 미리 알려 주셔야 계획할 수 있습니다.
+
+[근거](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000969 "미국심장협회(AHA, 2021): 항생제 내성 위험")`,
     faqs: [
       {
         question: '누가 먹어야 하나요?',
@@ -5436,8 +5491,14 @@ X-ray는 납 앞치마와 갑상선 보호대를 착용하면 안전한 것으�
       },
     ],
     sources: [
-      'https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis',
-      'https://www.ncbi.nlm.nih.gov/books/NBK431128/',
+      {
+        url: 'https://www.ahajournals.org/doi/10.1161/CIR.0000000000000969',
+        title: '미국심장협회(AHA, 2021): 일시적 균혈증, 2007년 대상 축소, 항생제 내성',
+      },
+      {
+        url: 'https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis',
+        title: '미국치과의사협회: 예방적 항생제 대상, 해당 처치, 인공 관절 기준',
+      },
     ],
     reviewed: false,
   },
@@ -6985,13 +7046,20 @@ X-ray만으로 육아종과 구분하기 어렵습니다. 둘 다 비슷하게 �
     slug: 'seolsingyeong-sonsang',
     definition:
       '설신경 손상은 혀 감각을 담당하는 신경이 다쳐 혀가 저리거나 맛이 둔해지는 상태예요. 아래 사랑니 발치와 관련될 수 있습니다.',
-    detail: `설신경은 혀의 앞쪽 3분의 2 감각과 맛을 담당합니다. 아래 어금니 안쪽 잇몸 바로 아래를 지나가요. 뼈 속이 아니라 연조직 안에 있어서 위치가 개인마다 다릅니다.
+    detail: `## 사랑니 발치 후 혀가 저리다면
+사랑니 발치 후 혀나 입술, 턱이 저리거나 찌릿하면 근처 신경이 다친 신호일 수 있어요. 설신경은 혀의 앞쪽 3분의 2 감각과 맛을 담당합니다. 주로 혀 한쪽이 저리거나 감각이 둔해져요. 맛을 잘 못 느끼기도 해요. 혀를 씹어도 모르거나 뜨거운 것에 데는 일이 생길 수 있습니다.
 
-아래 사랑니를 뺄 때 안쪽으로 접근하면 이 신경과 가까워집니다. 잇몸을 젖히거나 기구가 안쪽으로 미끄러질 때 손상될 수 있어요. 전달마취 주사가 원인이 되는 경우도 드물게 보고됩니다.
+[근거](https://www.opendentistryjournal.com/VOLUME/12/PAGE/155/FULLTEXT/ "Open Dentistry Journal: 혀 감각 이상이 가장 흔하고, 맛을 못 느끼는 일이 함께 생김")
 
-증상은 혀 한쪽이 저리거나 감각이 둔해지는 것입니다. 맛을 잘 못 느끼기도 해요. 혀를 씹어도 모르거나 뜨거운 것에 데는 일이 생길 수 있습니다.
+## 설신경은 왜 손상되나요
+설신경은 아래 어금니 안쪽 잇몸 바로 아래를 지나가요. 뼈 속이 아니라 연조직 안에 있어서 위치가 개인마다 다릅니다. 아래 사랑니를 뺄 때 안쪽으로 접근하면 이 신경과 가까워집니다. 잇몸을 젖힐 때 손상될 수 있어요. 전달마취 주사가 원인이 되는 경우도 드물게 보고됩니다.
 
-대부분 시간이 지나며 회복되는 것으로 보고됩니다. 다만 회복에 몇 달이 걸리기도 하고 일부 남는 경우도 있어요. 저림이 이어지면 기다리기보다 바로 알려 주시는 게 좋습니다.`,
+[근거](https://europepmc.org/article/PMC/PMC9970109 "PLoS One(2023): 혀 쪽 잇몸을 젖히면 잠시 다칠 위험이 커짐")
+
+## 감각은 언제 회복되나요
+대부분은 시간이 지나면서 회복된다고 보고돼요. 다만 회복에 몇 달이 걸리기도 하고 일부 남는 경우도 있어요. 영국 NHS에서도 이런 저림은 대개 좋아지지만, 몇 주에서 몇 달까지 갈 수 있다고 안내해요. 저림이 이어지면 기다리기보다 바로 알려 주시는 게 좋습니다.
+
+[근거](https://www.nhs.uk/conditions/wisdom-tooth-removal/ "영국 국민보건서비스(NHS): 신경 손상으로 생긴 저림은 대개 좋아지지만 몇 주~몇 달 갈 수 있음")`,
     faqs: [
       {
         question: '하치조신경 손상과 다른 건가요?',
@@ -7020,8 +7088,18 @@ X-ray만으로 육아종과 구분하기 어렵습니다. 둘 다 비슷하게 �
       },
     ],
     sources: [
-      'https://www.mcgill.ca/omfs/patient-info/teeth-extractions',
-      'https://www.ncbi.nlm.nih.gov/books/NBK574543/',
+      {
+        url: 'https://www.opendentistryjournal.com/VOLUME/12/PAGE/155/FULLTEXT/',
+        title: 'Open Dentistry Journal: 혀 감각 이상이 가장 흔하고, 맛을 못 느끼는 일이 함께 생김',
+      },
+      {
+        url: 'https://europepmc.org/article/PMC/PMC9970109',
+        title: 'PLoS One(2023): 혀 쪽 잇몸을 젖히면 잠시 다칠 위험이 커짐',
+      },
+      {
+        url: 'https://www.nhs.uk/conditions/wisdom-tooth-removal/',
+        title: '영국 국민보건서비스(NHS): 신경 손상으로 생긴 저림은 대개 좋아지지만 몇 주~몇 달 갈 수 있음',
+      },
     ],
     reviewed: false,
   },
@@ -7161,13 +7239,31 @@ X-ray만으로 육아종과 구분하기 어렵습니다. 둘 다 비슷하게 �
     slug: 'simhyeolgwan-hwanja-chigwa',
     definition:
       '심혈관 질환이 있어도 대부분의 치과 치료를 받으실 수 있어요. 복용 약과 최근 상태를 알려 주시는 것이 중요합니다.',
-    detail: `고혈압, 협심증, 부정맥, 심부전 등이 있어도 치과 치료는 대체로 가능합니다. 다만 준비와 진행 방식이 달라질 수 있어요.
+    detail: `## 심장병이 있어도 치료받을 수 있나요
+고혈압, 협심증, 부정맥, 심부전 등이 있어도 치과 치료는 대체로 가능합니다. 다만 준비와 진행 방식이 달라질 수 있어요. 많이 걱정되셨죠. 드시는 약과 최근 시술 날짜를 알려 주시면 준비가 훨씬 수월해요.
 
-혈압은 치료 전에 확인하는 경우가 많습니다. 많이 높으면 그날 치료를 미루기도 해요. 긴장으로 올라가는 경우가 흔해서, 편안하게 진행하는 것 자체가 관리의 일부입니다. 마취제에 든 혈관수축제는 보통 표준 용량에서 문제가 되지 않는 것으로 안내되지만, 상태에 따라 조절합니다.
+## 혈압이 높은 날은 어떻게 하나요
+혈압은 치료 전에 확인하는 경우가 많습니다. 많이 높으면 그날 치료를 미루기도 해요. 긴장해서 혈압이 오르는 경우가 흔해요. 그래서 편안하게 치료받으시도록 하는 것도 관리의 일부입니다.
 
-시기를 조정해야 하는 경우가 있습니다. 최근에 심근경색이나 뇌졸중을 겪었거나, 스텐트 시술을 받은 직후라면 급하지 않은 치료를 미루는 편이 안전해요. 담당 선생님과 상의합니다.
+## 마취제가 걱정된다면
+마취제에 든 혈관수축제는 보통 표준 용량이면 문제가 되지 않아요. 다만 불안정 협심증, 최근에 겪은 심근경색이나 뇌졸중, 조절되지 않는 부정맥, 매우 높은 혈압이 있으면 쓰지 않거나 치료를 미룹니다.
 
-감염성 심내막염 위험이 높은 특정 상태에서는 예방적 항생제를 고려합니다. 다만 해당 범위는 좁아졌어요. 인공 판막이나 심내막염 병력 등이 여기에 해당합니다.`,
+[근거](https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth "MSD 매뉴얼 전문가판(캐나다판): 혈관수축제를 쓸 수 있는 양과 쓰면 안 되는 경우")
+
+## 스텐트 시술 뒤 언제 받나요
+최근에 심근경색이나 뇌졸중을 겪었거나, 스텐트 시술을 받은 직후라면 급하지 않은 치료를 미루는 편이 안전해요. 그 사이에 꼭 치료해야 할 증상이 생기면 먼저 심장내과 선생님과 상의한 뒤 치료해요. 심장 판막 수술을 앞두고 계시다면, 필요한 치과 치료는 수술 전에 마쳐 두는 게 좋아요.
+
+[근거](https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth "MSD 매뉴얼 전문가판(캐나다판): 심근경색·스텐트 뒤 치료 시기, 판막 수술 전 치료")
+
+## 항혈소판제는 끊어야 하나요
+아스피린이나 클로피도그렐 같은 항혈소판제는 보통 치과 치료 때문에 끊지 않아요. 스텐트를 넣으신 분은 처방한 선생님의 서면 지시가 없다면 약을 끊지 마세요. 대신 치과에서 지혈 방법을 더 꼼꼼히 준비해요.
+
+[근거](https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/clinical-practice-advice/ "스코틀랜드 치과 임상 효과 프로그램(SDCEP): 스텐트 환자는 서면 지시 없이 약 끊지 않기")
+
+## 심내막염 예방이 필요할 때
+감염성 심내막염 위험이 높은 특정 상태에서는 예방적 항생제를 고려합니다. 인공 판막, 감염성 심내막염 병력, 교정하지 않은 청색증형 선천성 심장병 등 위험이 특히 높은 경우예요.
+
+[근거](https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis "미국치과의사협회: 예방적 항생제 대상은 고위험 심장 질환")`,
     faqs: [
       {
         question: '혈압이 높은데 치료받아도 되나요?',
@@ -7196,8 +7292,22 @@ X-ray만으로 육아종과 구분하기 어렵습니다. 둘 다 비슷하게 �
       },
     ],
     sources: [
-      'https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis',
-      'https://www.ada.org/resources/ada-library/oral-health-topics/cardiovascular-diseases',
+      {
+        url: 'https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth',
+        title: 'MSD 매뉴얼 전문가판(캐나다판): 혈관수축제를 쓸 수 있는 양과 쓰면 안 되는 경우, 심근경색·스텐트 뒤 치료 시기',
+      },
+      {
+        url: 'https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/clinical-practice-advice/',
+        title: '스코틀랜드 치과 임상 효과 프로그램(SDCEP): 항혈소판제 복용자, 서면 지시 없이 약 끊지 않기',
+      },
+      {
+        url: 'https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/haemostatic-measures',
+        title: '스코틀랜드 치과 임상 효과 프로그램(SDCEP): 국소 지혈 방법',
+      },
+      {
+        url: 'https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis',
+        title: '미국치과의사협회: 예방적 항생제 대상은 고위험 심장 질환',
+      },
     ],
     reviewed: false,
   },
@@ -8921,13 +9031,21 @@ X-ray로 확인합니다. 유치가 빠질 시기가 되었는데도 안 흔들�
     slug: 'ibsul-yeolsang',
     definition:
       '입술 열상은 입술이 찢어진 상처예요. 안쪽까지 관통했는지, 입술선이 어긋났는지를 확인해야 합니다.',
-    detail: `넘어지거나 부딪힐 때 치아에 눌려 찢어지는 경우가 많습니다. 아이들에게 흔해요. 겉보다 안쪽이 더 크게 찢어져 있기도 합니다.
+    detail: `## 다쳤을 때 먼저 할 일
+깨끗한 거즈나 천을 상처에 대고 꾹 눌러 지혈해 주세요. 흙이나 이물질이 묻었다면 흐르는 수돗물로 씻어 내세요. 소독약 원액을 상처 안에 붓지는 마세요. 많이 놀라셨죠. 피가 멎고 나면 상처를 차분히 살펴볼 수 있어요.
 
-확인할 것이 몇 가지 있습니다. 상처가 입술을 관통했는지, 입술과 피부의 경계선이 어긋났는지, 안에 이물질이나 부러진 치아 조각이 박혀 있지 않은지예요.
+[근거](https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations "MSD 매뉴얼 전문가판: 직접 눌러 지혈, 흐르는 물로 세척")
 
+## 치과에서는 무엇을 확인하나요
+넘어지거나 부딪힐 때 치아에 눌려 찢어지는 경우가 많습니다. 겉보다 안쪽이 더 크게 찢어져 있기도 합니다. 확인할 것이 몇 가지 있습니다. 상처가 입술을 관통했는지, 입술과 피부의 경계선이 어긋났는지, 안에 이물질이나 부러진 치아 조각이 박혀 있지 않은지예요. 입술이 찢어질 정도의 충격이면 치아가 흔들리거나 부러졌을 수 있어요.
+
+## 입술 경계선은 왜 중요한가요
 경계선이 중요합니다. 이 선이 어긋난 채로 아물면 눈에 띄게 남아요. 그래서 봉합할 때 이 선을 정확히 맞추는 것이 결과를 크게 좌우합니다.
 
-치아를 함께 다쳤는지도 봐야 합니다. 입술이 찢어질 정도의 충격이면 치아가 흔들리거나 부러졌을 수 있어요. 부러진 조각이 입술 안에 박혀 있는 경우가 있어 X-ray로 확인하기도 합니다.`,
+## 아문 뒤 흉터는 어떻게 되나요
+봉합한 자리는 보통 8주쯤 붉고 도드라져 보일 수 있어요. 그 뒤로 조금씩 얇아지고 붉은 기도 옅어져요. 다만 사람에 따라 흉이 두껍게 올라오는 경우도 있어요.
+
+[근거](https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations "MSD 매뉴얼 전문가판: 흉터는 8주쯤 붉다가 점점 옅어짐")`,
     faqs: [
       {
         question: '꿰매야 하나요?',
@@ -8956,8 +9074,10 @@ X-ray로 확인합니다. 유치가 빠질 시기가 되었는데도 안 흔들�
       },
     ],
     sources: [
-      'https://www.msdmanuals.com/professional/injuries-poisoning/facial-trauma',
-      'https://www.ncbi.nlm.nih.gov/books/NBK526114/',
+      {
+        url: 'https://www.msdmanuals.com/professional/injuries-poisoning/lacerations-and-abrasions/skin-lacerations',
+        title: 'MSD 매뉴얼 전문가판: 피부 열상: 직접 압박 지혈, 세척, 흉터 변화',
+      },
     ],
     reviewed: false,
   },
@@ -9141,13 +9261,25 @@ X-ray로 확인합니다. 유치가 빠질 시기가 되었는데도 안 흔들�
     slug: 'sangagdong-geosangsul-habbyeongjeung',
     definition:
       '상악동거상술 합병증 중 가장 흔한 것은 점막이 찢어지는 것이에요. 대부분 그 자리에서 처치하고 진행합니다.',
-    detail: `상악동 바닥 점막을 들어 올려 그 아래에 뼈를 채우는 수술입니다. 이 점막이 얇아서 들어 올리는 과정에서 찢어질 수 있어요. 가장 흔한 합병증입니다.
+    detail: `## 어떤 합병증이 있나요
+상악동 바닥 점막을 들어 올려 그 아래에 뼈를 채우는 수술입니다. 이 점막이 얇아서 들어 올리는 과정에서 찢어질 수 있어요. 가장 흔한 합병증입니다. 그 밖에 감염, 상악동염이 있습니다.
 
-작게 찢어지면 막으로 덮고 그대로 진행하는 경우가 많습니다. 크게 찢어지면 이식재가 상악동으로 흘러들 수 있어 수술을 중단하고 아문 뒤 다시 하기도 해요.
+[근거](https://europepmc.org/article/PMC/PMC4776049 "GMS 성형재건외과 학술지(2016): 가장 흔한 합병증은 점막이 찢어지는 것(천공)")
 
-그 밖에 출혈, 감염, 상악동염이 있습니다. 수술 후 코막힘이나 누런 콧물, 발열이 이어지면 확인이 필요해요. 원래 상악동염이 있던 분은 미리 치료하고 진행합니다.
+## 점막이 찢어지면 어떻게 하나요
+작게 찢어지면 막으로 덮고 그대로 진행하는 경우가 많습니다. 한 연구에서는 5mm 안쪽으로 찢어지면 막으로 덮고, 5~10mm면 봉합을 더했어요. 같은 연구에서 임플란트 생존율은 점막이 찢어졌던 경우 98.9%, 찢어지지 않은 경우 100%로 비슷했어요.
 
-수술 후 주의사항이 중요합니다. 코를 세게 풀지 마시고, 재채기는 입을 벌린 채 하시고, 빨대와 흡연을 피하세요. 압력이 걸리면 들어 올린 점막과 이식재가 흐트러질 수 있습니다.`,
+[근거](https://europepmc.org/article/PMC/PMC5797725 "점막 천공 처치 연구(PMC5797725): 크기별 처치와 임플란트 생존율")
+
+## 코가 막히고 열이 난다면
+수술 뒤 코가 막히면서 두통이나 열이 나고, 수술한 쪽 얼굴이 넓게 아프다면 상악동염일 수 있어 확인이 필요해요.
+
+[근거](https://europepmc.org/article/PMC/PMC4776049 "GMS 성형재건외과 학술지(2016): 코막힘·두통·발열은 상악동염 신호")
+
+## 코 풀기와 재채기는 조심하세요
+코를 세게 풀지 마시고, 재채기는 입을 벌린 채 하세요. 한 연구에서는 수술 뒤 3주 동안 코를 풀거나 재채기하지 않도록 안내했어요. 압력이 걸리면 들어 올린 점막과 이식재가 흐트러질 수 있습니다.
+
+[근거](https://europepmc.org/article/PMC/PMC4776049 "GMS 성형재건외과 학술지(2016): 수술 뒤 3주간 코 풀기·재채기 피함")`,
     faqs: [
       {
         question: '점막이 찢어지면 수술을 못 하나요?',
@@ -9176,8 +9308,14 @@ X-ray로 확인합니다. 유치가 빠질 시기가 되었는데도 안 흔들�
       },
     ],
     sources: [
-      'https://www.ncbi.nlm.nih.gov/books/NBK534881/',
-      'https://www.ada.org/resources/ada-library/oral-health-topics/implants',
+      {
+        url: 'https://europepmc.org/article/PMC/PMC4776049',
+        title: 'GMS 성형재건외과 학술지(2016): 합병증(점막 천공·상악동염), 수술 뒤 주의',
+      },
+      {
+        url: 'https://europepmc.org/article/PMC/PMC5797725',
+        title: '점막 천공 처치 연구(PMC5797725): 크기별 처치와 임플란트 생존율',
+      },
     ],
     reviewed: false,
   },

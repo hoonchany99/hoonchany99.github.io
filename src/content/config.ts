@@ -57,8 +57,10 @@ const terms = defineCollection({
         })
       )
       .default([]),
-    /** 내용 확인에 사용한 참고 자료 URL */
-    sources: z.array(z.string()).default([]),
+    /** 내용 확인에 사용한 참고 자료 — URL 글자, 또는 제목을 붙인 {url, title} */
+    sources: z
+      .array(z.union([z.string(), z.object({ url: z.string(), title: z.string() })]))
+      .default([]),
     /** 처음 정리한 날짜 YYYY-MM-DD (datePublished) */
     updated: z.string().optional(),
     /** 치과의사가 실제로 다시 검토한 날짜 YYYY-MM-DD — 검토한 뒤에만 채운다 (dateModified·lastReviewed) */

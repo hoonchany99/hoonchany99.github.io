@@ -9,8 +9,10 @@ import { termDetailsBySlug } from '../src/data/termDetails.ts';
 import { authoredBySlug } from '../src/data/termsAuthored.ts';
 import { excludedSlugs } from '../src/data/termsExcluded.ts';
 import { termNamesEn } from '../src/data/termNamesEn.ts';
+import { termSourcesExtra } from '../src/data/termSourcesExtra.ts';
 import { termSynonyms } from '../src/data/termSynonyms.ts';
 import { termApproaches, orderedApproachSlugs } from '../src/data/termApproaches.ts';
+import type { TermSource } from '../src/lib/termSections.ts';
 import { writeTermsIndex } from './lib/writeTermsIndex.ts';
 
 /** 검색·트래픽 우선순위 (기존 md tier 유지용) */
@@ -291,6 +293,11 @@ function buildDetail(term: (typeof termsCanonical)[number]): string {
   );
 }
 
+/** 참고 자료: 직접 쓴 용어는 그 안의 목록, termDetails로 쓴 용어는 termSourcesExtra */
+function resolveSources(slug: string): TermSource[] {
+  return authoredBySlug[slug]?.sources ?? termSourcesExtra[slug] ?? [];
+}
+
 function renderTermFile(
   term: (typeof termsCanonical)[number],
   relatedPosts: PostRecord[],
@@ -336,8 +343,15 @@ function renderTermFile(
           }),
         ]
       : []),
-    ...(authoredBySlug[term.slug]?.sources?.length
-      ? ['sources:', ...authoredBySlug[term.slug].sources.map((u) => `  - ${yamlQuote(u)}`)]
+    ...(resolveSources(term.slug).length
+      ? [
+          'sources:',
+          ...resolveSources(term.slug).flatMap((u) =>
+            typeof u === 'string'
+              ? [`  - ${yamlQuote(u)}`]
+              : [`  - url: ${yamlQuote(u.url)}`, `    title: ${yamlQuote(u.title)}`]
+          ),
+        ]
       : []),
     `updated: ${yamlQuote(CONTENT_UPDATED)}`,
     'relatedTerms:',
@@ -361,6 +375,9 @@ function renderTermFile(
 function main() {
   const force = process.argv.includes('--force');
   const dryRun = process.argv.includes('--dry-run');
+  // --only=slug1,slug2 : 그 용어 파일만 다시 만들어요 (나머지 md는 건드리지 않아요)
+  const onlyArg = process.argv.find((a) => a.startsWith('--only='));
+  const only = onlyArg ? new Set(onlyArg.slice('--only='.length).split(',')) : null;
 
   if (!dryRun && !fs.existsSync(TERMS_DIR)) {
     fs.mkdirSync(TERMS_DIR, { recursive: true });
@@ -395,6 +412,7 @@ function main() {
   let unwritten = 0;
 
   for (const term of allTerms) {
+    if (only && !only.has(term.slug)) continue;
     const fileId = termFileId(term.slug);
     const outPath = path.join(TERMS_DIR, `${fileId}.md`);
     const legacyPath = path.join(TERMS_DIR, `${term.slug}.md`);

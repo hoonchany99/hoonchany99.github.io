@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { doctorWVoiceGuide } from '../../data/doctorWVoice';
+import { parseDetail, sourceUrl, sourceTitle, sourceHost } from '../../lib/termSections';
 
 export const getStaticPaths = (async () => {
   const terms = await getCollection('terms');
@@ -44,14 +45,30 @@ const description =
     ? term.data.definition.slice(0, 152).replace(/\s\S*$/, '') + '…'
     : term.data.definition;
 
+/**
+ * 본문에 「## 소제목」이 있는 용어(시범 용어)는 소제목 구역으로 나눠 보여 주고,
+ * 없는 용어는 지금까지처럼 한 덩어리로 보여 준다.
+ */
+const parsed = parseDetail(term.data.detail);
+const sections = parsed.hasSections ? parsed.sections : [];
+const hasSections = sections.length > 0;
+
+/** 참고 자료는 글자 주소와 {url, title}를 모두 받는다 */
+const sourceItems = term.data.sources.map((s) => ({
+  url: sourceUrl(s),
+  title: sourceTitle(s),
+}));
+
 /** 목차: 화면에 실제로 나오는 구역만 */
 const tocItems = [
-  { id: 'definition', label: '뜻과 설명' },
+  ...(hasSections
+    ? sections.map((s, i) => ({ id: `sec-${i + 1}`, label: s.heading }))
+    : [{ id: 'definition', label: '뜻과 설명' }]),
   ...(term.data.approach.length > 0 ? [{ id: 'approach', label: '치료 방법' }] : []),
   ...(term.data.faqs.length > 0 ? [{ id: 'faq', label: '자주 묻는 질문' }] : []),
   ...(relatedTermEntries.length > 0 ? [{ id: 'related-terms', label: '함께 보면 좋은 용어' }] : []),
   ...(term.data.relatedPosts.length > 0 ? [{ id: 'related-posts', label: '관련 블로그 글' }] : []),
-  ...(term.data.sources.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
+  ...(sourceItems.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
 ];
 
 const askSearchUrl = `/ask/?q=${encodeURIComponent(term.data.name)}`;
@@ -70,7 +87,7 @@ const definedTermLd = JSON.stringify({
     url: new URL('/terms/', Astro.site).href,
   },
   inLanguage: 'ko',
-  ...(term.data.sources.length ? { citation: term.data.sources } : {}),
+  ...(term.data.sources.length ? { citation: sourceItems.map((s) => s.url) } : {}),
   ...((term.data.reviewed ?? term.data.updated) ? { dateModified: term.data.reviewed ?? term.data.updated } : {}),
 });
 ---
@@ -147,6 +164,7 @@ const definedTermLd = JSON.stringify({
       </nav>
 
       <div class="min-w-0 lg:col-start-1 lg:row-start-1">
+      {!hasSections && (
       <section id="definition" aria-labelledby="definition-heading" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-1">
         <h2 id="definition-heading" class="text-lg font-bold text-gray-900 mb-3">뜻과 설명</h2>
         <div class="rounded-2xl bg-gray-50/70 border border-gray-100/90 px-5 py-5 md:px-7 md:py-6">
@@ -157,6 +175,28 @@ const definedTermLd = JSON.stringify({
           </div>
         </div>
       </section>
+      )}
+
+      {hasSections && sections.map((sec, i) => (
+        <section aria-labelledby={`sec-${i + 1}`} class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
+          <h2 id={`sec-${i + 1}`} class="scroll-mt-20 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">{sec.heading}</h2>
+          <div class="space-y-4 text-gray-800 text-base leading-[1.75]">
+            {sec.paragraphs.map((paragraph) => (
+              <p>{paragraph}</p>
+            ))}
+          </div>
+          {sec.source && (
+            <p class="mt-3 text-[13px] leading-snug text-gray-400">
+              <a
+                href={sec.source.url}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="underline decoration-gray-200 underline-offset-2 hover:text-brand hover:decoration-brand/40 transition-colors"
+              >근거: {sec.source.label} →</a>
+            </p>
+          )}
+        </section>
+      ))}
 
       {term.data.approach.length > 0 && (
         <section id="approach" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-2">
@@ -313,6 +353,30 @@ const definedTermLd = JSON.stringify({
         </section>
       )}
 
+      {hasSections && sourceItems.length > 0 && (
+        <section id="sources" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
+          <h2 class="text-lg font-bold text-gray-900 mb-3">참고 자료</h2>
+          <ol class="border-y border-gray-100 divide-y divide-gray-100">
+            {sourceItems.map((item, i) => (
+              <li>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="group flex items-start gap-3 py-3.5 hover:bg-gray-50/70 transition-colors"
+                >
+                  <span class="flex-shrink-0 w-6 pt-px text-right text-sm font-bold text-gray-300 tabular-nums">{i + 1}</span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block text-[15px] leading-snug text-gray-800 group-hover:text-brand transition-colors">{item.title ?? sourceHost(item.url)}</span>
+                    <span class="mt-0.5 block text-[13px] text-gray-400 break-all">{sourceHost(item.url)} <span aria-hidden="true">↗</span></span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
       <!-- 하단 CTA -->
       <section class="mt-12 p-6 md:p-8 rounded-2xl bg-gradient-to-br from-brand-bg to-white border border-brand/15 anim-fade-up">
         <h2 class="text-lg font-bold text-gray-900 mb-2">{term.data.name}, 더 궁금하신가요?</h2>
@@ -348,11 +412,11 @@ const definedTermLd = JSON.stringify({
           {term.data.reviewed && <> · 검토 <time datetime={term.data.reviewed}>{term.data.reviewed.replace(/-/g, '. ')}.</time></>}
         </p>
 
-        {term.data.sources.length > 0 && (
+        {!hasSections && sourceItems.length > 0 && (
           <div id="sources" class="scroll-mt-20">
             <h2 class="font-medium text-gray-500 text-xs">참고 자료</h2>
             <ul class="mt-1.5 space-y-1">
-              {term.data.sources.map((url) => (
+              {sourceItems.map(({ url }) => (
                 <li>
                   <a
                     href={url}

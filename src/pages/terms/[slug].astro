@@ -61,14 +61,15 @@ const definedTermLd = JSON.stringify({
   },
   inLanguage: 'ko',
   ...(term.data.sources.length ? { citation: term.data.sources } : {}),
-  ...(term.data.updated ? { dateModified: term.data.updated } : {}),
+  ...((term.data.reviewed ?? term.data.updated) ? { dateModified: term.data.reviewed ?? term.data.updated } : {}),
 });
 ---
 
 <BaseLayout
   title={term.data.seoTitle ?? (term.data.en ? `${term.data.name} (${term.data.en})` : term.data.name)}
-  modifiedDate={term.data.updated ? new Date(term.data.updated) : undefined}
-  authorIsOrganization={true}
+  publishedDate={term.data.updated ? new Date(term.data.updated) : undefined}
+  reviewedDate={term.data.reviewed ? new Date(term.data.reviewed) : undefined}
+  medicalWebPage={true}
   description={description}
   type="article"
   tags={[term.data.name, ...synonymList]}
@@ -308,6 +309,12 @@ const definedTermLd = JSON.stringify({
       </section>
 
       <footer class="mt-10 pt-6 border-t border-gray-100 text-xs text-gray-400 leading-relaxed space-y-3">
+        <p data-byline>
+          글·감수 <a href="/about/" rel="author" class="hover:text-brand transition-colors">치과의사 윤훈찬</a>
+          {term.data.updated && <> · 처음 정리 <time datetime={term.data.updated}>{term.data.updated.replace(/-/g, '. ')}.</time></>}
+          {term.data.reviewed && <> · 검토 <time datetime={term.data.reviewed}>{term.data.reviewed.replace(/-/g, '. ')}.</time></>}
+        </p>
+
         {term.data.sources.length > 0 && (
           <div>
             <span class="font-medium text-gray-500">참고 자료</span>
@@ -330,7 +337,6 @@ const definedTermLd = JSON.stringify({
 
         <p>
           이 페이지는 치과 용어 참고 자료입니다. {doctorWVoiceGuide.disclaimer}
-          {term.data.updated && <> 내용 최종 정리 {term.data.updated.replace(/-/g, '. ')}.</>}
         </p>
       </footer>
     </div>

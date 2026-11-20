@@ -1,4 +1,5 @@
 import type { TermFaq } from './termFaqs.ts';
+import type { TermSource } from '../lib/termSections.ts';
 
 /**
  * 조사·검증을 거쳐 직접 작성한 용어 콘텐츠.
@@ -18,7 +19,8 @@ export interface AuthoredTerm {
   definition: string;
   detail: string;
   faqs: TermFaq[];
-  sources: string[];
+  /** URL 글자, 또는 제목을 붙인 {url, title} (시범 용어는 제목을 붙여 번호 목록으로 보여요) */
+  sources: TermSource[];
   reviewed: boolean;
 }
 
@@ -5401,13 +5403,20 @@ X-ray는 납 앞치마와 갑상선 보호대를 착용하면 안전한 것으�
     slug: 'yebangjeog-hangsaengje',
     definition:
       '예방적 항생제는 치과 치료 전에 미리 먹는 항생제예요. 특정 심장 질환 등 제한된 경우에만 권장됩니다.',
-    detail: `치과 치료 중에는 잇몸을 통해 세균이 잠시 혈류로 들어갈 수 있습니다. 대부분은 몸이 알아서 처리해요. 다만 일부 상태에서는 이 세균이 심장 내막에 자리 잡을 위험이 있어, 미리 항생제를 먹기도 합니다.
+    detail: `## 왜 치료 전에 미리 먹나요
+치과 치료 중에는 잇몸에서 세균이 잠시 혈류로 들어갈 수 있습니다. 이런 일은 양치하거나 음식을 씹을 때도 생겨요. 오히려 치과 치료 때보다 더 흔해요. [근거](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000969 "미국심장협회(AHA, 2021): 양치하거나 씹을 때도 일시적 균혈증이 생김") 다만 일부 상태에서는 이 세균이 심장 내막에 자리 잡을 위험이 있어, 미리 항생제를 먹기도 합니다.
 
-권장 범위는 과거보다 크게 좁아졌습니다. 예전에는 여러 심장 질환에 폭넓게 권했지만, 근거가 정리되면서 인공 판막, 감염성 심내막염 병력, 일부 선천성 심장 질환, 심장 이식 후 판막 이상 등 위험이 특히 높은 경우로 제한되는 추세예요.
+## 어떤 심장 질환이 해당되나요
+먹어야 하는 대상은 예전보다 크게 줄었어요. 2007년에 위험이 가장 높은 경우로 좁혀졌고, 2021년 미국심장협회(AHA) 성명에서도 그대로 이어졌어요. [근거](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000969 "미국심장협회(AHA, 2021): 2007년 대상 축소") 인공 판막(판막 수복용 인공 재료 포함), 감염성 심내막염 병력, 교정하지 않은 청색증형 선천성 심장병, 인공 패치나 기구를 넣은 자리에 결손이 남아 있는 선천성 심장병, 판막에 이상이 생긴 심장 이식 환자 등이에요. [근거](https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis "미국치과의사협회: 예방적 항생제 대상은 고위험 심장 질환")
 
-인공 관절에 대해서도 예전만큼 일률적으로 권하지 않습니다. 정형외과 담당 선생님의 판단이 필요한 영역이에요. 스스로 결정하기보다 주치의와 상의해야 합니다.
+## 어떤 치료 전에 먹나요
+해당하는 분이라면, 잇몸을 건드리거나 치아 뿌리 끝을 다루거나 입안 점막을 뚫는 처치 전에 먹도록 권해요. [근거](https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis "미국치과의사협회: 잇몸·뿌리 끝·점막을 다루는 처치가 대상") 약 이름과 양은 사람마다 달라서, 처방받은 대로 드시면 돼요.
 
-불필요한 항생제는 내성과 부작용 위험을 키웁니다. 그래서 "혹시 몰라서" 쓰는 것을 지양해요. 해당되는 상태가 있다면 진료 전에 미리 알려 주셔야 계획할 수 있습니다.`,
+## 인공 관절이 있으면 먹나요
+인공 관절이 있다는 이유만으로는 보통 권하지 않습니다. 치료 시기나 예외적으로 항생제를 쓸지는 정형외과 선생님과 상의해서 정해요. 미국치과의사협회가 근거를 다시 살펴본 결과, 치과 치료와 인공 관절 감염 사이에 관련이 확인되지 않았어요. [근거](https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis "미국치과의사협회: 인공 관절은 보통 예방적 항생제 권하지 않음")
+
+## 혹시 몰라서 먹으면 안 되는 이유
+불필요한 항생제는 내성과 부작용 위험을 키웁니다. [근거](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000969 "미국심장협회(AHA, 2021): 항생제 내성 위험") 그래서 "혹시 몰라서" 쓰는 것은 피해요. 해당되는 상태가 있다면 진료 전에 미리 알려 주셔야 계획할 수 있습니다.`,
     faqs: [
       {
         question: '누가 먹어야 하나요?',
@@ -5436,8 +5445,14 @@ X-ray는 납 앞치마와 갑상선 보호대를 착용하면 안전한 것으�
       },
     ],
     sources: [
-      'https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis',
-      'https://www.ncbi.nlm.nih.gov/books/NBK431128/',
+      {
+        url: 'https://www.ahajournals.org/doi/10.1161/CIR.0000000000000969',
+        title: '미국심장협회(AHA, 2021): 일시적 균혈증, 2007년 대상 축소, 항생제 내성',
+      },
+      {
+        url: 'https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis',
+        title: '미국치과의사협회: 예방적 항생제 대상, 해당 처치, 인공 관절 기준',
+      },
     ],
     reviewed: false,
   },
@@ -7161,13 +7176,23 @@ X-ray만으로 육아종과 구분하기 어렵습니다. 둘 다 비슷하게 �
     slug: 'simhyeolgwan-hwanja-chigwa',
     definition:
       '심혈관 질환이 있어도 대부분의 치과 치료를 받으실 수 있어요. 복용 약과 최근 상태를 알려 주시는 것이 중요합니다.',
-    detail: `고혈압, 협심증, 부정맥, 심부전 등이 있어도 치과 치료는 대체로 가능합니다. 다만 준비와 진행 방식이 달라질 수 있어요.
+    detail: `## 심장병이 있어도 치료받을 수 있나요
+고혈압, 협심증, 부정맥, 심부전 등이 있어도 치과 치료는 대체로 가능합니다. 다만 준비와 진행 방식이 달라질 수 있어요. 많이 걱정되셨죠. 드시는 약과 최근 시술 날짜를 알려 주시면 준비가 훨씬 수월해요.
 
-혈압은 치료 전에 확인하는 경우가 많습니다. 많이 높으면 그날 치료를 미루기도 해요. 긴장으로 올라가는 경우가 흔해서, 편안하게 진행하는 것 자체가 관리의 일부입니다. 마취제에 든 혈관수축제는 보통 표준 용량에서 문제가 되지 않는 것으로 안내되지만, 상태에 따라 조절합니다.
+## 혈압이 높은 날은 어떻게 하나요
+혈압은 치료 전에 확인하는 경우가 많습니다. 많이 높으면 그날 치료를 미루기도 해요. 긴장해서 혈압이 오르는 경우가 흔해요. 그래서 편안하게 치료받으시도록 하는 것도 관리의 일부입니다.
 
-시기를 조정해야 하는 경우가 있습니다. 최근에 심근경색이나 뇌졸중을 겪었거나, 스텐트 시술을 받은 직후라면 급하지 않은 치료를 미루는 편이 안전해요. 담당 선생님과 상의합니다.
+## 마취제가 걱정된다면
+마취제에 든 혈관수축제는 보통 표준 용량이면 문제가 되지 않아요. 다만 불안정 협심증, 최근에 겪은 심근경색이나 뇌졸중, 조절되지 않는 부정맥, 매우 높은 혈압이 있으면 쓰지 않거나 치료를 미룹니다. [근거](https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth "MSD 매뉴얼 전문가판(캐나다판): 혈관수축제를 쓸 수 있는 양과 쓰면 안 되는 경우")
 
-감염성 심내막염 위험이 높은 특정 상태에서는 예방적 항생제를 고려합니다. 다만 해당 범위는 좁아졌어요. 인공 판막이나 심내막염 병력 등이 여기에 해당합니다.`,
+## 스텐트 시술 뒤 언제 받나요
+최근에 심근경색이나 뇌졸중을 겪었거나, 스텐트 시술을 받은 직후라면 급하지 않은 치료를 미루는 편이 안전해요. 그 사이에 꼭 치료해야 할 증상이 생기면 먼저 심장내과 선생님과 상의한 뒤 치료해요. 심장 판막 수술을 앞두고 계시다면, 필요한 치과 치료는 수술 전에 마쳐 두는 게 좋아요. [근거](https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth "MSD 매뉴얼 전문가판(캐나다판): 심근경색·스텐트 뒤 치료 시기, 판막 수술 전 치료")
+
+## 항혈소판제는 끊어야 하나요
+아스피린이나 클로피도그렐 같은 항혈소판제는 보통 치과 치료 때문에 끊지 않아요. [근거](https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth "MSD 매뉴얼 전문가판(캐나다판): 항혈소판제는 치과 치료 때문에 끊지 않음") 스텐트를 넣으신 분은 처방한 선생님의 서면 지시가 없다면 약을 끊지 마세요. [근거](https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/clinical-practice-advice/ "스코틀랜드 치과 임상 효과 프로그램(SDCEP): 스텐트 환자는 서면 지시 없이 약 끊지 않기") 대신 치과에서 지혈 방법을 더 꼼꼼히 준비해요. [근거](https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/haemostatic-measures "스코틀랜드 치과 임상 효과 프로그램(SDCEP): 국소 지혈 방법")
+
+## 심내막염 예방이 필요할 때
+감염성 심내막염 위험이 높은 특정 상태에서는 예방적 항생제를 고려합니다. 인공 판막, 감염성 심내막염 병력, 교정하지 않은 청색증형 선천성 심장병 등 위험이 특히 높은 경우예요. [근거](https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis "미국치과의사협회: 예방적 항생제 대상은 고위험 심장 질환")`,
     faqs: [
       {
         question: '혈압이 높은데 치료받아도 되나요?',
@@ -7196,8 +7221,22 @@ X-ray만으로 육아종과 구분하기 어렵습니다. 둘 다 비슷하게 �
       },
     ],
     sources: [
-      'https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis',
-      'https://www.ada.org/resources/ada-library/oral-health-topics/cardiovascular-diseases',
+      {
+        url: 'https://www.merckmanuals.com/en-ca/professional/dental-disorders/approach-to-the-dental-patient/systemic-disorders-and-the-mouth',
+        title: 'MSD 매뉴얼 전문가판(캐나다판): 혈관수축제를 쓸 수 있는 양과 쓰면 안 되는 경우, 심근경색·스텐트 뒤 치료 시기',
+      },
+      {
+        url: 'https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/clinical-practice-advice/',
+        title: '스코틀랜드 치과 임상 효과 프로그램(SDCEP): 항혈소판제 복용자, 서면 지시 없이 약 끊지 않기',
+      },
+      {
+        url: 'https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/managing-bleeding-risk/haemostatic-measures',
+        title: '스코틀랜드 치과 임상 효과 프로그램(SDCEP): 국소 지혈 방법',
+      },
+      {
+        url: 'https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-prophylaxis',
+        title: '미국치과의사협회: 예방적 항생제 대상은 고위험 심장 질환',
+      },
     ],
     reviewed: false,
   },
@@ -9141,13 +9180,17 @@ X-ray로 확인합니다. 유치가 빠질 시기가 되었는데도 안 흔들�
     slug: 'sangagdong-geosangsul-habbyeongjeung',
     definition:
       '상악동거상술 합병증 중 가장 흔한 것은 점막이 찢어지는 것이에요. 대부분 그 자리에서 처치하고 진행합니다.',
-    detail: `상악동 바닥 점막을 들어 올려 그 아래에 뼈를 채우는 수술입니다. 이 점막이 얇아서 들어 올리는 과정에서 찢어질 수 있어요. 가장 흔한 합병증입니다.
+    detail: `## 어떤 합병증이 있나요
+상악동 바닥 점막을 들어 올려 그 아래에 뼈를 채우는 수술입니다. 이 점막이 얇아서 들어 올리는 과정에서 찢어질 수 있어요. 가장 흔한 합병증입니다. 그 밖에 감염, 상악동염이 있습니다. [근거](https://europepmc.org/article/PMC/PMC4776049 "GMS 성형재건외과 학술지(2016): 가장 흔한 합병증은 점막이 찢어지는 것(천공)")
 
-작게 찢어지면 막으로 덮고 그대로 진행하는 경우가 많습니다. 크게 찢어지면 이식재가 상악동으로 흘러들 수 있어 수술을 중단하고 아문 뒤 다시 하기도 해요.
+## 점막이 찢어지면 어떻게 하나요
+작게 찢어지면 막으로 덮고 그대로 진행하는 경우가 많습니다. 한 연구에서는 5mm 안쪽으로 찢어지면 막으로 덮고, 5~10mm면 봉합을 더했어요. 같은 연구에서 임플란트 생존율은 점막이 찢어졌던 경우 98.9%, 찢어지지 않은 경우 100%로 비슷했어요. [근거](https://europepmc.org/article/PMC/PMC5797725 "점막 천공 처치 연구(PMC5797725): 크기별 처치와 임플란트 생존율")
 
-그 밖에 출혈, 감염, 상악동염이 있습니다. 수술 후 코막힘이나 누런 콧물, 발열이 이어지면 확인이 필요해요. 원래 상악동염이 있던 분은 미리 치료하고 진행합니다.
+## 코가 막히고 열이 난다면
+수술 뒤 코가 막히면서 두통이나 열이 나고, 수술한 쪽 얼굴이 넓게 아프다면 상악동염일 수 있어 확인이 필요해요. [근거](https://europepmc.org/article/PMC/PMC4776049 "GMS 성형재건외과 학술지(2016): 코막힘·두통·발열은 상악동염 신호")
 
-수술 후 주의사항이 중요합니다. 코를 세게 풀지 마시고, 재채기는 입을 벌린 채 하시고, 빨대와 흡연을 피하세요. 압력이 걸리면 들어 올린 점막과 이식재가 흐트러질 수 있습니다.`,
+## 코 풀기와 재채기는 조심하세요
+코를 세게 풀지 마시고, 재채기는 입을 벌린 채 하세요. 한 연구에서는 수술 뒤 3주 동안 코를 풀거나 재채기하지 않도록 안내했어요. [근거](https://europepmc.org/article/PMC/PMC4776049 "GMS 성형재건외과 학술지(2016): 수술 뒤 3주간 코 풀기·재채기 피함") 압력이 걸리면 들어 올린 점막과 이식재가 흐트러질 수 있습니다.`,
     faqs: [
       {
         question: '점막이 찢어지면 수술을 못 하나요?',
@@ -9176,8 +9219,14 @@ X-ray로 확인합니다. 유치가 빠질 시기가 되었는데도 안 흔들�
       },
     ],
     sources: [
-      'https://www.ncbi.nlm.nih.gov/books/NBK534881/',
-      'https://www.ada.org/resources/ada-library/oral-health-topics/implants',
+      {
+        url: 'https://europepmc.org/article/PMC/PMC4776049',
+        title: 'GMS 성형재건외과 학술지(2016): 합병증(점막 천공·상악동염), 수술 뒤 주의',
+      },
+      {
+        url: 'https://europepmc.org/article/PMC/PMC5797725',
+        title: '점막 천공 처치 연구(PMC5797725): 크기별 처치와 임플란트 생존율',
+      },
     ],
     reviewed: false,
   },

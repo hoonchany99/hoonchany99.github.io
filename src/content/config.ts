@@ -57,8 +57,30 @@ const terms = defineCollection({
         })
       )
       .default([]),
-    /** 내용 확인에 사용한 참고 자료 URL */
-    sources: z.array(z.string()).default([]),
+    /** 「헷갈리는 말과 차이」 표 — 원장님 검토를 거친 내용이 있을 때만 채운다 (소제목 용어 전용) */
+    compare: z
+      .object({
+        title: z.string(),
+        columns: z.array(z.string()),
+        rows: z.array(z.object({ label: z.string(), cells: z.array(z.string()) })),
+      })
+      .optional(),
+    /** 「진료실에서 물어볼 것」 질문 카드 — 원장님 검토를 거친 내용이 있을 때만 채운다 (소제목 용어 전용) */
+    askCards: z
+      .array(
+        z.object({
+          question: z.string(),
+          explanation: z.string(),
+          sourceLabel: z.string(),
+          sourceUrl: z.string(),
+          citeAfter: z.number().optional(),
+        })
+      )
+      .default([]),
+    /** 내용 확인에 사용한 참고 자료 — URL 글자, 또는 제목을 붙인 {url, title} */
+    sources: z
+      .array(z.union([z.string(), z.object({ url: z.string(), title: z.string() })]))
+      .default([]),
     /** 처음 정리한 날짜 YYYY-MM-DD (datePublished) */
     updated: z.string().optional(),
     /** 치과의사가 실제로 다시 검토한 날짜 YYYY-MM-DD — 검토한 뒤에만 채운다 (dateModified·lastReviewed) */

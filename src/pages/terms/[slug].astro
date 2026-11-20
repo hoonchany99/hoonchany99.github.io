@@ -3,6 +3,11 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { doctorWVoiceGuide } from '../../data/doctorWVoice';
+import { parseDetail, splitSentences, sentenceBullets, sourceUrl, sourceTitle, sourceHost } from '../../lib/termSections';
+import type { TermCite } from '../../lib/termSections';
+import CiteMark from '../../components/CiteMark.astro';
+import { termCategoryBySlug } from '../../data/termCategories';
+import { termCategoryOverrideBySlug } from '../../data/termGuideBlocks';
 
 export const getStaticPaths = (async () => {
   const terms = await getCollection('terms');
@@ -44,15 +49,108 @@ const description =
     ? term.data.definition.slice(0, 152).replace(/\s\S*$/, '') + '…'
     : term.data.definition;
 
+/**
+ * 본문에 「## 소제목」이 있는 용어(시범 용어)는 소제목 구역으로 나눠 보여 주고,
+ * 없는 용어는 지금까지처럼 한 덩어리로 보여 준다.
+ */
+const parsed = parseDetail(term.data.detail);
+const sections = parsed.hasSections ? parsed.sections : [];
+const hasSections = sections.length > 0;
+
+/** 참고 자료는 글자 주소와 {url, title}를 모두 받는다 */
+const sourceItems = term.data.sources.map((s) => ({
+  url: sourceUrl(s),
+  title: sourceTitle(s),
+}));
+
+/** 소제목 용어 전용: 분야(초안)·안내 상자·표·질문 카드 */
+const category = hasSections ? (termCategoryOverrideBySlug[publicSlug] ?? termCategoryBySlug[publicSlug]) : undefined;
+const numbered = sections.map((sec, i) => ({ sec, n: i + 1 }));
+const plainSections = numbered.filter((x) => !x.sec.callout);
+const calloutSections = numbered.filter((x) => x.sec.callout);
+const compare = hasSections ? term.data.compare : undefined;
+const askCards = hasSections ? term.data.askCards : [];
+const pad2 = (n: number) => String(n).padStart(2, '0');
+
+/**
+ * 각주: 화면에 나오는 차례(소제목 구역 → 안내 상자 → 질문 카드)대로 처음 나온 순서로 번호를 매기고,
+ * 같은 출처는 같은 번호를 다시 써요. 참고 자료 목록도 이 번호 순서이고, 본문에서 안 쓴 출처는 뒤에 이어 붙여요.
+ */
+const refTitleByUrl = new Map<string, string>(
+  sourceItems.map((s) => [s.url, s.title ?? sourceHost(s.url)])
+);
+const citeOrder: string[] = [];
+const citeCount = new Map<string, number>();
+function plan(url: string, label: string) {
+  if (!refTitleByUrl.has(url)) refTitleByUrl.set(url, label);
+  let idx = citeOrder.indexOf(url);
+  if (idx < 0) {
+    citeOrder.push(url);
+    idx = citeOrder.length - 1;
+  }
+  const k = (citeCount.get(url) ?? 0) + 1;
+  citeCount.set(url, k);
+  return { n: idx + 1, k, url };
+}
+const mk = (c: TermCite) => plan(c.url, c.label);
+type Mark = ReturnType<typeof plan>;
+const sectionRender = new Map<
+  number,
+  {
+    paras: { text: string; cite?: Mark }[][];
+    bullets: { sentence: string; cites: Mark[] }[];
+  }
+>();
+if (hasSections) {
+  for (const { sec, n } of [...plainSections, ...calloutSections]) {
+    sectionRender.set(n, {
+      paras: sec.callout ? [] : sec.pieces.map((ps) => ps.map((p) => ({ text: p.text, cite: p.cite ? mk(p.cite) : undefined }))),
+      bullets: sec.callout
+        ? sec.pieces.flatMap((ps) => sentenceBullets(ps)).map((b) => ({ sentence: b.sentence, cites: b.cites.map(mk) }))
+        : [],
+    });
+  }
+}
+const askRender = askCards.map((card) => {
+  const sentences = splitSentences(card.explanation);
+  const k = Math.min(Math.max(card.citeAfter ?? sentences.length, 1), sentences.length);
+  return {
+    before: sentences.slice(0, k).join(' '),
+    after: sentences.slice(k).join(' '),
+    cite: card.sourceUrl ? plan(card.sourceUrl, card.sourceLabel) : undefined,
+  };
+});
+const refList = hasSections
+  ? [
+      ...citeOrder,
+      ...sourceItems.map((s) => s.url).filter((u) => !citeOrder.includes(u)),
+    ].map((url) => ({ url, title: refTitleByUrl.get(url) ?? sourceHost(url), cited: citeOrder.includes(url) }))
+  : [];
+const refName = (url: string) => (refTitleByUrl.get(url) ?? sourceHost(url)).split(/[:：]/)[0].trim();
+const formatDate = (d: string) => d.replace(/-/g, '. ') + '.';
+
 /** 목차: 화면에 실제로 나오는 구역만 */
-const tocItems = [
-  { id: 'definition', label: '뜻과 설명' },
-  ...(term.data.approach.length > 0 ? [{ id: 'approach', label: '치료 방법' }] : []),
-  ...(term.data.faqs.length > 0 ? [{ id: 'faq', label: '자주 묻는 질문' }] : []),
-  ...(relatedTermEntries.length > 0 ? [{ id: 'related-terms', label: '함께 보면 좋은 용어' }] : []),
-  ...(term.data.relatedPosts.length > 0 ? [{ id: 'related-posts', label: '관련 블로그 글' }] : []),
-  ...(term.data.sources.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
-];
+const tocItems = hasSections
+  ? [
+      ...plainSections.slice(0, 1).map(({ sec, n }) => ({ id: `sec-${n}`, label: sec.heading })),
+      ...(compare ? [{ id: 'compare', label: compare.title }] : []),
+      ...plainSections.slice(1).map(({ sec, n }) => ({ id: `sec-${n}`, label: sec.heading })),
+      ...(term.data.approach.length > 0 ? [{ id: 'approach', label: '치료 방법' }] : []),
+      ...calloutSections.map(({ sec, n }) => ({ id: `sec-${n}`, label: sec.heading })),
+      ...(askCards.length > 0 ? [{ id: 'ask', label: '진료실에서 물어볼 것' }] : []),
+      ...(term.data.faqs.length > 0 ? [{ id: 'faq', label: '자주 묻는 질문' }] : []),
+      ...(relatedTermEntries.length > 0 ? [{ id: 'related-terms', label: '함께 보면 좋은 용어' }] : []),
+      ...(term.data.relatedPosts.length > 0 ? [{ id: 'related-posts', label: '더 읽어보기' }] : []),
+      ...(sourceItems.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
+    ]
+  : [
+      { id: 'definition', label: '뜻과 설명' },
+      ...(term.data.approach.length > 0 ? [{ id: 'approach', label: '치료 방법' }] : []),
+      ...(term.data.faqs.length > 0 ? [{ id: 'faq', label: '자주 묻는 질문' }] : []),
+      ...(relatedTermEntries.length > 0 ? [{ id: 'related-terms', label: '함께 보면 좋은 용어' }] : []),
+      ...(term.data.relatedPosts.length > 0 ? [{ id: 'related-posts', label: '관련 블로그 글' }] : []),
+      ...(sourceItems.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
+    ];
 
 const askSearchUrl = `/ask/?q=${encodeURIComponent(term.data.name)}`;
 
@@ -70,7 +168,7 @@ const definedTermLd = JSON.stringify({
     url: new URL('/terms/', Astro.site).href,
   },
   inLanguage: 'ko',
-  ...(term.data.sources.length ? { citation: term.data.sources } : {}),
+  ...(term.data.sources.length ? { citation: sourceItems.map((s) => s.url) } : {}),
   ...((term.data.reviewed ?? term.data.updated) ? { dateModified: term.data.reviewed ?? term.data.updated } : {}),
 });
 ---
@@ -99,7 +197,16 @@ const definedTermLd = JSON.stringify({
         <div class="lg:pr-[16.5rem]">
           <nav class="text-sm text-gray-500 mb-3 md:mb-5">
             <a href="/terms/" class="hover:text-brand transition-colors">치과사전</a>
+            {category && (
+              <>
+                <span aria-hidden="true" class="mx-1">›</span>
+                <b class="font-semibold text-brand-dark">{category}</b>
+              </>
+            )}
           </nav>
+          {category && (
+            <span class="inline-block mb-1 rounded-full border border-brand/30 bg-white px-2.5 py-0.5 text-xs font-semibold text-brand-dark">{category}</span>
+          )}
 
           <h1 class="text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{term.data.name}</h1>
           {term.data.en && (
@@ -109,7 +216,7 @@ const definedTermLd = JSON.stringify({
           )}
           {synonymList.length > 0 && (
             <p class="mt-2 text-xs text-gray-400 leading-relaxed">
-              <span class="font-medium text-gray-500 mr-1.5">동의어</span>
+              <span class="font-medium text-gray-500 mr-1.5">{hasSections ? '같은 말' : '동의어'}</span>
               {synonymList.slice(0, 8).join(' · ')}
             </p>
           )}
@@ -119,6 +226,24 @@ const definedTermLd = JSON.stringify({
               {term.data.definition}
             </span>
           </p>
+
+          {hasSections && (
+            <dl class="mt-5 overflow-hidden rounded-[14px] border border-gray-200 bg-white text-[13.5px]">
+              {category && (
+                <div class="flex px-3.5 py-2.5"><dt class="w-[84px] flex-none text-gray-500">분야</dt><dd class="font-medium text-gray-900">{category}</dd></div>
+              )}
+              {term.data.en && (
+                <div class="flex border-t border-gray-100 px-3.5 py-2.5"><dt class="w-[84px] flex-none text-gray-500">영문</dt><dd class="font-medium text-gray-900">{term.data.en}</dd></div>
+              )}
+              {synonymList.length > 0 && (
+                <div class="flex border-t border-gray-100 px-3.5 py-2.5"><dt class="w-[84px] flex-none text-gray-500">같은 말</dt><dd class="font-medium text-gray-900">{synonymList.slice(0, 8).join(' · ')}</dd></div>
+              )}
+              {term.data.updated && (
+                <div class="flex border-t border-gray-100 px-3.5 py-2.5"><dt class="w-[84px] flex-none text-gray-500">처음 정리</dt><dd class="font-medium text-gray-900">{formatDate(term.data.updated)}</dd></div>
+              )}
+              <div class="flex border-t border-gray-100 px-3.5 py-2.5"><dt class="w-[84px] flex-none text-gray-500">감수</dt><dd class="font-medium text-gray-900">{term.data.reviewed ? formatDate(term.data.reviewed) : '예정'}</dd></div>
+            </dl>
+          )}
         </div>
       </div>
     </header>
@@ -147,6 +272,7 @@ const definedTermLd = JSON.stringify({
       </nav>
 
       <div class="min-w-0 lg:col-start-1 lg:row-start-1">
+      {!hasSections && (
       <section id="definition" aria-labelledby="definition-heading" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-1">
         <h2 id="definition-heading" class="text-lg font-bold text-gray-900 mb-3">뜻과 설명</h2>
         <div class="rounded-2xl bg-gray-50/70 border border-gray-100/90 px-5 py-5 md:px-7 md:py-6">
@@ -157,6 +283,47 @@ const definedTermLd = JSON.stringify({
           </div>
         </div>
       </section>
+      )}
+
+      {hasSections && plainSections.map(({ sec, n }, idx) => (
+        <>
+          <section aria-labelledby={`sec-${n}`} class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
+            <h2 id={`sec-${n}`} class="scroll-mt-20 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">{sec.heading}</h2>
+            <div class="space-y-4 text-gray-800 text-base leading-[1.75]">
+              {sectionRender.get(n)!.paras.map((para) => (
+                <p>{para.map((piece) => (<>{piece.text}{piece.cite && <CiteMark n={piece.cite.n} k={piece.cite.k} name={refName(piece.cite.url)} />}</>))}</p>
+              ))}
+            </div>
+          </section>
+          {idx === 0 && compare && (
+            <section aria-labelledby="compare" class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
+              <h2 id="compare" class="scroll-mt-20 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">{compare.title}</h2>
+              <div class="overflow-x-auto rounded-[14px] border border-gray-200">
+                <table class="w-full border-collapse text-[13.5px]">
+                  <thead>
+                    <tr class="bg-gray-50">
+                      <th class="w-[70px] border-b border-gray-200 px-2.5 py-2.5"></th>
+                      {compare.columns.map((c) => (
+                        <th class="border-b border-gray-200 px-2.5 py-2.5 text-left font-bold text-gray-900">{c}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {compare.rows.map((row) => (
+                      <tr>
+                        <td class="whitespace-nowrap border-t border-gray-100 px-2.5 py-2.5 align-top text-gray-500">{row.label}</td>
+                        {row.cells.map((cell) => (
+                          <td class="border-t border-gray-100 px-2.5 py-2.5 align-top leading-normal text-gray-700">{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          )}
+        </>
+      ))}
 
       {term.data.approach.length > 0 && (
         <section id="approach" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-2">
@@ -219,6 +386,37 @@ const definedTermLd = JSON.stringify({
         </section>
       )}
 
+      {calloutSections.map(({ sec, n }) => (
+        <section aria-labelledby={`sec-${n}`} class="mb-10 md:mb-12 anim-fade-up anim-delay-2">
+          <div class="rounded-[14px] border border-orange-200 bg-orange-50 px-3.5 py-3.5">
+            <h2 id={`sec-${n}`} class="scroll-mt-20 text-[15px] font-bold leading-snug text-orange-800 mb-2">{sec.heading}</h2>
+            <ul class="list-disc space-y-1 pl-5 text-[14.5px] leading-[1.6] text-orange-950 marker:text-orange-400">
+              {sectionRender.get(n)!.bullets.map((b) => (
+                <li>{b.sentence}{b.cites.map((c) => <CiteMark n={c.n} k={c.k} name={refName(c.url)} />)}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      ))}
+
+      {askCards.length > 0 && (
+        <section id="ask" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-2">
+          <p class="text-xs font-bold tracking-wide text-brand-dark">이해 가이드</p>
+          <h2 class="mt-1 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug">진료 받을 때 이렇게 물어보세요</h2>
+          <p class="mt-1 mb-3 text-[13.5px] leading-normal text-gray-500">내 상태에 맞는 설명을 듣는 데 도움이 되는 질문이에요.</p>
+          {askCards.map((card, i) => (
+            <div class="border-t border-gray-200 pt-3.5 pb-1">
+              <p class="text-xs font-bold text-brand-dark">질문 {i + 1}</p>
+              <h3 class="mt-1 mb-2.5 text-base font-bold leading-snug text-gray-900">{card.question}</h3>
+              <div class="rounded-xl bg-brand-bg px-3.5 py-3">
+                <p class="mb-1 text-[11.5px] font-bold text-brand-dark">설명</p>
+                <p class="text-sm leading-[1.65] text-gray-700">{askRender[i].before}{askRender[i].cite && <CiteMark n={askRender[i].cite!.n} k={askRender[i].cite!.k} name={refName(askRender[i].cite!.url)} />}{askRender[i].after && <>{' '}{askRender[i].after}</>}</p>
+              </div>
+            </div>
+          ))}
+        </section>
+      )}
+
       {term.data.faqs.length > 0 && (
         <section id="faq" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-2">
           <h2 class="text-lg font-bold text-gray-900 mb-4">자주 묻는 질문</h2>
@@ -247,6 +445,9 @@ const definedTermLd = JSON.stringify({
                 href={`/terms/${related!.data.termSlug}/`}
                 class="block p-4 rounded-xl border border-gray-100 hover:border-brand/40 hover:shadow-md transition-all group"
               >
+                {hasSections && termCategoryBySlug[related!.data.termSlug] && (
+                  <span class="block text-[11px] font-semibold text-brand-dark">{termCategoryBySlug[related!.data.termSlug]}</span>
+                )}
                 <span class="font-semibold text-gray-900 group-hover:text-brand transition-colors">
                   {related!.data.name}
                 </span>
@@ -257,7 +458,7 @@ const definedTermLd = JSON.stringify({
         </section>
       )}
 
-      {term.data.relatedPosts.length > 0 && (
+      {!hasSections && term.data.relatedPosts.length > 0 && (
         <section id="related-posts" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
           <div class="flex items-baseline justify-between gap-3 mb-1">
             <h2 class="text-lg font-bold text-gray-900">관련 블로그 글</h2>
@@ -313,6 +514,82 @@ const definedTermLd = JSON.stringify({
         </section>
       )}
 
+      {hasSections && term.data.relatedPosts.length > 0 && (
+        <section id="related-posts" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-3">
+          <h2 class="text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">더 읽어보기</h2>
+          <ul class="grid gap-2.5">
+            {term.data.relatedPosts.map((post) => (
+              <li>
+                <a
+                  href={`/posts/${post.slug}/`}
+                  class="group flex items-center gap-3 rounded-2xl border border-gray-100 bg-white p-2.5 hover:border-brand/40 transition-colors"
+                >
+                  {post.image ? (
+                    <img src={post.image} alt="" loading="lazy" decoding="async" width="64" height="64" class="h-16 w-16 flex-shrink-0 rounded-xl bg-gray-100 object-cover" />
+                  ) : (
+                    <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-brand-50 text-xs font-bold text-brand-dark">블로그</div>
+                  )}
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold leading-snug text-gray-900 group-hover:text-brand transition-colors">{post.title}</p>
+                    <p class="mt-1 text-xs text-gray-400">
+                      <b class="font-semibold text-brand/80">블로그</b>
+                      {post.date && <> · <time datetime={post.date}>{formatDate(post.date)}</time></>}
+                    </p>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {hasSections && refList.length > 0 && (
+        <section id="sources" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
+          <h2 class="text-lg font-bold text-gray-900 mb-3">참고 자료</h2>
+          <ol class="border-y border-gray-100 divide-y divide-gray-100">
+            {refList.map((item, i) => (
+              <li id={`ref-${i + 1}`} class="flex items-start gap-3 py-3.5 scroll-mt-24 target:bg-brand-bg/60">
+                <span class="flex-shrink-0 w-[18px] pt-px text-[13.5px] text-gray-400 tabular-nums">{pad2(i + 1)}</span>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="group min-w-0 flex-1"
+                >
+                  <span class="block text-[13.5px] leading-snug text-gray-900 group-hover:text-brand transition-colors">{item.title}</span>
+                  <span class="mt-0.5 block text-xs text-gray-400 break-all">{sourceHost(item.url)} <span aria-hidden="true">↗</span></span>
+                </a>
+                {item.cited && (
+                  <a
+                    href={`#cite-${i + 1}-1`}
+                    aria-label={`본문의 참고 자료 ${i + 1}번 표시로 돌아가기`}
+                    class="relative flex-shrink-0 px-1 text-sm text-brand-dark rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-dark after:absolute after:left-1/2 after:top-1/2 after:h-6 after:w-6 after:-translate-x-1/2 after:-translate-y-1/2 after:content-['']"
+                  >↩</a>
+                )}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {hasSections && (
+        <section aria-label="글쓴이" class="mb-10 anim-fade-up anim-delay-3">
+          <div class="flex items-center gap-3 rounded-2xl border border-gray-100 bg-white p-3.5">
+            <div aria-hidden="true" class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-100 to-brand-bg text-lg font-extrabold text-brand-dark">윤</div>
+            <div class="min-w-0">
+              <p data-byline class="text-[15px] font-bold text-gray-900"><a href="/about/" rel="author" class="hover:text-brand transition-colors">치과의사 윤훈찬</a></p>
+              <p class="mt-0.5 text-[12.5px] leading-normal text-gray-500">윤원장의 치과사전 · <a href="/about/" class="underline decoration-gray-200 underline-offset-2 hover:text-brand">소개 보기</a></p>
+              <div class="mt-1.5 flex flex-wrap gap-1.5">
+                {term.data.updated && <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11.5px] text-slate-600">처음 정리 <time datetime={term.data.updated}>{formatDate(term.data.updated)}</time></span>}
+                {term.data.reviewed
+                  ? <span class="rounded-full bg-emerald-50 px-2 py-0.5 text-[11.5px] text-emerald-700">감수 <time datetime={term.data.reviewed}>{formatDate(term.data.reviewed)}</time></span>
+                  : <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11.5px] text-slate-600">감수 예정</span>}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       <!-- 하단 CTA -->
       <section class="mt-12 p-6 md:p-8 rounded-2xl bg-gradient-to-br from-brand-bg to-white border border-brand/15 anim-fade-up">
         <h2 class="text-lg font-bold text-gray-900 mb-2">{term.data.name}, 더 궁금하신가요?</h2>
@@ -342,17 +619,19 @@ const definedTermLd = JSON.stringify({
       </section>
 
       <footer class="mt-10 pt-6 border-t border-gray-100 text-xs text-gray-400 leading-relaxed space-y-3">
+        {!hasSections && (
         <p data-byline>
           글·감수 <a href="/about/" rel="author" class="hover:text-brand transition-colors">치과의사 윤훈찬</a>
           {term.data.updated && <> · 처음 정리 <time datetime={term.data.updated}>{term.data.updated.replace(/-/g, '. ')}.</time></>}
           {term.data.reviewed && <> · 검토 <time datetime={term.data.reviewed}>{term.data.reviewed.replace(/-/g, '. ')}.</time></>}
         </p>
+        )}
 
-        {term.data.sources.length > 0 && (
+        {!hasSections && sourceItems.length > 0 && (
           <div id="sources" class="scroll-mt-20">
             <h2 class="font-medium text-gray-500 text-xs">참고 자료</h2>
             <ul class="mt-1.5 space-y-1">
-              {term.data.sources.map((url) => (
+              {sourceItems.map(({ url }) => (
                 <li>
                   <a
                     href={url}

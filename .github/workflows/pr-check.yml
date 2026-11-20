@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Term sections check
+        run: npm run check-terms
+
       - name: Build
         run: npm run build
 

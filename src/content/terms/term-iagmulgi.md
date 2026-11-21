@@ -35,6 +35,7 @@ relatedTerms:
   - root-canal
   - implant
   - wisdom-tooth
+  - bruxism
 relatedPosts:
   []
 ---

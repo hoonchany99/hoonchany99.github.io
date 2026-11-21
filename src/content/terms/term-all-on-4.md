@@ -45,10 +45,11 @@ sources:
     title: "The Journal of Prosthetic Dentistry(2023) 후향 연구: 주변 뼈 소실과 관련된 요인"
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - root-canal
   - implant
-  - wisdom-tooth
+  - immediate-implant
+  - denture
+  - overdenture
+  - chijogol-heubsu
 relatedPosts:
   []
 ---

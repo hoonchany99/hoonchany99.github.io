@@ -35,6 +35,7 @@ relatedTerms:
   - cavity
   - root-canal
   - implant
+  - bridge
 relatedPosts:
   []
 ---

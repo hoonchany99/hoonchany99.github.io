@@ -35,6 +35,8 @@ relatedTerms:
   - cheos-chigwa-bangmun
   - chigwa-gongpojeung
   - chigwayong-simenteu
+  - local-anesthesia
+  - nitrous-oxide
 relatedPosts:
   []
 ---

@@ -37,10 +37,10 @@ compare: {"title":"헷갈리는 말과 차이","columns":["인레이","온레이
 askCards: [{"question":"제 치아가 온레이로 가능한 범위인지, 크라운이 필요한 정도인지 알 수 있을까요?","explanation":"온레이는 씹는 면을 덮는 보철이고, 크라운보다 치아를 덜 깎아요. 남은 치아의 상태에 따라 달라지니 어디까지 상했는지 함께 보며 설명을 들어 보세요.","sourceLabel":"브리스톨대학교 치과대학: 온레이 정의와 크라운 비교","sourceUrl":"https://www.bristol.ac.uk/dental/treatment/patient-information/inlays-and-onlays","citeAfter":1},{"question":"치료 뒤 시림이나 물리는 느낌이 어느 정도면 다시 확인받아야 하나요?","explanation":"시림은 보통 며칠 안에 가라앉아요. 오래가거나 통증이 커지면 신경 염증일 수 있어서 확인이 필요해요.","sourceLabel":"브리스톨대학교 치과대학: 치료 뒤 시림과 위험","sourceUrl":"https://www.bristol.ac.uk/dental/treatment/patient-information/inlays-and-onlays","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - gold-inlay
   - inlay
-  - cavity
-  - root-canal
+  - gold-inlay
+  - crown
+  - cadcam-dangil-bocheol
 relatedPosts:
   []
 ---

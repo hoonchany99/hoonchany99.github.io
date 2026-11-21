@@ -66,10 +66,11 @@ sources:
     title: "미국치과의사협회(ADA) MouthHealthy: 입냄새 원인(세균·입 마름·잇몸병)과 가글의 한계"
 updated: "2026-08-16"
 relatedTerms:
-  - prosthesis
-  - scaling
-  - cavity
+  - seoltae
+  - guganggeonjojeung
   - periodontal-pocket
+  - scaling
+  - chissoljil
 relatedPosts:
   - slug: bad-breath
     title: "입냄새제거방법, 이것만 아시면 됩니다."

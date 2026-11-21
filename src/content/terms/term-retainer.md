@@ -35,6 +35,7 @@ relatedTerms:
   - chiju-yujigwanri
   - gineungjeog-gyojeong-jangchi
   - gugae-hwagjang-jangchi
+  - invisalign
 relatedPosts:
   []
 ---

@@ -49,6 +49,7 @@ relatedTerms:
   - balchi-hu-tongjeung
   - bogjab-balchi
   - chieun-chulhyeol
+  - dry-socket
 relatedPosts:
   []
 ---

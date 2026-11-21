@@ -41,10 +41,11 @@ sources:
     title: "Cochrane 문헌고찰: 수술과 비수술 재치료 비교, 근거의 질"
 updated: "2026-08-16"
 relatedTerms:
+  - root-canal-re
+  - root-canal
   - apical-periodontitis
-  - chieun-jeoljesul
-  - chigeundan-bangsaseon
   - chigeundan-byeongso
+  - chigeundan-nangjong
 relatedPosts:
   []
 ---

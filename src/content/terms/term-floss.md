@@ -45,10 +45,10 @@ sources:
 askCards: [{"question":"제 치아 간격에는 치실과 치간칫솔 중 어느 쪽이 맞나요?","explanation":"치아 사이가 좁으면 치실, 넓거나 잇몸병이 있으면 치간칫솔이 맞을 수 있어요. 내 치아 간격에 맞는 크기와 방법을 직접 보여 달라고 해 보세요.","sourceLabel":"미국치과의사협회(ADA): 치실과 치간칫솔 선택","sourceUrl":"https://www.ada.org/en/resources/research/science-and-research-institute/oral-health-topics/floss","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - root-canal
-  - implant
-  - wisdom-tooth
+  - chissoljil
+  - chissol-seontaeg
+  - gingivitis
+  - calculus
 relatedPosts:
   []
 ---

@@ -64,6 +64,7 @@ relatedTerms:
   - root-canal
   - root-canal-re
   - apical-periodontitis
+  - apicoectomy
 relatedPosts:
   []
 ---

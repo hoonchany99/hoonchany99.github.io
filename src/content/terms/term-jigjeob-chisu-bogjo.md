@@ -35,6 +35,7 @@ relatedTerms:
   - chisu
   - chisu-byeonseong
   - chisu-goesa
+  - conservative-dentistry
 relatedPosts:
   []
 ---

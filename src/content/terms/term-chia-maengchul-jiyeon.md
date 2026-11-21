@@ -52,6 +52,7 @@ relatedTerms:
   - chia-maengchul-sunseo
   - chia-chagsaeg
   - chia-gujo
+  - impacted-tooth
 relatedPosts:
   []
 ---

@@ -59,10 +59,11 @@ sources:
     title: "미국치과의사협회(ADA) MouthHealthy: 치은염은 되돌릴 수 있는 초기 잇몸병"
 updated: "2026-08-16"
 relatedTerms:
-  - prosthesis
-  - scaling
+  - periodontitis
   - calculus
+  - scaling
   - floss
+  - imsinseong-chieunyeom
 relatedPosts:
   - slug: gum-brushing-reason
     title: "양치할 때 잇몸에서 피가 나는 이유, 단순 자극일까 잇몸병일까?"

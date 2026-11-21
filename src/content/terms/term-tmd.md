@@ -59,6 +59,7 @@ relatedTerms:
   - teoggwanjeol-jagaundong
   - manseong-dutonggwa-teoggwanjeol
   - teoggwanjeol-diseukeu-byeonwi
+  - bruxism
 relatedPosts:
   []
 ---

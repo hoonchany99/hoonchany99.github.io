@@ -35,6 +35,7 @@ relatedTerms:
   - chieun
   - chieun-bidae
   - chieun-chulhyeol
+  - gum-graft
 relatedPosts:
   []
 ---

@@ -49,6 +49,7 @@ relatedTerms:
   - prosthesis
   - fluoride
   - dental-checkup
+  - cavity
 relatedPosts:
   []
 ---

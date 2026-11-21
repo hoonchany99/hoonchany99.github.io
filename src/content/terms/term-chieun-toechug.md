@@ -50,6 +50,7 @@ relatedTerms:
   - chigeun-pigaesul
   - chissoljil
   - bagriseong-chieunyeom
+  - gum-graft
 relatedPosts:
   []
 ---

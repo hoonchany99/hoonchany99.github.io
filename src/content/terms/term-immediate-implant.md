@@ -47,10 +47,12 @@ sources:
     title: "미국치주과학회(AAP): 임플란트 주위 질환의 위험 요인과 관리"
 updated: "2026-08-16"
 relatedTerms:
+  - implant
+  - extraction
   - impeulranteu-1cha-susul
   - impeulranteu-2cha-susul
-  - impeulranteu-eobeoteumeonteu
-  - impeulranteu-geongangboheom
+  - osseointegration
+  - all-on-4
 relatedPosts:
   []
 ---

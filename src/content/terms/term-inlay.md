@@ -42,10 +42,11 @@ compare: {"title":"헷갈리는 말과 차이","columns":["인레이","온레이
 askCards: [{"question":"제 치아에는 인레이와 온레이 중 어느 쪽이 맞는지, 이유와 함께 알 수 있을까요?","explanation":"인레이는 치아 안쪽 구멍을 메우고, 온레이는 씹는 면까지 덮어요. 손상 범위에 따라 달라지니 어디까지 상했는지 보면서 설명을 들어 보세요.","sourceLabel":"브리스톨대학교 치과대학: 인레이와 온레이의 차이","sourceUrl":"https://www.bristol.ac.uk/dental/treatment/patient-information/inlays-and-onlays","citeAfter":1},{"question":"보철물 밑에 충치가 생기지 않게 집에서 어떻게 관리하면 되나요?","explanation":"보철물 아래나 가장자리에도 충치가 생길 수 있어요. 양치와 치간 청소 방법, 검진 주기를 같이 물어 보세요.","sourceLabel":"브리스톨대학교 치과대학: 보철물 밑 충치와 관리","sourceUrl":"https://www.bristol.ac.uk/dental/treatment/patient-information/inlays-and-onlays","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - gold-inlay
-  - cadcam-dangil-bocheol
   - onlay
+  - gold-inlay
+  - crown
   - cavity
+  - cadcam-dangil-bocheol
 relatedPosts:
   - slug: inlay
     title: "인레이, 가격은 어느 정도일까? 재료별 & 병원별 비교"

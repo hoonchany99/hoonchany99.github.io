@@ -64,10 +64,11 @@ sources:
     title: "케임브리지대학병원(NHS): 매복 사랑니의 문제, 검사(X-ray·콘빔 CT), 발치 후 위험과 회복"
 updated: "2026-08-16"
 relatedTerms:
-  - extraction
-  - cavity
-  - root-canal
-  - implant
+  - wisdom-tooth
+  - bogjab-balchi
+  - pericoronitis
+  - iso-maengchul
+  - chia-maengchul-jiyeon
 relatedPosts:
   - slug: wisdom-tooth-4202
     title: "사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우"

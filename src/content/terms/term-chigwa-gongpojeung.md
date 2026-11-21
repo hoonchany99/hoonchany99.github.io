@@ -54,6 +54,7 @@ relatedTerms:
   - cheos-chigwa-bangmun
   - chigwayong-simenteu
   - dangnyo-hwanja-chigwa
+  - nitrous-oxide
 relatedPosts:
   []
 ---

@@ -49,6 +49,7 @@ relatedTerms:
   - primary-tooth
   - chia-maengchul-jiyeon
   - chia-maengchul-sunseo
+  - impacted-tooth
 relatedPosts:
   []
 ---

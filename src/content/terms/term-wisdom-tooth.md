@@ -39,6 +39,7 @@ relatedTerms:
   - molar
   - pericoronitis
   - cavity
+  - impacted-tooth
 relatedPosts:
   - slug: wisdom-tooth-molar-cavity
     title: "사랑니 때문에 옆 어금니 충치 생길 수 있을까? 실제로 가능한 경우"

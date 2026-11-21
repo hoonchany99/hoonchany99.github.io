@@ -35,6 +35,7 @@ relatedTerms:
   - apicoectomy
   - chigeun
   - chigeun-cheongong
+  - gum-graft
 relatedPosts:
   []
 ---

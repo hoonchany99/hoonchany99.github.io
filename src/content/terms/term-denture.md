@@ -47,10 +47,12 @@ sources:
 askCards: [{"question":"제 경우에는 부분틀니와 완전틀니 중 어느 쪽이 맞나요?","explanation":"부분틀니는 빠진 치아 하나 이상을, 완전틀니는 윗니나 아랫니 전체를 대신해요. 남아 있는 치아 수와 상태에 따라 달라져서 직접 물어보세요.","sourceLabel":"영국 국민보건서비스(NHS): 틀니 종류","sourceUrl":"https://www.nhs.uk/conditions/dentures/","citeAfter":1},{"question":"틀니를 밤에도 끼고 있어야 하나요?","explanation":"치과의사가 따로 말하지 않았다면 밤에는 빼서 보관하라고 안내해요. 내 경우에 해당하는지 확인해 보세요.","sourceLabel":"영국 국민보건서비스(NHS): 밤에 빼서 보관","sourceUrl":"https://www.nhs.uk/conditions/dentures/","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - geongangboheom-jeogyong-teulni
+  - overdenture
+  - implant
+  - bridge
   - teulni-gwanribeob
-  - cavity
-  - root-canal
+  - noin-uichi-jeogeung
+  - all-on-4
 relatedPosts:
   []
 ---

@@ -35,6 +35,7 @@ relatedTerms:
   - gineungjeog-gyojeong-jangchi
   - gyojeong-balchi
   - gyojeong-jindan-geomsa
+  - invisalign
 relatedPosts:
   []
 ---

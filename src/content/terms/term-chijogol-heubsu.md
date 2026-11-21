@@ -55,6 +55,7 @@ relatedTerms:
   - implant
   - gbr
   - chijogol
+  - all-on-4
 relatedPosts:
   []
 ---

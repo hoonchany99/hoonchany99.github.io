@@ -67,10 +67,11 @@ sources:
     title: "Cochrane 체계적 문헌고찰(2024): 턱관절 질환의 교합 중재 근거"
 updated: "2026-08-16"
 relatedTerms:
-  - resin
-  - crown
+  - iagmulgi
+  - splint
   - igali-botogseu
-  - cavity
+  - tmd
+  - chia-mamojeung
 relatedPosts:
   []
 ---

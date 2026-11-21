@@ -42,10 +42,11 @@ compare: {"title":"헷갈리는 말과 차이","columns":["도자기 라미네�
 askCards: [{"question":"제 치아는 얼마나 깎아야 하고, 되돌릴 수 있는지 알 수 있을까요?","explanation":"도자기 라미네이트는 법랑질을 조금 깎고, 깎은 치아는 되돌릴 수 없어요. 삭제량은 치아마다 달라서 미리 물어 보면 좋아요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 법랑질 삭제와 되돌릴 수 없음","sourceUrl":"https://www.mouthhealthy.org/en/az-topics/v/veneers","citeAfter":1},{"question":"이를 악무는 습관이 있는데 라미네이트가 맞을까요?","explanation":"이갈이·이 악물기가 있으면 라미네이트가 맞지 않을 수 있어요. 습관이 있다면 꼭 말씀드려 보세요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 이갈이와 라미네이트","sourceUrl":"https://www.mouthhealthy.org/en/az-topics/v/veneers","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
+  - crown
+  - resin
+  - whitening
+  - tooth-discoloration
   - hwaiteu-seupas
-  - cavity
-  - root-canal
-  - implant
 relatedPosts:
   - slug: laminate-5427
     title: "라미네이트 색상, 어떻게 고를까? ‘티 안 나는 자연스러움’의 기준"

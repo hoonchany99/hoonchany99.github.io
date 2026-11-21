@@ -36,6 +36,7 @@ relatedTerms:
   - apicoectomy
   - chigeun
   - chigeun-cheongong
+  - calculus
 relatedPosts:
   []
 ---

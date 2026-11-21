@@ -38,6 +38,8 @@ relatedTerms:
   - root-canal
   - implant
   - wisdom-tooth
+  - conservative-dentistry
+  - laminate
 relatedPosts:
   - slug: resin-cost-care
     title: "레진 치료 비용은 얼마? 수명은 몇 년일까? 관리법까지 한눈에"

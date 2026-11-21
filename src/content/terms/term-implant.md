@@ -55,10 +55,12 @@ sources:
     title: "미국치주과학회(AAP): 임플란트 주위염·점막염과 위험 요인"
 updated: "2026-08-16"
 relatedTerms:
-  - impeulranteu-tongjeung
   - immediate-implant
-  - impeulranteu-1cha-susul
-  - impeulranteu-2cha-susul
+  - all-on-4
+  - bridge
+  - denture
+  - osseointegration
+  - peri-implantitis
 relatedPosts:
   - slug: implant-pain-recovery
     title: "임플란트 수술 후 통증, 며칠까지가 정상일까? 단계별 회복 기준"

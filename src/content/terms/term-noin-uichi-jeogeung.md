@@ -35,6 +35,7 @@ relatedTerms:
   - noin-bburi-usig
   - noin-chigwa-jinjeong
   - noin-yeonhajangae
+  - denture
 relatedPosts:
   []
 ---

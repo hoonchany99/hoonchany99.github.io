@@ -35,6 +35,7 @@ relatedTerms:
   - gum-graft
   - cavity
   - root-canal
+  - gbr
 relatedPosts:
   []
 ---

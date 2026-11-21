@@ -53,6 +53,7 @@ relatedTerms:
   - resin
   - crown
   - bulso-dopo
+  - fluoride
 relatedPosts:
   []
 ---

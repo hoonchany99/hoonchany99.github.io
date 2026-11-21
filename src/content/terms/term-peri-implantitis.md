@@ -50,6 +50,7 @@ relatedTerms:
   - golisigjae
   - impeulranteu-juwi-jeommagyeom
   - immediate-implant
+  - implant
 relatedPosts:
   []
 ---

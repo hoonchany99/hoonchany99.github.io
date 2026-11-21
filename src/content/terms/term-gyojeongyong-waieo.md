@@ -35,6 +35,7 @@ relatedTerms:
   - aggyojeong-susul
   - gineungjeog-gyojeong-jangchi
   - gyojeong-balchi
+  - invisalign
 relatedPosts:
   []
 ---

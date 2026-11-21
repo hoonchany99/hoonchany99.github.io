@@ -55,6 +55,7 @@ relatedTerms:
   - molar
   - retainer
   - 1geub-bujeonggyohab
+  - malocclusion
 relatedPosts:
   []
 ---

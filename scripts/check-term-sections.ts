@@ -126,7 +126,7 @@ for (const data of parsedFiles) {
 
   // 새 틀 페이지는 질문 카드 3개가 기준이에요(실패 아님, 내용은 리서치가 채워요)
   const askCount = (data.askCards ?? []).length;
-  if (askCount !== 3) warnings.push(`${slug}: 새 틀 페이지 askCards는 3개여야 해요(지금 ${askCount}개)`);
+  if (askCount < 2 || askCount > 5) warnings.push(`${slug}: 새 틀 페이지 askCards는 2~5개예요(지금 ${askCount}개, 대표 911)`);
 
   // 질문 카드: 질문·설명·출처(주소와 이름)가 모두 있어야 각주로 이어져요
   for (const card of (data.askCards ?? []) as { question?: string; explanation?: string; sourceUrl?: string; sourceLabel?: string; citeAfter?: number }[]) {

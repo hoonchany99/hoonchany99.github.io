@@ -16,6 +16,13 @@
  * - 출처가 문장 여러 개를 받치면 그 가운데 마지막 사실 문장 뒤에 두어요.
  * - 공감·안내 문장(「많이 긴장되실 수 있어요」 같은) 뒤에는 두지 않아요(check-terms가 잡아요).
  * - 표시만 따로 한 줄에 쓰면(예전 방식) 그 문단 맨 끝에 붙어요.
+ *
+ * 문장 안 내부 링크: 다른 용어 페이지로 가는 링크는 보이는 글에 그대로 써요.
+ *
+ *   발치 후에는 [드라이 소켓](/terms/dry-socket/)을 조심해야 해요.
+ *
+ * 내부 주소 「/terms/<slug>/」만 링크로 그려요(안내 상자 「!」 구역에는 쓰지 않아요). 외부 주소는 본문에 못 쓰고 각주로만 써요.
+ * 규칙은 check-terms가 잡아요(없는 slug, 자기 자신, 구역당 3개 초과, 외부 주소).
  */
 
 export interface TermSectionSource {
@@ -29,10 +36,24 @@ export interface TermCite extends TermSectionSource {
   after: string;
 }
 
-/** 문단 조각: 글 하나와, 그 글 바로 뒤에 붙는 각주(있으면) */
+/** 글 조각 안의 한 토막: href가 있으면 내부 링크 */
+export interface TermSeg {
+  text: string;
+  href?: string;
+}
+
+/** 문단 조각: 글 하나와, 그 글 바로 뒤에 붙는 각주(있으면). text는 링크 문법을 벗긴 글이에요 */
 export interface TermPiece {
   text: string;
+  /** text를 링크 단위로 나눈 것 (링크가 없으면 한 토막) */
+  segs: TermSeg[];
   cite?: TermCite;
+}
+
+/** 본문에 쓴 일반 링크 `[글](주소)` 하나 */
+export interface TermLink {
+  text: string;
+  href: string;
 }
 
 export interface TermSection {
@@ -45,6 +66,8 @@ export interface TermSection {
   pieces: TermPiece[][];
   /** 이 구역의 모든 각주 (화면에 나오는 차례) */
   cites: TermCite[];
+  /** 이 구역에 쓴 일반 링크 (check-terms가 검사해요) */
+  links: TermLink[];
 }
 
 export interface ParsedDetail {
@@ -59,20 +82,52 @@ const HEADING = /^##\s+(.+?)\s*$/;
 const SOURCE_LINE = /^\[근거\]\((\S+)\s+"([^"]+)"\)\s*$/;
 const INLINE_CITE = /\s*\[근거\]\((\S+)\s+"([^"]+)"\)/g;
 
+const INLINE_LINK = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+/** 내부 용어 링크 주소: /terms/<slug>/ */
+export const TERM_HREF = /^\/terms\/([a-z0-9][a-z0-9-]*)\/$/;
+
+/** 글 한 토막에서 `[글](주소)`를 찾아 벗긴 글과 토막 목록으로 나눈다. 내부 용어 주소만 href를 달아요 */
+function splitLinks(chunk: string): TermSeg[] {
+  const segs: TermSeg[] = [];
+  let last = 0;
+  for (const m of chunk.matchAll(INLINE_LINK)) {
+    if (m.index > last) segs.push({ text: chunk.slice(last, m.index) });
+    segs.push(TERM_HREF.test(m[2]) ? { text: m[1], href: m[2] } : { text: m[1] });
+    last = m.index + m[0].length;
+  }
+  if (last < chunk.length) segs.push({ text: chunk.slice(last) });
+  return segs;
+}
+
+/** 링크 문법을 벗겨 글만 남긴다 (설명 칸·JSON-LD처럼 링크를 못 그리는 곳용) */
+export function stripLinks(text: string): string {
+  return text.replace(INLINE_LINK, '$1');
+}
+
+/** 글에 들어 있는 일반 링크 목록 */
+export function findLinks(text: string): TermLink[] {
+  return [...text.matchAll(INLINE_LINK)].map((m) => ({ text: m[1], href: m[2] }));
+}
+
+function makePiece(chunk: string, cite?: TermCite): TermPiece {
+  const segs = splitLinks(chunk);
+  return { text: segs.map((g) => g.text).join(''), segs, ...(cite ? { cite } : {}) };
+}
+
 /** 문단 하나를 글 조각과 각주로 나눈다 */
 function splitPieces(text: string): TermPiece[] {
   const pieces: TermPiece[] = [];
   let acc = '';
   let last = 0;
   for (const m of text.matchAll(INLINE_CITE)) {
-    const chunk = text.slice(last, m.index);
-    acc += chunk;
+    const piece = makePiece(text.slice(last, m.index));
+    acc += piece.text;
     const sentence = splitSentences(acc).at(-1) ?? acc;
-    pieces.push({ text: chunk, cite: { url: m[1], label: m[2], after: sentence } });
+    pieces.push({ ...piece, cite: { url: m[1], label: m[2], after: sentence } });
     last = (m.index ?? 0) + m[0].length;
   }
   const rest = text.slice(last);
-  if (rest || pieces.length === 0) pieces.push({ text: rest });
+  if (rest || pieces.length === 0) pieces.push(makePiece(rest));
   return pieces;
 }
 
@@ -96,6 +151,7 @@ export function parseDetail(detail: string): ParsedDetail {
     current.pieces.push(pieces);
     current.paragraphs.push(pieces.map((p) => p.text).join(''));
     for (const p of pieces) if (p.cite) current.cites.push(p.cite);
+    current.links.push(...findLinks(text.replace(INLINE_CITE, '')));
   };
 
   for (const raw of lines) {
@@ -104,7 +160,7 @@ export function parseDetail(detail: string): ParsedDetail {
     if (heading) {
       flush();
       const callout = heading[1].startsWith('!');
-      current = { heading: callout ? heading[1].slice(1).trim() : heading[1], callout, paragraphs: [], pieces: [], cites: [] };
+      current = { heading: callout ? heading[1].slice(1).trim() : heading[1], callout, paragraphs: [], pieces: [], cites: [], links: [] };
       sections.push(current);
       continue;
     }

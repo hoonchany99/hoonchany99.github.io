@@ -7,6 +7,7 @@
     "build": "tsx scripts/relink-naver-cards.ts && tsx scripts/generate-terms-index.ts && astro build && node scripts/stamp-personal-noindex.mjs",
     "generate-terms-index": "tsx scripts/generate-terms-index.ts",
     "check-terms": "tsx scripts/check-term-sections.ts",
+    "test-term-links": "tsx --test scripts/term-links.test.ts",
     "preview": "astro preview",
     "generate-embeddings": "tsx scripts/generate-embeddings.ts",
     "generate-terms": "tsx scripts/generate-terms-from-posts.ts",

@@ -33,6 +33,9 @@ jobs:
       - name: Term sections check
         run: npm run check-terms
 
+      - name: Term inline link tests
+        run: npm run test-term-links
+
       - name: Build
         run: npm run build
 

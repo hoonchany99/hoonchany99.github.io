@@ -3,8 +3,8 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { doctorWVoiceGuide } from '../../data/doctorWVoice';
-import { parseDetail, splitSentences, sentenceBullets, sourceUrl, sourceTitle, sourceHost } from '../../lib/termSections';
-import type { TermCite } from '../../lib/termSections';
+import { parseDetail, stripLinks, splitSentences, sentenceBullets, sourceUrl, sourceTitle, sourceHost } from '../../lib/termSections';
+import type { TermCite, TermSeg } from '../../lib/termSections';
 import CiteMark from '../../components/CiteMark.astro';
 import { termCategoryBySlug } from '../../data/termCategories';
 import { termCategoryOverrideBySlug } from '../../data/termGuideBlocks';
@@ -44,10 +44,12 @@ const relatedTermEntries = (
   )
 ).filter(Boolean);
 
+/** 설명 칸·JSON-LD·메타 설명에는 링크 문법이 새지 않게 글만 쓴다 */
+const definitionText = stripLinks(term.data.definition);
 const description =
-  term.data.definition.length > 155
-    ? term.data.definition.slice(0, 152).replace(/\s\S*$/, '') + '…'
-    : term.data.definition;
+  definitionText.length > 155
+    ? definitionText.slice(0, 152).replace(/\s\S*$/, '') + '…'
+    : definitionText;
 
 /**
  * 본문에 「## 소제목」이 있는 용어(시범 용어)는 소제목 구역으로 나눠 보여 주고,
@@ -97,14 +99,14 @@ type Mark = ReturnType<typeof plan>;
 const sectionRender = new Map<
   number,
   {
-    paras: { text: string; cite?: Mark }[][];
+    paras: { segs: TermSeg[]; cite?: Mark }[][];
     bullets: { sentence: string; cites: Mark[] }[];
   }
 >();
 if (hasSections) {
   for (const { sec, n } of [...plainSections, ...calloutSections]) {
     sectionRender.set(n, {
-      paras: sec.callout ? [] : sec.pieces.map((ps) => ps.map((p) => ({ text: p.text, cite: p.cite ? mk(p.cite) : undefined }))),
+      paras: sec.callout ? [] : sec.pieces.map((ps) => ps.map((p) => ({ segs: p.segs, cite: p.cite ? mk(p.cite) : undefined }))),
       bullets: sec.callout
         ? sec.pieces.flatMap((ps) => sentenceBullets(ps)).map((b) => ({ sentence: b.sentence, cites: b.cites.map(mk) }))
         : [],
@@ -160,7 +162,7 @@ const definedTermLd = JSON.stringify({
   name: term.data.name,
   // 영문명과 동의어를 모두 실어 다른 표현으로 물어도 같은 항목으로 잡히게 한다
   ...(alternateNames.length ? { alternateName: alternateNames } : {}),
-  description: term.data.definition,
+  description: definitionText,
   url: new URL(Astro.url.pathname, Astro.site).href,
   inDefinedTermSet: {
     '@type': 'DefinedTermSet',
@@ -174,7 +176,7 @@ const definedTermLd = JSON.stringify({
 ---
 
 <BaseLayout
-  title={term.data.seoTitle ?? (term.data.en ? `${term.data.name} (${term.data.en})` : term.data.name)}
+  title={stripLinks(term.data.seoTitle ?? '') || (term.data.en ? `${term.data.name} (${term.data.en})` : term.data.name)}
   publishedDate={term.data.updated ? new Date(term.data.updated) : undefined}
   reviewedDate={term.data.reviewed ? new Date(term.data.reviewed) : undefined}
   medicalWebPage={true}
@@ -224,7 +226,7 @@ const definedTermLd = JSON.stringify({
 
           <p data-speakable class="mt-4 md:mt-6 text-lg md:text-xl font-bold text-gray-900 leading-[1.65]">
             <span class="bg-[linear-gradient(transparent_55%,rgba(253,224,71,0.55)_55%)] box-decoration-clone">
-              {term.data.definition}
+              {definitionText}
             </span>
           </p>
 
@@ -264,7 +266,7 @@ const definedTermLd = JSON.stringify({
         <div class="rounded-2xl bg-gray-50/70 border border-gray-100/90 px-5 py-5 md:px-7 md:py-6">
           <div class="space-y-4 text-gray-700 leading-relaxed text-[15px] md:text-base">
             {term.data.detail.split('\n\n').filter(Boolean).map((paragraph) => (
-              <p>{paragraph.trim()}</p>
+              <p>{stripLinks(paragraph.trim())}</p>
             ))}
           </div>
         </div>
@@ -277,7 +279,7 @@ const definedTermLd = JSON.stringify({
             <h2 id={`sec-${n}`} class="scroll-mt-20 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">{sec.heading}</h2>
             <div class="space-y-4 text-gray-800 text-base leading-[1.75]">
               {sectionRender.get(n)!.paras.map((para) => (
-                <p>{para.map((piece) => (<>{piece.text}{piece.cite && <CiteMark n={piece.cite.n} k={piece.cite.k} name={refName(piece.cite.url)} />}</>))}</p>
+                <p>{para.map((piece) => (<>{piece.segs.map((g) => (g.href ? <a href={g.href} class="font-medium text-brand-dark underline decoration-brand/40 underline-offset-[3px] hover:decoration-brand-dark rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-dark">{g.text}</a> : g.text))}{piece.cite && <CiteMark n={piece.cite.n} k={piece.cite.k} name={refName(piece.cite.url)} />}</>))}</p>
               ))}
             </div>
           </section>

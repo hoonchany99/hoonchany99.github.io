@@ -30,3 +30,11 @@ export const mergedAliases: Record<string, string[]> = {
   'hachijosingyeong-sonsang': ['임플란트 신경 손상'],
   bruxism: ['이갈이 증상'],
 };
+
+/**
+ * 사전 밖의 옛 주소 → 새 주소. 같은 방식(meta refresh + canonical + noindex)으로 보낸다.
+ * /치과사전/ 은 옛 Jekyll 블로그 이름(「윤원장의 치과사전」)이자 지금 메뉴 이름이라 사람들이 주소창에 칠 수 있는데 페이지는 없었다.
+ */
+export const legacyPaths: Record<string, string> = {
+  '/치과사전/': '/terms/',
+};

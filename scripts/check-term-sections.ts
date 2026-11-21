@@ -22,6 +22,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
+import sharp from 'sharp';
 import { checkSectionLinks, fieldsWithLinks } from './lib/termLinkCheck.ts';
 import { parseDetail, sourceUrl, splitSentences, isEmpathy } from '../src/lib/termSections.ts';
 
@@ -39,9 +40,47 @@ const ledger: Ledger = fs.existsSync(BASELINE) ? JSON.parse(fs.readFileSync(BASE
 
 const sectioned = new Set<string>();
 
+/** 설명 그림(figure): 파일이 public 아래에 있고, 크기가 맞고, 한국어 alt·캡션이 있고, 출처 주소는 https다. 위치 구역 이름도 확인 */
+const PUBLIC_DIR = path.resolve(__dirname, '../public');
+function checkFigure(slug: string, data: Record<string, any>, parsed: { hasSections: boolean; sections: { heading: string }[] }) {
+  const fig = data.figure;
+  if (!fig) {
+    if (data.figureAfterSection) fail(slug, 'figureAfterSection만 있고 figure가 없어요');
+    return;
+  }
+  if (!String(fig.alt ?? '').trim()) fail(slug, 'figure.alt가 비었어요(그림 내용을 한국어로 설명)');
+  else if (!/[가-힣]/.test(String(fig.alt))) fail(slug, 'figure.alt에 한국어가 없어요');
+  if (!String(fig.caption ?? '').trim()) fail(slug, 'figure.caption이 비었어요');
+  const src = String(fig.src ?? '');
+  if (!src.startsWith('/img/terms/')) fail(slug, `figure.src는 /img/terms/ 아래여야 해요: ${src}`);
+  else {
+    const file = path.join(PUBLIC_DIR, src);
+    if (!fs.existsSync(file)) fail(slug, `figure.src 파일이 없어요: ${src}`);
+    else {
+      const m = figSizes.get(file);
+      if (m && (m.width !== fig.width || m.height !== fig.height))
+        fail(slug, `figure 크기(width·height)가 파일과 달라요: 적은 ${fig.width}x${fig.height}, 파일 ${m.width}x${m.height}`);
+    }
+  }
+  if (fig.credit && !fig.creditUrl) fail(slug, 'figure.credit에는 creditUrl(라이선스 주소)도 필요해요');
+  if (fig.creditUrl && !/^https:\/\//.test(String(fig.creditUrl))) fail(slug, 'figure.creditUrl은 https 주소여야 해요');
+  if (data.figureAfterSection) {
+    if (!parsed.hasSections) fail(slug, 'figureAfterSection은 소제목 구역이 있는 용어에서만 써요');
+    else if (!parsed.sections.some((s) => s.heading === data.figureAfterSection && !(s as any).callout))
+      fail(slug, `figureAfterSection 「${data.figureAfterSection}」에 맞는 일반 구역이 없어요`);
+  }
+}
+
 const termFiles = fs.readdirSync(TERMS_DIR).filter((f) => f.endsWith('.md'));
 const parsedFiles = termFiles.map((file) => matter(fs.readFileSync(path.join(TERMS_DIR, file), 'utf-8')).data);
 const knownSlugs = new Set(parsedFiles.map((d) => String(d.termSlug)));
+
+const figSizes = new Map<string, { width?: number; height?: number }>();
+for (const d of parsedFiles) {
+  const src = String(d.figure?.src ?? '');
+  const file = path.join(PUBLIC_DIR, src);
+  if (src.startsWith('/img/terms/') && fs.existsSync(file)) figSizes.set(file, await sharp(file).metadata());
+}
 
 for (const data of parsedFiles) {
   const slug = String(data.termSlug);
@@ -58,6 +97,7 @@ for (const data of parsedFiles) {
     plainFields[`askCards[${i}].explanation`] = String(c.explanation ?? '');
   });
   for (const f of fieldsWithLinks(plainFields)) fail(slug, `${f}에 링크 문법 [글](주소)이 있어요(링크는 본문 구역에서만)`);
+  checkFigure(slug, data, parsed);
   if (!parsed.hasSections) continue;
   sectioned.add(slug);
   for (const msg of checkSectionLinks(slug, parsed.sections, knownSlugs)) fail(slug, msg);

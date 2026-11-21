@@ -15,6 +15,14 @@ detail: |
   급성으로 바뀌면 달라집니다. 씹을 때 깊게 아프고, 그 치아가 뜬 느낌이 들고, 잇몸이 부어오르거나 고름이 나오는 길이 생기기도 해요.
   
   치료는 원인을 제거하는 것입니다. 뿌리 속 세균을 없애면 뼈는 시간이 지나며 다시 채워지는 경우가 많아요. 신경치료를 하고 경과를 봅니다. 낫지 않으면 재신경치료나 치근단절제술을 검토해요.
+figure:
+  src: "/img/terms/apical-periodontitis.webp"
+  width: 1200
+  height: 1137
+  alt: "치아 단면 그림. 뿌리 끝 바로 밖 잇몸뼈에 염증성 병소(붉게 변한 부분)가 생긴 모습을 나타내요"
+  caption: "치아 뿌리 끝 주변에 생긴 염증성 병소"
+  credit: "그림: Servier Medical Art(CC BY 4.0)를 바탕으로 다시 그림"
+  creditUrl: "https://creativecommons.org/licenses/by/4.0/"
 faqs:
   - question: "아프지 않은데 치료해야 하나요?"
     answer: "통증 없이 뼈가 녹는 경우가 많습니다. 방치하면 범위가 넓어지고 급성으로 바뀌어 크게 부을 수 있어요. 발견되면 치료를 권합니다."

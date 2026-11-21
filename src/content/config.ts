@@ -85,6 +85,23 @@ const terms = defineCollection({
     updated: z.string().optional(),
     /** 치과의사가 실제로 다시 검토한 날짜 YYYY-MM-DD — 검토한 뒤에만 채운다 (dateModified·lastReviewed) */
     reviewed: z.string().optional(),
+    /** 설명 그림 한 장 — 원장님 감수를 거친 그림만. 새 틀(소제목)은 figureAfterSection 구역 바로 아래, 옛 틀은 「뜻과 설명」 아래에 그려요 */
+    figure: z
+      .object({
+        /** /img/terms/… (public 아래 파일, check-terms가 존재·크기를 확인) */
+        src: z.string(),
+        width: z.number().int().positive(),
+        height: z.number().int().positive(),
+        /** 그림 내용을 한국어로 설명 (필수) */
+        alt: z.string().min(1),
+        caption: z.string(),
+        /** 출처 표기 (바탕 그림이 있을 때) */
+        credit: z.string().optional(),
+        creditUrl: z.string().optional(),
+      })
+      .optional(),
+    /** 새 틀(소제목 구역)에서 그림을 놓을 구역의 소제목 이름 — 없으면 첫 구역 아래 */
+    figureAfterSection: z.string().optional(),
     relatedTerms: z.array(z.string()).default([]),
     relatedPosts: z
       .array(

@@ -6,6 +6,7 @@ import { doctorWVoiceGuide } from '../../data/doctorWVoice';
 import { parseDetail, stripLinks, splitSentences, sentenceBullets, sourceUrl, sourceTitle, sourceHost } from '../../lib/termSections';
 import type { TermCite, TermSeg } from '../../lib/termSections';
 import CiteMark from '../../components/CiteMark.astro';
+import TermFigure from '../../components/TermFigure.astro';
 import { termCategoryBySlug } from '../../data/termCategories';
 import { termCategoryOverrideBySlug } from '../../data/termGuideBlocks';
 
@@ -156,6 +157,10 @@ const tocItems = hasSections
       ...(sourceItems.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
     ];
 
+const figure = term.data.figure;
+const figureUrl = figure ? new URL(figure.src, Astro.site).href : undefined;
+const figureSectionHeading = term.data.figureAfterSection ?? plainSections[0]?.sec.heading;
+
 const askSearchUrl = `/ask/?q=${encodeURIComponent(term.data.name)}`;
 
 const definedTermLd = JSON.stringify({
@@ -172,6 +177,7 @@ const definedTermLd = JSON.stringify({
     url: new URL('/terms/', Astro.site).href,
   },
   inLanguage: 'ko',
+  ...(figureUrl ? { image: figureUrl } : {}),
   ...(term.data.sources.length ? { citation: sourceItems.map((s) => s.url) } : {}),
   ...((term.data.reviewed ?? term.data.updated) ? { dateModified: term.data.reviewed ?? term.data.updated } : {}),
 });
@@ -263,6 +269,7 @@ const definedTermLd = JSON.stringify({
 
       <div class="min-w-0 lg:col-start-1 lg:row-start-1">
       {!hasSections && (
+      <>
       <section id="definition" aria-labelledby="definition-heading" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-1">
         <h2 id="definition-heading" class="sr-only">뜻과 설명</h2>
         <div class="rounded-2xl bg-gray-50/70 border border-gray-100/90 px-5 py-5 md:px-7 md:py-6">
@@ -273,6 +280,8 @@ const definedTermLd = JSON.stringify({
           </div>
         </div>
       </section>
+      {figure && <TermFigure figure={figure} />}
+      </>
       )}
 
       {hasSections && plainSections.map(({ sec, n }, idx) => (
@@ -285,6 +294,7 @@ const definedTermLd = JSON.stringify({
               ))}
             </div>
           </section>
+          {figure && sec.heading === figureSectionHeading && <TermFigure figure={figure} />}
           {idx === 0 && compare && (
             <section aria-labelledby="compare" class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
               <h2 id="compare" class={`scroll-mt-20 ${h2Cls} mb-3 mt-14`}>{compare.title}</h2>

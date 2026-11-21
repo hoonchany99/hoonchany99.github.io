@@ -33,7 +33,7 @@ updated: "2026-08-16"
 relatedTerms:
   - cavity
   - yebangjeog-hangsaengje
-  - yuchi-chungchi
+  - yua-usig
   - root-canal
 relatedPosts:
   []

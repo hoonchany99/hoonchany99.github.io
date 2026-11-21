@@ -33,7 +33,7 @@ updated: "2026-08-16"
 relatedTerms:
   - occlusal-adjustment
   - pfm
-  - sensitivity
+  - gwaminseong-sangajil
   - zirconia
 relatedPosts:
   - slug: zirconia-crown-price

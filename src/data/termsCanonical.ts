@@ -308,9 +308,16 @@ export const termsCanonical: CanonicalTerm[] = [
   },
   {
     slug: "gwaminseong-sangajil",
-    name: "과민성 상아질",
+    name: "이시림",
     aliases: [
+    "이시림",
+    "이 시림",
     "과민성 상아질",
+    "상아질 과민증",
+    "시림",
+    "시린이",
+    "지각과민",
+    "지각 과민",
     ],
     topicSlug: "gum-prevention",
     definition: "과민성 상아질은(는) 치과 진료·상담에서 자주 나오는 용어예요. 아래 FAQ에서 궁금한 점을 확인하거나, AI 검색으로 관련 글을 더 찾아보실 수 있어요.",
@@ -3584,12 +3591,15 @@ export const termsCanonical: CanonicalTerm[] = [
   },
   {
     slug: "yua-usig",
-    name: "유아 우식",
+    name: "유아기 우식증",
     aliases: [
+    "유아기 우식증",
     "유아 우식",
+    "유치 충치",
+    "유아 충치",
     ],
     topicSlug: "gum-prevention",
-    definition: "유아 우식은(는) 치과 진료·상담에서 자주 나오는 용어예요. 아래 FAQ에서 궁금한 점을 확인하거나, AI 검색으로 관련 글을 더 찾아보실 수 있어요.",
+    definition: "유아기 우식증은(는) 치과 진료·상담에서 자주 나오는 용어예요. 아래 FAQ에서 궁금한 점을 확인하거나, AI 검색으로 관련 글을 더 찾아보실 수 있어요.",
   },
   {
     slug: "yujeolchi",

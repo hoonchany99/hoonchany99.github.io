@@ -27,6 +27,8 @@ export const termSynonyms: Record<string, string[]> = {
   'cadcam-dangil-bocheol': ['세렉'],
   'hachijosingyeong-sonsang': ['임플란트 신경 손상'],
   cej: ['백악법랑경계'],
+  'yua-usig': ['유치 충치', '유아 우식', '유아 충치'],
+  'gwaminseong-sangajil': ['이 시림', '상아질 과민증', '시린이', '지각과민'],
   'cracked-tooth': ['치아크랙', '치아균열', '금간치아'],
   ct: ['CBCT'],
   'dental-checkup': ['치과검진', '구강검진'],

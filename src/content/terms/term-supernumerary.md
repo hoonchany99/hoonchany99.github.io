@@ -6,10 +6,6 @@ en: "Supernumerary Tooth"
 tier: B
 aliases:
   - "과잉치"
-  - "여분치아"
-  - "다생치"
-synonyms:
-  - "여분치아"
   - "다생치"
 definition: "과잉치는 정상 개수보다 하나 더 난 치아예요. 배열·맹출을 방해하거나 발치가 필요한 경우가 있습니다."
 detail: |

@@ -14,7 +14,7 @@ export const termsExtra: CanonicalTerm[] = [
   {
     slug: 'vestibuloplasty',
     name: '전정성형술',
-    aliases: ['전정성형술', '구강전정성형술', '전정확장술', '입술 재위치술'],
+    aliases: ['전정성형술', '구강전정성형술', '입술 재위치술'],
     topicSlug: 'implant',
     definition:
       '전정성형술은 입술·볼과 잇몸 사이의 고랑을 깊게 만들어 주는 수술이에요. 틀니가 자꾸 빠지거나 잇몸이 당길 때 씁니다.',

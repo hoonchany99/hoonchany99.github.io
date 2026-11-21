@@ -41,6 +41,7 @@ sources:
     title: "MSD 매뉴얼 전문가판: 건조와의 통증 양상"
   - url: "https://www.esht.nhs.uk/leaflet/dry-socket-alveolar-osteitis/"
     title: "이스트서식스 NHS 트러스트: 건조와가 생기는 시기"
+askCards: [{"question":"통증이나 붓기는 보통 언제까지 이어지고, 어느 정도면 정상인가요?","explanation":"영국 NHS는 사랑니 발치 뒤 통증과 붓기가 최대 2주까지 이어질 수 있고, 1~2일 안에 나아지기 시작한다고 안내해요.","sourceLabel":"영국 국민보건서비스(NHS): 발치 뒤 통증·붓기 지속 기간","sourceUrl":"https://www.nhs.uk/conditions/wisdom-tooth-removal/","citeAfter":1},{"question":"진통제는 언제부터, 어떻게 먹어야 하나요?","explanation":"맥길대학교 구강악안면외과는 마취가 풀리기 전에 진통제를 먹기 시작하라고 안내해요.","sourceLabel":"맥길대학교 구강악안면외과: 진통제 복용 시점","sourceUrl":"https://www.mcgill.ca/omfs/patient-info/teeth-extractions","citeAfter":1},{"question":"나아지다가 다시 아파지면 건조와일 수 있나요?","explanation":"이스트서식스 NHS 트러스트는 건조와가 보통 발치 3~5일 뒤에 생긴다고 설명해요.","sourceLabel":"이스트서식스 NHS 트러스트: 건조와가 생기는 시기","sourceUrl":"https://www.esht.nhs.uk/leaflet/dry-socket-alveolar-osteitis/","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - dry-socket

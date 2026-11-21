@@ -42,6 +42,7 @@ sources:
     title: "미국치과의사협회(ADA): 간접 수복 재료, 금 합금 성분·생존율·실패 원인·심미성"
   - url: "https://www.mouthhealthy.org/en/az-topics/f/fillings-gold-inlays"
     title: "미국치과의사협회(ADA) MouthHealthy: 금 인레이·온레이의 내구성·비용·제작 방문 횟수"
+askCards: [{"question":"금색이 눈에 띄는 위치인지, 제 치아에 금인레이를 쓰는 게 맞는 부위인지 알 수 있을까요?","explanation":"ADA 자료에서 금 합금은 심미성이 낮은 재료로 분류되고, 앞니에는 쓰지 않는다고 정리돼 있어요.","sourceLabel":"미국치과의사협회(ADA): 금 합금은 심미성이 낮아 앞니에는 쓰지 않음","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/materials-for-indirect-restorations","citeAfter":1},{"question":"금인레이는 보통 몇 년 정도 쓰이고, 어떤 이유로 다시 해야 하는지 알 수 있을까요?","explanation":"ADA 자료에서 금속 보철물, 특히 금 보철물은 평균 18~20년 정도로 보고되고, 관리에 따라 달라요. 흔한 실패 이유는 이차 충치와 보철물이 빠지는 것이에요.","sourceLabel":"미국치과의사협회(ADA): 금 보철물 평균 18~20년과 흔한 실패 이유","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/materials-for-indirect-restorations","citeAfter":1},{"question":"본을 떠서 만든다고 하는데, 치과에 몇 번 와야 하는지 알 수 있을까요?","explanation":"금 인레이는 본을 떠서 치과 기공소에서 만들기 때문에 치과를 한 번 이상 방문해야 해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 본을 떠서 기공소에서 제작하므로 여러 번 방문","sourceUrl":"https://www.mouthhealthy.org/en/az-topics/f/fillings-gold-inlays","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - inlay

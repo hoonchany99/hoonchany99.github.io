@@ -42,7 +42,7 @@ sources:
     title: "영국 국민보건서비스(NHS): 치실 길이·C자 사용법, 치간칫솔"
   - url: "https://www.nhs.uk/conditions/gum-disease/"
     title: "영국 국민보건서비스(NHS): 양치·치실 때 잇몸 출혈은 잇몸병 신호"
-askCards: [{"question":"제 치아 간격에는 치실과 치간칫솔 중 어느 쪽이 맞나요?","explanation":"치아 사이가 좁으면 치실, 넓거나 잇몸병이 있으면 치간칫솔이 맞을 수 있어요. 내 치아 간격에 맞는 크기와 방법을 직접 보여 달라고 해 보세요.","sourceLabel":"미국치과의사협회(ADA): 치실과 치간칫솔 선택","sourceUrl":"https://www.ada.org/en/resources/research/science-and-research-institute/oral-health-topics/floss","citeAfter":1}]
+askCards: [{"question":"제 치아 간격에는 치실과 치간칫솔 중 어느 쪽이 맞나요?","explanation":"미국치과의사협회는 치아 사이가 좁으면 치실이, 간격이 넓으면 치간칫솔이 맞을 수 있고 치주염이 있으면 치간칫솔을 권한다고 설명해요.","sourceLabel":"미국치과의사협회(ADA): 치실과 치간칫솔 선택","sourceUrl":"https://www.ada.org/en/resources/research/science-and-research-institute/oral-health-topics/floss","citeAfter":1},{"question":"제가 치실을 제대로 쓰고 있는지 직접 보여 주실 수 있을까요?","explanation":"미국치과의사협회는 실을 튕겨 넣지 말고 치아를 C자로 감싸 위아래로 문지르며, 너무 세게 하면 잇몸이 다칠 수 있다고 안내해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 치실 사용법","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/flossing","citeAfter":1},{"question":"치실을 쓸 때 잇몸에서 피가 나는데 확인해 주실 수 있을까요?","explanation":"영국 NHS는 양치나 치실을 쓸 때 잇몸에서 피가 나는 것을 잇몸병 증상일 수 있다고 보고 치과에 가라고 안내해요.","sourceLabel":"영국 국민보건서비스(NHS): 잇몸 출혈과 치과 방문","sourceUrl":"https://www.nhs.uk/conditions/gum-disease/","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - chissoljil

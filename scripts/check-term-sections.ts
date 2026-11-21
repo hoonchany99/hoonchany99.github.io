@@ -34,6 +34,7 @@ const MAX_HEADING = 20;
 
 const norm = (s: string) => s.replace(/\s+/g, ' ').trim();
 const errors: string[] = [];
+const warnings: string[] = [];
 const fail = (slug: string, msg: string) => errors.push(`${slug}: ${msg}`);
 
 type Ledger = Record<string, { baseline: string; kept: string[]; reworded: { from: string; to: string }[] }>;
@@ -123,6 +124,10 @@ for (const data of parsedFiles) {
     }
   }
 
+  // 새 틀 페이지는 질문 카드 3개가 기준이에요(실패 아님, 내용은 리서치가 채워요)
+  const askCount = (data.askCards ?? []).length;
+  if (askCount !== 3) warnings.push(`${slug}: 새 틀 페이지 askCards는 3개여야 해요(지금 ${askCount}개)`);
+
   // 질문 카드: 질문·설명·출처(주소와 이름)가 모두 있어야 각주로 이어져요
   for (const card of (data.askCards ?? []) as { question?: string; explanation?: string; sourceUrl?: string; sourceLabel?: string; citeAfter?: number }[]) {
     if (!card.question || !card.explanation || !card.sourceUrl || !card.sourceLabel)
@@ -168,6 +173,10 @@ for (const data of parsedFiles) {
   }
 }
 
+if (warnings.length) {
+  console.warn(`check-terms: 경고 ${warnings.length}건(실패 아님)`);
+  for (const w of warnings) console.warn(`  - ${w}`);
+}
 if (errors.length) {
   console.error(`check-terms: ${errors.length}건 실패`);
   for (const e of errors) console.error(`  - ${e}`);

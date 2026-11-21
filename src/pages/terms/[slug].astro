@@ -9,6 +9,7 @@ import CiteMark from '../../components/CiteMark.astro';
 import TermFigure from '../../components/TermFigure.astro';
 import { termCategoryBySlug } from '../../data/termCategories';
 import { termCategoryOverrideBySlug } from '../../data/termGuideBlocks';
+import { guideLabel, guideTitle } from '../../lib/termGuide';
 
 export const getStaticPaths = (async () => {
   const terms = await getCollection('terms');
@@ -77,6 +78,8 @@ const calloutSections = numbered.filter((x) => x.sec.callout);
 const compare = hasSections ? term.data.compare : undefined;
 const askCards = hasSections ? term.data.askCards : [];
 const pad2 = (n: number) => String(n).padStart(2, '0');
+const guideLabelText = guideLabel(category);
+const guideTitleText = guideTitle(term.data.name, category);
 
 /**
  * 각주: 화면에 나오는 차례(소제목 구역 → 안내 상자 → 질문 카드)대로 처음 나온 순서로 번호를 매기고,
@@ -143,7 +146,7 @@ const tocItems = hasSections
       ...plainSections.slice(1).map(({ sec, n }) => ({ id: `sec-${n}`, label: sec.heading })),
       ...(term.data.approach.length > 0 ? [{ id: 'approach', label: '치료 방법' }] : []),
       ...calloutSections.map(({ sec, n }) => ({ id: `sec-${n}`, label: sec.heading })),
-      ...(askCards.length > 0 ? [{ id: 'ask', label: '진료실에서 물어볼 것' }] : []),
+      ...(askCards.length > 0 ? [{ id: 'ask', label: guideTitleText }] : []),
       ...(term.data.faqs.length > 0 ? [{ id: 'faq', label: '자주 묻는 질문' }] : []),
       ...(sourceItems.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
       ...(relatedTermEntries.length > 0 ? [{ id: 'related-terms', label: '함께 보면 좋은 용어' }] : []),
@@ -399,15 +402,14 @@ const definedTermLd = JSON.stringify({
 
       {askCards.length > 0 && (
         <section id="ask" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-2">
-          <p class="mt-14 text-xs font-bold tracking-wide text-brand-dark">이해 가이드</p>
-          <h2 class={`${h2Cls} mt-2`}>진료 받을 때 이렇게 물어보세요</h2>
-          <p class="mt-1 mb-3 text-[13.5px] leading-normal text-gray-500">내 상태에 맞는 설명을 듣는 데 도움이 되는 질문이에요.</p>
+          <p class="mt-14 text-xs font-bold tracking-wide text-brand-dark">{guideLabelText}</p>
+          <h2 class={`${h2Cls} mt-2 mb-3`}>{guideTitleText}</h2>
           {askCards.map((card, i) => (
-            <div class="border-t border-gray-200 pt-3.5 pb-1">
-              <p class="text-xs font-bold text-brand-dark">질문 {i + 1}</p>
+            <div class="border-t border-gray-200 pt-3.5 pb-3">
+              <p class="text-xs font-bold text-brand-dark">{pad2(i + 1)}</p>
               <h3 class="mt-1 mb-2.5 text-base font-bold leading-snug text-gray-900">{card.question}</h3>
               <div class="rounded-xl bg-brand-bg px-3.5 py-3">
-                <p class="mb-1 text-[11.5px] font-bold text-brand-dark">설명</p>
+                <p class="mb-1 text-[11.5px] font-bold text-brand-dark">근거로 본 기준</p>
                 <p class="text-sm leading-[1.65] text-gray-700">{askRender[i].before}{askRender[i].cite && <CiteMark n={askRender[i].cite!.n} k={askRender[i].cite!.k} name={refName(askRender[i].cite!.url)} />}{askRender[i].after && <>{' '}{askRender[i].after}</>}</p>
               </div>
             </div>

@@ -27,6 +27,8 @@ interface Props {
   noindex?: boolean;
   /** Google only: keep indexing while other bots use `noindex` (e.g. Naver Yeti). */
   googlebotIndex?: boolean;
+  /** GA4 content_group (예: 용어 새 틀 term_v2 / 옛 틀 term_v1). 없으면 GA 스크립트는 예전 그대로 */
+  contentGroup?: string;
 }
 
 const {
@@ -43,6 +45,7 @@ const {
   breadcrumbs,
   faqSchema,
   noindex = false,
+  contentGroup,
   googlebotIndex = false,
 } = Astro.props;
 
@@ -223,12 +226,21 @@ const faqLd = faqSchema?.length ? JSON.stringify({
 
   <!-- Google Analytics -->
   <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-R57Y08MWVH"></script>
+  {contentGroup ? (
+  <script is:inline set:html={`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-R57Y08MWVH', ${JSON.stringify({ content_group: contentGroup })});
+  `} />
+  ) : (
   <script is:inline>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-R57Y08MWVH');
   </script>
+  )}
 
   <!-- JSON-LD 구조화 데이터 -->
   {websiteLd && <script type="application/ld+json" set:html={websiteLd} />}

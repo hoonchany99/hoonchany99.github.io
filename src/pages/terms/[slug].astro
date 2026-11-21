@@ -58,6 +58,8 @@ const description =
 const parsed = parseDetail(term.data.detail);
 const sections = parsed.hasSections ? parsed.sections : [];
 const hasSections = sections.length > 0;
+// 본문 소제목(h2) 공용 모양(시안 A): 22px(lg 24px) 800 진한 검정, 위에 28x3 브랜드 파랑 막대(간격 14px)
+const h2Cls = "text-[1.375rem] lg:text-2xl font-extrabold leading-[30px] tracking-[-0.3px] text-gray-900 before:block before:content-[''] before:w-7 before:h-[3px] before:rounded-full before:bg-brand before:mb-3.5";
 
 /** 참고 자료는 글자 주소와 {url, title}를 모두 받는다 */
 const sourceItems = term.data.sources.map((s) => ({
@@ -276,7 +278,7 @@ const definedTermLd = JSON.stringify({
       {hasSections && plainSections.map(({ sec, n }, idx) => (
         <>
           <section aria-labelledby={`sec-${n}`} class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
-            <h2 id={`sec-${n}`} class="scroll-mt-20 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">{sec.heading}</h2>
+            <h2 id={`sec-${n}`} class={`scroll-mt-20 ${h2Cls} mb-3 ${idx === 0 ? "" : "mt-14"}`}>{sec.heading}</h2>
             <div class="space-y-4 text-gray-800 text-base leading-[1.75]">
               {sectionRender.get(n)!.paras.map((para) => (
                 <p>{para.map((piece) => (<>{piece.segs.map((g) => (g.href ? <a href={g.href} class="font-medium text-brand-dark underline decoration-brand/40 underline-offset-[3px] hover:decoration-brand-dark rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-dark">{g.text}</a> : g.text))}{piece.cite && <CiteMark n={piece.cite.n} k={piece.cite.k} name={refName(piece.cite.url)} />}</>))}</p>
@@ -285,7 +287,7 @@ const definedTermLd = JSON.stringify({
           </section>
           {idx === 0 && compare && (
             <section aria-labelledby="compare" class="mb-10 md:mb-12 anim-fade-up anim-delay-1">
-              <h2 id="compare" class="scroll-mt-20 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">{compare.title}</h2>
+              <h2 id="compare" class={`scroll-mt-20 ${h2Cls} mb-3 mt-14`}>{compare.title}</h2>
               <div class="overflow-x-auto rounded-[14px] border border-gray-200">
                 <table class="w-full border-collapse text-[13.5px]">
                   <thead>
@@ -315,7 +317,7 @@ const definedTermLd = JSON.stringify({
 
       {term.data.approach.length > 0 && (
         <section id="approach" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-2">
-          <h2 class="text-lg font-bold text-gray-900 mb-1">치료 방법</h2>
+          <h2 class={`${h2Cls} mb-3 mt-14`}>치료 방법</h2>
           <p class="text-xs text-gray-400 mb-4">이렇게 치료합니다.</p>
 
           {term.data.approachOrdered && (
@@ -389,8 +391,8 @@ const definedTermLd = JSON.stringify({
 
       {askCards.length > 0 && (
         <section id="ask" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-2">
-          <p class="text-xs font-bold tracking-wide text-brand-dark">이해 가이드</p>
-          <h2 class="mt-1 text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug">진료 받을 때 이렇게 물어보세요</h2>
+          <p class="mt-14 text-xs font-bold tracking-wide text-brand-dark">이해 가이드</p>
+          <h2 class={`${h2Cls} mt-2`}>진료 받을 때 이렇게 물어보세요</h2>
           <p class="mt-1 mb-3 text-[13.5px] leading-normal text-gray-500">내 상태에 맞는 설명을 듣는 데 도움이 되는 질문이에요.</p>
           {askCards.map((card, i) => (
             <div class="border-t border-gray-200 pt-3.5 pb-1">
@@ -407,7 +409,7 @@ const definedTermLd = JSON.stringify({
 
       {term.data.faqs.length > 0 && (
         <section id="faq" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-2">
-          <h2 class="text-lg font-bold text-gray-900 mb-4">자주 묻는 질문</h2>
+          <h2 class={`${h2Cls} mb-4 mt-14`}>자주 묻는 질문</h2>
           <div class="space-y-3">
             {term.data.faqs.map((faq) => (
               <details class="group rounded-xl border border-gray-100 bg-white open:shadow-sm open:border-brand/20">
@@ -426,7 +428,7 @@ const definedTermLd = JSON.stringify({
 
       {relatedTermEntries.length > 0 && (
         <section id="related-terms" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
-          <h2 class="text-lg font-bold text-gray-900 mb-3">함께 보면 좋은 용어</h2>
+          <h2 class={`${h2Cls} mb-3 mt-14`}>함께 보면 좋은 용어</h2>
           <div class="grid sm:grid-cols-2 gap-3">
             {relatedTermEntries.map((related) => (
               <a
@@ -448,8 +450,8 @@ const definedTermLd = JSON.stringify({
 
       {!hasSections && term.data.relatedPosts.length > 0 && (
         <section id="related-posts" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
-          <div class="flex items-baseline justify-between gap-3 mb-1">
-            <h2 class="text-lg font-bold text-gray-900">관련 블로그 글</h2>
+          <div class="flex items-baseline justify-between gap-3 mb-1 mt-14">
+            <h2 class={`${h2Cls} flex-1`}>관련 블로그 글</h2>
             <span class="text-xs text-gray-400 flex-shrink-0">윤원장이 직접 쓴 글</span>
           </div>
           <p class="text-xs text-gray-400 mb-4">
@@ -504,7 +506,7 @@ const definedTermLd = JSON.stringify({
 
       {hasSections && term.data.relatedPosts.length > 0 && (
         <section id="related-posts" class="mb-10 md:mb-12 scroll-mt-20 anim-fade-up anim-delay-3">
-          <h2 class="text-[1.2rem] md:text-[1.3rem] font-bold text-gray-900 leading-snug mb-3">더 읽어보기</h2>
+          <h2 class={`${h2Cls} mb-3 mt-14`}>더 읽어보기</h2>
           <ul class="grid gap-2.5">
             {term.data.relatedPosts.map((post) => (
               <li>
@@ -533,7 +535,7 @@ const definedTermLd = JSON.stringify({
 
       {hasSections && refList.length > 0 && (
         <section id="sources" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
-          <h2 class="text-lg font-bold text-gray-900 mb-3">참고 자료</h2>
+          <h2 class={`${h2Cls} mb-3 mt-14`}>참고 자료</h2>
           <ol class="border-y border-gray-100 divide-y divide-gray-100">
             {refList.map((item, i) => (
               <li id={`ref-${i + 1}`} class="flex items-start gap-3 py-3.5 scroll-mt-24 target:bg-brand-bg/60">

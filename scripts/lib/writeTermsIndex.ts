@@ -12,6 +12,7 @@ import { mergedSlugs, mergedAliases } from '../../src/data/termsMerged.ts';
 import { compareTermNames } from '../../src/utils/korean.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const TERMS_DIR = path.resolve(__dirname, '../../src/content/terms');
 const OUT_PATH = path.resolve(__dirname, '../../public/terms-index.json');
 
 function truncateDefinition(def: string, max = 140): string {
@@ -26,6 +27,8 @@ export function writeTermsIndex(): number {
     .filter(
       (term) =>
         !mergedSlugs.has(term.slug) &&
+        // md가 없는 용어(삭제된 것)는 카드를 만들면 없는 주소로 가므로 뺀다
+        fs.existsSync(path.resolve(TERMS_DIR, `term-${term.slug}.md`)) &&
         Boolean(
           authoredBySlug[term.slug] ??
             (termDetailsBySlug[term.slug] && termFaqsBySlug[term.slug]?.length)

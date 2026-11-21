@@ -6,6 +6,14 @@ en: "Cracked Tooth Syndrome"
 tier: B
 aliases:
   - "치아 균열 증후군"
+  - "치아 크랙"
+  - "크랙"
+  - "치아크랙"
+  - "치아균열"
+  - "금간치아"
+synonyms:
+  - "치아 크랙"
+  - "금간치아"
 definition: "치아 균열 증후군은 눈에 잘 안 보이는 금 때문에 씹을 때 순간적으로 찌릿한 상태예요. 진단이 까다롭습니다."
 detail: |
   치아에 미세한 금이 있으면 씹을 때 금이 벌어졌다 닫힙니다. 그 순간 치수가 자극받아 찌릿한 통증이 와요. 힘을 뺄 때 더 아프다고 하시는 분이 많습니다.
@@ -55,5 +63,12 @@ relatedTerms:
   - chisu
   - crown
 relatedPosts:
-  []
+  - slug: root-canal-tooth-crown
+    title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"
+    image: "/img/posts/root-canal-tooth-crown/cover.png"
+    date: "2025-12-04"
+  - slug: cavity-crown
+    title: "씹을 때만 아픈데... 충치일까? 크라운 문제일까?"
+    image: "/img/posts/cavity-crown/cover.png"
+    date: "2025-12-25"
 ---

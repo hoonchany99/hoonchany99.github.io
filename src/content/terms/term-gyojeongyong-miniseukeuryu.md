@@ -32,7 +32,6 @@ sources:
 updated: "2026-08-16"
 relatedTerms:
   - gyojeongyong-waieo
-  - impeulranteu-simenteu-vs-seukeuryu
   - aggyojeong-susul
   - gineungjeog-gyojeong-jangchi
 relatedPosts:

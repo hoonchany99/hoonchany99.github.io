@@ -22,6 +22,7 @@ export const termSynonyms: Record<string, string[]> = {
   'apical-periodontitis': ['치근단염증'],
   'bone-graft': ['골이식'],
   bruxism: ['브럭시즘', '이갈이 증상'],
+  'chia-gyunyeol-jeunghugun': ['치아 크랙', '금간치아'],
   cavity: ['우식', '우식증'],
   'cadcam-dangil-bocheol': ['세렉'],
   'hachijosingyeong-sonsang': ['임플란트 신경 손상'],

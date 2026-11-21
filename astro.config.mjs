@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
-import { mergedTerms } from './src/data/termsMerged.ts';
+import { mergedTerms, legacyPaths } from './src/data/termsMerged.ts';
 
 export default defineConfig({
   site: 'https://doctoryoon.kr',
@@ -11,9 +11,12 @@ export default defineConfig({
    * 합쳐진 용어의 옛 주소 → 남은 주소. GitHub Pages는 서버 리디렉트가 없어서
    * Astro가 meta refresh + canonical + noindex가 든 작은 HTML을 만든다. 목록은 src/data/termsMerged.ts.
    */
-  redirects: Object.fromEntries(
-    Object.entries(mergedTerms).map(([from, to]) => [`/terms/${from}/`, `/terms/${to}/`])
-  ),
+  redirects: {
+    ...Object.fromEntries(
+      Object.entries(mergedTerms).map(([from, to]) => [`/terms/${from}/`, `/terms/${to}/`])
+    ),
+    ...legacyPaths,
+  },
   integrations: [
     react(),
     tailwind(),

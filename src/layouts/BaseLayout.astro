@@ -23,6 +23,8 @@ interface Props {
   /** 저자 소개 페이지 — Person JSON-LD를 낸다 */
   personPage?: boolean;
   tags?: string[];
+  /** 글이 근거로 든 출처 주소. Article.citation(CreativeWork 전용 속성)으로 낸다 */
+  citations?: string[];
   breadcrumbs?: BreadcrumbItem[];
   faqSchema?: { question: string; answer: string }[];
   noindex?: boolean;
@@ -43,6 +45,7 @@ const {
   medicalWebPage = false,
   personPage = false,
   tags = [],
+  citations = [],
   breadcrumbs,
   faqSchema,
   noindex = false,
@@ -141,6 +144,7 @@ const jsonLd = type === 'article' ? JSON.stringify({
   ...(reviewedDate ? { reviewedBy: authorPerson, lastReviewed: reviewedDate.toISOString().slice(0, 10) } : {}),
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalURL.href },
   keywords: tags.join(', '),
+  ...(citations.length ? { citation: citations } : {}),
 }) : null;
 
 const breadcrumbLd = breadcrumbs?.length ? JSON.stringify({

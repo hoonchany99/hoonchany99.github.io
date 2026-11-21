@@ -25,7 +25,7 @@ const definedTermSetLd = JSON.stringify({
   description: `서울대 치의학대학원 출신 치과의사가 정리한 ${terms.length}개 치과 용어 사전`,
   url: new URL('/terms/', Astro.site).href,
   inLanguage: 'ko',
-  numberOfItems: terms.length,
+  // numberOfItems는 ItemList 전용이라 DefinedTermSet에 쓰면 schema.org 검증 오류. 개수는 description에 이미 있어요.
 });
 ---
 

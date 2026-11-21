@@ -34,7 +34,7 @@ relatedTerms:
   - chia-oesang
   - gyohab-oesang
   - primary-tooth
-  - yuchi-chungchi
+  - yua-usig
 relatedPosts:
   []
 ---

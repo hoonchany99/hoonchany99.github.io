@@ -167,7 +167,7 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'haaggol', name: '하악골', reason: '중복' }, // → 하악
   { slug: 'sirini', name: '시린이', reason: '중복' }, // → 이시림
   { slug: 'boghabrejin', name: '복합레진', reason: '중복' }, // → 레진
-  { slug: 'jeojbyeong-usigjeung', name: '젖병 우식증', reason: '중복' }, // → 유아 우식
+  { slug: 'jeojbyeong-usigjeung', name: '젖병 우식증', reason: '중복' }, // → 유아기 우식증
   { slug: 'dijiteol-gugang-seukaen', name: '디지털 구강 스캔', reason: '중복' }, // → 구강 스캐너
   { slug: 'dijiteol-jindan-mohyeong', name: '디지털 진단 모형', reason: '중복' }, // → 구강 스캐너
   { slug: 'noin-guganggwanri', name: '노인 구강관리', reason: '중복' }, // → 노인 뿌리 우식 등 개별 용어
@@ -537,6 +537,8 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'igali-jeungsang', name: '이갈이 증상', reason: '중복' }, // → 이갈이
   { slug: 'teoggwanjeol-jangae-jaga-jindan', name: '턱관절 장애 자가 진단', reason: '중복' }, // → 턱관절장애
   { slug: 'cracked-tooth', name: '치아 크랙', reason: '중복' }, // → 치아 균열 증후군
+  { slug: 'yuchi-chungchi', name: '유치 충치', reason: '중복' }, // → 유아기 우식증
+  { slug: 'sensitivity', name: '이시림', reason: '중복' }, // → 과민성 상아질(이시림)
   { slug: 'gugang-baesepo-jongyang', name: '구강 배세포 종양', reason: '검증불가' },
 
   // 표준 문헌에서 확인되지 않는 항목

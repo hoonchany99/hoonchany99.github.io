@@ -21,6 +21,10 @@ export const mergedTerms: Record<string, string> = {
   'teoggwanjeol-jangae-jaga-jindan': 'tmd',
   /** 치아 크랙 → 치아 균열 증후군 */
   'cracked-tooth': 'chia-gyunyeol-jeunghugun',
+  /** 이시림 → 과민성 상아질(화면 이름은 이시림, 공식 용어는 officialName) */
+  sensitivity: 'gwaminseong-sangajil',
+  /** 유치 충치 → 유아기 우식증(주소는 yua-usig 유지) */
+  'yuchi-chungchi': 'yua-usig',
 };
 
 export const mergedSlugs = new Set(Object.keys(mergedTerms));

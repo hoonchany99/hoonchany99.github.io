@@ -18,7 +18,7 @@ detail: |
   옆 치아 충치, 잇몸 염증, 앞 치아 밀림, 낭종 등의 원인이 될 수 있어요. 매복 사랑니 때문에 잇몸이 반복해서 붓고 아플 수 있고, 음식물이 끼어 사랑니나 앞 치아에 충치가 생길 수 있어요. 치아를 둘러싼 주머니에 물이 차는 낭종이 생기기도 해요. [근거](https://www.cuh.nhs.uk/patient-information/patient-information-and-consent-to-surgical-removal-of-impacted-wisdom-teeth/ "케임브리지대학병원(NHS): 반복 잇몸 감염, 음식물 낀 충치, 낭종") 영국 국민보건서비스(NHS)는 사랑니가 일부만 나왔을 때 잇몸 염증(치관주위염), 충치, 잇몸병, 농양도 생길 수 있다고 안내해요. [근거](https://www.nhs.uk/conditions/wisdom-tooth-removal/ "영국 국민보건서비스(NHS): 사랑니의 문제로 통증·잇몸 염증·충치·잇몸병·낭종·농양") 매복 치아는 씹는 데는 거의 쓸모가 없고 감염될 수 있어요. [근거](https://www.msdmanuals.com/home/mouth-and-dental-disorders/tooth-disorders/impacted-teeth "MSD 매뉴얼 일반인판: 매복치는 씹는 데 쓸모가 적고 감염될 수 있음")
 
   ## 증상이 없어도 빼야 하나요
-  증상이 없어도 예방적 발치를 논의하는 경우가 있습니다. 진료실에서도 "안 아픈데 빼야 하나요?"라고 자주 듣는 질문이에요. 이 부분은 의견이 나뉘어요. NHS는 문제를 일으키지 않는 사랑니는 보통 그대로 두고 정기 검진에서 확인한다고 안내해요. [근거](https://www.nhs.uk/conditions/wisdom-tooth-removal/ "영국 국민보건서비스(NHS): 문제가 없으면 그대로 두고 정기 검진에서 확인") 한 대학병원 안내문은 증상 없는 사랑니는 보통 두는 편이 낫다고 하면서도, 치과의사들 사이에 의견이 갈리고 대부분은 특히 감염 뒤에는 제거를 권한다고 적었어요. 일부만 나온 사랑니는 충치·잇몸병·옆 치아 손상이 더 잘 생겨요. [근거](https://www.cuh.nhs.uk/patient-information/patient-information-and-consent-to-surgical-removal-of-impacted-wisdom-teeth/ "케임브리지대학병원(NHS): 무증상 사랑니는 대개 두지만 의견이 갈림, 일부만 난 치아는 문제가 더 잦음")
+  증상이 없어도 문제가 생기기 전에 미리 빼는 예방 발치를 하는 경우가 많아요. 진료실에서도 "안 아픈데 빼야 하나요?"라고 자주 듣는 질문이에요. 매복 사랑니는 잇몸 염증, 옆 치아 충치, 낭종 같은 문제를 일으킬 수 있고, 일부만 나온 사랑니는 충치·잇몸병·옆 치아 손상이 더 잘 생겨요. [근거](https://www.cuh.nhs.uk/patient-information/patient-information-and-consent-to-surgical-removal-of-impacted-wisdom-teeth/ "케임브리지대학병원(NHS): 반복 잇몸 감염, 음식물 낀 충치, 낭종, 일부만 난 치아는 문제가 더 잦음") 한 대학병원 안내문은 이 부분에서 치과의사들 사이에 의견이 갈리지만 대부분은 특히 감염 뒤에는 제거를 권한다고 적었어요. [근거](https://www.cuh.nhs.uk/patient-information/patient-information-and-consent-to-surgical-removal-of-impacted-wisdom-teeth/ "케임브리지대학병원(NHS): 무증상 사랑니는 의견이 갈리고 대부분은 감염 뒤 제거를 권함") 참고로 영국 NHS는 문제를 일으키지 않는 사랑니는 보통 그대로 두고 정기 검진에서 확인한다고 안내해요. [근거](https://www.nhs.uk/conditions/wisdom-tooth-removal/ "영국 국민보건서비스(NHS): 문제가 없으면 그대로 두고 정기 검진에서 확인") 실제로 뺄지는 사랑니의 위치와 상태에 따라 달라서, 최종 결정은 치과에서 상담해 정하세요.
 
   ## 어떻게 치료하나요
   치료는 경과 관찰, 주변 치료, 발치, 교정과 연계 발치 등 케이스별로 달라져요. 매복치는 대개 발치하며, 치과에서 국소마취나 진정으로 하기도 하고 때로는 병원에서 전신마취로 하기도 해요. [근거](https://www.msdmanuals.com/home/mouth-and-dental-disorders/tooth-disorders/impacted-teeth "MSD 매뉴얼 일반인판: 매복치는 대개 발치, 국소마취·진정 또는 전신마취") 발치가 어려울수록 진정이나 전신마취를 쓰는 경우가 늘어요. [근거](https://www.nhs.uk/conditions/wisdom-tooth-removal/ "영국 국민보건서비스(NHS): 국소마취가 기본, 어려우면 진정·전신마취") 발치 난이도·회복 기간은 매복 정도에 따라 크게 달라질 수 있습니다. 신경에 뿌리가 아주 가까우면 치아 머리 부분만 제거하고 뿌리는 남기는 방법(치관절제술)을 권하기도 해요. [근거](https://www.cuh.nhs.uk/patient-information/patient-information-and-consent-to-surgical-removal-of-impacted-wisdom-teeth/ "케임브리지대학병원(NHS): 신경에 아주 가까우면 치관절제술을 제안할 수 있음") 발치 방법은 [복잡 발치](/terms/bogjab-balchi/)에서 더 볼 수 있어요.
@@ -35,7 +35,7 @@ faqs:
   - question: "신경·상악동과 가까우면 위험한가요?"
     answer: "CT로 거리·각도를 확인해요. 필요하면 분할 발치·외과적 접근 등으로 위험을 줄이려 합니다. 시술 전 설명을 받으세요."
   - question: "안 아픈 매복치도 빼야 하나요?"
-    answer: "당장 문제가 없어도 미래 충치·염증·낭종 위험을 고려해 발치를 권할 수 있어요. 경과 관찰도 가능한 케이스가 있습니다."
+    answer: "당장 문제가 없어도 미래 충치·염증·낭종 위험을 고려해 미리 발치를 권하는 경우가 많아요. 경과 관찰을 택하는 경우도 있어서 최종 결정은 치과에서 상담해 정하세요."
 approach:
   - when: "증상이 없고 주변에 손상도 없을 때"
     name: "경과 관찰"

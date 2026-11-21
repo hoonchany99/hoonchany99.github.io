@@ -238,10 +238,6 @@ const definedTermLd = JSON.stringify({
               {synonymList.length > 0 && (
                 <div class="flex border-t border-gray-100 px-3.5 py-2.5"><dt class="w-[84px] flex-none text-gray-500">같은 말</dt><dd class="font-medium text-gray-900">{synonymList.slice(0, 8).join(' · ')}</dd></div>
               )}
-              {term.data.updated && (
-                <div class="flex border-t border-gray-100 px-3.5 py-2.5"><dt class="w-[84px] flex-none text-gray-500">처음 정리</dt><dd class="font-medium text-gray-900">{formatDate(term.data.updated)}</dd></div>
-              )}
-              <div class="flex border-t border-gray-100 px-3.5 py-2.5"><dt class="w-[84px] flex-none text-gray-500">감수</dt><dd class="font-medium text-gray-900">{term.data.reviewed ? formatDate(term.data.reviewed) : '예정'}</dd></div>
             </dl>
           )}
         </div>
@@ -575,16 +571,15 @@ const definedTermLd = JSON.stringify({
       {hasSections && (
         <section aria-label="글쓴이" class="mb-10 anim-fade-up anim-delay-3">
           <div class="flex items-center gap-3 rounded-2xl border border-gray-100 bg-white p-3.5">
-            <div aria-hidden="true" class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-100 to-brand-bg text-lg font-extrabold text-brand-dark">윤</div>
+            <img src="/img/profile.png" alt="서울대 윤원장 프로필 사진" width="44" height="44" loading="lazy" decoding="async" class="h-11 w-11 flex-shrink-0 rounded-full object-cover" />
             <div class="min-w-0">
-              <p data-byline class="text-[15px] font-bold text-gray-900"><a href="/about/" rel="author" class="hover:text-brand transition-colors">치과의사 윤훈찬</a></p>
-              <p class="mt-0.5 text-[12.5px] leading-normal text-gray-500">윤원장의 치과사전 · <a href="/about/" class="underline decoration-gray-200 underline-offset-2 hover:text-brand">소개 보기</a></p>
-              <div class="mt-1.5 flex flex-wrap gap-1.5">
-                {term.data.updated && <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11.5px] text-slate-600">처음 정리 <time datetime={term.data.updated}>{formatDate(term.data.updated)}</time></span>}
-                {term.data.reviewed
-                  ? <span class="rounded-full bg-emerald-50 px-2 py-0.5 text-[11.5px] text-emerald-700">감수 <time datetime={term.data.reviewed}>{formatDate(term.data.reviewed)}</time></span>
-                  : <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11.5px] text-slate-600">감수 예정</span>}
-              </div>
+              <p data-byline class="text-[15px] font-bold text-gray-900"><a href="/about/" rel="author" class="hover:text-brand transition-colors">서울대 윤원장</a></p>
+              <p class="text-[12px] leading-normal text-gray-500">치과의사 윤훈찬</p>
+              <p class="mt-1 text-[11.5px] leading-normal text-gray-400">
+                {term.data.updated && <><time datetime={term.data.updated}>{formatDate(term.data.updated)}</time> 정리</>}
+                {term.data.updated && ' · '}
+                {term.data.reviewed ? <><time datetime={term.data.reviewed}>{formatDate(term.data.reviewed)}</time> 감수</> : '감수 예정'}
+              </p>
             </div>
           </div>
         </section>

@@ -20,7 +20,7 @@ detail: |
   수술 후 붓기·통증·일시적 불편은 흔할 수 있어요. 봉합·식이·양치 지침을 따르는 게 중요합니다. 완전히 같은 잇몸으로 회복되려면 시간이 걸릴 수 있어요. 구체적인 식사·양치 방법은 치료받은 치과의 안내를 따르세요.
 
   ## 모든 노출에 이식이 필요한가요
-  모든 노출에 이식이 필요한 건 아니에요. 노출 범위·원인·교정·이갈이 등을 종합해 판단합니다. 잇몸이식은 잇몸이 내려가 뿌리가 드러난 경우에 검토하는 수술이에요. [근거](https://www.perio.org/for-patients/periodontal-treatments-and-procedures/surgical-procedures/ "미국치주과학회(AAP): 잇몸 퇴축으로 뿌리가 노출된 경우 잇몸이식") 다른 잇몸 수술이 궁금하면 [잇몸 수술](/terms/ismom-susul/) 용어도 참고하세요.
+  모든 노출에 이식이 필요한 건 아니에요. 노출 범위·원인·[교정](/terms/orthodontics/)·[이갈이](/terms/bruxism/) 등을 종합해 판단합니다. 잇몸이식은 잇몸이 내려가 뿌리가 드러난 경우에 검토하는 수술이에요. [근거](https://www.perio.org/for-patients/periodontal-treatments-and-procedures/surgical-procedures/ "미국치주과학회(AAP): 잇몸 퇴축으로 뿌리가 노출된 경우 잇몸이식") 다른 잇몸 수술이 궁금하면 [잇몸 수술](/terms/ismom-susul/) 용어도 참고하세요.
 faqs:
   - question: "잇몸이식은 언제 필요한가요?"
     answer: "잇몸 퇴축으로 치아 뿌리가 노출·시릴 때, 추가 퇴축 방지·심미 목적으로 검토해요. 원인·범위를 먼저 확인합니다."

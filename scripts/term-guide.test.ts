@@ -1,7 +1,8 @@
 /** 가이드 구역 라벨·제목 규칙 시험. `npm run test-term-guide` */
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { guideKind, isTreatmentCategory, guideLabel, guideTitle, GUIDE_KIND_BY_CATEGORY } from '../src/lib/termGuide.ts';
+import fs from 'fs';
+import { GUIDE_KIND_BY_SLUG, guideKind, isTreatmentCategory, guideLabel, guideTitle, GUIDE_KIND_BY_CATEGORY } from '../src/lib/termGuide.ts';
 
 test('분야 → 종류', () => {
   for (const c of ['보철·심미', '임플란트', '교정·교합', '발치·수술', '충치·신경']) assert.equal(guideKind(c), 'treatment', c);
@@ -35,4 +36,18 @@ test('제목: 20자 넘으면 줄임, 20자는 그대로', () => {
 
 test('의료법 56조: 병원 기준·상담 신청 문구 없음', () => {
   for (const c of ['임플란트', '잇몸', '치아 구조']) assert.doesNotMatch(guideLabel(c) + guideTitle('이름', c), /우리 병원|상담 신청|예약/);
+});
+
+test('slug 예외 표: 분야보다 먼저, 실제 있는 slug만', () => {
+  assert.equal(guideKind('발치·수술', 'dry-socket'), 'condition');
+  assert.equal(guideKind('교정·교합', 'malocclusion'), 'condition');
+  assert.equal(guideKind('잇몸', 'gum-graft'), 'treatment');
+  assert.equal(guideKind('잇몸', 'scaling'), 'treatment');
+  assert.equal(guideKind('발치·수술', 'balchi-hu-juuisahang'), 'concept');
+  assert.equal(guideKind('발치·수술', 'extraction'), 'treatment'); // 예외 아님
+  assert.equal(guideTitle('건조와', '발치·수술', 'dry-socket'), '건조와 상담 전 확인할 3가지');
+  assert.equal(guideLabel('발치·수술', 'balchi-hu-juuisahang'), '이해 가이드');
+  const dir = new URL('../src/content/terms/', import.meta.url);
+  const slugs = new Set(fs.readdirSync(dir).filter((f) => f.endsWith('.md')).map((f) => /^termSlug:\s*["']?([^"'\n]+)/m.exec(fs.readFileSync(new URL(f, dir), 'utf-8'))?.[1]));
+  for (const s of Object.keys(GUIDE_KIND_BY_SLUG)) assert.ok(slugs.has(s), `없는 slug: ${s}`);
 });

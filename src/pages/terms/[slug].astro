@@ -78,8 +78,8 @@ const calloutSections = numbered.filter((x) => x.sec.callout);
 const compare = hasSections ? term.data.compare : undefined;
 const askCards = hasSections ? term.data.askCards : [];
 const pad2 = (n: number) => String(n).padStart(2, '0');
-const guideLabelText = guideLabel(category);
-const guideTitleText = guideTitle(term.data.name, category);
+const guideLabelText = guideLabel(category, publicSlug);
+const guideTitleText = guideTitle(term.data.name, category, publicSlug);
 
 /**
  * 각주: 화면에 나오는 차례(소제목 구역 → 안내 상자 → 질문 카드)대로 처음 나온 순서로 번호를 매기고,

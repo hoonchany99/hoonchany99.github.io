@@ -9,6 +9,8 @@
  *      (문장 바로 뒤에 쓴 표시가 화면에서 각주 번호가 되어 참고 자료 N번으로 이어져요. 번호는 템플릿이 첫 등장 순서로 매겨요)
  *    - 각주 바로 앞 문장이 공감·안내 문장(많이 걱정되셨죠, 긴장되실 수, 자주 듣는, 불안하실 수 …)이 아니다
  *    - 질문 카드는 질문·설명·출처 주소·출처 이름이 모두 있다
+ *    - 문장 안 내부 링크 `[글](/terms/<slug>/)`: 실제 있는 용어 페이지, 자기 자신 아님, 구역당 3개 이하,
+ *      외부·다른 주소 없음(외부는 각주로만), 안내 상자 구역에는 없음. 설명(definition)·seoTitle·FAQ·질문 카드에는 링크 문법 없음
  * 2. 기존 문장 검사 (scripts/term-sections-baseline.json에 올라간 용어)
  *    - baseline: 소제목을 넣기 전 사이트 글(본문·FAQ·치료 방법)을 그대로 얼려 둔 것
  *    - kept: [기존] 문장. baseline에 글자 그대로 있고, 지금 본문에도 그대로 있어야 한다
@@ -20,6 +22,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
+import { checkSectionLinks, fieldsWithLinks } from './lib/termLinkCheck.ts';
 import { parseDetail, sourceUrl, splitSentences, isEmpathy } from '../src/lib/termSections.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -36,13 +39,28 @@ const ledger: Ledger = fs.existsSync(BASELINE) ? JSON.parse(fs.readFileSync(BASE
 
 const sectioned = new Set<string>();
 
-for (const file of fs.readdirSync(TERMS_DIR).filter((f) => f.endsWith('.md'))) {
-  const { data } = matter(fs.readFileSync(path.join(TERMS_DIR, file), 'utf-8'));
+const termFiles = fs.readdirSync(TERMS_DIR).filter((f) => f.endsWith('.md'));
+const parsedFiles = termFiles.map((file) => matter(fs.readFileSync(path.join(TERMS_DIR, file), 'utf-8')).data);
+const knownSlugs = new Set(parsedFiles.map((d) => String(d.termSlug)));
+
+for (const data of parsedFiles) {
   const slug = String(data.termSlug);
   const detail = String(data.detail ?? '');
   const parsed = parseDetail(detail);
+  // 링크 문법을 못 그리는 칸(모든 용어): 설명·제목·FAQ·질문 카드
+  const plainFields: Record<string, string> = { definition: String(data.definition ?? ''), seoTitle: String(data.seoTitle ?? '') };
+  (data.faqs ?? []).forEach((f: { question?: string; answer?: string }, i: number) => {
+    plainFields[`faqs[${i}].question`] = String(f.question ?? '');
+    plainFields[`faqs[${i}].answer`] = String(f.answer ?? '');
+  });
+  (data.askCards ?? []).forEach((c: { question?: string; explanation?: string }, i: number) => {
+    plainFields[`askCards[${i}].question`] = String(c.question ?? '');
+    plainFields[`askCards[${i}].explanation`] = String(c.explanation ?? '');
+  });
+  for (const f of fieldsWithLinks(plainFields)) fail(slug, `${f}에 링크 문법 [글](주소)이 있어요(링크는 본문 구역에서만)`);
   if (!parsed.hasSections) continue;
   sectioned.add(slug);
+  for (const msg of checkSectionLinks(slug, parsed.sections, knownSlugs)) fail(slug, msg);
 
   if (parsed.preamble) fail(slug, `첫 줄이 소제목이 아니에요: "${parsed.preamble.slice(0, 30)}…"`);
 

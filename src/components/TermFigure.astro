@@ -1,0 +1,40 @@
+---
+/**
+ * 용어 설명 그림 한 장. 흰 배경 그림이라 테두리·둥근 모서리 없이 본문 폭으로 그려요.
+ * 출처(credit)가 있으면 캡션 아래에 링크로 붙여요.
+ */
+interface Props {
+  figure: {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+    caption: string;
+    credit?: string;
+    creditUrl?: string;
+  };
+}
+const { figure } = Astro.props;
+---
+
+<figure class="mb-10 md:mb-12 -mt-4 md:-mt-6" data-term-figure>
+  <img
+    src={figure.src}
+    width={figure.width}
+    height={figure.height}
+    loading="lazy"
+    decoding="async"
+    alt={figure.alt}
+    class="block w-full h-auto"
+  />
+  <figcaption class="mt-2 text-xs leading-relaxed text-gray-500">
+    {figure.caption}
+    {figure.credit && (
+      <span class="block mt-0.5 text-gray-400">
+        {figure.creditUrl ? (
+          <a href={figure.creditUrl} target="_blank" rel="noopener noreferrer" class="underline decoration-gray-300 underline-offset-2 hover:text-gray-600">{figure.credit}</a>
+        ) : figure.credit}
+      </span>
+    )}
+  </figcaption>
+</figure>

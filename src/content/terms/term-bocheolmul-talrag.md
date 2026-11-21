@@ -45,7 +45,7 @@ sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/dental-emergencies"
 updated: "2026-08-16"
 relatedTerms:
-  - caries
+  - cavity
   - chigwan
   - chigwan-yeonjangsul
   - post-core

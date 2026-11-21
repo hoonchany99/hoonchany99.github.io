@@ -45,7 +45,7 @@ sources:
 updated: "2026-08-16"
 relatedTerms:
   - root-canal
-  - caries
+  - icha-usig
   - cavity
   - bigayeogjeog-chisuyeom
 relatedPosts:

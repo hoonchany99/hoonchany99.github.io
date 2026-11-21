@@ -32,7 +32,7 @@ faqs:
 updated: "2026-08-16"
 relatedTerms:
   - gold-inlay
-  - cerec
+  - cadcam-dangil-bocheol
   - onlay
   - cavity
 relatedPosts:

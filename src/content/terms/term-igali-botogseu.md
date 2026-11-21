@@ -32,7 +32,7 @@ sources:
 updated: "2026-08-16"
 relatedTerms:
   - bruxism
-  - igali-jeungsang
+  - resin
   - cavity
   - root-canal
 relatedPosts:

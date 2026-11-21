@@ -530,6 +530,11 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'chisu-bogjosul', name: '치수 복조술', reason: '중복' },
   { slug: 'chisu-chunghyeol', name: '치수 충혈', reason: '중복' },
   { slug: 'ganjeob-chisu-bogjo', name: '간접 치수 복조', reason: '중복' },
+  // 같은 개념의 두 페이지를 하나로 합침 (src/data/termsMerged.ts, 옛 주소는 남은 주소로 보냄)
+  { slug: 'caries', name: '우식', reason: '중복' }, // → 충치
+  { slug: 'cerec', name: '세렉', reason: '중복' }, // → CAD/CAM 당일 보철
+  { slug: 'impeulranteu-singyeong-sonsang', name: '임플란트 신경 손상', reason: '중복' }, // → 하치조신경 손상
+  { slug: 'igali-jeungsang', name: '이갈이 증상', reason: '중복' }, // → 이갈이
   { slug: 'gugang-baesepo-jongyang', name: '구강 배세포 종양', reason: '검증불가' },
 
   // 표준 문헌에서 확인되지 않는 항목

@@ -31,7 +31,7 @@ faqs:
 updated: "2026-08-16"
 relatedTerms:
   - inlay
-  - cerec
+  - cadcam-dangil-bocheol
   - molar
   - permanent-tooth
 relatedPosts:

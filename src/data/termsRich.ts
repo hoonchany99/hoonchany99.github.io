@@ -10,8 +10,8 @@ export interface CanonicalTerm {
 export const termsRich: CanonicalTerm[] = [
   {
     slug: 'cavity',
-    name: '충치',
-    aliases: ['충치', '충치치료', '2차충치', '충치레진', '충치이시림', '법랑질', '상아질'],
+    name: '충치(치아 우식증)',
+    aliases: ['충치', '충치치료', '2차충치', '충치레진', '충치이시림', '법랑질', '상아질', '우식', '우식증', '충치병'],
     topicSlug: 'cavity',
     definition:
       '충치는 세균이 만든 산으로 치아가 서서히 녹는 질환이에요. 처음엔 안 아플 수 있어서, 작을 때 잡는 게 가장 부담이 적은 경우가 많습니다.',

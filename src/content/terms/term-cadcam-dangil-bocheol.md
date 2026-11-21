@@ -6,6 +6,12 @@ en: "CAD/CAM Same-Day Restoration"
 tier: B
 aliases:
   - "CAD/CAM 당일 보철"
+  - "세렉"
+  - "CEREC"
+  - "캐드캠"
+  - "당일보철"
+synonyms:
+  - "세렉"
 definition: "CAD/CAM 당일 보철은 구강 스캔과 기계 가공으로 보철물을 하루에 만드는 방식이에요. 본을 뜨고 기다리는 과정이 줄어듭니다."
 detail: |
   기존에는 본을 떠서 기공소에 보내고, 임시치아를 쓰며 며칠에서 몇 주를 기다렸어요. CAD/CAM 방식은 구강을 스캔해 화면에서 설계하고, 그 자리에서 재료 블록을 깎아 만듭니다.

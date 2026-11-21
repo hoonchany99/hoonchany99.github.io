@@ -50,7 +50,7 @@ sources:
 updated: "2026-08-16"
 relatedTerms:
   - fluoride
-  - caries
+  - cavity
   - icha-usig
   - noin-bburi-usig
 relatedPosts:

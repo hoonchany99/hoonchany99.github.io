@@ -37,10 +37,12 @@ sources:
   - "https://www.ncbi.nlm.nih.gov/books/NBK576389/"
 updated: "2026-08-16"
 relatedTerms:
-  - bocheol-gyohab-jojeong
   - bocheol-saegjo-seontaeg
   - bocheol-sumyeong
   - bocheolmul-pajeol
+  - gold-inlay
+  - inlay
+  - onlay
 relatedPosts:
   []
 ---

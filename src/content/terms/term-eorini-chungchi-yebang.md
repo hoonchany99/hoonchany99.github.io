@@ -35,6 +35,7 @@ relatedTerms:
   - yebangjeog-hangsaengje
   - yua-usig
   - root-canal
+  - fluoride
 relatedPosts:
   []
 ---

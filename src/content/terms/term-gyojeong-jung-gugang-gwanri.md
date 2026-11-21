@@ -35,6 +35,7 @@ relatedTerms:
   - aggyojeong-susul
   - chiju-susul-hu-gwanri
   - chiju-yujigwanri
+  - invisalign
 relatedPosts:
   []
 ---

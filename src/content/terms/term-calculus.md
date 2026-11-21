@@ -41,10 +41,11 @@ sources:
     title: "영국 국민보건서비스(NHS): 치태와 잇몸병, 입냄새"
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - root-canal
-  - implant
-  - wisdom-tooth
+  - scaling
+  - scaling-root-planing
+  - gingivitis
+  - periodontitis
+  - floss
 relatedPosts:
   []
 ---

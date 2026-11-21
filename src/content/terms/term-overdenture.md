@@ -34,6 +34,8 @@ relatedTerms:
   - root-canal
   - implant
   - wisdom-tooth
+  - all-on-4
+  - denture
 relatedPosts:
   []
 ---

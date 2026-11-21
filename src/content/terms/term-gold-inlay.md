@@ -45,9 +45,9 @@ sources:
 updated: "2026-08-16"
 relatedTerms:
   - inlay
+  - onlay
   - cadcam-dangil-bocheol
-  - molar
-  - permanent-tooth
+  - prosthesis
 relatedPosts:
   - slug: ceramic-inlay
     title: "세라믹? 금? 인레이 재료별 장단점 정리해드립니다"

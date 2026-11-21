@@ -44,10 +44,10 @@ compare: {"title":"헷갈리는 말과 차이","columns":["국소마취","웃음
 askCards: [{"question":"저는 코막힘이 자주 있고 약을 먹고 있는데, 웃음가스를 써도 되는지 알 수 있을까요?","explanation":"코가 막혀 있거나 호흡기 질환, 최근 중이염, 녹내장, 임신 첫 3개월이면 쓰지 않을 수 있어요. 복용 약과 건강 상태를 미리 알려 주세요.","sourceLabel":"미국소아치과학회(AAPD): 아산화질소의 금기","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_useofnitrous26.pdf","citeAfter":1},{"question":"끝난 뒤 산소는 얼마나 마시고, 언제 일어나도 되나요?","explanation":"끝나면 100% 산소를 5분 이상 마신 뒤 마스크를 빼고, 치료 전 상태로 돌아온 것을 확인하고 귀가해요.","sourceLabel":"미국치과의사협회(ADA): 산소 회복","sourceUrl":"https://www.ada.org/en/resources/research/science-and-research-institute/oral-health-topics/nitrous-oxide","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - root-canal
-  - implant
-  - wisdom-tooth
+  - local-anesthesia
+  - sedation
+  - soa-jinjeongchiryo
+  - chigwa-gongpojeung
 relatedPosts:
   []
 ---

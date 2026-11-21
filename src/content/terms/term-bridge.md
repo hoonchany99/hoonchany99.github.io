@@ -38,10 +38,11 @@ sources:
     title: "클리블랜드 클리닉: 브릿지 종류, 지대치 법랑질 삭제, 관리, 평균 수명, 임플란트 지지 브릿지"
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - root-canal
   - implant
-  - wisdom-tooth
+  - denture
+  - jidaechi
+  - prosthesis
+  - bocheol-sumyeong
 relatedPosts:
   []
 ---

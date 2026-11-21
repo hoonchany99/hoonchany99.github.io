@@ -31,6 +31,8 @@ relatedTerms:
   - sangagdong-geosangsul-habbyeongjeung
   - chiseong-sangagdongyeom
   - gugangsangagdong-gyotong
+  - bone-graft
+  - gbr
 relatedPosts:
   - slug: sinusimplant
     title: "상악동임플란트, 도대체 왜 해야되는지 이해시켜드립니다."

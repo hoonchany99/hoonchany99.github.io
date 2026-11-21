@@ -32,8 +32,10 @@ updated: "2026-08-16"
 relatedTerms:
   - seukeilring-geongangboheom
   - cavity
-  - root-canal
-  - implant
+  - calculus
+  - dental-checkup
+  - gingivitis
+  - halitosis
 relatedPosts:
   - slug: scaling-insurance-1
     title: "스케일링 보험은 1년에 몇 번? 놓치기 쉬운 적용 기준"

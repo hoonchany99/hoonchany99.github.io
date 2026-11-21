@@ -43,10 +43,11 @@ sources:
     title: "클리블랜드 클리닉: 뼈 손실 원인, 이식재 종류, 치유 기간, 회복과 연락할 때"
 updated: "2026-08-16"
 relatedTerms:
-  - periodontitis
+  - chijogol-bojonsul
+  - gbr
   - golisigjae
+  - sinus-lift
   - gum-graft
-  - cavity
 relatedPosts:
   - slug: implant
     title: "뼈가 부족하면 임플란트 안 될까? 뼈 이식이 필요한 경우는?"

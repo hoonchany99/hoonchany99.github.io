@@ -52,6 +52,7 @@ relatedTerms:
   - bulso-dopo
   - cavity
   - chiyag
+  - halitosis
 relatedPosts:
   []
 ---

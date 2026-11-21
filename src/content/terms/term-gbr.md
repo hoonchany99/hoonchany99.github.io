@@ -47,10 +47,11 @@ sources:
     title: "코크란 체계적 문헌고찰(2009): 수평·수직 뼈 증대술 방법 비교, 어느 쪽이 더 효율적인지는 불분명"
 updated: "2026-08-16"
 relatedTerms:
-  - cavity
-  - root-canal
-  - implant
-  - wisdom-tooth
+  - bone-graft
+  - golisigjae
+  - chijogol-bojonsul
+  - sinus-lift
+  - chijogol-heubsu
 relatedPosts:
   []
 ---

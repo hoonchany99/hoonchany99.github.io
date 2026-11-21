@@ -61,10 +61,10 @@ sources:
 askCards: [{"question":"발치 며칠 뒤 다시 아파지면 건조와인가요?","explanation":"발치 후 며칠 지나 진통제로 가라앉지 않는 턱 통증이 커지면 건조와일 수 있어요. 혈병이 떨어져 뼈가 드러난 상태라, 이럴 땐 치료받은 치과에 연락해 주세요.","sourceLabel":"맥길대학교 구강악안면외과: 건조와 신호","sourceUrl":"https://www.mcgill.ca/omfs/patient-info/teeth-extractions","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - guganggeonjojeung
-  - cavity
-  - root-canal
-  - implant
+  - balchi-hu-tongjeung
+  - balchi-hu-juuisahang
+  - balchi-hu-chulhyeol
+  - extraction
 relatedPosts:
   []
 ---

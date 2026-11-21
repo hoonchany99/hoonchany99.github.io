@@ -42,9 +42,11 @@ askCards: [{"question":"제 치아 상태가 투명 교정 장치로 가능한 �
 updated: "2026-08-16"
 relatedTerms:
   - orthodontics
-  - cavity
-  - root-canal
-  - implant
+  - seolcheug-gyojeong
+  - gyojeongyong-waieo
+  - retainer
+  - gyojeong-jaebal
+  - gyojeong-jung-gugang-gwanri
 relatedPosts:
   - slug: duration-treatment
     title: "인비절라인 치료기간은 얼마나 걸릴까? 실제로 달라지는 요소들"

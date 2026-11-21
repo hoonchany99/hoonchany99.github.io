@@ -55,6 +55,7 @@ relatedTerms:
   - chigeun
   - scaling-root-planing
   - calculus
+  - halitosis
 relatedPosts:
   []
 ---

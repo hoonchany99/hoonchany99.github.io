@@ -77,10 +77,12 @@ compare: {"title":"헷갈리는 말과 차이","columns":["1급","2급(과개교
 askCards: [{"question":"제 부정교합은 치료가 꼭 필요한 정도인지, 지켜봐도 되는지 알 수 있을까요?","explanation":"부정교합은 대부분 경미해서 치료가 필요 없는 경우도 있어요. 씹기나 치아 마모에 영향이 있는지 함께 확인해 보세요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 대부분 경미하고 치료가 필요 없는 경우도 많음","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1},{"question":"턱이 아픈 게 교합 때문인지, 교정이 도움이 되는지 알 수 있을까요?","explanation":"나쁜 교합과 턱관절 장애 사이의 연관성은 강하지 않다고 알려져 있어요. 교합을 바꾸는 치료는 근거가 부족해서 먼저 다른 원인을 확인하는 것이 좋아요.","sourceLabel":"미국 국립치과·두개안면연구소(NIDCR): 교합과 턱관절 장애","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - gineungjeog-gyojeong-jangchi
-  - extraction
+  - 1geub-bujeonggyohab
+  - 2geub-bujeonggyohab
+  - 3geub-bujeonggyohab
+  - gaebanggyohab
+  - orthodontics
   - aggyojeong-susul
-  - molar
 relatedPosts:
   []
 ---

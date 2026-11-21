@@ -33,6 +33,7 @@ relatedTerms:
   - chia-chagsaeg
   - chia-gujo
   - chia-gyunyeol-jeunghugun
+  - laminate
 relatedPosts:
   - slug: toothwhitening
     title: "치아미백 효과 얼마나 갈까? 효과가 사라지는 이유 설명드립니다"

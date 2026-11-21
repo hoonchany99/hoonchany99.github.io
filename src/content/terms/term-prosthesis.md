@@ -31,6 +31,8 @@ relatedTerms:
   - bocheol-gyohab-jojeong
   - bocheol-saegjo-seontaeg
   - bocheol-sumyeong
+  - bridge
+  - gold-inlay
 relatedPosts:
   - slug: prosthesis
     title: "원데이보철, 다시 한 번 고민해보세요."

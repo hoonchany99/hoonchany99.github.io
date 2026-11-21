@@ -43,10 +43,11 @@ sources:
     title: "이스트서식스 NHS 트러스트: 건조와가 생기는 시기"
 updated: "2026-08-16"
 relatedTerms:
-  - balchi-hu-chulhyeol
+  - dry-socket
   - balchi-hu-juuisahang
-  - bogjab-balchi
+  - balchi-hu-chulhyeol
   - dansun-balchi
+  - bogjab-balchi
 relatedPosts:
   []
 ---

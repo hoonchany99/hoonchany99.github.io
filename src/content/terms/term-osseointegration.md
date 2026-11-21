@@ -31,6 +31,7 @@ relatedTerms:
   - root-canal
   - implant
   - wisdom-tooth
+  - immediate-implant
 relatedPosts:
   []
 ---

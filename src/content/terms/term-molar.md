@@ -42,10 +42,10 @@ compare: {"title":"헷갈리는 말과 차이","columns":["젖니 어금니(유�
 askCards: [{"question":"우리 아이 어금니에 실란트가 필요한지 알 수 있을까요?","explanation":"실란트는 어금니의 홈을 막아 충치를 막는 방법이에요. 첫째 어금니는 6세쯤, 둘째 어금니는 12세쯤 나오는 때에 맞춰 상담하면 좋아요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 실란트와 어금니 나는 시기","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/sealants","citeAfter":1},{"question":"사랑니는 전부 나는 건가요, 언제 확인하나요?","explanation":"사랑니는 보통 17~21세에 나지만 네 개가 다 나지 않는 사람도 있어요. 정기 검진에서 상태를 확인하면 좋아요.","sourceLabel":"MSD 매뉴얼 소비자판: 사랑니 시기와 개수","sourceUrl":"https://www.msdmanuals.com/home/mouth-and-dental-disorders/biology-of-the-mouth-and-teeth/biology-of-the-teeth","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - gold-inlay
+  - wisdom-tooth
   - permanent-tooth
   - primary-tooth
-  - wisdom-tooth
+  - chia-maengchul-sunseo
 relatedPosts:
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"

@@ -48,10 +48,11 @@ sources:
 askCards: [{"question":"이 치아를 살릴 수 있는지, 살린다면 어떤 방법이 있는지 알 수 있을까요?","explanation":"상아질 충치는 채우고, 신경이 손상됐으면 신경치료를 하는 식으로 깊이에 따라 방법이 달라요. 살릴 수 없을 때의 대안도 함께 물어보세요.","sourceLabel":"MSD 매뉴얼 일반인용: 충전·근관 치료·발치 뒤 대체","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - chijogol-bojonsul
-  - hangamchiryo-hwanja-chigwa
-  - imsin-jung-chigwachiryo
+  - resin
   - root-canal
+  - pulpotomy
+  - geulraseu-aionomeo
+  - jigjeob-chisu-bogjo
 relatedPosts:
   - slug: tooth
     title: "자연치아살리기, 살리는게 정말 맞을까요?"

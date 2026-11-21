@@ -92,10 +92,12 @@ sources:
 askCards: [{"question":"이 충치는 불소로 지켜볼 수 있는 단계인가요, 채워야 하는 단계인가요?","explanation":"법랑질 표면에 머문 초기 충치는 불소 치료로 되돌릴 수 있다고 안내하고, 구멍이 생기면 보통 충전이 필요해요. 지금 어느 단계인지 사진이나 X-ray로 같이 확인해 보세요.","sourceLabel":"영국 국민보건서비스(NHS): 불소 치료와 충전","sourceUrl":"https://www.nhs.uk/conditions/tooth-decay/","citeAfter":1},{"question":"이전에 치료한 자리에 다시 충치가 생기지 않았는지도 봐 주실 수 있을까요?","explanation":"오래된 충전물 가장자리의 작은 틈에 세균이 모여 충치가 다시 생길 수 있어요. 정기 검진 때 함께 확인해 달라고 해 보세요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 오래된 충전물 가장자리의 충치","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/cavities","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - fluoride
-  - bulso-dopo
+  - resin
+  - inlay
   - root-canal
-  - onlay
+  - icha-usig
+  - yua-usig
+  - noin-bburi-usig
 relatedPosts:
   - slug: crown-inlay-cavity
     title: "충치 치료, 비용은 얼마나 들까? 레진, 인레이, 크라운 단계별 가격 정리"

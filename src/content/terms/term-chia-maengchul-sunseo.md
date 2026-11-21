@@ -35,6 +35,7 @@ relatedTerms:
   - chia-chagsaeg
   - chia-gujo
   - chia-gyunyeol-jeunghugun
+  - molar
 relatedPosts:
   []
 ---

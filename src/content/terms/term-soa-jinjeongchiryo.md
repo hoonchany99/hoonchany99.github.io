@@ -35,6 +35,7 @@ relatedTerms:
   - hangamchiryo-hwanja-chigwa
   - imsin-jung-chigwachiryo
   - noin-chigwa-jinjeong
+  - nitrous-oxide
 relatedPosts:
   []
 ---

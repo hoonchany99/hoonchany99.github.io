@@ -47,10 +47,11 @@ sources:
 askCards: [{"question":"우리 아이는 지금 나이에 불소 치약을 얼마나 써야 하나요?","explanation":"3세 미만은 쌀알 크기, 3~6세는 완두콩 크기를 쓰고 삼키지 않게 지켜봐 주라고 안내해요. 아이 나이와 양치 습관에 맞게 확인해 보세요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 어린이 불소 치약 양","sourceUrl":"https://www.mouthhealthy.org/en/fluoride","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - chiyag
   - bulso-dopo
   - bulsojeung
-  - cavity
+  - chiyag
+  - sealant
+  - eorini-chungchi-yebang
 relatedPosts:
   - slug: toothpaste-fluoride
     title: "무불소 치약만으로 충분할까? 장단점과 선택 기준"

@@ -35,6 +35,8 @@ relatedTerms:
   - chijogol-bunrisul
   - chijogol-heubsu
   - chijo-jegeosul
+  - bone-graft
+  - gbr
 relatedPosts:
   []
 ---

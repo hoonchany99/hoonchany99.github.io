@@ -35,6 +35,7 @@ relatedTerms:
   - balchi-hu-juuisahang
   - balchi-hu-tongjeung
   - dansun-balchi
+  - impacted-tooth
 relatedPosts:
   []
 ---

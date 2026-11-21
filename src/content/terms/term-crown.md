@@ -46,10 +46,12 @@ sources:
 askCards: [{"question":"제 치아는 왜 크라운이 필요한가요? 다른 방법은 없나요?","explanation":"큰 충전물로는 치아가 너무 적게 남거나, 약해져 부러질 위험이 있을 때 크라운을 해요. 지금 상태가 어디에 해당하는지 물어보세요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 크라운이 필요한 경우","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/crowns","citeAfter":1},{"question":"제 치아에는 어떤 재료가 맞나요? 이갈이가 있는데 영향이 있을까요?","explanation":"재료마다 튼튼함, 색, 깨질 가능성이 달라요. 이갈이는 크라운이 깨지는 원인이 될 수 있어 미리 말씀드리면 좋아요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 크라운 재료와 이갈이 위험","sourceUrl":"https://medlineplus.gov/ency/article/007631.htm","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - occlusal-adjustment
-  - pfm
-  - gwaminseong-sangajil
+  - laminate
+  - inlay
+  - onlay
   - zirconia
+  - pfm
+  - post-core
 relatedPosts:
   - slug: zirconia-crown-price
     title: "크라운 재료별 가격, 골드·지르코니아·PFM 어떤 게 나을까?"

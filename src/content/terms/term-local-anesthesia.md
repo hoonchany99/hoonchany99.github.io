@@ -49,10 +49,10 @@ compare: {"title":"헷갈리는 말과 차이","columns":["국소마취","웃음
 askCards: [{"question":"제가 먹는 심장약과 혈압 상태를 말씀드렸는데, 혈관수축제가 든 마취를 써도 되는지 알 수 있을까요?","explanation":"보통 용량은 대개 괜찮지만 불안정 협심증, 최근 심근경색·뇌졸중, 조절 안 되는 부정맥, 매우 높은 혈압이면 특히 주의가 필요해요. 병력과 복용 약을 미리 알려 주세요.","sourceLabel":"구강악안면 마취 학술지(JOMA) 2025 리뷰: 에피네프린 주의 질환","sourceUrl":"https://joma.amegroups.org/article/view/7124/html","citeAfter":1},{"question":"마취가 풀릴 때까지 무엇을 조심해야 하나요?","explanation":"저림이 남아 있으면 입술·볼·혀를 깨물기 쉬워요. 뜨거운 음료도 피하세요.","sourceLabel":"브리스톨대학교 치과대학: 마취가 풀릴 때까지 주의","sourceUrl":"https://www.bristol.ac.uk/dental/treatment/patient-information/care-for-your-mouth-after-urgent-dental-care","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
+  - nitrous-oxide
+  - sedation
   - jeondalmachwi
   - pyomyeon-machwi
-  - cavity
-  - root-canal
 relatedPosts:
   - slug: dentalgeneral-anesthesia
     title: "치과전신마취, 아직도 모르시나요?"

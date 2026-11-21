@@ -35,6 +35,7 @@ relatedTerms:
   - chiju-jaesaengsul
   - chiju-nongyang
   - chiju-seupeulrinteu
+  - dental-checkup
 relatedPosts:
   []
 ---

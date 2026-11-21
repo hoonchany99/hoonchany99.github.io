@@ -51,6 +51,7 @@ relatedTerms:
   - jeolgae-baenong
   - chieun
   - wisdom-tooth
+  - impacted-tooth
 relatedPosts:
   - slug: wisdom-tooth-gum
     title: "사랑니 주변 잇몸이 붓고 고름이 보인다면? 염증 신호일 수 있어요"

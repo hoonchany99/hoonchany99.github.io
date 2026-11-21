@@ -57,6 +57,8 @@ relatedTerms:
   - gyojeong-balchi
   - orthodontics
   - root-canal
+  - dry-socket
+  - immediate-implant
 relatedPosts:
   - slug: wisdom-tooth-extraction-cost
     title: "사랑니 발치 비용, 보험 적용되나요? 단순·매복별 가격 총정리"

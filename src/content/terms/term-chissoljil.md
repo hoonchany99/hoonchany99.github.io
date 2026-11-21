@@ -35,6 +35,8 @@ relatedTerms:
   - jeondong-chissol
   - cavity
   - root-canal
+  - floss
+  - halitosis
 relatedPosts:
   - slug: brushing-cavity
     title: "올바른 양치법, 이것만 알아도 충치안생깁니다"

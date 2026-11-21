@@ -56,6 +56,7 @@ relatedTerms:
   - chieun
   - chissoljil
   - cavity
+  - gum-graft
 relatedPosts:
   []
 ---

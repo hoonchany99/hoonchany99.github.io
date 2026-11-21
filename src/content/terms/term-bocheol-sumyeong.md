@@ -35,6 +35,7 @@ relatedTerms:
   - bocheol-saegjo-seontaeg
   - bocheolmul-pajeol
   - bocheolmul-talrag
+  - bridge
 relatedPosts:
   []
 ---

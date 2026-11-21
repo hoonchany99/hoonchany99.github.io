@@ -37,9 +37,11 @@ sources:
     title: "미국치주과학회(AAP): 잇몸이식의 목적·공여 조직(입천장)·치아 개수"
 updated: "2026-08-16"
 relatedTerms:
+  - chieun-toechug
+  - chigeun-pigaesul
+  - vestibuloplasty
+  - buchagchieun
   - bone-graft
-  - golisigjae
-  - ismom-saegsochimchag
   - ismom-susul
 relatedPosts:
   []

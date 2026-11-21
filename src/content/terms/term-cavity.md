@@ -1,5 +1,6 @@
 ---
-name: "충치(치아 우식증)"
+name: "충치"
+officialName: "치아 우식증"
 termSlug: cavity
 seoTitle: "충치(치아 우식증)란? — 왜 생기고 어떻게 치료하나"
 en: "Tooth Decay"

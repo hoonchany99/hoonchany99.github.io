@@ -23,6 +23,8 @@ const terms = defineCollection({
     name: z.string(),
     /** URL 경로용 (/terms/[slug]/) — posts와 파일 id 충돌 방지 */
     termSlug: z.string(),
+    /** 공식(의학) 용어 — 일반어 name과 다를 때만. 그 용어 페이지의 h1에만 「name(officialName)」로 나오고 alternateName에 들어간다. 카드·목록·홈에는 name만 */
+    officialName: z.string().optional(),
     /** 영문명 — 한국 제도 용어 등 대응어가 없으면 비운다 */
     en: z.string().optional(),
     /** 검색 결과용 <title> — "치은열구란? …" 처럼 검색 의도에 맞춘 문구. 없으면 "이름 (영문명)" */

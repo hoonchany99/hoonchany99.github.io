@@ -10,7 +10,7 @@ export interface CanonicalTerm {
 export const termsRich: CanonicalTerm[] = [
   {
     slug: 'cavity',
-    name: '충치(치아 우식증)',
+    name: '충치',
     aliases: ['충치', '충치치료', '2차충치', '충치레진', '충치이시림', '법랑질', '상아질', '우식', '우식증', '충치병'],
     topicSlug: 'cavity',
     definition:

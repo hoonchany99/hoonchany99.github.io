@@ -4786,7 +4786,7 @@ export const termsCanonical: CanonicalTerm[] = [
   },
   {
     slug: "cavity",
-    name: "충치(치아 우식증)",
+    name: "충치",
     aliases: [
     "충치",
     "충치치료",

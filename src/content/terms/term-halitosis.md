@@ -55,7 +55,7 @@ updated: "2026-08-16"
 relatedTerms:
   - prosthesis
   - scaling
-  - caries
+  - cavity
   - periodontal-pocket
 relatedPosts:
   - slug: bad-breath

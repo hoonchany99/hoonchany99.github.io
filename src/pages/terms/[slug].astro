@@ -27,7 +27,8 @@ const publicSlug = term.data.termSlug;
  * 화면과 alternateName에는 선별한 synonyms만 내보낸다.
  */
 const synonymList = (term.data.synonyms ?? []).filter((a) => a !== term.data.name);
-const alternateNames = [term.data.en, ...synonymList].filter(Boolean);
+const alternateNames = [term.data.en, term.data.officialName, ...synonymList].filter(Boolean);
+const headingName = term.data.officialName ? `${term.data.name}(${term.data.officialName})` : term.data.name;
 
 /** 치료 블록이 가리키는 시술 페이지의 표제어 — CTA에 목적지 이름을 쓰기 위함 */
 const approachSlugs = term.data.approach.map((a) => a.slug).filter(Boolean) as string[];
@@ -219,7 +220,7 @@ const definedTermLd = JSON.stringify({
             <span class="inline-block mb-1 rounded-full border border-brand/30 bg-white px-2.5 py-0.5 text-xs font-semibold text-brand-dark">{category}</span>
           )}
 
-          <h1 class="text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{term.data.name}</h1>
+          <h1 class="text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{headingName}</h1>
           {term.data.en && (
             <p class="mt-1 text-base md:text-lg font-medium text-brand/80 tracking-wide">
               {term.data.en}

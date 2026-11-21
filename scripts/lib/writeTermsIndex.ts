@@ -8,6 +8,7 @@ import { termFaqsBySlug } from '../../src/data/termFaqs.ts';
 import { authoredBySlug } from '../../src/data/termsAuthored.ts';
 import { termNamesEn } from '../../src/data/termNamesEn.ts';
 import { termSynonyms } from '../../src/data/termSynonyms.ts';
+import { mergedSlugs, mergedAliases } from '../../src/data/termsMerged.ts';
 import { compareTermNames } from '../../src/utils/korean.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -21,11 +22,14 @@ function truncateDefinition(def: string, max = 140): string {
 /** 클라이언트 치과사전 목록용 경량 JSON (public/terms-index.json) */
 export function writeTermsIndex(): number {
   const items = [...termsCanonical, ...termsExtra]
-    // 페이지가 있는 용어만 목록에 넣는다 (generate-terms-from-posts와 같은 기준)
+    // 페이지가 있는 용어만 목록에 넣는다 (generate-terms-from-posts와 같은 기준). 합쳐진 용어는 뺀다
     .filter(
       (term) =>
-        authoredBySlug[term.slug] ??
-        (termDetailsBySlug[term.slug] && termFaqsBySlug[term.slug]?.length)
+        !mergedSlugs.has(term.slug) &&
+        Boolean(
+          authoredBySlug[term.slug] ??
+            (termDetailsBySlug[term.slug] && termFaqsBySlug[term.slug]?.length)
+        )
     )
     .map((term) => ({
       slug: term.slug,
@@ -35,7 +39,7 @@ export function writeTermsIndex(): number {
         authoredBySlug[term.slug]?.definition ?? term.definition
       ),
       // 검색 매칭용 — 화면에는 쓰지 않으므로 넉넉히 싣는다
-      aliases: term.aliases.slice(0, 10),
+      aliases: [...new Set([...term.aliases, ...(mergedAliases[term.slug] ?? [])])].slice(0, 10),
       // 카드에 표시하는 진짜 동의어
       synonyms: termSynonyms[term.slug] ?? [],
     }))

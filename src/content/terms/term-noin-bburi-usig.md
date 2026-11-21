@@ -53,7 +53,7 @@ relatedTerms:
   - geulraseu-aionomeo
   - fluoride
   - chiyag
-  - caries
+  - cavity
 relatedPosts:
   []
 ---

@@ -50,7 +50,7 @@ updated: "2026-08-16"
 relatedTerms:
   - hachijosingyeong
   - hachijosingyeong-sonsang
-  - impeulranteu-singyeong-sonsang
+  - impeulranteu-1cha-susul
   - root-canal
 relatedPosts:
   []

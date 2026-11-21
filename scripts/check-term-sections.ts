@@ -24,6 +24,7 @@ import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 import sharp from 'sharp';
 import { checkSectionLinks, fieldsWithLinks } from './lib/termLinkCheck.ts';
+import { mergedTerms } from '../src/data/termsMerged.ts';
 import { parseDetail, sourceUrl, splitSentences, isEmpathy } from '../src/lib/termSections.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -156,6 +157,15 @@ for (const data of parsedFiles) {
 
 for (const slug of Object.keys(ledger)) {
   if (!sectioned.has(slug)) fail(slug, '장부에는 있는데 소제목 구역이 없어요');
+}
+
+// 관련 용어(relatedTerms): 자기 자신, 합쳐져 없어진 slug(남은 주소로 바꿔요)를 가리키면 안 돼요
+for (const data of parsedFiles) {
+  const slug = String(data.termSlug);
+  for (const rel of (data.relatedTerms ?? []) as string[]) {
+    if (rel === slug) fail(slug, `relatedTerms가 자기 자신을 가리켜요: ${rel}`);
+    else if (mergedTerms[rel]) fail(slug, `relatedTerms가 합쳐져 없어진 ${rel}를 가리켜요(→ ${mergedTerms[rel]})`);
+  }
 }
 
 if (errors.length) {

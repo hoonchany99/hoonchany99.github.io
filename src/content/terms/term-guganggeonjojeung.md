@@ -50,7 +50,7 @@ updated: "2026-08-16"
 relatedTerms:
   - fluoride
   - bulso-dopo
-  - caries
+  - cavity
   - chiyag
 relatedPosts:
   []

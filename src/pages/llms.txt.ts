@@ -7,7 +7,7 @@ import { getCollection } from 'astro:content';
  */
 
 /** 핵심 용어로 소개할 slug (글자 순). 이름·한 줄 정의는 데이터에서 가져온다. */
-const CORE_SLUGS = ['laminate', 'impacted-tooth', 'malocclusion', 'wisdom-tooth', 'cerec', 'scaling', 'root-canal', 'primary-tooth', 'inlay', 'invisalign', 'implant', 'root-canal-re', 'dental-checkup', 'immediate-implant', 'cavity', 'pericoronitis', 'calculus', 'cracked-tooth', 'whitening', 'periodontitis', 'crown', 'tmd', 'denture', 'all-on-4', 'gbr'];
+const CORE_SLUGS = ['laminate', 'impacted-tooth', 'malocclusion', 'wisdom-tooth', 'cadcam-dangil-bocheol', 'scaling', 'root-canal', 'primary-tooth', 'inlay', 'invisalign', 'implant', 'root-canal-re', 'dental-checkup', 'immediate-implant', 'cavity', 'pericoronitis', 'calculus', 'cracked-tooth', 'whitening', 'periodontitis', 'crown', 'tmd', 'denture', 'all-on-4', 'gbr'];
 
 /** 한 줄 정의에서 첫 문장만 쓴다 (기존 llms.txt와 같은 길이) */
 const firstSentence = (text: string) => text.split(/(?<=[.])\s/)[0];

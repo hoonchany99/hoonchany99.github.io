@@ -32,7 +32,7 @@ sources:
 updated: "2026-08-16"
 relatedTerms:
   - hachijosingyeong-sonsang
-  - impeulranteu-singyeong-sonsang
+  - impeulranteu-1cha-susul
   - hachijosingyeong
   - root-canal
 relatedPosts:

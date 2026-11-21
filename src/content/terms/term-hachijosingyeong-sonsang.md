@@ -6,6 +6,9 @@ en: "Inferior Alveolar Nerve Injury"
 tier: B
 aliases:
   - "하치조신경 손상"
+  - "임플란트 신경 손상"
+synonyms:
+  - "임플란트 신경 손상"
 definition: "하치조신경 손상은 아래턱 신경이 다쳐 입술·턱에 저림이 남는 상태예요. 사랑니 발치나 임플란트와 관련될 수 있습니다."
 detail: |
   하치조신경은 아래턱 뼈 속을 지나며 아랫니와 아랫입술, 턱 피부의 감각을 담당합니다. 이 신경이 자극받거나 손상되면 그 부위 감각에 변화가 생겨요.
@@ -50,7 +53,7 @@ updated: "2026-08-16"
 relatedTerms:
   - implant
   - hachijosingyeong
-  - impeulranteu-singyeong-sonsang
+  - impeulranteu-1cha-susul
   - seolsingyeong-sonsang
 relatedPosts:
   []

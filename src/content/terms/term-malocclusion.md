@@ -31,7 +31,7 @@ faqs:
   - question: "성인도 교정 가능한가요?"
     answer: "가능해요. 다만 충치·잇몸 상태를 먼저 정리하고, 기간·장치 종류·비용을 상담하는 게 좋습니다."
   - question: "부정교합과 턱관절 통증 관련 있나요?"
-    answer: "나쁜 교합과 [턱관절 장애](/terms/tmd/) 사이에 강한 연관성이 있다는 근거는 부족해요. 교합을 바꾸는 치료가 턱관절 증상을 좋아지게 한다는 근거도 부족합니다. 증상이 있다면 원인을 따로 평가합니다."
+    answer: "나쁜 교합과 턱관절 장애 사이에 강한 연관성이 있다는 근거는 부족해요. 교합을 바꾸는 치료가 턱관절 증상을 좋아지게 한다는 근거도 부족합니다. 증상이 있다면 원인을 따로 평가합니다."
   - question: "교정 없이 라미네이트로만 될까요?"
     answer: "가벼운 형태·색 문제는 가능할 수 있어요. 근본적인 배열·교합 문제는 교정 검토가 필요할 수 있습니다."
   - question: "부정교합 치료 기간은?"
@@ -74,7 +74,7 @@ sources:
   - url: "https://www.mouthhealthy.org/en/az-topics/v/veneers"
     title: "미국치과의사협회(ADA) MouthHealthy: 라미네이트의 용도와 주의점"
 compare: {"title":"헷갈리는 말과 차이","columns":["1급","2급(과개교합)","3급(반대교합)"],"rows":[{"label":"위아래 치아 관계","cells":["물림은 정상 범위이고 위 치아가 아래를 조금 덮어요","위턱과 위 치아가 아래를 많이 덮어요","아래턱이 앞으로 나와서 아래 치아가 위 치아를 덮어요"]}]}
-askCards: [{"question":"제 부정교합은 치료가 꼭 필요한 정도인지, 지켜봐도 되는지 알 수 있을까요?","explanation":"부정교합은 대부분 경미해서 치료가 필요 없는 경우도 있어요. 씹기나 치아 마모에 영향이 있는지 함께 확인해 보세요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 대부분 경미하고 치료가 필요 없는 경우도 많음","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1},{"question":"턱이 아픈 게 교합 때문인지, 교정이 도움이 되는지 알 수 있을까요?","explanation":"나쁜 교합과 [턱관절 장애](/terms/tmd/) 사이의 연관성은 강하지 않다고 알려져 있어요. 교합을 바꾸는 치료는 근거가 부족해서 먼저 다른 원인을 확인하는 것이 좋아요.","sourceLabel":"미국 국립치과·두개안면연구소(NIDCR): 교합과 턱관절 장애","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1}]
+askCards: [{"question":"제 부정교합은 치료가 꼭 필요한 정도인지, 지켜봐도 되는지 알 수 있을까요?","explanation":"부정교합은 대부분 경미해서 치료가 필요 없는 경우도 있어요. 씹기나 치아 마모에 영향이 있는지 함께 확인해 보세요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 대부분 경미하고 치료가 필요 없는 경우도 많음","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1},{"question":"턱이 아픈 게 교합 때문인지, 교정이 도움이 되는지 알 수 있을까요?","explanation":"나쁜 교합과 턱관절 장애 사이의 연관성은 강하지 않다고 알려져 있어요. 교합을 바꾸는 치료는 근거가 부족해서 먼저 다른 원인을 확인하는 것이 좋아요.","sourceLabel":"미국 국립치과·두개안면연구소(NIDCR): 교합과 턱관절 장애","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - gineungjeog-gyojeong-jangchi

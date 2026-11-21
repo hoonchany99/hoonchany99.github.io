@@ -363,7 +363,7 @@ export const termsRich: CanonicalTerm[] = [
   {
     slug: 'occlusal-adjustment',
     name: '교합조정',
-    aliases: ['교합조정', '교합', '물림조정'],
+    aliases: ['교합조정', '교합'],
     topicSlug: 'crown-inlay',
     definition:
       '교합조정은 위·아래 치아가 맞물리는 높이·위치를 다듬는 처치예요. 보철·충치 치료 후 불편할 때 시행하는 경우가 많습니다.',

@@ -39,7 +39,6 @@ export const termSynonyms: Record<string, string[]> = {
   mih: ['제1대구치 저형성증'],
   molar: ['구치'],
   'nitrous-oxide': ['아산화질소', 'N2O'],
-  'occlusal-adjustment': ['물림조정'],
   orthodontics: ['교정'],
   osseointegration: ['뼈유착'],
   overdenture: ['임플란트틀니'],

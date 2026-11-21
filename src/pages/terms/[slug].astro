@@ -145,9 +145,9 @@ const tocItems = hasSections
       ...calloutSections.map(({ sec, n }) => ({ id: `sec-${n}`, label: sec.heading })),
       ...(askCards.length > 0 ? [{ id: 'ask', label: '진료실에서 물어볼 것' }] : []),
       ...(term.data.faqs.length > 0 ? [{ id: 'faq', label: '자주 묻는 질문' }] : []),
+      ...(sourceItems.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
       ...(relatedTermEntries.length > 0 ? [{ id: 'related-terms', label: '함께 보면 좋은 용어' }] : []),
       ...(term.data.relatedPosts.length > 0 ? [{ id: 'related-posts', label: '더 읽어보기' }] : []),
-      ...(sourceItems.length > 0 ? [{ id: 'sources', label: '참고 자료' }] : []),
     ]
   : [
       { id: 'definition', label: '뜻과 설명' },
@@ -216,9 +216,6 @@ const definedTermLd = JSON.stringify({
               </>
             )}
           </nav>
-          {category && (
-            <span class="inline-block mb-1 rounded-full border border-brand/30 bg-white px-2.5 py-0.5 text-xs font-semibold text-brand-dark">{category}</span>
-          )}
 
           <h1 class="text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{headingName}</h1>
           {term.data.en && (
@@ -437,6 +434,35 @@ const definedTermLd = JSON.stringify({
         </section>
       )}
 
+      {hasSections && refList.length > 0 && (
+        <section id="sources" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
+          <h2 class={`${h2Cls} mb-3 mt-14`}>참고 자료</h2>
+          <ol class="border-y border-gray-100 divide-y divide-gray-100">
+            {refList.map((item, i) => (
+              <li id={`ref-${i + 1}`} class="flex items-start gap-3 py-3.5 scroll-mt-24 target:bg-brand-bg/60">
+                <span class="flex-shrink-0 w-[18px] pt-px text-[13.5px] text-gray-400 tabular-nums">{pad2(i + 1)}</span>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="group min-w-0 flex-1"
+                >
+                  <span class="block text-[13.5px] leading-snug text-gray-900 group-hover:text-brand transition-colors">{item.title}</span>
+                  <span class="mt-0.5 block text-xs text-gray-400 break-all">{sourceHost(item.url)} <span aria-hidden="true">↗</span></span>
+                </a>
+                {item.cited && (
+                  <a
+                    href={`#cite-${i + 1}-1`}
+                    aria-label={`본문의 참고 자료 ${i + 1}번 표시로 돌아가기`}
+                    class="relative flex-shrink-0 px-1 text-sm text-brand-dark rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-dark after:absolute after:left-1/2 after:top-1/2 after:h-6 after:w-6 after:-translate-x-1/2 after:-translate-y-1/2 after:content-['']"
+                  >↩</a>
+                )}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
       {relatedTermEntries.length > 0 && (
         <section id="related-terms" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
           <h2 class={`${h2Cls} mb-3 mt-14`}>함께 보면 좋은 용어</h2>
@@ -541,35 +567,6 @@ const definedTermLd = JSON.stringify({
               </li>
             ))}
           </ul>
-        </section>
-      )}
-
-      {hasSections && refList.length > 0 && (
-        <section id="sources" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">
-          <h2 class={`${h2Cls} mb-3 mt-14`}>참고 자료</h2>
-          <ol class="border-y border-gray-100 divide-y divide-gray-100">
-            {refList.map((item, i) => (
-              <li id={`ref-${i + 1}`} class="flex items-start gap-3 py-3.5 scroll-mt-24 target:bg-brand-bg/60">
-                <span class="flex-shrink-0 w-[18px] pt-px text-[13.5px] text-gray-400 tabular-nums">{pad2(i + 1)}</span>
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="group min-w-0 flex-1"
-                >
-                  <span class="block text-[13.5px] leading-snug text-gray-900 group-hover:text-brand transition-colors">{item.title}</span>
-                  <span class="mt-0.5 block text-xs text-gray-400 break-all">{sourceHost(item.url)} <span aria-hidden="true">↗</span></span>
-                </a>
-                {item.cited && (
-                  <a
-                    href={`#cite-${i + 1}-1`}
-                    aria-label={`본문의 참고 자료 ${i + 1}번 표시로 돌아가기`}
-                    class="relative flex-shrink-0 px-1 text-sm text-brand-dark rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-dark after:absolute after:left-1/2 after:top-1/2 after:h-6 after:w-6 after:-translate-x-1/2 after:-translate-y-1/2 after:content-['']"
-                  >↩</a>
-                )}
-              </li>
-            ))}
-          </ol>
         </section>
       )}
 

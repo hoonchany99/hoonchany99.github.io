@@ -4,8 +4,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { topicHubs, findTopicHub } from '../../data/topicHubs';
 import { TopicIcon } from '../../components/TopicIcon';
+import TopicGuide from '../../components/TopicGuide.astro';
+import { parseGuide, guideFaqs } from '../../lib/topicGuide';
 
 export const getStaticPaths = (async () => {
+  const guides = await getCollection('topicGuides');
   const posts = (await getCollection('posts')).sort(
     (a, b) => (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0)
   );
@@ -38,12 +41,16 @@ export const getStaticPaths = (async () => {
 
     return {
       params: { slug: hub.slug },
-      props: { hub, featuredPosts, otherPosts, totalCount: filtered.length },
+      props: { hub, featuredPosts, otherPosts, totalCount: filtered.length, guide: guides.find((g) => g.data.topic === hub.slug) },
     };
   });
 }) satisfies GetStaticPaths;
 
-const { hub, featuredPosts, otherPosts, totalCount } = Astro.props;
+const { hub, featuredPosts, otherPosts, totalCount, guide } = Astro.props;
+
+/** 긴 치료 가이드가 있는 주제(topicGuides)는 가이드를 위에, 기존 글 목록은 「관련 용어·글」로 아래에 둬요 */
+const guideSections = guide ? parseGuide(guide.body) : [];
+const guideSources = guide ? guide.data.sources.map((s) => s.url) : [];
 
 function getExcerpt(body: string, maxLen = 100): string {
   const text = body.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
@@ -58,17 +65,34 @@ function getReadingTime(body: string): number {
 ---
 
 <BaseLayout
-  title={`${hub.name} - 치과사전`}
-  description={hub.description}
+  title={guide ? guide.data.title : `${hub.name} - 치과사전`}
+  description={guide ? guide.data.description : hub.description}
   noindex={true}
+  {...(guide ? {
+    type: 'article',
+    medicalWebPage: true,
+    publishedDate: new Date(guide.data.published),
+    reviewedDate: guide.data.reviewed ? new Date(guide.data.reviewed) : undefined,
+    citations: guideSources,
+    faqSchema: guideFaqs(guideSections),
+    tags: [hub.name],
+  } : {})}
   breadcrumbs={[
     { name: '홈', url: '/' },
     { name: '주제별', url: '/topics/' },
     { name: hub.name, url: `/topics/${hub.slug}/` },
   ]}
 >
+  {guide && (
+    <TopicGuide title={guide.data.title} published={guide.data.published} reviewed={guide.data.reviewed} sources={guide.data.sources} sections={guideSections} />
+  )}
+
   <section class="py-16">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      {guide && (
+        <h2 class="text-xl font-extrabold text-gray-900 mb-6">관련 용어·글</h2>
+      )}
+      {!guide && (<>
       <!-- 헤더 -->
       <div class="mb-10 anim-fade-up">
         <a href="/topics/" class="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-brand transition-colors mb-6">
@@ -106,6 +130,8 @@ function getReadingTime(body: string): number {
           </div>
         </div>
       </div>
+
+      </>)}
 
       <!-- 대표 글 -->
       {featuredPosts.length > 0 && (

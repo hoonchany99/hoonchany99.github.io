@@ -1,0 +1,12 @@
+---
+/** 글 조각(내부 링크 + 문장 끝 각주 위첨자). 용어 페이지 본문과 같은 모양이에요. */
+import CiteMark from './CiteMark.astro';
+import type { TermSeg } from '../lib/termSections';
+interface Mark { n: number; k: number; url: string }
+interface Props {
+  pieces: { segs: TermSeg[]; cite?: Mark }[];
+  refName: (url: string) => string;
+}
+const { pieces, refName } = Astro.props;
+---
+{pieces.map((piece) => (<>{piece.segs.map((g) => (g.href ? <a href={g.href} class="font-medium text-brand-dark underline decoration-brand/40 underline-offset-[3px] hover:decoration-brand-dark rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-dark">{g.text}</a> : g.text))}{piece.cite && <CiteMark n={piece.cite.n} k={piece.cite.k} name={refName(piece.cite.url)} />}</>))}

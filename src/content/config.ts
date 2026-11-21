@@ -120,4 +120,24 @@ const terms = defineCollection({
   }),
 });
 
-export const collections = { posts, terms };
+/**
+ * 주제별 긴 치료 가이드 (/topics/<topic>/ 한 쪽에 하나). 본문은 용어 본문(detail)과 같은 「## 소제목」·[근거](주소 "기관: 내용") 문법이고,
+ * 표·체크리스트·Q&A·단계는 src/lib/topicGuide.ts가 읽어요. 참고 자료(sources)는 머리말에 둬요.
+ */
+const topicGuides = defineCollection({
+  type: 'content',
+  schema: z.object({
+    /** topicHubs의 slug와 같아야 해요 */
+    topic: z.string(),
+    title: z.string(),
+    /** 메타 설명 — 70~150자 */
+    description: z.string().min(70).max(150),
+    /** 발행일 YYYY-MM-DD (머지하는 날) */
+    published: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    /** 감수 날짜 YYYY-MM-DD — 없으면 「감수 예정」 */
+    reviewed: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+    sources: z.array(z.object({ url: z.string().url(), title: z.string() })),
+  }),
+});
+
+export const collections = { posts, terms, topicGuides };

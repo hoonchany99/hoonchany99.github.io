@@ -43,3 +43,36 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # 배포가 성공한 뒤, 이번 배포에서 바뀐 공개 주소만 IndexNow(Bing·Naver·Yandex·Seznam 공유)에 알려요.
+  # 알림이 실패해도 배포는 이미 끝났으니 성공으로 남게 continue-on-error로 둬요.
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      contents: read
+    env:
+      # 공개 키예요(비밀 아님): 사이트 루트의 <키>.txt 내용과 같아야 해요. public/<키>.txt
+      INDEXNOW_KEY: 69adb2c397af8e33b19e192866392170
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Pick changed URLs
+        # 이전 배포 sha(github.event.before)가 0이거나 없으면(첫 push, 수동 실행) 아무것도 안 보내요.
+        run: npx tsx scripts/indexnow-urls.ts "${{ github.event.before }}" "${{ github.sha }}" > indexnow-urls.txt
+
+      - name: Notify IndexNow
+        run: npx tsx scripts/indexnow-notify.ts "$INDEXNOW_KEY" < indexnow-urls.txt

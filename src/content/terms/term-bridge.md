@@ -18,7 +18,7 @@ detail: |
   [임플란트](/terms/implant/)는 단일 치아라면 양옆 건강한 치아를 깎지 않아도 돼요. [근거](https://cda-adc.ca/en/oral_health/procedures/bridges_dentures/bridges.asp "캐나다치과의사협회(CDA): 두 건강한 치아 사이 한 개는 임플란트로 옆 치아 삭제를 피할 수 있음") 임플란트로 지지하는 브릿지는 임플란트가 뼈와 붙는 데 3~6개월이 걸려요. [근거](https://my.clevelandclinic.org/health/articles/10921-dental-bridges "클리블랜드 클리닉: 임플란트 지지 브릿지는 임플란트가 뼈와 붙는 데 3~6개월") 임플란트 대비 수술·기간이 상대적으로 짧을 수 있습니다. 다만 주변 치아 삭제가 필요한 점이 단점이에요. 어느 쪽이 맞는지는 입안 상태와 뼈 상태, 선호에 따라 달라서 치과와 상의가 필요해요. [근거](https://my.clevelandclinic.org/health/articles/10921-dental-bridges "클리블랜드 클리닉: 최선의 선택은 개인의 구강 상태와 선호에 따라 다르므로 치과의사와 상의")
 
   ## 브릿지는 어떻게 관리하나요
-  브릿지도 자연치아처럼 매일 양치와 치실이 필요해요. 가운데 인공치 아래와 둘레는 치실 끼우개(플로스 스레더)로 닦아요. [근거](https://cda-adc.ca/en/oral_health/procedures/bridges_dentures/bridges.asp "캐나다치과의사협회(CDA): 매일 양치·치실, 플로스 스레더로 인공치 아래 닦기") 치간칫솔도 쓸 수 있어요. [근거](https://my.clevelandclinic.org/health/articles/10921-dental-bridges "클리블랜드 클리닉: 매일 플로스 스레더나 치간칫솔로 브릿지 아래 청소") 브릿지 아래·연결부는 슈퍼플로스 등으로 꼼꼼히 닦는 것이 필수입니다. 수명은 안내마다 달라요. 클리블랜드 클리닉은 평균 5~15년, 캐나다치과의사협회는 관리가 좋으면 대략 10년 또는 그 이상이라고 설명해요. [근거](https://my.clevelandclinic.org/health/articles/10921-dental-bridges "클리블랜드 클리닉: 브릿지 평균 수명 5~15년") [근거](https://cda-adc.ca/en/oral_health/procedures/bridges_dentures/bridges.asp "캐나다치과의사협회(CDA): 관리가 좋으면 대략 10년 또는 그 이상")
+  브릿지도 자연치아처럼 매일 양치와 치실이 필요해요. 가운데 인공치 아래와 둘레는 치실 끼우개(플로스 스레더)로 닦아요. [근거](https://cda-adc.ca/en/oral_health/procedures/bridges_dentures/bridges.asp "캐나다치과의사협회(CDA): 매일 양치·치실, 플로스 스레더로 인공치 아래 닦기") 치간칫솔도 쓸 수 있어요. [근거](https://my.clevelandclinic.org/health/articles/10921-dental-bridges "클리블랜드 클리닉: 매일 플로스 스레더나 치간칫솔로 브릿지 아래 청소") 브릿지 아래·연결부는 슈퍼플로스 등으로 꼼꼼히 닦는 것이 필수입니다. 수명은 안내마다 달라요. 클리블랜드 클리닉은 평균 5~15년, 캐나다치과의사협회는 관리가 좋은 경우 대략 10년 또는 그 이상으로 보고하지만, 관리에 따라 달라요. [근거](https://my.clevelandclinic.org/health/articles/10921-dental-bridges "클리블랜드 클리닉: 브릿지 평균 수명 5~15년") [근거](https://cda-adc.ca/en/oral_health/procedures/bridges_dentures/bridges.asp "캐나다치과의사협회(CDA): 관리가 좋으면 대략 10년 또는 그 이상")
 compare: {"title":"헷갈리는 말과 차이","columns":["브릿지","임플란트"],"rows":[{"label":"옆 치아","cells":["양옆 건강한 치아를 깎아 크라운으로 연결해요","한 개를 채울 때는 옆 치아를 깎지 않아도 돼요"]}]}
 faqs:
   - question: "브릿지는 옆 치아를 깎나요?"
@@ -26,7 +26,7 @@ faqs:
   - question: "브릿지와 임플란트 중 뭐가 나을까요?"
     answer: "임플란트는 옆 치아를 깎지 않아도 되는 점이 특징이에요. 브릿지는 수술·기간이 상대적으로 짧을 수 있습니다. 케이스·뼈 상태·예산에 따라 달라져요."
   - question: "브릿지 수명은?"
-    answer: "관리·지대치 상태·교합·이갈이에 따라 달라져요. 한 지대치에 문제가 생기면 전체에 영향을 줄 수 있어요. 기관마다 평균 5~15년, 관리가 좋으면 10년 또는 그 이상이라고 안내해요. 정기 검진이 중요합니다."
+    answer: "관리·지대치 상태·교합·이갈이에 따라 달라져요. 한 지대치에 문제가 생기면 전체에 영향을 줄 수 있어요. 기관마다 평균 5~15년, 관리가 좋은 경우 10년 또는 그 이상으로 보고되지만 관리에 따라 달라요. 정기 검진이 중요합니다."
   - question: "브릿지 아래 어떻게 닦나요?"
     answer: "슈퍼플로스·치간칫솔 등으로 연결부·아래를 꼼꼼히 관리하는 게 필요해요. 관리 부족이 문제로 이어질 수 있습니다."
   - question: "브릿지 후 시림·통증이 있어요"

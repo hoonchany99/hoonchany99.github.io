@@ -256,7 +256,6 @@ export const termsCanonical: CanonicalTerm[] = [
     name: "골유착",
     aliases: [
     "골유착",
-    "뼈유착",
     "골유착기간",
     ],
     topicSlug: "implant",
@@ -321,7 +320,6 @@ export const termsCanonical: CanonicalTerm[] = [
     name: "과잉치",
     aliases: [
     "과잉치",
-    "여분치아",
     "다생치",
     ],
     topicSlug: "wisdom-tooth",
@@ -1541,7 +1539,6 @@ export const termsCanonical: CanonicalTerm[] = [
     name: "러버댐",
     aliases: [
     "러버댐",
-    "방수막",
     "고무띠",
     ],
     topicSlug: "cavity",
@@ -5318,7 +5315,6 @@ export const termsCanonical: CanonicalTerm[] = [
     name: "치근단절제술",
     aliases: [
     "치근단절제술",
-    "근단수술",
     "Apicoectomy",
     ],
     topicSlug: "cavity",
@@ -5378,7 +5374,6 @@ export const termsCanonical: CanonicalTerm[] = [
     aliases: [
     "치석",
     "치태",
-    "치아돌",
     ],
     topicSlug: "gum-prevention",
     definition: "치석은 입안 세균막(치태)이 굳어진 것이에요. 칫솔로는 잘 안 빠지고, 스케일링으로 제거하는 경우가 많습니다.",
@@ -6757,7 +6752,6 @@ export const termsCanonical: CanonicalTerm[] = [
     "포스트",
     "포스트코어",
     "치아기둥",
-    "근관주",
     ],
     topicSlug: "crown-inlay",
     definition: "포스트(포스트 코어)는 신경치료한 치아에 크라운을 받치기 위해 근관 안에 세우는 기둥 구조예요. 치아가 많이 약했을 때 씁니다.",

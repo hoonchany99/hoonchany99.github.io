@@ -36,6 +36,9 @@ jobs:
       - name: Term inline link tests
         run: npm run test-term-links
 
+      - name: Term guide label tests
+        run: npm run test-term-guide
+
       - name: IndexNow URL tests
         run: npm run test-indexnow
 

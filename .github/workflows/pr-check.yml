@@ -39,6 +39,9 @@ jobs:
       - name: IndexNow URL tests
         run: npm run test-indexnow
 
+      - name: GA4 term events tests
+        run: npm run test-ga-events
+
       - name: Build
         run: npm run build
 

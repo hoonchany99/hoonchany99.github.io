@@ -28,7 +28,7 @@ faqs:
     answer: "네, 어금니 복원에 지르코니아 인레이·온레이를 쓰는 경우가 있어요. 범위·씹는 힘·심미 요구에 따라 선택이 달라질 수 있습니다."
 updated: "2026-08-16"
 relatedTerms:
-  - cracked-tooth
+  - chia-gyunyeol-jeunghugun
   - crown
   - pfm
   - cavity

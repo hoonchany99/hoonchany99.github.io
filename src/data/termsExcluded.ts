@@ -535,6 +535,8 @@ export const termsExcluded: ExcludedTerm[] = [
   { slug: 'cerec', name: '세렉', reason: '중복' }, // → CAD/CAM 당일 보철
   { slug: 'impeulranteu-singyeong-sonsang', name: '임플란트 신경 손상', reason: '중복' }, // → 하치조신경 손상
   { slug: 'igali-jeungsang', name: '이갈이 증상', reason: '중복' }, // → 이갈이
+  { slug: 'teoggwanjeol-jangae-jaga-jindan', name: '턱관절 장애 자가 진단', reason: '중복' }, // → 턱관절장애
+  { slug: 'cracked-tooth', name: '치아 크랙', reason: '중복' }, // → 치아 균열 증후군
   { slug: 'gugang-baesepo-jongyang', name: '구강 배세포 종양', reason: '검증불가' },
 
   // 표준 문헌에서 확인되지 않는 항목

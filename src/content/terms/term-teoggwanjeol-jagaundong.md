@@ -31,7 +31,7 @@ sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
 updated: "2026-08-16"
 relatedTerms:
-  - teoggwanjeol-jangae-jaga-jindan
+  - tmd
   - manseong-dutonggwa-teoggwanjeol
   - teoggwanjeol-diseukeu-byeonwi
   - teoggwanjeol-gangjigjeung

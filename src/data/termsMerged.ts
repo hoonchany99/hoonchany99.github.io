@@ -17,6 +17,10 @@ export const mergedTerms: Record<string, string> = {
   'impeulranteu-singyeong-sonsang': 'hachijosingyeong-sonsang',
   /** 이갈이 증상 → 이갈이 */
   'igali-jeungsang': 'bruxism',
+  /** 턱관절 장애 자가 진단 → 턱관절장애 */
+  'teoggwanjeol-jangae-jaga-jindan': 'tmd',
+  /** 치아 크랙 → 치아 균열 증후군 */
+  'cracked-tooth': 'chia-gyunyeol-jeunghugun',
 };
 
 export const mergedSlugs = new Set(Object.keys(mergedTerms));
@@ -29,6 +33,8 @@ export const mergedAliases: Record<string, string[]> = {
   'cadcam-dangil-bocheol': ['세렉', 'CEREC', '캐드캠', '당일보철'],
   'hachijosingyeong-sonsang': ['임플란트 신경 손상'],
   bruxism: ['이갈이 증상'],
+  tmd: ['턱관절 자가 진단', '턱관절장애 자가진단'],
+  'chia-gyunyeol-jeunghugun': ['치아 크랙', '크랙', '치아크랙', '치아균열', '금간치아'],
 };
 
 /**

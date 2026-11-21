@@ -32,7 +32,6 @@ sources:
 updated: "2026-08-16"
 relatedTerms:
   - noin-yeonhajangae
-  - teoggwanjeol-jangae-jaga-jindan
   - tmd
   - cavity
 relatedPosts:

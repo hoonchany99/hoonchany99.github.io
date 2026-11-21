@@ -21,16 +21,16 @@ test('라벨', () => {
 });
 
 test('제목 세 종류', () => {
-  assert.equal(guideTitle('임플란트', '임플란트'), '임플란트 선택 전 확인할 3가지');
-  assert.equal(guideTitle('치은염', '잇몸'), '치은염 상담 전 확인할 3가지');
-  assert.equal(guideTitle('어금니', '치아 구조'), '어금니, 진료에서 확인할 3가지');
+  assert.equal(guideTitle('임플란트', '임플란트'), '임플란트 선택 전 확인할 것');
+  assert.equal(guideTitle('치은염', '잇몸'), '치은염 상담 전 확인할 것');
+  assert.equal(guideTitle('어금니', '치아 구조'), '어금니, 진료에서 확인할 것');
 });
 
 test('제목: 20자 넘으면 줄임, 20자는 그대로', () => {
-  assert.equal(guideTitle('상악동 거상술 합병증', '임플란트'), '상악동 거상술 합병증, 확인할 3가지');
-  assert.equal(guideTitle('심혈관 환자 치과', '전신 건강·특수 환자'), '심혈관 환자 치과, 확인할 3가지');
-  const t = guideTitle('가나다라마바사', '교정·교합'); // 「가나다라마바사 선택 전 확인할 3가지」 = 20자
-  assert.equal(t, '가나다라마바사 선택 전 확인할 3가지');
+  assert.equal(guideTitle('상악동 거상술 합병증', '임플란트'), '상악동 거상술 합병증, 확인할 것');
+  assert.equal(guideTitle('심혈관 환자 치과', '전신 건강·특수 환자'), '심혈관 환자 치과, 확인할 것');
+  const t = guideTitle('가나다라마바사아자', '교정·교합'); // 딱 20자는 그대로
+  assert.equal(t, '가나다라마바사아자 선택 전 확인할 것');
   assert.equal(t.length, 20);
 });
 
@@ -45,7 +45,7 @@ test('slug 예외 표: 분야보다 먼저, 실제 있는 slug만', () => {
   assert.equal(guideKind('잇몸', 'scaling'), 'treatment');
   assert.equal(guideKind('발치·수술', 'balchi-hu-juuisahang'), 'concept');
   assert.equal(guideKind('발치·수술', 'extraction'), 'treatment'); // 예외 아님
-  assert.equal(guideTitle('건조와', '발치·수술', 'dry-socket'), '건조와 상담 전 확인할 3가지');
+  assert.equal(guideTitle('건조와', '발치·수술', 'dry-socket'), '건조와 상담 전 확인할 것');
   assert.equal(guideLabel('발치·수술', 'balchi-hu-juuisahang'), '이해 가이드');
   const dir = new URL('../src/content/terms/', import.meta.url);
   const slugs = new Set(fs.readdirSync(dir).filter((f) => f.endsWith('.md')).map((f) => /^termSlug:\s*["']?([^"'\n]+)/m.exec(fs.readFileSync(new URL(f, dir), 'utf-8'))?.[1]));

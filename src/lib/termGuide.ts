@@ -35,7 +35,7 @@ export const GUIDE_KIND_BY_SLUG: Readonly<Record<string, GuideKind>> = {
   'gum-graft': 'treatment',
   'scaling-root-planing': 'treatment',
   'scaling': 'treatment',
-  // 안내 글 → 「진료에서 확인할 3가지」
+  // 안내 글 → 「진료에서 확인할 것」
   'balchi-hu-juuisahang': 'concept',
 };
 
@@ -50,12 +50,12 @@ const LABEL: Record<GuideKind, string> = { treatment: '치료 선택 가이드',
 
 export const guideLabel = (category: string | undefined | null, slug?: string | null): string => LABEL[guideKind(category, slug)];
 
-/** name은 화면 이름(officialName 붙은 제목 말고 짧은 이름). 20자를 넘으면 「{name}, 확인할 3가지」 */
+/** name은 화면 이름(officialName 붙은 제목 말고 짧은 이름). 20자를 넘으면 「{name}, 확인할 것」 */
 export function guideTitle(name: string, category: string | undefined | null, slug?: string | null): string {
   const kind = guideKind(category, slug);
   const full =
-    kind === 'treatment' ? `${name} 선택 전 확인할 3가지`
-    : kind === 'condition' ? `${name} 상담 전 확인할 3가지`
-    : `${name}, 진료에서 확인할 3가지`;
-  return full.length > GUIDE_TITLE_MAX ? `${name}, 확인할 3가지` : full;
+    kind === 'treatment' ? `${name} 선택 전 확인할 것`
+    : kind === 'condition' ? `${name} 상담 전 확인할 것`
+    : `${name}, 진료에서 확인할 것`;
+  return full.length > GUIDE_TITLE_MAX ? `${name}, 확인할 것` : full;
 }

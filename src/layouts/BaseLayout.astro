@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import gaTermEvents from '../scripts/ga-term-events.js?raw';
 
 interface BreadcrumbItem {
   name: string;
@@ -241,6 +242,7 @@ const faqLd = faqSchema?.length ? JSON.stringify({
     gtag('config', 'G-R57Y08MWVH');
   </script>
   )}
+  {contentGroup && <script is:inline set:html={gaTermEvents} />}
 
   <!-- JSON-LD 구조화 데이터 -->
   {websiteLd && <script type="application/ld+json" set:html={websiteLd} />}

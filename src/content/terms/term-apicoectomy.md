@@ -39,6 +39,7 @@ sources:
     title: "서울대학교병원 의학정보: 재근관치료 뒤 병소가 좋아지지 않을 때의 선택"
   - url: "https://www.cochrane.org/CD005511/ORAL_procedures-retreatment-failed-root-canal-therapy"
     title: "Cochrane 문헌고찰: 수술과 비수술 재치료 비교, 근거의 질"
+askCards: [{"question":"재신경치료로 먼저 해 볼 수 있는지, 바로 수술이 필요한 상태인지 알려 주실 수 있을까요?","explanation":"서울대학교병원은 재근관치료 뒤에도 병소가 좋아지지 않으면 수술적 근관치료나 발치를 한다고 설명해요.","sourceLabel":"서울대학교병원 의학정보: 재근관치료 뒤 병소가 호전되지 않을 때의 선택","sourceUrl":"https://www.snuh.org/health/nMedInfo/nView.do?medid=BB000294","citeAfter":1},{"question":"수술과 재신경치료 중 어느 쪽이 더 낫다는 근거가 있나요?","explanation":"Cochrane 문헌고찰은 수술이 재치료보다 낫다는 분명한 근거를 찾지 못했고, 근거의 확실성도 낮거나 매우 낮다고 평가했어요.","sourceLabel":"Cochrane 문헌고찰: 수술과 비수술 재치료 비교, 근거의 확실성","sourceUrl":"https://www.cochrane.org/CD005511/ORAL_procedures-retreatment-failed-root-canal-therapy","citeAfter":1},{"question":"수술은 어떤 순서로 하고, 회복에는 얼마나 걸리나요?","explanation":"미국근관치료학회는 마취 후 잇몸을 열어 염증 조직과 뿌리 끝을 제거하고 필요하면 충전한 뒤 봉합하며, 이후 몇 달에 걸쳐 뼈가 아문다고 안내해요.","sourceLabel":"미국근관치료학회(AAE): 치근단절제술의 순서와 회복","sourceUrl":"https://www.aae.org/patients/?p=30","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - root-canal-re

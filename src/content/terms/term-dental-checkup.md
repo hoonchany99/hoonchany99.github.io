@@ -52,7 +52,7 @@ sources:
     title: "MSD 매뉴얼 일반인용: 초기 충치는 증상이 없어 정기 검진·X-ray로 발견"
   - url: "https://amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32462"
     title: "서울아산병원: 충치 진단에 방사선 사진 필요"
-askCards: [{"question":"제 입 상태라면 다음 검진은 언제가 좋을까요?","explanation":"검진 간격은 치아·잇몸 상태와 앞으로 문제가 생길 위험에 따라 정해요. 위험이 낮으면 길어지고, 문제가 많으면 짧아질 수 있어서 직접 물어보는 게 가장 정확해요.","sourceLabel":"영국 국민보건서비스(NHS): 검진 간격은 상태와 위험도에 따라 결정","sourceUrl":"https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups/","citeAfter":1},{"question":"올해 건강보험 스케일링을 이미 받았는지 알 수 있을까요?","explanation":"건강보험 스케일링은 달력 기준 1년에 1회만 적용돼요. 치과나 공단에서 올해 횟수를 확인할 수 있어요.","sourceLabel":"국민건강보험공단: 스케일링 급여 횟수","sourceUrl":"https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html","citeAfter":1}]
+askCards: [{"question":"제 입 상태라면 다음 검진은 언제가 좋을까요?","explanation":"영국 NHS는 성인의 검진 간격이 3개월에서 2년까지이고, 치아와 잇몸 상태와 앞으로의 위험에 따라 정한다고 안내해요.","sourceLabel":"영국 국민보건서비스(NHS): 성인 검진 간격","sourceUrl":"https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups/","citeAfter":1},{"question":"오늘 검진에서 X-ray를 찍는 이유가 무엇인가요?","explanation":"서울아산병원은 충치를 눈으로 살피고 탐침으로 확인하는 것과 함께 방사선 사진 촬영이 진단에 필수적이라고 설명해요.","sourceLabel":"서울아산병원: 충치 진단 방법","sourceUrl":"https://amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32462","citeAfter":1},{"question":"올해 건강보험 스케일링을 이미 받았는지 확인할 수 있을까요?","explanation":"국민건강보험공단은 만 19세 이상 스케일링을 연 1회 건강보험으로 적용하고, 받은 횟수는 치과나 공단 지사, 홈페이지, 모바일 앱에서 확인할 수 있다고 안내해요.","sourceLabel":"국민건강보험공단: 스케일링 적용 횟수와 확인 방법","sourceUrl":"https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - scaling

@@ -43,6 +43,7 @@ sources:
     title: "Oral and Maxillofacial Surgery(2025) 문헌고찰 종합 검토: 기존 전체 치아 재건과 비교"
   - url: "https://europepmc.org/article/MED/35168818"
     title: "The Journal of Prosthetic Dentistry(2023) 후향 연구: 주변 뼈 소실과 관련된 요인"
+askCards: [{"question":"제 턱뼈 상태에서 All-on-4가 맞는지, 뼈이식을 피할 수 있는지 검사로 확인해 주실 수 있을까요?","explanation":"한 체계적 문헌고찰은 이 방식을 재건 시술을 원하지 않는 위축된 턱에서 예측 가능한 선택지로 설명했어요. 내 뼈 상태가 여기에 해당하는지가 확인할 부분이에요.","sourceLabel":"Journal of Clinical and Experimental Dentistry(2017) 체계적 문헌고찰: 위축된 턱에서의 선택지","sourceUrl":"https://europepmc.org/article/MED/28298995","citeAfter":1},{"question":"이 치료는 연구 근거가 어느 정도이고, 추적 기간은 얼마나 된 연구인지 설명해 주실 수 있을까요?","explanation":"2017년 체계적 문헌고찰은 포함된 연구의 방법론적 질이 약하고 추적 기간이 충분하지 않다고 지적했어요.","sourceLabel":"Journal of Clinical and Experimental Dentistry(2017) 체계적 문헌고찰: 방법론의 질과 추적 기간의 한계","sourceUrl":"https://europepmc.org/article/MED/28298995","citeAfter":1},{"question":"흡연이나 이갈이, 당뇨가 있으면 장기 경과에 어떤 영향이 있을까요?","explanation":"한 후향 연구에서 흡연, 이갈이, 전신 질환, 기울인 임플란트, 긴 캔틸레버 등이 임플란트 주변 뼈가 더 줄어드는 것과 관련 있었어요.","sourceLabel":"The Journal of Prosthetic Dentistry(2023) 후향 연구: 주변 뼈 소실과 관련된 요인","sourceUrl":"https://europepmc.org/article/MED/35168818","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - implant

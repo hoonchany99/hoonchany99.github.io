@@ -44,7 +44,7 @@ sources:
     title: "영국 국민보건서비스(NHS): 어린이 불소 치약 양, 양치 뒤 뱉고 헹구지 않기"
   - url: "https://www.nhs.uk/conditions/tooth-decay/"
     title: "영국 국민보건서비스(NHS): 불소 치약과 충치 예방"
-askCards: [{"question":"우리 아이는 지금 나이에 불소 치약을 얼마나 써야 하나요?","explanation":"3세 미만은 쌀알 크기, 3~6세는 완두콩 크기를 쓰고 삼키지 않게 지켜봐 주라고 안내해요. 아이 나이와 양치 습관에 맞게 확인해 보세요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 어린이 불소 치약 양","sourceUrl":"https://www.mouthhealthy.org/en/fluoride","citeAfter":1}]
+askCards: [{"question":"아이 나이에 맞는 불소 치약 양을 알려 주실 수 있을까요?","explanation":"미국치과의사협회는 3세 미만은 쌀알 크기 이하, 3~6세는 완두콩 크기 이하를 쓰고 어린이 양치는 보호자가 지켜보라고 안내해요.","sourceLabel":"미국치과의사협회(ADA): 연령별 불소 치약 양과 보호자 지도","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements","citeAfter":1},{"question":"치과에서 하는 불소 도포가 저나 아이에게 필요한지, 얼마나 자주 받는지 알려 주실 수 있을까요?","explanation":"미국 예방서비스 태스크포스는 첫 유치가 난 영유아와 어린이의 유치에 불소 바니시를 권고하고, ADA 자료는 효과 유지를 위해 연 2회 이상 반복이 필요하다고 소개해요.","sourceLabel":"미국치과의사협회(ADA): 불소 바니시 권고와 횟수","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements","citeAfter":1},{"question":"불소 치약으로 양치한 뒤에는 물로 헹궈도 되나요?","explanation":"영국 NHS는 양치 뒤 남은 치약은 뱉고 물로 헹구지 않아야 치아에 남은 불소의 보호 효과가 유지된다고 안내해요.","sourceLabel":"영국 국민보건서비스(NHS): 양치 뒤 뱉기","sourceUrl":"https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - bulso-dopo

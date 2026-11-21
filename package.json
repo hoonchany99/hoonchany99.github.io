@@ -10,6 +10,7 @@
     "test-term-links": "tsx --test scripts/term-links.test.ts",
     "test-indexnow": "tsx --test scripts/indexnow.test.ts",
     "test-ga-events": "tsx --test scripts/ga-term-events.test.ts",
+    "test-schema-jsonld": "tsx --test scripts/schema-jsonld.test.ts",
     "preview": "astro preview",
     "generate-embeddings": "tsx scripts/generate-embeddings.ts",
     "generate-terms": "tsx scripts/generate-terms-from-posts.ts",

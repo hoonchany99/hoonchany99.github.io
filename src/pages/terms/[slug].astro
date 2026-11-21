@@ -177,10 +177,9 @@ const definedTermLd = JSON.stringify({
     name: '윤원장의 치과사전',
     url: new URL('/terms/', Astro.site).href,
   },
-  inLanguage: 'ko',
+  // inLanguage·citation·dateModified는 CreativeWork 속성이라 DefinedTerm(Intangible)에는 못 써요(schema.org 검증 오류).
+  // 같은 정보는 BaseLayout의 Article JSON-LD(inLanguage·dateModified·citation)에 이미 실려 있어요.
   ...(figureUrl ? { image: figureUrl } : {}),
-  ...(term.data.sources.length ? { citation: sourceItems.map((s) => s.url) } : {}),
-  ...((term.data.reviewed ?? term.data.updated) ? { dateModified: term.data.reviewed ?? term.data.updated } : {}),
 });
 ---
 
@@ -193,6 +192,7 @@ const definedTermLd = JSON.stringify({
   description={description}
   type="article"
   tags={[term.data.name, ...synonymList]}
+  citations={term.data.sources.length ? sourceItems.map((s) => s.url) : []}
   faqSchema={term.data.faqs}
   breadcrumbs={[
     { name: '홈', url: '/' },

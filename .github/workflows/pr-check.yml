@@ -45,6 +45,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: JSON-LD matches schema.org
+        run: npm run test-schema-jsonld
+
       - name: Built pages are there
         run: |
           test -f dist/index.html

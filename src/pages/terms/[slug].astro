@@ -178,6 +178,7 @@ const definedTermLd = JSON.stringify({
   publishedDate={term.data.updated ? new Date(term.data.updated) : undefined}
   reviewedDate={term.data.reviewed ? new Date(term.data.reviewed) : undefined}
   medicalWebPage={true}
+  contentGroup={hasSections ? 'term_v2' : 'term_v1'}
   description={description}
   type="article"
   tags={[term.data.name, ...synonymList]}

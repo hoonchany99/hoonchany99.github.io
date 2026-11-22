@@ -41,6 +41,8 @@ relatedTerms:
   - gold-inlay
   - crown
   - cadcam-dangil-bocheol
+  - resin
+  - tooth-fracture
 relatedPosts:
   []
 ---

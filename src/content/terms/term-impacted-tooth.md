@@ -70,6 +70,7 @@ relatedTerms:
   - pericoronitis
   - iso-maengchul
   - chia-maengchul-jiyeon
+  - supernumerary
 relatedPosts:
   - slug: wisdom-tooth-4202
     title: "사랑니 꼭 뽑아야 할까? 유지 가능한 경우와 필요한 경우"

@@ -65,6 +65,8 @@ relatedTerms:
   - balchi-hu-juuisahang
   - balchi-hu-chulhyeol
   - extraction
+  - pericoronitis
+  - wisdom-tooth
 relatedPosts:
   []
 ---

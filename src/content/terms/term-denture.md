@@ -51,7 +51,7 @@ relatedTerms:
   - implant
   - bridge
   - teulni-gwanribeob
-  - noin-uichi-jeogeung
+  - prosthesis
   - all-on-4
 relatedPosts:
   []

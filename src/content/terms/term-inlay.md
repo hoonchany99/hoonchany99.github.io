@@ -47,6 +47,7 @@ relatedTerms:
   - crown
   - cavity
   - cadcam-dangil-bocheol
+  - resin
 relatedPosts:
   - slug: inlay
     title: "인레이, 가격은 어느 정도일까? 재료별 & 병원별 비교"

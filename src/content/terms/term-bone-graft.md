@@ -49,6 +49,7 @@ relatedTerms:
   - golisigjae
   - sinus-lift
   - gum-graft
+  - osseointegration
 relatedPosts:
   - slug: implant
     title: "뼈가 부족하면 임플란트 안 될까? 뼈 이식이 필요한 경우는?"

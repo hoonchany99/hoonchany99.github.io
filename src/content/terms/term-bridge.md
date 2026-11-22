@@ -44,6 +44,7 @@ relatedTerms:
   - jidaechi
   - prosthesis
   - bocheol-sumyeong
+  - pfm
 relatedPosts:
   []
 ---

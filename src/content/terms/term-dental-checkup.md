@@ -60,6 +60,7 @@ relatedTerms:
   - soa-gugang-geomjin
   - gugga-muryo-geomjin
   - chiju-yujigwanri
+  - tooth-gem
 relatedPosts:
   []
 ---

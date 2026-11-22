@@ -97,7 +97,7 @@ relatedTerms:
   - root-canal
   - icha-usig
   - yua-usig
-  - noin-bburi-usig
+  - sealant
 relatedPosts:
   - slug: crown-inlay-cavity
     title: "충치 치료, 비용은 얼마나 들까? 레진, 인레이, 크라운 단계별 가격 정리"

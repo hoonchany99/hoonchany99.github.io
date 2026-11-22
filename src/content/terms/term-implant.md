@@ -56,12 +56,12 @@ sources:
 askCards: [{"question":"제 뼈가 임플란트를 심기에 충분한지, 뼈이식이 필요하면 기간이 얼마나 늘어나는지 알 수 있을까요?","explanation":"케임브리지대학병원은 뼈가 부족하면 이식이 필요할 수 있고, 뼈이식이 치료를 최소 4개월 늘린다고 안내해요.","sourceLabel":"케임브리지대학병원(NHS): 뼈이식은 치료에 최소 4개월 추가","sourceUrl":"https://www.cuh.nhs.uk/patient-information/dental-implants-in-restorative-dentistry/","citeAfter":1},{"question":"1단계와 2단계 중 어떤 방식으로 진행하고, 뼈 속에서 붙는 기간은 어느 정도인지 알 수 있을까요?","explanation":"같은 안내문에서 뼈 속 치유는 보통 3~6개월이고 더 걸릴 수 있으며, 1단계·2단계 방식은 검사 뒤 정한다고 해요.","sourceLabel":"케임브리지대학병원(NHS): 1단계·2단계 방식과 치유 3~6개월","sourceUrl":"https://www.cuh.nhs.uk/patient-information/dental-implants-in-restorative-dentistry/","citeAfter":1},{"question":"흡연·당뇨·잇몸병 이력이 있으면 임플란트에 어떤 위험이 있는지 알 수 있을까요?","explanation":"AAP는 임플란트 주위 질환의 위험 요인으로 잇몸병을 앓은 적이 있는 것, 치태 관리 부족, 흡연, 당뇨를 들어요.","sourceLabel":"미국치주과학회(AAP): 임플란트 주위 질환의 위험 요인","sourceUrl":"https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/peri-implant-diseases/","citeAfter":1},{"question":"심은 뒤에는 집에서 어떻게 관리하고 얼마나 자주 검진받아야 하는지 알 수 있을까요?","explanation":"케임브리지대학병원은 치과나 치위생사에게 3~6개월마다 검진과 청소를 받으라고 안내해요.","sourceLabel":"케임브리지대학병원(NHS): 3~6개월마다 정기 검진","sourceUrl":"https://www.cuh.nhs.uk/patient-information/dental-implants-in-restorative-dentistry/","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - immediate-implant
-  - all-on-4
   - bridge
   - denture
   - osseointegration
+  - sinus-lift
   - peri-implantitis
+  - impeulranteu-sumyeong
 relatedPosts:
   - slug: implant-pain-recovery
     title: "임플란트 수술 후 통증, 며칠까지가 정상일까? 단계별 회복 기준"

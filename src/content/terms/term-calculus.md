@@ -47,6 +47,7 @@ relatedTerms:
   - gingivitis
   - periodontitis
   - floss
+  - periodontal-pocket
 relatedPosts:
   []
 ---

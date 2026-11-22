@@ -22,7 +22,7 @@ detail: |
   시술은 치아를 깎지 않고, 표면을 세척·건조한 뒤 재료를 도포·경화하는 방식이 흔해요. 미국치과의사협회(ADA)는 치아를 씻고 말린 뒤 산성 젤로 표면을 거칠게 하고, 홈에 재료를 넣어 푸른빛으로 굳힌다고 설명해요. [근거](https://www.mouthhealthy.org/all-topics-a-z/sealants "미국치과의사협회(ADA) MouthHealthy: 세척·건조, 산 처리, 재료 도포, 빛으로 경화") 한 번에 여러 개 치아에 할 수 있고, 통증은 거의 없는 편입니다. ADA는 빠르고 통증이 없는 과정이라고 해요. [근거](https://www.mouthhealthy.org/all-topics-a-z/sealants "미국치과의사협회(ADA) MouthHealthy: 빠르고 통증 없는 과정")
 
   ## 보험 적용 기준은 어떤가요
-  보험 적용 연령·조건은 규정을 확인해야 해요. 국민건강보험공단 안내(2022년 5월 소식지 기준)로는 충치가 없는 만 18세 이하 어린이·청소년의 어금니 8개가 대상이고, 본인부담금은 10%예요. [근거](https://www.nhis.or.kr/static/alim/paper/oldpaper/202205/sub/26.html "국민건강보험공단 소식지(2022년 5월호): 충치 없는 만 18세 이하, 어금니 8개 대상, 본인부담금 10%") 기준은 바뀔 수 있어 치과에서 확인해 주세요.
+  건강보험에서는 충치가 없는 만 18세 이하의 첫째·둘째 큰어금니(제1·제2대구치)에 하는 치아 홈메우기(실란트)에 적용돼요(본인부담 10%). [근거](https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차39: 18세 이하, 치아우식증에 이환되지 않은 제1·제2큰어금니") [근거](https://www.hira.or.kr/cms/inform/01/1356652_27106.html "건강보험심사평가원 공지(보험급여과-7161호, 2017년 9월 29일): 18세 이하 치아홈메우기 본인부담률 10%") 탈락이나 파절로 2년 이내에 같은 치과에서 같은 치아에 다시 도포하면 별도로 산정하지 않아요. [근거](https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차39: 2년 이내 동일 의료기관 동일 치아 재도포는 별도 산정 불가") 기준은 바뀔 수 있어 치과에서 확인해 주세요. 기준은 바뀔 수 있어 치과에서 확인해 주세요.
 
   ## 얼마나 가고, 충치를 다 막나요
   수명은 보통 수년 전후인 경우가 많아요. ADA도 실란트가 보통 몇 년 유지된 뒤 다시 해야 할 수 있다고 안내해요. [근거](https://www.mouthhealthy.org/all-topics-a-z/sealants "미국치과의사협회(ADA) MouthHealthy: 보통 몇 년 유지, 재도포 필요할 수 있음") 마모·탈락이 있으면 재도포할 수 있습니다. 정기 검진 때 치과의사가 상태를 보고 필요하면 다시 해요. [근거](https://www.mouthhealthy.org/all-topics-a-z/sealants "미국치과의사협회(ADA) MouthHealthy: 정기 검진 때 상태 확인, 필요하면 재도포") 실란트만으로 충치가 0%는 아니에요. ADA는 실란트가 양치와 치실을 대신하지 못한다고 해요. [근거](https://www.mouthhealthy.org/all-topics-a-z/sealants "미국치과의사협회(ADA) MouthHealthy: 양치·치실을 대신하지 않음") [불소](/terms/fluoride/)·양치·[정기 검진](/terms/dental-checkup/)과 함께해야 효과가 큽니다. 코크란 리뷰는 어린이 영구 어금니에서 2년 뒤 충치가 11~51% 줄었다고 보고했고, 근거 수준은 중간이라고 평가했어요. [근거](https://www.cochrane.org/evidence/CD001830_sealants-preventing-dental-caries-permanent-teeth "코크란 리뷰(2017): 레진 실란트가 2년 뒤 충치를 11~51% 줄임, 근거 수준 중간")
@@ -36,7 +36,7 @@ faqs:
   - question: "실란트는 얼마나 오래 가나요?"
     answer: "보통 수년 전후인 경우가 많아요. 마모·탈락이 있으면 재도포할 수 있습니다. 정기 검진 때 상태를 확인해요."
   - question: "실란트 보험 적용되나요?"
-    answer: "연령·치아·규정에 따라 건강보험 적용 여부가 달라질 수 있어요. 치과에서 조건을 확인할 수 있어요."
+    answer: "건강보험에서는 충치가 없는 만 18세 이하의 첫째·둘째 큰어금니에 적용돼요(본인부담 10%). 연령·치아·규정에 따라 적용 여부가 달라질 수 있어요. 치과에서 조건을 확인할 수 있어요."
   - question: "실란트를 하고 나서도 정기 검진을 받아야 하나요?"
     answer: "네, 정기 검진 때 실란트가 닳거나 떨어지지 않았는지 보고 필요하면 다시 해요. 실란트가 있어도 양치와 치실은 계속해야 합니다."
   - question: "실란트 재료는 몸에 해롭지 않은가요?"
@@ -50,6 +50,10 @@ sources:
     title: "코크란 리뷰(2017): 영구 어금니 레진 실란트의 충치 예방 효과와 부작용 자료"
   - url: "https://www.nhis.or.kr/static/alim/paper/oldpaper/202205/sub/26.html"
     title: "국민건강보험공단 소식지(2022년 5월호): 실란트 건강보험 대상과 본인부담금"
+  - url: "https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf"
+    title: "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차39 치면열구전색술(치아 홈메우기) 급여 기준"
+  - url: "https://www.hira.or.kr/cms/inform/01/1356652_27106.html"
+    title: "건강보험심사평가원 공지(보험급여과-7161호, 2017년 9월 29일): 18세 이하 치아홈메우기 본인부담률 10%"
 askCards: [{"question":"어느 어금니에 실란트가 필요하고, 지금이 적당한 시기인가요?","explanation":"CDC는 영구 어금니가 난 직후, 첫 번째 어금니는 6세쯤 두 번째 어금니는 12세쯤 하는 것이 가장 효과적이라고 안내해요.","sourceLabel":"미국 질병통제예방센터(CDC) 치아 실란트: 적용 시기","sourceUrl":"https://www.cdc.gov/oral-health/prevention/about-dental-sealants.html","citeAfter":1},{"question":"건강보험이 적용되는 나이와 치아인가요?","explanation":"국민건강보험공단은 2022년 기준으로 충치가 없는 만 18세 이하 어린이·청소년의 어금니 8개가 대상이고 본인부담금은 10%라고 안내해요.","sourceLabel":"국민건강보험공단 소식지: 실란트 건강보험 기준","sourceUrl":"https://www.nhis.or.kr/static/alim/paper/oldpaper/202205/sub/26.html","citeAfter":1},{"question":"언제 다시 확인하고, 떨어지면 다시 할 수 있나요?","explanation":"ADA는 실란트가 보통 몇 년 유지되고, 정기 검진 때 상태를 확인해 필요하면 다시 한다고 설명해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 실란트 점검과 재도포","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/sealants","citeAfter":1}]
 updated: "2026-08-16"
 reviewed: "2026-11-23"

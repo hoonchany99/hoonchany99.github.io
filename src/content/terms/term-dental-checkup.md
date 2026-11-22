@@ -24,7 +24,7 @@ detail: |
   6개월~1년마다 받으시는 분이 많아요. 영국 NHS는 성인은 3개월에서 2년까지 간격이 사람마다 다르다고 안내해요. 치아와 잇몸이 건강하고 앞으로 문제가 생길 위험이 낮으면 간격이 길어지고, 문제가 많으면 더 자주 오라고 해요. [근거](https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups/ "영국 국민보건서비스(NHS): 성인 3개월~2년, 상태와 위험도에 따라 간격 결정") 성인 대상 코크란 리뷰에서는 6개월마다 받는 것과 위험도에 따라 정하는 것 사이에 [충치](/terms/cavity/)·잇몸병·삶의 질 차이가 거의 없었고, 24개월 간격도 비슷하다고 정리했어요. [근거](https://www.cochrane.org/CD004346/ORAL_dental-check-up-intervals "코크란: 성인 정기검진 간격 6개월 vs 위험도 기반 vs 24개월 비교") 당뇨·임신·[교정](/terms/orthodontics/)·[임플란트](/terms/implant/)·치주염이 있으면 더 자주 권할 수 있습니다. 영국 NHS는 임신 중이거나 2형 당뇨가 있으면 위생사 진료를 포함해 정기적으로 치과에 가라고 안내해요. [근거](https://www.nhs.uk/conditions/gum-disease/ "영국 국민보건서비스(NHS): 임신·2형 당뇨가 있을 때 정기 치과 방문")
 
   ## 건강보험 스케일링은 어떻게 적용되나요
-  만 19세 이상 건강보험 가입자와 피부양자가 [스케일링](/terms/scaling/)만을 위해 받을 때 건강보험이 적용돼요. 1월 1일부터 12월 31일까지를 1년으로 보고 1회까지만 적용되며, 횟수를 넘으면 비급여예요. 만 19세 미만은 일반 스케일링이 아니라 잇몸 수술 전 단계의 [치석](/terms/calculus/) 제거에 한해 적용될 수 있어요. [근거](https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html "국민건강보험공단: 만 19세 이상 연 1회 스케일링 급여, 초과 시 비급여") 올해 몇 번 받았는지는 치과나 공단 지사, 공단 홈페이지, 모바일 앱에서 확인할 수 있어요. [근거](https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html "국민건강보험공단: 연간 급여 횟수 확인 방법")
+  만 19세 이상 건강보험 가입자와 피부양자가 [스케일링](/terms/scaling/)만을 위해 받을 때 건강보험이 적용돼요. 1월 1일부터 12월 31일까지를 1년으로 보고 1회까지만 적용되며, 횟수를 넘으면 비급여예요. 본인부담은 30%예요. [근거](https://www.nhis.or.kr/static/alim/paper/oldpaper/202209/sub/06.html "국민건강보험공단 건강보험 웹진(2022년 9월호): 스케일링 본인부담률 30%") 만 19세 미만은 일반 스케일링이 아니라 잇몸병 치료를 위한 [치석](/terms/calculus/) 제거에 한해 상태에 따라 적용될 수 있어요. [근거](https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차23-1: 19세 미만은 치주질환에 실시한 치석제거 등 가목 기준") 초과하면 비급여예요. [근거](https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html "국민건강보험공단: 만 19세 이상 연 1회 스케일링 급여, 초과 시 비급여") 올해 몇 번 받았는지는 치과나 공단 지사, 공단 홈페이지, 모바일 앱에서 확인할 수 있어요. [근거](https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html "국민건강보험공단: 연간 급여 횟수 확인 방법")
 
   ## !검진 날짜를 기다리지 말고 확인할 때
   양치나 치실을 쓸 때, 딱딱한 음식을 먹을 때 잇몸에서 피가 나면 치과에 가라고 안내해요. 잇몸이 많이 붓고 아프거나, 이가 흔들리거나, 입안에 궤양·붉은 반점·혹이 있으면 빨리 가야 해요. [근거](https://www.nhs.uk/conditions/gum-disease/ "영국 국민보건서비스(NHS): 잇몸 출혈과 서둘러 진료받아야 하는 신호")
@@ -52,8 +52,13 @@ sources:
     title: "MSD 매뉴얼 일반인용: 초기 충치는 증상이 없어 정기 검진·X-ray로 발견"
   - url: "https://amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32462"
     title: "서울아산병원: 충치 진단에 방사선 사진 필요"
+  - url: "https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf"
+    title: "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차23-1 스케일링 급여 기준"
+  - url: "https://www.nhis.or.kr/static/alim/paper/oldpaper/202209/sub/06.html"
+    title: "국민건강보험공단 건강보험 웹진(2022년 9월호): 스케일링 본인부담률"
 askCards: [{"question":"제 입 상태라면 다음 검진은 언제가 좋을까요?","explanation":"영국 NHS는 성인의 검진 간격이 3개월에서 2년까지이고, 치아와 잇몸 상태와 앞으로의 위험에 따라 정한다고 안내해요.","sourceLabel":"영국 국민보건서비스(NHS): 성인 검진 간격","sourceUrl":"https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-check-ups/","citeAfter":1},{"question":"오늘 검진에서 X-ray를 찍는 이유가 무엇인가요?","explanation":"서울아산병원은 충치를 눈으로 살피고 탐침으로 확인하는 것과 함께 방사선 사진 촬영이 진단에 필수적이라고 설명해요.","sourceLabel":"서울아산병원: 충치 진단 방법","sourceUrl":"https://amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32462","citeAfter":1},{"question":"올해 건강보험 스케일링을 이미 받았는지 확인할 수 있을까요?","explanation":"국민건강보험공단은 만 19세 이상 스케일링을 연 1회 건강보험으로 적용하고, 받은 횟수는 치과나 공단 지사, 홈페이지, 모바일 앱에서 확인할 수 있다고 안내해요.","sourceLabel":"국민건강보험공단: 스케일링 적용 횟수와 확인 방법","sourceUrl":"https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html","citeAfter":1}]
 updated: "2026-08-16"
+reviewed: "2026-11-23"
 relatedTerms:
   - scaling
   - panorama

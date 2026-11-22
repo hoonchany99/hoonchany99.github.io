@@ -27,6 +27,9 @@ detail: |
   ## 신경치료 뒤 크라운이 필요한가요
   신경을 제거한 치아는 약해질 수 있어요. 완료 후 [크라운](/terms/crown/)으로 감싸 보호하는 경우가 많습니다. 미국근관치료학회는 뒤쪽 치아는 파절을 막으려고 크라운이 필요한 경우가 많고, 앞니는 남은 치아 구조에 따라 꼭 필요하지 않을 수 있다고 안내해요. [근거](https://www.aae.org/patients/root-canal-treatment/myths-root-canals/ "미국근관치료학회(AAE): 뒤쪽 치아는 파절 방지용 크라운이 필요한 경우가 많고, 앞니는 남은 치아 구조에 따라 다름") 크라운을 받칠 때는 금속·플라스틱 [포스트](/terms/post-core/)를 근관에 넣기도 해요. [근거](https://www.mouthhealthy.org/all-topics-a-z/root-canals "미국치과의사협회(ADA) MouthHealthy: 크라운을 받치려고 포스트를 넣을 수 있음") 영구 수복물을 제때 하는 것이 장기 성공에 중요한 요인이에요. [근거](https://www.aae.org/patients/root-canal-treatment/myths-root-canals/ "미국근관치료학회(AAE): 영구 수복물 시기가 핵심 요인")
 
+  ## 건강보험은 어떻게 적용되나요
+  건강보험에서는 근관치료(신경치료)가 급여 항목이에요. [근거](https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차11·차19-1 등: 근관세척·근관확대·기존 충전물 제거 급여 기준") 신경치료 뒤의 충전재와 보철은 항목에 따라 급여 여부가 달라요.
+
   ## !치료 뒤 통증과 다시 확인할 신호
   치료 뒤 며칠 동안은 치아가 예민할 수 있어요. [근거](https://www.mouthhealthy.org/all-topics-a-z/root-canals "미국치과의사협회(ADA) MouthHealthy: 치료 뒤 며칠 민감할 수 있음") 영국 NHS는 붓기와 쑤심이 2주쯤 안에 좋아진다고 안내해요. [근거](https://www.nhs.uk/conditions/root-canal-treatment/ "영국 국민보건서비스(NHS): 붓기·통증은 2주쯤 안에 호전") 재신경치료가 필요한 경우도 있어요. 씹을 때 깊은 통증, 잇몸 부종, 오래 지속되는 불편감이 있으면 다시 확인해 보는 게 좋아요. 신경치료한 치아도 몇 달이나 몇 년 뒤 다시 아프거나 병이 생길 수 있어요. [근거](https://www.aae.org/patients/?p=24 "미국근관치료학회(AAE): 신경치료한 치아도 몇 달·몇 년 뒤 다시 병들 수 있음")
 
@@ -38,7 +41,7 @@ faqs:
   - question: "신경치료와 발치 중 뭐가 나을까요?"
     answer: "치아 뿌리·주변 뼈 상태, 보철 가능 여부, 비용·기간 등을 종합해 결정해요. 살릴 수 있으면 신경치료+보철을, 예후가 불리하면 발치·임플란트·브릿지 등을 검토할 수 있습니다."
   - question: "신경치료 비용과 보험 적용은 어떻게 되나요?"
-    answer: "보험 적용은 상태·항목에 따라 달라요. 치과나 건강보험심사평가원에서 확인해 보세요. 재신경치료·특수 기구·크라운 등은 별도 비용이 발생할 수 있습니다. 치료 계획과 함께 확인해 드려요."
+    answer: "건강보험에서는 신경치료(근관치료)가 급여 항목이에요. 재료와 이후 보철은 항목에 따라 달라요. 치과나 건강보험심사평가원에서 확인해 보세요. 재신경치료·특수 기구·크라운 등은 별도 비용이 발생할 수 있습니다. 치료 계획과 함께 확인해 드려요."
   - question: "신경치료 후에도 아프면 재신경치료가 필요한가요?"
     answer: "일시적 불편과 재감염·근단염은 다를 수 있어요. 씹을 때 깊은 통증, 잇몸 부종, 오래 지속되는 증상이 있으면 X-ray 등으로 다시 확인하는 게 좋습니다."
   - question: "신경치료 후 꼭 크라운을 해야 하나요?"
@@ -58,6 +61,8 @@ sources:
     title: "미국근관치료학회(AAE): 신경치료의 통증, 자연 치아 보존, 크라운"
   - url: "https://www.aae.org/patients/?p=24"
     title: "미국근관치료학회(AAE): 재신경치료가 필요한 이유"
+  - url: "https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf"
+    title: "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차11·차19-1 등 근관치료 급여 기준"
 askCards: [{"question":"이 치아를 발치하지 않고 신경치료로 살릴 수 있는지, 살리기 어려운 이유가 있는지 알려 주실 수 있나요?","explanation":"미국근관치료학회는 심하게 부서졌거나 잇몸 아래에서 부러졌거나 뼈 지지가 부족한 치아는 살리기 어려울 수 있고, 살릴 수 있는지는 근관치료 전문의가 평가한다고 안내해요.","sourceLabel":"미국근관치료학회(AAE): 살릴 수 있는 치아의 기준","sourceUrl":"https://www.aae.org/patients/root-canal-treatment/myths-root-canals/","citeAfter":1},{"question":"치료 뒤 크라운은 꼭 해야 하고, 언제까지 마쳐야 하나요?","explanation":"미국근관치료학회는 뒤쪽 치아는 파절을 막으려고 크라운이 필요한 경우가 많고, 앞니는 남은 치아 구조에 따라 다르며, 영구 수복물을 제때 하는 것이 중요하다고 안내해요.","sourceLabel":"미국근관치료학회(AAE): 신경치료 뒤 수복물","sourceUrl":"https://www.aae.org/patients/root-canal-treatment/myths-root-canals/","citeAfter":1},{"question":"치료 중 마취와 치료 뒤 통증은 어느 정도로 예상해야 하나요?","explanation":"미국근관치료학회는 치아를 충분히 마취하면 아픔 대신 압력이나 움직임만 느끼고, 치료 뒤 며칠간 가벼운 민감함이 있을 수 있다고 안내해요.","sourceLabel":"미국근관치료학회(AAE): 신경치료 중·후 통증","sourceUrl":"https://www.aae.org/patients/root-canal-treatment/myths-root-canals/","citeAfter":1}]
 updated: "2026-08-16"
 reviewed: "2026-11-23"

@@ -47,6 +47,7 @@ relatedTerms:
   - whitening
   - tooth-discoloration
   - hwaiteu-seupas
+  - tooth-gem
 relatedPosts:
   - slug: laminate-5427
     title: "라미네이트 색상, 어떻게 고를까? ‘티 안 나는 자연스러움’의 기준"

@@ -46,12 +46,12 @@ sources:
 askCards: [{"question":"제 치아는 왜 크라운이 필요한가요? 다른 방법은 없나요?","explanation":"미국치과의사협회는 큰 충전물을 넣으면 치아가 너무 적게 남을 때나 약한 치아가 부러지지 않게 보호할 때 크라운을 한다고 설명해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 크라운이 필요한 경우","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/crowns","citeAfter":1},{"question":"재료마다 장단점이 어떻게 다른지, 제 치아에는 어느 것이 맞는지 알려 주실 수 있을까요?","explanation":"MedlinePlus는 금속은 튼튼하고 잘 깨지지 않지만 색이 자연스럽지 않고, 세라믹은 치아색과 맞추기 쉽다고 안내해요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 크라운 재료별 특징","sourceUrl":"https://medlineplus.gov/ency/article/007631.htm","citeAfter":1},{"question":"이갈이가 있는데 크라운이 깨질 위험이 있을까요?","explanation":"MedlinePlus는 이를 갈거나 악물면 크라운이 깨질 수 있고, 나이트가드나 교합 보호장치가 도움이 될 수 있다고 안내해요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 이갈이와 크라운 파절","sourceUrl":"https://medlineplus.gov/ency/article/007631.htm","citeAfter":1},{"question":"크라운은 보통 몇 년 정도 쓰고, 오래 쓰려면 무엇을 신경 써야 하나요?","explanation":"MedlinePlus는 대부분의 크라운이 최소 5년, 일부는 15~20년까지 쓰인다고 안내하고, 관리에 따라 달라요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 크라운 수명","sourceUrl":"https://medlineplus.gov/ency/article/007631.htm","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
-  - laminate
+  - prosthesis
+  - root-canal
   - inlay
   - onlay
   - zirconia
   - pfm
-  - post-core
 relatedPosts:
   - slug: zirconia-crown-price
     title: "크라운 재료별 가격, 골드·지르코니아·PFM 어떤 게 나을까?"

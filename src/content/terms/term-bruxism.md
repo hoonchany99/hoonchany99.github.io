@@ -73,6 +73,7 @@ relatedTerms:
   - igali-botogseu
   - tmd
   - chia-mamojeung
+  - chia-gyunyeol-jeunghugun
 relatedPosts:
   []
 ---

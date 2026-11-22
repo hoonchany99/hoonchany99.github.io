@@ -52,6 +52,7 @@ relatedTerms:
   - chiyag
   - sealant
   - eorini-chungchi-yebang
+  - yua-usig
 relatedPosts:
   - slug: toothpaste-fluoride
     title: "무불소 치약만으로 충분할까? 장단점과 선택 기준"

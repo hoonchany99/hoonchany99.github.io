@@ -46,6 +46,7 @@ relatedTerms:
   - permanent-tooth
   - primary-tooth
   - chia-maengchul-sunseo
+  - sealant
 relatedPosts:
   - slug: first-molar
     title: "큰어금니 나는 시기, 부모도 모르면 아이 치열이 달라집니다"

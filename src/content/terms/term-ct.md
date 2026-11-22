@@ -18,6 +18,8 @@ detail: |
   
   방사선량은 일반 치과 X-ray보다 많습니다. 그래서 모든 환자에게 찍지 않고, 그 정보가 치료 계획을 바꿀 때만 촬영해요. 치과용 장비는 촬영 범위를 좁게 설정할 수 있어 선량을 줄입니다.
   
+  건강보험에서는 치과 CT(콘빔)가 파노라마 등으로 진단이 불확실한 경우 가운데 정해진 경우(난치성 근관치료 통증, 완전 매복치, 하치조관·상악동과 뿌리가 겹쳐 보여 발치 위험도가 높은 제3대구치 등)에만 급여예요. 조건에 해당하지 않으면 비급여가 될 수 있어요.
+  
   찍은 자료는 계획에 직접 쓰입니다. 화면에서 임플란트 위치를 미리 배치해 보거나, 그 계획대로 안내하는 수술 가이드를 만들기도 해요.
 faqs:
   - question: "CT를 꼭 찍어야 하나요?"
@@ -33,7 +35,10 @@ faqs:
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays"
   - "https://www.ncbi.nlm.nih.gov/books/NBK574543/"
+  - url: "https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf"
+    title: "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 다245-1 치과 CT(콘빔) 급여 조건"
 updated: "2026-08-16"
+reviewed: "2026-11-23"
 relatedTerms:
   - cavity
   - root-canal

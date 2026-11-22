@@ -25,11 +25,16 @@ faqs:
   - question: "부품이 닳으면 어떻게 하나요?"
     answer: "마모되면 유지력이 떨어져 교체합니다. 정기 점검에서 상태를 확인해요. 부품 수급이 되는 제품인지도 처음에 확인해 두면 좋습니다."
   - question: "보험이 되나요?"
-    answer: "정밀 부착 장치는 비급여인 경우가 많습니다. 일반 부분틀니는 만 65세 이상 급여 대상이에요. 계획 단계에서 비교해 보시는 게 정확합니다."
+    answer: "만 65세 이상이면 금속 클라스프(고리)로 거는 금속상 부분틀니가 건강보험에서 적용돼요. 정밀 부착장치(어태치먼트)를 쓰는 특수 부분틀니는 건강보험 범위 밖이라 비급여예요. 계획 단계에서 비교해 보시는 게 정확합니다."
 sources:
   - "https://www.ada.org/resources/ada-library/oral-health-topics/dentures"
   - "https://www.msdmanuals.com/professional/dental-disorders"
+  - url: "https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html"
+    title: "국민건강보험공단 틀니 요양급여 안내: 만 65세 이상 틀니·특수 부분틀니 제외"
+  - url: "https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf"
+    title: "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 찬3 부분틀니: 연결유지장치는 클라스프 유지형에 한함"
 updated: "2026-08-16"
+reviewed: "2026-11-23"
 relatedTerms:
   - hilring-eobeoteumeonteu
   - impeulranteu-eobeoteumeonteu

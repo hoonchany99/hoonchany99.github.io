@@ -23,13 +23,18 @@ faqs:
   - question: "일반 스케일링과 같은 건가요?"
     answer: "내용이 다릅니다. 깊이를 다시 재고 출혈 부위를 확인하며, 필요하면 그 부위만 다시 치료해요. 단순히 치석만 제거하는 것과는 목적이 다릅니다."
   - question: "보험이 되나요?"
-    answer: "치석 제거는 연 1회 급여가 적용됩니다. 치주 치료 항목은 별도 기준이 있어요. 상태와 시행 내용에 따라 달라지므로 방문 시 확인하시면 됩니다."
+    answer: "스케일링만 받는 만 19세 이상은 연 1회 건강보험이 적용돼요(본인부담 30%). 잇몸병 치료와 이어지면 기준이 달라요. 치주 치료 항목은 별도 기준이 있어요. 상태와 시행 내용에 따라 달라지므로 방문 시 확인하시면 됩니다."
   - question: "집에서 뭐가 제일 중요한가요?"
     answer: "치아 사이 관리입니다. 칫솔만으로는 닿지 않는 자리가 문제가 시작되는 곳이에요. 자기 입에 맞는 치간칫솔 크기를 찾는 것이 큰 차이를 만듭니다."
 sources:
   - "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0337"
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
+  - url: "https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf"
+    title: "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차23-1: 스케일링 19세 이상 연(매년 1월~12월) 1회 요양급여, 치주질환 치료 때 부분치석제거 별도 기준"
+  - url: "https://www.nhis.or.kr/static/alim/paper/oldpaper/202209/sub/06.html"
+    title: "국민건강보험공단 건강보험 웹진(2022년 9월호): 스케일링 본인부담률 30%"
 updated: "2026-08-16"
+reviewed: "2026-11-23"
 relatedTerms:
   - chiju-susul-hu-gwanri
   - chiju-jaesaengsul

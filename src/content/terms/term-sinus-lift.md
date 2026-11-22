@@ -56,7 +56,6 @@ relatedTerms:
   - gbr
   - sangagdong-geosangsul-habbyeongjeung
   - chiseong-sangagdongyeom
-  - gugangsangagdong-gyotong
   - sangag
 relatedPosts:
   - slug: sinusimplant

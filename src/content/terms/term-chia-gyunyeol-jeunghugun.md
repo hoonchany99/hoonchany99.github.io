@@ -99,10 +99,8 @@ relatedTerms:
   - crown
   - onlay
   - root-canal
-  - gwaminseong-sangajil
   - bruxism
   - occlusal-adjustment
-  - chisu
 relatedPosts:
   - slug: root-canal-tooth-crown
     title: "신경치료한 치아, 왜 약해질까? 크라운이 필요한 이유"

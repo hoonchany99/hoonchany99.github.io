@@ -53,10 +53,7 @@ relatedTerms:
   - impeulranteu-juwi-jeommagyeom
   - impeulranteu-silpae
   - impeulranteu-gwanri
-  - impeulranteu-eobeoteumeonteu
   - immediate-implant
-  - impeulranteu-1cha-susul
-  - impeulranteu-2cha-susul
 relatedPosts:
   []
 ---

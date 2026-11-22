@@ -62,10 +62,6 @@ relatedTerms:
   - fluoride
   - soa-gugang-geomjin
   - soa-jinjeongchiryo
-  - cheos-chigwa-bangmun
-  - chigwa-gongpojeung
-  - chigwayong-simenteu
-  - dangnyo-hwanja-chigwa
 relatedPosts:
   []
 ---

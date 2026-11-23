@@ -28,7 +28,7 @@ interface Props {
   breadcrumbs?: BreadcrumbItem[];
   faqSchema?: { question: string; answer: string }[];
   noindex?: boolean;
-  /** Google only: keep indexing while other bots use `noindex` (e.g. Naver Yeti). */
+  /** Naver only: Yeti gets `noindex`, every other bot may index (posts duplicated on the Naver blog). */
   googlebotIndex?: boolean;
   /** GA4 content_group (예: 용어 새 틀 term_v2 / 옛 틀 term_v1). 없으면 GA 스크립트는 예전 그대로 */
   contentGroup?: string;
@@ -175,13 +175,16 @@ const faqLd = faqSchema?.length ? JSON.stringify({
   <script is:inline>document.documentElement.classList.add('js')</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {noindex ? (
+  {noindex && googlebotIndex ? (
+    <>
+      {/* 네이버 블로그와 같은 글: 네이버(Yeti)만 막고 구글·빙 등은 색인(대표 986, Ahrefs 「sitemap 속 noindex」 오류 122 해소) */}
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+      <meta name="Yeti" content="noindex" />
+    </>
+  ) : noindex ? (
     <>
       <meta name="robots" content="noindex, follow" />
       <meta name="Yeti" content="noindex" />
-      {googlebotIndex && (
-        <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-      )}
     </>
   ) : (
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />

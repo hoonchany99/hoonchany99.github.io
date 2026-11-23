@@ -1,0 +1,158 @@
+---
+/**
+ * 주제별 긴 치료 가이드 본문 (/topics/<slug>/ 위쪽). 용어 페이지(소제목 용어)와 같은 구역 모양·각주·참고 자료·글쓴이 카드를 써요.
+ * 문장은 원고(topicGuides 본문) 그대로이고, 여기서는 모양만 입혀요.
+ */
+import CiteMark from './CiteMark.astro';
+import GuidePieces from './GuidePieces.astro';
+import { doctorWVoiceGuide } from '../data/doctorWVoice';
+import { sourceHost } from '../lib/termSections';
+import type { TermPiece } from '../lib/termSections';
+import type { GuideSection } from '../lib/topicGuide';
+
+interface Props {
+  title: string;
+  published: string;
+  reviewed?: string;
+  sources: { url: string; title: string }[];
+  sections: GuideSection[];
+}
+const { title, published, reviewed, sources, sections } = Astro.props;
+
+const h2Cls = "text-[1.375rem] lg:text-2xl font-extrabold leading-[30px] tracking-[-0.3px] text-gray-900 before:block before:content-[''] before:w-7 before:h-[3px] before:rounded-full before:bg-brand before:mb-3.5";
+const pad2 = (n: number) => String(n).padStart(2, '0');
+const formatDate = (d: string) => d.replace(/-/g, '. ') + '.';
+
+/** 각주 번호: 화면에 나오는 차례대로 처음 나온 순서, 같은 출처는 같은 번호 (용어 페이지와 같은 규칙) */
+const refTitleByUrl = new Map<string, string>(sources.map((s) => [s.url, s.title]));
+const citeOrder: string[] = [];
+const citeCount = new Map<string, number>();
+function mark(pieces: TermPiece[]) {
+  return pieces.map((p) => {
+    if (!p.cite) return { segs: p.segs };
+    const { url, label } = p.cite;
+    if (!refTitleByUrl.has(url)) refTitleByUrl.set(url, label);
+    let idx = citeOrder.indexOf(url);
+    if (idx < 0) { citeOrder.push(url); idx = citeOrder.length - 1; }
+    const k = (citeCount.get(url) ?? 0) + 1;
+    citeCount.set(url, k);
+    return { segs: p.segs, cite: { n: idx + 1, k, url } };
+  });
+}
+const marked = sections.map((sec) => ({
+  ...sec,
+  blocks: sec.blocks.map((b) => {
+    switch (b.kind) {
+      case 'para': return { ...b, pieces: mark(b.pieces) };
+      case 'step': return { ...b, pieces: mark(b.pieces) };
+      case 'qa': return { ...b, pieces: mark(b.pieces) };
+      case 'checklist': return { ...b, items: b.items.map(mark) };
+      case 'table': return { ...b, rows: b.rows.map((r) => r.map(mark)) };
+    }
+  }),
+}));
+const refList = [
+  ...citeOrder,
+  ...sources.map((s) => s.url).filter((u) => !citeOrder.includes(u)),
+].map((url) => ({ url, title: refTitleByUrl.get(url) ?? sourceHost(url), cited: citeOrder.includes(url) }));
+const refName = (url: string) => (refTitleByUrl.get(url) ?? sourceHost(url)).split(/[:：]/)[0].trim();
+const lastN = marked.length + 1;
+---
+
+<section class="pt-6 md:pt-12 pb-4 md:pb-8 bg-gradient-to-b from-brand-bg to-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 anim-fade-up">
+    <a href="/topics/" class="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-brand transition-colors mb-4">← 주제별 보기</a>
+    <h1 class="text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{title}</h1>
+  </div>
+</section>
+
+<article class="max-w-3xl mx-auto px-4 sm:px-6 pt-4 pb-6">
+  {marked.map((sec, i) => (
+    sec.callout ? (
+      <section aria-labelledby={`sec-${i + 1}`} class="mb-10 md:mb-12">
+        <div class="rounded-[14px] border border-orange-200 bg-orange-50 px-3.5 py-3.5">
+          <h2 id={`sec-${i + 1}`} class="scroll-mt-20 text-[15px] font-bold leading-snug text-orange-800 mb-2">{sec.heading}</h2>
+          <div class="space-y-2 text-[14.5px] leading-[1.6] text-orange-950">
+            {sec.blocks.map((b) => b.kind === 'para' && <p><GuidePieces pieces={b.pieces} refName={refName} /></p>)}
+          </div>
+        </div>
+      </section>
+    ) : (
+      <section aria-labelledby={`sec-${i + 1}`} class="mb-10 md:mb-12">
+        <h2 id={`sec-${i + 1}`} class={`scroll-mt-20 ${h2Cls} mb-3 ${i === 0 ? '' : 'mt-14'}`}>{sec.heading}</h2>
+        <div class="space-y-4 text-gray-800 text-base leading-[1.75]">
+          {sec.blocks.map((b) => {
+            if (b.kind === 'para') return <p><GuidePieces pieces={b.pieces} refName={refName} /></p>;
+            if (b.kind === 'step') return (
+              <div>
+                <h3 class="font-bold text-gray-900">{b.title}</h3>
+                <p class="mt-1"><GuidePieces pieces={b.pieces} refName={refName} /></p>
+              </div>
+            );
+            if (b.kind === 'qa') return (
+              <div class="rounded-xl border border-gray-100 bg-white px-4 py-3.5">
+                <h3 class="font-bold text-gray-900 leading-snug">Q. {b.question}</h3>
+                <p class="mt-2 text-[15px] text-gray-700 leading-[1.7]"><GuidePieces pieces={b.pieces} refName={refName} /></p>
+              </div>
+            );
+            if (b.kind === 'checklist') return (
+              <ul class="space-y-2">
+                {b.items.map((it) => (
+                  <li class="flex items-start gap-2.5"><span aria-hidden="true" class="mt-1 h-4 w-4 flex-shrink-0 rounded border border-gray-300"></span><span><GuidePieces pieces={it} refName={refName} /></span></li>
+                ))}
+              </ul>
+            );
+            return (
+              <div class="overflow-x-auto rounded-[14px] border border-gray-200">
+                <table class="w-full min-w-[44rem] border-collapse text-[13.5px]">
+                  <thead>
+                    <tr class="bg-gray-50">{b.header.map((c) => <th class="border-b border-gray-200 px-2.5 py-2.5 text-left font-bold text-gray-900 align-top">{c}</th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {b.rows.map((row) => (
+                      <tr>{row.map((cell, ci) => (
+                        <td class={`border-t border-gray-100 px-2.5 py-2.5 align-top leading-normal ${ci === 0 ? 'font-bold text-gray-900 whitespace-nowrap' : 'text-gray-700'}`}><GuidePieces pieces={cell} refName={refName} /></td>
+                      ))}</tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    )
+  ))}
+
+  <section aria-labelledby={`sec-${lastN}`} class="mb-10">
+    <h2 id={`sec-${lastN}`} class={`scroll-mt-20 ${h2Cls} mb-3 mt-14`}>발행일·검토</h2>
+    <div class="flex items-center gap-3 rounded-2xl border border-gray-100 bg-white p-3.5">
+      <img src="/img/profile-132.webp" alt="서울대 윤원장 프로필 사진" width="44" height="44" loading="lazy" decoding="async" class="h-11 w-11 flex-shrink-0 rounded-full object-cover" />
+      <div class="min-w-0">
+        <p data-byline class="text-[15px] font-bold text-gray-900"><a href="/about/" rel="author" class="hover:text-brand transition-colors">서울대 윤원장</a></p>
+        <p class="text-[12px] leading-normal text-gray-500">치과의사 윤훈찬</p>
+        <p class="mt-1 text-[11.5px] leading-normal text-gray-400">
+          <time datetime={published}>{formatDate(published)}</time> 발행 · {reviewed ? <><time datetime={reviewed}>{formatDate(reviewed)}</time> 감수</> : '감수 예정'}
+        </p>
+      </div>
+    </div>
+
+    <h3 class="mt-8 mb-3 text-base font-bold text-gray-900">참고 자료</h3>
+    <ol class="border-y border-gray-100 divide-y divide-gray-100">
+      {refList.map((item, i) => (
+        <li id={`ref-${i + 1}`} class="flex items-start gap-3 py-3.5 scroll-mt-24 target:bg-brand-bg/60">
+          <span class="flex-shrink-0 w-[18px] pt-px text-[13.5px] text-gray-400 tabular-nums">{pad2(i + 1)}</span>
+          <a href={item.url} target="_blank" rel="noopener noreferrer nofollow" class="group min-w-0 flex-1">
+            <span class="block text-[13.5px] leading-snug text-gray-900 group-hover:text-brand transition-colors">{item.title}</span>
+            <span class="mt-0.5 block text-xs text-gray-400 break-all">{sourceHost(item.url)} <span aria-hidden="true">↗</span></span>
+          </a>
+          {item.cited && (
+            <a href={`#cite-${i + 1}-1`} aria-label={`본문의 참고 자료 ${i + 1}번 표시로 돌아가기`} class="relative flex-shrink-0 px-1 text-sm text-brand-dark rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-dark after:absolute after:left-1/2 after:top-1/2 after:h-6 after:w-6 after:-translate-x-1/2 after:-translate-y-1/2 after:content-['']">↩</a>
+          )}
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <p class="text-xs text-gray-400 leading-relaxed">이 페이지는 치과 치료 참고 자료입니다. {doctorWVoiceGuide.disclaimer}</p>
+</article>

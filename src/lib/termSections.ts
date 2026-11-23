@@ -115,7 +115,7 @@ function makePiece(chunk: string, cite?: TermCite): TermPiece {
 }
 
 /** 문단 하나를 글 조각과 각주로 나눈다 */
-function splitPieces(text: string): TermPiece[] {
+export function splitPieces(text: string): TermPiece[] {
   const pieces: TermPiece[] = [];
   let acc = '';
   let last = 0;

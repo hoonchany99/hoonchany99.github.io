@@ -75,12 +75,18 @@ approach:
   - when: "거의 모든 초기 턱관절장애"
     name: "비수술적 보존 요법"
     en: "Conservative Therapy"
-    detail: "딱딱하고 질긴 음식과 큰 입 벌리기를 피하고 온찜질을 해요. 보통 2~4주 안에 좋아지는 경우가 많고, 치료 없이 증상이 사라지는 사람도 많다고 보고돼요. 상태에 따라 달라요."
+    detail: "딱딱하고 질긴 음식과 큰 입 벌리기를 피하고 온찜질을 해요. 보통 몇 달 안에 좋아지는 경우가 많고(영국 왕립외과학회), 치료 없이 증상이 사라지는 사람도 많다고 보고돼요. 상태에 따라 달라요."
+    sources:
+      - name: "영국 왕립외과학회(RCS)"
+        url: "https://www.rcseng.ac.uk/-/media/FDS/TMD-Patient-support-document.pdf"
   - when: "이갈이·이악물기가 겹칠 때"
     name: "교합안정장치 (스플린트)"
     en: "Occlusal Stabilization Splint"
     slug: splint
-    detail: "잘 때 끼워 이 악물기에 도움이 될 수 있어요. 통증을 줄인다는 근거는 제한적이에요. 제작은 보통 2~3회 방문이고, 3~6개월 착용 뒤 다시 봐요. 상태에 따라 달라요."
+    detail: "잘 때 끼워 이 악물기에 도움이 될 수 있어요. 통증을 줄인다는 근거는 제한적이에요. 제작은 보통 2~3회 방문이고, 보통 끼운 뒤 6개월쯤 다시 보고 줄여 가요(영국 NHS). 상태에 따라 달라요."
+    sources:
+      - name: "맨체스터 NHS"
+        url: "https://mft.nhs.uk/app/uploads/sites/3/2026/07/Stabilisation-Splints-TMD.pdf"
   - when: "통증이 심하거나 급성일 때"
     name: "약물 치료"
     en: "Pharmacotherapy"
@@ -88,7 +94,10 @@ approach:
   - when: "근육 통증이 주된 경우"
     name: "물리치료 + 자가운동"
     en: "Physical Therapy"
-    detail: "개구 훈련과 근육 이완을 병행해요. 보통 하루 2~3회, 4주 이상 해요. 상태에 따라 달라요."
+    detail: "개구 훈련과 근육 이완을 병행해요. 보통 하루 2~4번 해요. 몇 주 할지는 상태에 따라 달라요."
+    sources:
+      - name: "영국 왕립외과학회(RCS)"
+        url: "https://www.rcseng.ac.uk/-/media/FDS/TMD-Patient-support-document.pdf"
   - when: "보존 치료에 반응하지 않는 관절 내 문제 (드묾)"
     name: "관절강 세척술 · 관절경"
     en: "Arthrocentesis / Arthroscopy"

@@ -49,12 +49,20 @@ approach:
     name: "치근활택술 (SRP)"
     en: "Scaling and Root Planing"
     slug: scaling-root-planing
-    detail: "마취하고 잇몸 속 치아 뿌리 표면(치근)의 치석과 세균막을 긁어내요. 보통 2~4회에 나눠 하고 4~6주 뒤 다시 봐요. 상태에 따라 달라요."
+    detail: "마취하고 잇몸 속 치아 뿌리 표면(치근)의 치석과 세균막을 긁어내요. 보통 2~4회에 나눠 하고, 6~12주 뒤 다시 확인해요(영국 지침 기준). 상태에 따라 달라요."
+    sources:
+      - name: "Cochrane 리뷰"
+        url: "https://www.cochrane.org/CD004622"
+      - name: "영국 SDCEP 지침"
+        url: "https://periodontalcare.sdcep.org.uk/guidance/treatment-components/assessing-treatment-response/"
     experience: ["부분 마취", "보통 2~4회", "당일 일상생활 가능"]
   - when: "치근활택술(SRP) 같은 비수술 치료로 충분하지 않을 때"
     name: "치주 판막 수술"
     en: "Periodontal Flap Surgery"
-    detail: "잇몸을 젖혀 직접 보면서 염증 조직과 치석을 제거하고 꿰매요. 보통 부위당 1회, 실밥은 1~2주 뒤 빼요. 상태에 따라 달라요."
+    detail: "잇몸을 젖혀 직접 보면서 염증 조직과 치석을 제거하고 꿰매요. 보통 부위당 1회, 녹지 않는 실은 보통 1~2주 뒤에 빼요. 상태에 따라 달라요."
+    sources:
+      - name: "영국 NHS 가이즈 앤 세인트 토머스"
+        url: "https://guysandstthomas.nhs.uk/health-information/periodontal-gum-surgery/recovery"
     experience: ["부분 마취", "부위당 보통 1회", "실밥 1~2주 뒤"]
   - when: "뼈가 한 곳만 깊게 녹은 경우(국소 골 결손)"
     name: "치주 조직 재생술"
@@ -65,8 +73,8 @@ approach:
     name: "치주 유지관리"
     en: "Periodontal Maintenance"
     slug: chiju-yujigwanri
-    detail: "정기 관리로 재발을 막아요. 보통 3~4개월 간격이에요. 잇몸 상태에 따라 달라요. 치주염은 완치가 아니라 관리하는 병이에요."
-    experience: ["마취 없이", "보통 3~4개월마다"]
+    detail: "정기 관리로 재발을 막아요. 보통 3~4개월마다 시작해서, 잇몸 상태와 위험도에 따라 3~12개월로 달라져요(유럽 지침 기준). 치주염은 완치가 아니라 관리하는 병이에요."
+    experience: ["마취 없이", "보통 3~4개월마다(3~12개월)"]
 sources:
   - url: "https://www.perio.org/for-patients/gum-disease-information/"
     title: "미국치주과학회(AAP): 치은염과 치주염, 증상, 출혈"

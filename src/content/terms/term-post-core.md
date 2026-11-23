@@ -24,6 +24,14 @@ detail: |
 
   ## !포스트를 한 뒤에도 깨질 수 있나요
   균열·재파절·탈락 예방을 위해 크라운과 함께 계획하는 경우가 많습니다. 치아가 부러지거나, 크라운·충전물이 헐거워지거나 깨지거나, 새 충치가 생기면 세균이 들어가 다시 감염될 수 있고, 그러면 재신경치료를 검토해요. [근거](https://www.aae.org/patients/?p=24 "미국근관치료학회(AAE): 치아 파절·헐거운 크라운·새 충치가 재치료 원인") 신경치료 뒤 영구 수복물을 제때 하는 것도 치아의 장기 경과에 중요해요. [근거](https://www.aae.org/patients/root-canal-treatment/myths-root-canals/ "미국근관치료학회(AAE): 영구 수복물을 제때 하는 것이 장기 성공의 핵심 요인")
+figure:
+  src: "/img/terms/crown-after-root-canal.webp"
+  width: 1200
+  height: 675
+  alt: "신경치료한 어금니 단면 세 개. 근관만 충전재로 채우고 치수강은 빈 상태, 그 치수강을 흰 코어로 채워 올린 모습, 그 위에 크라운을 씌운 모습이에요"
+  caption: "신경치료 뒤 크라운: 근관 충전 → 코어로 치수강을 채워 기둥 만들기 → 크라운"
+  credit: "그림: Khalid Aletaibi의 도해(CC BY 4.0)를 바탕으로 다시 그림"
+  creditUrl: "https://creativecommons.org/licenses/by/4.0/"
 faqs:
   - question: "포스트는 왜 필요한가요?"
     answer: "신경치료 후 치아가 많이 깎였을 때, 크라운을 받칠 강도를 보완하기 위해 씁니다. 얇은 치아 벽을 보호하는 목적도 있어요."

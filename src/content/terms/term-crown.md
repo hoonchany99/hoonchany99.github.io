@@ -27,6 +27,14 @@ detail: |
 
   ## !크라운을 한 뒤 살펴볼 것
   크라운을 씌운 치아도 다시 충치가 생길 수 있어서 양치와 치실 관리가 중요해요. 크라운 경계부에서 충치·잇몸 염증이 생길 수 있어요. 관리가 중요합니다. [근거](https://medlineplus.gov/ency/article/007631.htm "미국 국립의학도서관 MedlinePlus: 크라운 씌운 치아에도 충치 가능") 안쪽 치아가 약하면 크라운이 빠질 수 있고, 이갈이가 있으면 깨질 수 있어요. 이갈이 보호장치가 도움이 될 수 있습니다. [근거](https://medlineplus.gov/ency/article/007631.htm "미국 국립의학도서관 MedlinePlus: 크라운 탈락·파절 위험, 이갈이 보호장치") 신경이 찬 것·뜨거운 것에 예민해질 수도 있어요. [근거](https://medlineplus.gov/ency/article/007631.htm "미국 국립의학도서관 MedlinePlus: 크라운 뒤 신경 민감성") 시림·통증·깨짐·변색·틈이 생기면 조기에 확인하는 게 좋아요.
+figure:
+  src: "/img/terms/crown-vital.webp"
+  width: 1200
+  height: 675
+  alt: "어금니 단면 두 개. 왼쪽은 치수(신경)가 살아 있는 치아를 고르게 깎은 모습, 오른쪽은 그 위에 흰 크라운을 씌운 모습이에요"
+  caption: "크라운: 치아를 고르게 깎고(왼쪽) 그 위에 씌워요(오른쪽). 신경치료를 하지 않은 치아에도 씌울 수 있어요"
+  credit: "그림: Servier Medical Art(CC BY 4.0)·Khalid Aletaibi(CC BY 4.0) 도해를 바탕으로 다시 그림"
+  creditUrl: "https://creativecommons.org/licenses/by/4.0/"
 faqs:
   - question: "크라운은 꼭 해야 하나요?"
     answer: "신경치료 후, 손상·파절이 크거나 마모가 심한 경우에 권하는 경우가 많아요. 치아 상태와 씹는 힘에 따라 필요 여부가 달라질 수 있습니다."

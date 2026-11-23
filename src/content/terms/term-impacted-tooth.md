@@ -25,6 +25,14 @@ detail: |
 
   ## !발치 뒤 알아 둘 점
   붓기와 불편은 보통 처음 사흘이 가장 심하고, 아픈 느낌은 길면 2주쯤 가요. [근거](https://www.cuh.nhs.uk/patient-information/patient-information-and-consent-to-surgical-removal-of-impacted-wisdom-teeth/ "케임브리지대학병원(NHS): 붓기·불편은 처음 3일이 가장 심하고 최대 2주") 아래 사랑니를 빼면 입술·턱·혀가 저리거나 둔해질 수 있는데, 한 병원 안내문에서는 약 10명 중 1명이 몇 주 겪고 1년 넘게 가는 경우는 100명 중 1명 미만이라고 해요. 치아 위치가 까다로울수록 위험이 높아요. 소켓 부위가 낫지 않고 아픈 드라이 소켓(치조염)이 생기면 치과에서 처치를 받아야 해요. [근거](https://www.cuh.nhs.uk/patient-information/patient-information-and-consent-to-surgical-removal-of-impacted-wisdom-teeth/ "케임브리지대학병원(NHS): 신경 자극 후유증 빈도와 드라이 소켓")
+figure:
+  src: "/img/terms/impacted-wisdom-tooth.webp"
+  width: 1200
+  height: 675
+  alt: "아래턱 옆 단면 그림. 맨 뒤 사랑니가 앞쪽으로 기울어 잇몸과 뼈에 반쯤 묻힌 채 옆 어금니에 걸려 있어요"
+  caption: "앞으로 기울어 묻힌(매복) 아래 사랑니"
+  credit: "그림: 위키미디어 공용의 퍼블릭 도메인(CC0) 도해를 바탕으로 다시 그림"
+  creditUrl: "https://creativecommons.org/publicdomain/zero/1.0/"
 faqs:
   - question: "매복치는 꼭 발치해야 하나요?"
     answer: "증상·옆 치아 손상·염증·교정 계획 등에 따라 달라져요. 무증상이라도 예방적 발치를 논의하는 경우도 있습니다. 위 「증상이 없어도 빼야 하나요」에서 설명해 두었어요."

@@ -16,7 +16,7 @@ detail: |
   실란트(치면열구 전색)는 어금니 씹는 면의 깊은 홈·틈에 얇은 보호재를 채워 [충치](/terms/cavity/)를 예방하는 시술이에요. 어금니 씹는 면에 바르는 보호 코팅이 충치를 막는 장벽 역할을 해요. [근거](https://www.cdc.gov/oral-health/prevention/about-dental-sealants.html "미국 질병통제예방센터(CDC): 뒤쪽 치아 씹는 면에 바르는 보호 코팅, 충치 장벽") 칫솔만으로는 홈 안쪽까지 닿기 어려운 부위를 막아 주는 역할을 해요.
 
   ## 언제, 누가 받나요
-  어린이·청소년 [어금니](/terms/molar/)에 특히 많이 적용합니다. 첫 번째 영구 어금니는 6세쯤, 두 번째 영구 어금니는 12세쯤 난 직후에 하는 것이 가장 효과적이에요. [근거](https://www.cdc.gov/oral-health/prevention/about-dental-sealants.html "미국 질병통제예방센터(CDC): 영구 어금니가 난 직후, 첫째 어금니 6세·둘째 어금니 12세쯤이 적기") 유치와 [영구치](/terms/permanent-tooth/) 모두에 할 수 있고, 어른의 영구치에도 할 수 있어요. [근거](https://www.cdc.gov/oral-health/prevention/about-dental-sealants.html "미국 질병통제예방센터(CDC): 2세쯤부터 성인기까지 유치·영구치에 적용 가능")
+  어린이·청소년 [어금니](/terms/molar/)에 특히 많이 적용합니다. CDC는 첫 번째 영구 어금니는 6세쯤, 두 번째 영구 어금니는 12세쯤 난 직후에 하는 것이 가장 효과적이라고 안내해요. [근거](https://www.cdc.gov/oral-health/prevention/about-dental-sealants.html "미국 질병통제예방센터(CDC): 영구 어금니가 난 직후, 첫째 어금니 6세·둘째 어금니 12세쯤이 적기") 유치와 [영구치](/terms/permanent-tooth/) 모두에 할 수 있고, 어른의 영구치에도 할 수 있어요. [근거](https://www.cdc.gov/oral-health/prevention/about-dental-sealants.html "미국 질병통제예방센터(CDC): 2세쯤부터 성인기까지 유치·영구치에 적용 가능")
 
   ## 시술은 어떻게 진행되나요
   시술은 치아를 깎지 않고, 표면을 세척·건조한 뒤 재료를 도포·경화하는 방식이 흔해요. 치아를 씻고 말린 뒤 산성 젤로 표면을 거칠게 하고, 홈에 재료를 넣어 푸른빛으로 굳혀요. [근거](https://www.mouthhealthy.org/all-topics-a-z/sealants "미국치과의사협회(ADA) MouthHealthy: 세척·건조, 산 처리, 재료 도포, 빛으로 경화") 한 번에 여러 개 치아에 할 수 있고, 통증은 거의 없는 편입니다. 빠르고 통증이 없는 과정이에요. [근거](https://www.mouthhealthy.org/all-topics-a-z/sealants "미국치과의사협회(ADA) MouthHealthy: 빠르고 통증 없는 과정")
@@ -54,7 +54,7 @@ sources:
     title: "건강보험심사평가원 요양급여 세부사항(2026년 7월판, 고시 제2026-144호) 차39 치면열구전색술(치아 홈메우기) 급여 기준"
   - url: "https://www.hira.or.kr/cms/inform/01/1356652_27106.html"
     title: "건강보험심사평가원 공지(보험급여과-7161호, 2017년 9월 29일): 18세 이하 치아홈메우기 본인부담률 10%"
-askCards: [{"question":"어느 어금니에 실란트가 필요하고, 지금이 적당한 시기인가요?","explanation":"영구 어금니가 난 직후, 첫 번째 어금니는 6세쯤 두 번째 어금니는 12세쯤 하는 것이 가장 효과적이에요.","sourceLabel":"미국 질병통제예방센터(CDC) 치아 실란트: 적용 시기","sourceUrl":"https://www.cdc.gov/oral-health/prevention/about-dental-sealants.html","citeAfter":1},{"question":"건강보험이 적용되는 나이와 치아인가요?","explanation":"한국에서는 2022년 기준으로 충치가 없는 만 18세 이하 어린이·청소년의 어금니 8개가 대상이고 본인부담금은 10%예요.","sourceLabel":"국민건강보험공단 소식지: 실란트 건강보험 기준","sourceUrl":"https://www.nhis.or.kr/static/alim/paper/oldpaper/202205/sub/26.html","citeAfter":1},{"question":"언제 다시 확인하고, 떨어지면 다시 할 수 있나요?","explanation":"실란트가 보통 몇 년 유지되고, 정기 검진 때 상태를 확인해 필요하면 다시 해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 실란트 점검과 재도포","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/sealants","citeAfter":1}]
+askCards: [{"question":"어느 어금니에 실란트가 필요하고, 지금이 적당한 시기인가요?","explanation":"CDC는 영구 어금니가 난 직후, 첫 번째 어금니는 6세쯤 두 번째 어금니는 12세쯤 하는 것이 가장 효과적이라고 안내해요.","sourceLabel":"미국 질병통제예방센터(CDC) 치아 실란트: 적용 시기","sourceUrl":"https://www.cdc.gov/oral-health/prevention/about-dental-sealants.html","citeAfter":1},{"question":"건강보험이 적용되는 나이와 치아인가요?","explanation":"한국에서는 2022년 기준으로 충치가 없는 만 18세 이하 어린이·청소년의 어금니 8개가 대상이고 본인부담금은 10%예요.","sourceLabel":"국민건강보험공단 소식지: 실란트 건강보험 기준","sourceUrl":"https://www.nhis.or.kr/static/alim/paper/oldpaper/202205/sub/26.html","citeAfter":1},{"question":"언제 다시 확인하고, 떨어지면 다시 할 수 있나요?","explanation":"실란트가 보통 몇 년 유지되고, 정기 검진 때 상태를 확인해 필요하면 다시 해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 실란트 점검과 재도포","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/sealants","citeAfter":1}]
 updated: "2026-08-16"
 reviewed: "2026-11-23"
 relatedTerms:

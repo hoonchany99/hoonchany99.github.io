@@ -36,7 +36,7 @@ faqs:
   - question: "수술 없이 3급을 교정할 수 있나요?"
     answer: "골격 차이가 크지 않거나 성장기에 치료를 시작하면 장치와 교정만으로 줄일 수 있는 경우도 있어요. 하지만 늘 가능한 것은 아니고, 차이가 크면 수술을 함께 하는 쪽이 낫기도 해요. 교정만 하면 교합이 완전히 맞지 않을 수 있지만 그 결과를 받아들이는 분도 있다고 해요(영국 병원 안내)."
   - question: "페이스마스크는 언제부터 쓰나요?"
-    answer: "3급 성장기 치료는 젖니 시기나 초기 혼합치열기에 시작하는 것을 권해요(미국소아치과학회). 페이스마스크(위턱 전방 견인) 같은 장치는 이런 성장기 치료 방법의 하나예요. 몇 학년에 시작할지는 위턱 위치와 성장 상태를 보고 정해요."
+    answer: "3급 성장기 치료는 젖니 시기나 초기 혼합치열기에 시작하는 게 좋아요(미국소아치과학회). 페이스마스크(위턱 전방 견인) 같은 장치는 이런 성장기 치료 방법의 하나예요. 몇 학년에 시작할지는 위턱 위치와 성장 상태를 보고 정해요."
 sources:
   - url: "https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf"
     title: "미국소아치과학회(AAPD) 교과서 2026 「발달 중인 치열·교합 관리」: 3급의 정의·원인·성장기 치료·수술 병행, 반대교합과의 구분"
@@ -50,7 +50,7 @@ sources:
     title: "MSD 매뉴얼 전문가판: 부정교합(기존 출처, 이번에 열리지 않음)"
   - url: "https://www.aaoinfo.org/"
     title: "미국교정치과학회(AAO)(기존 출처)"
-askCards: [{"question":"어릴 때 시작하는 치료로 수술을 피할 수 있을지, 수술 가능성도 열어 둬야 하는지 알 수 있을까요?","explanation":"성장기 3급 치료가 부정교합을 줄이고 나중의 수술을 없앨 수도 있지만 늘 가능한 것은 아니라고 알려져 있어요. 3급은 더 오래, 예측하기 어렵게 자라는 경향이 있어요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 3급 성장기 치료와 수술","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"제 3급은 아래턱이 큰 쪽인가요, 위턱이 작은 쪽인가요?","explanation":"3급이 아래턱 돌출이나 위턱 후퇴 같은 골격 원인, 치아 위치, 아래턱의 앞쪽 기능적 이동, 또는 이들의 조합으로 생길 수 있다고 알려져 있어요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 3급의 원인","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"수술을 한다면 성장이 언제 끝나는지는 어떻게 확인하나요?","explanation":"악교정 치료는 턱 성장이 멈춘 뒤에만 적합하다고 알려져 있어요. 성장이 남은 상태에서 옮기면 결과가 달라질 수 있어서 성장 상태를 확인하고 시기를 정해요.","sourceLabel":"영국 브리스톨 치과병원: 악교정 치료 시기","sourceUrl":"https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/university-of-bristol-dental-hospital/what-we-do/corrective-jaw-treatment/frequently-asked-questions/","citeAfter":1}]
+askCards: [{"question":"어릴 때 시작하는 치료로 수술을 피할 수 있을지, 수술 가능성도 열어 둬야 하는지 알 수 있을까요?","explanation":"성장기 3급 치료가 부정교합을 줄이고 나중의 수술을 없앨 수도 있지만 늘 가능한 것은 아니에요. 3급은 더 오래, 예측하기 어렵게 자라는 경향이 있어요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 3급 성장기 치료와 수술","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"제 3급은 아래턱이 큰 쪽인가요, 위턱이 작은 쪽인가요?","explanation":"3급이 아래턱 돌출이나 위턱 후퇴 같은 골격 원인, 치아 위치, 아래턱의 앞쪽 기능적 이동, 또는 이들의 조합으로 생길 수 있어요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 3급의 원인","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"수술을 한다면 성장이 언제 끝나는지는 어떻게 확인하나요?","explanation":"악교정 치료는 턱 성장이 멈춘 뒤에만 적합해요. 성장이 남은 상태에서 옮기면 결과가 달라질 수 있어서 성장 상태를 확인하고 시기를 정해요.","sourceLabel":"영국 브리스톨 치과병원: 악교정 치료 시기","sourceUrl":"https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/university-of-bristol-dental-hospital/what-we-do/corrective-jaw-treatment/frequently-asked-questions/","citeAfter":1}]
 compare: {"title":"헷갈리는 말과 차이","columns":["3급 부정교합","반대교합"],"rows":[{"label":"무엇을 기준으로 하나","cells":["어금니와 턱의 앞뒤 관계예요","앞니가 반대로 물리는 상태예요"]},{"label":"어금니 관계","cells":["정상보다 앞으로 나가 있어요","정상인 경우도 있어요"]},{"label":"원인","cells":["턱뼈 차이가 흔히 관여해요","치아 기울기만 문제인 경우도 있어요"]}]}
 updated: "2026-08-16"
 relatedTerms:

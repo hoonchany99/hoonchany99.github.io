@@ -34,7 +34,7 @@ faqs:
   - question: "앞니가 잘 부딪혀 깨져요."
     answer: "앞으로 나온 앞니는 외상 위험이 높습니다. 특히 활동적인 아이라면 그렇고요. 이 점이 조기 교정을 고려하는 이유 중 하나입니다."
   - question: "2급 부정교합 치료는 언제 시작하나요?"
-    answer: "성장기에 1단계 치료를 먼저 하는 방법과 영구치가 나온 뒤 한 번에 하는 방법 모두 2급을 교정할 수 있다고 알려져 있어요. 1단계를 거친 뒤 이어서 하면 전체 치료 기간이 더 길어지는 경향이 있어요(미국소아치과학회 정리). 시기와 방법은 나이와 턱 성장 상태를 보고 정해요."
+    answer: "성장기에 1단계 치료를 먼저 하는 방법과 영구치가 나온 뒤 한 번에 하는 방법 모두 2급을 교정할 수 있어요. 1단계를 거친 뒤 이어서 하면 전체 치료 기간이 더 길어지는 경향이 있어요(미국소아치과학회 정리). 시기와 방법은 나이와 턱 성장 상태를 보고 정해요."
   - question: "무턱처럼 보이면 2급 부정교합인가요?"
     answer: "2급에서 아래턱이 덜 자랐거나 뒤쪽에 있으면 옆모습에서 턱이 작아 보일 수 있어요. 하지만 2급은 치아 위치만의 문제일 수도 있어서, 어금니 관계와 턱 위치를 함께 봐야 해요."
 sources:
@@ -48,7 +48,7 @@ sources:
     title: "MSD 매뉴얼 전문가판: 부정교합(기존 출처, 이번에 열리지 않음)"
   - url: "https://www.aaoinfo.org/"
     title: "미국교정치과학회(AAO)(기존 출처)"
-askCards: [{"question":"제 2급은 치아 위치 때문인가요, 아래턱이 뒤에 있어서인가요?","explanation":"2급이 치아 위치, 골격(아래턱 후퇴·위턱 돌출), 또는 둘의 조합에서 생길 수 있다고 알려져 있어요. 어느 쪽인지에 따라 치료 계획이 달라져요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 2급의 원인","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"성장기에 치료를 시작하면 어떤 점이 좋고, 두 단계로 하면 기간은 어떻게 되나요?","explanation":"한 단계와 두 단계 방식 모두 2급을 교정할 수 있고, 두 단계는 전체 치료 기간이 길어진다고 알려져 있어요. 성장 조절 장치의 반응은 사람마다 차이가 커요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 2급 치료 방식과 기간","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"앞니가 튀어나온 정도를 봤을 때 외상 위험은 어느 정도인가요?","explanation":"앞니 돌출이 3mm를 넘으면 앞니 손상 위험이 커지고, 5mm 이상이면 성장기 치료가 앞니 외상 위험을 줄일 가능성이 있다고 알려져 있어요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 앞니 돌출과 외상 위험","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1}]
+askCards: [{"question":"제 2급은 치아 위치 때문인가요, 아래턱이 뒤에 있어서인가요?","explanation":"2급이 치아 위치, 골격(아래턱 후퇴·위턱 돌출), 또는 둘의 조합에서 생길 수 있어요. 어느 쪽인지에 따라 치료 계획이 달라져요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 2급의 원인","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"성장기에 치료를 시작하면 어떤 점이 좋고, 두 단계로 하면 기간은 어떻게 되나요?","explanation":"한 단계와 두 단계 방식 모두 2급을 교정할 수 있고, 두 단계는 전체 치료 기간이 길어져요. 성장 조절 장치의 반응은 사람마다 차이가 커요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 2급 치료 방식과 기간","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"앞니가 튀어나온 정도를 봤을 때 외상 위험은 어느 정도인가요?","explanation":"앞니 돌출이 3mm를 넘으면 앞니 손상 위험이 커지고, 5mm 이상이면 성장기 치료가 앞니 외상 위험을 줄일 가능성이 있어요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 앞니 돌출과 외상 위험","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1}]
 compare: {"title":"헷갈리는 말과 차이","columns":["2급 부정교합","3급 부정교합"],"rows":[{"label":"위아래 치아 관계","cells":["위 치아가 아래 치아보다 많이 앞에 있어요","아래 치아가 위 치아보다 많이 앞에 있어요"]},{"label":"흔한 모습","cells":["앞니가 튀어나와 보이거나 무턱처럼 보여요","아래 앞니가 위 앞니보다 앞에 물려요"]},{"label":"턱의 모습","cells":["아래턱이 덜 자랐거나 뒤에 있을 수 있어요","아래턱이 크거나 위턱이 덜 자랐을 수 있어요"]}]}
 updated: "2026-08-16"
 relatedTerms:

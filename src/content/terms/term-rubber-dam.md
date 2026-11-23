@@ -43,7 +43,7 @@ sources:
     title: "미국근관치료학회(AAE) 치과용 댐 입장문: 근관치료 표준 진료, 세균 오염 최소화, 삼킴·흡인 위험"
   - url: "https://www.ada.org/resources/ada-library/oral-health-topics/latex-allergy"
     title: "미국치과의사협회(ADA) 라텍스 알레르기: 치과용 댐의 라텍스 여부와 비라텍스 소재"
-askCards: [{"question":"이번 치료에서 러버댐을 쓰나요? 쓰지 않는다면 이유가 있나요?","explanation":"비수술 신경치료에서 치과용 댐으로 치아를 격리하는 것을 표준 진료라고 알려져 있어요.","sourceLabel":"미국근관치료학회(AAE) 치과용 댐 입장문","sourceUrl":"https://www.aae.org/specialty/wp-content/uploads/sites/2/2024/06/DentalDams_PositionStatement_v2.pdf","citeAfter":1},{"question":"라텍스 알레르기가 있는데, 라텍스가 들어가지 않은 러버댐을 쓸 수 있나요?","explanation":"치과용 댐이 라텍스가 든 용품에 들어가고, 니트릴·비닐 같은 합성 소재에는 천연 라텍스 단백질이 없다고 알려져 있어요.","sourceLabel":"미국치과의사협회(ADA) 라텍스 알레르기","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/latex-allergy","citeAfter":1}]
+askCards: [{"question":"이번 치료에서 러버댐을 쓰나요? 쓰지 않는다면 이유가 있나요?","explanation":"비수술 신경치료에서 치과용 댐으로 치아를 격리하는 것은 표준 진료예요.","sourceLabel":"미국근관치료학회(AAE) 치과용 댐 입장문","sourceUrl":"https://www.aae.org/specialty/wp-content/uploads/sites/2/2024/06/DentalDams_PositionStatement_v2.pdf","citeAfter":1},{"question":"라텍스 알레르기가 있는데, 라텍스가 들어가지 않은 러버댐을 쓸 수 있나요?","explanation":"치과용 댐이 라텍스가 든 용품에 들어가고, 니트릴·비닐 같은 합성 소재에는 천연 라텍스 단백질이 없어요.","sourceLabel":"미국치과의사협회(ADA) 라텍스 알레르기","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/latex-allergy","citeAfter":1}]
 updated: "2026-08-16"
 reviewed: "2026-11-23"
 relatedTerms:

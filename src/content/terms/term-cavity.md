@@ -89,7 +89,7 @@ sources:
     title: "서울아산병원: 치아 우식증의 원인과 단계별 증상"
   - url: "https://www.mouthhealthy.org/all-topics-a-z/crowns"
     title: "미국치과의사협회(ADA) MouthHealthy: 크라운이 필요한 경우"
-askCards: [{"question":"이 충치는 지금 어느 단계이고, 불소로 지켜볼 수 있나요, 채워야 하나요?","explanation":"초기 충치는 불소 치료로 되돌릴 수 있고, 구멍이 생기면 보통 충전이 필요하다고 알려져 있어요.","sourceLabel":"영국 국민보건서비스(NHS): 충치 단계별 치료","sourceUrl":"https://www.nhs.uk/conditions/tooth-decay/","citeAfter":1},{"question":"통증이 없는데도 X-ray로 충치가 신경 쪽으로 깊어졌는지 확인해 주실 수 있을까요?","explanation":"초기에는 통증이 없고 치과 검진과 X-ray로 발견한다고 알려져 있어요.","sourceLabel":"MSD 매뉴얼 일반인용: 충치의 진단","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1},{"question":"이전에 치료한 자리에 다시 충치가 생기지 않았는지도 봐 주실 수 있을까요?","explanation":"오래된 충전물의 가장자리에 틈이 생겨 세균이 모이면 그 둘레에 충치가 생길 수 있다고 알려져 있어요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 오래된 충전물 가장자리의 충치","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/cavities","citeAfter":1}]
+askCards: [{"question":"이 충치는 지금 어느 단계이고, 불소로 지켜볼 수 있나요, 채워야 하나요?","explanation":"초기 충치는 불소 치료로 되돌릴 수 있고, 구멍이 생기면 보통 충전이 필요해요.","sourceLabel":"영국 국민보건서비스(NHS): 충치 단계별 치료","sourceUrl":"https://www.nhs.uk/conditions/tooth-decay/","citeAfter":1},{"question":"통증이 없는데도 X-ray로 충치가 신경 쪽으로 깊어졌는지 확인해 주실 수 있을까요?","explanation":"초기에는 통증이 없고 치과 검진과 X-ray로 발견해요.","sourceLabel":"MSD 매뉴얼 일반인용: 충치의 진단","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1},{"question":"이전에 치료한 자리에 다시 충치가 생기지 않았는지도 봐 주실 수 있을까요?","explanation":"오래된 충전물의 가장자리에 틈이 생겨 세균이 모이면 그 둘레에 충치가 생길 수 있어요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 오래된 충전물 가장자리의 충치","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/cavities","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - resin

@@ -17,10 +17,10 @@ detail: |
   임플란트 둘레 잇몸이 붉거나 아프고, 양치할 때 피가 날 수 있어요. 잇몸병 증상과 비슷해요. [근거](https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/peri-implant-diseases/ "미국치주과학회(AAP): 임플란트 둘레 잇몸이 붉거나 아프고 양치 때 출혈") 초기에는 증상이 약해 발견이 늦을 수 있습니다.
 
   ## 왜 생기나요
-  원인은 관리 부족·흡연·당뇨·과도한 교합력·보철 설계 문제 등이 복합적으로 작용하는 경우가 많아요. 미국치주과학회는 잇몸병을 앓은 적이 있는 것, 치태 관리 부족, 흡연, 당뇨를 위험 요인으로 들어요. [근거](https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/peri-implant-diseases/ "미국치주과학회(AAP): 위험 요인은 잇몸병 병력·치태 관리 부족·흡연·당뇨") 이를 갈면 임플란트에 힘이 과하게 실려 성공률이 낮아질 수 있다고도 해요. [근거](https://www.cuh.nhs.uk/patient-information/dental-implants-in-restorative-dentistry/ "케임브리지대학병원(NHS): 이갈이는 임플란트를 과부하시켜 성공률을 낮출 수 있음")
+  원인은 관리 부족·흡연·당뇨·과도한 교합력·보철 설계 문제 등이 복합적으로 작용하는 경우가 많아요. 잇몸병을 앓은 적이 있는 것, 치태 관리 부족, 흡연, 당뇨가 위험 요인으로 알려져 있어요. [근거](https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/peri-implant-diseases/ "미국치주과학회(AAP): 위험 요인은 잇몸병 병력·치태 관리 부족·흡연·당뇨") 이를 갈면 임플란트에 힘이 과하게 실려 성공률이 낮아질 수 있다고도 해요. [근거](https://www.cuh.nhs.uk/patient-information/dental-implants-in-restorative-dentistry/ "케임브리지대학병원(NHS): 이갈이는 임플란트를 과부하시켜 성공률을 낮출 수 있음")
 
   ## 어떻게 치료하나요
-  치료는 깊은 세척·소독·수술적 치주치료·[뼈이식](/terms/bone-graft/) 등 뼈 재건·보철 재제작·임플란트 제거 등 단계에 따라 달라져요. 미국치주과학회는 뼈까지 상한 주위염은 대개 수술적 치료가 필요하다고 안내해요. [근거](https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/peri-implant-diseases/ "미국치주과학회(AAP): 주위염은 대개 수술적 치료가 필요, 점막염은 일찍 발견하면 치료 가능") 유럽치주학회(EFP) 임상 지침은 주위염이 관리하기 어렵고 합병증이 큰 질환이라 발견되면 적절한 치료를 해야 한다고 말해요. [근거](https://europepmc.org/article/MED/37271498 "유럽 PMC 기록(EFP S3 지침, 2023): 임플란트 주위 질환 예방과 치료, 주위염은 관리 어렵고 합병증이 큼") 식립 후에도 정기 검진·[스케일링](/terms/scaling/)·집에서 관리가 필수입니다. 이 지침은 임플란트를 쓰기 시작한 뒤 주기적으로 주위 조직을 확인하는 유지 관리 프로그램을 권해요. [근거](https://europepmc.org/article/MED/37271498 "유럽 PMC 기록(EFP S3 지침, 2023): 보철 장착 뒤 주기적 주위 조직 평가를 포함한 유지 관리 프로그램") [임플란트 관리](/terms/impeulranteu-gwanri/)도 함께 보세요.
+  치료는 깊은 세척·소독·수술적 치주치료·[뼈이식](/terms/bone-graft/) 등 뼈 재건·보철 재제작·임플란트 제거 등 단계에 따라 달라져요. 미국치주과학회는 뼈까지 상한 주위염은 대개 수술적 치료가 필요하다고 안내해요. [근거](https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/peri-implant-diseases/ "미국치주과학회(AAP): 주위염은 대개 수술적 치료가 필요, 점막염은 일찍 발견하면 치료 가능") 유럽치주학회(EFP) 임상 지침은 주위염이 관리하기 어렵고 합병증이 큰 질환이라 발견되면 적절한 치료를 해야 한다고 말해요. [근거](https://europepmc.org/article/MED/37271498 "유럽 PMC 기록(EFP S3 지침, 2023): 임플란트 주위 질환 예방과 치료, 주위염은 관리 어렵고 합병증이 큼") 식립 후에도 정기 검진·[스케일링](/terms/scaling/)·집에서 관리가 필수입니다. 임플란트를 쓰기 시작한 뒤에는 주기적으로 주위 조직을 확인하는 유지 관리 프로그램도 권해요. [근거](https://europepmc.org/article/MED/37271498 "유럽 PMC 기록(EFP S3 지침, 2023): 보철 장착 뒤 주기적 주위 조직 평가를 포함한 유지 관리 프로그램") [임플란트 관리](/terms/impeulranteu-gwanri/)도 함께 보세요.
 faqs:
   - question: "임플란트 주위염 증상은 뭐예요?"
     answer: "임플란트 둘레 잇몸이 붉거나 아프고, 양치 때 피가 날 수 있어요(미국치주과학회). 냄새, 씹을 때 불편, 임플란트 흔들림 등이 있을 수 있어요. 초기에는 증상이 약해 발견이 늦을 수 있습니다."
@@ -43,7 +43,7 @@ approach:
   - when: "잇몸만 붉고 뼈는 아직 녹지 않았을 때 (주위 점막염)"
     name: "비수술적 청결 처치"
     en: "Non-surgical Debridement"
-    detail: "티타늄에 상처를 내지 않는 기구와 세척으로 오염을 걷어냅니다. 이 단계면 되돌릴 수 있습니다."
+    detail: "티타늄에 상처를 내지 않는 기구와 세척으로 오염을 걷어내요. 이 단계면 되돌릴 수 있어요."
   - when: "뼈가 녹기 시작했을 때"
     name: "판막 수술 + 임플란트 표면 정화"
     en: "Flap Surgery with Implant Surface Decontamination"

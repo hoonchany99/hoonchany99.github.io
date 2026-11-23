@@ -31,12 +31,26 @@ export const GUIDE_KIND_BY_SLUG: Readonly<Record<string, GuideKind>> = {
   'halitosis': 'condition',
   'calculus': 'condition',
   'sangagdong-geosangsul-habbyeongjeung': 'condition',
+  // 「충치·신경」·「임플란트」 등 치료 분야지만 병·증상 → 「상담 전」 (대표 1095 「이시림 선택 전」)
+  'gwaminseong-sangajil': 'condition',
+  'cavity': 'condition',
+  'pericoronitis': 'condition',
+  'chia-gyunyeol-jeunghugun': 'condition',
+  'tooth-discoloration': 'condition',
+  'tooth-fracture': 'condition',
+  'peri-implantitis': 'condition',
+  'supernumerary': 'condition',
+  'wisdom-tooth': 'condition',
   // 잇몸 분야지만 치료 → 「선택 전」
   'gum-graft': 'treatment',
   'scaling-root-planing': 'treatment',
   'scaling': 'treatment',
   // 안내 글 → 「진료에서 확인할 것」
   'balchi-hu-juuisahang': 'concept',
+  // 치료가 아닌 개념·도구 → 「진료에서 확인할 것」
+  'osseointegration': 'concept',
+  'impeulranteu-sumyeong': 'concept',
+  'rubber-dam': 'concept',
 };
 
 export const guideKind = (category: string | undefined | null, slug?: string | null): GuideKind =>

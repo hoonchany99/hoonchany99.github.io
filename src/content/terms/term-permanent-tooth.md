@@ -42,7 +42,7 @@ sources:
     title: "미국치과의사협회(ADA) 영구치 맹출표: 치아별 나는 나이"
   - url: "https://www.nhs.uk/live-well/healthy-teeth-and-gums/taking-care-of-childrens-teeth/"
     title: "영국 국민보건서비스(NHS): 6~7세·11~14세 실란트, 불소 바니시, 나이별 양치"
-askCards: [{"question":"우리 아이 영구치 나는 순서와 시기가 정상 범위인가요?","explanation":"미국치과의사협회 표는 6세 어금니와 아래 앞니가 6~7세, 사랑니가 17~21세쯤 나는 범위로 안내해요. 나이는 범위라서 어긋나 보이면 치과에서 확인해 보세요.","sourceLabel":"미국치과의사협회(ADA) 영구치 맹출표","sourceUrl":"https://www.mouthhealthy.org/-/media/project/ada-organization/ada/mouthhealthy/files/activity-sheets/adapermanentteethdev_eng.pdf","citeAfter":1},{"question":"새로 난 어금니에 실란트나 불소가 필요한가요?","explanation":"영국 기준으로는 영구치 어금니가 나오는 6~7세쯤과 나머지 치아가 나오는 11~14세에 실란트를 권하고, 불소 바니시는 6개월마다 바를 수 있어요.","sourceLabel":"영국 국민보건서비스(NHS): 실란트와 불소 바니시","sourceUrl":"https://www.nhs.uk/live-well/healthy-teeth-and-gums/taking-care-of-childrens-teeth/","citeAfter":1}]
+askCards: [{"question":"우리 아이 영구치 나는 순서와 시기가 정상 범위인가요?","explanation":"6세 어금니와 아래 앞니는 6~7세, 사랑니는 17~21세쯤 나는 범위로 알려져 있어요. 나이는 범위라서 어긋나 보이면 치과에서 확인해 보세요.","sourceLabel":"미국치과의사협회(ADA) 영구치 맹출표","sourceUrl":"https://www.mouthhealthy.org/-/media/project/ada-organization/ada/mouthhealthy/files/activity-sheets/adapermanentteethdev_eng.pdf","citeAfter":1},{"question":"새로 난 어금니에 실란트나 불소가 필요한가요?","explanation":"영국 기준으로는 영구치 어금니가 나오는 6~7세쯤과 나머지 치아가 나오는 11~14세에 실란트를 권하고, 불소 바니시는 6개월마다 바를 수 있어요.","sourceLabel":"영국 국민보건서비스(NHS): 실란트와 불소 바니시","sourceUrl":"https://www.nhs.uk/live-well/healthy-teeth-and-gums/taking-care-of-childrens-teeth/","citeAfter":1}]
 updated: "2026-08-16"
 reviewed: "2026-11-23"
 relatedTerms:

@@ -29,7 +29,7 @@ faqs:
   - question: "마취 풀리기 전 뭐 하면 안 되나요?"
     answer: "뜨거운 음식·과도한 씹기·볼·혀·입술 깨물기를 피하세요. 저림 때문에 물지 않게 주의가 필요합니다."
   - question: "임신 중에도 국소마취 가능한가요?"
-    answer: "ADA는 국소마취가 임신 중 어느 때든 안전하다고 안내해요. 시기·시술 필요성·약물 선택을 종합해 판단하며, 산부인과·치과 상담 후 결정하는 경우가 많습니다."
+    answer: "국소마취는 임신 중 어느 때든 안전하다고 안내돼요(ADA). 시기·시술 필요성·약물 선택을 종합해 판단하며, 산부인과·치과 상담 후 결정하는 경우가 많습니다."
   - question: "마취가 잘 안 풀리는 것 같아요"
     answer: "개인·주사 부위·마취 종류에 따라 시간 차이가 있어요. 몇 시간 지나도 이상한 감각·통증·부종이 있으면 연락해 주세요."
 sources:
@@ -46,7 +46,7 @@ sources:
   - url: "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy"
     title: "미국치과의사협회(ADA): 임신 중 국소마취 안전"
 compare: {"title":"헷갈리는 말과 차이","columns":["국소마취","웃음가스(아산화질소)"],"rows":[{"label":"무엇을 하나","cells":["치료 부위의 통증 신호를 막아요","불안과 긴장을 줄이는 가벼운 진정이에요"]},{"label":"의식","cells":["깨어 있어요","깨어 있고, 지시에 반응해요"]},{"label":"치아 감각","cells":["치료 부위의 감각이 없어져요","치아 신경의 감각 자체는 없애지 못해서 국소마취와 함께 쓰는 경우가 많아요"]}]}
-askCards: [{"question":"심장 질환이나 혈압 문제가 있는데, 혈관수축제가 든 마취를 써도 되는지 알 수 있을까요?","explanation":"JOMA 리뷰는 조절되지 않는 고혈압·부정맥, 불안정 협심증, 최근 뇌졸중이나 심장수술이 있으면 에피네프린 사용에 주의가 필요하다고 정리해요. 심장 질환이 있거나 최근 심근경색이 있었다면 치과에 꼭 알려 주세요.","sourceLabel":"구강악안면 마취 학술지(JOMA) 2025 리뷰: 에피네프린 주의 질환","sourceUrl":"https://joma.amegroups.org/article/view/7124/html","citeAfter":1},{"question":"약물이나 다른 물질에 알레르기가 있는데 미리 말씀드릴 게 있는지 알 수 있을까요?","explanation":"약물이나 다른 물질에 알레르기가 있으면 시술 전에 알리세요.","sourceLabel":"영국 국민보건서비스(NHS): 시술 전 알레르기 알리기","sourceUrl":"https://www.nhs.uk/tests-and-treatments/local-anaesthesia/","citeAfter":1},{"question":"임신 중인데 국소마취를 받아도 되는지 알 수 있을까요?","explanation":"ADA는 국소마취가 임신 중 어느 때든 안전하고, 에피네프린이 든 마취제도 쓸 수 있다고 안내해요.","sourceLabel":"미국치과의사협회(ADA): 임신 중 국소마취 안전","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy","citeAfter":1},{"question":"마취가 풀릴 때까지 무엇을 조심해야 하는지 알 수 있을까요?","explanation":"마취가 남아 있으면 입술·볼·혀를 깨물지 않게 조심하고 뜨거운 음료는 피하세요.","sourceLabel":"브리스톨대학교 치과대학: 마취가 풀릴 때까지 깨물기·뜨거운 음료 주의","sourceUrl":"https://www.bristol.ac.uk/dental/treatment/patient-information/care-for-your-mouth-after-urgent-dental-care","citeAfter":1}]
+askCards: [{"question":"심장 질환이나 혈압 문제가 있는데, 혈관수축제가 든 마취를 써도 되는지 알 수 있을까요?","explanation":"JOMA 리뷰는 조절되지 않는 고혈압·부정맥, 불안정 협심증, 최근 뇌졸중이나 심장수술이 있으면 에피네프린 사용에 주의가 필요하다고 정리해요. 심장 질환이 있거나 최근 심근경색이 있었다면 치과에 꼭 알려 주세요.","sourceLabel":"구강악안면 마취 학술지(JOMA) 2025 리뷰: 에피네프린 주의 질환","sourceUrl":"https://joma.amegroups.org/article/view/7124/html","citeAfter":1},{"question":"약물이나 다른 물질에 알레르기가 있는데 미리 말씀드릴 게 있는지 알 수 있을까요?","explanation":"약물이나 다른 물질에 알레르기가 있으면 시술 전에 알리세요.","sourceLabel":"영국 국민보건서비스(NHS): 시술 전 알레르기 알리기","sourceUrl":"https://www.nhs.uk/tests-and-treatments/local-anaesthesia/","citeAfter":1},{"question":"임신 중인데 국소마취를 받아도 되는지 알 수 있을까요?","explanation":"국소마취가 임신 중 어느 때든 안전하고, 에피네프린이 든 마취제도 쓸 수 있다고 알려져 있어요.","sourceLabel":"미국치과의사협회(ADA): 임신 중 국소마취 안전","sourceUrl":"https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy","citeAfter":1},{"question":"마취가 풀릴 때까지 무엇을 조심해야 하는지 알 수 있을까요?","explanation":"마취가 남아 있으면 입술·볼·혀를 깨물지 않게 조심하고 뜨거운 음료는 피하세요.","sourceLabel":"브리스톨대학교 치과대학: 마취가 풀릴 때까지 깨물기·뜨거운 음료 주의","sourceUrl":"https://www.bristol.ac.uk/dental/treatment/patient-information/care-for-your-mouth-after-urgent-dental-care","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - nitrous-oxide

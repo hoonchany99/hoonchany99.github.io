@@ -78,7 +78,10 @@ approach:
   - when: "가만히 있어도 아플 때"
     name: "신경치료 후 크라운"
     en: "Root Canal then Crown"
-    detail: "치수까지 염증이 갔다는 뜻이에요. 보통 3~5회 방문해요. 상태에 따라 달라요."
+    detail: "치수까지 염증이 갔다는 뜻이에요. 신경치료는 보통 1~2번에 끝나는데(미국 근관치료학회), 금이 간 치아는 상태에 따라 더 걸릴 수 있어요."
+    sources:
+      - name: "미국 근관치료학회(AAE)"
+        url: "https://www.aae.org/patients/root-canal-treatment/what-is-a-root-canal/"
 sources:
   - url: "https://www.aae.org/patients/dental-symptoms/cracked-teeth/"
     title: "미국 근관치료학회(AAE): 치아 금의 종류·증상·치료·예방"

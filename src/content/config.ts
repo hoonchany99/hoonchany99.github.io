@@ -60,6 +60,8 @@ const terms = defineCollection({
           detail: z.string(),
           /** 이 단계에서 환자가 겪는 것 — 짧은 칩 2~3개 */
           experience: z.array(z.string()).optional(),
+          /** 숫자·기간의 근거 — 「근거: 이름 ↗」 링크로 보여요 */
+          sources: z.array(z.object({ name: z.string(), url: z.string().url() })).optional(),
         })
       )
       .default([]),

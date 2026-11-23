@@ -44,11 +44,19 @@ approach:
     name: "치근활택술"
     en: "Scaling and Root Planing"
     slug: scaling-root-planing
-    detail: "잇몸 속 치석과 오염층을 걷어내요. 보통 2~4회에 나눠 하고 4~6주 뒤 다시 봐요. 상태에 따라 달라요."
+    detail: "잇몸 속 치석과 오염층을 걷어내요. 보통 2~4회에 나눠 하고, 6~12주 뒤 다시 확인해요(영국 지침 기준). 상태에 따라 달라요."
+    sources:
+      - name: "Cochrane 리뷰"
+        url: "https://www.cochrane.org/CD004622"
+      - name: "영국 SDCEP 지침"
+        url: "https://periodontalcare.sdcep.org.uk/guidance/treatment-components/assessing-treatment-response/"
   - when: "비수술 치료로 충분하지 않을 때"
     name: "치주 판막 수술"
     en: "Periodontal Flap Surgery"
-    detail: "잇몸을 젖혀 직접 보면서 제거해요. 보통 부위당 1회예요. 상태에 따라 달라요."
+    detail: "잇몸을 젖혀 직접 보면서 제거해요. 보통 부위당 1회예요. 녹지 않는 실은 보통 1~2주 뒤에 빼요. 상태에 따라 달라요."
+    sources:
+      - name: "영국 NHS 가이즈 앤 세인트 토머스"
+        url: "https://guysandstthomas.nhs.uk/health-information/periodontal-gum-surgery/recovery"
   - when: "깊은 골 결손이 있을 때"
     name: "치주 조직 재생술"
     en: "Guided Tissue Regeneration"
@@ -58,7 +66,7 @@ approach:
     name: "치주 유지관리"
     en: "Periodontal Maintenance"
     slug: chiju-yujigwanri
-    detail: "보통 3~4개월 간격으로 관리해요. 잇몸 상태에 따라 달라요. 치주낭은 관리를 놓으면 다시 깊어져요."
+    detail: "보통 3~4개월마다 시작해서, 잇몸 상태와 위험도에 따라 3~12개월로 달라져요(유럽 지침 기준). 치주낭은 관리를 놓으면 다시 깊어져요."
 sources:
   - url: "https://www.nidcr.nih.gov/health-info/gum-disease"
     title: "미국 국립치아·구강·안면연구소(NIDCR): 탐침 측정, 건강한 주머니 1~3mm"

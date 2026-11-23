@@ -6,7 +6,7 @@ en: "Radiation Safety"
 tier: B
 aliases:
   - "방사선 안전"
-definition: "치과 X-ray의 방사선량은 일상에서 받는 자연 방사선에 비해 적은 편이에요. 그래도 필요한 만큼만 찍는 것이 원칙입니다."
+definition: "치과 X-ray는 찍는 범위가 좁아 방사선량이 적은 편이에요. 그래도 필요한 만큼만, 필요한 부위만 찍는 것이 원칙이에요."
 detail: |
   ## 치과 X-ray는 위험하지 않나요
   치과 촬영은 범위가 좁고 노출 시간이 짧습니다. 치아 사이를 보는 교익 사진(bitewing)은 약 5마이크로시버트, 입 전체를 보는 파노라마는 약 20마이크로시버트 정도로 알려져 있어요(미국 기준). [근거](https://adanews.ada.org/huddles/a-look-at-dental-x-ray-radiation-safety-and-recommendations/ "미국치과의사협회(ADA) 뉴스: 교익 약 5, 파노라마 약 20마이크로시버트") 예전 장비보다 훨씬 줄었어요. [근거](https://adanews.ada.org/huddles/a-look-at-dental-x-ray-radiation-safety-and-recommendations/ "미국치과의사협회(ADA) 뉴스: 수십 년 전보다 선량이 크게 낮아짐") 필름 대신 디지털로 찍으면 선량을 더 줄일 수 있어요. [근거](https://www.ada.org/en/about/press-releases/ada-releases-updated-recommendations-to-enhance-radiography-safety-in-dentistry "미국치과의사협회(ADA) 보도자료(2024-02-01): 필름 대신 디지털 사용") 그래서 필요한 만큼만 찍으면 위험은 아주 낮아요.

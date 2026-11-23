@@ -38,7 +38,7 @@ faqs:
     answer: "양치 때 피가 나는 것은 주위 염증의 신호일 수 있지만, 피만으로 점막염인지 주위염인지는 알 수 없어요. 뼈 상태는 검진과 X-ray로 확인해야 해요."
   - question: "주위염이 생기면 임플란트를 빼야 하나요?"
     answer: "단계에 따라 달라요. 점막염은 일찍 발견하면 되돌릴 수 있고, 뼈까지 상했다면 수술적 치료가 필요할 수 있어요. 끝내 붙지 못하거나 심하게 상하면 제거해야 할 수도 있습니다."
-approachOrdered: true
+approachMode: escalate
 approach:
   - when: "잇몸만 붉고 뼈는 아직 녹지 않았을 때 (주위 점막염)"
     name: "비수술적 청결 처치"
@@ -47,15 +47,15 @@ approach:
   - when: "뼈가 녹기 시작했을 때"
     name: "판막 수술 + 임플란트 표면 정화"
     en: "Flap Surgery with Implant Surface Decontamination"
-    detail: "잇몸을 젖혀 나사산에 붙은 오염을 직접 제거합니다. 회복 기간은 개인마다 달라요."
+    detail: "잇몸을 젖혀 나사산에 붙은 오염을 직접 제거해요. 보통 1회 수술에 회복은 2~4주예요. 상태에 따라 달라요."
   - when: "결손이 깊고 임플란트가 아직 흔들리지 않을 때"
     name: "골재생술 병행"
     en: "Regenerative Therapy"
-    detail: "골이식재와 차단막으로 뼈를 되살립니다. 재평가 시점은 개인마다 달라요."
+    detail: "골이식재와 차단막으로 뼈를 되살려요. 재평가까지 보통 6~9개월 걸려요. 상태에 따라 달라요."
   - when: "임플란트가 흔들릴 때"
     name: "임플란트 제거"
     en: "Implant Removal"
-    detail: "골유착이 깨지면 살리기 어려워요. 제거 후 치유 기간을 거쳐 다시 심는 것을 검토할 수 있어요. 기간은 개인마다 달라요."
+    detail: "골유착이 깨지면 살리기 어려워요. 제거 후 뼈를 만들고, 보통 3~6개월 뒤 다시 심는 것을 검토해요. 상태에 따라 달라요."
 sources:
   - url: "https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/peri-implant-diseases/"
     title: "미국치주과학회(AAP): 임플란트 주위 점막염·주위염 정의, 증상, 위험 요인, 수술적 치료"

@@ -33,6 +33,14 @@ const headingName = term.data.officialName ? `${term.data.name}(${term.data.offi
 
 /** 치료 블록이 가리키는 시술 페이지의 표제어 — CTA에 목적지 이름을 쓰기 위함 */
 const approachSlugs = term.data.approach.map((a) => a.slug).filter(Boolean) as string[];
+// 순서 표시: approachMode가 우선, 옛 approachOrdered: true는 sequence로 본다
+const approachMode = term.data.approachMode ?? (term.data.approachOrdered ? 'sequence' : undefined);
+const approachBadge =
+  approachMode === 'sequence'
+    ? '순서대로 진행해요'
+    : approachMode === 'escalate'
+      ? '1단계로 충분하지 않을 때 다음 단계로 가요'
+      : null;
 const approachNameBySlug = Object.fromEntries(
   (
     await Promise.all(approachSlugs.map((s) => getEntry('terms', `term-${s}`)))
@@ -331,10 +339,10 @@ const definedTermLd = JSON.stringify({
           <h2 class={`${h2Cls} mb-3 mt-14`}>치료 방법</h2>
           <p class="text-xs text-gray-400 mb-4">이렇게 치료합니다.</p>
 
-          {term.data.approachOrdered && (
+          {approachBadge && (
             <p class="mb-4 inline-flex items-center gap-1.5 rounded-lg bg-brand/5 px-3 py-1.5 text-xs font-medium text-brand/80">
               <span aria-hidden="true">↓</span>
-              순서대로 진행합니다
+              {approachBadge}
             </p>
           )}
 
@@ -365,12 +373,19 @@ const definedTermLd = JSON.stringify({
                             {item.name}
                           </span>
                           {item.en && (
-                            <span class="ml-2 text-xs font-medium text-brand/70 tracking-wide">
+                            <span class="ml-2 text-[11px] font-normal text-gray-400 tracking-wide">
                               {item.en}
                             </span>
                           )}
                         </p>
                         <p class="mt-1.5 text-[15px] text-gray-600 leading-relaxed">{item.detail}</p>
+                        {item.experience && item.experience.length > 0 && (
+                          <ul class="mt-2.5 flex flex-wrap gap-1.5" aria-label="이 단계에서 겪는 것">
+                            {item.experience.map((e) => (
+                              <li class="rounded-full bg-gray-100 px-2.5 py-1 text-xs text-gray-500">{e}</li>
+                            ))}
+                          </ul>
+                        )}
                         {item.slug && approachNameBySlug[item.slug] && (
                           <span class="mt-2.5 inline-flex items-center gap-1 text-xs font-medium text-gray-400 group-hover:text-brand transition-colors">
                             {approachNameBySlug[item.slug]} 자세히 보기

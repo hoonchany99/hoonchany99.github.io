@@ -46,6 +46,8 @@ const terms = defineCollection({
       .default([]),
     /** 앞 항목을 해야 다음이 성립하는 블록인지 (응급·단계형) */
     approachOrdered: z.boolean().default(false),
+    /** 순서 표시 방식 — sequence: 순서대로 진행 / escalate: 1단계로 충분하지 않을 때 다음 단계로. approachOrdered: true는 sequence로 취급 */
+    approachMode: z.enum(["sequence", "escalate"]).optional(),
     /** 원인별 치료·대응 — 원인 한 줄 → 치료명 → 기간·횟수 */
     approach: z
       .array(
@@ -56,6 +58,8 @@ const terms = defineCollection({
           /** 그 시술의 사전 페이지 — 사전에 있는 용어일 때만 채워진다 */
           slug: z.string().optional(),
           detail: z.string(),
+          /** 이 단계에서 환자가 겪는 것 — 짧은 칩 2~3개 */
+          experience: z.array(z.string()).optional(),
         })
       )
       .default([]),

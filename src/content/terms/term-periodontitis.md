@@ -43,26 +43,30 @@ faqs:
     answer: "양치나 치실 때의 출혈은 잇몸 질환의 흔한 신호예요(미국치주과학회). 다만 출혈만으로 치은염인지 치주염인지 알 수 없어서 검진으로 뼈 상태를 확인해야 해요."
   - question: "잇몸뼈가 녹았다면 다시 자랄 수 있나요?"
     answer: "뼈이식이나 차단막을 써서 잃은 뼈의 재생을 시도하는 치료가 있어요(미국치주과학회). 다만 결과는 상태에 따라 달라서 치주과에서 검사 후 판단해요."
-approachOrdered: true
+approachMode: escalate
 approach:
-  - when: "초기"
+  - when: "치주염을 처음 진단받았을 때 (대부분 여기서 시작)"
     name: "치근활택술 (SRP)"
     en: "Scaling and Root Planing"
     slug: scaling-root-planing
-    detail: "마취하고 잇몸 속 치근 표면의 치석과 오염층을 긁어냅니다. 횟수와 재평가 시점은 개인마다 달라요."
-  - when: "SRP 같은 비수술 치료로 충분하지 않은 경우"
+    detail: "마취하고 잇몸 속 치아 뿌리 표면(치근)의 치석과 세균막을 긁어내요. 보통 2~4회에 나눠 하고 4~6주 뒤 다시 봐요. 상태에 따라 달라요."
+    experience: ["부분 마취", "보통 2~4회", "당일 일상생활 가능"]
+  - when: "치근활택술(SRP) 같은 비수술 치료로 충분하지 않을 때"
     name: "치주 판막 수술"
     en: "Periodontal Flap Surgery"
-    detail: "잇몸을 젖혀 직접 보면서 염증 조직과 치석을 제거하고 봉합합니다. 필요한 범위와 실밥 제거 시점은 개인마다 달라요."
-  - when: "골 결손이 국소적으로 깊게 파인 경우"
+    detail: "잇몸을 젖혀 직접 보면서 염증 조직과 치석을 제거하고 꿰매요. 보통 부위당 1회, 실밥은 1~2주 뒤 빼요. 상태에 따라 달라요."
+    experience: ["부분 마취", "부위당 보통 1회", "실밥 1~2주 뒤"]
+  - when: "뼈가 한 곳만 깊게 녹은 경우(국소 골 결손)"
     name: "치주 조직 재생술"
     en: "Guided Tissue Regeneration"
-    detail: "골이식재와 차단막으로 없어진 뼈가 다시 차오를 공간을 만듭니다. 재생 여부를 보는 기간은 개인마다 달라요."
+    detail: "뼈 이식재와 차단막으로 녹은 뼈가 다시 차오를 공간을 만들어요. 재생됐는지 보는 데 보통 6~9개월 걸려요. 상태에 따라 달라요."
+    experience: ["부분 마취", "판정까지 보통 6~9개월"]
   - when: "치료를 마친 뒤 평생"
     name: "치주 유지관리"
     en: "Periodontal Maintenance"
     slug: chiju-yujigwanri
-    detail: "정기 관리로 재발을 막는 데 도움이 돼요. 간격은 개인마다 달라요. 치주염은 완치가 아니라 관리하는 병입니다."
+    detail: "정기 관리로 재발을 막아요. 보통 3~4개월 간격이에요. 잇몸 상태에 따라 달라요. 치주염은 완치가 아니라 관리하는 병이에요."
+    experience: ["마취 없이", "보통 3~4개월마다"]
 sources:
   - url: "https://www.perio.org/for-patients/gum-disease-information/"
     title: "미국치주과학회(AAP): 치은염과 치주염, 증상, 출혈"

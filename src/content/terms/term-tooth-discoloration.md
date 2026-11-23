@@ -51,7 +51,7 @@ approach:
     name: "스케일링 + 치면 연마"
     en: "Scaling and Polishing"
     slug: scaling
-    detail: "겉에 붙은 색소를 걷어냅니다. 표면 착색 정도에 따라 한 번에 많이 좋아지기도 합니다."
+    detail: "겉에 붙은 색소를 걷어내요. 표면 착색은 보통 1회 방문으로 상당 부분 좋아져요. 착색 정도에 따라 달라요."
   - when: "치아 속까지 누렇게 변한 경우"
     name: "치아 미백"
     en: "Tooth Whitening"

@@ -69,7 +69,7 @@ approach:
     name: "교합 조정 + 관찰"
     en: "Occlusal Adjustment"
     slug: occlusal-adjustment
-    detail: "금 간 곳에 힘이 몰리지 않게 다듬습니다. 경과를 보는 간격은 개인마다 달라요."
+    detail: "금 간 곳에 힘이 몰리지 않게 다듬어요. 보통 3~6개월 간격으로 경과를 봐요. 상태에 따라 달라요."
   - when: "씹을 때 통증이 뚜렷할 때"
     name: "크라운 수복"
     en: "Full Coverage Crown"
@@ -78,7 +78,7 @@ approach:
   - when: "가만히 있어도 아플 때"
     name: "신경치료 후 크라운"
     en: "Root Canal then Crown"
-    detail: "치수까지 염증이 갔다는 뜻입니다. 방문 횟수는 개인마다 달라요."
+    detail: "치수까지 염증이 갔다는 뜻이에요. 보통 3~5회 방문해요. 상태에 따라 달라요."
 sources:
   - url: "https://www.aae.org/patients/dental-symptoms/cracked-teeth/"
     title: "미국 근관치료학회(AAE): 치아 금의 종류·증상·치료·예방"

@@ -38,27 +38,27 @@ faqs:
     answer: "미국 국립치아·구강·안면연구소는 건강한 주머니를 약 1~3mm로 안내해요. 이보다 깊으면 치주 질환을 의심하지만, 진단은 출혈·뼈 상태까지 함께 보고 해요."
   - question: "잇몸에 고름이 보이는데 치주낭과 관련 있나요?"
     answer: "잇몸 고름은 치주염의 증상 중 하나로 안내돼요(미국치주과학회). 고름이 보이면 주머니 속 염증일 수 있어서 검진이 필요해요."
-approachOrdered: true
+approachMode: escalate
 approach:
   - when: "건강한 주머니(약 1~3mm)보다 깊은 초기"
     name: "치근활택술"
     en: "Scaling and Root Planing"
     slug: scaling-root-planing
-    detail: "잇몸 속 치석과 오염층을 걷어냅니다. 횟수와 재평가 시점은 개인마다 달라요."
+    detail: "잇몸 속 치석과 오염층을 걷어내요. 보통 2~4회에 나눠 하고 4~6주 뒤 다시 봐요. 상태에 따라 달라요."
   - when: "비수술 치료로 충분하지 않을 때"
     name: "치주 판막 수술"
     en: "Periodontal Flap Surgery"
-    detail: "잇몸을 젖혀 직접 보면서 제거합니다. 필요한 범위와 횟수는 개인마다 달라요."
+    detail: "잇몸을 젖혀 직접 보면서 제거해요. 보통 부위당 1회예요. 상태에 따라 달라요."
   - when: "깊은 골 결손이 있을 때"
     name: "치주 조직 재생술"
     en: "Guided Tissue Regeneration"
     slug: chiju-jaesaengsul
-    detail: "골이식재와 차단막으로 뼈가 차오를 공간을 만듭니다. 경과를 보는 기간은 개인마다 달라요."
+    detail: "골이식재와 차단막으로 뼈가 차오를 공간을 만들어요. 판정까지 보통 6~9개월 걸려요. 상태에 따라 달라요."
   - when: "치료 후 평생"
     name: "치주 유지관리"
     en: "Periodontal Maintenance"
     slug: chiju-yujigwanri
-    detail: "대부분 치료 뒤에도 지속적인 유지 관리가 필요하다고 안내해요. 간격은 개인마다 달라요. 치주낭은 관리를 놓으면 다시 깊어집니다."
+    detail: "보통 3~4개월 간격으로 관리해요. 잇몸 상태에 따라 달라요. 치주낭은 관리를 놓으면 다시 깊어져요."
 sources:
   - url: "https://www.nidcr.nih.gov/health-info/gum-disease"
     title: "미국 국립치아·구강·안면연구소(NIDCR): 탐침 측정, 건강한 주머니 1~3mm"

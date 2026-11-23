@@ -47,11 +47,11 @@ approach:
   - when: "약물과 병행"
     name: "인지행동 요법"
     en: "Cognitive Behavioral Therapy"
-    detail: "통증에 대한 불안이 통증을 키웁니다. 함께 다루면 삶의 질에 도움이 된다고 해요."
+    detail: "통증에 대한 불안이 통증을 키워요. 함께 다루면 삶의 질에 도움이 된다고 해요."
   - when: "조절이 어려울 때"
     name: "통증 클리닉 의뢰"
     en: "Pain Clinic Referral"
-    detail: "구강안면통증 전문 진료로 넘깁니다. 없애기보다 줄여 지내는 것을 목표로 합니다."
+    detail: "구강안면통증 전문 진료로 넘겨요. 없애기보다 줄여 지내는 것을 목표로 해요."
 sources:
   - url: "https://www.ncbi.nlm.nih.gov/books/NBK554486/"
     title: "StatPearls(NCBI): 얼굴 통증 (원래 출처, 이번에는 확인 화면에 막혀 열지 못함)"

@@ -57,27 +57,27 @@ approach:
     name: "불소 도포 + 관찰"
     en: "Fluoride Application"
     slug: bulso-dopo
-    detail: "초기 우식은 다시 단단해질 수 있습니다. 3~6개월 간격으로 불소를 바르며 진행을 봅니다."
+    detail: "초기 우식은 다시 단단해질 수 있어요. 3~6개월 간격으로 불소를 바르며 진행을 봐요."
   - when: "구멍이 뚫렸고 범위가 작을 때"
     name: "레진 충전"
     en: "Composite Restoration"
     slug: resin
-    detail: "썩은 부분만 걷어내고 레진으로 메웁니다. 1회 방문, 치아당 20~40분."
+    detail: "썩은 부분만 걷어내고 레진으로 메워요. 1회 방문, 치아당 20~40분."
   - when: "어금니 씹는 면이 넓게 파였을 때"
     name: "인레이 · 온레이"
     en: "Inlay / Onlay"
     slug: inlay
-    detail: "본을 떠 만든 조각을 끼웁니다. 2회 방문, 레진보다 마모와 변색에 강합니다."
+    detail: "본을 떠 만든 조각을 끼워요. 2회 방문, 레진보다 마모와 변색에 강해요."
   - when: "남은 치아가 얼마 없을 때"
     name: "크라운"
     en: "Crown"
     slug: crown
-    detail: "치아 전체를 씌워 깨지는 것을 막습니다. 2~3회 방문."
+    detail: "치아 전체를 씌워 깨지는 것을 막아요. 2~3회 방문."
   - when: "충치가 신경까지 닿았을 때"
     name: "신경치료 후 크라운"
     en: "Root Canal Treatment then Crown"
     slug: root-canal
-    detail: "치수를 제거하고 충전한 뒤 씌웁니다. 총 3~5회 방문."
+    detail: "치수를 제거하고 충전한 뒤 씌워요. 총 3~5회 방문."
 sources:
   - url: "https://www.nhs.uk/conditions/tooth-decay/"
     title: "영국 국민보건서비스(NHS): 충치의 원인·증상·치료(불소·충전·신경치료·발치)·예방"

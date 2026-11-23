@@ -64,7 +64,7 @@ approach:
   - when: "진단이 어려울 때, 먼저"
     name: "교합 검사 (물림 검사)"
     en: "Bite Test"
-    detail: "치아별로 하나씩 물려 어느 치아인지 찾습니다. 방사선에는 안 나오는 경우가 많습니다."
+    detail: "치아별로 하나씩 물려 어느 치아인지 찾아요. 방사선에는 안 나오는 경우가 많아요."
   - when: "증상이 가볍고 금이 얕을 때"
     name: "교합 조정 + 관찰"
     en: "Occlusal Adjustment"
@@ -74,7 +74,7 @@ approach:
     name: "크라운 수복"
     en: "Full Coverage Crown"
     slug: crown
-    detail: "치아를 감싸 벌어지는 힘을 묶습니다. 미국 근관치료학회(AAE)는 크라운이 가장 폭넓게 보호하지만 성공을 보장하지는 않는다고 안내해요."
+    detail: "치아를 감싸 벌어지는 힘을 묶어요. 미국 근관치료학회(AAE)는 크라운이 가장 폭넓게 보호하지만 성공을 보장하지는 않는다고 안내해요."
   - when: "가만히 있어도 아플 때"
     name: "신경치료 후 크라운"
     en: "Root Canal then Crown"

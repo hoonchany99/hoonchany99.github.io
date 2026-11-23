@@ -32,16 +32,16 @@ approach:
     name: "절개 배농"
     en: "Incision and Drainage"
     slug: jeolgae-baenong
-    detail: "째서 고름을 빼면 통증이 즉시 줄어듭니다."
+    detail: "째서 고름을 빼면 통증이 즉시 줄어들어요."
   - when: "이물질(생선 가시, 음식물)이 원인일 때"
     name: "이물 제거 + 세척"
     en: "Foreign Body Removal"
-    detail: "원인을 빼내면 대개 2~3일이면 가라앉습니다."
+    detail: "원인을 빼내면 대개 2~3일이면 가라앉아요."
   - when: "가라앉은 뒤"
     name: "스케일링 · 국소 치주 처치"
     en: "Local Periodontal Therapy"
     slug: scaling
-    detail: "치은 농양은 치주 농양과 달리 잇몸 표면에 국한됩니다. 국소 처치로 끝나는 경우가 많습니다."
+    detail: "치은 농양은 치주 농양과 달리 잇몸 표면에 국한돼요. 국소 처치로 끝나는 경우가 많아요."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
   - "https://www.ncbi.nlm.nih.gov/books/NBK519574/"

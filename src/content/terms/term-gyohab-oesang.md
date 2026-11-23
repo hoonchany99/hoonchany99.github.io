@@ -31,22 +31,22 @@ approach:
     name: "교합 조정"
     en: "Occlusal Adjustment"
     slug: occlusal-adjustment
-    detail: "높은 지점을 다듬어 힘을 고르게 나눕니다. 조금만 낮춰도 증상이 사라지는 경우가 많습니다."
+    detail: "높은 지점을 다듬어 힘을 고르게 나눠요. 조금만 낮춰도 증상이 사라지는 경우가 많아요."
   - when: "이갈이가 배경일 때"
     name: "교합안정장치"
     en: "Occlusal Splint"
     slug: splint
-    detail: "밤 동안의 힘을 막습니다. 조정만으로는 재발합니다."
+    detail: "밤 동안의 힘을 막아요. 조정만으로는 재발해요."
   - when: "치아가 흔들릴 때"
     name: "치주 스플린트"
     en: "Splinting"
     slug: chiju-seupeulrinteu
-    detail: "옆 치아와 묶어 힘을 나눕니다. 잇몸 염증이 함께 있으면 치주 치료를 먼저 합니다."
+    detail: "옆 치아와 묶어 힘을 나눠요. 잇몸 염증이 함께 있으면 치주 치료를 먼저 해요."
   - when: "배열 자체가 원인일 때"
     name: "교정 치료"
     en: "Orthodontic Treatment"
     slug: orthodontics
-    detail: "힘의 방향을 근본적으로 바꿉니다. 18~30개월."
+    detail: "힘의 방향을 근본적으로 바꿔요. 18~30개월."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"
   - "https://pocketdentistry.com/1-anatomy-of-the-periodontium-2/"

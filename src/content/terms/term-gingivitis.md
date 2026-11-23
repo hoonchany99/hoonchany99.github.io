@@ -35,15 +35,15 @@ approach:
     name: "스케일링 + 잇몸 위 치석 제거"
     en: "Supragingival Scaling"
     slug: scaling
-    detail: "치석과 치태를 걷어냅니다. 1회 20~40분이면 끝나고, 잇몸 붉기와 출혈은 보통 1~2주 안에 가라앉습니다."
+    detail: "치석과 치태를 걷어내요. 1회 20~40분이면 끝나고, 잇몸 붉기와 출혈은 보통 1~2주 안에 가라앉아요."
   - when: "칫솔질로 닿지 않는 부위가 반복해 붓는 경우"
     name: "구강위생 재교육 + 치간 관리"
     en: "Oral Hygiene Instruction"
-    detail: "바스법 칫솔질에 치실이나 치간칫솔을 더합니다. 치은염은 치태만 걷히면 원래 잇몸으로 돌아옵니다."
+    detail: "바스법 칫솔질에 치실이나 치간칫솔을 더해요. 치은염은 치태만 걷히면 원래 잇몸으로 돌아와요."
   - when: "보철물이나 충전물 가장자리가 원인인 경우"
     name: "보철물 변연 수정 또는 재제작"
     en: "Margin Correction"
-    detail: "치태가 끼는 턱을 없앱니다. 다듬어 되는 경우도 있고 다시 만들어야 하는 경우도 있습니다."
+    detail: "치태가 끼는 턱을 없애요. 다듬어 되는 경우도 있고 다시 만들어야 하는 경우도 있어요."
 sources:
   - url: "https://www.msdmanuals.com/home/mouth-and-dental-disorders/periodontal-diseases/gingivitis"
     title: "MSD 매뉴얼 일반인판: 치은염의 증상·원인·치료·치주염으로의 진행"

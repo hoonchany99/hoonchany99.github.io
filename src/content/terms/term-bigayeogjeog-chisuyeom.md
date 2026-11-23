@@ -46,7 +46,7 @@ approach:
     name: "신경치료"
     en: "Root Canal Treatment"
     slug: root-canal
-    detail: "근관을 넓혀 소독하고 충전합니다. 보통은 1~2번 방문으로 끝나는데, 치아와 염증 상태에 따라 더 걸릴 수 있어요(미국 근관치료학회 기준)."
+    detail: "근관을 넓혀 소독하고 충전해요. 보통은 1~2번 방문으로 끝나는데, 치아와 염증 상태에 따라 더 걸릴 수 있어요(미국 근관치료학회 기준)."
   - when: "신경치료를 마친 뒤"
     name: "크라운 수복"
     en: "Crown Restoration"
@@ -55,7 +55,7 @@ approach:
     name: "발치"
     en: "Extraction"
     slug: extraction
-    detail: "치아를 살릴 수 없다고 판단되면 뽑고 임플란트나 브릿지를 계획합니다."
+    detail: "치아를 살릴 수 없다고 판단되면 뽑고 임플란트나 브릿지를 계획해요."
 sources:
   - url: "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
     title: "미국 근관치료학회(AAE): 진단 용어 합의 권고 (원래 출처, 이번에는 열어 확인하지 않음)"

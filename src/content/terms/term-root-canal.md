@@ -35,6 +35,14 @@ detail: |
 
   ## 신경치료와 발치는 어떻게 비교하나요
   미국근관치료학회는 발치가 빨라 보여도 임플란트·브릿지·부분틀니 같은 추가 치료로 이어지는 경우가 많다고 안내해요. [근거](https://www.aae.org/patients/root-canal-treatment/myths-root-canals/ "미국근관치료학회(AAE): 발치 뒤 임플란트·브릿지·부분틀니 등 추가 치료") 다만 심하게 부서졌거나 잇몸 아래에서 부러졌거나 뼈 지지가 부족한 치아는 살리기 어려울 수 있어서, 살릴 수 있는지는 근관치료 전문의가 평가해요. [근거](https://www.aae.org/patients/root-canal-treatment/myths-root-canals/ "미국근관치료학회(AAE): 살리기 어려운 치아와 전문의 평가") 치료하지 않고 두면 결국 [발치](/terms/extraction/)가 필요할 수 있어요. [근거](https://www.nhs.uk/conditions/root-canal-treatment/ "영국 국민보건서비스(NHS): 감염된 치아를 치료하지 않으면 발치가 필요할 수 있음")
+figure:
+  src: "/img/terms/root-canal-treatment.webp"
+  width: 1200
+  height: 675
+  alt: "어금니 단면 그림. 치아 윗부분을 열고 가는 기구(파일)를 근관 속에 넣어 염증이 생긴 치수를 긁어내는 모습이고, 뿌리 끝에 염증이 보여요"
+  caption: "신경치료: 근관 속 염증 생긴 치수를 기구로 깨끗이 긁어내요"
+  credit: "그림: Blausen Medical(CC BY 3.0)을 바탕으로 다시 그림"
+  creditUrl: "https://creativecommons.org/licenses/by/3.0/"
 faqs:
   - question: "신경치료는 몇 번 정도 내원하나요?"
     answer: "염증 정도·치아 형태에 따라 1~3회 이상 나뉠 수 있어요. 소독·충전 단계를 거치며, 완료 후에는 크라운 등 보철로 보호하는 경우가 많습니다."

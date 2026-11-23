@@ -26,6 +26,14 @@ detail: |
 
   ## 치아를 잃을 수도 있나요
   가장 심할 때는 치아가 흔들리거나 뽑아야 할 수 있어요. [근거](https://www.nidcr.nih.gov/health-info/gum-disease "미국 국립치아·구강·안면연구소(NIDCR): 가장 심한 경우 치아가 흔들리거나 빼야 함") 클리블랜드 클리닉은 치주염이 성인 치아 상실의 주된 원인이고, 잃은 치아는 [임플란트](/terms/implant/)나 [브릿지](/terms/bridge/)로 대체할 수 있다고 설명해요. [근거](https://my.clevelandclinic.org/health/diseases/16620-periodontitis "클리블랜드 클리닉: 성인 치아 상실의 주원인, 임플란트·브릿지로 대체 가능")
+figure:
+  src: "/img/terms/periodontitis-stages.webp"
+  width: 1200
+  height: 675
+  alt: "치아 단면 두 개를 나란히 그린 그림. 왼쪽은 건강한 잇몸과 잇몸뼈, 오른쪽은 치주염으로 한쪽 잇몸뼈가 내려가고 잇몸이 부어 치주낭이 깊어진 모습이에요"
+  caption: "건강한 잇몸(왼쪽)과 치주염(오른쪽): 잇몸뼈가 내려가고 치주낭이 깊어져요"
+  credit: "그림: Ian Furst의 치주 도해(CC BY-SA 4.0)를 바탕으로 다시 그림, 이 그림도 CC BY-SA 4.0"
+  creditUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
 faqs:
   - question: "치주염과 치은염 차이가 뭐예요?"
     answer: "치은염은 잇몸만 염증이 있는 단계예요. 뼈까지 손상되면 치주염으로 분류됩니다. 치은염 단계에서 관리하면 되돌릴 수 있다고 안내돼요(미국치주과학회)."

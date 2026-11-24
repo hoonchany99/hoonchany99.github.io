@@ -17,7 +17,7 @@ detail: |
   턱관절장애(TMD)는 턱관절·저작근(씹는 근육)에 통증·소리·개구 제한·턱 피로 등이 생기는 질환을 말해요. [근거](https://www.nidcr.nih.gov/health-info/tmj "미국 국립치과·두개안면연구소(NIDCR): 턱관절·씹는 근육의 통증과 기능 이상을 묶어 부르는 30가지 넘는 상태") 한쪽·양쪽 모두 해당될 수 있습니다. 가장 흔한 증상은 씹는 근육이나 턱관절의 통증이에요. [근거](https://www.nidcr.nih.gov/health-info/tmj "NIDCR: 가장 흔한 증상은 씹는 근육이나 턱관절의 통증") 입 벌림 제한이나 관절 소리(딸깍거림)도 나타날 수 있어요. 다만 아프지 않은 딸깍거림은 정상으로 보고 치료하지 않아도 된다고 안내해요. [근거](https://www.nidcr.nih.gov/health-info/tmj "NIDCR: 통증 없는 딸깍거림·튀는 소리는 정상이고 치료가 필요 없음") 소리가 궁금하시면 [턱에서 나는 소리](/terms/teogeseo-sori/)도 함께 보세요. 통증은 씹는 것 같은 일상 동작이나 스트레스를 받을 때 심해질 수 있고, [두통](/terms/manseong-dutonggwa-teoggwanjeol/)이 함께 오기도 해요. [근거](https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/ "영국 NHS: 턱·귀·관자놀이 통증, 딸깍거림, 두통, 입이 잘 안 벌어짐이나 잠김") [근거](https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/ "영국 NHS: 씹거나 스트레스를 받으면 통증이 심해질 수 있음")
   
   ## 왜 생기나요
-  원인이 분명하지 않은 경우가 많고, 유전·스트레스·통증을 느끼는 방식이 영향을 줄 수 있어요. [근거](https://www.nidcr.nih.gov/health-info/tmj "NIDCR: 원인이 분명하지 않은 경우가 많고 유전·스트레스·통증 인지가 관여할 수 있음") [이갈이](/terms/bruxism/)·이악습(이를 악무는 습관)·스트레스·외상이 원인으로 자주 거론돼요. [근거](https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/ "영국 NHS: 원인으로 이갈이, 관절 마모, 얼굴 타박, 스트레스, 고르지 않은 교합을 적음") [근거](https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000404 "서울대학교병원 의학정보: 원인으로 나쁜 습관(이 악물기·이갈이·한쪽 씹기), 외상, 교합 부조화, 스트레스") 자세도 함께 작용할 수 있어요. 이렇게 여러 가지가 복합적으로 작용하는 경우가 많습니다. 맞물림(교합)은 자료마다 말이 달라요. 영국 NHS는 고르지 않은 교합을 원인으로 적었고, 서울대학교병원도 교합 부조화를 원인으로 설명해요. 반면 [나쁜 교합](/terms/malocclusion/)이나 교정 치료가 원인이라는 근거는 뒷받침되지 않아요. [근거](https://www.nidcr.nih.gov/health-info/tmj "NIDCR: 나쁜 교합이나 교정 치료가 원인이라는 근거는 뒷받침되지 않음")
+  원인이 분명하지 않은 경우가 많고, 유전·스트레스·통증을 느끼는 방식이 영향을 줄 수 있어요. [근거](https://www.nidcr.nih.gov/health-info/tmj "NIDCR: 원인이 분명하지 않은 경우가 많고 유전·스트레스·통증 인지가 관여할 수 있음") [이갈이](/terms/bruxism/)·이악습(이를 악무는 습관)·스트레스·외상이 원인으로 자주 거론돼요. [근거](https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/ "영국 NHS: 원인으로 이갈이, 관절 마모, 얼굴 타박, 스트레스, 고르지 않은 교합을 적음") [근거](https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000404 "서울대학교병원 의학정보: 원인으로 나쁜 습관(이 악물기·이갈이·한쪽 씹기), 외상, 교합 부조화, 스트레스") 자세도 함께 작용할 수 있어요. 이렇게 여러 가지가 복합적으로 작용하는 경우가 많습니다. 맞물림(교합)은 자료마다 말이 달라요. 고르지 않은 교합이나 교합 부조화를 원인으로 보는 자료도 있어요. 반면 [나쁜 교합](/terms/malocclusion/)이나 교정 치료가 원인이라는 근거는 뒷받침되지 않아요. [근거](https://www.nidcr.nih.gov/health-info/tmj "NIDCR: 나쁜 교합이나 교정 치료가 원인이라는 근거는 뒷받침되지 않음")
   
   ## 진료실에서는 무엇을 보나요
   턱관절장애를 진단하는 표준 검사는 따로 없어요. [근거](https://www.nidcr.nih.gov/health-info/tmj "NIDCR: 표준 진단 검사는 없고 문진·신체 검사로 진단") 문진과 머리·목·얼굴·턱 검사가 기본이고, 비슷한 증상을 일으키는 다른 원인을 가려내요. [근거](https://medlineplus.gov/temporomandibulardisorders.html "MedlinePlus: 문진과 머리·목·얼굴·턱 검사가 기본이고 X선·MRI·CT를 하기도 함") 입을 얼마나 벌리는지(개구량)를 재서, 40mm 이하이면 개구 제한으로 봐요. 정상 범위는 남자 45~50mm, 여자 40~45mm로 안내해요. [근거](https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000404 "서울대학교병원 의학정보: 개구량 정상 범위와 40mm 이하 개구 제한 기준") 턱뼈와 근육을 눌러 아픈 곳을 확인하는 촉진 검사도 해요. [근거](https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000404 "서울대학교병원 의학정보: 턱뼈와 근육을 눌러 통증을 확인하는 촉진 검사") 관자놀이나 볼 근육(측두근·교근)을 눌러 익숙한 통증이 나오면 근육통, 관절 바깥쪽을 눌러 나오면 관절통으로 나눠요. [근거](https://pmc.ncbi.nlm.nih.gov/articles/PMC9674566/ "PMC 리뷰(TMD 임상 평가 지표): 측두근·교근 촉진으로 근육통, 관절 외측극 촉진으로 관절통 확인") 필요하면 X선·MRI·CT 같은 영상 검사를 더해요. [근거](https://www.nidcr.nih.gov/health-info/tmj "NIDCR: 영상 검사(X선·MRI·CT)는 필요할 때 권하는 선택 사항") 영상은 임상 진단을 보완하는 용도예요. 증상이 없는 사람도 MRI에서 관절원판이 어긋난 [디스크 변위](/terms/teoggwanjeol-diseukeu-byeonwi/)가 보일 수 있어요. [근거](https://pmc.ncbi.nlm.nih.gov/articles/PMC9674566/ "PMC 리뷰(TMD 임상 평가 지표): 영상은 임상 진단의 보완이고 증상 없는 사람도 MRI에서 디스크 변위가 보일 수 있음")
@@ -56,7 +56,7 @@ faqs:
   - question: "턱관절 수술이 필요한가요?"
     answer: "대부분은 비수술 치료로 관리해요. 관절이 심하게 망가졌거나 보존 치료에도 심한 증상이 이어질 때만 수술을 검토합니다."
   - question: "입이 얼마나 벌어져야 정상인가요?"
-    answer: "진료실에서는 mm로 재요. 서울대학교병원 자료는 정상 범위를 남자 45~50mm, 여자 40~45mm로 안내하고, 40mm 이하를 개구 제한으로 봐요. 집에서는 손가락 세 개가 세로로 들어가는 정도면 대체로 충분하다고 보기도 하지만 정확한 기준은 아니에요. 개인차가 있어요. 예전보다 확실히 줄었다면 그 변화 자체가 의미 있는 신호일 수 있어요."
+    answer: "진료실에서는 mm로 재요. 정상 범위는 남자 45~50mm, 여자 40~45mm로 안내되고, 40mm 이하를 개구 제한으로 봐요(서울대학교병원 자료). 집에서는 손가락 세 개가 세로로 들어가는 정도면 대체로 충분하다고 보기도 하지만 정확한 기준은 아니에요. 개인차가 있어요. 예전보다 확실히 줄었다면 그 변화 자체가 의미 있는 신호일 수 있어요."
   - question: "어디가 아픈지에 따라 원인이 다른가요?"
     answer: "귀 앞쪽 관절 부위가 아프면 관절, 관자놀이나 볼 근육이 아프면 근육 쪽을 먼저 생각합니다. 다만 둘이 겹치는 경우도 많아 진료에서 구분합니다."
   - question: "턱이 한쪽으로 치우치며 벌어져요."
@@ -66,11 +66,11 @@ faqs:
   - question: "언제 병원에 가야 하나요?"
     answer: "통증이 2주 이상 이어지거나, 일상에 지장이 있을 때예요. 영국 NHS는 먹거나 마시지 못하거나, 입이 갑자기 안 벌어지거나 턱이 잠기거나, 심한 두통이 잦거나, 시야에 문제가 생기면 바로 도움을 받으라고 해요. 소리만 나고 아프지 않다면 급하지 않습니다."
   - question: "턱에서 딱딱 소리만 나는데 치료가 필요한가요?"
-    answer: "아프지 않고 소리만 난다면 정상으로 보고 치료하지 않아도 된다고 NIDCR가 안내해요. 소리와 함께 통증이 있거나 입이 잘 안 벌어지거나 턱이 걸리면 진료를 받아 보세요."
+    answer: "아프지 않고 소리만 난다면 정상으로 보고 치료하지 않아도 된다고 안내돼요(NIDCR). 소리와 함께 통증이 있거나 입이 잘 안 벌어지거나 턱이 걸리면 진료를 받아 보세요."
   - question: "턱관절장애는 저절로 낫기도 하나요?"
-    answer: "많은 사람에서 치료 없이 증상이 사라진다고 NIDCR가 안내하고, 영국 NHS도 대개 저절로 좋아진다고 해요. 그래도 통증이 오래 이어지거나 입이 안 벌어지면 진료가 필요해요. 처음에는 되돌릴 수 있는 보존적 방법부터 권해요."
+    answer: "많은 사람에서 치료 없이 증상이 사라지고 대개 저절로 좋아진다고 해요(NIDCR·영국 NHS). 그래도 통증이 오래 이어지거나 입이 안 벌어지면 진료가 필요해요. 처음에는 되돌릴 수 있는 보존적 방법부터 권해요."
   - question: "턱이 아픈데 어느 병원에 가야 하나요?"
-    answer: "턱 통증은 치아·근육·관절 등 원인이 여러 가지라서, 먼저 문진과 검사로 가려내요. 이갈이가 관련될 수 있으면 치과, 턱 운동이 필요하면 물리치료사, 스트레스가 큰 영향을 주면 심리 상담으로 이어질 수 있다고 영국 NHS는 안내해요."
+    answer: "턱 통증은 치아·근육·관절 등 원인이 여러 가지라서, 먼저 문진과 검사로 가려내요. 이갈이가 관련될 수 있으면 치과, 턱 운동이 필요하면 물리치료사, 스트레스가 큰 영향을 주면 심리 상담으로 이어질 수 있다고 안내돼요(영국 NHS)."
 approach:
   - when: "거의 모든 초기 턱관절장애"
     name: "비수술적 보존 요법"
@@ -101,7 +101,7 @@ approach:
   - when: "보존 치료에 반응하지 않는 관절 내 문제 (드묾)"
     name: "관절강 세척술 · 관절경"
     en: "Arthrocentesis / Arthroscopy"
-    detail: "관절강을 씻어내 유착과 염증물질을 제거합니다. 수술은 보존 치료가 실패한 중등도 이상에서 권하는 편이에요."
+    detail: "관절강을 씻어내 유착과 염증물질을 제거해요. 수술은 보존 치료가 실패한 중등도 이상에서 권하는 편이에요."
 sources:
   - url: "https://www.nidcr.nih.gov/health-info/tmj"
     title: "미국 국립치과·두개안면연구소(NIDCR): 턱관절장애의 증상·진단·치료와 교합 치료 근거"
@@ -119,7 +119,7 @@ sources:
     title: "PMC 리뷰: 턱관절장애 임상 평가 지표와 근육통·관절통 확인, 영상의 역할"
   - "https://www.msdmanuals.com/professional/dental-disorders/temporomandibular-disorders"
 compare: {"title":"헷갈리는 말과 차이","columns":["턱관절장애","이갈이"],"rows":[{"label":"무엇인가요","cells":["턱관절과 씹는 근육에 통증·기능 이상이 생긴 상태예요","이를 가는 습관이에요. 잠든 사이에도 생길 수 있어요"]},{"label":"주로 나타나는 것","cells":["턱·귀 앞·관자놀이 통증, 입이 잘 안 벌어짐","턱 통증, 두통, 닳거나 깨진 치아"]},{"label":"서로의 관계","cells":["이갈이가 원인으로 거론돼요","턱 통증을 일으켜 턱관절장애로 이어질 수 있어요"]},{"label":"치과에서 하는 것","cells":["문진·검사 뒤 자가 관리, 스플린트, 물리치료 등을 단계별로 해요","필요하면 밤에 끼는 마우스가드(스플린트)를 상담해요"]}]}
-askCards: [{"question":"소리만 나고 아프지는 않은데, 치료가 필요한 상태인지 알려 주실 수 있을까요?","explanation":"아프지 않은 딸깍거림이나 튀는 소리는 정상으로 보고 치료가 필요 없어요.","sourceLabel":"미국 국립치과·두개안면연구소(NIDCR): 턱관절장애의 증상과 치료","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1},{"question":"스플린트를 권하신다면, 이를 보호하는 장치인가요 교합을 바꾸는 장치인가요?","explanation":"스플린트가 통증을 줄인다는 근거는 제한적이에요. 교합을 영구히 바꾸도록 만든 장치는 아닌지 확인하세요.","sourceLabel":"MedlinePlus: 턱관절장애 치료와 장치 선택","sourceUrl":"https://medlineplus.gov/temporomandibulardisorders.html","citeAfter":1},{"question":"치아를 깎거나 교정으로 맞물림을 바꾸는 치료가 제 턱 증상에 꼭 필요한가요?","explanation":"치아나 교합을 바꾸는 치료가 턱관절장애에 효과 있다는 근거는 부족하고 일부는 악화시킬 수 있어요.","sourceLabel":"NIDCR: 교합 치료의 근거","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1},{"question":"MRI나 CT 같은 영상 검사가 꼭 필요한가요?","explanation":"NIDCR는 영상 검사를 필요할 때 권하는 선택 사항으로 안내해요. 증상이 없는 사람도 MRI에서 디스크 변위가 보일 수 있어서 영상은 임상 진단의 보완으로 써요.","sourceLabel":"PMC 리뷰: 턱관절장애 평가와 영상의 역할","sourceUrl":"https://pmc.ncbi.nlm.nih.gov/articles/PMC9674566/","citeAfter":1}]
+askCards: [{"question":"소리만 나고 아프지는 않은데, 치료가 필요한 상태인지 알려 주실 수 있을까요?","explanation":"아프지 않은 딸깍거림이나 튀는 소리는 정상으로 보고 치료가 필요 없어요.","sourceLabel":"미국 국립치과·두개안면연구소(NIDCR): 턱관절장애의 증상과 치료","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1},{"question":"스플린트를 권하신다면, 이를 보호하는 장치인가요 교합을 바꾸는 장치인가요?","explanation":"스플린트가 통증을 줄인다는 근거는 제한적이에요. 교합을 영구히 바꾸도록 만든 장치는 아닌지 확인하세요.","sourceLabel":"MedlinePlus: 턱관절장애 치료와 장치 선택","sourceUrl":"https://medlineplus.gov/temporomandibulardisorders.html","citeAfter":1},{"question":"치아를 깎거나 교정으로 맞물림을 바꾸는 치료가 제 턱 증상에 꼭 필요한가요?","explanation":"치아나 교합을 바꾸는 치료가 턱관절장애에 효과 있다는 근거는 부족하고 일부는 악화시킬 수 있어요.","sourceLabel":"NIDCR: 교합 치료의 근거","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1},{"question":"MRI나 CT 같은 영상 검사가 꼭 필요한가요?","explanation":"영상 검사는 필요할 때 권하는 선택 사항이에요. 증상이 없는 사람도 MRI에서 디스크 변위가 보일 수 있어서 영상은 임상 진단의 보완으로 써요.","sourceLabel":"PMC 리뷰: 턱관절장애 평가와 영상의 역할","sourceUrl":"https://pmc.ncbi.nlm.nih.gov/articles/PMC9674566/","citeAfter":1}]
 updated: "2026-08-16"
 reviewed: "2026-11-23"
 relatedTerms:

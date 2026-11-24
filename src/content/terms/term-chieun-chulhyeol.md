@@ -31,15 +31,15 @@ approach:
     name: "스케일링 + 칫솔질 교정"
     en: "Scaling and Brushing Instruction"
     slug: scaling
-    detail: "치태·치석이 원인입니다. 걷어내면 1~2주 안에 멎습니다. 피가 난다고 안 닦으면 더 심해집니다."
+    detail: "치태·치석이 원인이에요. 걷어내면 1~2주 안에 멎어요. 피가 난다고 안 닦으면 더 심해져요."
   - when: "스케일링 후에도 계속될 때"
     name: "치주 치료"
     en: "Periodontal Therapy"
-    detail: "잇몸 속까지 염증이 내려간 것이라 치근활택술로 넘어갑니다."
+    detail: "잇몸 속까지 염증이 내려간 것이라 치근활택술로 넘어가요."
   - when: "잇몸은 깨끗한데 피가 잘 멎지 않을 때"
     name: "전신 원인 검사"
     en: "Systemic Workup"
-    detail: "혈액질환, 항응고제, 비타민 결핍을 확인합니다. 드물지만 놓치면 안 됩니다."
+    detail: "혈액질환, 항응고제, 비타민 결핍을 확인해요. 드물지만 놓치면 안 돼요."
 sources:
   - "https://www.dentalcare.com/en-us/ce-courses/ce592/clinical-anatomy-of-the-healthy-gingival-unit"
   - "https://www.msdmanuals.com/professional/dental-disorders/periodontal-disorders"

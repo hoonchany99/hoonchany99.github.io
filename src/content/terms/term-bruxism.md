@@ -40,20 +40,20 @@ approach:
     name: "교합안정장치 (나이트가드)"
     en: "Occlusal Splint"
     slug: splint
-    detail: "자는 동안 끼워 치아 마모와 턱 부담을 막습니다. 제작 2~3회 방문, 6개월마다 점검."
+    detail: "자는 동안 끼워 치아 마모와 턱 부담을 막아요. 제작 2~3회 방문, 6개월마다 점검."
   - when: "스트레스·수면 문제가 배경일 때"
     name: "유발 요인 관리"
     en: "Trigger Management"
-    detail: "카페인·음주·수면 부족을 줄입니다. 이갈이는 없애기보다 줄이고 피해를 막는 쪽으로 봅니다."
+    detail: "카페인·음주·수면 부족을 줄여요. 이갈이는 없애기보다 줄이고 피해를 막는 쪽으로 봐요."
   - when: "씹는 근육이 두꺼워지고 아플 때"
     name: "이갈이 보톡스"
     en: "Botulinum Toxin"
     slug: igali-botogseu
-    detail: "교근에 주사해 힘을 줄입니다. 3~6개월마다 반복합니다."
+    detail: "교근에 주사해 힘을 줄여요. 3~6개월마다 반복해요."
   - when: "이미 치아가 닳아 시리거나 깨졌을 때"
     name: "마모면 수복"
     en: "Restoration of Worn Teeth"
-    detail: "레진이나 크라운으로 형태를 되살립니다. 장치를 같이 쓰지 않으면 새로 한 것도 또 닳습니다."
+    detail: "레진이나 크라운으로 형태를 되살려요. 장치를 같이 쓰지 않으면 새로 한 것도 또 닳아요."
 sources:
   - url: "https://www.aaom.com/index.php?Itemid=120&catid=22%3Apatient-condition-information&id=129%3Atooth-clenching-or-grinding&option=com_content&view=article"
     title: "미국구강내과학회(AAOM): 이갈이의 정의·원인·증상, 나이트가드, 교합 조정 비권장"
@@ -65,7 +65,7 @@ sources:
     title: "미국소아과학회(AAP) HealthyChildren: 아이의 이갈이가 사라지는 시기와 상담할 때"
   - url: "https://europepmc.org/article/MED/39282765"
     title: "Cochrane 체계적 문헌고찰(2024): 턱관절 질환의 교합 중재 근거"
-askCards: [{"question":"제가 이를 가는 건지 악무는 건지, 턱 근육이나 턱관절 문제도 있는지 봐 주실 수 있을까요?","explanation":"미국구강내과학회는 이를 갈면 치아 마모가 눈에 띄고, 악무는 경우는 마모가 적어도 턱 근육 통증이나 턱관절 문제를 일으킬 수 있다고 구분해요.","sourceLabel":"미국구강내과학회(AAOM): 이갈이와 악물기의 차이","sourceUrl":"https://www.aaom.com/index.php?Itemid=120&catid=22%3Apatient-condition-information&id=129%3Atooth-clenching-or-grinding&option=com_content&view=article","citeAfter":1},{"question":"제게 나이트가드가 필요한가요? 어떤 형태가 맞을까요?","explanation":"미국구강내과학회는 수면 이갈이 치료의 중심으로 나이트가드를 들고, 주로 치아를 보호하고 턱 통증을 덜 수 있다고 설명해요.","sourceLabel":"미국구강내과학회(AAOM): 수면 이갈이의 나이트가드","sourceUrl":"https://www.aaom.com/index.php?Itemid=120&catid=22%3Apatient-condition-information&id=129%3Atooth-clenching-or-grinding&option=com_content&view=article","citeAfter":1},{"question":"치아를 갈아 맞물림을 맞추거나 크라운을 씌우는 치료가 꼭 필요한가요?","explanation":"미국구강내과학회는 치아를 갈아 교합을 조정하거나 크라운을 씌우는 것을 이갈이 치료로 권하지 않아요.","sourceLabel":"미국구강내과학회(AAOM): 교합 조정을 권하지 않음","sourceUrl":"https://www.aaom.com/index.php?Itemid=120&catid=22%3Apatient-condition-information&id=129%3Atooth-clenching-or-grinding&option=com_content&view=article","citeAfter":1}]
+askCards: [{"question":"제가 이를 가는 건지 악무는 건지, 턱 근육이나 턱관절 문제도 있는지 봐 주실 수 있을까요?","explanation":"이를 갈면 치아 마모가 눈에 띄고, 악무는 경우는 마모가 적어도 턱 근육 통증이나 턱관절 문제를 일으킬 수 있어요.","sourceLabel":"미국구강내과학회(AAOM): 이갈이와 악물기의 차이","sourceUrl":"https://www.aaom.com/index.php?Itemid=120&catid=22%3Apatient-condition-information&id=129%3Atooth-clenching-or-grinding&option=com_content&view=article","citeAfter":1},{"question":"제게 나이트가드가 필요한가요? 어떤 형태가 맞을까요?","explanation":"수면 이갈이 치료의 중심으로 나이트가드를 들고, 주로 치아를 보호하고 턱 통증을 덜 수 있어요.","sourceLabel":"미국구강내과학회(AAOM): 수면 이갈이의 나이트가드","sourceUrl":"https://www.aaom.com/index.php?Itemid=120&catid=22%3Apatient-condition-information&id=129%3Atooth-clenching-or-grinding&option=com_content&view=article","citeAfter":1},{"question":"치아를 갈아 맞물림을 맞추거나 크라운을 씌우는 치료가 꼭 필요한가요?","explanation":"치아를 갈아 교합을 조정하거나 크라운을 씌우는 것을 이갈이 치료로 권하지 않아요.","sourceLabel":"미국구강내과학회(AAOM): 교합 조정을 권하지 않음","sourceUrl":"https://www.aaom.com/index.php?Itemid=120&catid=22%3Apatient-condition-information&id=129%3Atooth-clenching-or-grinding&option=com_content&view=article","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - iagmulgi

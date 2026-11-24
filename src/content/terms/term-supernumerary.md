@@ -10,7 +10,7 @@ aliases:
 definition: "과잉치는 정상 개수보다 하나 더 난 치아예요. 배열·맹출을 방해하거나 발치가 필요한 경우가 있습니다."
 detail: |
   ## 과잉치는 무엇인가요
-  과잉치(여분 치아)는 정상 개수보다 많이 난 치아예요. 클리블랜드 클리닉은 아이는 유치 20개, 어른은 영구치 32개가 기준이어서 그보다 많으면 과잉치(hyperdontia)라고 해요. [근거](https://my.clevelandclinic.org/health/diseases/hyperdontia "클리블랜드 클리닉: 유치 20개·영구치 32개보다 많으면 과잉치") 위턱 앞니 사이, 어금니 옆이나 뒤 부위 등에 흔합니다. 위턱에서 훨씬 더 흔하고, 앞니 뒤쪽에 나는 정중 과잉치와 [어금니](/terms/molar/) 옆·뒤에 나는 것이 있어요. [근거](https://my.clevelandclinic.org/health/diseases/hyperdontia "클리블랜드 클리닉: 위턱에서 훨씬 흔함, 앞니 뒤 정중 과잉치·어금니 옆·뒤 과잉치") 겉으로 난 것은 진료 때 눈으로 보이고, 묻혀 있는 것은 X-ray로 발견되는 경우가 많아요. 묻힌 것은 X-ray나 CT로 찾아요. [근거](https://my.clevelandclinic.org/health/diseases/hyperdontia "클리블랜드 클리닉: 난 것은 진료에서 확인, 묻힌 것은 X-ray·CT로 확인") 비교적 드문 편이에요.
+  과잉치(여분 치아)는 정상 개수보다 많이 난 치아예요. 아이는 유치 20개, 어른은 영구치 32개가 기준이어서 그보다 많으면 과잉치(hyperdontia)라고 해요. [근거](https://my.clevelandclinic.org/health/diseases/hyperdontia "클리블랜드 클리닉: 유치 20개·영구치 32개보다 많으면 과잉치") 위턱 앞니 사이, 어금니 옆이나 뒤 부위 등에 흔합니다. 위턱에서 훨씬 더 흔하고, 앞니 뒤쪽에 나는 정중 과잉치와 [어금니](/terms/molar/) 옆·뒤에 나는 것이 있어요. [근거](https://my.clevelandclinic.org/health/diseases/hyperdontia "클리블랜드 클리닉: 위턱에서 훨씬 흔함, 앞니 뒤 정중 과잉치·어금니 옆·뒤 과잉치") 겉으로 난 것은 진료 때 눈으로 보이고, 묻혀 있는 것은 X-ray로 발견되는 경우가 많아요. 묻힌 것은 X-ray나 CT로 찾아요. [근거](https://my.clevelandclinic.org/health/diseases/hyperdontia "클리블랜드 클리닉: 난 것은 진료에서 확인, 묻힌 것은 X-ray·CT로 확인") 비교적 드문 편이에요.
 
   ## 원인은 알려져 있나요
   정확한 원인은 아직 잘 모르고, 유전과 치아가 만들어지는 조직(치아 발생판)의 과활동 같은 요인이 거론돼요. [근거](https://my.clevelandclinic.org/health/diseases/hyperdontia "클리블랜드 클리닉: 정확한 원인 불명, 유전·치아 발생판 과활동 등이 기여") 입술갈림증·다운증후군·쇄골두개이형성증 같은 질환과 함께 나타나기도 해요. [근거](https://my.clevelandclinic.org/health/diseases/hyperdontia "클리블랜드 클리닉: 가드너 증후군·구순구개열·다운증후군·쇄골두개이형성증 등과 연관")
@@ -41,21 +41,21 @@ approach:
   - when: "증상이 없고 다른 치아를 방해하지 않을 때"
     name: "경과 관찰"
     en: "Observation"
-    detail: "방사선으로 6~12개월마다 봅니다. 위치가 깊고 조용하면 두고 보기도 합니다."
+    detail: "방사선으로 6~12개월마다 봐요. 위치가 깊고 조용하면 두고 보기도 해요."
   - when: "영구치가 못 나오게 막고 있을 때"
     name: "조기 발치"
     en: "Early Extraction"
-    detail: "일찍 빼면 영구치가 저절로 나오도록 돕는 것을 기대하지만, 시기는 위치와 옆 치아 뿌리 발달에 따라 달라 의견이 갈려요. 만 7~9세에 판단하는 경우가 많습니다."
+    detail: "일찍 빼면 영구치가 저절로 나오도록 돕는 것을 기대하지만, 시기는 위치와 옆 치아 뿌리 발달에 따라 달라 의견이 갈려요. 만 7~9세에 판단하는 경우가 많아요."
   - when: "발치 후에도 영구치가 안 나올 때"
     name: "교정적 견인"
     en: "Orthodontic Traction"
-    detail: "장치를 붙여 끌어냅니다. 12~18개월."
+    detail: "장치를 붙여 끌어내요. 12~18개월."
 sources:
   - url: "https://my.clevelandclinic.org/health/diseases/hyperdontia"
     title: "클리블랜드 클리닉 과잉치(hyperdontia): 정의, 위치, 원인, 합병증, 치료 기준"
   - url: "https://www.aapd.org/globalassets/media/publications/archives/kupietzky-22-06.pdf"
     title: "미국소아치과학회 학술지(Pediatric Dentistry 2000) 정중 과잉치: 합병증, 조기·지연 제거"
-askCards: [{"question":"과잉치가 영구치에 영향을 주고 있나요? 어떤 검사로 확인하나요?","explanation":"겉으로 난 과잉치는 진료에서 보이고, 묻혀 있는 것은 X-ray나 CT로 찾아요.","sourceLabel":"클리블랜드 클리닉 과잉치: 진단","sourceUrl":"https://my.clevelandclinic.org/health/diseases/hyperdontia","citeAfter":1},{"question":"빼야 하나요, 지켜봐도 되나요? 빼야 한다면 시기는 언제가 좋은가요?","explanation":"모든 과잉치에 치료가 필요한 것은 아니고, 씹기·통증·위생에 문제가 있으면 빼는 것이 보통이에요. 미국소아치과학회 학술지는 정중 과잉치의 제거 시기가 논쟁적이라고 정리해요.","sourceLabel":"클리블랜드 클리닉 과잉치: 치료 기준","sourceUrl":"https://my.clevelandclinic.org/health/diseases/hyperdontia","citeAfter":1},{"question":"뺀 뒤 영구치가 저절로 나올지, 교정이 필요할지 어떻게 확인하나요?","explanation":"미국소아치과학회 학술지는 일찍 빼는 목적이 영구 앞니가 저절로 나오게 하고 앞니 공간 부족과 큰 수술·교정을 막으려는 것이라고 정리해요.","sourceLabel":"미국소아치과학회 학술지(Pediatric Dentistry 2000): 정중 과잉치 제거 시기","sourceUrl":"https://www.aapd.org/globalassets/media/publications/archives/kupietzky-22-06.pdf","citeAfter":1}]
+askCards: [{"question":"과잉치가 영구치에 영향을 주고 있나요? 어떤 검사로 확인하나요?","explanation":"겉으로 난 과잉치는 진료에서 보이고, 묻혀 있는 것은 X-ray나 CT로 찾아요.","sourceLabel":"클리블랜드 클리닉 과잉치: 진단","sourceUrl":"https://my.clevelandclinic.org/health/diseases/hyperdontia","citeAfter":1},{"question":"빼야 하나요, 지켜봐도 되나요? 빼야 한다면 시기는 언제가 좋은가요?","explanation":"모든 과잉치에 치료가 필요한 것은 아니고, 씹기·통증·위생에 문제가 있으면 빼는 것이 보통이에요. 정중 과잉치의 제거 시기가 논쟁적이라고 알려져 있어요.","sourceLabel":"클리블랜드 클리닉 과잉치: 치료 기준","sourceUrl":"https://my.clevelandclinic.org/health/diseases/hyperdontia","citeAfter":1},{"question":"뺀 뒤 영구치가 저절로 나올지, 교정이 필요할지 어떻게 확인하나요?","explanation":"일찍 빼는 목적이 영구 앞니가 저절로 나오게 하고 앞니 공간 부족과 큰 수술·교정을 막으려는 거예요.","sourceLabel":"미국소아치과학회 학술지(Pediatric Dentistry 2000): 정중 과잉치 제거 시기","sourceUrl":"https://www.aapd.org/globalassets/media/publications/archives/kupietzky-22-06.pdf","citeAfter":1}]
 updated: "2026-08-16"
 reviewed: "2026-11-23"
 relatedTerms:

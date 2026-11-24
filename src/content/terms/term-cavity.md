@@ -57,27 +57,27 @@ approach:
     name: "불소 도포 + 관찰"
     en: "Fluoride Application"
     slug: bulso-dopo
-    detail: "초기 우식은 다시 단단해질 수 있습니다. 3~6개월 간격으로 불소를 바르며 진행을 봅니다."
+    detail: "초기 우식은 다시 단단해질 수 있어요. 3~6개월 간격으로 불소를 바르며 진행을 봐요."
   - when: "구멍이 뚫렸고 범위가 작을 때"
     name: "레진 충전"
     en: "Composite Restoration"
     slug: resin
-    detail: "썩은 부분만 걷어내고 레진으로 메웁니다. 1회 방문, 치아당 20~40분."
+    detail: "썩은 부분만 걷어내고 레진으로 메워요. 1회 방문, 치아당 20~40분."
   - when: "어금니 씹는 면이 넓게 파였을 때"
     name: "인레이 · 온레이"
     en: "Inlay / Onlay"
     slug: inlay
-    detail: "본을 떠 만든 조각을 끼웁니다. 2회 방문, 레진보다 마모와 변색에 강합니다."
+    detail: "본을 떠 만든 조각을 끼워요. 2회 방문, 레진보다 마모와 변색에 강해요."
   - when: "남은 치아가 얼마 없을 때"
     name: "크라운"
     en: "Crown"
     slug: crown
-    detail: "치아 전체를 씌워 깨지는 것을 막습니다. 2~3회 방문."
+    detail: "치아 전체를 씌워 깨지는 것을 막아요. 2~3회 방문."
   - when: "충치가 신경까지 닿았을 때"
     name: "신경치료 후 크라운"
     en: "Root Canal Treatment then Crown"
     slug: root-canal
-    detail: "치수를 제거하고 충전한 뒤 씌웁니다. 총 3~5회 방문."
+    detail: "치수를 제거하고 충전한 뒤 씌워요. 총 3~5회 방문."
 sources:
   - url: "https://www.nhs.uk/conditions/tooth-decay/"
     title: "영국 국민보건서비스(NHS): 충치의 원인·증상·치료(불소·충전·신경치료·발치)·예방"
@@ -89,7 +89,7 @@ sources:
     title: "서울아산병원: 치아 우식증의 원인과 단계별 증상"
   - url: "https://www.mouthhealthy.org/all-topics-a-z/crowns"
     title: "미국치과의사협회(ADA) MouthHealthy: 크라운이 필요한 경우"
-askCards: [{"question":"이 충치는 지금 어느 단계이고, 불소로 지켜볼 수 있나요, 채워야 하나요?","explanation":"영국 NHS는 초기 충치는 불소 치료로 되돌릴 수 있고, 구멍이 생기면 보통 충전이 필요하다고 안내해요.","sourceLabel":"영국 국민보건서비스(NHS): 충치 단계별 치료","sourceUrl":"https://www.nhs.uk/conditions/tooth-decay/","citeAfter":1},{"question":"통증이 없는데도 X-ray로 충치가 신경 쪽으로 깊어졌는지 확인해 주실 수 있을까요?","explanation":"MSD 매뉴얼은 초기에는 통증이 없고 치과 검진과 X-ray로 발견한다고 설명해요.","sourceLabel":"MSD 매뉴얼 일반인용: 충치의 진단","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1},{"question":"이전에 치료한 자리에 다시 충치가 생기지 않았는지도 봐 주실 수 있을까요?","explanation":"미국치과의사협회는 오래된 충전물의 가장자리에 틈이 생겨 세균이 모이면 그 둘레에 충치가 생길 수 있다고 설명해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 오래된 충전물 가장자리의 충치","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/cavities","citeAfter":1}]
+askCards: [{"question":"이 충치는 지금 어느 단계이고, 불소로 지켜볼 수 있나요, 채워야 하나요?","explanation":"초기 충치는 불소 치료로 되돌릴 수 있고, 구멍이 생기면 보통 충전이 필요해요.","sourceLabel":"영국 국민보건서비스(NHS): 충치 단계별 치료","sourceUrl":"https://www.nhs.uk/conditions/tooth-decay/","citeAfter":1},{"question":"통증이 없는데도 X-ray로 충치가 신경 쪽으로 깊어졌는지 확인해 주실 수 있을까요?","explanation":"초기에는 통증이 없고 치과 검진과 X-ray로 발견해요.","sourceLabel":"MSD 매뉴얼 일반인용: 충치의 진단","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1},{"question":"이전에 치료한 자리에 다시 충치가 생기지 않았는지도 봐 주실 수 있을까요?","explanation":"오래된 충전물의 가장자리에 틈이 생겨 세균이 모이면 그 둘레에 충치가 생길 수 있어요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 오래된 충전물 가장자리의 충치","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/cavities","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - resin

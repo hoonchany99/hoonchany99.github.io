@@ -39,24 +39,24 @@ approach:
   - when: "혀 뒤쪽 백태가 원인일 때 (가장 흔함)"
     name: "혀 클리닝"
     en: "Tongue Cleaning"
-    detail: "혀클리너로 안쪽에서 바깥으로 하루 1회 훑습니다. 구취 원인의 절반 이상이 여기서 나옵니다."
+    detail: "혀클리너로 안쪽에서 바깥으로 하루 1회 훑어요. 구취 원인의 절반 이상이 여기서 나와요."
   - when: "잇몸병이 있을 때"
     name: "스케일링 · 치주 치료"
     en: "Periodontal Therapy"
     slug: scaling
-    detail: "치주낭 속 세균이 휘발성 황화합물을 만듭니다. 잇몸을 잡으면 냄새가 함께 줄어듭니다."
+    detail: "치주낭 속 세균이 휘발성 황화합물을 만들어요. 잇몸을 잡으면 냄새가 함께 줄어들어요."
   - when: "충치·틈새 보철이 있을 때"
     name: "우식 치료 · 보철 재제작"
     en: "Restorative Treatment"
-    detail: "음식물이 끼어 썩는 자리를 없앱니다."
+    detail: "음식물이 끼어 썩는 자리를 없애요."
   - when: "입이 마를 때"
     name: "구강건조 관리"
     en: "Dry Mouth Management"
-    detail: "침이 줄면 냄새가 짙어집니다. 수분 섭취와 무설탕 껌을 병행합니다."
+    detail: "침이 줄면 냄새가 짙어져요. 수분 섭취와 무설탕 껌을 병행해요."
   - when: "위 처치로 해결되지 않을 때"
     name: "이비인후과·내과 의뢰"
     en: "Medical Referral"
-    detail: "편도결석, 부비동염, 역류성 식도염이 원인일 수 있습니다. 구취의 약 10%는 구강 밖 원인입니다."
+    detail: "편도결석, 부비동염, 역류성 식도염이 원인일 수 있어요. 구취의 약 10%는 구강 밖 원인이에요."
 sources:
   - url: "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/halitosis"
     title: "MSD 매뉴얼 전문가판: 입냄새의 입안·입 밖 원인과 치료, 가글의 한계"
@@ -64,7 +64,7 @@ sources:
     title: "영국 국민보건서비스(NHS): 입냄새 원인, 하루 관리법, 치과에 가야 할 때"
   - url: "https://www.mouthhealthy.org/all-topics-a-z/bad-breath"
     title: "미국치과의사협회(ADA) MouthHealthy: 입냄새 원인(세균·입 마름·잇몸병)과 가글의 한계"
-askCards: [{"question":"제 입냄새가 입안 원인인지, 코·위·전신 같은 입 밖 원인인지 어떻게 가려 보나요?","explanation":"MSD 매뉴얼은 입냄새가 대부분 입안 원인이지만, 부비동염·위식도 역류·전신 질환처럼 입 밖 원인도 있다고 설명해요.","sourceLabel":"MSD 매뉴얼 전문가판: 입냄새는 대부분 입안 원인, 일부는 입 밖 원인","sourceUrl":"https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/halitosis","citeAfter":1},{"question":"집에서 혀와 치아 사이를 어떻게 관리해야 하는지 알 수 있을까요?","explanation":"하루 두 번 이상 칫솔질을 하고, 혀는 하루 한 번, 치아 사이는 하루 한 번 이상 닦으세요.","sourceLabel":"영국 국민보건서비스(NHS): 칫솔질·혀 닦기·치아 사이 청소 빈도","sourceUrl":"https://www.nhs.uk/conditions/bad-breath/","citeAfter":1},{"question":"가글만으로 입냄새를 관리해도 되는지 알 수 있을까요?","explanation":"가글이 입냄새를 일시적으로 가릴 뿐이에요. 원인을 모르겠다면 치과 진료를 권해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 가글은 일시적 해결책","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/bad-breath","citeAfter":1}]
+askCards: [{"question":"제 입냄새가 입안 원인인지, 코·위·전신 같은 입 밖 원인인지 어떻게 가려 보나요?","explanation":"입냄새가 대부분 입안 원인이지만, 부비동염·위식도 역류·전신 질환처럼 입 밖 원인도 있어요.","sourceLabel":"MSD 매뉴얼 전문가판: 입냄새는 대부분 입안 원인, 일부는 입 밖 원인","sourceUrl":"https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/halitosis","citeAfter":1},{"question":"집에서 혀와 치아 사이를 어떻게 관리해야 하는지 알 수 있을까요?","explanation":"하루 두 번 이상 칫솔질을 하고, 혀는 하루 한 번, 치아 사이는 하루 한 번 이상 닦으세요.","sourceLabel":"영국 국민보건서비스(NHS): 칫솔질·혀 닦기·치아 사이 청소 빈도","sourceUrl":"https://www.nhs.uk/conditions/bad-breath/","citeAfter":1},{"question":"가글만으로 입냄새를 관리해도 되는지 알 수 있을까요?","explanation":"가글이 입냄새를 일시적으로 가릴 뿐이에요. 원인을 모르겠다면 치과 진료를 권해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 가글은 일시적 해결책","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/bad-breath","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - seoltae

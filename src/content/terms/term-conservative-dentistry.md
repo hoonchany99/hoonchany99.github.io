@@ -45,7 +45,7 @@ sources:
     title: "미국치과의사협회(ADA) MouthHealthy: 오래된 충전물 가장자리의 충치"
   - url: "https://medlineplus.gov/ency/article/007631.htm"
     title: "미국 국립의학도서관 MedlinePlus: 크라운 뒤 생길 수 있는 문제"
-askCards: [{"question":"이 치아를 살릴 수 있는지, 살린다면 어떤 방법이 있는지 알려 주실 수 있을까요?","explanation":"전북대학교 치과대학 치과보존학교실은 보존치료를 치아 손상과 신경·뿌리 끝 주변 질환을 치료해 자연치아를 최대한 보존하는 분야로 설명해요.","sourceLabel":"전북대학교 치과대학 치과보존학교실: 보존치료의 정의와 목적","sourceUrl":"https://wz3.jbnu.ac.kr/dent/14536/subview.do","citeAfter":1},{"question":"제 치아는 레진으로 채우는 정도인지, 신경치료나 크라운까지 필요한지 알려 주실 수 있을까요?","explanation":"MSD 매뉴얼은 상아질까지 구멍이 생기면 썩은 부분을 제거하고 채우며, 신경이 손상되면 근관치료를 한다고 설명해요.","sourceLabel":"MSD 매뉴얼 일반인용: 충치 깊이에 따른 치료","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1},{"question":"치아를 살릴 수 없다면 빈자리는 어떻게 채워야 하나요?","explanation":"MSD 매뉴얼은 발치 뒤 대체물을 빨리 마련하지 않으면 이웃 치아가 움직일 수 있다고 안내해요.","sourceLabel":"MSD 매뉴얼 일반인용: 발치 뒤 대체물","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1}]
+askCards: [{"question":"이 치아를 살릴 수 있는지, 살린다면 어떤 방법이 있는지 알려 주실 수 있을까요?","explanation":"보존치료는 치아 손상과 신경·뿌리 끝 주변 질환을 치료해 자연치아를 최대한 보존하는 분야예요.","sourceLabel":"전북대학교 치과대학 치과보존학교실: 보존치료의 정의와 목적","sourceUrl":"https://wz3.jbnu.ac.kr/dent/14536/subview.do","citeAfter":1},{"question":"제 치아는 레진으로 채우는 정도인지, 신경치료나 크라운까지 필요한지 알려 주실 수 있을까요?","explanation":"상아질까지 구멍이 생기면 썩은 부분을 제거하고 채우며, 신경이 손상되면 근관치료를 해요.","sourceLabel":"MSD 매뉴얼 일반인용: 충치 깊이에 따른 치료","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1},{"question":"치아를 살릴 수 없다면 빈자리는 어떻게 채워야 하나요?","explanation":"발치 뒤 대체물을 빨리 마련하지 않으면 이웃 치아가 움직일 수 있어요.","sourceLabel":"MSD 매뉴얼 일반인용: 발치 뒤 대체물","sourceUrl":"https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - resin

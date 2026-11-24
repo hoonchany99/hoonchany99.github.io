@@ -35,15 +35,15 @@ approach:
     name: "스케일링 + 잇몸 위 치석 제거"
     en: "Supragingival Scaling"
     slug: scaling
-    detail: "치석과 치태를 걷어냅니다. 1회 20~40분이면 끝나고, 잇몸 붉기와 출혈은 보통 1~2주 안에 가라앉습니다."
+    detail: "치석과 치태를 걷어내요. 1회 20~40분이면 끝나고, 잇몸 붉기와 출혈은 보통 1~2주 안에 가라앉아요."
   - when: "칫솔질로 닿지 않는 부위가 반복해 붓는 경우"
     name: "구강위생 재교육 + 치간 관리"
     en: "Oral Hygiene Instruction"
-    detail: "바스법 칫솔질에 치실이나 치간칫솔을 더합니다. 치은염은 치태만 걷히면 원래 잇몸으로 돌아옵니다."
+    detail: "바스법 칫솔질에 치실이나 치간칫솔을 더해요. 치은염은 치태만 걷히면 원래 잇몸으로 돌아와요."
   - when: "보철물이나 충전물 가장자리가 원인인 경우"
     name: "보철물 변연 수정 또는 재제작"
     en: "Margin Correction"
-    detail: "치태가 끼는 턱을 없앱니다. 다듬어 되는 경우도 있고 다시 만들어야 하는 경우도 있습니다."
+    detail: "치태가 끼는 턱을 없애요. 다듬어 되는 경우도 있고 다시 만들어야 하는 경우도 있어요."
 sources:
   - url: "https://www.msdmanuals.com/home/mouth-and-dental-disorders/periodontal-diseases/gingivitis"
     title: "MSD 매뉴얼 일반인판: 치은염의 증상·원인·치료·치주염으로의 진행"
@@ -57,7 +57,7 @@ sources:
     title: "영국 국민보건서비스(NHS): 아프거나 피 나거나 붓는 잇몸이면 치과에 가기"
   - url: "https://www.mouthhealthy.org/all-topics-a-z/gum-disease"
     title: "미국치과의사협회(ADA) MouthHealthy: 치은염은 되돌릴 수 있는 초기 잇몸병"
-askCards: [{"question":"제 잇몸이 염증만 있는 치은염 단계인지, 뼈까지 영향을 받는 치주염 단계인지 확인할 수 있을까요?","explanation":"치은염은 잇몸병의 초기 단계라 되돌릴 수 있고, 진행한 치주염은 치아를 받치는 조직과 뼈를 잃게 할 수 있다고 안내해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 치은염은 되돌릴 수 있고 치주염은 뼈 손실로 이어질 수 있음","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/gum-disease","citeAfter":1},{"question":"스케일링은 얼마나 자주 받는 게 좋을지 알 수 있을까요?","explanation":"MSD 매뉴얼은 보통 6~12개월마다 전문가 치아 청소를 받고, 매일 칫솔질과 치실을 하라고 안내해요.","sourceLabel":"MSD 매뉴얼 일반인판: 전문가 치아 청소 6~12개월마다와 매일 칫솔질·치실","sourceUrl":"https://www.msdmanuals.com/home/mouth-and-dental-disorders/periodontal-diseases/gingivitis","citeAfter":1},{"question":"집에서는 칫솔질과 치아 사이 청소를 어떻게 하면 되는지 알 수 있을까요?","explanation":"불소 치약으로 하루 두 번 이상 닦고, 치아 사이는 치실이나 치간칫솔로 매일 닦으세요.","sourceLabel":"영국 국민보건서비스(NHS): 불소 치약 하루 2회, 치아 사이 매일 청소","sourceUrl":"https://www.nhs.uk/conditions/gum-disease/","citeAfter":1}]
+askCards: [{"question":"제 잇몸이 염증만 있는 치은염 단계인지, 뼈까지 영향을 받는 치주염 단계인지 확인할 수 있을까요?","explanation":"치은염은 잇몸병의 초기 단계라 되돌릴 수 있고, 진행한 치주염은 치아를 받치는 조직과 뼈를 잃게 할 수 있다고 안내해요.","sourceLabel":"미국치과의사협회(ADA) MouthHealthy: 치은염은 되돌릴 수 있고 치주염은 뼈 손실로 이어질 수 있음","sourceUrl":"https://www.mouthhealthy.org/all-topics-a-z/gum-disease","citeAfter":1},{"question":"스케일링은 얼마나 자주 받는 게 좋을지 알 수 있을까요?","explanation":"보통 6~12개월마다 전문가 치아 청소를 받고, 매일 칫솔질과 치실을 하는 게 좋아요.","sourceLabel":"MSD 매뉴얼 일반인판: 전문가 치아 청소 6~12개월마다와 매일 칫솔질·치실","sourceUrl":"https://www.msdmanuals.com/home/mouth-and-dental-disorders/periodontal-diseases/gingivitis","citeAfter":1},{"question":"집에서는 칫솔질과 치아 사이 청소를 어떻게 하면 되는지 알 수 있을까요?","explanation":"불소 치약으로 하루 두 번 이상 닦고, 치아 사이는 치실이나 치간칫솔로 매일 닦으세요.","sourceLabel":"영국 국민보건서비스(NHS): 불소 치약 하루 2회, 치아 사이 매일 청소","sourceUrl":"https://www.nhs.uk/conditions/gum-disease/","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - periodontitis

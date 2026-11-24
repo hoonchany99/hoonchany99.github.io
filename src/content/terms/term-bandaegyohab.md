@@ -23,20 +23,20 @@ approach:
   - when: "유치열·혼합치열기 아동, 앞니만 반대일 때"
     name: "가철식 장치 또는 고정식 교정"
     en: "Removable or Fixed Appliance"
-    detail: "앞니를 앞으로 밀어 정상 관계로 바꿉니다. 보통은 3~6개월이면 되는 경우가 많은데, 상태(아이)에 따라 달라요."
+    detail: "앞니를 앞으로 밀어 정상 관계로 바꿔요. 보통은 3~6개월이면 되는 경우가 많은데, 상태(아이)에 따라 달라요."
   - when: "위턱이 작아서 생긴 경우 (성장기)"
     name: "상악 확장 + 전방 견인"
     en: "Expansion and Facemask"
-    detail: "위턱을 넓히고 앞으로 끌어냅니다. 보통은 만 8~10세 무렵에 많이 하는데, 아이의 성장과 위턱 위치에 따라 달라요. 성장기에 일찍 시작하는 것이 권해져요."
+    detail: "위턱을 넓히고 앞으로 끌어내요. 보통은 만 8~10세 무렵에 많이 하는데, 아이의 성장과 위턱 위치에 따라 달라요. 성장기에 일찍 시작하는 것이 권해져요."
   - when: "어금니까지 반대이거나 성장이 끝난 경우"
     name: "전체 교정"
     en: "Comprehensive Orthodontics"
-    detail: "치아 배열 전체를 다시 잡습니다. 보통은 18~30개월인데, 상태에 따라 달라요."
+    detail: "치아 배열 전체를 다시 잡아요. 보통은 18~30개월인데, 상태에 따라 달라요."
   - when: "아래턱이 크게 나온 골격성 (성인)"
     name: "악교정 수술 + 교정"
     en: "Orthognathic Surgery"
     slug: aggyojeong-susul
-    detail: "턱뼈 위치를 옮깁니다. 수술 전후 교정을 포함해 보통은 2년 반~3년쯤 걸리는데, 상태에 따라 달라요."
+    detail: "턱뼈 위치를 옮겨요. 수술 전후 교정을 포함해 보통은 2년 반~3년쯤 걸리는데, 상태에 따라 달라요."
 faqs:
   - question: "아이가 반대교합인데 기다려도 되나요?"
     answer: "저절로 좋아지기 어려운 반대교합은 일찍 다루는 것이 정상 교합 관계를 만드는 데 도움이 돼요. 공간이 충분하면 발견했을 때 바로 맞추기도 합니다. 원인이 치아면 간단히 해결되는 경우도 많아요."
@@ -65,7 +65,7 @@ sources:
     title: "MSD 매뉴얼 전문가판: 부정교합(기존 출처, 이번에 열리지 않음)"
   - url: "https://www.aapd.org/research/oral-health-policies--recommendations/"
     title: "미국소아치과학회(AAPD) 정책·권고 목록(기존 출처)"
-askCards: [{"question":"제 아이의 반대교합은 치아 기울기 문제인가요, 턱뼈 관계 문제인가요?","explanation":"미국소아치과학회는 앞니 반대교합을 치아 기울기 때문인 치성과 턱뼈 위치 때문인 골격성으로 나누고, 어금니 관계가 정상이면서 앞니 기울기만 문제일 때를 치성으로 봐요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 앞니 반대교합의 치성·골격성","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"공간이 충분하면 지금 바로 맞출 수 있나요, 지켜봐도 되는 경우인가요?","explanation":"미국소아치과학회는 공간이 충분한 단순 앞니 반대교합은 발견한 때 바로 맞출 수 있다고 설명해요. 저절로 좋아지기 어려운 반대교합을 일찍 다루면 정상 교합 관계에 도움이 돼요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 반대교합 치료 시점","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"어떤 장치로 하고, 골격 원인이면 치료가 어떻게 달라지나요?","explanation":"미국소아치과학회는 앞니 반대교합 장치로 아크릴 경사판, 스프링 장치 등을 들고, 3급 골격 패턴이 함께 있으면 3급 치료에 맞춰 종합적으로 치료한다고 해요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 반대교합 치료 방법","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1}]
+askCards: [{"question":"제 아이의 반대교합은 치아 기울기 문제인가요, 턱뼈 관계 문제인가요?","explanation":"앞니 반대교합을 치아 기울기 때문인 치성과 턱뼈 위치 때문인 골격성으로 나누고, 어금니 관계가 정상이면서 앞니 기울기만 문제일 때를 치성으로 봐요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 앞니 반대교합의 치성·골격성","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"공간이 충분하면 지금 바로 맞출 수 있나요, 지켜봐도 되는 경우인가요?","explanation":"공간이 충분한 단순 앞니 반대교합은 발견한 때 바로 맞출 수 있어요. 저절로 좋아지기 어려운 반대교합을 일찍 다루면 정상 교합 관계에 도움이 돼요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 반대교합 치료 시점","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1},{"question":"어떤 장치로 하고, 골격 원인이면 치료가 어떻게 달라지나요?","explanation":"앞니 반대교합 장치로 아크릴 경사판, 스프링 장치 등을 들고, 3급 골격 패턴이 함께 있으면 3급 치료에 맞춰 종합적으로 치료해요.","sourceLabel":"미국소아치과학회(AAPD) 2026: 반대교합 치료 방법","sourceUrl":"https://www.aapd.org/globalassets/media/policies_guidelines/bp_developdentition26.pdf","citeAfter":1}]
 compare: {"title":"헷갈리는 말과 차이","columns":["반대교합","3급 부정교합"],"rows":[{"label":"기준","cells":["앞니가 반대로 물려요","어금니와 턱의 앞뒤 관계예요"]},{"label":"어금니","cells":["정상인 경우도 있어요","정상보다 앞으로 나가 있어요"]},{"label":"원인","cells":["치아 기울기만 문제인 경우도 있어요","턱뼈 차이가 흔히 관여해요"]}]}
 updated: "2026-08-16"
 relatedTerms:

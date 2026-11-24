@@ -31,15 +31,15 @@ approach:
     name: "공간 유지 장치"
     en: "Space Maintainer"
     slug: gonggan-yuji-jangchi
-    detail: "빈자리로 옆 치아가 쓰러지는 것을 막습니다. 영구치가 나올 때까지 끼우고 6개월마다 점검합니다."
+    detail: "빈자리로 옆 치아가 쓰러지는 것을 막아요. 영구치가 나올 때까지 끼우고 6개월마다 점검해요."
   - when: "앞니가 빠졌을 때"
     name: "대개 장치 없이 관찰"
     en: "Observation"
-    detail: "앞니 자리는 잘 좁아지지 않습니다. 다만 발음이나 심미가 걱정되면 소아용 보철을 씁니다."
+    detail: "앞니 자리는 잘 좁아지지 않아요. 다만 발음이나 심미가 걱정되면 소아용 보철을 써요."
   - when: "이미 공간이 좁아졌을 때"
     name: "공간 회복 장치 또는 교정"
     en: "Space Regainer"
-    detail: "쓰러진 치아를 되세워 자리를 되찾습니다. 3~6개월 걸립니다."
+    detail: "쓰러진 치아를 되세워 자리를 되찾아요. 3~6개월 걸려요."
 sources:
   - "https://www.aapd.org/research/oral-health-policies--recommendations/"
   - "https://www.msdmanuals.com/professional/dental-disorders"

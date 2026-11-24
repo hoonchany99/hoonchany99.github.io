@@ -30,22 +30,22 @@ approach:
   - when: "손가락 빨기·혀 내밀기가 원인인 아동"
     name: "습관 차단 장치"
     en: "Habit-Breaking Appliance"
-    detail: "원인을 없애면 어린 나이일수록 저절로 닫힙니다. 6~12개월 착용."
+    detail: "원인을 없애면 어린 나이일수록 저절로 닫혀요. 6~12개월 착용."
   - when: "치아 위치 문제만 있는 경우"
     name: "교정 (어금니 함입)"
     en: "Molar Intrusion"
     slug: orthodontics
-    detail: "미니스크류로 어금니를 눌러 앞니가 닿게 만듭니다. 12~24개월."
+    detail: "미니스크류로 어금니를 눌러 앞니가 닿게 만들어요. 12~24개월."
   - when: "골격성으로 심한 경우"
     name: "악교정 수술 + 교정"
     en: "Orthognathic Surgery"
     slug: aggyojeong-susul
-    detail: "위턱 뒤쪽을 올려 회전시킵니다. 교정 포함 18~30개월."
+    detail: "위턱 뒤쪽을 올려 회전시켜요. 교정 포함 18~30개월."
   - when: "치료를 마친 뒤"
     name: "유지장치 + 혀 습관 관리"
     en: "Retention"
     slug: retainer
-    detail: "개방교합은 재발이 잦습니다. 혀 습관이 남아 있으면 특히 그렇습니다."
+    detail: "개방교합은 재발이 잦아요. 혀 습관이 남아 있으면 특히 그래요."
 sources:
   - "https://www.msdmanuals.com/professional/dental-disorders/malocclusion"
   - "https://www.aaoinfo.org/"

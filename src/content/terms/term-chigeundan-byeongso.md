@@ -39,22 +39,22 @@ approach:
     name: "신경치료"
     en: "Root Canal Treatment"
     slug: root-canal
-    detail: "원인인 근관 속 세균을 없애면 뼈가 다시 찹니다. 6~12개월에 걸쳐 방사선상으로 줄어듭니다."
+    detail: "원인인 근관 속 세균을 없애면 뼈가 다시 차요. 6~12개월에 걸쳐 방사선상으로 줄어들어요."
   - when: "이미 신경치료한 치아에서 다시 생겼을 때"
     name: "재신경치료"
     en: "Root Canal Retreatment"
     slug: root-canal-re
-    detail: "기존 충전재를 제거하고 다시 소독해 충전합니다. 2~4회 방문."
+    detail: "기존 충전재를 제거하고 다시 소독해 충전해요. 2~4회 방문."
   - when: "재신경치료로도 낫지 않거나 접근이 어려울 때"
     name: "치근단 절제술"
     en: "Apicoectomy"
     slug: apicoectomy
-    detail: "잇몸을 열어 뿌리 끝 3mm를 잘라내고 역충전합니다. 1회 수술, 실밥 1주."
+    detail: "잇몸을 열어 뿌리 끝 3mm를 잘라내고 역충전해요. 1회 수술, 실밥 1주."
   - when: "병소가 크고 치아를 살릴 수 없을 때"
     name: "발치 + 소파"
     en: "Extraction with Curettage"
     slug: extraction
-    detail: "뽑으면서 병소 조직을 함께 긁어냅니다."
+    detail: "뽑으면서 병소 조직을 함께 긁어내요."
 sources:
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
   - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"

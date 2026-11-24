@@ -31,15 +31,15 @@ approach:
     name: "스케일링 + 구강위생 관리"
     en: "Scaling and Oral Hygiene"
     slug: scaling
-    detail: "치태를 걷으면 대부분 좋아집니다. 임신 4~6개월(2삼분기)이 가장 편하게 받을 수 있는 시기입니다."
+    detail: "치태를 걷으면 대부분 좋아져요. 임신 4~6개월(2삼분기)이 가장 편하게 받을 수 있는 시기예요."
   - when: "잇몸 한 곳이 혹처럼 부풀었을 때 (임신성 육아종)"
     name: "경과 관찰 후 절제"
     en: "Observation then Excision"
-    detail: "출산 뒤 저절로 줄어드는 경우가 많아 기다립니다. 피가 계속 나거나 씹기 어려우면 그전에 잘라냅니다."
+    detail: "출산 뒤 저절로 줄어드는 경우가 많아 기다려요. 피가 계속 나거나 씹기 어려우면 그전에 잘라내요."
   - when: "출산 후"
     name: "재평가"
     en: "Reassessment"
-    detail: "호르몬이 돌아오면 대개 가라앉습니다. 남아 있으면 원래 있던 잇몸병이라 치주 치료로 넘어갑니다."
+    detail: "호르몬이 돌아오면 대개 가라앉아요. 남아 있으면 원래 있던 잇몸병이라 치주 치료로 넘어가요."
 sources:
   - "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan"
   - "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy"

@@ -47,7 +47,7 @@ faqs:
   - question: "시린 게 충치 때문 아닌가요?"
     answer: "구분이 필요합니다. 과민성 상아질은 자극이 닿을 때만 짧게 시리고 금방 가라앉아요. 가만히 있어도 아프거나 통증이 오래 남으면 충치나 치수 문제를 의심합니다. 잇몸이 내려간 경우, 금이 간 치아, 낡은 충전물 같은 다른 원인도 있어서 검진으로 확인하는 게 좋아요."
   - question: "지각과민 치약이 효과가 있나요?"
-    answer: "꾸준히 쓰면 도움이 되는 경우가 많습니다. 다만 몇 번 쓰고 바로 좋아지지는 않아요. 하루 두 번 이상 최소 2주, 개선까지는 4~8주 쓰셔야 한다고 알려져 있어요. 약제가 시린 부위에 오래 닿을수록 효과가 좋다고 해요."
+    answer: "꾸준히 쓰면 도움이 되는 경우가 많습니다. 다만 몇 번 쓰고 바로 좋아지지는 않아요. 하루 두 번 이상 최소 2주, 개선까지는 4~8주 쓰셔야 해요. 약제가 시린 부위에 오래 닿을수록 효과가 좋다고 해요."
   - question: "스케일링 후에 시려요."
     answer: "치주 치료 과정에서 뿌리 표면이 자극받거나 드러나면서 시릴 수 있어요. 시간이 지나며 정도가 줄어드는 경우가 많다고 보고돼요. 오래가면 치과에서 시린 부위를 덮는 처치를 할 수 있습니다."
   - question: "미백하고 나서 시린 건 정상인가요?"
@@ -70,25 +70,25 @@ approach:
   - when: "가벼운 시림"
     name: "지각과민 완화 치약"
     en: "Desensitizing Toothpaste"
-    detail: "질산칼륨·불화주석 치약을 하루 두 번 이상 최소 2주 쓰고, 개선은 4~8주 써 봐야 볼 수 있다고 해요. 시린 부위에 문질러 두면 더 낫습니다."
+    detail: "질산칼륨·불화주석 치약을 하루 두 번 이상 최소 2주 쓰고, 개선은 4~8주 써 봐야 볼 수 있다고 해요. 시린 부위에 문질러 두면 더 나아요."
   - when: "특정 부위가 콕 집어 시릴 때"
     name: "지각과민 처치제 도포"
     en: "Desensitizer Application"
-    detail: "드러난 상아세관을 약제로 막습니다. 1회 5~10분."
+    detail: "드러난 상아세관을 약제로 막아요. 1회 5~10분."
   - when: "패임이 있을 때"
     name: "치경부 레진 충전"
     en: "Cervical Restoration"
-    detail: "패인 곳을 메워 상아질을 덮습니다. 1회 방문."
+    detail: "패인 곳을 메워 상아질을 덮어요. 1회 방문."
   - when: "치근이 드러났을 때"
     name: "치근 피개술"
     en: "Root Coverage Graft"
     slug: chigeun-pigaesul
-    detail: "결합조직을 이식해 덮습니다. 회복에 보통 1~2주가 걸리고 여러 곳을 하면 더 걸릴 수 있어요."
+    detail: "결합조직을 이식해 덮어요. 회복에 보통 1~2주가 걸리고 여러 곳을 하면 더 걸릴 수 있어요."
   - when: "시림이 아니라 지속되는 통증으로 바뀐 경우"
     name: "신경치료"
     en: "Root Canal Treatment"
     slug: root-canal
-    detail: "치수 염증이 되돌릴 수 없는 단계면 시림 치료로 해결되지 않습니다. 2~4회 방문."
+    detail: "치수 염증이 되돌릴 수 없는 단계면 시림 치료로 해결되지 않아요. 2~4회 방문."
 sources:
   - url: "https://www.accesson.kr/jkda/assets/pdf/44545/journal-60-4-216.pdf"
     title: "대한치과의사협회지(전미정·서덕규, 2022): 지각과민증의 정의·진단·단계별 치료"
@@ -119,7 +119,7 @@ sources:
   - url: "https://europepmc.org/article/MED/42835010"
     title: "Europe PMC 종설(2026): 미백으로 생기는 시림 중재"
 compare: {"title":"헷갈리는 말과 차이","columns":["이시림(과민성 상아질)","치수염(신경 염증)"],"rows":[{"label":"아픈 모습","cells":["자극이 닿을 때 짧고 날카롭게 시려요","자극을 치운 뒤에도 몇 초 넘게 남거나 욱신거려요"]},{"label":"자극이 없을 때","cells":["대개 조용해요","저절로 아프기도 해요"]},{"label":"치료 방향","cells":["열린 상아세관을 막는 보존적 방법부터 해요","신경치료나 발치가 필요할 수 있어요"]}]}
-askCards: [{"question":"시리는 느낌이 금방 사라지는지, 자극을 치운 뒤에도 남는지 같이 봐 주실 수 있을까요?","explanation":"MSD 매뉴얼은 자극을 치우고 1~2초 안에 통증이 가라앉으면 신경이 건강할 수 있고, 통증이 남거나 저절로 생기면 치수를 살리기 어려운 단계일 수 있다고 설명해요.","sourceLabel":"MSD 매뉴얼 일반인용: 자극 뒤 통증이 남는지로 치수염 구분","sourceUrl":"https://www.merckmanuals.com/home/mouth-and-dental-disorders/tooth-disorders/pulpitis","citeAfter":1},{"question":"시리는 원인이 잇몸, 마모, 충치, 금이 간 치아 중 무엇인지 먼저 확인해 주실 수 있을까요?","explanation":"치료에 앞서 정확한 진단이 먼저이고, 병력을 묻고 조절된 자극으로 증상을 재현해 확인해요.","sourceLabel":"대한치과의사협회지(전미정·서덕규, 2022): 지각과민증의 진단","sourceUrl":"https://www.accesson.kr/jkda/assets/pdf/44545/journal-60-4-216.pdf","citeAfter":1},{"question":"시린이 치약은 어떤 성분이고, 얼마나 써 보고 판단하면 되나요?","explanation":"칼륨 성분 시린이 치약이 하루 두 번 이상 최소 2주, 개선까지는 4~8주 써야 효과를 평가할 수 있어요.","sourceLabel":"대한치과의사협회지(장지현, 2022): 시린이 치약의 사용 기간","sourceUrl":"https://www.accesson.kr/jkda/assets/pdf/44546/journal-60-4-224.pdf","citeAfter":1},{"question":"치과에서 할 수 있는 처치가 어떤 순서로 있고, 신경치료는 언제 고려하나요?","explanation":"보존적 방법을 충분히 시도한 뒤에 침습적·비가역적 치료인 근관치료를 마지막 방법으로 고려해요.","sourceLabel":"대한치과의사협회지(전미정·서덕규, 2022): 단계별 치료 전략","sourceUrl":"https://www.accesson.kr/jkda/assets/pdf/44545/journal-60-4-216.pdf","citeAfter":1}]
+askCards: [{"question":"시리는 느낌이 금방 사라지는지, 자극을 치운 뒤에도 남는지 같이 봐 주실 수 있을까요?","explanation":"자극을 치우고 1~2초 안에 통증이 가라앉으면 신경이 건강할 수 있고, 통증이 남거나 저절로 생기면 치수를 살리기 어려운 단계일 수 있어요.","sourceLabel":"MSD 매뉴얼 일반인용: 자극 뒤 통증이 남는지로 치수염 구분","sourceUrl":"https://www.merckmanuals.com/home/mouth-and-dental-disorders/tooth-disorders/pulpitis","citeAfter":1},{"question":"시리는 원인이 잇몸, 마모, 충치, 금이 간 치아 중 무엇인지 먼저 확인해 주실 수 있을까요?","explanation":"치료에 앞서 정확한 진단이 먼저이고, 병력을 묻고 조절된 자극으로 증상을 재현해 확인해요.","sourceLabel":"대한치과의사협회지(전미정·서덕규, 2022): 지각과민증의 진단","sourceUrl":"https://www.accesson.kr/jkda/assets/pdf/44545/journal-60-4-216.pdf","citeAfter":1},{"question":"시린이 치약은 어떤 성분이고, 얼마나 써 보고 판단하면 되나요?","explanation":"칼륨 성분 시린이 치약이 하루 두 번 이상 최소 2주, 개선까지는 4~8주 써야 효과를 평가할 수 있어요.","sourceLabel":"대한치과의사협회지(장지현, 2022): 시린이 치약의 사용 기간","sourceUrl":"https://www.accesson.kr/jkda/assets/pdf/44546/journal-60-4-224.pdf","citeAfter":1},{"question":"치과에서 할 수 있는 처치가 어떤 순서로 있고, 신경치료는 언제 고려하나요?","explanation":"보존적 방법을 충분히 시도한 뒤에 침습적·비가역적 치료인 근관치료를 마지막 방법으로 고려해요.","sourceLabel":"대한치과의사협회지(전미정·서덕규, 2022): 단계별 치료 전략","sourceUrl":"https://www.accesson.kr/jkda/assets/pdf/44545/journal-60-4-216.pdf","citeAfter":1}]
 updated: "2026-08-16"
 reviewed: "2026-11-23"
 relatedTerms:

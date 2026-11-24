@@ -40,26 +40,26 @@ approach:
   - when: "치아 배열만 문제인 경우"
     name: "고정식 교정 (브라켓)"
     en: "Fixed Orthodontic Appliance"
-    detail: "치아에 브라켓을 붙여 배열과 교합을 맞춥니다. 18~30개월."
+    detail: "치아에 브라켓을 붙여 배열과 교합을 맞춰요. 18~30개월."
   - when: "움직일 공간이 부족한 경우"
     name: "발치 교정"
     en: "Extraction Orthodontics"
-    detail: "작은어금니를 뽑아 공간을 만든 뒤 배열합니다. 24~30개월."
+    detail: "작은어금니를 뽑아 공간을 만든 뒤 배열해요. 24~30개월."
   - when: "성장기 아동의 골격 부조화"
     name: "기능적 교정 장치 · 확장 장치"
     en: "Functional Appliance / Palatal Expander"
     slug: gineungjeog-gyojeong-jangchi
-    detail: "성장 방향을 유도합니다. 시기를 놓치면 못 하는 치료라 6~12세에 판단합니다."
+    detail: "성장 방향을 유도해요. 시기를 놓치면 못 하는 치료라 6~12세에 판단해요."
   - when: "성인의 골격성 부정교합"
     name: "악교정 수술 + 교정"
     en: "Orthognathic Surgery"
     slug: aggyojeong-susul
-    detail: "턱뼈 위치를 옮깁니다. 수술 전후 교정을 포함해 18~30개월."
+    detail: "턱뼈 위치를 옮겨요. 수술 전후 교정을 포함해 18~30개월."
   - when: "치료를 마친 뒤"
     name: "유지장치"
     en: "Retainer"
     slug: retainer
-    detail: "첫 1년은 거의 종일, 이후 야간에만. 안 끼면 되돌아갑니다."
+    detail: "첫 1년은 거의 종일, 이후 야간에만. 안 끼면 되돌아가요."
 sources:
   - url: "https://www.msdmanuals.com/professional/dental-disorders/symptoms-of-dental-and-oral-disorders/malocclusion"
     title: "MSD 매뉴얼 전문가판: 부정교합 정의, 원인, 영향, 치료"
@@ -74,7 +74,7 @@ sources:
   - url: "https://www.mouthhealthy.org/en/az-topics/v/veneers"
     title: "미국치과의사협회(ADA) MouthHealthy: 라미네이트의 용도와 주의점"
 compare: {"title":"헷갈리는 말과 차이","columns":["1급","2급(과개교합)","3급(반대교합)"],"rows":[{"label":"위아래 치아 관계","cells":["물림은 정상 범위이고 위 치아가 아래를 조금 덮어요","위턱과 위 치아가 아래를 많이 덮어요","아래턱이 앞으로 나와서 아래 치아가 위 치아를 덮어요"]}]}
-askCards: [{"question":"제 부정교합은 치료가 꼭 필요한 정도인지, 지켜봐도 되는지 알 수 있을까요?","explanation":"MedlinePlus는 부정교합 문제 대부분이 가벼워 치료가 필요하지 않다고 설명해요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 대부분 경미해 치료가 필요 없음","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1},{"question":"치료를 한다면 기간이 얼마나 걸리고 나이에 따라 달라지는지 알 수 있을까요?","explanation":"MedlinePlus는 치료가 보통 6개월에서 2년 이상 걸릴 수 있고, 어릴 때 바로잡으면 더 쉽고 빠르다고 설명해요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 치료 기간 6개월~2년 이상, 어릴수록 쉽고 빠름","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1},{"question":"턱이 아픈 게 교합 때문인지, 교정이 도움이 되는지 알 수 있을까요?","explanation":"미국 국립치과·두개안면연구소(NIDCR)는 부정교합과 턱관절 장애 사이에 강한 연관성이 있다는 근거는 없다고 설명해요.","sourceLabel":"미국 국립치과·두개안면연구소(NIDCR): 교합과 턱관절 장애의 연관성 근거 부족","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1},{"question":"교정 중에 충치와 잇몸 염증을 막으려면 어떻게 관리해야 하는지 알 수 있을까요?","explanation":"MedlinePlus는 교정 장치 때문에 충치와 잇몸 자극이 생길 수 있다고 안내해요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 교정 장치로 인한 충치와 잇몸 자극","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1}]
+askCards: [{"question":"제 부정교합은 치료가 꼭 필요한 정도인지, 지켜봐도 되는지 알 수 있을까요?","explanation":"부정교합 문제 대부분이 가벼워 치료가 필요하지 않아요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 대부분 경미해 치료가 필요 없음","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1},{"question":"치료를 한다면 기간이 얼마나 걸리고 나이에 따라 달라지는지 알 수 있을까요?","explanation":"치료가 보통 6개월에서 2년 이상 걸릴 수 있고, 어릴 때 바로잡으면 더 쉽고 빨라요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 치료 기간 6개월~2년 이상, 어릴수록 쉽고 빠름","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1},{"question":"턱이 아픈 게 교합 때문인지, 교정이 도움이 되는지 알 수 있을까요?","explanation":"부정교합과 턱관절 장애 사이에 강한 연관성이 있다는 근거는 없다고 알려져 있어요.","sourceLabel":"미국 국립치과·두개안면연구소(NIDCR): 교합과 턱관절 장애의 연관성 근거 부족","sourceUrl":"https://www.nidcr.nih.gov/health-info/tmj","citeAfter":1},{"question":"교정 중에 충치와 잇몸 염증을 막으려면 어떻게 관리해야 하는지 알 수 있을까요?","explanation":"교정 장치 때문에 충치와 잇몸 자극이 생길 수 있어요.","sourceLabel":"미국 국립의학도서관 MedlinePlus: 교정 장치로 인한 충치와 잇몸 자극","sourceUrl":"https://medlineplus.gov/ency/article/001058.htm","citeAfter":1}]
 updated: "2026-08-16"
 relatedTerms:
   - 1geub-bujeonggyohab

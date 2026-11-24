@@ -31,15 +31,15 @@ approach:
     name: "신경치료"
     en: "Root Canal Treatment"
     slug: root-canal
-    detail: "죽은 치수를 제거하고 소독해 충전합니다. 통증이 없어도 방치하면 뿌리 끝에 병소가 생깁니다."
+    detail: "죽은 치수를 제거하고 소독해 충전해요. 통증이 없어도 방치하면 뿌리 끝에 병소가 생겨요."
   - when: "뿌리가 덜 자란 어린 영구치"
     name: "치수 재생술"
     en: "Revascularization"
-    detail: "근관을 소독한 뒤 혈병을 유도해 뿌리가 계속 자라게 합니다. 6~18개월 경과를 봅니다."
+    detail: "근관을 소독한 뒤 혈병을 유도해 뿌리가 계속 자라게 해요. 6~18개월 경과를 봐요."
   - when: "뿌리 끝이 열려 있어 충전이 안 될 때"
     name: "근단 형성술"
     en: "Apexification"
-    detail: "MTA로 뿌리 끝에 마개를 만들어 충전할 바닥을 확보합니다."
+    detail: "MTA로 뿌리 끝에 마개를 만들어 충전할 바닥을 확보해요."
 sources:
   - "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
   - "https://www.ncbi.nlm.nih.gov/books/NBK551627/"

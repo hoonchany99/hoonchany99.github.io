@@ -12,10 +12,10 @@ detail: |
   [가역적 치수염](/terms/gayeogjeog-chisuyeom/)과 갈리는 지점은 통증이 얼마나 오래 남느냐입니다. 찬 것이 닿았을 때 찌릿하고 끝나는 게 아니라, 자극을 치운 뒤에도 통증이 길게 이어져요. 가역적 치수염은 자극을 치우면 1~2초 안에 통증이 멎는 것이 특징이에요. [근거](https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders/pulpitis "MSD 매뉴얼 전문가판: 가역적 치수염은 자극 제거 후 1~2초 안에 통증이 멎음") 30초 넘게 남는다면 이 단계를 의심합니다. 자극을 없앤 뒤에도 통증이 보통 30초 이상 이어지는 것이 비가역적 치수염의 특징 중 하나예요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 증상 있는 비가역적 치수염은 자극 제거 후에도 보통 30초 이상 통증 지속, 건드리지 않아도 아픔, 연관통")
 
   ## 어떤 증상이 나타나나요
-  가만히 있어도 욱신거리는 통증이 나타날 수 있어요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 자극 없이도 생기는 자발통") 밤에 누우면 더 심해진다고 말씀하시는 분이 많습니다. 눕거나 몸을 숙이는 자세에 따라 통증이 더 심해질 수 있다고 알려져 있어요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 눕거나 숙이면 통증이 더 심해질 수 있음") 어느 치아인지 정확히 짚기 어렵고, 귀나 관자놀이 쪽으로 뻗치는 느낌이 들기도 해요. 통증이 다른 곳으로 퍼지는 연관통이 나타날 수 있기 때문이에요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 연관통(referred pain)")
+  가만히 있어도 욱신거리는 통증이 나타날 수 있어요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 자극 없이도 생기는 자발통") 밤에 누우면 더 심해진다고 말씀하시는 분이 많습니다. 눕거나 몸을 숙이는 자세에 따라 통증이 더 심해질 수 있어요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 눕거나 숙이면 통증이 더 심해질 수 있음") 어느 치아인지 정확히 짚기 어렵고, 귀나 관자놀이 쪽으로 뻗치는 느낌이 들기도 해요. 통증이 다른 곳으로 퍼지는 연관통이 나타날 수 있기 때문이에요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 연관통(referred pain)")
 
   ## 왜 저절로 낫기 어려운가요
-  [치수](/terms/chisu/)는 단단한 벽에 갇혀 있어서 부어오를 공간이 없어요. 그래서 염증이 심해지면 스스로 회복하기 어려운 상태가 됩니다. 염증이 생긴 치수가 스스로 낫기 어려운 상태가 비가역적 치수염의 정의예요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 염증이 있는 살아 있는 치수가 치유될 수 없는 상태") 이 단계에서는 진통제로 잠시 눌러도 원인이 남아 있어 다시 아파지는 경우가 많아요. 시중 진통제는 보통 잘 듣지 않는다고 알려져 있어요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 일반 진통제가 보통 효과 없음") 치수가 죽는 [치수 괴사](/terms/chisu-goesa/) 단계가 되면 통증이 며칠 멎기도 하는데, 나은 것이 아니에요. [근거](https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders/pulpitis "MSD 매뉴얼 전문가판: 치수 괴사가 완전하면 통증이 며칠 멎을 수 있음")
+  [치수](/terms/chisu/)는 단단한 벽에 갇혀 있어서 부어오를 공간이 없어요. 그래서 염증이 심해지면 스스로 회복하기 어려운 상태가 됩니다. 염증이 생긴 치수가 스스로 낫기 어려운 상태가 비가역적 치수염의 정의예요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 염증이 있는 살아 있는 치수가 치유될 수 없는 상태") 이 단계에서는 진통제로 잠시 눌러도 원인이 남아 있어 다시 아파지는 경우가 많아요. 시중 진통제는 보통 잘 듣지 않아요. [근거](https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/endodonticdiagnosisfall2013.pdf "미국 근관치료학회(AAE) 진단 자료: 일반 진통제가 보통 효과 없음") 치수가 죽는 [치수 괴사](/terms/chisu-goesa/) 단계가 되면 통증이 며칠 멎기도 하는데, 나은 것이 아니에요. [근거](https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders/pulpitis "MSD 매뉴얼 전문가판: 치수 괴사가 완전하면 통증이 며칠 멎을 수 있음")
 
   ## 치료는 어떻게 하나요
   치료는 [신경치료](/terms/root-canal/)가 기본입니다. 비가역적 치수염은 신경치료와 크라운, 또는 발치로 치료해요. [근거](https://www.msdmanuals.com/professional/dental-disorders/common-dental-disorders/pulpitis "MSD 매뉴얼 전문가판: 비가역적 치수염은 근관치료 후 크라운 또는 발치") 염증이 생긴 치수를 제거하고 근관을 소독한 뒤 채워요. [근거](https://www.aae.org/patients/root-canal-treatment/what-is-a-root-canal/ "미국 근관치료학회(AAE): 손상된 치수 제거, 내부 소독, 거터퍼처로 밀봉") 치아 상태에 따라 일부 치수만 제거하는 방법을 고려하기도 합니다. 치료를 마치면 대개 [크라운](/terms/crown/)으로 감싸 보호해요. 신경치료를 한 치아는 크라운이나 충전물로 복원해 보호해요. [근거](https://www.aae.org/patients/root-canal-treatment/what-is-a-root-canal/ "미국 근관치료학회(AAE): 신경치료 후 크라운이나 충전물로 복원") 뿌리가 심하게 상해 살리기 어려우면 [발치](/terms/extraction/)를 해요.
@@ -46,7 +46,7 @@ approach:
     name: "신경치료"
     en: "Root Canal Treatment"
     slug: root-canal
-    detail: "근관을 넓혀 소독하고 충전합니다. 보통은 1~2번 방문으로 끝나는데, 치아와 염증 상태에 따라 더 걸릴 수 있어요(미국 근관치료학회 기준)."
+    detail: "근관을 넓혀 소독하고 충전해요. 보통은 1~2번 방문으로 끝나는데, 치아와 염증 상태에 따라 더 걸릴 수 있어요(미국 근관치료학회 기준)."
   - when: "신경치료를 마친 뒤"
     name: "크라운 수복"
     en: "Crown Restoration"
@@ -55,7 +55,7 @@ approach:
     name: "발치"
     en: "Extraction"
     slug: extraction
-    detail: "치아를 살릴 수 없다고 판단되면 뽑고 임플란트나 브릿지를 계획합니다."
+    detail: "치아를 살릴 수 없다고 판단되면 뽑고 임플란트나 브릿지를 계획해요."
 sources:
   - url: "https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/aaeconsensusconferencerecommendeddiagnosticterminology.pdf"
     title: "미국 근관치료학회(AAE): 진단 용어 합의 권고 (원래 출처, 이번에는 열어 확인하지 않음)"

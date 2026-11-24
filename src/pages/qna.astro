@@ -85,6 +85,7 @@ const TALLY_FORM_ID = '7RW1xZ';
 
         {TALLY_FORM_ID ? (
           <iframe
+            id="tally-embed"
             data-tally-src={`https://tally.so/embed/${TALLY_FORM_ID}?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1`}
             loading="lazy"
             width="100%"
@@ -94,6 +95,18 @@ const TALLY_FORM_ID = '7RW1xZ';
             class="rounded-xl"
             style="min-height:300px;"
           ></iframe>
+          <script is:inline>
+            // /qna/?term=용어 로 들어오면 폼에 term 값을 넘겨요(글자만, 40자까지). Tally 스크립트가 읽기 전에 붙여요.
+            (function () {
+              try {
+                var f = document.getElementById('tally-embed');
+                var t = new URLSearchParams(location.search).get('term');
+                if (!f || !t) return;
+                t = t.replace(/[\u0000-\u001f<>]/g, '').trim().slice(0, 40);
+                if (t) f.setAttribute('data-tally-src', f.getAttribute('data-tally-src') + '&term=' + encodeURIComponent(t));
+              } catch (e) {}
+            })();
+          </script>
           <script is:inline src="https://tally.so/widgets/embed.js"></script>
         ) : (
           <div class="border-2 border-dashed border-gray-200 rounded-xl p-8 text-center">

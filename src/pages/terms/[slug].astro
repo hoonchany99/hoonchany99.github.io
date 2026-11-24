@@ -7,6 +7,9 @@ import { parseDetail, stripLinks, splitSentences, sentenceBullets, sourceUrl, so
 import type { TermCite, TermSeg } from '../../lib/termSections';
 import CiteMark from '../../components/CiteMark.astro';
 import TermFigure from '../../components/TermFigure.astro';
+import ShareBlock from '../../components/ShareBlock.astro';
+import QnaCard from '../../components/QnaCard.astro';
+import ShareIconButton from '../../components/ShareIconButton.astro';
 import { termCategoryBySlug } from '../../data/termCategories';
 import { termCategoryOverrideBySlug } from '../../data/termGuideBlocks';
 import { guideLabel, guideTitle } from '../../lib/termGuide';
@@ -228,7 +231,10 @@ const definedTermLd = JSON.stringify({
             )}
           </nav>
 
-          <h1 class="text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{headingName}</h1>
+          <div class="flex items-start justify-between gap-3">
+            <h1 class="min-w-0 flex-1 text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{headingName}</h1>
+            <div class="shrink-0 mt-1 md:mt-2"><ShareIconButton /></div>
+          </div>
           {term.data.en && (
             <p class="mt-1 text-base md:text-lg font-medium text-brand/80 tracking-wide">
               {term.data.en}
@@ -241,7 +247,7 @@ const definedTermLd = JSON.stringify({
             </p>
           )}
 
-          <p data-speakable class="mt-4 md:mt-6 text-lg md:text-xl font-bold text-gray-900 leading-[1.65]">
+          <p data-speakable class="mt-3 md:mt-4 text-lg md:text-xl font-bold text-gray-900 leading-[1.65]">
             <span class="bg-[linear-gradient(transparent_55%,rgba(253,224,71,0.55)_55%)] box-decoration-clone">
               {definitionText}
             </span>
@@ -498,6 +504,11 @@ const definedTermLd = JSON.stringify({
           </ol>
         </section>
       )}
+
+      <div class="mb-10 scroll-mt-20">
+        <div class="mt-14 flex"><QnaCard href={`/qna/?term=${encodeURIComponent(term.data.name)}`} /></div>
+        <ShareBlock />
+      </div>
 
       {relatedTermEntries.length > 0 && (
         <section id="related-terms" class="mb-10 scroll-mt-20 anim-fade-up anim-delay-3">

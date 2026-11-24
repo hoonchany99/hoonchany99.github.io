@@ -44,6 +44,7 @@ function wrap(e: El): unknown {
     getAttribute: (k: string) => e.attrs?.[k] ?? null,
     hasAttribute: (k: string) => !!e.attrs && k in e.attrs,
     closest(sel: string) {
+      if (sel === '[data-ga]') return e.attrs && 'data-ga' in e.attrs ? self : null;
       if (sel === 'a[href]') return e.attrs && 'href' in e.attrs ? self : null;
       return e.within?.includes(sel) ? (sel === '#faq' ? { querySelectorAll: () => (e.list ?? []).map(wrap) } : {}) : null;
     },
@@ -109,6 +110,18 @@ test('FAQ는 열릴 때만, 순번(1부터)만 보내요', () => {
   assert.equal(t.calls[0][0], 'faq_open');
   assert.equal(t.calls[0][1].placement, 'faq');
   assert.equal(typeof t.calls[0][1].faq_index, 'number');
+});
+
+test('공유 버튼·질문 카드는 이름 규칙대로 placement만 보내요', () => {
+  const t = setup();
+  t.click({ attrs: { 'data-ga': 'share_top', 'data-ga-event': 'share_click' } });
+  t.click({ attrs: { 'data-ga': 'share_bottom', 'data-ga-event': 'share_click' } });
+  t.click({ attrs: { href: '/qna/?term=a', 'data-ga': 'qna_card', 'data-ga-event': 'qna_card_click' }, within: ['main'] });
+  assert.deepEqual(t.calls, [
+    ['share_click', { placement: 'share_top' }],
+    ['share_click', { placement: 'share_bottom' }],
+    ['qna_card_click', { placement: 'qna_card' }],
+  ]);
 });
 
 test('gtag가 없으면 아무것도 하지 않고 오류도 없어요', () => {

@@ -93,7 +93,8 @@ const { title, description, date, modifiedDate, image, tags = [], relatedPosts =
               <>
                 <span class="text-gray-300">·</span>
                 <time datetime={date.toISOString()}>
-                  {date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}
+                  <span class="sm:hidden">{`${date.getFullYear()}.${String(date.getMonth() + 1).padStart(2, '0')}.${String(date.getDate()).padStart(2, '0')}`}</span>
+                  <span class="hidden sm:inline">{date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
                 </time>
               </>
             )}

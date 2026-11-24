@@ -99,12 +99,12 @@ const { title, description, date, modifiedDate, image, tags = [], relatedPosts =
             )}
             {readingTime && (
               <>
-                <span class="text-gray-300">·</span>
-                <span>{readingTime}분 읽기</span>
+                <span class="hidden sm:inline text-gray-300">·</span>
+                <span class="hidden sm:inline">{readingTime}분 읽기</span>
               </>
             )}
           </div>
-          <div class="ml-auto shrink-0"><ShareIconButton /></div>
+          <div class="ml-auto shrink-0"><ShareIconButton shortOnMobile /></div>
         </div>
       </header>
 

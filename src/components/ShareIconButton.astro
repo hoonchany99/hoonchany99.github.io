@@ -1,0 +1,46 @@
+---
+/** 제목 아래 작은 공유 아이콘 버튼. 공유 창(navigator.share)이 있으면 열고, 없으면 링크를 복사하고 「복사됨」을 잠깐 보여요. */
+---
+
+<span class="relative inline-flex shrink-0">
+  <button
+    type="button"
+    data-share-top
+    data-ga="share_top"
+    data-ga-event="share_click"
+    aria-label="공유하기"
+    class="inline-flex items-center justify-center w-8 h-8 rounded-full text-gray-400 hover:text-brand hover:bg-brand-bg transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand"
+  >
+    <svg class="w-[18px] h-[18px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
+  </button>
+  <span data-share-top-toast hidden role="status" aria-live="polite" class="pointer-events-none absolute left-0 top-full z-10 mt-1 whitespace-nowrap rounded-md bg-gray-800 px-2 py-1 text-xs text-white"></span>
+</span>
+
+<script>
+  (function initShareTop() {
+    const btn = document.querySelector<HTMLButtonElement>('[data-share-top]');
+    const toast = document.querySelector<HTMLElement>('[data-share-top-toast]');
+    if (!btn) return;
+    let timer: ReturnType<typeof setTimeout>;
+    const flash = (msg: string) => {
+      if (!toast) return;
+      toast.textContent = msg;
+      toast.hidden = false;
+      clearTimeout(timer);
+      timer = setTimeout(() => { toast.hidden = true; }, 1800);
+    };
+    btn.addEventListener('click', async () => {
+      const url = window.location.href;
+      if (navigator.share) {
+        navigator.share({ title: document.title, url }).catch(() => {});
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        flash('복사됨');
+      } catch {
+        flash('복사하지 못했어요');
+      }
+    });
+  })();
+</script>

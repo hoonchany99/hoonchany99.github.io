@@ -15,6 +15,8 @@
   }
   w.addEventListener('scroll', function () { if (!tick) tick = w.requestAnimationFrame(depth); }, { passive: true });
   d.addEventListener('click', function (e) {
+    var g = e.target && e.target.closest && e.target.closest('[data-ga]');
+    if (g) return ev(g.getAttribute('data-ga-event'), { placement: g.getAttribute('data-ga') });
     var a = e.target && e.target.closest && e.target.closest('a[href]');
     if (!a) return;
     var s;

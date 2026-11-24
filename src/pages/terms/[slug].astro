@@ -231,7 +231,10 @@ const definedTermLd = JSON.stringify({
             )}
           </nav>
 
-          <h1 class="text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{headingName}</h1>
+          <div class="flex items-start justify-between gap-3">
+            <h1 class="min-w-0 flex-1 text-[1.75rem] md:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">{headingName}</h1>
+            <div class="shrink-0 mt-1 md:mt-2"><ShareIconButton /></div>
+          </div>
           {term.data.en && (
             <p class="mt-1 text-base md:text-lg font-medium text-brand/80 tracking-wide">
               {term.data.en}
@@ -243,8 +246,6 @@ const definedTermLd = JSON.stringify({
               {synonymList.slice(0, 8).join(' · ')}
             </p>
           )}
-
-          <div class="mt-3"><ShareIconButton /></div>
 
           <p data-speakable class="mt-3 md:mt-4 text-lg md:text-xl font-bold text-gray-900 leading-[1.65]">
             <span class="bg-[linear-gradient(transparent_55%,rgba(253,224,71,0.55)_55%)] box-decoration-clone">

@@ -37,6 +37,14 @@ detail: |
 
   ## !이럴 땐 치과에서 확인하세요
   자극이 없는데도 아프거나 통증이 계속되면 신경(치수)이 손상된 뒤일 수 있어요. [근거](https://www.msdmanuals.com/ko/home/구강-및-치아-장애/치아-장애/충치 "MSD 매뉴얼 일반인용: 자극 없는 통증은 치수 손상 뒤에 나타날 수 있음") 충치 감염이 퍼지면 농양(고름 주머니)이 생길 수도 있어요. [근거](https://www.nhs.uk/conditions/tooth-decay/ "영국 국민보건서비스(NHS): 감염이 치과 농양으로 이어질 수 있음") 오래된 충전물 가장자리에서 다시 충치가 생기기도 하니 정기 검진 때 함께 확인해 보세요. [근거](https://www.mouthhealthy.org/all-topics-a-z/cavities "미국치과의사협회(ADA) MouthHealthy: 오래된 충전물 가장자리의 틈에서 충치 발생")
+figure:
+  src: "/img/terms/cavity-stages.webp"
+  width: 1200
+  height: 675
+  alt: "어금니 단면 세 개를 나란히 그린 그림. 왼쪽부터 충치가 법랑질에만 있는 모습, 상아질까지 들어가 옆으로 퍼진 모습, 신경(치수)까지 닿아 치수가 붉어진 모습이에요"
+  caption: "충치의 진행: 법랑질(왼쪽) → 상아질(가운데) → 신경(오른쪽)"
+  credit: "그림: Blausen Medical의 충치 도해(CC BY 3.0)를 바탕으로 다시 그림"
+  creditUrl: "https://creativecommons.org/licenses/by/3.0/"
 faqs:
   - question: "안 아픈 충치도 치료해야 하나요?"
     answer: "통증이 없어도 진행 중인 충치는 치료하는 경우가 많아요. 작을 때는 레진으로 끝날 수 있어요. 늦으면 신경치료·크라운까지 범위가 넓어질 수 있습니다. 위 「충치는 단계에 따라 어떻게 달라지나요」에서도 설명해 두었어요."
